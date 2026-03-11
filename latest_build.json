@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T16:46:54.907549-03:00",
+  "generated_at": "2026-03-11T16:59:53.460896-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "A SAP lançou ontem seu Pacote de Segurança de março de 2026, com 15 novos boletins de segurança, incluindo correções para duas vulnerabilidades de gravidade crítica. As falhas afetam os módulos Quotation Management Insurance (FS-QUO) e NetWeaver Enterprise Portal Administration, podendo levar à execução remota de código. A empresa não tem evidências de que as falhas tenham sido exploradas em ataques, mas recomenda a aplicação imediata das atualizações. Entre as correções críticas, destaca-se a CVE-2019-17571, com pontuação 9.8 na escala CVSS. De acordo com a SAP, trata-se de uma vulnerabilidade de desserialização de dados não confiáveis no Apache Log4j, herdada pelo módulo FS-QUO.",
       "link": "https://www.cisoadvisor.com.br/sap-libera-patch-para-vulnerabilidades-criticas/",
-      "published": "11/03/2026 16:47",
+      "published": "11/03/2026 17:00",
       "cves": [
         "CVE-2019-17571"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "A agência de cibersegurança dos Estados Unidos (CISA) adicionou ontem uma vulnerabilidade de alta gravidade no Ivanti Endpoint Manager (EPM) ao seu catálogo de falhas conhecidas e exploradas (KEV), ordenando que agências federais apliquem a correção em até três semanas. A medida, que também incluiu falhas da SolarWinds e Omnissa, baseia-se em evidências de exploração ativa do problema. A falha, registrada como CVE-2026-1603 e com pontuação 8.6 na escala CVSS, permite que um atacante remoto não autenticado contorne os controles de acesso e roube dados de credenciais armazenadas .",
       "link": "https://www.cisoadvisor.com.br/cisa-alerta-falha-no-ivanti-epm-esta-sob-exploracao-ativa/",
-      "published": "11/03/2026 16:47",
+      "published": "11/03/2026 17:00",
       "cves": [
         "CVE-2026-1603"
       ],
@@ -36,7 +36,7 @@
       "category": "patches",
       "summary": "A Cloudflare lançou ontem a versão 0.8.0 de seu framework open-source Pingora para corrigir três vulnerabilidades críticas: CVE-2026-2833, CVE-2026-2835 e CVE-2026-2836. As falhas , que receberam pontuações de até 9.3 na escala CVSS, permitem ataques de contrabando de requisições HTTP e envenenamento de cache. A empresa confirmou que sua própria rede CDN e o tráfego de clientes não foram afetados, pois sua infraestrutura não utiliza o Pingora como proxy de entrada exposto diretamente à internet. A primeira vulnerabilidade, CVE-2026-2833, decorre do manuseio inadequado de requisições de upgrade de conexão HTTP/1.1.",
       "link": "https://www.cisoadvisor.com.br/cloudflare-corrige-falhas-criticas-no-pingora/",
-      "published": "11/03/2026 16:47",
+      "published": "11/03/2026 17:00",
       "cves": [
         "CVE-2026-2833",
         "CVE-2026-2835",
@@ -51,7 +51,7 @@
       "category": "patches",
       "summary": "O Google revelou que 90 vulnerabilidades do tipo zero-day foram exploradas ativamente em 2025, e quase metade delas teve como alvo tecnologias utilizadas em ambientes corporativos. Os dados fazem parte de um relatório divulgado pelo Google Threat Intelligence Group (GTIG), que analisa tendências globais de exploração de falhas críticas. Segundo a empresa, o número de… Read More Uma vulnerabilidade no Google Chrome poderia ter permitido que extensões maliciosas sequestrassem o assistente de inteligência artificial do navegador, o Gemini Live, para espionar usuários e exfiltrar dados. A falha foi identificada pela Palo Alto Networks e corrigida em janeiro, na versão 143 do navegador.",
       "link": "https://seginfo.com.br/",
-      "published": "11/03/2026 16:47",
+      "published": "11/03/2026 17:00",
       "cves": [],
       "vendor": "Palo Alto"
     },
@@ -62,7 +62,7 @@
       "category": "patches",
       "summary": "Uma falha de segurança crítica no plugin pago Tutor LMS Pro, que possui mais de 30 mil instalações, está permitindo que atacantes se tornem administradores de sites WordPress. A vulnerabilidade foi descoberta e divulgada pela empresa de segurança Wordfence, que alerta para a facilidade de exploração do problema. Os desenvolvedores do plugin lançaram uma atualização corretiva em 30 de janeiro. De acordo com a Wordfence, o problema reside na funcionalidade de login via contas de terceiros, como Google ou Facebook, oferecida pelo plugin.",
       "link": "https://www.cisoadvisor.com.br/plugin-wordpress-tutor-lms-pro-vulneravel-a-takeover-de-contas/",
-      "published": "11/03/2026 16:47",
+      "published": "11/03/2026 17:00",
       "cves": [],
       "vendor": "Google"
     }
