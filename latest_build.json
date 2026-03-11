@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T13:55:18.843831-03:00",
+  "generated_at": "2026-03-11T14:23:33.852435-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 12,
   "items": [
@@ -92,16 +92,6 @@
       "vendor": "AWS"
     },
     {
-      "title": "Microsoft Teams phishing targets employees with A0Backdoor malware",
-      "source": "BleepingComputer",
-      "priority": "Média",
-      "category": "identity",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/",
-      "published": "09/03/2026 19:50",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
       "title": "Microsoft Patch Tuesday, March 2026 Edition",
       "source": "Krebs on Security",
       "priority": "Alta",
@@ -130,6 +120,16 @@
       "published": "10/03/2026 14:30",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Microsoft brings phishing-resistant Windows sign-ins via Entra passkeys",
+      "source": "BleepingComputer",
+      "priority": "Média",
+      "category": "identity",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/",
+      "published": "10/03/2026 12:27",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
