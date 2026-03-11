@@ -1,135 +1,108 @@
 {
-  "generated_at": "2026-03-11T14:32:53.059418-03:00",
+  "generated_at": "2026-03-11T14:45:44.379655-03:00",
   "theme": "Phishing e Identidade",
-  "items_count": 12,
+  "items_count": 9,
   "items": [
     {
-      "title": "CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited",
-      "source": "The Hacker News",
+      "title": "Falha crítica no NGINX UI expõe backups de servidores",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "link": "https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html",
-      "published": "10/03/2026 03:17",
+      "summary": "Uma vulnerabilidade crítica identificada no NGINX UI pode permitir que atacantes acessem backups completos de servidores sem autenticação adequada. A falha foi registrada como CVE-2026-27944 e representa um risco significativo para ambientes que utilizam a ferramenta de gerenciamento.",
+      "link": "https://boletimsec.com/falha-critica-no-nginx-ui-expoe-backups-de-servidores/",
+      "published": "11/03/2026 14:45",
       "cves": [
-        "CVE-2021-22054"
+        "CVE-2026-27944"
       ],
-      "vendor": "VMware"
-    },
-    {
-      "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
-      "source": "The Hacker News",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
-      "published": "11/03/2026 11:51",
-      "cves": [
-        "CVE-2026-27577",
-        "CVE-2026-27493"
-      ],
-      "vendor": "AWS"
-    },
-    {
-      "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
-      "source": "The Hacker News",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
-      "published": "11/03/2026 06:15",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction",
-      "source": "The Hacker News",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
-      "published": "10/03/2026 08:00",
-      "cves": [],
       "vendor": null
     },
     {
-      "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
-      "source": "The Hacker News",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
-      "published": "11/03/2026 09:26",
-      "cves": [
-        "CVE-2019-17571",
-        "CVE-2026-27685"
-      ],
-      "vendor": "AWS"
-    },
-    {
-      "title": "CISA: Recently patched Ivanti EPM flaw now actively exploited",
-      "source": "BleepingComputer",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/",
-      "published": "10/03/2026 08:36",
-      "cves": [],
-      "vendor": "Ivanti"
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5078885 extended security update",
-      "source": "BleepingComputer",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/",
-      "published": "10/03/2026 15:23",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
-      "source": "The Hacker News",
-      "priority": "Alta",
-      "category": "breach",
-      "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
-      "published": "11/03/2026 04:31",
-      "cves": [],
-      "vendor": "AWS"
-    },
-    {
-      "title": "Microsoft Patch Tuesday, March 2026 Edition",
-      "source": "Krebs on Security",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
-      "published": "10/03/2026 21:32",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Microsoft March 2026 Patch Tuesday fixes 2 zero-days, 79 flaws",
-      "source": "BleepingComputer",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/",
-      "published": "10/03/2026 14:49",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "HPE warns of critical AOS-CX flaw allowing admin password resets",
-      "source": "BleepingComputer",
-      "priority": "Alta",
-      "category": "patches",
-      "link": "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
-      "published": "10/03/2026 14:30",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Microsoft brings phishing-resistant Windows sign-ins via Entra passkeys",
-      "source": "BleepingComputer",
+      "title": "BoletimSec Diário #3",
+      "source": "BoletimSec Diário",
       "priority": "Média",
-      "category": "identity",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/",
-      "published": "10/03/2026 12:27",
+      "category": "patches",
+      "summary": "* Atualização urgente corrige vulnerabilidade em sistemas Fortinet. Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados.",
+      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
+      "published": "11/03/2026 14:45",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "Atualização urgente corrige vulnerabilidade em sistemas Fortinet",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados. A falha está relacionada ao componente FGTUpdates, responsável por gerenciar atualizações e comunicação entre dispositivos da infraestrutura.",
+      "link": "https://boletimsec.com/atualizacao-urgente-corrige-vulnerabilidade-em-sistemas-fortinet/",
+      "published": "11/03/2026 14:45",
+      "cves": [],
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "BoletimSec Diário #1",
+      "source": "BoletimSec Diário",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "* Nova metodologia de Pentest. A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First, criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas.",
+      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
+      "published": "11/03/2026 14:45",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Nova metodologia de Pentest",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First , criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas.",
+      "link": "https://boletimsec.com/nova-metodologia-de-pentest/",
+      "published": "11/03/2026 14:45",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falsa atualização do Google Meet instala malware em PCs",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Uma campanha maliciosa está utilizando uma falsa atualização do Google Meet para distribuir malware capaz de comprometer computadores. O ataque ocorre por meio de páginas fraudulentas que exibem mensagens indicando que o usuário precisa instalar uma atualização para continuar utilizando o serviço.",
+      "link": "https://boletimsec.com/falsa-atualizacao-do-google-meet-instala-malware-em-pcs/",
+      "published": "11/03/2026 14:45",
+      "cves": [],
+      "vendor": "Google"
+    },
+    {
+      "title": "BoletimSec Diário #2",
+      "source": "BoletimSec Diário",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "* Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos. O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital.",
+      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
+      "published": "11/03/2026 14:45",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital. Pesquisadores da Zscaler observaram um crescimento significativo de ataques oportunistas que exploram o contexto geopolítico para enganar usuários e organizações.",
+      "link": "https://boletimsec.com/conflito-no-oriente-medio-impulsiona-aumento-de-ataques-ciberneticos/",
+      "published": "11/03/2026 14:45",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Keylogger VIP rouba dados usando arquivos com esteganografia",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Uma campanha maliciosa identificada recentemente está utilizando o keylogger VIP para roubar informações sensíveis de usuários por meio de arquivos que escondem código malicioso utilizando esteganografia.",
+      "link": "https://boletimsec.com/keylogger-vip-rouba-dados-usando-arquivos-com-esteganografia/",
+      "published": "11/03/2026 14:45",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
