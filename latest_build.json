@@ -1,29 +1,101 @@
 {
-  "generated_at": "2026-03-11T15:34:11.749573-03:00",
+  "generated_at": "2026-03-11T15:56:48.257517-03:00",
   "theme": "Phishing e Identidade",
-  "items_count": 9,
+  "items_count": 12,
   "items": [
+    {
+      "title": "Cloudflare corrige falhas críticas no Pingora",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cloudflare lançou ontem a versão 0.8.0 de seu framework open-source Pingora para corrigir três vulnerabilidades críticas: CVE-2026-2833, CVE-2026-2835 e CVE-2026-2836. As falhas , que receberam pontuações de até 9.3 na escala CVSS, permitem ataques de contrabando de requisições HTTP e envenenamento de cache. A empresa confirmou que sua própria rede CDN e o tráfego de clientes não foram afetados, pois sua infraestrutura não utiliza o Pingora como proxy de entrada exposto diretamente à internet. A primeira vulnerabilidade, CVE-2026-2833, decorre do manuseio inadequado de requisições de upgrade de conexão HTTP/1.1.",
+      "link": "https://www.cisoadvisor.com.br/cloudflare-corrige-falhas-criticas-no-pingora/",
+      "published": "11/03/2026 15:56",
+      "cves": [
+        "CVE-2026-2833",
+        "CVE-2026-2835",
+        "CVE-2026-2836"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Plugin WordPress vulnerável a takeover de contas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma falha de segurança crítica no plugin pago Tutor LMS Pro, que possui mais de 30 mil instalações, está permitindo que atacantes se tornem administradores de sites WordPress. A vulnerabilidade foi descoberta e divulgada pela empresa de segurança Wordfence, que alerta para a facilidade de exploração do problema. Os desenvolvedores do plugin lançaram uma atualização corretiva em 30 de janeiro. De acordo com a Wordfence, o problema reside na funcionalidade de login via contas de terceiros, como Google ou Facebook, oferecida pelo plugin.",
+      "link": "https://www.cisoadvisor.com.br/plugin-wordpress-tutor-lms-pro-vulneravel-a-takeover-de-contas/",
+      "published": "11/03/2026 15:56",
+      "cves": [],
+      "vendor": "Google"
+    },
     {
       "title": "Falha crítica no NGINX UI expõe backups de servidores",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica identificada no NGINX UI pode permitir que atacantes acessem backups completos de servidores sem autenticação adequada. A falha foi registrada como CVE-2026-27944 e representa um risco significativo para ambientes que utilizam a ferramenta de gerenciamento.",
+      "summary": "Uma vulnerabilidade crítica identificada no NGINX UI pode permitir que atacantes acessem backups completos de servidores sem autenticação adequada. A falha foi registrada como CVE-2026-27944 e representa um risco significativo para ambientes que utilizam a ferramenta de gerenciamento. O problema está relacionado ao controle inadequado de acesso em determinadas funcionalidades da interface administrativa.",
       "link": "https://boletimsec.com/falha-critica-no-nginx-ui-expoe-backups-de-servidores/",
-      "published": "11/03/2026 15:34",
+      "published": "11/03/2026 15:56",
       "cves": [
         "CVE-2026-27944"
       ],
+      "vendor": "NGINX"
+    },
+    {
+      "title": "Fortinet corrige 11 falhas, incluindo bypass de MFA",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Fortinet lançou ontem um amplo comunicado de segurança abordando onze vulnerabilidades em seus principais produtos empresariais, como FortiManager, FortiAnalyzer e FortiSandbox. As falhas corrigidas variam de contornos de autenticação e estouro de buffer a injeções de comando e SQL, algumas das quais podem permitir a execução remota de código ou elevação de privilégio. A empresa recomenda a aplicação imediata das atualizações. Duas vulnerabilidades receberam classificação de “Alta Severidade”. A CVE-2026-22627 descreve um estouro de buffer clássico no campo OUI do protocolo LLDP no FortiSwitchAXFixed.",
+      "link": "https://www.cisoadvisor.com.br/fortinet-corrige-onze-falhas-incluindo-bypass-de-mfa-e-buffer-overflow/",
+      "published": "11/03/2026 15:56",
+      "cves": [
+        "CVE-2026-22627"
+      ],
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "* Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos.",
+      "source": "BoletimSec Diário",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "* Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos. O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital. Pesquisadores da Zscaler observaram um crescimento significativo de ataques oportunistas que exploram o contexto geopolítico para enganar usuários e organizações. Segundo a análise, campanhas maliciosas estão utilizando o tema do conflito para criar mensagens e conteúdos fraudulentos que atraem a atenção de vítimas. Os ataques incluem principalmente phishing, distribuição de malware e golpes baseados em engenharia social.",
+      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
+      "published": "11/03/2026 15:56",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "BoletimSec Diário #3",
+      "title": "Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital. Pesquisadores da Zscaler observaram um crescimento significativo de ataques oportunistas que exploram o contexto geopolítico para enganar usuários e organizações. Segundo a análise, campanhas maliciosas estão utilizando o tema do conflito para criar mensagens e conteúdos fraudulentos que atraem a atenção de vítimas. Os ataques incluem principalmente phishing, distribuição de malware e golpes baseados em engenharia social.",
+      "link": "https://boletimsec.com/conflito-no-oriente-medio-impulsiona-aumento-de-ataques-ciberneticos/",
+      "published": "11/03/2026 15:56",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "IA derrubará infraestrutura crítica até 2028",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A consultoria Gartner prevê que, até 2028, alguma configuração incorreta de inteligência artificial em sistemas ciberfísicos (CPS) causará a paralisação da infraestrutura crítica nacional de um dos países do G20, grupo que reúne as 19 maiores economias do mundo mais a União Europeia. O alerta consta de um comunicado divulgado em 12 de fevereiro pela empresa. De acordo com Wam Voster, analista vice-presidente da Gartner, “a próxima grande falha de infraestrutura pode não ser causada por hackers ou desastres naturais, mas por um engenheiro bem-intencionado, um script de atualização defeituoso ou uma vírgula colocada no lugar errado”.",
+      "link": "https://www.cisoadvisor.com.br/ia-derrubara-infraestrutura-critica-ate-2028/",
+      "published": "11/03/2026 15:56",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "* Atualização urgente corrige vulnerabilidade em sistemas Fortinet.",
       "source": "BoletimSec Diário",
       "priority": "Média",
       "category": "patches",
-      "summary": "* Atualização urgente corrige vulnerabilidade em sistemas Fortinet. Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados.",
+      "summary": "* Atualização urgente corrige vulnerabilidade em sistemas Fortinet. Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados. A falha está relacionada ao componente FGTUpdates, responsável por gerenciar atualizações e comunicação entre dispositivos da infraestrutura. De acordo com a análise técnica, o problema ocorre devido ao tratamento inadequado de requisições enviadas ao serviço. Em determinadas condições, um atacante pode explorar a falha enviando comandos especialmente manipulados para comprometer o sistema.",
       "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "11/03/2026 15:34",
+      "published": "11/03/2026 15:56",
       "cves": [],
       "vendor": "Fortinet"
     },
@@ -32,20 +104,20 @@
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados. A falha está relacionada ao componente FGTUpdates, responsável por gerenciar atualizações e comunicação entre dispositivos da infraestrutura.",
+      "summary": "Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados. A falha está relacionada ao componente FGTUpdates, responsável por gerenciar atualizações e comunicação entre dispositivos da infraestrutura. De acordo com a análise técnica, o problema ocorre devido ao tratamento inadequado de requisições enviadas ao serviço. Em determinadas condições, um atacante pode explorar a falha enviando comandos especialmente manipulados para comprometer o sistema. Caso a exploração seja bem-sucedida, o invasor pode obter acesso ao ambiente de gerenciamento e executar comandos com privilégios elevados.",
       "link": "https://boletimsec.com/atualizacao-urgente-corrige-vulnerabilidade-em-sistemas-fortinet/",
-      "published": "11/03/2026 15:34",
+      "published": "11/03/2026 15:56",
       "cves": [],
       "vendor": "Fortinet"
     },
     {
-      "title": "BoletimSec Diário #1",
+      "title": "* Nova metodologia de Pentest.",
       "source": "BoletimSec Diário",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "* Nova metodologia de Pentest. A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First, criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas.",
+      "summary": "* Nova metodologia de Pentest. A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First, criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas. A proposta surge em um momento em que cibercriminosos também passaram a utilizar inteligência artificial para potencializar ataques. Segundo a empresa, a metodologia foi desenvolvida para que os testes ofensivos consigam acompanhar o nível real das ameaças modernas.",
       "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "11/03/2026 15:34",
+      "published": "11/03/2026 15:56",
       "cves": [],
       "vendor": null
     },
@@ -54,53 +126,20 @@
       "source": "BoletimSec Notícias",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First , criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas.",
+      "summary": "A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First , criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas. A proposta surge em um momento em que cibercriminosos também passaram a utilizar inteligência artificial para potencializar ataques. Segundo a empresa, a metodologia foi desenvolvida para que os testes ofensivos consigam acompanhar o nível real das ameaças modernas.",
       "link": "https://boletimsec.com/nova-metodologia-de-pentest/",
-      "published": "11/03/2026 15:34",
+      "published": "11/03/2026 15:56",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Falsa atualização do Google Meet instala malware em PCs",
-      "source": "BoletimSec Notícias",
+      "title": "Eventos 2026 – Cyber Trends",
+      "source": "CISO Advisor",
       "priority": "Baixa",
-      "category": "patches",
-      "summary": "Uma campanha maliciosa está utilizando uma falsa atualização do Google Meet para distribuir malware capaz de comprometer computadores. O ataque ocorre por meio de páginas fraudulentas que exibem mensagens indicando que o usuário precisa instalar uma atualização para continuar utilizando o serviço.",
-      "link": "https://boletimsec.com/falsa-atualizacao-do-google-meet-instala-malware-em-pcs/",
-      "published": "11/03/2026 15:34",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "BoletimSec Diário #2",
-      "source": "BoletimSec Diário",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "* Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos. O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital.",
-      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "11/03/2026 15:34",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital. Pesquisadores da Zscaler observaram um crescimento significativo de ataques oportunistas que exploram o contexto geopolítico para enganar usuários e organizações.",
-      "link": "https://boletimsec.com/conflito-no-oriente-medio-impulsiona-aumento-de-ataques-ciberneticos/",
-      "published": "11/03/2026 15:34",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Keylogger VIP rouba dados usando arquivos com esteganografia",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "Uma campanha maliciosa identificada recentemente está utilizando o keylogger VIP para roubar informações sensíveis de usuários por meio de arquivos que escondem código malicioso utilizando esteganografia.",
-      "link": "https://boletimsec.com/keylogger-vip-rouba-dados-usando-arquivos-com-esteganografia/",
-      "published": "11/03/2026 15:34",
+      "category": "identity",
+      "summary": "Painéis focados em tendências emergentes e sua aplicação prática no ambiente corporativo. Posicionamento de: Liderança, associando sua marca à vanguarda e ao conhecimento em cibersegurança. Geração de: Leads altamente qualificados, criando oportunidades de negócios reais e conversas focadas.",
+      "link": "https://www.cisoadvisor.com.br/2026-eventos-cyber-trends/",
+      "published": "11/03/2026 15:56",
       "cves": [],
       "vendor": null
     }
