@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-03-11T13:55:18.843831-03:00",
+  "theme": "Phishing e Identidade",
+  "items_count": 12,
+  "items": [
+    {
+      "title": "CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited",
+      "source": "The Hacker News",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html",
+      "published": "10/03/2026 03:17",
+      "cves": [
+        "CVE-2021-22054"
+      ],
+      "vendor": "VMware"
+    },
+    {
+      "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+      "source": "The Hacker News",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+      "published": "11/03/2026 11:51",
+      "cves": [
+        "CVE-2026-27577",
+        "CVE-2026-27493"
+      ],
+      "vendor": "AWS"
+    },
+    {
+      "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+      "source": "The Hacker News",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "published": "11/03/2026 06:15",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction",
+      "source": "The Hacker News",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
+      "published": "10/03/2026 08:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+      "source": "The Hacker News",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+      "published": "11/03/2026 09:26",
+      "cves": [
+        "CVE-2019-17571",
+        "CVE-2026-27685"
+      ],
+      "vendor": "AWS"
+    },
+    {
+      "title": "CISA: Recently patched Ivanti EPM flaw now actively exploited",
+      "source": "BleepingComputer",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/",
+      "published": "10/03/2026 08:36",
+      "cves": [],
+      "vendor": "Ivanti"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5078885 extended security update",
+      "source": "BleepingComputer",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/",
+      "published": "10/03/2026 15:23",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
+      "source": "The Hacker News",
+      "priority": "Alta",
+      "category": "breach",
+      "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
+      "published": "11/03/2026 04:31",
+      "cves": [],
+      "vendor": "AWS"
+    },
+    {
+      "title": "Microsoft Teams phishing targets employees with A0Backdoor malware",
+      "source": "BleepingComputer",
+      "priority": "Média",
+      "category": "identity",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/",
+      "published": "09/03/2026 19:50",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Microsoft Patch Tuesday, March 2026 Edition",
+      "source": "Krebs on Security",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+      "published": "10/03/2026 21:32",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Microsoft March 2026 Patch Tuesday fixes 2 zero-days, 79 flaws",
+      "source": "BleepingComputer",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/",
+      "published": "10/03/2026 14:49",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "HPE warns of critical AOS-CX flaw allowing admin password resets",
+      "source": "BleepingComputer",
+      "priority": "Alta",
+      "category": "patches",
+      "link": "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
+      "published": "10/03/2026 14:30",
+      "cves": [],
+      "vendor": null
+    }
+  ]
+}
