@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T14:45:44.379655-03:00",
+  "generated_at": "2026-03-11T15:34:11.749573-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 9,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica identificada no NGINX UI pode permitir que atacantes acessem backups completos de servidores sem autenticação adequada. A falha foi registrada como CVE-2026-27944 e representa um risco significativo para ambientes que utilizam a ferramenta de gerenciamento.",
       "link": "https://boletimsec.com/falha-critica-no-nginx-ui-expoe-backups-de-servidores/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [
         "CVE-2026-27944"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "* Atualização urgente corrige vulnerabilidade em sistemas Fortinet. Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados.",
       "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": "Fortinet"
     },
@@ -34,7 +34,7 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade identificada na ferramenta de gerenciamento FortiManager pode permitir que invasores executem código remotamente em sistemas afetados. A falha está relacionada ao componente FGTUpdates, responsável por gerenciar atualizações e comunicação entre dispositivos da infraestrutura.",
       "link": "https://boletimsec.com/atualizacao-urgente-corrige-vulnerabilidade-em-sistemas-fortinet/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": "Fortinet"
     },
@@ -45,7 +45,7 @@
       "category": "identity",
       "summary": "* Nova metodologia de Pentest. A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First, criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas.",
       "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": null
     },
@@ -56,7 +56,7 @@
       "category": "identity",
       "summary": "A empresa de cibersegurança ofensiva HackerSec lançou uma nova metodologia para testes de intrusão chamada Pentest AI-First , criada para adaptar os processos de cibersegurança ofensiva ao cenário atual de ameaças digitais cada vez mais sofisticadas.",
       "link": "https://boletimsec.com/nova-metodologia-de-pentest/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": null
     },
@@ -67,7 +67,7 @@
       "category": "patches",
       "summary": "Uma campanha maliciosa está utilizando uma falsa atualização do Google Meet para distribuir malware capaz de comprometer computadores. O ataque ocorre por meio de páginas fraudulentas que exibem mensagens indicando que o usuário precisa instalar uma atualização para continuar utilizando o serviço.",
       "link": "https://boletimsec.com/falsa-atualizacao-do-google-meet-instala-malware-em-pcs/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": "Google"
     },
@@ -78,7 +78,7 @@
       "category": "threat",
       "summary": "* Conflito no Oriente Médio impulsiona aumento de ataques cibernéticos. O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital.",
       "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": null
     },
@@ -89,7 +89,7 @@
       "category": "threat",
       "summary": "O aumento das tensões e conflitos no Oriente Médio tem sido acompanhado por uma onda de atividades maliciosas no ambiente digital. Pesquisadores da Zscaler observaram um crescimento significativo de ataques oportunistas que exploram o contexto geopolítico para enganar usuários e organizações.",
       "link": "https://boletimsec.com/conflito-no-oriente-medio-impulsiona-aumento-de-ataques-ciberneticos/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": null
     },
@@ -100,7 +100,7 @@
       "category": "threat",
       "summary": "Uma campanha maliciosa identificada recentemente está utilizando o keylogger VIP para roubar informações sensíveis de usuários por meio de arquivos que escondem código malicioso utilizando esteganografia.",
       "link": "https://boletimsec.com/keylogger-vip-rouba-dados-usando-arquivos-com-esteganografia/",
-      "published": "11/03/2026 14:45",
+      "published": "11/03/2026 15:34",
       "cves": [],
       "vendor": null
     }
