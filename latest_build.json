@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T09:57:34.856638-03:00",
+  "generated_at": "2026-03-12T11:49:24.069631-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "A Agência de Cibersegurança e Infraestrutura dos Estados Unidos (CISA) adicionou ontem uma vulnerabilidade crítica na plataforma de automação n8n ao seu catálogo de falhas exploradas conhecidas (KEV), ordenando que agências federais corrijam seus sistemas até 25 de março . Registrada como CVE-2025-68613, a falha de execução remota de código (RCE) permite que atacantes autenticados assumam o controle total de instâncias vulneráveis. A vulnerabilidade está relacionada ao sistema de avaliação de expressões JavaScript do n8n, onde a falta de isolamento adequado permite que um atacante escape da sandbox e execute comandos arbitrários no servidor .",
       "link": "https://www.cisoadvisor.com.br/cisa-adiciona-falha-critica-do-n8n-ao-catalogo-kev/",
-      "published": "12/03/2026 09:57",
+      "published": "12/03/2026 11:49",
       "cves": [
         "CVE-2025-68613"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "A agência de segurança cibernética dos EUA (CISA) emitiu um novo emergency directive determinando que todas as agências governamentais americanas compartilhem os logs de seus sistemas Cisco SD-WAN com o órgão até 23 de março. A medida foi publicada hoje e responde à exploração ativa de uma vulnerabilidade crítica que permaneceu por três anos sem ser detectada. Em 25 de fevereiro, a CISA em conjunto com a Agência de Segurança Nacional (NSA) já havia alertado que organizações em todo o mundo estavam sendo atacadas por meio de uma falha no Cisco Catalyst SD-WAN Controller, identificada como CVE-2026-20127.",
       "link": "https://www.cisoadvisor.com.br/cisa-obriga-orgaos-dos-eua-a-compartilhar-logs/",
-      "published": "12/03/2026 09:57",
+      "published": "12/03/2026 11:49",
       "cves": [
         "CVE-2026-20127"
       ],
@@ -36,7 +36,7 @@
       "category": "patches",
       "summary": "O Google revelou que 90 vulnerabilidades do tipo zero-day foram exploradas ativamente em 2025, e quase metade delas teve como alvo tecnologias utilizadas em ambientes corporativos. Os dados fazem parte de um relatório divulgado pelo Google Threat Intelligence Group (GTIG), que analisa tendências globais de exploração de falhas críticas. Segundo a empresa, o número de… Read More Uma vulnerabilidade no Google Chrome poderia ter permitido que extensões maliciosas sequestrassem o assistente de inteligência artificial do navegador, o Gemini Live, para espionar usuários e exfiltrar dados. A falha foi identificada pela Palo Alto Networks e corrigida em janeiro, na versão 143 do navegador.",
       "link": "https://seginfo.com.br/",
-      "published": "12/03/2026 09:57",
+      "published": "12/03/2026 11:49",
       "cves": [],
       "vendor": "Palo Alto"
     },
@@ -47,7 +47,7 @@
       "category": "patches",
       "summary": "* Falha crítica no Active Directory expõe redes corporativas a ataques. Uma vulnerabilidade crítica identificada no Active Directory Domain Services pode expor redes corporativas a ataques e permitir que invasores obtenham privilégios elevados dentro do ambiente. A falha afeta infraestruturas que utilizam o serviço para gerenciamento de identidades e controle de acesso em sistemas baseados no Microsoft Windows. O problema está relacionado ao funcionamento de componentes responsáveis pela autenticação e gerenciamento de contas dentro do domínio.",
       "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "12/03/2026 09:57",
+      "published": "12/03/2026 11:49",
       "cves": [],
       "vendor": "Microsoft"
     },
@@ -58,7 +58,7 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica identificada no Active Directory Domain Services pode expor redes corporativas a ataques e permitir que invasores obtenham privilégios elevados dentro do ambiente. A falha afeta infraestruturas que utilizam o serviço para gerenciamento de identidades e controle de acesso em sistemas baseados no Microsoft Windows. O problema está relacionado ao funcionamento de componentes responsáveis pela autenticação e gerenciamento de contas dentro do domínio. Em determinadas circunstâncias, um atacante pode explorar a vulnerabilidade para manipular permissões ou executar ações administrativas não autorizadas.",
       "link": "https://boletimsec.com/falha-critica-no-active-directory-expoe-redes-corporativas-a-ataques/",
-      "published": "12/03/2026 09:57",
+      "published": "12/03/2026 11:49",
       "cves": [],
       "vendor": "Microsoft"
     }
