@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T12:27:26.874509-03:00",
+  "generated_at": "2026-03-16T12:31:02.226721-03:00",
   "theme": "Panorama Executivo",
   "items_count": 12,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "Uma onda de ataques identificada pela SentinelOne no início de 2026 revelou que criminosos estão comprometendo firewalls FortiGate para obter acesso persistente em redes corporativas. As invasões exploram três vulnerabilidades críticas divulgadas entre dezembro de 2025 e fevereiro de 2026, permitindo que atacantes não autenticados obtenham controle administrativo dos dispositivos. De acordo com a SentinelOne, as vulnerabilidades CVE-2025-59718 e CVE-2025-59718 permitem acesso administrativo via tokens SAML manipulados. Uma terceira falha, CVE-2026-24858, foi explorada como zero-day em janeiro.",
       "link": "https://www.cisoadvisor.com.br/sentinelone-alerta-para-onda-de-ataques-em-fortigate/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [
         "CVE-2025-59718",
         "CVE-2026-24858"
@@ -24,7 +24,7 @@
       "category": "patches",
       "summary": "A Microsoft liberou uma atualização emergencial para corrigir falhas críticas no Windows 11, em uma medida fora do ciclo tradicional de patches que reforça a gravidade do problema. O pacote, identificado como KB5084597, foi publicado para corrigir vulnerabilidades que afetam componentes ligados a acesso remoto no sistema. De acordo com a documentação da empresa, a atualização está relacionada às falhas CVE-2026-25172, CVE-2026-25173 e CVE-2026-26111. As brechas atingem o utilitário de gerenciamento do Routing and Remote Access Service (RRAS), recurso usado em cenários de conectividade remota e VPN em ambientes Windows.",
       "link": "https://boletimsec.com/microsoft-libera-atualizacao-emergencial-para-falhas-criticas-no-windows-11/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [
         "CVE-2026-25172",
         "CVE-2026-25173",
@@ -39,7 +39,7 @@
       "category": "patches",
       "summary": "A Google lançou ontem atualizações emergenciais de segurança para o navegador Chrome, corrigindo duas vulnerabilidades zero-day de alta gravidade que estavam sendo exploradas ativamente em ataques. As falhas, registradas como CVE-2026-3909 e CVE-2026-3910, foram descobertas pela própria Google e afetam as versões do navegador para Windows, macOS e Linux. De acordo com a Google, a primeira falha é uma vulnerabilidade de gravação fora dos limites na biblioteca gráfica Skia, que pode ser explorada para causar falhas no navegador ou até mesmo executar código arbitrário.",
       "link": "https://www.cisoadvisor.com.br/chrome-atualiza-para-corrigir-falhas-exploradas-em-ataques/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [
         "CVE-2026-3909",
         "CVE-2026-3910"
@@ -53,7 +53,7 @@
       "category": "patches",
       "summary": "O grupo de ransomware DragonForce publicou hoje em sua página de vazamentos na dark web um conjunto de nove links que, segundo os cibercriminosos, contém cerca de 1,5TB de dados que pertencem à Fundação Getúlio Vargas. Os links conduzem a pastas que armazenam arquivos de variados tipos, como planilhas, documentos de texto, apresentações, PDFs e outros. Um dos links, chamado “ Users”, contém o nome de 108 pessoas, e cada um deles conduz também a pastas e arquivos. Muito desse material está relacionado à área didática da FGV e tem nomenclatura que pode indicar conteúdo sensível para essa área. São nomes que remetem a soluções de provas e enunciados de questões.",
       "link": "https://www.cisoadvisor.com.br/hackers-despejam-15-tb-de-dados-atribuidos-a-fgv/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": null
     },
@@ -64,7 +64,7 @@
       "category": "patches",
       "summary": "A Microsoft divulgou as atualizações de segurança do Patch Tuesday de março de 2026, corrigindo 79 vulnerabilidades em diferentes produtos da empresa. Entre as falhas resolvidas estão duas vulnerabilidades zero-day divulgadas publicamente, além de problemas críticos que afetam aplicações amplamente utilizadas, como componentes do Microsoft Office. De acordo com a empresa, o pacote de correções… Read More O Senado Federal aprovou em 24 de fevereiro a Medida Provisória nº 1.317/2025, que altera a estrutura institucional da Autoridade Nacional de Proteção de Dados (ANPD).",
       "link": "https://seginfo.com.br/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": "Microsoft"
     },
@@ -75,7 +75,7 @@
       "category": "threat",
       "summary": "Desde o início da guerra em 28 de fevereiro, hackers apoiados pelo Irã intensificaram ataques cibernéticos no Oriente Médio e começaram a expandir operações para os Estados Unidos. O grupo Handala reivindicou na quarta-feira um ataque contra a fabricante americana de equipamentos médicos Stryker, em retaliação a supostos ataques dos EUA que mataram crianças iranianas. De acordo com Ismael Valenzuela, vice-presidente da Arctic Wolf, o Handala se distingue pelo foco em destruição de dados, não em ganho financeiro.",
       "link": "https://www.cisoadvisor.com.br/ira-intensifica-ciberataques-contra-infraestrutura-critica-dos-eua/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": null
     },
@@ -86,7 +86,7 @@
       "category": "patches",
       "summary": "O FBI emitiu um alerta sobre a disseminação global do malware AVrecon, que já infectou roteadores Wi-Fi e câmeras IP de marcas como D-Link, Netgear, TP-Link, Zyxel, Cisco, Hikvision e MicroTik. A orientação do órgão, publicada na última sexta-feira, recomenda que proprietários criem um cronograma de atualizações para verificar e instalar patches manualmente. De acordo com o documento do FBI, o malware foi encontrado em dispositivos de 163 países.",
       "link": "https://www.cisoadvisor.com.br/malware-avrecon-infecta-roteadores-de-oito-fabricantes/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": "Cisco"
     },
@@ -97,7 +97,7 @@
       "category": "patches",
       "summary": "Um suposto ataque cibernético associado à plataforma Salesforce pode ter comprometido dados de cerca de 400 organizações. O grupo de cibercriminosos ShinyHunters afirma ter obtido acesso a registros privados dessas empresas e ameaça divulgar as informações caso suas exigências não sejam atendidas. De acordo com as alegações divulgadas pelo grupo, as organizações afetadas teriam tido seus dados acessados por meio de ambientes que utilizam o Salesforce Experience Cloud, ferramenta amplamente utilizada por empresas para criar portais públicos, áreas de suporte e centrais de atendimento online.",
       "link": "https://boletimsec.com/ataque-ligado-ao-salesforce-pode-ter-afetado-400-empresas/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": null
     },
@@ -108,7 +108,7 @@
       "category": "threat",
       "summary": "Ataques de ransomware são práticas bastante comuns e agressivas no universo do cibercrime, com o Brasil sendo um dos locais mais afetados por campanhas maliciosas para sequestro de dados. Mas, enquanto o ransomware permanece nos limites da chantagem para o resgate em dinheiro, existe um modelo de ataque ainda mais brutal que pode destruir completamente os arquivos da vítima: o wiper . Um caso recente envolvendo ações do grupo hacker Nitrogen pode ajudar a elucidar a linha tênue entre os dois tipos de ataque. O incidente em questão consistiu em um bug no código de programação da variante VMware ESXi, que ataca hipervisores e encripta máquinas virtuais.",
       "link": "https://canaltech.com.br/seguranca/sequestro-ou-destruicao-total-entenda-a-diferenca-entre-ransomware-e-wiper/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": "VMware"
     },
@@ -119,7 +119,7 @@
       "category": "identity",
       "summary": "O Escritório do FBI em Seattle publicou ontem um aviso solicitando que jogadores que instalaram títulos maliciosos na Steam entre maio de 2024 e janeiro de 2026 forneçam informações como parte de uma investigação federal. A agência identificou oito jogos contendo malware: BlockBlasters, Chemia, Dashverse, DashFPS, Lampy, Lunara, PirateFi e Tokenova, todos já removidos da plataforma. A investigação concentra-se em roubo de criptomoedas e sequestro de contas. O caso mais conhecido envolveu BlockBlasters, um jogo de plataforma 2D gratuito disponível entre julho e setembro de 2024. Inicialmente enviado como um programa limpo, o malware de drenagem de criptomoedas foi adicionado posteriormente.",
       "link": "https://www.cisoadvisor.com.br/oito-jogos-na-steam-escondiam-malwares-de-roubo/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": null
     },
@@ -130,7 +130,7 @@
       "category": "threat",
       "summary": "Um funcionário de uma empresa que facilita negociações entre vítimas de ransomware e os criminosos responsáveis ​​teria fornecido aos criminosos informações que lhes permitiram negociar um valor de resgate maior com as vítimas. O homem também é acusado de realizar múltiplos ataques de ransomware. A informação foi divulgada pelo Procurador-Geral dos EUA ( PDF ). De acordo com a acusação, o suspeito compartilhou instruções e informações confidenciais com cúmplices durante cinco negociações de ransomware para garantir um valor de resgate maior. O suspeito teria recebido posteriormente uma parte do resgate.",
       "link": "https://www.cisoadvisor.com.br/negociador-de-ransomware-puxava-a-sardinha-para-si/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": null
     },
@@ -141,7 +141,7 @@
       "category": "identity",
       "summary": "Uma nova campanha maliciosa identificada recentemente está utilizando o malware Venom para roubar dados sensíveis de usuários, incluindo vítimas no Brasil. A ameaça foi desenvolvida em Rust e tem como alvo sistemas baseados em Microsoft Windows. O Venom foi projetado como um infostealer, um tipo de malware focado na coleta de informações armazenadas no computador da vítima. Entre os dados visados estão credenciais de acesso, cookies de autenticação, informações de navegadores e dados relacionados a carteiras de criptomoedas. Após ser executado no sistema, o malware inicia um processo de varredura em busca de dados armazenados em diferentes aplicações instaladas no dispositivo.",
       "link": "https://boletimsec.com/novo-malware-venom-atinge-usuarios-no-brasil/",
-      "published": "16/03/2026 12:27",
+      "published": "16/03/2026 12:31",
       "cves": [],
       "vendor": "Microsoft"
     }
