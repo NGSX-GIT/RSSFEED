@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T12:51:43.093958-03:00",
+  "generated_at": "2026-03-16T12:57:53.934655-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "Uma onda de ataques identificada pela SentinelOne no início de 2026 revelou que criminosos estão comprometendo firewalls FortiGate para obter acesso persistente em redes corporativas. As invasões exploram três vulnerabilidades críticas divulgadas entre dezembro de 2025 e fevereiro de 2026, permitindo que atacantes não autenticados obtenham controle administrativo dos dispositivos. De acordo com a SentinelOne, as vulnerabilidades CVE-2025-59718 e CVE-2025-59718 permitem acesso administrativo via tokens SAML manipulados. Uma terceira falha, CVE-2026-24858, foi explorada como zero-day em janeiro.",
       "link": "https://www.cisoadvisor.com.br/sentinelone-alerta-para-onda-de-ataques-em-fortigate/",
-      "published": "16/03/2026 12:51",
+      "published": "16/03/2026 12:58",
       "cves": [
         "CVE-2025-59718",
         "CVE-2026-24858"
@@ -24,7 +24,7 @@
       "category": "patches",
       "summary": "A Microsoft liberou uma atualização emergencial para corrigir falhas críticas no Windows 11, em uma medida fora do ciclo tradicional de patches que reforça a gravidade do problema. O pacote, identificado como KB5084597, foi publicado para corrigir vulnerabilidades que afetam componentes ligados a acesso remoto no sistema. De acordo com a documentação da empresa, a atualização está relacionada às falhas CVE-2026-25172, CVE-2026-25173 e CVE-2026-26111. As brechas atingem o utilitário de gerenciamento do Routing and Remote Access Service (RRAS), recurso usado em cenários de conectividade remota e VPN em ambientes Windows.",
       "link": "https://boletimsec.com/microsoft-libera-atualizacao-emergencial-para-falhas-criticas-no-windows-11/",
-      "published": "16/03/2026 12:51",
+      "published": "16/03/2026 12:57",
       "cves": [
         "CVE-2026-25172",
         "CVE-2026-25173",
@@ -39,7 +39,7 @@
       "category": "patches",
       "summary": "A Google lançou ontem atualizações emergenciais de segurança para o navegador Chrome, corrigindo duas vulnerabilidades zero-day de alta gravidade que estavam sendo exploradas ativamente em ataques. As falhas, registradas como CVE-2026-3909 e CVE-2026-3910, foram descobertas pela própria Google e afetam as versões do navegador para Windows, macOS e Linux. De acordo com a Google, a primeira falha é uma vulnerabilidade de gravação fora dos limites na biblioteca gráfica Skia, que pode ser explorada para causar falhas no navegador ou até mesmo executar código arbitrário.",
       "link": "https://www.cisoadvisor.com.br/chrome-atualiza-para-corrigir-falhas-exploradas-em-ataques/",
-      "published": "16/03/2026 12:51",
+      "published": "16/03/2026 12:58",
       "cves": [
         "CVE-2026-3909",
         "CVE-2026-3910"
@@ -53,20 +53,20 @@
       "category": "patches",
       "summary": "O grupo de ransomware DragonForce publicou hoje em sua página de vazamentos na dark web um conjunto de nove links que, segundo os cibercriminosos, contém cerca de 1,5TB de dados que pertencem à Fundação Getúlio Vargas. Os links conduzem a pastas que armazenam arquivos de variados tipos, como planilhas, documentos de texto, apresentações, PDFs e outros. Um dos links, chamado “ Users”, contém o nome de 108 pessoas, e cada um deles conduz também a pastas e arquivos. Muito desse material está relacionado à área didática da FGV e tem nomenclatura que pode indicar conteúdo sensível para essa área. São nomes que remetem a soluções de provas e enunciados de questões.",
       "link": "https://www.cisoadvisor.com.br/hackers-despejam-15-tb-de-dados-atribuidos-a-fgv/",
-      "published": "16/03/2026 12:51",
+      "published": "16/03/2026 12:58",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "SegInfo – Portal, Podcast e Evento sobre Segurança da Informação",
-      "source": "SegInfo Notícias",
+      "title": "Irã intensifica ciberataques contra infraestrutura crítica dos EUA",
+      "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft divulgou as atualizações de segurança do Patch Tuesday de março de 2026, corrigindo 79 vulnerabilidades em diferentes produtos da empresa. Entre as falhas resolvidas estão duas vulnerabilidades zero-day divulgadas publicamente, além de problemas críticos que afetam aplicações amplamente utilizadas, como componentes do Microsoft Office. De acordo com a empresa, o pacote de correções… Read More O Senado Federal aprovou em 24 de fevereiro a Medida Provisória nº 1.317/2025, que altera a estrutura institucional da Autoridade Nacional de Proteção de Dados (ANPD).",
-      "link": "https://seginfo.com.br/",
-      "published": "16/03/2026 12:51",
+      "category": "threat",
+      "summary": "Desde o início da guerra em 28 de fevereiro, hackers apoiados pelo Irã intensificaram ataques cibernéticos no Oriente Médio e começaram a expandir operações para os Estados Unidos. O grupo Handala reivindicou na quarta-feira um ataque contra a fabricante americana de equipamentos médicos Stryker, em retaliação a supostos ataques dos EUA que mataram crianças iranianas. De acordo com Ismael Valenzuela, vice-presidente da Arctic Wolf, o Handala se distingue pelo foco em destruição de dados, não em ganho financeiro.",
+      "link": "https://www.cisoadvisor.com.br/ira-intensifica-ciberataques-contra-infraestrutura-critica-dos-eua/",
+      "published": "16/03/2026 12:58",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     }
   ]
 }
