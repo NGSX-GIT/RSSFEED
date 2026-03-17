@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-03-16T12:57:53.934655-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-03-17T09:56:09.636453-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
-    {
-      "title": "SentinelOne alerta para onda de ataques em FortiGate",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma onda de ataques identificada pela SentinelOne no início de 2026 revelou que criminosos estão comprometendo firewalls FortiGate para obter acesso persistente em redes corporativas. As invasões exploram três vulnerabilidades críticas divulgadas entre dezembro de 2025 e fevereiro de 2026, permitindo que atacantes não autenticados obtenham controle administrativo dos dispositivos. De acordo com a SentinelOne, as vulnerabilidades CVE-2025-59718 e CVE-2025-59718 permitem acesso administrativo via tokens SAML manipulados. Uma terceira falha, CVE-2026-24858, foi explorada como zero-day em janeiro.",
-      "link": "https://www.cisoadvisor.com.br/sentinelone-alerta-para-onda-de-ataques-em-fortigate/",
-      "published": "16/03/2026 12:58",
-      "cves": [
-        "CVE-2025-59718",
-        "CVE-2026-24858"
-      ],
-      "vendor": null
-    },
     {
       "title": "Microsoft libera atualização emergencial para falhas críticas no Windows 11",
       "source": "BoletimSec Notícias",
@@ -24,7 +10,7 @@
       "category": "patches",
       "summary": "A Microsoft liberou uma atualização emergencial para corrigir falhas críticas no Windows 11, em uma medida fora do ciclo tradicional de patches que reforça a gravidade do problema. O pacote, identificado como KB5084597, foi publicado para corrigir vulnerabilidades que afetam componentes ligados a acesso remoto no sistema. De acordo com a documentação da empresa, a atualização está relacionada às falhas CVE-2026-25172, CVE-2026-25173 e CVE-2026-26111. As brechas atingem o utilitário de gerenciamento do Routing and Remote Access Service (RRAS), recurso usado em cenários de conectividade remota e VPN em ambientes Windows.",
       "link": "https://boletimsec.com/microsoft-libera-atualizacao-emergencial-para-falhas-criticas-no-windows-11/",
-      "published": "16/03/2026 12:57",
+      "published": "17/03/2026 09:56",
       "cves": [
         "CVE-2026-25172",
         "CVE-2026-25173",
@@ -33,38 +19,48 @@
       "vendor": "Microsoft"
     },
     {
-      "title": "Chrome atualiza para corrigir falhas exploradas em ataques",
+      "title": "Malware gerado por IA marca nova era no cibercrime, aponta IBM",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Google lançou ontem atualizações emergenciais de segurança para o navegador Chrome, corrigindo duas vulnerabilidades zero-day de alta gravidade que estavam sendo exploradas ativamente em ataques. As falhas, registradas como CVE-2026-3909 e CVE-2026-3910, foram descobertas pela própria Google e afetam as versões do navegador para Windows, macOS e Linux. De acordo com a Google, a primeira falha é uma vulnerabilidade de gravação fora dos limites na biblioteca gráfica Skia, que pode ser explorada para causar falhas no navegador ou até mesmo executar código arbitrário.",
-      "link": "https://www.cisoadvisor.com.br/chrome-atualiza-para-corrigir-falhas-exploradas-em-ataques/",
-      "published": "16/03/2026 12:58",
-      "cves": [
-        "CVE-2026-3909",
-        "CVE-2026-3910"
-      ],
-      "vendor": "Google"
-    },
-    {
-      "title": "Hackers despejam 1,5 TB de dados atribuídos à FGV",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O grupo de ransomware DragonForce publicou hoje em sua página de vazamentos na dark web um conjunto de nove links que, segundo os cibercriminosos, contém cerca de 1,5TB de dados que pertencem à Fundação Getúlio Vargas. Os links conduzem a pastas que armazenam arquivos de variados tipos, como planilhas, documentos de texto, apresentações, PDFs e outros. Um dos links, chamado “ Users”, contém o nome de 108 pessoas, e cada um deles conduz também a pastas e arquivos. Muito desse material está relacionado à área didática da FGV e tem nomenclatura que pode indicar conteúdo sensível para essa área. São nomes que remetem a soluções de provas e enunciados de questões.",
-      "link": "https://www.cisoadvisor.com.br/hackers-despejam-15-tb-de-dados-atribuidos-a-fgv/",
-      "published": "16/03/2026 12:58",
+      "summary": "A IBM X-Force identificou um malware provavelmente gerado por inteligência artificial, batizado de “Slopoly”, durante um ataque de ransomware realizado pelo grupo criminoso Hive0163 no início de 2026. A descoberta marca uma mudança significativa na forma como cibercriminosos estão utilizando IA para construir ferramentas de ataque mais rapidamente e com custo reduzido. De acordo com a IBM, o script Slopoly apresenta extensos comentários, tratamento consistente de erros e nomes de variáveis claros, todas características de código produzido por modelos de linguagem de grande escala.",
+      "link": "https://www.cisoadvisor.com.br/malware-gerado-por-ia-marca-nova-era-no-cibercrime-aponta-ibm/",
+      "published": "17/03/2026 09:56",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Irã intensifica ciberataques contra infraestrutura crítica dos EUA",
+      "title": "CISA exige correção urgente para vulnerabilidade no Wing FTP",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "Desde o início da guerra em 28 de fevereiro, hackers apoiados pelo Irã intensificaram ataques cibernéticos no Oriente Médio e começaram a expandir operações para os Estados Unidos. O grupo Handala reivindicou na quarta-feira um ataque contra a fabricante americana de equipamentos médicos Stryker, em retaliação a supostos ataques dos EUA que mataram crianças iranianas. De acordo com Ismael Valenzuela, vice-presidente da Arctic Wolf, o Handala se distingue pelo foco em destruição de dados, não em ganho financeiro.",
-      "link": "https://www.cisoadvisor.com.br/ira-intensifica-ciberataques-contra-infraestrutura-critica-dos-eua/",
-      "published": "16/03/2026 12:58",
+      "category": "patches",
+      "summary": "A agência de cibersegurança dos Estados Unidos (CISA) adicionou ontem uma vulnerabilidade no servidor Wing FTP ao seu catálogo de falhas exploradas ativamente, ordenando que agências federais corrijam seus sistemas em até duas semanas. Registrada como CVE-2025-47813, a falha permite que atacantes com baixos privilégios descubram o caminho completo de instalação da aplicação em servidores não corrigidos. De acordo com a CISA, o Wing FTP Server contém uma vulnerabilidade de geração de mensagem de erro com informações sensíveis ao utilizar um valor longo no cookie UID.",
+      "link": "https://www.cisoadvisor.com.br/cisa-exige-correcao-urgente-para-vulnerabilidade-no-wing-ftp/",
+      "published": "17/03/2026 09:56",
+      "cves": [
+        "CVE-2025-47813"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "1 hora Segurança Falha de SQL injection em plugin ameaça mais de 400 mil sites no WordPress",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um pesquisador de segurança da empresa Acquia descobriu uma vulnerabilidade crítica que pode afetar mais de 400 mil sites hospedados no WordPress. A falha está na injeção de SQL não autenticada no Ally, um plugin para WordPress que funciona como uma ferramenta de acessibilidade que ajuda criadores de sites a construir páginas mais inclusivas. O recurso ainda conta com sugestões de inteligência artificial (IA) e um gerador automático de declarações de acessibilidade, sendo aplicado em milhares de sites na plataforma.",
+      "link": "https://canaltech.com.br/seguranca/falha-de-sql-injection-em-plugin-ameaca-mais-de-400-mil-sites-no-wordpress/",
+      "published": "17/03/2026 09:56",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Interpol derruba 45 mil IPs maliciosos e prende 94 em operação global",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "A Interpol derrubou 45 mil endereços IP maliciosos e prendeu 94 suspeitos em uma operação global voltada ao combate de infraestruturas usadas em ataques cibernéticos. A ação mostra a escala internacional do cibercrime e o esforço crescente das autoridades para atingir não apenas os operadores, mas também a base técnica que sustenta fraudes e invasões. Operações desse tipo costumam mirar servidores, domínios, painéis de controle e equipamentos usados para hospedar páginas falsas, distribuir malware, coordenar campanhas de phishing e manter redes de ransomware em atividade.",
+      "link": "https://boletimsec.com/interpol-derruba-45-mil-ips-maliciosos-e-prende-94-em-operacao-global/",
+      "published": "17/03/2026 09:56",
       "cves": [],
       "vendor": null
     }
