@@ -1,30 +1,8 @@
 {
-  "generated_at": "2026-03-18T14:19:54.701494-03:00",
+  "generated_at": "2026-03-18T14:31:04.818009-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
-    {
-      "title": "Interpol derruba 45 mil IPs maliciosos e prende 94 em operação global",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "A Interpol derrubou 45 mil endereços IP maliciosos e prendeu 94 suspeitos em uma operação global voltada ao combate de infraestruturas usadas em ataques cibernéticos. A ação mostra a escala internacional do cibercrime e o esforço crescente das autoridades para atingir não apenas os operadores, mas também a base técnica que sustenta fraudes e invasões. Operações desse tipo costumam mirar servidores, domínios, painéis de controle e equipamentos usados para hospedar páginas falsas, distribuir malware, coordenar campanhas de phishing e manter redes de ransomware em atividade.",
-      "link": "https://boletimsec.com/interpol-derruba-45-mil-ips-maliciosos-e-prende-94-em-operacao-global/",
-      "published": "18/03/2026 14:20",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Malware gerado por IA marca nova era no cibercrime, aponta IBM",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A IBM X-Force identificou um malware provavelmente gerado por inteligência artificial, batizado de “Slopoly”, durante um ataque de ransomware realizado pelo grupo criminoso Hive0163 no início de 2026. A descoberta marca uma mudança significativa na forma como cibercriminosos estão utilizando IA para construir ferramentas de ataque mais rapidamente e com custo reduzido. De acordo com a IBM, o script Slopoly apresenta extensos comentários, tratamento consistente de erros e nomes de variáveis claros, todas características de código produzido por modelos de linguagem de grande escala.",
-      "link": "https://www.cisoadvisor.com.br/malware-gerado-por-ia-marca-nova-era-no-cibercrime-aponta-ibm/",
-      "published": "18/03/2026 14:20",
-      "cves": [],
-      "vendor": null
-    },
     {
       "title": "Phishing contra usuários do Teams usa páginas ocultas em sites confiáveis",
       "source": "BoletimSec Notícias",
@@ -32,7 +10,7 @@
       "category": "identity",
       "summary": "Uma campanha de phishing está mirando usuários do Microsoft Teams por meio de páginas falsas ocultas em sites legítimos, em uma estratégia que aumenta a credibilidade do golpe e dificulta sua detecção. Ao usar domínios confiáveis como parte da infraestrutura, os criminosos reduzem a desconfiança inicial da vítima e ampliam as chances de roubo de credenciais. O método chama atenção porque abandona parte dos sinais mais tradicionais de fraude, como endereços claramente suspeitos ou páginas hospedadas em domínios recém-criados. Em vez disso, os atacantes escondem os arquivos maliciosos em áreas internas de sites comprometidos, transformando ambientes reais em suporte para a operação.",
       "link": "https://boletimsec.com/phishing-contra-usuarios-do-teams-usa-paginas-ocultas-em-sites-confiaveis/",
-      "published": "18/03/2026 14:19",
+      "published": "18/03/2026 14:31",
       "cves": [],
       "vendor": "Microsoft"
     },
@@ -43,7 +21,7 @@
       "category": "patches",
       "summary": "Um pesquisador de segurança da empresa Acquia descobriu uma vulnerabilidade crítica que pode afetar mais de 400 mil sites hospedados no WordPress. A falha está na injeção de SQL não autenticada no Ally, um plugin para WordPress que funciona como uma ferramenta de acessibilidade que ajuda criadores de sites a construir páginas mais inclusivas. O recurso ainda conta com sugestões de inteligência artificial (IA) e um gerador automático de declarações de acessibilidade, sendo aplicado em milhares de sites na plataforma.",
       "link": "https://canaltech.com.br/seguranca/falha-de-sql-injection-em-plugin-ameaca-mais-de-400-mil-sites-no-wordpress/",
-      "published": "18/03/2026 14:20",
+      "published": "18/03/2026 14:31",
       "cves": [],
       "vendor": null
     },
@@ -54,9 +32,31 @@
       "category": "identity",
       "summary": "Um grupo de ransomware afirmou ter invadido um hospital no Bahrein e passou a exigir pagamento para não divulgar os dados supostamente obtidos durante a ação. A alegação coloca novamente o setor de saúde no centro da pressão exercida por quadrilhas de extorsão digital, que exploram a criticidade dos serviços médicos para aumentar o poder de negociação. Segundo o modelo mais comum desse tipo de operação, os criminosos não dependem apenas da criptografia de arquivos para forçar a vítima a negociar. Em muitos casos, eles também afirmam ter roubado documentos e bases internas, usando a ameaça de exposição pública como segunda camada de chantagem.",
       "link": "https://boletimsec.com/grupo-de-ransomware-diz-ter-invadido-bahrain-hospital-e-exige-pagamento/",
-      "published": "18/03/2026 14:20",
+      "published": "18/03/2026 14:31",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Ataque à cadeia de suprimentos distribui jQuery trojanizado em temas falsos",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um ataque à cadeia de suprimentos está usando temas falsos para distribuir versões trojanizadas do jQuery, em uma campanha que compromete a integridade de pacotes aparentemente legítimos e amplia o risco para sites que dependem de componentes de terceiros. O caso mostra como bibliotecas comuns do ecossistema web seguem sendo exploradas como vetor discreto de infecção. A ofensiva se apoia na publicação de temas que simulam recursos autênticos, mas carregam arquivos JavaScript adulterados em sua estrutura.",
+      "link": "https://boletimsec.com/ataque-a-cadeia-de-suprimentos-distribui-jquery-trojanizado-em-temas-falsos/",
+      "published": "18/03/2026 14:31",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Downloads do FileZilla distribuem trojan de acesso remoto por DLL maliciosa",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Downloads falsos do FileZilla estão sendo usados para distribuir um trojan de acesso remoto em sistemas Windows por meio de uma DLL maliciosa, em uma campanha que explora a confiança dos usuários no cliente FTP. A estratégia transforma um software amplamente conhecido em isca para instalar malware de forma discreta. O golpe começa com páginas ou arquivos que simulam instaladores legítimos do FileZilla. Em vez de entregar apenas o programa esperado, os criminosos embutem uma biblioteca maliciosa que é carregada durante a execução, ativando a infecção sem exigir ações suspeitas adicionais da vítima.",
+      "link": "https://boletimsec.com/downloads-do-filezilla-distribuem-trojan-de-acesso-remoto-por-dll-maliciosa/",
+      "published": "18/03/2026 14:31",
+      "cves": [],
+      "vendor": "Windows"
     }
   ]
 }
