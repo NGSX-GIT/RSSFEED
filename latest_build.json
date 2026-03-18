@@ -1,22 +1,18 @@
 {
-  "generated_at": "2026-03-17T09:56:09.636453-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-03-18T14:19:54.701494-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Microsoft libera atualização emergencial para falhas críticas no Windows 11",
+      "title": "Interpol derruba 45 mil IPs maliciosos e prende 94 em operação global",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft liberou uma atualização emergencial para corrigir falhas críticas no Windows 11, em uma medida fora do ciclo tradicional de patches que reforça a gravidade do problema. O pacote, identificado como KB5084597, foi publicado para corrigir vulnerabilidades que afetam componentes ligados a acesso remoto no sistema. De acordo com a documentação da empresa, a atualização está relacionada às falhas CVE-2026-25172, CVE-2026-25173 e CVE-2026-26111. As brechas atingem o utilitário de gerenciamento do Routing and Remote Access Service (RRAS), recurso usado em cenários de conectividade remota e VPN em ambientes Windows.",
-      "link": "https://boletimsec.com/microsoft-libera-atualizacao-emergencial-para-falhas-criticas-no-windows-11/",
-      "published": "17/03/2026 09:56",
-      "cves": [
-        "CVE-2026-25172",
-        "CVE-2026-25173",
-        "CVE-2026-26111"
-      ],
-      "vendor": "Microsoft"
+      "category": "identity",
+      "summary": "A Interpol derrubou 45 mil endereços IP maliciosos e prendeu 94 suspeitos em uma operação global voltada ao combate de infraestruturas usadas em ataques cibernéticos. A ação mostra a escala internacional do cibercrime e o esforço crescente das autoridades para atingir não apenas os operadores, mas também a base técnica que sustenta fraudes e invasões. Operações desse tipo costumam mirar servidores, domínios, painéis de controle e equipamentos usados para hospedar páginas falsas, distribuir malware, coordenar campanhas de phishing e manter redes de ransomware em atividade.",
+      "link": "https://boletimsec.com/interpol-derruba-45-mil-ips-maliciosos-e-prende-94-em-operacao-global/",
+      "published": "18/03/2026 14:20",
+      "cves": [],
+      "vendor": null
     },
     {
       "title": "Malware gerado por IA marca nova era no cibercrime, aponta IBM",
@@ -25,42 +21,40 @@
       "category": "patches",
       "summary": "A IBM X-Force identificou um malware provavelmente gerado por inteligência artificial, batizado de “Slopoly”, durante um ataque de ransomware realizado pelo grupo criminoso Hive0163 no início de 2026. A descoberta marca uma mudança significativa na forma como cibercriminosos estão utilizando IA para construir ferramentas de ataque mais rapidamente e com custo reduzido. De acordo com a IBM, o script Slopoly apresenta extensos comentários, tratamento consistente de erros e nomes de variáveis claros, todas características de código produzido por modelos de linguagem de grande escala.",
       "link": "https://www.cisoadvisor.com.br/malware-gerado-por-ia-marca-nova-era-no-cibercrime-aponta-ibm/",
-      "published": "17/03/2026 09:56",
+      "published": "18/03/2026 14:20",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "CISA exige correção urgente para vulnerabilidade no Wing FTP",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A agência de cibersegurança dos Estados Unidos (CISA) adicionou ontem uma vulnerabilidade no servidor Wing FTP ao seu catálogo de falhas exploradas ativamente, ordenando que agências federais corrijam seus sistemas em até duas semanas. Registrada como CVE-2025-47813, a falha permite que atacantes com baixos privilégios descubram o caminho completo de instalação da aplicação em servidores não corrigidos. De acordo com a CISA, o Wing FTP Server contém uma vulnerabilidade de geração de mensagem de erro com informações sensíveis ao utilizar um valor longo no cookie UID.",
-      "link": "https://www.cisoadvisor.com.br/cisa-exige-correcao-urgente-para-vulnerabilidade-no-wing-ftp/",
-      "published": "17/03/2026 09:56",
-      "cves": [
-        "CVE-2025-47813"
-      ],
-      "vendor": null
+      "title": "Phishing contra usuários do Teams usa páginas ocultas em sites confiáveis",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Uma campanha de phishing está mirando usuários do Microsoft Teams por meio de páginas falsas ocultas em sites legítimos, em uma estratégia que aumenta a credibilidade do golpe e dificulta sua detecção. Ao usar domínios confiáveis como parte da infraestrutura, os criminosos reduzem a desconfiança inicial da vítima e ampliam as chances de roubo de credenciais. O método chama atenção porque abandona parte dos sinais mais tradicionais de fraude, como endereços claramente suspeitos ou páginas hospedadas em domínios recém-criados. Em vez disso, os atacantes escondem os arquivos maliciosos em áreas internas de sites comprometidos, transformando ambientes reais em suporte para a operação.",
+      "link": "https://boletimsec.com/phishing-contra-usuarios-do-teams-usa-paginas-ocultas-em-sites-confiaveis/",
+      "published": "18/03/2026 14:19",
+      "cves": [],
+      "vendor": "Microsoft"
     },
     {
-      "title": "1 hora Segurança Falha de SQL injection em plugin ameaça mais de 400 mil sites no WordPress",
+      "title": "1 dia Segurança Falha de SQL injection em plugin ameaça mais de 400 mil sites no WordPress",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Um pesquisador de segurança da empresa Acquia descobriu uma vulnerabilidade crítica que pode afetar mais de 400 mil sites hospedados no WordPress. A falha está na injeção de SQL não autenticada no Ally, um plugin para WordPress que funciona como uma ferramenta de acessibilidade que ajuda criadores de sites a construir páginas mais inclusivas. O recurso ainda conta com sugestões de inteligência artificial (IA) e um gerador automático de declarações de acessibilidade, sendo aplicado em milhares de sites na plataforma.",
       "link": "https://canaltech.com.br/seguranca/falha-de-sql-injection-em-plugin-ameaca-mais-de-400-mil-sites-no-wordpress/",
-      "published": "17/03/2026 09:56",
+      "published": "18/03/2026 14:20",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Interpol derruba 45 mil IPs maliciosos e prende 94 em operação global",
+      "title": "Grupo de ransomware diz ter invadido Bahrain Hospital e exige pagamento",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "identity",
-      "summary": "A Interpol derrubou 45 mil endereços IP maliciosos e prendeu 94 suspeitos em uma operação global voltada ao combate de infraestruturas usadas em ataques cibernéticos. A ação mostra a escala internacional do cibercrime e o esforço crescente das autoridades para atingir não apenas os operadores, mas também a base técnica que sustenta fraudes e invasões. Operações desse tipo costumam mirar servidores, domínios, painéis de controle e equipamentos usados para hospedar páginas falsas, distribuir malware, coordenar campanhas de phishing e manter redes de ransomware em atividade.",
-      "link": "https://boletimsec.com/interpol-derruba-45-mil-ips-maliciosos-e-prende-94-em-operacao-global/",
-      "published": "17/03/2026 09:56",
+      "summary": "Um grupo de ransomware afirmou ter invadido um hospital no Bahrein e passou a exigir pagamento para não divulgar os dados supostamente obtidos durante a ação. A alegação coloca novamente o setor de saúde no centro da pressão exercida por quadrilhas de extorsão digital, que exploram a criticidade dos serviços médicos para aumentar o poder de negociação. Segundo o modelo mais comum desse tipo de operação, os criminosos não dependem apenas da criptografia de arquivos para forçar a vítima a negociar. Em muitos casos, eles também afirmam ter roubado documentos e bases internas, usando a ameaça de exposição pública como segunda camada de chantagem.",
+      "link": "https://boletimsec.com/grupo-de-ransomware-diz-ter-invadido-bahrain-hospital-e-exige-pagamento/",
+      "published": "18/03/2026 14:20",
       "cves": [],
       "vendor": null
     }
