@@ -1,62 +1,70 @@
 {
-  "generated_at": "2026-03-18T14:31:04.818009-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-03-19T10:33:50.055919-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Phishing contra usuários do Teams usa páginas ocultas em sites confiáveis",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma campanha de phishing está mirando usuários do Microsoft Teams por meio de páginas falsas ocultas em sites legítimos, em uma estratégia que aumenta a credibilidade do golpe e dificulta sua detecção. Ao usar domínios confiáveis como parte da infraestrutura, os criminosos reduzem a desconfiança inicial da vítima e ampliam as chances de roubo de credenciais. O método chama atenção porque abandona parte dos sinais mais tradicionais de fraude, como endereços claramente suspeitos ou páginas hospedadas em domínios recém-criados. Em vez disso, os atacantes escondem os arquivos maliciosos em áreas internas de sites comprometidos, transformando ambientes reais em suporte para a operação.",
-      "link": "https://boletimsec.com/phishing-contra-usuarios-do-teams-usa-paginas-ocultas-em-sites-confiaveis/",
-      "published": "18/03/2026 14:31",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "1 dia Segurança Falha de SQL injection em plugin ameaça mais de 400 mil sites no WordPress",
-      "source": "Canaltech Segurança",
+      "title": "Interlock explorou zero-day em firewall Cisco",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Um pesquisador de segurança da empresa Acquia descobriu uma vulnerabilidade crítica que pode afetar mais de 400 mil sites hospedados no WordPress. A falha está na injeção de SQL não autenticada no Ally, um plugin para WordPress que funciona como uma ferramenta de acessibilidade que ajuda criadores de sites a construir páginas mais inclusivas. O recurso ainda conta com sugestões de inteligência artificial (IA) e um gerador automático de declarações de acessibilidade, sendo aplicado em milhares de sites na plataforma.",
-      "link": "https://canaltech.com.br/seguranca/falha-de-sql-injection-em-plugin-ameaca-mais-de-400-mil-sites-no-wordpress/",
-      "published": "18/03/2026 14:31",
-      "cves": [],
-      "vendor": null
+      "summary": "O grupo de ransomware Interlock explorou a vulnerabilidade crítica zero-day ( CVE-2026-20131 ) no Cisco Firewall Management Center. A falha , que permite a execução remota de código como root, foi utilizada contra firewalls corporativos por mais de um mês antes de ser corrigida. Segundo a Cisco, o impacto inicial concentrou-se em organizações nos Estados Unidos, mas a dependência tecnológica do país torna sistemas de parceiros comerciais, como os brasileiros, alvos em potencial para ataques futuros baseados na mesma brecha. A exploração da falha teve início em 26 de janeiro de 2026, conforme revelou na quarta-feira (18) a equipe de inteligência de ameaças da Amazon.",
+      "link": "https://www.cisoadvisor.com.br/interlock-explorou-zero-day-em-firewall-cisco/",
+      "published": "19/03/2026 10:33",
+      "cves": [
+        "CVE-2026-20131"
+      ],
+      "vendor": "Cisco"
     },
     {
-      "title": "Grupo de ransomware diz ter invadido Bahrain Hospital e exige pagamento",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Um grupo de ransomware afirmou ter invadido um hospital no Bahrein e passou a exigir pagamento para não divulgar os dados supostamente obtidos durante a ação. A alegação coloca novamente o setor de saúde no centro da pressão exercida por quadrilhas de extorsão digital, que exploram a criticidade dos serviços médicos para aumentar o poder de negociação. Segundo o modelo mais comum desse tipo de operação, os criminosos não dependem apenas da criptografia de arquivos para forçar a vítima a negociar. Em muitos casos, eles também afirmam ter roubado documentos e bases internas, usando a ameaça de exposição pública como segunda camada de chantagem.",
-      "link": "https://boletimsec.com/grupo-de-ransomware-diz-ter-invadido-bahrain-hospital-e-exige-pagamento/",
-      "published": "18/03/2026 14:31",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ataque à cadeia de suprimentos distribui jQuery trojanizado em temas falsos",
+      "title": "Falha crítica no telnetd permite execução remota de código sem autenticação",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Um ataque à cadeia de suprimentos está usando temas falsos para distribuir versões trojanizadas do jQuery, em uma campanha que compromete a integridade de pacotes aparentemente legítimos e amplia o risco para sites que dependem de componentes de terceiros. O caso mostra como bibliotecas comuns do ecossistema web seguem sendo exploradas como vetor discreto de infecção. A ofensiva se apoia na publicação de temas que simulam recursos autênticos, mas carregam arquivos JavaScript adulterados em sua estrutura.",
-      "link": "https://boletimsec.com/ataque-a-cadeia-de-suprimentos-distribui-jquery-trojanizado-em-temas-falsos/",
-      "published": "18/03/2026 14:31",
+      "summary": "Uma falha crítica identificada como CVE-2026-32746 está afetando o GNU InetUtils telnetd, serviço responsável por receber conexões Telnet em sistemas Unix-like, e pode permitir execução remota de código sem autenticação. Com pontuação CVSS 9,8, o problema reacende o alerta sobre a permanência de serviços legados expostos em ambientes corporativos e de infraestrutura. O ponto mais grave é que a exploração ocorre antes mesmo do login. Isso significa que o atacante não precisa informar credenciais válidas nem interagir com um usuário para acionar a falha. Basta enviar dados especialmente preparados ao telnetd no início da sessão para iniciar o ataque.",
+      "link": "https://boletimsec.com/falha-critica-no-telnetd-permite-execucao-remota-de-codigo-sem-autenticacao/",
+      "published": "19/03/2026 10:33",
+      "cves": [
+        "CVE-2026-32746"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "CISA ordena correção urgente de falha no Zimbra",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A agência de cibersegurança dos Estados Unidos determinou que órgãos federais corrijam uma vulnerabilidade ativamente explorada no Zimbra Collaboration Suite até o dia 1º de abril. A falha , catalogada como CVE-2025-66376 , permite que atacantes remotos executem código arbitrário em servidores de email vulneráveis. Organizações brasileiras que utilizam o Zimbra, uma das plataformas de colaboração mais populares do mundo com centenas de milhões de usuários, estão expostas a ataques que podem comprometer integralmente servidores de email.",
+      "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-urgente-de-falha-no-zimbra/",
+      "published": "19/03/2026 10:33",
+      "cves": [
+        "CVE-2025-66376"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "LeakNet usa ClickFix em sites comprometidos para espalhar ransomware",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O grupo LeakNet passou a usar a técnica ClickFix em sites comprometidos para ampliar a disseminação de ransomware, em uma tática que combina engenharia social com abuso de páginas legítimas para obter acesso inicial às vítimas. O método chama atenção por transformar ambientes confiáveis em ponto de entrada para infecções mais complexas. Nesse tipo de golpe, o usuário é induzido a executar uma ação manual sob a falsa justificativa de resolver um erro, concluir uma verificação ou liberar o acesso a um conteúdo. Em vez de explorar diretamente uma falha no sistema, os criminosos manipulam a interação da vítima para iniciar a cadeia maliciosa de forma aparentemente legítima.",
+      "link": "https://boletimsec.com/leaknet-usa-clickfix-em-sites-comprometidos-para-espalhar-ransomware/",
+      "published": "19/03/2026 10:33",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Downloads do FileZilla distribuem trojan de acesso remoto por DLL maliciosa",
+      "title": "Apple libera primeira atualização da falha no WebKit 2026",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Downloads falsos do FileZilla estão sendo usados para distribuir um trojan de acesso remoto em sistemas Windows por meio de uma DLL maliciosa, em uma campanha que explora a confiança dos usuários no cliente FTP. A estratégia transforma um software amplamente conhecido em isca para instalar malware de forma discreta. O golpe começa com páginas ou arquivos que simulam instaladores legítimos do FileZilla. Em vez de entregar apenas o programa esperado, os criminosos embutem uma biblioteca maliciosa que é carregada durante a execução, ativando a infecção sem exigir ações suspeitas adicionais da vítima.",
-      "link": "https://boletimsec.com/downloads-do-filezilla-distribuem-trojan-de-acesso-remoto-por-dll-maliciosa/",
-      "published": "18/03/2026 14:31",
-      "cves": [],
-      "vendor": "Windows"
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Apple liberou sua primeira atualização em segundo plano para corrigir a falha CVE-2026-20643 no WebKit, motor de navegador usado pelo Safari e por outros componentes do ecossistema da empresa. A correção marca a estreia prática do recurso Background Security Improvements, criado para distribuir pequenos patches de segurança sem depender de uma atualização completa do sistema. Segundo a Apple, essa falha na Navigation API pode permitir que conteúdo web malicioso contorne a Same Origin Policy, mecanismo essencial para impedir que um site acesse dados de outro. A empresa informou que o problema foi corrigido com melhorias na validação de entrada.",
+      "link": "https://boletimsec.com/apple-libera-primeira-atualizacao-da-falha-no-webkit-2026/",
+      "published": "19/03/2026 10:33",
+      "cves": [
+        "CVE-2026-20643"
+      ],
+      "vendor": "Apple"
     }
   ]
 }
