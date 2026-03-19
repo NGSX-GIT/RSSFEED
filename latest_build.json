@@ -1,70 +1,64 @@
 {
-  "generated_at": "2026-03-19T10:33:50.055919-03:00",
+  "generated_at": "2026-03-19T12:00:00.451769-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Interlock explorou zero-day em firewall Cisco",
+      "title": "Tecnocomp leva solução de DevSecOps à RSAC 2026",
       "source": "CISO Advisor",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "O grupo de ransomware Interlock explorou a vulnerabilidade crítica zero-day ( CVE-2026-20131 ) no Cisco Firewall Management Center. A falha , que permite a execução remota de código como root, foi utilizada contra firewalls corporativos por mais de um mês antes de ser corrigida. Segundo a Cisco, o impacto inicial concentrou-se em organizações nos Estados Unidos, mas a dependência tecnológica do país torna sistemas de parceiros comerciais, como os brasileiros, alvos em potencial para ataques futuros baseados na mesma brecha. A exploração da falha teve início em 26 de janeiro de 2026, conforme revelou na quarta-feira (18) a equipe de inteligência de ameaças da Amazon.",
-      "link": "https://www.cisoadvisor.com.br/interlock-explorou-zero-day-em-firewall-cisco/",
-      "published": "19/03/2026 10:33",
-      "cves": [
-        "CVE-2026-20131"
-      ],
+      "summary": "A Tecnocomp, em parceria com a Fluid Attacks, marca presença na RSA Conference USA 2026 — de 23 de março a 26 de março, em São Francisco — com uma oferta exclusiva no mercado brasileiro, voltada à segurança no desenvolvimento de software. A solução combina automação inteligente (SAST, AI SAST, DAST, SCA) com avaliações manuais especializadas (Secure Code Review, Pentest as a Service e Engenharia Reversa), promovendo uma abordagem integrada e contínua de segurança desde a fase de desenvolvimento até o ambiente produtivo.",
+      "link": "https://www.cisoadvisor.com.br/tecnocomp-leva-solucao-de-devsecops-a-rsac-2026/",
+      "published": "19/03/2026 12:00",
+      "cves": [],
       "vendor": "Cisco"
     },
     {
-      "title": "Falha crítica no telnetd permite execução remota de código sem autenticação",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "title": "1 dia Segurança Cheat grátis vira isca perfeita para roubar contas de jogadores",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Uma falha crítica identificada como CVE-2026-32746 está afetando o GNU InetUtils telnetd, serviço responsável por receber conexões Telnet em sistemas Unix-like, e pode permitir execução remota de código sem autenticação. Com pontuação CVSS 9,8, o problema reacende o alerta sobre a permanência de serviços legados expostos em ambientes corporativos e de infraestrutura. O ponto mais grave é que a exploração ocorre antes mesmo do login. Isso significa que o atacante não precisa informar credenciais válidas nem interagir com um usuário para acionar a falha. Basta enviar dados especialmente preparados ao telnetd no início da sessão para iniciar o ataque.",
-      "link": "https://boletimsec.com/falha-critica-no-telnetd-permite-execucao-remota-de-codigo-sem-autenticacao/",
-      "published": "19/03/2026 10:33",
-      "cves": [
-        "CVE-2026-32746"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "CISA ordena correção urgente de falha no Zimbra",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A agência de cibersegurança dos Estados Unidos determinou que órgãos federais corrijam uma vulnerabilidade ativamente explorada no Zimbra Collaboration Suite até o dia 1º de abril. A falha , catalogada como CVE-2025-66376 , permite que atacantes remotos executem código arbitrário em servidores de email vulneráveis. Organizações brasileiras que utilizam o Zimbra, uma das plataformas de colaboração mais populares do mundo com centenas de milhões de usuários, estão expostas a ataques que podem comprometer integralmente servidores de email.",
-      "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-urgente-de-falha-no-zimbra/",
-      "published": "19/03/2026 10:33",
-      "cves": [
-        "CVE-2025-66376"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "LeakNet usa ClickFix em sites comprometidos para espalhar ransomware",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O grupo LeakNet passou a usar a técnica ClickFix em sites comprometidos para ampliar a disseminação de ransomware, em uma tática que combina engenharia social com abuso de páginas legítimas para obter acesso inicial às vítimas. O método chama atenção por transformar ambientes confiáveis em ponto de entrada para infecções mais complexas. Nesse tipo de golpe, o usuário é induzido a executar uma ação manual sob a falsa justificativa de resolver um erro, concluir uma verificação ou liberar o acesso a um conteúdo. Em vez de explorar diretamente uma falha no sistema, os criminosos manipulam a interação da vítima para iniciar a cadeia maliciosa de forma aparentemente legítima.",
-      "link": "https://boletimsec.com/leaknet-usa-clickfix-em-sites-comprometidos-para-espalhar-ransomware/",
-      "published": "19/03/2026 10:33",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 18/03/2026 às 09:35 A empresa de cibersegurança Acronis TRU identificou centenas de repositórios do GitHub distribuindo malwares para jogadores : os agentes maliciosos são disfarçados de “ trapaças grátis ” (ou cheats ) para praticamente todos os jogos online disponíveis no mercado. Para ocultar o vírus, são usadas imagens (esteganografia) e sites de terceiros, o que dificulta a análise e detecção por antivírus e especialistas. O malware em questão é o infostealer Vidar Stealer 2.0 , uma evolução do Lumma, que já havia se inspirado na versão 1.0 do primeiro vírus.",
+      "link": "https://canaltech.com.br/seguranca/cheat-gratis-vira-isca-perfeita-para-roubar-contas-de-jogadores/",
+      "published": "19/03/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Apple libera primeira atualização da falha no WebKit 2026",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "title": "Falha no Ubuntu permite acesso root em sistemas",
+      "source": "CISO Advisor",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Apple liberou sua primeira atualização em segundo plano para corrigir a falha CVE-2026-20643 no WebKit, motor de navegador usado pelo Safari e por outros componentes do ecossistema da empresa. A correção marca a estreia prática do recurso Background Security Improvements, criado para distribuir pequenos patches de segurança sem depender de uma atualização completa do sistema. Segundo a Apple, essa falha na Navigation API pode permitir que conteúdo web malicioso contorne a Same Origin Policy, mecanismo essencial para impedir que um site acesse dados de outro. A empresa informou que o problema foi corrigido com melhorias na validação de entrada.",
-      "link": "https://boletimsec.com/apple-libera-primeira-atualizacao-da-falha-no-webkit-2026/",
-      "published": "19/03/2026 10:33",
+      "summary": "A Unidade de Pesquisa de Ameaças da Qualys identificou uma vulnerabilidade de escalonamento de privilégios locais (LPE) que afeta as instalações padrão do Ubuntu Desktop versão 24.04 e posteriores. A falha, registrada como CVE-2026-3888 , recebeu uma pontuação CVSS v3.1 de 7,8 (alta gravidade) e permite que um invasor local sem privilégios obtenha acesso root completo ao sistema. De acordo com os pesquisadores da Qualys, a vulnerabilidade decorre de uma interação não intencional entre dois utilitários privilegiados do sistema: o snap-confine e o systemd-tmpfiles.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-ubuntu-permite-acesso-root-em-sistemas/",
+      "published": "19/03/2026 12:00",
       "cves": [
-        "CVE-2026-20643"
+        "CVE-2026-3888"
       ],
-      "vendor": "Apple"
+      "vendor": null
+    },
+    {
+      "title": "TechEnabler anuncia parceiro para operar no Equador",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A TechEnabler, empresa brasileira especializada em serviços gerenciados com foco no desempenho e disponibilidade de redes, leva seus serviços também ao Equador, em parceria com a Digitec S.A ., empresa equatoriana especializada em fornecer soluções técnicas e serviços de alto valor agregado nos segmentos de Telecomunicações, Petróleo e Gás, Energia e Minas, automação e controle para a Indústria. Para o CEO da TechEnabler, Álvaro Aquino, o acordo com a Digitec marca um novo passo importante na expansão da empresa na América Latina: “Atualmente, há nove países na região onde estamos presentes.",
+      "link": "https://www.cisoadvisor.com.br/techenabler-anuncia-parceiro-para-operar-no-equador/",
+      "published": "19/03/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "1 dia Segurança Como peritos recuperam mensagens que você achou que tinha apagado",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Por Marcelo Fischer Salvatico | 17/03/2026 às 16:00 • Atualizado 18/03/2026 às 17:16 A apreensão dos celulares do dono do Banco Master, o banqueiro Daniel Vorcaro, pela Polícia Federal (PF), colocou em evidência técnicas de perícia forense digital. A PF acessou mensagens apagadas e até recuperou mensagens de visualização única enviadas pelo WhatsApp , e o perito em crimes digitais Wanderson Castilho explicou como o processo funciona na prática no Podcast Canaltech desta quarta-feira (18).",
+      "link": "https://canaltech.com.br/seguranca/como-peritos-recuperam-mensagens-que-voce-achou-que-tinha-apagado/",
+      "published": "19/03/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
