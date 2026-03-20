@@ -1,67 +1,61 @@
 {
-  "generated_at": "2026-03-20T10:01:56.379647-03:00",
+  "generated_at": "2026-03-20T12:00:00.010122-03:00",
   "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Patch urgente para falha crítica no SharePoint",
+      "title": "Teltec contabiliza faturamento 33% acima de 2024",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A agência de segurança cibernética dos EUA (CISA) emitiu um alerta sobre a exploração ativa de uma vulnerabilidade no Microsoft SharePoint que permite execução remota de código (RCE). A falha, identificada como CVE-2026-20963 , recebeu pontuação 8.8 na escala de gravidade e levou o órgão a determinar que agências federais instalem a atualização em até três dias. A Microsoft lançou uma atualização de segurança em 13 de janeiro deste ano, momento em que desconhecia qualquer exploração ativa da falha. No comunicado original, a empresa avaliou como “menos provável” que atacantes viessem a explorar o problema.",
-      "link": "https://www.cisoadvisor.com.br/patch-urgente-para-falha-critica-no-sharepoint/",
-      "published": "20/03/2026 10:02",
-      "cves": [
-        "CVE-2026-20963"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "ConnectWise corrige falha crítica no ScreenConnect",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A ConnectWise lançou uma atualização de segurança para o ScreenConnect com o objetivo de melhorar o manuseio de chaves de máquina e prevenir o comprometimento de servidores. A atualização aborda a vulnerabilidade CVE-2026-3564, que recebeu pontuação 9.0 na escala CVSS, uma falha de severidade crítica que poderia permitir que atacantes acessassem material criptográfico utilizado para autenticação de sessão. De acordo com comunicado da empresa, versões anteriores do ScreenConnect armazenavam as chaves únicas de máquina nos arquivos de configuração do servidor, o que as expunha a exfiltração em determinados cenários.",
-      "link": "https://www.cisoadvisor.com.br/connectwise-corrige-falha-critica-no-screenconnect/",
-      "published": "20/03/2026 10:02",
-      "cves": [
-        "CVE-2026-3564"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Pesquisadores encontram falhas no Claude que permitem roubo de dados",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Pesquisadores identificaram falhas no Claude que, quando exploradas em conjunto, podem permitir o roubo silencioso de dados sensíveis armazenados no histórico de conversas dos usuários. O caso chama atenção por atingir um assistente de IA amplamente usado em rotinas pessoais e corporativas, onde prompts e interações frequentemente concentram informações estratégicas. A análise mostrou que o problema não depende necessariamente de um ambiente altamente customizado para funcionar. Em um dos cenários descritos, atacantes poderiam abusar de mecanismos de prompt pré-carregado para inserir instruções ocultas, sem que a vítima percebesse com clareza o conteúdo real enviado ao modelo.",
-      "link": "https://boletimsec.com/pesquisadores-encontram-falhas-no-claude-que-permitem-roubo-de-dados/",
-      "published": "20/03/2026 10:01",
+      "category": "cloud",
+      "summary": "A TELTEC encerrou o ano fiscal de 2025 com faturamento de R$ 394 milhões, crescimento de 33% em relação a 2024, conforme comunicado distribuído hoje pela companhia. O resultado foi impulsionado pelas unidades Teltec Solutions e Teltec Data, que atuam nos segmentos de cibersegurança, infraestrutura crítica e nuvem. A Teltec Solutions, focada em cibersegurança e infraestrutura crítica, registrou receita de R$ 213 milhões, avanço de 44% no período. Rafael Araújo Silva, diretor da unidade, afirmou que o desempenho “reflete a consistência na execução, superando todas as metas estabelecidas”.",
+      "link": "https://www.cisoadvisor.com.br/teltec-contabiliza-faturamento-33-acima-de-2024/",
+      "published": "20/03/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Botnet associada ao Irã tem infraestrutura revelada por erro de configuração",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "Uma botnet associada ao Irã teve parte de sua infraestrutura revelada após um erro de configuração expor um diretório aberto em um servidor de staging usado na operação. O vazamento permitiu que pesquisadores acessassem arquivos internos e reconstruíssem detalhes técnicos sobre a rede, incluindo scripts de implantação, ferramentas de negação de serviço e componentes ainda em desenvolvimento. A descoberta oferece uma visão rara dos bastidores de uma campanha ativa. Entre os itens expostos estavam binários, scripts em Python, arquivos de configuração e listas de credenciais usadas para tentar acesso remoto a sistemas por SSH, indicando uma operação estruturada para comprometimento em massa.",
-      "link": "https://boletimsec.com/botnet-associada-ao-ira-tem-infraestrutura-revelada-por-erro-de-configuracao/",
-      "published": "20/03/2026 10:01",
+      "title": "1 dia Segurança Ferramentas de detecção estão ficando para trás na corrida contra deepfakes",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Deepfakes estão cada vez mais difíceis de serem detectados pelo olho humano, mas ferramentas tecnológicas também estão falhando nessa identificação. Uma análise do PC World observou que muitas plataformas de segurança que ajudam nessa detecção deixam passar vários conteúdos manipulados por inteligência artificial (IA). A desconfiança partiu de um vídeo publicado no TikTok, em que uma mulher aparece vendendo um produto próprio. Tudo parece normal até que ela coloca os dedos no meio da cartilagem do nariz de um jeito bastante estranho e nada comum para ações humanas. O vídeo impressiona pela qualidade da manipulação , passando ileso por ferramentas de detecção mesmo sendo um deepfake.",
+      "link": "https://canaltech.com.br/seguranca/ferramentas-de-deteccao-estao-ficando-para-tras-na-corrida-contra-deepfakes/",
+      "published": "20/03/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Falha XSS no Zimbra expõe e-mails e sessões autenticadas",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
+      "title": "3 horas Segurança 4chan é multado em R$ 3,6 milhões por falhar na proteção de menores",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
       "category": "patches",
-      "summary": "Uma falha de cross-site scripting (XSS) no Zimbra está expondo e-mails e sessões autenticadas de usuários, em um caso que ganhou urgência após a inclusão da vulnerabilidade CVE-2025-66376 no catálogo de falhas exploradas da CISA. O problema afeta a Classic UI do Zimbra Collaboration Suite e já está sendo usado em ataques reais. A brecha foi classificada com CVSS 7,2 e está ligada ao tratamento inadequado de conteúdo HTML em mensagens. Segundo a Zimbra, o vetor permite abusar de diretivas CSS @import dentro do corpo do e-mail, fazendo com que código malicioso seja executado quando a mensagem é aberta na interface vulnerável.",
-      "link": "https://boletimsec.com/falha-xss-no-zimbra-expoe-e-mails-e-sessoes-autenticadas/",
-      "published": "20/03/2026 10:01",
-      "cves": [
-        "CVE-2025-66376"
-      ],
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 20/03/2026 às 08:35 A organização de regulamentação Ofcom , do Reino Unido, aplicou uma multa de £ 520 mil (cerca de R$ 3,65 milhões) ao fórum virtual 4chan, sob acusação de infração da Lei de Segurança Online de 2023. Segundo a instituição, o site falhou em garantir que crianças sejam impedidas de visualizar conteúdo pornográfico, já que não há mecanismos eficazes de verificação de idade. A falta de controle etário é apenas uma das acusações , que também incluem falta de controle para que usuários sejam impedidos de veicular e acessar conteúdo ilegal no fórum: a soma de três infrações levou ao valor final.",
+      "link": "https://canaltech.com.br/seguranca/4chan-e-multado-em-r-36-milhoes-por-falhar-na-protecao-de-menores/",
+      "published": "20/03/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "1 dia Segurança Novo golpe no Android procura seus segredos onde você menos imagina",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Enquanto você digita uma senha de uma conta em um aplicativo de notas do seu celular para não esquecê-la, pode ser que um malware esteja à espreita para coletar essa informação sensível. Esse é o modus operandi do Perseus, um novo software malicioso para Android que fica de olho nas coisas que você guarda no app para roubá-las. O malware chamou a atenção de especialistas da ThreatFabric por não focar diretamente na coleta de credenciais bancárias e outras informações sensíveis, mas na varredura completa de aplicativos de notas para encontrar palavras-chave, senhas ou frases de recuperação de contas para aplicar golpes.",
+      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-android-procura-seus-segredos-onde-voce-menos-imagina/",
+      "published": "20/03/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "4 horas Segurança Catfishing: como identidade de britânica foi roubada para enganar internautas",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 20/03/2026 às 07:50 A britânica Sasha-Jay Davies , de 19 anos, foi vítima de um roubo de identidade virtual muito sério, mas que pode não configurar crime: é o catfishing, prática onde pessoas roubam fotos, dados e fingem ser outra pessoa na internet, enganando outros usuários. No caso de Davies, o perfil falso atingiu milhares de seguidores e faltou a encontros supostamente marcados por ela, gerando constrangimento e perigo .",
+      "link": "https://canaltech.com.br/seguranca/catfishing-como-identidade-de-britanica-foi-roubada-para-enganar-internautas/",
+      "published": "20/03/2026 12:00",
+      "cves": [],
       "vendor": null
     }
   ]
