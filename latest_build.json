@@ -1,62 +1,64 @@
 {
-  "generated_at": "2026-03-20T12:00:00.010122-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-03-23T11:48:05.591064-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Teltec contabiliza faturamento 33% acima de 2024",
-      "source": "CISO Advisor",
+      "title": "Oracle libera atualização emergencial para falha crítica de RCE",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "cloud",
-      "summary": "A TELTEC encerrou o ano fiscal de 2025 com faturamento de R$ 394 milhões, crescimento de 33% em relação a 2024, conforme comunicado distribuído hoje pela companhia. O resultado foi impulsionado pelas unidades Teltec Solutions e Teltec Data, que atuam nos segmentos de cibersegurança, infraestrutura crítica e nuvem. A Teltec Solutions, focada em cibersegurança e infraestrutura crítica, registrou receita de R$ 213 milhões, avanço de 44% no período. Rafael Araújo Silva, diretor da unidade, afirmou que o desempenho “reflete a consistência na execução, superando todas as metas estabelecidas”.",
-      "link": "https://www.cisoadvisor.com.br/teltec-contabiliza-faturamento-33-acima-de-2024/",
-      "published": "20/03/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "1 dia Segurança Ferramentas de detecção estão ficando para trás na corrida contra deepfakes",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
       "category": "patches",
-      "summary": "Deepfakes estão cada vez mais difíceis de serem detectados pelo olho humano, mas ferramentas tecnológicas também estão falhando nessa identificação. Uma análise do PC World observou que muitas plataformas de segurança que ajudam nessa detecção deixam passar vários conteúdos manipulados por inteligência artificial (IA). A desconfiança partiu de um vídeo publicado no TikTok, em que uma mulher aparece vendendo um produto próprio. Tudo parece normal até que ela coloca os dedos no meio da cartilagem do nariz de um jeito bastante estranho e nada comum para ações humanas. O vídeo impressiona pela qualidade da manipulação , passando ileso por ferramentas de detecção mesmo sendo um deepfake.",
-      "link": "https://canaltech.com.br/seguranca/ferramentas-de-deteccao-estao-ficando-para-tras-na-corrida-contra-deepfakes/",
-      "published": "20/03/2026 12:00",
+      "summary": "A Oracle liberou uma atualização emergencial para corrigir a CVE-2026-21992, falha crítica de execução remota de código que afeta o Oracle Identity Manager e o Oracle Web Services Manager, dois componentes do Fusion Middleware. O alerta foi publicado fora do ciclo trimestral normal de patches, sinal de que a empresa tratou o caso como prioridade imediata. A vulnerabilidade recebeu CVSS 9,8 e pode ser explorada sem autenticação, com acesso remoto pela rede via HTTP.",
+      "link": "https://boletimsec.com/oracle-libera-atualizacao-emergencial-para-falha-critica-de-rce/",
+      "published": "23/03/2026 11:48",
+      "cves": [
+        "CVE-2026-21992"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "1 dia Segurança Conheça o Salt Typhoon, grupo hacker chinês que invadiu o FBI",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "No mundo da ciberespionagem, ataques hacker viram coisa de filme . Um exemplo recente envolveu o FBI , a agência de inteligência e segurança dos Estados Unidos, cuja rede de gerenciamento de operações foi violada por um grupo associado ao governo da China. O grupo em questão é o Salt Typhoon , que atua como uma elite cibernética financiada pelo Estado chinês e não está nem um pouco interessada em roubar dados do seu cartão de crédito. O que eles realmente querem é atacar infraestruturas críticas de outros países e coletar informações sigilosas de governos e instituições.",
+      "link": "https://canaltech.com.br/seguranca/conheca-o-salt-typhoon-grupo-hacker-chines-que-invadiu-o-fbi/",
+      "published": "23/03/2026 11:48",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "3 horas Segurança 4chan é multado em R$ 3,6 milhões por falhar na proteção de menores",
+      "title": "2 dias Segurança Por que hackers preferem atacar seu roteador em vez do seu PC?",
       "source": "Canaltech Segurança",
-      "priority": "Baixa",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 20/03/2026 às 08:35 A organização de regulamentação Ofcom , do Reino Unido, aplicou uma multa de £ 520 mil (cerca de R$ 3,65 milhões) ao fórum virtual 4chan, sob acusação de infração da Lei de Segurança Online de 2023. Segundo a instituição, o site falhou em garantir que crianças sejam impedidas de visualizar conteúdo pornográfico, já que não há mecanismos eficazes de verificação de idade. A falta de controle etário é apenas uma das acusações , que também incluem falta de controle para que usuários sejam impedidos de veicular e acessar conteúdo ilegal no fórum: a soma de três infrações levou ao valor final.",
-      "link": "https://canaltech.com.br/seguranca/4chan-e-multado-em-r-36-milhoes-por-falhar-na-protecao-de-menores/",
-      "published": "20/03/2026 12:00",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 21/03/2026 às 07:30 O roteador é tratado, na maioria das casas, como um eletrodoméstico invisível , que você liga na tomada, configura a senha do Wi-Fi e nunca mais lembra que existe — isto é, até cair a internet . É nessa negligência que os hackers apostam, enquanto o usuário gasta dinheiro com antivírus no PC e biometria no celular acreditando estar seguro. Um caso recente bastante ilustrativo é o do malware DKnife , que opera silenciosamente desde 2019 na espionagem doméstica sem ser percebido pelos usuários. Nesta matéria, vamos explicar como os hackers se aproveitam do seu roteador e como se proteger disso.",
+      "link": "https://canaltech.com.br/seguranca/por-que-hackers-preferem-atacar-seu-roteador-em-vez-do-seu-pc/",
+      "published": "23/03/2026 11:48",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "1 dia Segurança Novo golpe no Android procura seus segredos onde você menos imagina",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "Enquanto você digita uma senha de uma conta em um aplicativo de notas do seu celular para não esquecê-la, pode ser que um malware esteja à espreita para coletar essa informação sensível. Esse é o modus operandi do Perseus, um novo software malicioso para Android que fica de olho nas coisas que você guarda no app para roubá-las. O malware chamou a atenção de especialistas da ThreatFabric por não focar diretamente na coleta de credenciais bancárias e outras informações sensíveis, mas na varredura completa de aplicativos de notas para encontrar palavras-chave, senhas ou frases de recuperação de contas para aplicar golpes.",
-      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-android-procura-seus-segredos-onde-voce-menos-imagina/",
-      "published": "20/03/2026 12:00",
+      "title": "BTG Pactual sofre ataque cibernético e suspende Pix",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "breach",
+      "summary": "O BTG Pactual suspendeu as operações via Pix no último domingo, 22 de março, após identificar um ataque cibernético e detectar “atividades atípicas relacionadas ao Pix”, segundo nota enviada pelo banco. A instituição afirmou que a interrupção foi adotada como medida de precaução enquanto apura o caso. Na comunicação divulgada à imprensa, o banco disse que não houve acesso a contas de clientes e que nenhum dado de correntista foi exposto. Essa distinção ajuda a enquadrar o episódio mais como um incidente operacional ligado ao fluxo do Pix do que como um vazamento de dados bancários tradicionais.",
+      "link": "https://boletimsec.com/btg-pactual-sofre-ataque-cibernetico-e-suspende-pix/",
+      "published": "23/03/2026 11:48",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 horas Segurança Catfishing: como identidade de britânica foi roubada para enganar internautas",
-      "source": "Canaltech Segurança",
+      "title": "Perseus: novo malware ataca usuários de Android",
+      "source": "CISO Advisor",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 20/03/2026 às 07:50 A britânica Sasha-Jay Davies , de 19 anos, foi vítima de um roubo de identidade virtual muito sério, mas que pode não configurar crime: é o catfishing, prática onde pessoas roubam fotos, dados e fingem ser outra pessoa na internet, enganando outros usuários. No caso de Davies, o perfil falso atingiu milhares de seguidores e faltou a encontros supostamente marcados por ela, gerando constrangimento e perigo .",
-      "link": "https://canaltech.com.br/seguranca/catfishing-como-identidade-de-britanica-foi-roubada-para-enganar-internautas/",
-      "published": "20/03/2026 12:00",
+      "summary": "O malware Perseus, identificado pela ThreatFabric, está mirando aplicativos de anotações em dispositivos Android infectados para extrair informações sensíveis como senhas e frases-semente. Esses dados podem ser utilizados por criminosos para obter acesso a carteiras de criptomoedas das vítimas, conforme análise divulgada pela empresa de segurança. O malware se disfarça como aplicativo de IPTV e é distribuído fora da Google Play Store, onde usuários estão mais acostumados a realizar instalações manuais.",
+      "link": "https://www.cisoadvisor.com.br/perseus-novo-malware-ataca-usuarios-de-android/",
+      "published": "23/03/2026 11:48",
       "cves": [],
-      "vendor": null
+      "vendor": "Google"
     }
   ]
 }
