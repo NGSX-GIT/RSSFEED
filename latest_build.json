@@ -1,79 +1,65 @@
 {
-  "generated_at": "2026-03-24T12:20:59.870008-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-03-25T09:28:49.728243-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no NetScaler exige patch imediato",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cloud Software Group lançou patches de segurança urgentes para o NetScaler ADC e o NetScaler Gateway, corrigindo duas vulnerabilidades significativas que podem permitir que atacantes remotos não autenticados comprometam sistemas afetados. As falhas afetam apenas implantações gerenciadas pelo cliente, enquanto os serviços em nuvem gerenciados pela Citrix e as instâncias Adaptive Authentication já foram atualizados pela empresa. Organizações que utilizam versões locais foram fortemente orientadas a aplicar as atualizações imediatamente. A mais severa das duas falhas, rastreada como CVE-2026-3055, recebeu pontuação base de 9,3 no CVSS v4.0, sendo classificada como crítica.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-netscaler-exige-patch-imediato/",
-      "published": "24/03/2026 12:21",
-      "cves": [
-        "CVE-2026-3055"
-      ],
-      "vendor": "Citrix"
+      "title": "18 min Segurança O phishing de sempre mudou de forma e agora fala com você",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "O phishing por voz, também conhecido como vishing , vem ganhando mais espaço em golpes digitais. Segundo o M-Trends, relatório anual da Mandiant, subsidiária de cibersegurança do Google, essa tática teve um aumento significativo no último ano. A pesquisa mostrou que o vishing foi usado como principal vetor de ataques digitais em 11% dos casos registrados em 2025, aparecendo como o segundo método mais popular entre os criminosos para obter acesso ilegal a sistemas alheios. Também foi identificado que a exploração de vulnerabilidades representou 32% dos ataques bem-sucedidos no mesmo período analisado. Por outro lado, golpes com e-mails de phishing diminuíram, marcando apenas 6% no ranking.",
+      "link": "https://canaltech.com.br/seguranca/o-phishing-de-sempre-mudou-de-forma-e-agora-fala-com-voce/",
+      "published": "25/03/2026 09:29",
+      "cves": [],
+      "vendor": "Google"
     },
     {
-      "title": "Arctic Wolf alerta para ataque no Quest KACE",
+      "title": "Novo livro: “Cibersegurança no Setor Elétrico”",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A Arctic Wolf detectou atividades suspeitas em redes de clientes relacionadas à exploração da CVE-2025-32975 , uma falha crítica de bypass de autenticação que afeta instâncias não corrigidas do Quest KACE Systems Management Appliance expostas à internet. A vulnerabilidade, corrigida pela Quest em maio de 2025, permite que agentes de ameaça não autenticados se passem por usuários legítimos, podendo levar à tomada administrativa completa do dispositivo. Segundo a Arctic Wolf, os atacantes utilizaram a falha para obter acesso inicial a um sistema e, em seguida, alcançaram controle administrativo.",
-      "link": "https://www.cisoadvisor.com.br/arctic-wolf-alerta-para-ataques-usando-falha-no-quest-kace/",
-      "published": "24/03/2026 12:21",
-      "cves": [
-        "CVE-2025-32975"
-      ],
+      "category": "threat",
+      "summary": "A digitalização acelerada das redes elétricas transformou a operação do setor, elevando níveis de eficiência, automação e conectividade. Ao mesmo tempo, ampliou de forma significativa a superfície de ataque e a exposição a riscos cibernéticos em uma das infraestruturas mais críticas da sociedade. É nesse cenário que foi lançado o livro “ Cibersegurança no Setor Elétrico: fundamentos, desafios e melhores práticas” , de Eduardo Honorato , na última quarta-feira (18), durante o UTCAL Summit 2026 , no Rio de Janeiro, evento que reúne os principais decisores da indústria de utilities da América Latina.",
+      "link": "https://www.cisoadvisor.com.br/novo-livro-cibersegurancac-no-setor-eletrico/",
+      "published": "25/03/2026 09:28",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "CISA exige correção urgente de falhas no iOS",
+      "title": "TeamPCP usa malware destrutivo contra sistemas iranianos",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA incluiu três vulnerabilidades do iOS em seu catálogo de falhas ativamente exploradas, exigindo que agências do governo dos Estados Unidos apliquem correções em até duas semanas. As falhas fazem parte de um conjunto de seis vulnerabilidades exploradas pelo kit DarkSword, utilizado em ataques de roubo de criptomoedas e ciberespionagem. O prazo para a aplicação dos patches por órgãos do Poder Executivo Federal norte-americano termina em 3 de abril, conforme diretriz estabelecida pela norma BOD 22-01. O kit DarkSword abusa de uma cadeia de seis vulnerabilidades, rastreadas como CVE-2025-31277, CVE-2025-43529, CVE-2026-20700, CVE-2025-14174, CVE-2025-43510 e CVE-2025-43520.",
-      "link": "https://www.cisoadvisor.com.br/cisa-exige-correcao-urgente-de-falhas-no-ios/",
-      "published": "24/03/2026 12:21",
-      "cves": [
-        "CVE-2025-31277",
-        "CVE-2025-43529",
-        "CVE-2026-20700",
-        "CVE-2025-14174",
-        "CVE-2025-43510",
-        "CVE-2025-43520"
-      ],
+      "category": "cloud",
+      "summary": "Pesquisadores da Aikido identificaram uma campanha do grupo TeamPCP que visa clusters Kubernetes com um script malicioso capaz de destruir máquinas configuradas para o Irã. O mesmo grupo é responsável pelo recente ataque à cadeia de suprimentos do scanner Trivy e pela campanha baseada em npm denominada CanisterWorm, iniciada em 20 de março. A nova campanha utiliza o mesmo canister ICP, servidor de comando e controle e código de backdoor observados nos incidentes anteriores, diferenciando-se pela inclusão de um payload destrutivo direcionado a sistemas iranianos.",
+      "link": "https://www.cisoadvisor.com.br/teampcp-usa-malware-destrutivo-contra-sistemas-iranianos/",
+      "published": "25/03/2026 09:28",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "QNAP atualiza roteadores SD-WAN após Pwn2Own",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A QNAP anunciou na sexta-feira a correção de múltiplas vulnerabilidades em seus produtos, incluindo quatro falhas demonstradas durante a competição de hacking Pwn2Own Ireland em outubro de 2025. Os defeitos de segurança, rastreados como CVE-2025-62843 a CVE-2025-62846, afetam os roteadores SD-WAN da empresa e foram corrigidos na versão 2.6.3.009 do QuRouter. De acordo com o aviso da fabricante, uma das falhas requer acesso físico ao dispositivo vulnerável para obtenção de privilégios específicos, enquanto outra pode ser explorada na rede local para obter informações sensíveis.",
-      "link": "https://www.cisoadvisor.com.br/qnap-atualiza-roteadores-sd-wan-apos-pwn2own/",
-      "published": "24/03/2026 12:21",
-      "cves": [
-        "CVE-2025-62843",
-        "CVE-2025-62846"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Citrix corrige falhas no NetScaler que afetam VPNs",
+      "title": "Dell corrige vulnerabilidades no Wyse Management Suite",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "Duas vulnerabilidades no NetScaler ADC e no NetScaler Gateway elevaram o alerta para ambientes corporativos que dependem de VPNs e serviços de autenticação remota. As falhas foram identificadas como CVE-2026-3055 e CVE-2026-4368 e afetam appliances amplamente usados na borda da rede para acesso seguro a aplicações e recursos internos. A mais grave é a CVE-2026-3055, descrita como uma falha de out-of-bounds read com CVSS v4 de 9,3.",
-      "link": "https://boletimsec.com/citrix-corrige-falhas-no-netscaler-que-afetam-vpns/",
-      "published": "24/03/2026 12:21",
+      "summary": "A Dell corrigiu vulnerabilidades no Wyse Management Suite (WMS) que podem abrir caminho para comprometimento do servidor de gerenciamento em ambientes corporativos. O problema afeta implantações on-premises do produto em versões anteriores à 5.5, e a fabricante recomenda atualização imediata para reduzir o risco de exploração. O principal alerta envolve a CVE-2026-22765, falha de missing authorization com CVSS 8,8. Segundo a Dell, um invasor com privilégios baixos e acesso remoto poderia explorar a brecha para elevar privilégios dentro do sistema. Outro problema importante é a CVE-2026-22766, classificada como upload irrestrito de arquivo perigoso, com CVSS 7,2.",
+      "link": "https://boletimsec.com/dell-corrige-vulnerabilidades-no-wyse-management-suite/",
+      "published": "25/03/2026 09:28",
       "cves": [
-        "CVE-2026-3055",
-        "CVE-2026-4368"
+        "CVE-2026-22765",
+        "CVE-2026-22766"
       ],
-      "vendor": "Citrix"
+      "vendor": null
+    },
+    {
+      "title": "Ladrões de crypto buscam vítimas anunciando falsas vagas",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Os pesquisadores da Counter Threat Unit™ (CTU) continuam investigando as tendências nas atividades da campanha Contagious Interview, conduzida pelo NICKEL ALLEY, um grupo de ameaças que opera em nome do governo norte-coreano. O grupo é conhecido por ter como alvo profissionais do setor de tecnologia, anunciando oportunidades de emprego falsas, enganando candidatos em potencial por meio de um processo de entrevista de emprego falso e, por fim, distribuindo malware. Em ataques direcionados, o NICKEL ALLEY frequentemente cria uma página falsa da empresa no LinkedIn para construir credibilidade e mantém uma conta no GitHub para coordenar a entrega de malware.",
+      "link": "https://www.cisoadvisor.com.br/ladroes-de-crypto-buscam-vitimas-anunciando-falsas-vagas/",
+      "published": "25/03/2026 09:29",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
