@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-03-25T12:00:00.190680-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-03-26T10:07:50.168359-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "2 horas Segurança O phishing de sempre mudou de forma e agora fala com você",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O phishing por voz, também conhecido como vishing , vem ganhando mais espaço em golpes digitais. Segundo o M-Trends, relatório anual da Mandiant, subsidiária de cibersegurança do Google, essa tática teve um aumento significativo no último ano. A pesquisa mostrou que o vishing foi usado como principal vetor de ataques digitais em 11% dos casos registrados em 2025, aparecendo como o segundo método mais popular entre os criminosos para obter acesso ilegal a sistemas alheios. Também foi identificado que a exploração de vulnerabilidades representou 32% dos ataques bem-sucedidos no mesmo período analisado. Por outro lado, golpes com e-mails de phishing diminuíram, marcando apenas 6% no ranking.",
-      "link": "https://canaltech.com.br/seguranca/o-phishing-de-sempre-mudou-de-forma-e-agora-fala-com-voce/",
-      "published": "25/03/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "38 min Segurança Tem iPhone antigo? Um novo malware pode colocar seus dados em risco",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "Um novo malware para iPhone chamado “DarkSword” foi detectado por especialistas. De acordo com o PCMag, o software malicioso atinge versões antigas do iOS de maneira remota, abrindo espaço para que hackers coletem dados dos usuários. O ataque veio à tona na última semana depois de um vazamento do código-fonte no GitHub, gerando preocupação entre os pesquisadores. Até o momento, sabe-se que o malware pode estar hospedado em um site que contém um link que instala secretamente o software comprometido em iPhones com as versões iOS 18.4 a 18.7 .",
-      "link": "https://canaltech.com.br/seguranca/tem-iphone-antigo-um-novo-malware-pode-colocar-seus-dados-em-risco/",
-      "published": "25/03/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "IA transforma fraude em operação automatizada e escalável",
+      "title": "TP-Link corrige falha crítica em roteadores Archer",
       "source": "CISO Advisor",
-      "priority": "Baixa",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A TP-Link lançou patches para múltiplas vulnerabilidades em sua série de roteadores Archer NX, incluindo uma falha de gravidade crítica que pode permitir que atacantes ignorem a autenticação e realizem upload de novo firmware. A vulnerabilidade, rastreada como CVE-2025-15517 , afeta os modelos Archer NX200, NX210, NX500 e NX600. A empresa explicou que a falha decorre da ausência de verificação de autenticação no servidor HTTP para determinados endpoints CGI, permitindo acesso não autenticado a ações destinadas a usuários autenticados.",
+      "link": "https://www.cisoadvisor.com.br/tp-link-corrige-falha-critica-em-roteadores-archer/",
+      "published": "26/03/2026 10:07",
+      "cves": [
+        "CVE-2025-15517"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Apple lança patches para iOS, iPadOS e macOS",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Apple lançou atualizações de segurança que corrigem dezenas de vulnerabilidades em iOS, iPadOS e macOS. Segundo a empresa, nenhuma das falhas está sendo utilizada em ataques e nenhuma permite execução remota de código. Um grande número dos problemas corrigidos permite que aplicativos instalados acessem dados sensíveis dos usuários, embora a Apple não tenha detalhado exatamente quais informações estão envolvidas. Uma vulnerabilidade no componente de rede 802.1X, co-descoberta pelo pesquisador belga Mathy Vanhoef da KU Leuven e presente tanto no iOS quanto no macOS, permite que um atacante em uma “posição privilegiada na rede” intercepte o tráfego.",
+      "link": "https://www.cisoadvisor.com.br/apple-lanca-patches-para-ios-ipados-e-macos/",
+      "published": "26/03/2026 10:07",
+      "cves": [],
+      "vendor": "Apple"
+    },
+    {
+      "title": "Node.js corrige múltiplas vulnerabilidades que podem causar DoS",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Node.js corrigiu múltiplas vulnerabilidades que podem causar negação de serviço (DoS) e afetar aplicações em produção, em uma nova rodada de updates publicada em 24 de março de 2026. As correções foram liberadas para as linhas 20.x, 22.x, 24.x e 25.x, nas versões 20.20.2, 22.22.2, 24.14.1 e 25.8.2. Segundo o projeto, o pacote corrige duas falhas de alta severidade, cinco de média e duas de baixa. Uma das mais críticas é a CVE-2026-21637, em que uma exceção gerada no SNICallback pode escapar do tratamento de erro do TLS e derrubar o processo com uma uncaught exception, abrindo caminho para DoS em servidores que usam esse recurso.",
+      "link": "https://boletimsec.com/node-js-corrige-multiplas-vulnerabilidades-que-podem-causar-dos/",
+      "published": "26/03/2026 10:07",
+      "cves": [
+        "CVE-2026-21637"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Passo a passo no ataque a 200 mil PCs da Stryker",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "identity",
-      "summary": "A Prove Identity divulgou o relatório “ O Estado da Identidade 2026 “, apontando que o avanço da inteligência artificial transformou a fraude em uma operação escalável, automatizada e de baixo custo. O estudo revela que as pessoas identificam vídeos deepfake corretamente em apenas 40% dos casos, comprometendo a verificação visual como sinal confiável de identidade. Desde 2022, 2,2 bilhões de identidades digitais foram vazadas globalmente, exposição que permitiu à IA generativa ampliar a capacidade de atuação dos fraudadores. O levantamento aponta que 76% das empresas relatam maior volume de ataques e 69% enfrentam ameaças mais sofisticadas, como engenharia social.",
-      "link": "https://www.cisoadvisor.com.br/ia-transforma-fraude-em-operacao-automatizada-e-escalavel/",
-      "published": "25/03/2026 12:00",
+      "summary": "Em 11 de março de 2026, a empresa americana Stryker, especializada em tecnologia para medicina, sofreu um ataque cibernético que causou uma disrupção global em seu ambiente corporativo Microsoft. O ataque foi reivindicado pelo grupo Handala, supostamente apoiado pelo governo do Irã. De acordo com documentos do Departamento de Justiça dos EUA, os hackers iranianos utilizaram uma funcionalidade nativa do Microsoft Intune – o recurso de limpeza remota de dispositivos – para destruir dados corporativos em mais de 200.000 dispositivos da Stryker nos Estados Unidos, Irlanda, Índia e outros países. Inicialmente, a empresa afirmou não haver indícios de ransomware ou malware.",
+      "link": "https://www.cisoadvisor.com.br/passo-a-passo-no-ataque-a-200-mil-pcs-da-stryker/",
+      "published": "26/03/2026 10:07",
       "cves": [],
-      "vendor": null
+      "vendor": "Microsoft"
     },
     {
-      "title": "Cibercriminosos comprometem 7.500 sites Magento em campanha de larga escala",
+      "title": "Ransomware Pay2Key ataca servidores Linux com foco em ambientes críticos",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "patches",
-      "summary": "Cibercriminosos comprometeram 7.500 sites Magento em uma campanha de larga escala que transformou lojas virtuais legítimas em plataforma para fraude e distribuição de conteúdo malicioso. O caso acende um novo alerta para o setor de e-commerce, que segue entre os alvos mais visados por concentrar pagamentos, dados de clientes e alto volume de acessos confiáveis. A ofensiva atingiu ambientes baseados no Magento, plataforma amplamente usada por operações de comércio eletrônico em diferentes mercados.",
-      "link": "https://boletimsec.com/cibercriminosos-comprometem-7-500-sites-magento-em-campanha-de-larga-escala/",
-      "published": "25/03/2026 12:00",
+      "category": "identity",
+      "summary": "O Pay2Key passou a atacar servidores Linux com uma variante voltada a ambientes críticos, ampliando o alerta para organizações que dependem de infraestrutura baseada nesse sistema. Segundo a análise publicada, a amostra Pay2Key.I2 foi observada em atividade desde o fim de agosto de 2025 e mostra foco em servidores corporativos, hosts de virtualização e workloads em nuvem. A campanha chama atenção porque deixa de lado estações de trabalho e mira diretamente a camada de infraestrutura.",
+      "link": "https://boletimsec.com/ransomware-pay2key-ataca-servidores-linux-com-foco-em-ambientes-criticos/",
+      "published": "26/03/2026 10:07",
       "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "HackerOne é afetada por vazamento de fornecedor nos EUA",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A HackerOne informou que foi afetada por um vazamento de dados em um fornecedor nos Estados Unidos, após a violação da Navia Benefit Solutions, empresa responsável pela administração de benefícios de parte de seus funcionários no país. Segundo a companhia, o incidente não atingiu diretamente a plataforma de bug bounty, mas expôs informações pessoais de 287 colaboradores. De acordo com os relatos divulgados, o ataque à Navia explorou uma falha do tipo Broken Object Level Authorization (BOLA), que permitiu acesso não autorizado, em modo somente leitura, a dados mantidos pelo fornecedor.",
-      "link": "https://boletimsec.com/hackerone-e-afetada-por-vazamento-de-fornecedor-nos-eua/",
-      "published": "25/03/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "vendor": "Linux"
     }
   ]
 }
