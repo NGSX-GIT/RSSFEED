@@ -1,66 +1,72 @@
 {
-  "generated_at": "2026-03-26T10:07:50.168359-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-03-27T10:50:07.793169-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "TP-Link corrige falha crítica em roteadores Archer",
+      "title": "CISA alerta sobre exploração ativa no Langflow",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A TP-Link lançou patches para múltiplas vulnerabilidades em sua série de roteadores Archer NX, incluindo uma falha de gravidade crítica que pode permitir que atacantes ignorem a autenticação e realizem upload de novo firmware. A vulnerabilidade, rastreada como CVE-2025-15517 , afeta os modelos Archer NX200, NX210, NX500 e NX600. A empresa explicou que a falha decorre da ausência de verificação de autenticação no servidor HTTP para determinados endpoints CGI, permitindo acesso não autenticado a ações destinadas a usuários autenticados.",
-      "link": "https://www.cisoadvisor.com.br/tp-link-corrige-falha-critica-em-roteadores-archer/",
-      "published": "26/03/2026 10:07",
+      "summary": "A CISA adicionou ao seu catálogo de vulnerabilidades ativamente exploradas uma falha crítica no Langflow, framework de código aberto para construção de agentes de IA. Identificada como CVE-2026-33017 , a vulnerabilidade recebeu pontuação 9,3 no CVSS e pode ser utilizada para execução remota de código, permitindo que agentes de ameaça criem fluxos públicos sem necessidade de autenticação. A agência descreveu o problema como uma falha de injeção de código que afeta as versões 1.8.1 e anteriores do framework. Pesquisadores da Sysdig afirmam que os ataques começaram em 19 de março, aproximadamente 20 horas após a publicação do aviso sobre a vulnerabilidade.",
+      "link": "https://www.cisoadvisor.com.br/cisa-alerta-sobre-exploracao-ativa-no-langflow/",
+      "published": "27/03/2026 10:50",
       "cves": [
-        "CVE-2025-15517"
+        "CVE-2026-33017"
       ],
       "vendor": null
     },
     {
-      "title": "Apple lança patches para iOS, iPadOS e macOS",
+      "title": "Cisco corrige 12 falhas em IOS e IOS XE",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Apple lançou atualizações de segurança que corrigem dezenas de vulnerabilidades em iOS, iPadOS e macOS. Segundo a empresa, nenhuma das falhas está sendo utilizada em ataques e nenhuma permite execução remota de código. Um grande número dos problemas corrigidos permite que aplicativos instalados acessem dados sensíveis dos usuários, embora a Apple não tenha detalhado exatamente quais informações estão envolvidas. Uma vulnerabilidade no componente de rede 802.1X, co-descoberta pelo pesquisador belga Mathy Vanhoef da KU Leuven e presente tanto no iOS quanto no macOS, permite que um atacante em uma “posição privilegiada na rede” intercepte o tráfego.",
-      "link": "https://www.cisoadvisor.com.br/apple-lanca-patches-para-ios-ipados-e-macos/",
-      "published": "26/03/2026 10:07",
-      "cves": [],
-      "vendor": "Apple"
-    },
-    {
-      "title": "Node.js corrige múltiplas vulnerabilidades que podem causar DoS",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Node.js corrigiu múltiplas vulnerabilidades que podem causar negação de serviço (DoS) e afetar aplicações em produção, em uma nova rodada de updates publicada em 24 de março de 2026. As correções foram liberadas para as linhas 20.x, 22.x, 24.x e 25.x, nas versões 20.20.2, 22.22.2, 24.14.1 e 25.8.2. Segundo o projeto, o pacote corrige duas falhas de alta severidade, cinco de média e duas de baixa. Uma das mais críticas é a CVE-2026-21637, em que uma exceção gerada no SNICallback pode escapar do tratamento de erro do TLS e derrubar o processo com uma uncaught exception, abrindo caminho para DoS em servidores que usam esse recurso.",
-      "link": "https://boletimsec.com/node-js-corrige-multiplas-vulnerabilidades-que-podem-causar-dos/",
-      "published": "26/03/2026 10:07",
+      "summary": "A Cisco anunciou a correção de uma dúzia de vulnerabilidade s de gravidade alta e média em IOS e IOS XE, a maioria das quais pode ser explorada para causar condições de negação de serviço. Os patches foram lançados como parte do pacote semestral de avisos de segurança da Cisco para IOS e IOS XE. Embora nenhuma das falhas pareça ter sido explorada em ataques, informações técnicas sobre quatro delas foram publicadas. As vulnerabilidades divulgadas publicamente afetam switches da série Catalyst 9300. As quatro falhas, rastreadas como CVE-2026-20110, CVE-2026-20112, CVE-2026-20113 e CVE-2026-20114, são defeitos de gravidade média.",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-12-falhas-em-ios-e-ios-xe/",
+      "published": "27/03/2026 10:50",
       "cves": [
-        "CVE-2026-21637"
+        "CVE-2026-20110",
+        "CVE-2026-20112",
+        "CVE-2026-20113",
+        "CVE-2026-20114"
       ],
-      "vendor": null
+      "vendor": "Cisco"
     },
     {
-      "title": "Passo a passo no ataque a 200 mil PCs da Stryker",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "Em 11 de março de 2026, a empresa americana Stryker, especializada em tecnologia para medicina, sofreu um ataque cibernético que causou uma disrupção global em seu ambiente corporativo Microsoft. O ataque foi reivindicado pelo grupo Handala, supostamente apoiado pelo governo do Irã. De acordo com documentos do Departamento de Justiça dos EUA, os hackers iranianos utilizaram uma funcionalidade nativa do Microsoft Intune – o recurso de limpeza remota de dispositivos – para destruir dados corporativos em mais de 200.000 dispositivos da Stryker nos Estados Unidos, Irlanda, Índia e outros países. Inicialmente, a empresa afirmou não haver indícios de ransomware ou malware.",
-      "link": "https://www.cisoadvisor.com.br/passo-a-passo-no-ataque-a-200-mil-pcs-da-stryker/",
-      "published": "26/03/2026 10:07",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Ransomware Pay2Key ataca servidores Linux com foco em ambientes críticos",
-      "source": "BoletimSec Notícias",
+      "title": "1 dia Segurança Tem iPhone antigo? Um novo malware pode colocar seus dados em risco",
+      "source": "Canaltech Segurança",
       "priority": "Média",
-      "category": "identity",
-      "summary": "O Pay2Key passou a atacar servidores Linux com uma variante voltada a ambientes críticos, ampliando o alerta para organizações que dependem de infraestrutura baseada nesse sistema. Segundo a análise publicada, a amostra Pay2Key.I2 foi observada em atividade desde o fim de agosto de 2025 e mostra foco em servidores corporativos, hosts de virtualização e workloads em nuvem. A campanha chama atenção porque deixa de lado estações de trabalho e mira diretamente a camada de infraestrutura.",
-      "link": "https://boletimsec.com/ransomware-pay2key-ataca-servidores-linux-com-foco-em-ambientes-criticos/",
-      "published": "26/03/2026 10:07",
+      "category": "breach",
+      "summary": "Um novo malware para iPhone chamado “DarkSword” foi detectado por especialistas. De acordo com o PCMag, o software malicioso atinge versões antigas do iOS de maneira remota, abrindo espaço para que hackers coletem dados dos usuários. O ataque veio à tona na última semana depois de um vazamento do código-fonte no GitHub, gerando preocupação entre os pesquisadores. Até o momento, sabe-se que o malware pode estar hospedado em um site que contém um link que instala secretamente o software comprometido em iPhones com as versões iOS 18.4 a 18.7 .",
+      "link": "https://canaltech.com.br/seguranca/tem-iphone-antigo-um-novo-malware-pode-colocar-seus-dados-em-risco/",
+      "published": "27/03/2026 10:50",
       "cves": [],
-      "vendor": "Linux"
+      "vendor": null
+    },
+    {
+      "title": "Ferramenta ligada a ataques sofisticados volta a ameaçar iPhones",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A ferramenta Coruna, ligada a ataques sofisticados contra iPhones, voltou ao centro das atenções após pesquisadores identificarem conexões técnicas diretas com a operação Triangulation, campanha de espionagem revelada em 2023. A nova análise indica que o kit não desapareceu com o tempo: ele evoluiu e passou a sustentar ofensivas mais amplas contra usuários de iOS. Segundo a Kaspersky, o exploit de kernel usado pelo Coruna para as falhas CVE-2023-32434 e CVE-2023-38606 é uma versão atualizada do mesmo código empregado em Triangulation. Os pesquisadores afirmam que não se trata de uma simples reutilização de exploits públicos, mas da continuidade do mesmo framework de exploração.",
+      "link": "https://boletimsec.com/ferramenta-ligada-a-ataques-sofisticados-volta-a-ameacar-iphones/",
+      "published": "27/03/2026 10:50",
+      "cves": [
+        "CVE-2023-32434",
+        "CVE-2023-38606"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Autoridades prendem operador ligado ao fórum LeakBase",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "Autoridades prenderam um operador ligado ao fórum LeakBase, em mais um desdobramento da ofensiva internacional contra plataformas usadas para venda de dados roubados e ferramentas de cibercrime. A detenção foi reportada por veículos estatais russos e ocorre poucas semanas depois da derrubada do próprio fórum em uma ação coordenada entre agências de vários países. Segundo as informações divulgadas, o suspeito seria morador de Taganrog, no sul da Rússia, e é apontado como criador e administrador do LeakBase, plataforma que operava desde 2021. Durante buscas no endereço ligado ao investigado, autoridades afirmaram ter apreendido equipamentos e outros materiais de interesse para a investigação.",
+      "link": "https://boletimsec.com/autoridades-prendem-operador-ligado-ao-forum-leakbase/",
+      "published": "27/03/2026 10:50",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
