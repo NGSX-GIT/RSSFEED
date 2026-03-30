@@ -1,60 +1,62 @@
 {
-  "generated_at": "2026-03-27T12:00:00.414301-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-03-30T09:32:49.411677-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "2 dias Segurança Tem iPhone antigo? Um novo malware pode colocar seus dados em risco",
-      "source": "Canaltech Segurança",
+      "title": "Exploração ativa de falha crítica em F5 BIG-IP",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Centro Nacional de Cibersegurança da Holanda (NCSC) emitiu um alerta sobre a exploração ativa de uma vulnerabilidade crítica em produtos F5 BIG-IP, que permite execução remota de código (RCE). A falha, identificada como CVE-2025-53521 , foi corrigida pela F5 em outubro do ano passado, mas agora está sendo explorada por atacantes, conforme comunicado do NCSC . A agência de segurança cibernética dos EUA (CISA) também emitiu uma advertência sobre o caso. Diferentemente do prazo padrão de duas a três semanas para instalação de patches, a CISA determinou que órgãos do governo americano apliquem a correção em apenas três dias .",
+      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-critica-em-f5-big-ip/",
+      "published": "30/03/2026 09:32",
+      "cves": [
+        "CVE-2025-53521"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Falha no plugin Smart Slider expõe 800 mil sites",
+      "source": "CISO Advisor",
       "priority": "Média",
-      "category": "breach",
-      "summary": "Um novo malware para iPhone chamado “DarkSword” foi detectado por especialistas. De acordo com o PCMag, o software malicioso atinge versões antigas do iOS de maneira remota, abrindo espaço para que hackers coletem dados dos usuários. O ataque veio à tona na última semana depois de um vazamento do código-fonte no GitHub, gerando preocupação entre os pesquisadores. Até o momento, sabe-se que o malware pode estar hospedado em um site que contém um link que instala secretamente o software comprometido em iPhones com as versões iOS 18.4 a 18.7 .",
-      "link": "https://canaltech.com.br/seguranca/tem-iphone-antigo-um-novo-malware-pode-colocar-seus-dados-em-risco/",
-      "published": "27/03/2026 12:00",
+      "category": "patches",
+      "summary": "Sites construídos com WordPress podem estar expostos a vazamento de dados sensíveis devido a uma vulnerabilidade de leitura arbitrária de arquivos no plugin Smart Slider 3, que possui mais de 800 mil instalações ativas. A falha permite que usuários autenticados com permissões mínimas, como assinantes, acessem arquivos internos do servidor, incluindo credenciais e chaves criptográficas. A vulnerabilidade foi identificada por Dmitrii Ignatyev, que reportou o problema em 23 de fevereiro de 2026 por meio do programa Bug Bounty da Wordfence. Segundo Ignatyev, o vetor de ataque permite a leitura de arquivos arbitrários a partir de funções internas do plugin.",
+      "link": "https://www.cisoadvisor.com.br/falha-em-plugin-smart-slider-expoe-800-mil-sites/",
+      "published": "30/03/2026 09:32",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "2 dias Segurança O phishing de sempre mudou de forma e agora fala com você",
-      "source": "Canaltech Segurança",
+      "title": "Ciberataque a porto na Espanha afeta tráfego",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "O Porto de Vigo sofreu um ciberataque que comprometeu a gestão do tráfego de mercadorias e a operação de seus serviços digitais na última terça-feira, informa Carlos Botana, presidente da Autoridade Portuária de Vigo (APV). O incidente, identificado como um ataque de ransomware ou sequestro de dados, foi detectado às 05h45 da manhã, forçando a instituição a isolar seus servidores de conexões externas para neutralizar a ameaça. Botana explica que, embora a atividade física de carga e descarga não tenha sido paralisada, a interrupção digital obrigou a comunidade portuária a recorrer a métodos manuais, como o uso de registros em papel para organizar a logística nas terminais.",
+      "link": "https://www.cisoadvisor.com.br/ciberataque-a-porto-na-espanha-afeta-trafego/",
+      "published": "30/03/2026 09:32",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Grupo ligado à China usa malware para espionar redes de telecomunicações",
+      "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "identity",
-      "summary": "O phishing por voz, também conhecido como vishing , vem ganhando mais espaço em golpes digitais. Segundo o M-Trends, relatório anual da Mandiant, subsidiária de cibersegurança do Google, essa tática teve um aumento significativo no último ano. A pesquisa mostrou que o vishing foi usado como principal vetor de ataques digitais em 11% dos casos registrados em 2025, aparecendo como o segundo método mais popular entre os criminosos para obter acesso ilegal a sistemas alheios. Também foi identificado que a exploração de vulnerabilidades representou 32% dos ataques bem-sucedidos no mesmo período analisado. Por outro lado, golpes com e-mails de phishing diminuíram, marcando apenas 6% no ranking.",
-      "link": "https://canaltech.com.br/seguranca/o-phishing-de-sempre-mudou-de-forma-e-agora-fala-com-voce/",
-      "published": "27/03/2026 12:00",
+      "summary": "Um grupo ligado à China está usando malware furtivo para espionar redes de telecomunicações e manter acesso prolongado a ambientes estratégicos, em uma campanha atribuída ao cluster Red Menshen. Segundo a investigação, a operação atinge operadoras no Oriente Médio e na Ásia desde pelo menos 2021, com o objetivo de alcançar também redes governamentais conectadas a essa infraestrutura. O principal componente da campanha é o BPFDoor, um backdoor para Linux projetado para operar com baixo ruído. Diferentemente de malwares tradicionais, ele não mantém portas abertas nem canais visíveis de comando e controle.",
+      "link": "https://boletimsec.com/grupo-ligado-a-china-usa-malware-para-espionar-redes-de-telecomunicacoes/",
+      "published": "30/03/2026 09:32",
       "cves": [],
-      "vendor": "Google"
+      "vendor": "Linux"
     },
     {
-      "title": "LiteLLM comprometido em ataque de cadeia de suprimentos",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "cloud",
-      "summary": "O LiteLLM, pacote Python de código aberto amplamente utilizado por sistemas de inteligência artificial, foi comprometido em um ataque à cadeia de suprimentos. As versões comprometidas, identificadas como 1.82.7 e 1.82.8, foram publicadas no Python Package Index na terça-feira e baixadas inadvertidamente em ambientes de desenvolvimento e nuvem. De acordo com especialistas da Sonatype, os pacotes maliciosos ficaram disponíveis por pelo menos duas horas em 24 de março. Considerando que o pacote tem cerca de três milhões de downloads diários, os pesquisadores afirmam que os hackers podem ter alcançado um número significativo de vítimas durante esse período.",
-      "link": "https://www.cisoadvisor.com.br/119524-2/",
-      "published": "27/03/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Agentes de IA podem sofrer bullying e virar ameaça",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "Pesquisadores do F5 Labs descobriram que agentes de inteligência artificial com traços de personalidade podem ser manipulados por meio de técnicas de engenharia social e bullying psicológico, levando-os a violar políticas de segurança e agir de forma destrutiva. O estudo foi divulgado hoje pela F5 e alerta para uma nova fronteira de vulnerabilidade em ativos digitais cada vez mais estratégicos. De acordo com Roberto Ricossa, vice-presidente da F5 América Latina, “em 2026, veremos cada vez mais os agentes de IA se consolidarem como o cérebro e os braços da IA”.",
-      "link": "https://www.cisoadvisor.com.br/agentes-de-ia-podem-sofrer-bullying-e-virar-ameaca/",
-      "published": "27/03/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "GhostClaw mira usuários de macOS com malware distribuído",
+      "title": "Diferença entre Pentest com IA e Pentest Autônomo",
       "source": "BoletimSec Notícias",
       "priority": "Baixa",
-      "category": "identity",
-      "summary": "A campanha GhostClaw passou a mirar usuários de macOS com malware distribuído por repositórios falsos no GitHub, ampliando o alerta para ataques que exploram hábitos comuns de desenvolvedores e fluxos de trabalho assistidos por IA. A investigação foi conduzida pela Jamf Threat Labs, que identificou ao menos oito novas amostras ligadas à operação. Segundo os pesquisadores, a campanha expandiu um modelo já visto antes em pacotes maliciosos no ecossistema npm e passou a usar repositórios que se passam por bots de trading, SDKs e utilitários de desenvolvimento. Em alguns casos, esses projetos acumulavam centenas de estrelas, reforçando a aparência de legitimidade.",
-      "link": "https://boletimsec.com/ghostclaw-mira-usuarios-de-macos-com-malware-distribuido/",
-      "published": "27/03/2026 12:00",
+      "category": "patches",
+      "summary": "Nos últimos meses começou a surgir no mercado termos como “pentest autônomo” e “pentest com IA” . A ideia parece boa, uma plataforma que executa testes de invasão de forma independente e em grande escala. Porém na prática grande parte dessas soluções funciona de forma muito próxima de um scanner automatizado . Elas executam listas de ataques pré-definidos, verificam vulnerabilidades conhecidas e retornam resultados baseados em padrões programados, mas com pouca capacidade real de adaptação ao ambiente testado . O problema é que ataques reais não seguem roteiros fixos .",
+      "link": "https://boletimsec.com/diferenca-entre-pentest-com-ia-e-pentest-autonomo/",
+      "published": "30/03/2026 09:32",
       "cves": [],
       "vendor": null
     }
