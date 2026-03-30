@@ -1,62 +1,60 @@
 {
-  "generated_at": "2026-03-30T09:32:49.411677-03:00",
+  "generated_at": "2026-03-30T12:00:00.191157-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Exploração ativa de falha crítica em F5 BIG-IP",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Centro Nacional de Cibersegurança da Holanda (NCSC) emitiu um alerta sobre a exploração ativa de uma vulnerabilidade crítica em produtos F5 BIG-IP, que permite execução remota de código (RCE). A falha, identificada como CVE-2025-53521 , foi corrigida pela F5 em outubro do ano passado, mas agora está sendo explorada por atacantes, conforme comunicado do NCSC . A agência de segurança cibernética dos EUA (CISA) também emitiu uma advertência sobre o caso. Diferentemente do prazo padrão de duas a três semanas para instalação de patches, a CISA determinou que órgãos do governo americano apliquem a correção em apenas três dias .",
-      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-critica-em-f5-big-ip/",
-      "published": "30/03/2026 09:32",
-      "cves": [
-        "CVE-2025-53521"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha no plugin Smart Slider expõe 800 mil sites",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Sites construídos com WordPress podem estar expostos a vazamento de dados sensíveis devido a uma vulnerabilidade de leitura arbitrária de arquivos no plugin Smart Slider 3, que possui mais de 800 mil instalações ativas. A falha permite que usuários autenticados com permissões mínimas, como assinantes, acessem arquivos internos do servidor, incluindo credenciais e chaves criptográficas. A vulnerabilidade foi identificada por Dmitrii Ignatyev, que reportou o problema em 23 de fevereiro de 2026 por meio do programa Bug Bounty da Wordfence. Segundo Ignatyev, o vetor de ataque permite a leitura de arquivos arbitrários a partir de funções internas do plugin.",
-      "link": "https://www.cisoadvisor.com.br/falha-em-plugin-smart-slider-expoe-800-mil-sites/",
-      "published": "30/03/2026 09:32",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ciberataque a porto na Espanha afeta tráfego",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "O Porto de Vigo sofreu um ciberataque que comprometeu a gestão do tráfego de mercadorias e a operação de seus serviços digitais na última terça-feira, informa Carlos Botana, presidente da Autoridade Portuária de Vigo (APV). O incidente, identificado como um ataque de ransomware ou sequestro de dados, foi detectado às 05h45 da manhã, forçando a instituição a isolar seus servidores de conexões externas para neutralizar a ameaça. Botana explica que, embora a atividade física de carga e descarga não tenha sido paralisada, a interrupção digital obrigou a comunidade portuária a recorrer a métodos manuais, como o uso de registros em papel para organizar a logística nas terminais.",
-      "link": "https://www.cisoadvisor.com.br/ciberataque-a-porto-na-espanha-afeta-trafego/",
-      "published": "30/03/2026 09:32",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Grupo ligado à China usa malware para espionar redes de telecomunicações",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Um grupo ligado à China está usando malware furtivo para espionar redes de telecomunicações e manter acesso prolongado a ambientes estratégicos, em uma campanha atribuída ao cluster Red Menshen. Segundo a investigação, a operação atinge operadoras no Oriente Médio e na Ásia desde pelo menos 2021, com o objetivo de alcançar também redes governamentais conectadas a essa infraestrutura. O principal componente da campanha é o BPFDoor, um backdoor para Linux projetado para operar com baixo ruído. Diferentemente de malwares tradicionais, ele não mantém portas abertas nem canais visíveis de comando e controle.",
-      "link": "https://boletimsec.com/grupo-ligado-a-china-usa-malware-para-espionar-redes-de-telecomunicacoes/",
-      "published": "30/03/2026 09:32",
-      "cves": [],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Diferença entre Pentest com IA e Pentest Autônomo",
+      "title": "Microsoft endurece proteção do kernel no Windows 11 e Server 2025",
       "source": "BoletimSec Notícias",
       "priority": "Baixa",
       "category": "patches",
-      "summary": "Nos últimos meses começou a surgir no mercado termos como “pentest autônomo” e “pentest com IA” . A ideia parece boa, uma plataforma que executa testes de invasão de forma independente e em grande escala. Porém na prática grande parte dessas soluções funciona de forma muito próxima de um scanner automatizado . Elas executam listas de ataques pré-definidos, verificam vulnerabilidades conhecidas e retornam resultados baseados em padrões programados, mas com pouca capacidade real de adaptação ao ambiente testado . O problema é que ataques reais não seguem roteiros fixos .",
-      "link": "https://boletimsec.com/diferenca-entre-pentest-com-ia-e-pentest-autonomo/",
-      "published": "30/03/2026 09:32",
+      "summary": "A Microsoft vai endurecer a proteção do kernel no Windows 11 e no Windows Server 2025 ao remover, por padrão, a confiança em drivers assinados pelo antigo modelo de cross-signing. A mudança começa com a atualização de abril de 2026 e atinge as versões Windows 11 24H2, 25H2, 26H1 e o Windows Server 2025. Na prática, o sistema passará a confiar automaticamente apenas em drivers aprovados pelo Windows Hardware Compatibility Program (WHCP). Segundo a Microsoft, esse fluxo inclui validação do fornecedor, testes de compatibilidade e checagens de segurança antes da assinatura final, feita sob controle da própria empresa.",
+      "link": "https://boletimsec.com/microsoft-endurece-protecao-do-kernel-no-windows-11-e-server-2025/",
+      "published": "30/03/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Microsoft suspende um update do Windows 11 após falhas",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A Microsoft suspendeu temporariamente a distribuição da atualização opcional KB5079391 para Windows 11 após relatos de falhas de instalação em alguns dispositivos. A decisão foi confirmada em atualização do suporte da empresa em 27 de março. De acordo com a página de suporte da Microsoft, dispositivos que tentaram instalar o KB5079391 apresentaram a mensagem: “Alguns arquivos de atualização estão ausentes ou com problemas. Tentaremos baixar a atualização novamente mais tarde. Código de erro: (0x80073712)”. A empresa informou que a atualização pode não estar mais sendo oferecida pelo Windows Update como resultado da pausa na distribuição.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-suspende-um-update-do-windows-11-apos-falhas/",
+      "published": "30/03/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "4 dias Segurança FBI desativa 4 botnets que afetaram mais de 3 milhões de redes com ataques DDoS",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O FBI e o Departamento de Justiça dos EUA desativaram quatro botnets que impactaram mais de 3 milhões de dispositivos domésticos com ataques de Negação de Serviço Distribuído (DDoS). A operação interrompeu as botnets conhecidas como Aisuru, KimWolf, JackSkid e Mossad, responsáveis por campanhas sofisticadas em todo o mundo. Para isso, as autoridades apreenderam domínios de internet e servidores, cortando a ligação entre os hackers e os dispositivos infectados. A ação contou com a ajuda das polícias canadense e alemã, além de big techs que apoiaram o rastreamento das botnets.",
+      "link": "https://canaltech.com.br/seguranca/fbi-desativa-4-botnets-que-afetaram-mais-de-3-milhoes-de-redes-com-ataques-ddos/",
+      "published": "30/03/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "4 dias Segurança Novo golpe que preocupa o FBI pode começar com uma mensagem no WhatsApp",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O FBI e a Agência de Segurança Cibernética e de Infraestrutura (CISA) investigam campanhas de phishing , organizadas por hackers associados aos serviços de inteligência da Rússia, que usam o WhatsApp e o Signal para roubar dados confidenciais. De acordo com a agência federal, os criminosos comprometem os aplicativos de mensagem em ataques direcionados a pessoas consideradas de “alto valor de inteligência”, como funcionários atuais e antigos do governo dos Estados Unidos, militares, figuras políticas e jornalistas.",
+      "link": "https://canaltech.com.br/seguranca/novo-golpe-que-preocupa-o-fbi-pode-comecar-com-uma-mensagem-no-whatsapp/",
+      "published": "30/03/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "15 horas Segurança Como identificar um arquivo ZIP suspeito antes de abrir",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 29/03/2026 às 20:00 Boletos, notas fiscais, currículos, documentos importantes em geral: muita coisa recebida por e-mails ou mensagens costuma vir no formato ZIP , um tipo de arquivo compactado comum e, em geral, legítimo. A tecnologia, no entanto, por ser reconhecível, é bastante usada por golpistas para espalhar malwares , se aproveitando da confiança do usuário. Como checar arquivos ZIP antes de abrir para evitar, por exemplo, o recente Zombie ZIP ?",
+      "link": "https://canaltech.com.br/seguranca/como-identificar-um-arquivo-zip-suspeito-antes-de-abrir/",
+      "published": "30/03/2026 12:00",
       "cves": [],
       "vendor": null
     }
