@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T09:51:33.721264-03:00",
+  "generated_at": "2026-03-31T11:20:00.130969-03:00",
   "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica de SQL Injection no Fortinet FortiClientEMS está sendo explorada ativamente desde pelo menos 24 de março, de acordo com um alerta da empresa Defused publicado no último sábado. A falha, identificada como CVE-2026-21643 , foi corrigida pela Fortinet em 6 de fevereiro deste ano e permite que um atacante não autenticado execute código ou comandos arbitrários em sistemas vulneráveis. O FortiClientEMS é uma solução que permite que administradores gerenciem remotamente sistemas com o software FortiClient, incluindo configurações de antivírus, filtros web, VPN e atualizações de assinaturas.",
       "link": "https://www.cisoadvisor.com.br/forticlientems-esta-sob-ataques-com-sqli/",
-      "published": "31/03/2026 09:51",
+      "published": "31/03/2026 11:20",
       "cves": [
         "CVE-2026-21643"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "Uma falha crítica no Citrix NetScaler já entrou na fase de reconhecimento ativo na internet, aumentando a pressão sobre empresas que ainda não aplicaram as correções liberadas pela fabricante. O movimento indica que atacantes já estão mapeando dispositivos vulneráveis para uma possível onda de exploração em escala. A vulnerabilidade em foco é a CVE-2026-3055, descrita como um caso de out-of-bounds read que pode permitir a leitura indevida de dados sensíveis da memória do appliance. A falha recebeu pontuação CVSS 9,3 e afeta instâncias do NetScaler ADC e do NetScaler Gateway em cenários específicos de configuração.",
       "link": "https://boletimsec.com/falha-critica-no-netscaler-ja-e-alvo-de-reconhecimento-na-internet/",
-      "published": "31/03/2026 09:51",
+      "published": "31/03/2026 11:20",
       "cves": [
         "CVE-2026-3055"
       ],
@@ -36,7 +36,7 @@
       "category": "patches",
       "summary": "A Ingram Micro Brasil firmou parceria com a Okta para distribuir soluções de Identity & Access Management no país. A iniciativa expande o acordo global já consolidado nos Estados Unidos e reforça a atuação da distribuidora no mercado brasileiro de segurança digital, nuvem e serviços de alto valor. Alexandre Nakano, diretor de Segurança e Networking da Ingram Micro Brasil, afirmou que a expansão da parceria reflete a importância do mercado brasileiro, que já apresenta maturidade na adoção de cloud e aumento consistente da demanda por segurança de identidades.",
       "link": "https://www.cisoadvisor.com.br/ingram-micro-distribuira-solucoes-da-okta-no-brasil/",
-      "published": "31/03/2026 09:51",
+      "published": "31/03/2026 11:20",
       "cves": [],
       "vendor": null
     },
@@ -47,7 +47,7 @@
       "category": "patches",
       "summary": "A Incognia anunciou hoje uma parceria com a plataforma de investimentos digitais Webull Brasil. A colaboração reflete o compromisso da Webull com a construção de uma base de clientes saudável desde o início de suas operações no país — combinando agilidade no onboarding com proteção robusta contra fraudes em um dos mercados financeiros mais dinâmicos e visados do mundo. A Incognia fornece à Webull Brasil uma plataforma de mitigação de risco que conecta o mundo digital ao físico, combinando inteligência de dispositivo, precisão de localização a nível doméstico e detecção de falsificações de sinais para avaliar cada interação em tempo real — sem gerar fricção para o usuário legítimo.",
       "link": "https://www.cisoadvisor.com.br/webull-brasil-adota-tecnologia-da-incognia/",
-      "published": "31/03/2026 09:51",
+      "published": "31/03/2026 11:20",
       "cves": [],
       "vendor": null
     },
@@ -58,7 +58,7 @@
       "category": "general",
       "summary": "A Federal Communications Commission incluiu roteadores fabricados no exterior em uma lista de dispositivos proibidos, em uma medida voltada à segurança de redes e à cadeia de suprimentos. A decisão ocorre em meio a preocupações recorrentes sobre vulnerabilidades em dispositivos de borda que conectam redes domésticas e corporativas à internet. Especialistas da Check Point Software apontam que esses equipamentos costumam operar fora do alcance dos sistemas tradicionais de segurança e monitoramento, permanecendo longos períodos sem receber atualizações ou com configurações padrão.",
       "link": "https://www.cisoadvisor.com.br/eua-proibem-roteadores-estrangeiros-em-medida-de-seguranca/",
-      "published": "31/03/2026 09:51",
+      "published": "31/03/2026 11:20",
       "cves": [],
       "vendor": "Check Point"
     }
