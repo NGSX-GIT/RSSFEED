@@ -1,66 +1,62 @@
 {
-  "generated_at": "2026-03-31T11:20:00.130969-03:00",
+  "generated_at": "2026-03-31T12:00:00.003817-03:00",
   "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "FortiClientEMS está sob ataques com SQLi",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica de SQL Injection no Fortinet FortiClientEMS está sendo explorada ativamente desde pelo menos 24 de março, de acordo com um alerta da empresa Defused publicado no último sábado. A falha, identificada como CVE-2026-21643 , foi corrigida pela Fortinet em 6 de fevereiro deste ano e permite que um atacante não autenticado execute código ou comandos arbitrários em sistemas vulneráveis. O FortiClientEMS é uma solução que permite que administradores gerenciem remotamente sistemas com o software FortiClient, incluindo configurações de antivírus, filtros web, VPN e atualizações de assinaturas.",
-      "link": "https://www.cisoadvisor.com.br/forticlientems-esta-sob-ataques-com-sqli/",
-      "published": "31/03/2026 11:20",
-      "cves": [
-        "CVE-2026-21643"
-      ],
-      "vendor": "Fortinet"
-    },
-    {
-      "title": "Falha crítica no NetScaler já é alvo de reconhecimento na internet",
+      "title": "Diferença entre Pentest com IA e Pentest Autônomo",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "priority": "Baixa",
       "category": "patches",
-      "summary": "Uma falha crítica no Citrix NetScaler já entrou na fase de reconhecimento ativo na internet, aumentando a pressão sobre empresas que ainda não aplicaram as correções liberadas pela fabricante. O movimento indica que atacantes já estão mapeando dispositivos vulneráveis para uma possível onda de exploração em escala. A vulnerabilidade em foco é a CVE-2026-3055, descrita como um caso de out-of-bounds read que pode permitir a leitura indevida de dados sensíveis da memória do appliance. A falha recebeu pontuação CVSS 9,3 e afeta instâncias do NetScaler ADC e do NetScaler Gateway em cenários específicos de configuração.",
-      "link": "https://boletimsec.com/falha-critica-no-netscaler-ja-e-alvo-de-reconhecimento-na-internet/",
-      "published": "31/03/2026 11:20",
-      "cves": [
-        "CVE-2026-3055"
-      ],
-      "vendor": "Citrix"
-    },
-    {
-      "title": "Ingram Micro distribuirá soluções da Okta no Brasil",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Ingram Micro Brasil firmou parceria com a Okta para distribuir soluções de Identity & Access Management no país. A iniciativa expande o acordo global já consolidado nos Estados Unidos e reforça a atuação da distribuidora no mercado brasileiro de segurança digital, nuvem e serviços de alto valor. Alexandre Nakano, diretor de Segurança e Networking da Ingram Micro Brasil, afirmou que a expansão da parceria reflete a importância do mercado brasileiro, que já apresenta maturidade na adoção de cloud e aumento consistente da demanda por segurança de identidades.",
-      "link": "https://www.cisoadvisor.com.br/ingram-micro-distribuira-solucoes-da-okta-no-brasil/",
-      "published": "31/03/2026 11:20",
+      "summary": "Nos últimos meses começou a surgir no mercado termos como “pentest autônomo” e “pentest com IA” . A ideia parece boa, uma plataforma que executa testes de invasão de forma independente e em grande escala. Porém na prática grande parte dessas soluções funciona de forma muito próxima de um scanner automatizado . Elas executam listas de ataques pré-definidos, verificam vulnerabilidades conhecidas e retornam resultados baseados em padrões programados, mas com pouca capacidade real de adaptação ao ambiente testado . O problema é que ataques reais não seguem roteiros fixos .",
+      "link": "https://boletimsec.com/diferenca-entre-pentest-com-ia-e-pentest-autonomo/",
+      "published": "31/03/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Webull Brasil adota tecnologia da Incognia",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "title": "Microsoft endurece proteção do kernel no Windows 11 e Server 2025",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
       "category": "patches",
-      "summary": "A Incognia anunciou hoje uma parceria com a plataforma de investimentos digitais Webull Brasil. A colaboração reflete o compromisso da Webull com a construção de uma base de clientes saudável desde o início de suas operações no país — combinando agilidade no onboarding com proteção robusta contra fraudes em um dos mercados financeiros mais dinâmicos e visados do mundo. A Incognia fornece à Webull Brasil uma plataforma de mitigação de risco que conecta o mundo digital ao físico, combinando inteligência de dispositivo, precisão de localização a nível doméstico e detecção de falsificações de sinais para avaliar cada interação em tempo real — sem gerar fricção para o usuário legítimo.",
-      "link": "https://www.cisoadvisor.com.br/webull-brasil-adota-tecnologia-da-incognia/",
-      "published": "31/03/2026 11:20",
+      "summary": "A Microsoft vai endurecer a proteção do kernel no Windows 11 e no Windows Server 2025 ao remover, por padrão, a confiança em drivers assinados pelo antigo modelo de cross-signing. A mudança começa com a atualização de abril de 2026 e atinge as versões Windows 11 24H2, 25H2, 26H1 e o Windows Server 2025. Na prática, o sistema passará a confiar automaticamente apenas em drivers aprovados pelo Windows Hardware Compatibility Program (WHCP). Segundo a Microsoft, esse fluxo inclui validação do fornecedor, testes de compatibilidade e checagens de segurança antes da assinatura final, feita sob controle da própria empresa.",
+      "link": "https://boletimsec.com/microsoft-endurece-protecao-do-kernel-no-windows-11-e-server-2025/",
+      "published": "31/03/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Grupo ligado à China usa malware para espionar redes de telecomunicações",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Um grupo ligado à China está usando malware furtivo para espionar redes de telecomunicações e manter acesso prolongado a ambientes estratégicos, em uma campanha atribuída ao cluster Red Menshen. Segundo a investigação, a operação atinge operadoras no Oriente Médio e na Ásia desde pelo menos 2021, com o objetivo de alcançar também redes governamentais conectadas a essa infraestrutura. O principal componente da campanha é o BPFDoor, um backdoor para Linux projetado para operar com baixo ruído. Diferentemente de malwares tradicionais, ele não mantém portas abertas nem canais visíveis de comando e controle.",
+      "link": "https://boletimsec.com/grupo-ligado-a-china-usa-malware-para-espionar-redes-de-telecomunicacoes/",
+      "published": "31/03/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Vazamento expõe novo modelo da Anthropic Claude Mythos",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "breach",
+      "summary": "Um vazamento expôs a existência do Claude Mythos, novo modelo da Anthropic, após um erro de configuração em seu sistema de gestão de conteúdo tornar público um rascunho de post sobre o projeto. O material descrevia o modelo como uma tecnologia capaz de gerar “riscos de cibersegurança sem precedentes”, o que colocou a iniciativa no centro do debate sobre segurança e uso ofensivo de IA avançada. Segundo a reportagem, o rascunho ficou disponível em um repositório de dados público e pesquisável.",
+      "link": "https://boletimsec.com/vazamento-expoe-novo-modelo-da-anthropic-claude-mythos/",
+      "published": "31/03/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "EUA proíbem roteadores estrangeiros em medida de segurança",
+      "title": "Falha do Lloyds Banking expôs dados de quase 450 mil clientes",
       "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "general",
-      "summary": "A Federal Communications Commission incluiu roteadores fabricados no exterior em uma lista de dispositivos proibidos, em uma medida voltada à segurança de redes e à cadeia de suprimentos. A decisão ocorre em meio a preocupações recorrentes sobre vulnerabilidades em dispositivos de borda que conectam redes domésticas e corporativas à internet. Especialistas da Check Point Software apontam que esses equipamentos costumam operar fora do alcance dos sistemas tradicionais de segurança e monitoramento, permanecendo longos períodos sem receber atualizações ou com configurações padrão.",
-      "link": "https://www.cisoadvisor.com.br/eua-proibem-roteadores-estrangeiros-em-medida-de-seguranca/",
-      "published": "31/03/2026 11:20",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "O Lloyds Banking Group, do Reino Unido, enfrentou um incidente crítico em 12 de março de 2026, quando uma falha em uma atualização noturna expôs dados sensíveis de 447.936 clientes, incluindo números de seguro nacional (NIN) e transações, para usuários não autorizados dentro da própria plataforma digital. Embora não tenha havido ataque externo ou perda financeira imediata, o caso evidencia uma fragilidade grave no ciclo de desenvolvimento e implantação de software. Do ponto de vista arquitetônico, a falha aponta para uma brecha na camada de autorização (AuthZ).",
+      "link": "https://www.cisoadvisor.com.br/falha-do-lloyds-banking-expos-dados-de-quase-450-mil-clientes/",
+      "published": "31/03/2026 12:00",
       "cves": [],
-      "vendor": "Check Point"
+      "vendor": null
     }
   ]
 }
