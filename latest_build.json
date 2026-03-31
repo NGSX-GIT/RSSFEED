@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-03-30T12:00:00.191157-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-03-31T09:51:33.721264-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Microsoft endurece proteção do kernel no Windows 11 e Server 2025",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "A Microsoft vai endurecer a proteção do kernel no Windows 11 e no Windows Server 2025 ao remover, por padrão, a confiança em drivers assinados pelo antigo modelo de cross-signing. A mudança começa com a atualização de abril de 2026 e atinge as versões Windows 11 24H2, 25H2, 26H1 e o Windows Server 2025. Na prática, o sistema passará a confiar automaticamente apenas em drivers aprovados pelo Windows Hardware Compatibility Program (WHCP). Segundo a Microsoft, esse fluxo inclui validação do fornecedor, testes de compatibilidade e checagens de segurança antes da assinatura final, feita sob controle da própria empresa.",
-      "link": "https://boletimsec.com/microsoft-endurece-protecao-do-kernel-no-windows-11-e-server-2025/",
-      "published": "30/03/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Microsoft suspende um update do Windows 11 após falhas",
+      "title": "FortiClientEMS está sob ataques com SQLi",
       "source": "CISO Advisor",
-      "priority": "Baixa",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft suspendeu temporariamente a distribuição da atualização opcional KB5079391 para Windows 11 após relatos de falhas de instalação em alguns dispositivos. A decisão foi confirmada em atualização do suporte da empresa em 27 de março. De acordo com a página de suporte da Microsoft, dispositivos que tentaram instalar o KB5079391 apresentaram a mensagem: “Alguns arquivos de atualização estão ausentes ou com problemas. Tentaremos baixar a atualização novamente mais tarde. Código de erro: (0x80073712)”. A empresa informou que a atualização pode não estar mais sendo oferecida pelo Windows Update como resultado da pausa na distribuição.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-suspende-um-update-do-windows-11-apos-falhas/",
-      "published": "30/03/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "Uma vulnerabilidade crítica de SQL Injection no Fortinet FortiClientEMS está sendo explorada ativamente desde pelo menos 24 de março, de acordo com um alerta da empresa Defused publicado no último sábado. A falha, identificada como CVE-2026-21643 , foi corrigida pela Fortinet em 6 de fevereiro deste ano e permite que um atacante não autenticado execute código ou comandos arbitrários em sistemas vulneráveis. O FortiClientEMS é uma solução que permite que administradores gerenciem remotamente sistemas com o software FortiClient, incluindo configurações de antivírus, filtros web, VPN e atualizações de assinaturas.",
+      "link": "https://www.cisoadvisor.com.br/forticlientems-esta-sob-ataques-com-sqli/",
+      "published": "31/03/2026 09:51",
+      "cves": [
+        "CVE-2026-21643"
+      ],
+      "vendor": "Fortinet"
     },
     {
-      "title": "4 dias Segurança FBI desativa 4 botnets que afetaram mais de 3 milhões de redes com ataques DDoS",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O FBI e o Departamento de Justiça dos EUA desativaram quatro botnets que impactaram mais de 3 milhões de dispositivos domésticos com ataques de Negação de Serviço Distribuído (DDoS). A operação interrompeu as botnets conhecidas como Aisuru, KimWolf, JackSkid e Mossad, responsáveis por campanhas sofisticadas em todo o mundo. Para isso, as autoridades apreenderam domínios de internet e servidores, cortando a ligação entre os hackers e os dispositivos infectados. A ação contou com a ajuda das polícias canadense e alemã, além de big techs que apoiaram o rastreamento das botnets.",
-      "link": "https://canaltech.com.br/seguranca/fbi-desativa-4-botnets-que-afetaram-mais-de-3-milhoes-de-redes-com-ataques-ddos/",
-      "published": "30/03/2026 12:00",
+      "title": "Falha crítica no NetScaler já é alvo de reconhecimento na internet",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma falha crítica no Citrix NetScaler já entrou na fase de reconhecimento ativo na internet, aumentando a pressão sobre empresas que ainda não aplicaram as correções liberadas pela fabricante. O movimento indica que atacantes já estão mapeando dispositivos vulneráveis para uma possível onda de exploração em escala. A vulnerabilidade em foco é a CVE-2026-3055, descrita como um caso de out-of-bounds read que pode permitir a leitura indevida de dados sensíveis da memória do appliance. A falha recebeu pontuação CVSS 9,3 e afeta instâncias do NetScaler ADC e do NetScaler Gateway em cenários específicos de configuração.",
+      "link": "https://boletimsec.com/falha-critica-no-netscaler-ja-e-alvo-de-reconhecimento-na-internet/",
+      "published": "31/03/2026 09:51",
+      "cves": [
+        "CVE-2026-3055"
+      ],
+      "vendor": "Citrix"
+    },
+    {
+      "title": "Ingram Micro distribuirá soluções da Okta no Brasil",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Ingram Micro Brasil firmou parceria com a Okta para distribuir soluções de Identity & Access Management no país. A iniciativa expande o acordo global já consolidado nos Estados Unidos e reforça a atuação da distribuidora no mercado brasileiro de segurança digital, nuvem e serviços de alto valor. Alexandre Nakano, diretor de Segurança e Networking da Ingram Micro Brasil, afirmou que a expansão da parceria reflete a importância do mercado brasileiro, que já apresenta maturidade na adoção de cloud e aumento consistente da demanda por segurança de identidades.",
+      "link": "https://www.cisoadvisor.com.br/ingram-micro-distribuira-solucoes-da-okta-no-brasil/",
+      "published": "31/03/2026 09:51",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Novo golpe que preocupa o FBI pode começar com uma mensagem no WhatsApp",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O FBI e a Agência de Segurança Cibernética e de Infraestrutura (CISA) investigam campanhas de phishing , organizadas por hackers associados aos serviços de inteligência da Rússia, que usam o WhatsApp e o Signal para roubar dados confidenciais. De acordo com a agência federal, os criminosos comprometem os aplicativos de mensagem em ataques direcionados a pessoas consideradas de “alto valor de inteligência”, como funcionários atuais e antigos do governo dos Estados Unidos, militares, figuras políticas e jornalistas.",
-      "link": "https://canaltech.com.br/seguranca/novo-golpe-que-preocupa-o-fbi-pode-comecar-com-uma-mensagem-no-whatsapp/",
-      "published": "30/03/2026 12:00",
+      "title": "Webull Brasil adota tecnologia da Incognia",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Incognia anunciou hoje uma parceria com a plataforma de investimentos digitais Webull Brasil. A colaboração reflete o compromisso da Webull com a construção de uma base de clientes saudável desde o início de suas operações no país — combinando agilidade no onboarding com proteção robusta contra fraudes em um dos mercados financeiros mais dinâmicos e visados do mundo. A Incognia fornece à Webull Brasil uma plataforma de mitigação de risco que conecta o mundo digital ao físico, combinando inteligência de dispositivo, precisão de localização a nível doméstico e detecção de falsificações de sinais para avaliar cada interação em tempo real — sem gerar fricção para o usuário legítimo.",
+      "link": "https://www.cisoadvisor.com.br/webull-brasil-adota-tecnologia-da-incognia/",
+      "published": "31/03/2026 09:51",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "15 horas Segurança Como identificar um arquivo ZIP suspeito antes de abrir",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 29/03/2026 às 20:00 Boletos, notas fiscais, currículos, documentos importantes em geral: muita coisa recebida por e-mails ou mensagens costuma vir no formato ZIP , um tipo de arquivo compactado comum e, em geral, legítimo. A tecnologia, no entanto, por ser reconhecível, é bastante usada por golpistas para espalhar malwares , se aproveitando da confiança do usuário. Como checar arquivos ZIP antes de abrir para evitar, por exemplo, o recente Zombie ZIP ?",
-      "link": "https://canaltech.com.br/seguranca/como-identificar-um-arquivo-zip-suspeito-antes-de-abrir/",
-      "published": "30/03/2026 12:00",
+      "title": "EUA proíbem roteadores estrangeiros em medida de segurança",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "general",
+      "summary": "A Federal Communications Commission incluiu roteadores fabricados no exterior em uma lista de dispositivos proibidos, em uma medida voltada à segurança de redes e à cadeia de suprimentos. A decisão ocorre em meio a preocupações recorrentes sobre vulnerabilidades em dispositivos de borda que conectam redes domésticas e corporativas à internet. Especialistas da Check Point Software apontam que esses equipamentos costumam operar fora do alcance dos sistemas tradicionais de segurança e monitoramento, permanecendo longos períodos sem receber atualizações ou com configurações padrão.",
+      "link": "https://www.cisoadvisor.com.br/eua-proibem-roteadores-estrangeiros-em-medida-de-seguranca/",
+      "published": "31/03/2026 09:51",
       "cves": [],
-      "vendor": null
+      "vendor": "Check Point"
     }
   ]
 }
