@@ -1,60 +1,64 @@
 {
-  "generated_at": "2026-03-31T12:00:00.003817-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-04-01T12:00:00.010113-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Diferença entre Pentest com IA e Pentest Autônomo",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Nos últimos meses começou a surgir no mercado termos como “pentest autônomo” e “pentest com IA” . A ideia parece boa, uma plataforma que executa testes de invasão de forma independente e em grande escala. Porém na prática grande parte dessas soluções funciona de forma muito próxima de um scanner automatizado . Elas executam listas de ataques pré-definidos, verificam vulnerabilidades conhecidas e retornam resultados baseados em padrões programados, mas com pouca capacidade real de adaptação ao ambiente testado . O problema é que ataques reais não seguem roteiros fixos .",
-      "link": "https://boletimsec.com/diferenca-entre-pentest-com-ia-e-pentest-autonomo/",
-      "published": "31/03/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Microsoft endurece proteção do kernel no Windows 11 e Server 2025",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "A Microsoft vai endurecer a proteção do kernel no Windows 11 e no Windows Server 2025 ao remover, por padrão, a confiança em drivers assinados pelo antigo modelo de cross-signing. A mudança começa com a atualização de abril de 2026 e atinge as versões Windows 11 24H2, 25H2, 26H1 e o Windows Server 2025. Na prática, o sistema passará a confiar automaticamente apenas em drivers aprovados pelo Windows Hardware Compatibility Program (WHCP). Segundo a Microsoft, esse fluxo inclui validação do fornecedor, testes de compatibilidade e checagens de segurança antes da assinatura final, feita sob controle da própria empresa.",
-      "link": "https://boletimsec.com/microsoft-endurece-protecao-do-kernel-no-windows-11-e-server-2025/",
-      "published": "31/03/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Grupo ligado à China usa malware para espionar redes de telecomunicações",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Um grupo ligado à China está usando malware furtivo para espionar redes de telecomunicações e manter acesso prolongado a ambientes estratégicos, em uma campanha atribuída ao cluster Red Menshen. Segundo a investigação, a operação atinge operadoras no Oriente Médio e na Ásia desde pelo menos 2021, com o objetivo de alcançar também redes governamentais conectadas a essa infraestrutura. O principal componente da campanha é o BPFDoor, um backdoor para Linux projetado para operar com baixo ruído. Diferentemente de malwares tradicionais, ele não mantém portas abertas nem canais visíveis de comando e controle.",
-      "link": "https://boletimsec.com/grupo-ligado-a-china-usa-malware-para-espionar-redes-de-telecomunicacoes/",
-      "published": "31/03/2026 12:00",
-      "cves": [],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Vazamento expõe novo modelo da Anthropic Claude Mythos",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "Um vazamento expôs a existência do Claude Mythos, novo modelo da Anthropic, após um erro de configuração em seu sistema de gestão de conteúdo tornar público um rascunho de post sobre o projeto. O material descrevia o modelo como uma tecnologia capaz de gerar “riscos de cibersegurança sem precedentes”, o que colocou a iniciativa no centro do debate sobre segurança e uso ofensivo de IA avançada. Segundo a reportagem, o rascunho ficou disponível em um repositório de dados público e pesquisável.",
-      "link": "https://boletimsec.com/vazamento-expoe-novo-modelo-da-anthropic-claude-mythos/",
-      "published": "31/03/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha do Lloyds Banking expôs dados de quase 450 mil clientes",
+      "title": "Falha no Citrix NetScaler está sob ataques",
       "source": "CISO Advisor",
-      "priority": "Baixa",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "O Lloyds Banking Group, do Reino Unido, enfrentou um incidente crítico em 12 de março de 2026, quando uma falha em uma atualização noturna expôs dados sensíveis de 447.936 clientes, incluindo números de seguro nacional (NIN) e transações, para usuários não autorizados dentro da própria plataforma digital. Embora não tenha havido ataque externo ou perda financeira imediata, o caso evidencia uma fragilidade grave no ciclo de desenvolvimento e implantação de software. Do ponto de vista arquitetônico, a falha aponta para uma brecha na camada de autorização (AuthZ).",
-      "link": "https://www.cisoadvisor.com.br/falha-do-lloyds-banking-expos-dados-de-quase-450-mil-clientes/",
-      "published": "31/03/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no Citrix NetScaler ADC e NetScaler Gateway, identificada como CVE-2026-3055, está sendo explorada ativamente por atacantes desde pelo menos 27 de março, de acordo com alerta da empresa de segurança watchTowr. A falha, que recebeu pontuação 9,3 no CVSS v4.0, foi inicialmente divulgada pela Cloud Software Group em 23 de março em um boletim de segurança , que não mencionava exploração ativa. O CISO Advisor já havia alertado sobre a urgência da correção no dia seguinte. A vulnerabilidade é uma falha de leitura de memória fora dos limites que afeta appliances configurados como Provedor de Identidade SAML.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-citrix-netscaler-esta-sob-ataques/",
+      "published": "01/04/2026 12:00",
+      "cves": [
+        "CVE-2026-3055"
+      ],
+      "vendor": "Citrix"
+    },
+    {
+      "title": "Correção falhou e permitiu exfiltração no ChatGPT",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A equipe da Check Point Research (CPR), divisão de inteligência de ameaças da Check Point Software, identificou uma vulnerabilidade até então desconhecida que permitia a exfiltração silenciosa de dados sensíveis em conversas no ChatGPT, sem o conhecimento ou consentimento dos usuários. A falha foi totalmente corrigida pela OpenAI em 20 de fevereiro de 2026, sem evidências de exploração ativa. O principal recado para o mercado corporativo é o de que as plataformas de inteligência artificial devem ser tratadas como infraestrutura de nuvem e computação.",
+      "link": "https://www.cisoadvisor.com.br/correcao-falhou-e-permitiu-exfiltracao-no-chatgpt/",
+      "published": "01/04/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "3 horas Segurança Hackers podem clonar sua voz com IA em poucos segundos para aplicar golpes",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A inteligência artificial (IA) otimizou processos na vida de muita gente, mas também trouxe riscos à segurança em meio a ações de criminosos. Uma das táticas mais preocupantes da atualidade é a clonagem da voz humana para aplicar golpes. Mais sofisticado que ataques de phishing por e-mail, o ato de replicar a voz de alguém com IA para cometer fraudes vem ganhando força no mundo do crime digital. Para ter noção do perigo, um estudo da McAfee apontou que 1 em cada 4 adultos já sofreu algum tipo de golpe de clonagem de voz por IA ou conhece alguma vítima.",
+      "link": "https://canaltech.com.br/seguranca/hackers-podem-clonar-sua-voz-com-ia-em-poucos-segundos-para-aplicar-golpes/",
+      "published": "01/04/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Vulnerabilidade em plugin so WordPress coloca 800 mil sites em risco",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade em um plugin do WordPress colocou cerca de 800 mil sites em risco ao permitir a leitura de arquivos sensíveis do servidor por usuários autenticados com privilégios mínimos. A falha afeta o Smart Slider 3, um dos plugins mais populares para criação de sliders e elementos visuais na plataforma. O problema foi registrado como CVE-2026-3098 e está ligado ao mecanismo de exportação do plugin.",
+      "link": "https://boletimsec.com/vulnerabilidade-em-plugin-so-wordpress-coloca-800-mil-sites-em-risco/",
+      "published": "01/04/2026 12:00",
+      "cves": [
+        "CVE-2026-3098"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Incidentes de alta gravidade caíram para 4% em 2025",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "A participação de incidentes cibernéticos de alta gravidade em todo o mundo caiu para 4% em 2025 – o menor índice registrado nos últimos seis anos, de acordo com o relatório global “Anatomia do Cenário de Ameaças Cibernéticas”, publicado pela Kaspersky Lab . Em 2021, esse número era de 14%. Incidentes de alta gravidade incluem ataques com envolvimento humano direto ou impacto significativo na infraestrutura de TI, como campanhas avançadas de ataques persistentes (APTs) e ataques de ransomware. O tipo mais comum foi o de ataques direcionados controlados por humanos, representando quase 24% do total. A engenharia social apareceu em segundo lugar, com 15%, afetando 18% das empresas.",
+      "link": "https://www.cisoadvisor.com.br/incidentes-de-alta-gravidade-cairam-para-4-em-2025/",
+      "published": "01/04/2026 12:00",
       "cves": [],
       "vendor": null
     }
