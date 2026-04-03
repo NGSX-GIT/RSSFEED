@@ -1,64 +1,68 @@
 {
-  "generated_at": "2026-04-02T12:00:00.005130-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-04-03T12:00:00.008187-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Cibercriminosos exploram falha crítica no Oracle WebLogic",
-      "source": "BoletimSec Notícias",
+      "title": "Cisco corrige bypass crítico no IMC",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos passaram a explorar uma falha crítica no Oracle WebLogic Server, elevando o alerta para empresas que mantêm servidores expostos à internet e ainda sem atualização. A vulnerabilidade, identificada como CVE-2026-21962, permite execução remota de código sem necessidade de autenticação e foi classificada com severidade máxima. O problema afeta um dos principais componentes usados em ambientes corporativos para hospedar aplicações Java. Na prática, a brecha pode abrir caminho para que invasores assumam o controle do servidor vulnerável, executem comandos maliciosos e avancem dentro da rede comprometida.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-critica-no-oracle-weblogic/",
-      "published": "02/04/2026 12:00",
+      "summary": "A Cisco publicou ontem atualizações de segurança para corrigir múltiplas vulnerabilidades críticas e de alta gravidade, incluindo um bypass de autenticação no Integrated Management Controller (IMC) que permite que atacantes obtenham acesso de Administrador, conforme informou a empresa. A falha , registrada como CVE-2026-20093, foi encontrada na funcionalidade de alteração de senha do Cisco IMC. De acordo com a Cisco, a vulnerabilidade pode ser explorada remotamente por atacantes não autenticados para contornar a autenticação e acessar sistemas não corrigidos com privilégios de Admin.",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-bypass-critico-no-imc/",
+      "published": "03/04/2026 12:00",
       "cves": [
-        "CVE-2026-21962"
+        "CVE-2026-20093"
       ],
-      "vendor": null
+      "vendor": "Cisco"
     },
     {
-      "title": "Nissan confirma ataque a fornecedor com roubo de dados",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Nissan confirmou que dados roubados em um ciberataque recente pertenciam a um fornecedor terceirizado, após o grupo de ransomware Everest reivindicar a invasão. De acordo com comunicado da montadora japonesa, o incidente ocorreu em janeiro e foi isolado aos sistemas do parceiro comercial, sem comprometimento das redes internas da Nissan. O grupo Everest afirmou ter acessado o ambiente GCSSD do fornecedor, acessando sistemas FTP com credenciais expostas e sem autenticação multifator (MFA).",
-      "link": "https://www.cisoadvisor.com.br/nissan-confirma-ataque-a-fornecedor-com-roubo-de-dados/",
-      "published": "02/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ataque ao repositório do Axios levou malware a sistemas",
+      "title": "Vazamento do Claude marca ponto de inflexão",
       "source": "CISO Advisor",
       "priority": "Média",
-      "category": "identity",
-      "summary": "O pacote Axios, um dos clientes HTTP mais utilizados no ecossistema JavaScript, com 100 milhões de downloads semanais, foi alvo de um ataque à cadeia de suprimentos que introduziu uma dependência maliciosa nas versões 1.14.1 e 0.30.4. A descoberta foi publicada ontem pela plataforma de segurança Socket. De acordo com a análise da Socket, as versões comprometidas do Axios foram publicadas diretamente no registro npm e incluem o pacote [email protected] como dependência. Este pacote, publicado minutos antes, continha um código malicioso executado automaticamente durante a instalação via hook postinstall .",
-      "link": "https://www.cisoadvisor.com.br/ataque-ao-repositorio-do-axios-levou-malware-a-sistemas/",
-      "published": "02/04/2026 12:00",
+      "category": "breach",
+      "summary": "O setor de cibersegurança atingiu um novo ponto de inflexão. Na última semana, veio à tona que a Anthropic estaria desenvolvendo o Claude Capybara, também chamado de Claude Mythos, um modelo de inteligência artificial com avanços substanciais em descoberta de vulnerabilidades, desenvolvimento de exploits e raciocínio de ataques em múltiplas etapas. Embora os detalhes tenham surgido por meio de um vazamento de dados, e não de um anúncio formal, a reação do mercado foi inequívoca: a IA ultrapassou um limiar crítico na cibersegurança.",
+      "link": "https://www.cisoadvisor.com.br/vazamento-do-claude-marca-ponto-de-inflexao/",
+      "published": "03/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Grandes alertas para ataques a repositórios de código",
+      "title": "Exploit DarkSword ataca iOS 18 vulnerável",
       "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "Agências de cibersegurança da Holanda (NCSC) e da Austrália (ACSC) emitiram hoje alertas sobre a onda recente de ataques que comprometeram pacotes populares nos ecossistemas npm e Python, incluindo o scanner de vulnerabilidades Trivy e a biblioteca HTTP Axios. As falhas exploradas permitiram que invasores obtivessem credenciais de desenvolvedores e instalassem malware em sistemas de usuários. De acordo com o NCSC, os invasores utilizaram credenciais roubadas para inserir código malicioso em pacotes amplamente utilizados.",
-      "link": "https://www.cisoadvisor.com.br/grandes-alertas-para-ataques-a-repositorios-de-codigo/",
-      "published": "02/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha no Vertex AI do Google Cloud pode expor dados sensíveis",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores identificaram uma vulnerabilidade na plataforma Vertex AI Agent Engine, do Google Cloud, que poderia ser explorada para acessar dados sensíveis e ampliar o alcance de um ataque dentro do ambiente em nuvem. A falha está ligada às permissões padrão atribuídas aos agentes de IA implantados, um ponto que pode transformar esses recursos em vetores de abuso. O problema envolve a conta de serviço usada por padrão pelo ambiente, conhecida como P4SA. Em testes conduzidos por pesquisadores, foi possível extrair credenciais associadas a esse agente e, a partir delas, sair do contexto isolado da aplicação para interagir com recursos mais amplos do projeto do cliente.",
-      "link": "https://boletimsec.com/falha-no-vertex-ai-do-google-cloud-pode-expor-dados-sensiveis/",
-      "published": "02/04/2026 12:00",
-      "cves": [],
+      "summary": "Usuários de iPhones e iPads que ainda utilizam iOS 18 em modelos mais recentes estão expostos ao exploit kit chamado DarkSword . De acordo com a Apple, somente visitar um site comprometido ou malicioso ou visualizar um anúncio infectado com um iPhone vulnerável já é suficiente para a infecção, sem necessidade de qualquer interação adicional. O exploit kit DarkSword foi alertado no mês passado pelas empresas Google, Lookout e iVerify. O kit utiliza seis vulnerabilidades diferentes, sendo que três delas não tinham atualização disponível no momento do ataque: CVE-2026-20700, CVE-2025-43529 e CVE-2025-14174. A Apple informou que essas correções agora estão disponíveis.",
+      "link": "https://www.cisoadvisor.com.br/exploit-darksword-ataca-ios-18-vulneravel/",
+      "published": "03/04/2026 12:00",
+      "cves": [
+        "CVE-2026-20700",
+        "CVE-2025-43529",
+        "CVE-2025-14174"
+      ],
       "vendor": "Google"
+    },
+    {
+      "title": "2 dias Segurança Spotify e gravadoras pedem indenização de US$ 322 milhões contra Anna’s Archive",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "Em mais um desdobramento do processo contra o Anna’s Archive, o Spotify e as gravadoras Universal Music Group, Sony Music Entertainment e Warner Music Group querem uma indenização de US$ 322 milhões por revelia contra a biblioteca clandestina que vazou faixas copiadas do streaming. O pedido de indenização usa como argumento a ausência de representantes do Anna’s Archive na audiência judicial. As empresas alegam que a página ignorou a liminar com o compartilhamento das músicas roubadas do Spotify por meio do protocolo torrent. Em contrapartida, o vazamento em questão parece ter sido acidental, segundo uma mensagem publicada no reddit.",
+      "link": "https://canaltech.com.br/seguranca/spotify-e-gravadoras-pedem-indenizacao-de-us-322-milhoes-contra-annas-archive/",
+      "published": "03/04/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "2 dias Segurança Em meio à guerra, chefão do FBI tem e-mail invadido por hackers do Irã",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "O FBI confirmou que a conta de e-mail pessoal do diretor da agência, Kash Patel, no Gmail foi comprometida após uma violação de segurança . De acordo com o Bleeping Computer, a ação foi movida pelo grupo hacker Handala, uma rede criminosa associada ao Irã, que revelou o ocorrido em um de seus sites. Os hackers afirmaram que violaram “sistemas impenetráveis do FBI” em um período de algumas horas. A agência federal afirmou que, embora dados tenham sido roubados, nenhum vazamento continha informações confidenciais do governo. Entre os materiais expostos estavam imagens e documentos de Patel.",
+      "link": "https://canaltech.com.br/seguranca/em-meio-a-guerra-chefao-do-fbi-tem-e-mail-invadido-por-hackers-do-ira/",
+      "published": "03/04/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
