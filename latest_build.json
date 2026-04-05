@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-04-04T12:00:00.005054-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-04-05T12:00:00.010430-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Malware distribuído pelo WhatsApp contorna proteção do Windows",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Uma campanha maliciosa identificada pela Microsoft está usando o WhatsApp como canal de entrega de arquivos VBS para comprometer computadores com Windows. O ataque chama atenção por empregar engenharia social e ferramentas legítimas do próprio sistema operacional para driblar mecanismos de proteção e dificultar a detecção. A infecção começa quando a vítima executa um arquivo recebido pelo aplicativo de mensagens. A partir desse ponto, o código malicioso cria diretórios ocultos no sistema e prepara o ambiente para baixar novos componentes, estabelecendo as bases para persistência e controle remoto da máquina.",
-      "link": "https://boletimsec.com/malware-distribuido-pelo-whatsapp-contorna-protecao-do-windows/",
-      "published": "04/04/2026 12:00",
+      "title": "Empresa alcança 100% das especializações Palo Alto Networks",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "cloud",
+      "summary": "A T2Sec, fundada em 2023, alcançou as sete certificações oficiais da fabricante Palo Alto Networks, incluindo Cortex, Prisma e Firewalls, tornando-se a única companhia no país com esse nível de reconhecimento técnico. O anúncio foi feito hoje pela empresa, que projeta faturar R$ 12 milhões em 2026, mais que o dobro dos R$ 5 milhões registrados em 2025. De acordo com a T2Sec, as especializações conquistadas abrangem Cortex XDR, Cortex XSOAR, Cortex XSIAM, Cortex Cloud, Prisma SASE, Hardware Firewall e Software Firewall.",
+      "link": "https://www.cisoadvisor.com.br/empresa-alcanca-100-das-especializacoes-palo-alto-networks/",
+      "published": "05/04/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": "Palo Alto"
     },
     {
-      "title": "3 dias Segurança Spotify e gravadoras pedem indenização de US$ 322 milhões contra Anna’s Archive",
+      "title": "4 dias Segurança Spotify e gravadoras pedem indenização de US$ 322 milhões contra Anna’s Archive",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "breach",
       "summary": "Em mais um desdobramento do processo contra o Anna’s Archive, o Spotify e as gravadoras Universal Music Group, Sony Music Entertainment e Warner Music Group querem uma indenização de US$ 322 milhões por revelia contra a biblioteca clandestina que vazou faixas copiadas do streaming. O pedido de indenização usa como argumento a ausência de representantes do Anna’s Archive na audiência judicial. As empresas alegam que a página ignorou a liminar com o compartilhamento das músicas roubadas do Spotify por meio do protocolo torrent. Em contrapartida, o vazamento em questão parece ter sido acidental, segundo uma mensagem publicada no reddit.",
       "link": "https://canaltech.com.br/seguranca/spotify-e-gravadoras-pedem-indenizacao-de-us-322-milhoes-contra-annas-archive/",
-      "published": "04/04/2026 12:00",
+      "published": "05/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "3 dias Segurança Em meio à guerra, chefão do FBI tem e-mail invadido por hackers do Irã",
+      "title": "4 dias Segurança Em meio à guerra, chefão do FBI tem e-mail invadido por hackers do Irã",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "breach",
       "summary": "O FBI confirmou que a conta de e-mail pessoal do diretor da agência, Kash Patel, no Gmail foi comprometida após uma violação de segurança . De acordo com o Bleeping Computer, a ação foi movida pelo grupo hacker Handala, uma rede criminosa associada ao Irã, que revelou o ocorrido em um de seus sites. Os hackers afirmaram que violaram “sistemas impenetráveis do FBI” em um período de algumas horas. A agência federal afirmou que, embora dados tenham sido roubados, nenhum vazamento continha informações confidenciais do governo. Entre os materiais expostos estavam imagens e documentos de Patel.",
       "link": "https://canaltech.com.br/seguranca/em-meio-a-guerra-chefao-do-fbi-tem-e-mail-invadido-por-hackers-do-ira/",
-      "published": "04/04/2026 12:00",
+      "published": "05/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Agentes de IA no Google Cloud podem expor dados internos",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Pesquisadores da Unit 42, braço de inteligência de ameaças da Palo Alto Networks, descobriram que agentes de inteligência artificial implantados no Google Cloud Platform (GCP) Vertex AI podem ser transformados em “agentes duplos”, comprometendo ambientes inteiros. A vulnerabilidade foi detalhada em relatório publicado em 31 de março. De acordo com a análise, o Per-Project, Per-Product Service Agent (P4SA) associado aos agentes de IA possui permissões excessivas concedidas por padrão.",
-      "link": "https://www.cisoadvisor.com.br/agentes-de-ia-no-google-cloud-podem-expor-dados-internos/",
-      "published": "04/04/2026 12:00",
-      "cves": [],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "2 dias Segurança Hacker rouba € 50 milhões em criptomoeda para comprar cartas de Pokémon",
-      "source": "Canaltech Segurança",
+      "title": "OpenAI corrige falha de exfiltração de dados no ChatGPT",
+      "source": "BoletimSec Notícias",
       "priority": "Baixa",
-      "category": "threat",
-      "summary": "Um homem de 36 anos, morador do estado de Maryland nos Estados Unidos, roubou 50 milhões de euros em criptomoedas com ataques hackers. O que chamou a atenção no caso foi o destino que ele deu para a quantia: cartas de Pokémon . Segundo um comunicado do Departamento de Justiça dos EUA, Jonathan Spalletta, conhecido pelos apelidos Cthulhon e Jspalletta na internet, se entregou à polícia após acusações de fraude e lavagem de dinheiro. O homem estaria envolvido em um esquema que levou a Uranium Finance, uma plataforma de criptomoedas, ao colapso completo durante uma violação de segurança.",
-      "link": "https://canaltech.com.br/seguranca/hacker-rouba-50-milhoes-em-criptomoeda-para-comprar-cartas-de-pokemon/",
-      "published": "04/04/2026 12:00",
+      "category": "patches",
+      "summary": "A OpenAI corrigiu uma falha no ChatGPT que poderia permitir a exfiltração silenciosa de dados sensíveis compartilhados por usuários durante conversas e tarefas com execução de código. A vulnerabilidade foi identificada por pesquisadores da Check Point Research, que mostraram como o ambiente isolado usado para análises podia ser abusado para enviar informações para fora da plataforma sem alertas visíveis ao usuário. Segundo a pesquisa, o problema estava no fato de o sandbox bloquear conexões HTTP externas, mas ainda permitir consultas de DNS.",
+      "link": "https://boletimsec.com/openai-corrige-falha-de-exfiltracao-de-dados-no-chatgpt/",
+      "published": "05/04/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Falha na extensão do Claude permitia prompt injection zero-click",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Uma falha na extensão do Claude para Google Chrome permitia ataques de prompt injection zero-click, abrindo caminho para que sites maliciosos enviassem comandos ao assistente sem qualquer interação da vítima. O caso chamou atenção por transformar a simples visita a uma página em ponto de partida para abuso da IA integrada ao navegador. A vulnerabilidade foi apelidada de ShadowPrompt e, segundo os pesquisadores, explorava uma combinação de problemas na forma como a extensão validava origens confiáveis.",
+      "link": "https://boletimsec.com/falha-na-extensao-do-claude-permitia-prompt-injection-zero-click/",
+      "published": "05/04/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
     }
   ]
 }
