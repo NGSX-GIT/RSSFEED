@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-04-05T12:00:00.010430-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-04-06T09:31:16.066256-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Empresa alcança 100% das especializações Palo Alto Networks",
+      "title": "Cibercriminosos exploram falha crítica no Oracle WebLogic",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Cibercriminosos passaram a explorar uma falha crítica no Oracle WebLogic Server, elevando o alerta para empresas que mantêm servidores expostos à internet e ainda sem atualização. A vulnerabilidade, identificada como CVE-2026-21962, permite execução remota de código sem necessidade de autenticação e foi classificada com severidade máxima. O problema afeta um dos principais componentes usados em ambientes corporativos para hospedar aplicações Java. Na prática, a brecha pode abrir caminho para que invasores assumam o controle do servidor vulnerável, executem comandos maliciosos e avancem dentro da rede comprometida.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-critica-no-oracle-weblogic/",
+      "published": "06/04/2026 09:31",
+      "cves": [
+        "CVE-2026-21962"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos exploram falha no Next.js para roubar credenciais em 766 servidores",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Cibercriminosos estão explorando uma falha crítica no Next.js para invadir aplicações expostas à internet e roubar credenciais em larga escala. A ofensiva já teria atingido 766 servidores, evidenciando a velocidade com que vulnerabilidades em frameworks amplamente adotados podem ser convertidas em operações automatizadas de coleta de dados sensíveis. A brecha, identificada como CVE-2025-55182 e apelidada de React2Shell, afeta componentes ligados ao funcionamento de aplicações modernas baseadas em React Server Components e App Router.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-next-js-para-roubar-credenciais-em-766-servidores/",
+      "published": "06/04/2026 09:31",
+      "cves": [
+        "CVE-2025-55182"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Cisco corrige falhas críticas no IMC e SSM",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco corrigiu duas vulnerabilidades críticas nos produtos Integrated Management Controller, o IMC, e no Supervisor Software for UCS Manager, o SSM, que poderiam permitir a invasores remotos e não autenticados assumir o controle de dispositivos afetados. As falhas receberam pontuação 9,8 na escala CVSS, o que coloca o caso entre os alertas mais severos do ciclo recente de atualizações da fabricante. Os problemas atingem componentes usados na administração e no gerenciamento de infraestrutura, o que amplia o impacto potencial em ambientes corporativos e data centers.",
+      "link": "https://boletimsec.com/cisco-corrige-falhas-criticas-no-imc-e-ssm/",
+      "published": "06/04/2026 09:31",
+      "cves": [],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Agentes de IA no Google Cloud podem expor dados internos",
       "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "cloud",
-      "summary": "A T2Sec, fundada em 2023, alcançou as sete certificações oficiais da fabricante Palo Alto Networks, incluindo Cortex, Prisma e Firewalls, tornando-se a única companhia no país com esse nível de reconhecimento técnico. O anúncio foi feito hoje pela empresa, que projeta faturar R$ 12 milhões em 2026, mais que o dobro dos R$ 5 milhões registrados em 2025. De acordo com a T2Sec, as especializações conquistadas abrangem Cortex XDR, Cortex XSOAR, Cortex XSIAM, Cortex Cloud, Prisma SASE, Hardware Firewall e Software Firewall.",
-      "link": "https://www.cisoadvisor.com.br/empresa-alcanca-100-das-especializacoes-palo-alto-networks/",
-      "published": "05/04/2026 12:00",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Pesquisadores da Unit 42, braço de inteligência de ameaças da Palo Alto Networks, descobriram que agentes de inteligência artificial implantados no Google Cloud Platform (GCP) Vertex AI podem ser transformados em “agentes duplos”, comprometendo ambientes inteiros. A vulnerabilidade foi detalhada em relatório publicado em 31 de março. De acordo com a análise, o Per-Project, Per-Product Service Agent (P4SA) associado aos agentes de IA possui permissões excessivas concedidas por padrão.",
+      "link": "https://www.cisoadvisor.com.br/agentes-de-ia-no-google-cloud-podem-expor-dados-internos/",
+      "published": "06/04/2026 09:31",
       "cves": [],
       "vendor": "Palo Alto"
     },
     {
-      "title": "4 dias Segurança Spotify e gravadoras pedem indenização de US$ 322 milhões contra Anna’s Archive",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
+      "title": "Vazamento do Claude marca ponto de inflexão",
+      "source": "CISO Advisor",
+      "priority": "Média",
       "category": "breach",
-      "summary": "Em mais um desdobramento do processo contra o Anna’s Archive, o Spotify e as gravadoras Universal Music Group, Sony Music Entertainment e Warner Music Group querem uma indenização de US$ 322 milhões por revelia contra a biblioteca clandestina que vazou faixas copiadas do streaming. O pedido de indenização usa como argumento a ausência de representantes do Anna’s Archive na audiência judicial. As empresas alegam que a página ignorou a liminar com o compartilhamento das músicas roubadas do Spotify por meio do protocolo torrent. Em contrapartida, o vazamento em questão parece ter sido acidental, segundo uma mensagem publicada no reddit.",
-      "link": "https://canaltech.com.br/seguranca/spotify-e-gravadoras-pedem-indenizacao-de-us-322-milhoes-contra-annas-archive/",
-      "published": "05/04/2026 12:00",
+      "summary": "O setor de cibersegurança atingiu um novo ponto de inflexão. Na última semana, veio à tona que a Anthropic estaria desenvolvendo o Claude Capybara, também chamado de Claude Mythos, um modelo de inteligência artificial com avanços substanciais em descoberta de vulnerabilidades, desenvolvimento de exploits e raciocínio de ataques em múltiplas etapas. Embora os detalhes tenham surgido por meio de um vazamento de dados, e não de um anúncio formal, a reação do mercado foi inequívoca: a IA ultrapassou um limiar crítico na cibersegurança.",
+      "link": "https://www.cisoadvisor.com.br/vazamento-do-claude-marca-ponto-de-inflexao/",
+      "published": "06/04/2026 09:31",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "4 dias Segurança Em meio à guerra, chefão do FBI tem e-mail invadido por hackers do Irã",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "breach",
-      "summary": "O FBI confirmou que a conta de e-mail pessoal do diretor da agência, Kash Patel, no Gmail foi comprometida após uma violação de segurança . De acordo com o Bleeping Computer, a ação foi movida pelo grupo hacker Handala, uma rede criminosa associada ao Irã, que revelou o ocorrido em um de seus sites. Os hackers afirmaram que violaram “sistemas impenetráveis do FBI” em um período de algumas horas. A agência federal afirmou que, embora dados tenham sido roubados, nenhum vazamento continha informações confidenciais do governo. Entre os materiais expostos estavam imagens e documentos de Patel.",
-      "link": "https://canaltech.com.br/seguranca/em-meio-a-guerra-chefao-do-fbi-tem-e-mail-invadido-por-hackers-do-ira/",
-      "published": "05/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "OpenAI corrige falha de exfiltração de dados no ChatGPT",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "A OpenAI corrigiu uma falha no ChatGPT que poderia permitir a exfiltração silenciosa de dados sensíveis compartilhados por usuários durante conversas e tarefas com execução de código. A vulnerabilidade foi identificada por pesquisadores da Check Point Research, que mostraram como o ambiente isolado usado para análises podia ser abusado para enviar informações para fora da plataforma sem alertas visíveis ao usuário. Segundo a pesquisa, o problema estava no fato de o sandbox bloquear conexões HTTP externas, mas ainda permitir consultas de DNS.",
-      "link": "https://boletimsec.com/openai-corrige-falha-de-exfiltracao-de-dados-no-chatgpt/",
-      "published": "05/04/2026 12:00",
-      "cves": [],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "Falha na extensão do Claude permitia prompt injection zero-click",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Uma falha na extensão do Claude para Google Chrome permitia ataques de prompt injection zero-click, abrindo caminho para que sites maliciosos enviassem comandos ao assistente sem qualquer interação da vítima. O caso chamou atenção por transformar a simples visita a uma página em ponto de partida para abuso da IA integrada ao navegador. A vulnerabilidade foi apelidada de ShadowPrompt e, segundo os pesquisadores, explorava uma combinação de problemas na forma como a extensão validava origens confiáveis.",
-      "link": "https://boletimsec.com/falha-na-extensao-do-claude-permitia-prompt-injection-zero-click/",
-      "published": "05/04/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
     }
   ]
 }
