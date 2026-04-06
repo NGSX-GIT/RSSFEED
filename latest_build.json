@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-04-06T12:00:00.327289-03:00",
+  "generated_at": "2026-04-06T12:00:00.011387-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
+    {
+      "title": "Cibercriminosos exploram falha no Next.js para roubar credenciais em 766 servidores",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Cibercriminosos estão explorando uma falha crítica no Next.js para invadir aplicações expostas à internet e roubar credenciais em larga escala. A ofensiva já teria atingido 766 servidores, evidenciando a velocidade com que vulnerabilidades em frameworks amplamente adotados podem ser convertidas em operações automatizadas de coleta de dados sensíveis. A brecha, identificada como CVE-2025-55182 e apelidada de React2Shell, afeta componentes ligados ao funcionamento de aplicações modernas baseadas em React Server Components e App Router.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-next-js-para-roubar-credenciais-em-766-servidores/",
+      "published": "06/04/2026 12:00",
+      "cves": [
+        "CVE-2025-55182"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Cisco corrige falhas críticas no IMC e SSM",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco corrigiu duas vulnerabilidades críticas nos produtos Integrated Management Controller, o IMC, e no Supervisor Software for UCS Manager, o SSM, que poderiam permitir a invasores remotos e não autenticados assumir o controle de dispositivos afetados. As falhas receberam pontuação 9,8 na escala CVSS, o que coloca o caso entre os alertas mais severos do ciclo recente de atualizações da fabricante. Os problemas atingem componentes usados na administração e no gerenciamento de infraestrutura, o que amplia o impacto potencial em ambientes corporativos e data centers.",
+      "link": "https://boletimsec.com/cisco-corrige-falhas-criticas-no-imc-e-ssm/",
+      "published": "06/04/2026 12:00",
+      "cves": [],
+      "vendor": "Cisco"
+    },
     {
       "title": "4 min Segurança Google Drive ganha recurso que salva seus arquivos de ataques ransonware",
       "source": "Canaltech Segurança",
@@ -15,43 +39,6 @@
       "vendor": "Google"
     },
     {
-      "title": "Exploit DarkSword ataca iOS 18 vulnerável",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Usuários de iPhones e iPads que ainda utilizam iOS 18 em modelos mais recentes estão expostos ao exploit kit chamado DarkSword . De acordo com a Apple, somente visitar um site comprometido ou malicioso ou visualizar um anúncio infectado com um iPhone vulnerável já é suficiente para a infecção, sem necessidade de qualquer interação adicional. O exploit kit DarkSword foi alertado no mês passado pelas empresas Google, Lookout e iVerify. O kit utiliza seis vulnerabilidades diferentes, sendo que três delas não tinham atualização disponível no momento do ataque: CVE-2026-20700, CVE-2025-43529 e CVE-2025-14174. A Apple informou que essas correções agora estão disponíveis.",
-      "link": "https://www.cisoadvisor.com.br/exploit-darksword-ataca-ios-18-vulneravel/",
-      "published": "06/04/2026 12:00",
-      "cves": [
-        "CVE-2026-20700",
-        "CVE-2025-43529",
-        "CVE-2025-14174"
-      ],
-      "vendor": "Google"
-    },
-    {
-      "title": "Falha no Vertex AI do Google Cloud pode expor dados sensíveis",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores identificaram uma vulnerabilidade na plataforma Vertex AI Agent Engine, do Google Cloud, que poderia ser explorada para acessar dados sensíveis e ampliar o alcance de um ataque dentro do ambiente em nuvem. A falha está ligada às permissões padrão atribuídas aos agentes de IA implantados, um ponto que pode transformar esses recursos em vetores de abuso. O problema envolve a conta de serviço usada por padrão pelo ambiente, conhecida como P4SA. Em testes conduzidos por pesquisadores, foi possível extrair credenciais associadas a esse agente e, a partir delas, sair do contexto isolado da aplicação para interagir com recursos mais amplos do projeto do cliente.",
-      "link": "https://boletimsec.com/falha-no-vertex-ai-do-google-cloud-pode-expor-dados-sensiveis/",
-      "published": "06/04/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "Malware distribuído pelo WhatsApp contorna proteção do Windows",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Uma campanha maliciosa identificada pela Microsoft está usando o WhatsApp como canal de entrega de arquivos VBS para comprometer computadores com Windows. O ataque chama atenção por empregar engenharia social e ferramentas legítimas do próprio sistema operacional para driblar mecanismos de proteção e dificultar a detecção. A infecção começa quando a vítima executa um arquivo recebido pelo aplicativo de mensagens. A partir desse ponto, o código malicioso cria diretórios ocultos no sistema e prepara o ambiente para baixar novos componentes, estabelecendo as bases para persistência e controle remoto da máquina.",
-      "link": "https://boletimsec.com/malware-distribuido-pelo-whatsapp-contorna-protecao-do-windows/",
-      "published": "06/04/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
       "title": "Microsoft detalha como mitigar ataque à cadeia de suprimentos do Axios",
       "source": "BoletimSec Notícias",
       "priority": "Média",
@@ -61,6 +48,17 @@
       "published": "06/04/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
+    },
+    {
+      "title": "39 min Segurança Campanha de phishing usa notificações falsas para roubar contas no LinkedIn",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Uma campanha de phishing no LinkedIn aposta no envio de notificações falsas para usuários com o objetivo de sequestrar as contas e roubar credenciais de login e dados profissionais. Segundo uma análise do Cofense Phishing Defense Center, os criminosos usam domínios falsos que imitam o design de uma notificação legítima do LinkedIn, enganando até mesmo os usuários mais cautelosos na plataforma. Com essa tática, os hackers conseguem se infiltrar em contas da rede para acessar informações confidenciais voltadas para o universo corporativo, roubando nomes de usuários e senhas das vítimas com uma facilidade impressionante.",
+      "link": "https://canaltech.com.br/seguranca/campanha-de-phishing-usa-notificacoes-falsas-para-roubar-contas-no-linkedin/",
+      "published": "06/04/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
