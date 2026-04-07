@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-04-06T12:00:00.011387-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-04-07T09:55:55.728557-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Cibercriminosos exploram falha no Next.js para roubar credenciais em 766 servidores",
+      "title": "Falhas no FortiClient EMS deixam mais de 2 mil instâncias expostas",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos estão explorando uma falha crítica no Next.js para invadir aplicações expostas à internet e roubar credenciais em larga escala. A ofensiva já teria atingido 766 servidores, evidenciando a velocidade com que vulnerabilidades em frameworks amplamente adotados podem ser convertidas em operações automatizadas de coleta de dados sensíveis. A brecha, identificada como CVE-2025-55182 e apelidada de React2Shell, afeta componentes ligados ao funcionamento de aplicações modernas baseadas em React Server Components e App Router.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-next-js-para-roubar-credenciais-em-766-servidores/",
-      "published": "06/04/2026 12:00",
-      "cves": [
-        "CVE-2025-55182"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Cisco corrige falhas críticas no IMC e SSM",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco corrigiu duas vulnerabilidades críticas nos produtos Integrated Management Controller, o IMC, e no Supervisor Software for UCS Manager, o SSM, que poderiam permitir a invasores remotos e não autenticados assumir o controle de dispositivos afetados. As falhas receberam pontuação 9,8 na escala CVSS, o que coloca o caso entre os alertas mais severos do ciclo recente de atualizações da fabricante. Os problemas atingem componentes usados na administração e no gerenciamento de infraestrutura, o que amplia o impacto potencial em ambientes corporativos e data centers.",
-      "link": "https://boletimsec.com/cisco-corrige-falhas-criticas-no-imc-e-ssm/",
-      "published": "06/04/2026 12:00",
+      "summary": "Falhas críticas no FortiClient Enterprise Management Server, o FortiClient EMS, deixaram mais de 2 mil instâncias expostas à internet, ampliando o risco para empresas que utilizam a plataforma da Fortinet no gerenciamento de endpoints e conexões remotas. O cenário preocupa porque o produto ocupa uma posição central na administração de políticas de segurança em ambientes corporativos. As vulnerabilidades associadas ao caso permitem execução remota de código sem autenticação, o que significa que um invasor pode explorar o servidor vulnerável sem precisar informar credenciais válidas.",
+      "link": "https://boletimsec.com/falhas-no-forticlient-ems-deixam-mais-de-2-mil-instancias-expostas/",
+      "published": "07/04/2026 09:55",
       "cves": [],
-      "vendor": "Cisco"
+      "vendor": "Fortinet"
     },
     {
-      "title": "4 min Segurança Google Drive ganha recurso que salva seus arquivos de ataques ransonware",
-      "source": "Canaltech Segurança",
+      "title": "Zero-day no Windows permite escalonamento de privilégios",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma nova atualização de segurança do Google Drive permite que a plataforma de armazenamento em nuvem proteja o usuário de ataques de ransomware . Conforme publicado no blog do Google Workspace, o Google Drive agora possui uma ferramenta de detecção e restauração de arquivos que usa inteligência artificial (IA) para identificar softwares maliciosos que sequestram dados sensíveis da vítima como forma de exigir um resgate para liberá-los. O recurso pausa a sincronização da plataforma antes que o malware se espalhe e criptografe os materiais armazenados no Drive.",
-      "link": "https://canaltech.com.br/seguranca/google-drive-ganha-recurso-que-salva-seus-arquivos-de-ataques-ransonware/",
-      "published": "06/04/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "Microsoft detalha como mitigar ataque à cadeia de suprimentos do Axios",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "A Microsoft divulgou orientações para ajudar empresas e desenvolvedores a responder ao comprometimento de versões do Axios publicadas com código malicioso no npm. O caso acendeu um alerta no ecossistema JavaScript por envolver uma das bibliotecas mais usadas para requisições HTTP em aplicações web e serviços corporativos. As versões afetadas, 1.14.1 e 0.30.4, foram distribuídas com uma dependência maliciosa capaz de acionar um script pós-instalação.",
-      "link": "https://boletimsec.com/microsoft-detalha-como-mitigar-ataque-a-cadeia-de-suprimentos-do-axios/",
-      "published": "06/04/2026 12:00",
+      "summary": "Um código de exploração foi publicado para uma falha não corrigida de escalonamento de privilégios no Windows, relatada em particular à Microsoft, permitindo que atacantes obtenham permissões SYSTEM ou de administrador elevado. Chamada de BlueHammer, a vulnerabilidade foi publicada por um pesquisador de segurança insatisfeito com a forma como o Microsoft Security Response Center (MSRC) conduziu o processo de divulgação. Como o problema de segurança não tem correção oficial e não há atualização para resolvê-lo, a falha é considerada um zero-day pela definição da Microsoft.",
+      "link": "https://www.cisoadvisor.com.br/zero-day-no-windows-permite-escalonamento-de-privilegios/",
+      "published": "07/04/2026 09:55",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "39 min Segurança Campanha de phishing usa notificações falsas para roubar contas no LinkedIn",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Uma campanha de phishing no LinkedIn aposta no envio de notificações falsas para usuários com o objetivo de sequestrar as contas e roubar credenciais de login e dados profissionais. Segundo uma análise do Cofense Phishing Defense Center, os criminosos usam domínios falsos que imitam o design de uma notificação legítima do LinkedIn, enganando até mesmo os usuários mais cautelosos na plataforma. Com essa tática, os hackers conseguem se infiltrar em contas da rede para acessar informações confidenciais voltadas para o universo corporativo, roubando nomes de usuários e senhas das vítimas com uma facilidade impressionante.",
-      "link": "https://canaltech.com.br/seguranca/campanha-de-phishing-usa-notificacoes-falsas-para-roubar-contas-no-linkedin/",
-      "published": "06/04/2026 12:00",
+      "title": "Atualização do TrueConf escondeu malware governamental",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A equipe da Check Point Research (CPR), divisão de inteligência de ameaças da Check Point Software, identificou uma vulnerabilidade Zero Day até então desconhecida que possibilitou a cibercriminosos transformar atualizações legítimas de software governamental em um canal dedicado para distribuição de malware, conforme comunicado divulgado em 6 de abril de 2026. A falha foi explorada no software de videoconferência TrueConf, permitindo a infecção silenciosa de múltiplas agências públicas sem o uso de phishing, roubo de credenciais ou exploração de sistemas expostos à internet.",
+      "link": "https://www.cisoadvisor.com.br/atualizacao-do-trueconf-escondeu-malware-governamental/",
+      "published": "07/04/2026 09:55",
       "cves": [],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Apache corrige vulnerabilidades críticas no Traffic Server",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Apache Software Foundation corrigiu vulnerabilidades críticas no Apache Traffic Server, software amplamente usado como proxy reverso e cache HTTP em ambientes corporativos. As falhas acendem um alerta para equipes de infraestrutura porque atingem um componente central na entrega de aplicações web e podem afetar diretamente a disponibilidade dos serviços. Uma das brechas permite que uma requisição HTTP POST aparentemente legítima provoque negação de serviço.",
+      "link": "https://boletimsec.com/apache-corrige-vulnerabilidades-criticas-no-traffic-server/",
+      "published": "07/04/2026 09:55",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "CISA ordena correção urgente de falha no FortiClient",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) ordenou que agências federais protegessem instâncias do FortiClient Enterprise Management Server (EMS) contra uma vulnerabilidade explorada ativamente até sexta-feira, dia 9 de abril, conforme publicado. A falha , rastreada como CVE-2026-35616, foi descoberta pela empresa de segurança cibernética Defused, que a descreveu como um bypass de acesso à API pré-autenticação que pode permitir que atacantes contornem completamente os controles de autenticação e autorização.",
+      "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-urgente-de-falha-no-forticlient/",
+      "published": "07/04/2026 09:55",
+      "cves": [
+        "CVE-2026-35616"
+      ],
       "vendor": null
     }
   ]
