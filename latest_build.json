@@ -1,64 +1,68 @@
 {
-  "generated_at": "2026-04-07T12:00:00.010852-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-04-08T12:00:00.103405-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Falhas no FortiClient EMS deixam mais de 2 mil instâncias expostas",
-      "source": "BoletimSec Notícias",
+      "title": "Falha crítica no Flowise permite execução remota de código",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Falhas críticas no FortiClient Enterprise Management Server, o FortiClient EMS, deixaram mais de 2 mil instâncias expostas à internet, ampliando o risco para empresas que utilizam a plataforma da Fortinet no gerenciamento de endpoints e conexões remotas. O cenário preocupa porque o produto ocupa uma posição central na administração de políticas de segurança em ambientes corporativos. As vulnerabilidades associadas ao caso permitem execução remota de código sem autenticação, o que significa que um invasor pode explorar o servidor vulnerável sem precisar informar credenciais válidas.",
-      "link": "https://boletimsec.com/falhas-no-forticlient-ems-deixam-mais-de-2-mil-instancias-expostas/",
-      "published": "07/04/2026 12:00",
+      "summary": "Atores de ameaças começaram a explorar uma vulnerabilidade crítica no Flowise que permite a execução remota de código arbitrário, alerta a VulnCheck. Rastreada como CVE-2025-59528 , a falha possui pontuação CVSS 10, de acordo com o comunicado. O bug existe porque o código JavaScript fornecido pelo usuário não é validado em uma função que suporta entrada de configurações para conexão com um MCP externo.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-flowise-permite-execucao-remota-de-codigo/",
+      "published": "08/04/2026 12:00",
+      "cves": [
+        "CVE-2025-59528"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "* Falhas no FortiClient EMS deixam mais de 2 mil instâncias expostas.",
+      "source": "BoletimSec Diário",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "* Falhas no FortiClient EMS deixam mais de 2 mil instâncias expostas. Falhas críticas no FortiClient Enterprise Management Server, o FortiClient EMS, deixaram mais de 2 mil instâncias expostas à internet, ampliando o risco para empresas que utilizam a plataforma da Fortinet no gerenciamento de endpoints e conexões remotas. O cenário preocupa porque o produto ocupa uma posição central na administração de políticas de segurança em ambientes corporativos. As vulnerabilidades associadas ao caso permitem execução remota de código sem autenticação, o que significa que um invasor pode explorar o servidor vulnerável sem precisar informar credenciais válidas.",
+      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
+      "published": "08/04/2026 12:00",
       "cves": [],
       "vendor": "Fortinet"
     },
     {
-      "title": "Zero-day no Windows permite escalonamento de privilégios",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Um código de exploração foi publicado para uma falha não corrigida de escalonamento de privilégios no Windows, relatada em particular à Microsoft, permitindo que atacantes obtenham permissões SYSTEM ou de administrador elevado. Chamada de BlueHammer, a vulnerabilidade foi publicada por um pesquisador de segurança insatisfeito com a forma como o Microsoft Security Response Center (MSRC) conduziu o processo de divulgação. Como o problema de segurança não tem correção oficial e não há atualização para resolvê-lo, a falha é considerada um zero-day pela definição da Microsoft.",
-      "link": "https://www.cisoadvisor.com.br/zero-day-no-windows-permite-escalonamento-de-privilegios/",
-      "published": "07/04/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Atualização do TrueConf escondeu malware governamental",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A equipe da Check Point Research (CPR), divisão de inteligência de ameaças da Check Point Software, identificou uma vulnerabilidade Zero Day até então desconhecida que possibilitou a cibercriminosos transformar atualizações legítimas de software governamental em um canal dedicado para distribuição de malware, conforme comunicado divulgado em 6 de abril de 2026. A falha foi explorada no software de videoconferência TrueConf, permitindo a infecção silenciosa de múltiplas agências públicas sem o uso de phishing, roubo de credenciais ou exploração de sistemas expostos à internet.",
-      "link": "https://www.cisoadvisor.com.br/atualizacao-do-trueconf-escondeu-malware-governamental/",
-      "published": "07/04/2026 12:00",
-      "cves": [],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "Apache corrige vulnerabilidades críticas no Traffic Server",
+      "title": "Falha crítica no Docker permite execução de código por meio de plugins",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Apache Software Foundation corrigiu vulnerabilidades críticas no Apache Traffic Server, software amplamente usado como proxy reverso e cache HTTP em ambientes corporativos. As falhas acendem um alerta para equipes de infraestrutura porque atingem um componente central na entrega de aplicações web e podem afetar diretamente a disponibilidade dos serviços. Uma das brechas permite que uma requisição HTTP POST aparentemente legítima provoque negação de serviço.",
-      "link": "https://boletimsec.com/apache-corrige-vulnerabilidades-criticas-no-traffic-server/",
-      "published": "07/04/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no Docker colocou em alerta equipes de infraestrutura e segurança ao abrir caminho para execução de código por meio de plugins em ambientes Linux. O problema, rastreado como CVE-2026-34040, afeta o Docker Engine e levanta preocupação em organizações que usam contêineres como base de aplicações, pipelines e serviços corporativos. A vulnerabilidade está relacionada ao modo como o Docker trata plugins dos tipos Volume e Log. Na prática, isso pode resultar na execução de código arbitrário no host Linux onde o Docker está instalado.",
+      "link": "https://boletimsec.com/falha-critica-no-docker-permite-execucao-de-codigo-por-meio-de-plugins/",
+      "published": "08/04/2026 12:00",
+      "cves": [
+        "CVE-2026-34040"
+      ],
+      "vendor": "Linux"
+    },
+    {
+      "title": "EUA enfrentam ataques a CLPs da infraestrutura crítica",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A CISA (Agência de Segurança Cibernética e Infraestrutura dos EUA), em parceria com o FBI, NSA, EPA, Departamento de Energia e o Comando Cibernético dos EUA, publicou um alerta conjunto sobre exploração cibernética em andamento por agentes afiliados ao Irã. O alvo são dispositivos de tecnologia operacional conectados à internet, incluindo controladores lógicos programáveis (PLCs) da Rockwell Automation/Allen-Bradley, em setores de infraestrutura crítica. Segundo o comunicado divulgado hoje , 7 de abril de 2026, as interrupções afetam múltiplos setores: Serviços Governamentais e Instalações (incluindo municipalidades locais), Sistemas de Água e Esgoto, e Energia.",
+      "link": "https://www.cisoadvisor.com.br/eua-enfrentam-ataques-a-clps-da-infraestrutura-critica/",
+      "published": "08/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "CISA ordena correção urgente de falha no FortiClient",
+      "title": "Campanha automatizada rouba credenciais via React2Shell",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) ordenou que agências federais protegessem instâncias do FortiClient Enterprise Management Server (EMS) contra uma vulnerabilidade explorada ativamente até sexta-feira, dia 9 de abril, conforme publicado. A falha , rastreada como CVE-2026-35616, foi descoberta pela empresa de segurança cibernética Defused, que a descreveu como um bypass de acesso à API pré-autenticação que pode permitir que atacantes contornem completamente os controles de autenticação e autorização.",
-      "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-urgente-de-falha-no-forticlient/",
-      "published": "07/04/2026 12:00",
+      "summary": "Hackers estão executando uma campanha em larga escala para roubar credenciais de forma automatizada após explorar a vulnerabilidade React2Shell (CVE-2025-55182) em aplicações Next.js vulneráveis, conforme relatório da Cisco Talos. Pelo menos 766 hosts em vários provedores de nuvem e geografias foram comprometidos para coletar credenciais de banco de dados e AWS, chaves privadas SSH, chaves de API, tokens de nuvem e segredos de ambiente. A operação utiliza uma estrutura chamada NEXUS Listener e emprega scripts automatizados para extrair e exfiltrar dados sensíveis de várias aplicações. A Cisco Talos atribui a atividade a um cluster de ameaças rastreado como UAT-10608.",
+      "link": "https://www.cisoadvisor.com.br/campanha-automatizada-rouba-credenciais-via-react2shell/",
+      "published": "08/04/2026 12:00",
       "cves": [
-        "CVE-2026-35616"
+        "CVE-2025-55182"
       ],
-      "vendor": null
+      "vendor": "Cisco"
     }
   ]
 }
