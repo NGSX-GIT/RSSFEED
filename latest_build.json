@@ -1,68 +1,70 @@
 {
-  "generated_at": "2026-04-08T12:00:00.009513-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-04-09T12:00:00.013742-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no Flowise permite execução remota de código",
+      "title": "CISA dá 4 dias para corrigir falha crítica no Ivanti",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Atores de ameaças começaram a explorar uma vulnerabilidade crítica no Flowise que permite a execução remota de código arbitrário, alerta a VulnCheck. Rastreada como CVE-2025-59528 , a falha possui pontuação CVSS 10, de acordo com o comunicado. O bug existe porque o código JavaScript fornecido pelo usuário não é validado em uma função que suporta entrada de configurações para conexão com um MCP externo.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-flowise-permite-execucao-remota-de-codigo/",
-      "published": "08/04/2026 12:00",
+      "summary": "A CISA concedeu a agências do governo dos EUA quatro dias para protegerem seus sistemas contra uma vulnerabilidade de gravidade crítica no Ivanti Endpoint Manager Mobile (EPMM) que vem sendo explorada em ataques desde janeiro, conforme comunicado. Rastreada como CVE-2026-1340 , esta falha de injeção de código de gravidade crítica permite que atores de ameaça sem privilégios obtenham execução remota de código em appliances EPMM expostos à internet e não corrigidos.",
+      "link": "https://www.cisoadvisor.com.br/cisa-da-4-dias-para-corrigir-falha-critica-no-ivanti/",
+      "published": "09/04/2026 12:00",
       "cves": [
-        "CVE-2025-59528"
+        "CVE-2026-1340"
+      ],
+      "vendor": "Ivanti"
+    },
+    {
+      "title": "Ninja Forms crítico: 3.000 ataques em 24 horas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no complemento Ninja Forms File Uploads para WordPress permite o upload de arquivos arbitrários sem autenticação, podendo levar à execução remota de código, segundo a empresa Defiant. Identificada como CVE-2026-0740, a falha está sendo explorada em ataques . O firewall Wordfence bloqueou mais de 3.000 ataques nas últimas 24 horas. Com gravidade 9,8 em 10, a vulnerabilidade afeta as versões até 3.3.26. A falha é causada pela falta de validação de tipos de arquivo, permitindo que um atacante não autenticado faça upload de arquivos com extensão .php e utilize path traversal, explica a Wordfence. Isso possibilita a execução remota de código no servidor.",
+      "link": "https://www.cisoadvisor.com.br/ninja-forms-critico-3-600-ataques-em-24-horas/",
+      "published": "09/04/2026 12:00",
+      "cves": [
+        "CVE-2026-0740"
       ],
       "vendor": null
     },
     {
-      "title": "* Falhas no FortiClient EMS deixam mais de 2 mil instâncias expostas.",
-      "source": "BoletimSec Diário",
+      "title": "Android vulnerável ​​a ataques DoS permanentes",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "* Falhas no FortiClient EMS deixam mais de 2 mil instâncias expostas. Falhas críticas no FortiClient Enterprise Management Server, o FortiClient EMS, deixaram mais de 2 mil instâncias expostas à internet, ampliando o risco para empresas que utilizam a plataforma da Fortinet no gerenciamento de endpoints e conexões remotas. O cenário preocupa porque o produto ocupa uma posição central na administração de políticas de segurança em ambientes corporativos. As vulnerabilidades associadas ao caso permitem execução remota de código sem autenticação, o que significa que um invasor pode explorar o servidor vulnerável sem precisar informar credenciais válidas.",
-      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "08/04/2026 12:00",
-      "cves": [],
-      "vendor": "Fortinet"
+      "summary": "Uma vulnerabilidade crítica no Android torna possível realizar um ataque local de negação de serviço (DOS) permanente em telefones, informou o Google. A falha , classificada como crítica, diz respeito à CVE-2026-0049, presente no Android Framework, de acordo com o comunicado. O que torna a CVE-2026-0049 distinta é que ela pode levar a uma negação de serviço local sem exigir qualquer interação do usuário. Tais vulnerabilidades raramente são classificadas como críticas. O Google só usa esta classificação para brechas de segurança que podem causar uma negação de serviço permanente (PDoS), o que pode exigir a reinstalação de todo o sistema operacional ou uma redefinição de fábrica.",
+      "link": "https://www.cisoadvisor.com.br/android-vulneravel-a-ataques-dos-permanentes/",
+      "published": "09/04/2026 12:00",
+      "cves": [
+        "CVE-2026-0049"
+      ],
+      "vendor": "Google"
     },
     {
-      "title": "Falha crítica no Docker permite execução de código por meio de plugins",
+      "title": "OpenSSL corrige falha que vaza dados sensíveis",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Sete vulnerabilidades foram corrigidas com as mais recentes atualizações do OpenSSL, incluindo uma falha que pode permitir que um atacante obtenha dados sensíveis, conforme comunicado dos desenvolvedores. O problema de vazamento de dados, rastreado como CVE-2026-31790 e classificado como ‘gravidade moderada’, afeta aplicações que usam o RSASVE key encapsulation para estabelecer uma chave de criptografia secreta. O problema é que o OpenSSL às vezes falha em verificar adequadamente se a criptografia foi bem-sucedida, mas ainda pode retornar uma mensagem de ‘sucesso’, expondo dados de um buffer de memória não inicializado ao atacante.",
+      "link": "https://www.cisoadvisor.com.br/openssl-corrige-falha-que-vaza-dados-sensiveis/",
+      "published": "09/04/2026 12:00",
+      "cves": [
+        "CVE-2026-31790"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Hackers ligados ao Irã miram PLCs expostos dos EUA",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Docker colocou em alerta equipes de infraestrutura e segurança ao abrir caminho para execução de código por meio de plugins em ambientes Linux. O problema, rastreado como CVE-2026-34040, afeta o Docker Engine e levanta preocupação em organizações que usam contêineres como base de aplicações, pipelines e serviços corporativos. A vulnerabilidade está relacionada ao modo como o Docker trata plugins dos tipos Volume e Log. Na prática, isso pode resultar na execução de código arbitrário no host Linux onde o Docker está instalado.",
-      "link": "https://boletimsec.com/falha-critica-no-docker-permite-execucao-de-codigo-por-meio-de-plugins/",
-      "published": "08/04/2026 12:00",
-      "cves": [
-        "CVE-2026-34040"
-      ],
-      "vendor": "Linux"
-    },
-    {
-      "title": "EUA enfrentam ataques a CLPs da infraestrutura crítica",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA (Agência de Segurança Cibernética e Infraestrutura dos EUA), em parceria com o FBI, NSA, EPA, Departamento de Energia e o Comando Cibernético dos EUA, publicou um alerta conjunto sobre exploração cibernética em andamento por agentes afiliados ao Irã. O alvo são dispositivos de tecnologia operacional conectados à internet, incluindo controladores lógicos programáveis (PLCs) da Rockwell Automation/Allen-Bradley, em setores de infraestrutura crítica. Segundo o comunicado divulgado hoje , 7 de abril de 2026, as interrupções afetam múltiplos setores: Serviços Governamentais e Instalações (incluindo municipalidades locais), Sistemas de Água e Esgoto, e Energia.",
-      "link": "https://www.cisoadvisor.com.br/eua-enfrentam-ataques-a-clps-da-infraestrutura-critica/",
-      "published": "08/04/2026 12:00",
+      "category": "threat",
+      "summary": "Agências de segurança dos Estados Unidos alertaram para uma campanha de hackers ligados ao Irã contra dispositivos de tecnologia operacional expostos à internet, incluindo controladores lógicos programáveis, os PLCs. Segundo o aviso, a atividade já provocou perda de funcionalidade em equipamentos, manipulação de dados exibidos em telas industriais e, em alguns casos, interrupção operacional e prejuízo financeiro. A ofensiva tem como alvo setores de infraestrutura crítica nos Estados Unidos, com foco em serviços governamentais, água e esgoto e energia. O alerta aponta que os ataques atingiram especialmente PLCs Rockwell Automation e Allen-Bradley conectados diretamente à internet.",
+      "link": "https://boletimsec.com/hackers-ligados-ao-ira-miram-plcs-expostos-dos-eua/",
+      "published": "09/04/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "Campanha automatizada rouba credenciais via React2Shell",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Hackers estão executando uma campanha em larga escala para roubar credenciais de forma automatizada após explorar a vulnerabilidade React2Shell (CVE-2025-55182) em aplicações Next.js vulneráveis, conforme relatório da Cisco Talos. Pelo menos 766 hosts em vários provedores de nuvem e geografias foram comprometidos para coletar credenciais de banco de dados e AWS, chaves privadas SSH, chaves de API, tokens de nuvem e segredos de ambiente. A operação utiliza uma estrutura chamada NEXUS Listener e emprega scripts automatizados para extrair e exfiltrar dados sensíveis de várias aplicações. A Cisco Talos atribui a atividade a um cluster de ameaças rastreado como UAT-10608.",
-      "link": "https://www.cisoadvisor.com.br/campanha-automatizada-rouba-credenciais-via-react2shell/",
-      "published": "08/04/2026 12:00",
-      "cves": [
-        "CVE-2025-55182"
-      ],
-      "vendor": "Cisco"
     }
   ]
 }
