@@ -1,70 +1,71 @@
 {
-  "generated_at": "2026-04-09T12:00:00.013742-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-04-10T12:00:00.005196-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA dá 4 dias para corrigir falha crítica no Ivanti",
+      "title": "Palo Alto e SonicWall lançam patches para falhas críticas",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA concedeu a agências do governo dos EUA quatro dias para protegerem seus sistemas contra uma vulnerabilidade de gravidade crítica no Ivanti Endpoint Manager Mobile (EPMM) que vem sendo explorada em ataques desde janeiro, conforme comunicado. Rastreada como CVE-2026-1340 , esta falha de injeção de código de gravidade crítica permite que atores de ameaça sem privilégios obtenham execução remota de código em appliances EPMM expostos à internet e não corrigidos.",
-      "link": "https://www.cisoadvisor.com.br/cisa-da-4-dias-para-corrigir-falha-critica-no-ivanti/",
-      "published": "09/04/2026 12:00",
+      "summary": "A Palo Alto Networks e a SonicWall anunciaram separadamente patches para múltiplas vulnerabilidades em seus produtos, incluindo duas falhas de alta gravidade, conforme comunicados. A Palo Alto Networks corrigiu três falhas e implementou correções de terceiros para plataformas Cortex, ADEM para Windows, PAN-OS e produtos que utilizam navegador baseado em Chromium. A mais grave dessas falhas de segurança é a CVE-2026-0234, uma verificação inadequada de assinatura criptográfica na integração do Microsoft Teams com as plataformas Cortex XSOAR e Cortex XSIAM. A exploração bem-sucedida da fraqueza permite que atacantes acessem e adulterem recursos protegidos, afirma a empresa.",
+      "link": "https://www.cisoadvisor.com.br/palo-alto-e-sonicwall-lancam-patches-para-falhas-criticas/",
+      "published": "10/04/2026 12:00",
       "cves": [
-        "CVE-2026-1340"
+        "CVE-2026-0234"
       ],
-      "vendor": "Ivanti"
+      "vendor": "Microsoft"
     },
     {
-      "title": "Ninja Forms crítico: 3.000 ataques em 24 horas",
+      "title": "Pesquisador indica exploração zero‑day no Adobe Reader",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no complemento Ninja Forms File Uploads para WordPress permite o upload de arquivos arbitrários sem autenticação, podendo levar à execução remota de código, segundo a empresa Defiant. Identificada como CVE-2026-0740, a falha está sendo explorada em ataques . O firewall Wordfence bloqueou mais de 3.000 ataques nas últimas 24 horas. Com gravidade 9,8 em 10, a vulnerabilidade afeta as versões até 3.3.26. A falha é causada pela falta de validação de tipos de arquivo, permitindo que um atacante não autenticado faça upload de arquivos com extensão .php e utilize path traversal, explica a Wordfence. Isso possibilita a execução remota de código no servidor.",
-      "link": "https://www.cisoadvisor.com.br/ninja-forms-critico-3-600-ataques-em-24-horas/",
-      "published": "09/04/2026 12:00",
-      "cves": [
-        "CVE-2026-0740"
-      ],
-      "vendor": null
+      "summary": "Um pesquisador encontrou o que parece ser uma vulnerabilidade zero-day no Adobe Reader sendo explorada ativamente, conforme relato de Haifei Li, fundador e desenvolvedor do Expmon, um sistema baseado em sandbox projetado para detectar zero-days e outros exploits baseados em arquivos. Li está pedindo assistência à comunidade de segurança cibernética para investigar o que ele descreve como um exploit PDF sofisticado.",
+      "link": "https://www.cisoadvisor.com.br/adobe-reader-tem-zero-day-explorado/",
+      "published": "10/04/2026 12:00",
+      "cves": [],
+      "vendor": "Adobe"
     },
     {
-      "title": "Android vulnerável ​​a ataques DoS permanentes",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Android torna possível realizar um ataque local de negação de serviço (DOS) permanente em telefones, informou o Google. A falha , classificada como crítica, diz respeito à CVE-2026-0049, presente no Android Framework, de acordo com o comunicado. O que torna a CVE-2026-0049 distinta é que ela pode levar a uma negação de serviço local sem exigir qualquer interação do usuário. Tais vulnerabilidades raramente são classificadas como críticas. O Google só usa esta classificação para brechas de segurança que podem causar uma negação de serviço permanente (PDoS), o que pode exigir a reinstalação de todo o sistema operacional ou uma redefinição de fábrica.",
-      "link": "https://www.cisoadvisor.com.br/android-vulneravel-a-ataques-dos-permanentes/",
-      "published": "09/04/2026 12:00",
-      "cves": [
-        "CVE-2026-0049"
-      ],
-      "vendor": "Google"
-    },
-    {
-      "title": "OpenSSL corrige falha que vaza dados sensíveis",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Sete vulnerabilidades foram corrigidas com as mais recentes atualizações do OpenSSL, incluindo uma falha que pode permitir que um atacante obtenha dados sensíveis, conforme comunicado dos desenvolvedores. O problema de vazamento de dados, rastreado como CVE-2026-31790 e classificado como ‘gravidade moderada’, afeta aplicações que usam o RSASVE key encapsulation para estabelecer uma chave de criptografia secreta. O problema é que o OpenSSL às vezes falha em verificar adequadamente se a criptografia foi bem-sucedida, mas ainda pode retornar uma mensagem de ‘sucesso’, expondo dados de um buffer de memória não inicializado ao atacante.",
-      "link": "https://www.cisoadvisor.com.br/openssl-corrige-falha-que-vaza-dados-sensiveis/",
-      "published": "09/04/2026 12:00",
-      "cves": [
-        "CVE-2026-31790"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Hackers ligados ao Irã miram PLCs expostos dos EUA",
+      "title": "Palo Alto corrige falha no Cortex que permitia acesso indevido a dados",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "Agências de segurança dos Estados Unidos alertaram para uma campanha de hackers ligados ao Irã contra dispositivos de tecnologia operacional expostos à internet, incluindo controladores lógicos programáveis, os PLCs. Segundo o aviso, a atividade já provocou perda de funcionalidade em equipamentos, manipulação de dados exibidos em telas industriais e, em alguns casos, interrupção operacional e prejuízo financeiro. A ofensiva tem como alvo setores de infraestrutura crítica nos Estados Unidos, com foco em serviços governamentais, água e esgoto e energia. O alerta aponta que os ataques atingiram especialmente PLCs Rockwell Automation e Allen-Bradley conectados diretamente à internet.",
-      "link": "https://boletimsec.com/hackers-ligados-ao-ira-miram-plcs-expostos-dos-eua/",
-      "published": "09/04/2026 12:00",
-      "cves": [],
+      "category": "patches",
+      "summary": "A Palo Alto Networks corrigiu uma vulnerabilidade de alta severidade na integração do Microsoft Teams usada nas plataformas Cortex XSOAR e Cortex XSIAM. O problema pode permitir que um invasor sem autenticação acesse e modifique recursos protegidos. A falha foi registrada como CVE-2026-0234 e recebeu urgência máxima no boletim da fabricante.",
+      "link": "https://boletimsec.com/palo-alto-corrige-falha-no-cortex-que-permitia-acesso-indevido-a-dados/",
+      "published": "10/04/2026 12:00",
+      "cves": [
+        "CVE-2026-0234"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "GitLab corrige múltiplas vulnerabilidades que permitem ataques de DoS",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A GitLab liberou atualizações de segurança para corrigir uma série de falhas no GitLab CE e EE, incluindo vulnerabilidades que podem ser exploradas para provocar negação de serviço e abusar de fluxos internos da plataforma. Entre os problemas de maior impacto está a CVE-2026-5173, classificada com CVSS 8.5, que poderia permitir que um usuário autenticado acionasse métodos do lado do servidor por meio de conexões websocket, em um cenário associado a falhas de controle de acesso. A CVE-2026-1092 afeta a API de bloqueio de estado do Terraform e poderia ser explorada por um invasor sem autenticação por meio de cargas JSON malformadas.",
+      "link": "https://boletimsec.com/gitlab-corrige-multiplas-vulnerabilidades-que-permitem-ataques-de-dos/",
+      "published": "10/04/2026 12:00",
+      "cves": [
+        "CVE-2026-5173",
+        "CVE-2026-1092"
+      ],
       "vendor": null
+    },
+    {
+      "title": "Vulnerabilidades na SonicWall permitem ataques de injeção SQL",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A SonicWall publicou uma atualização de segurança para corrigir quatro vulnerabilidades na linha SMA 1000, usada em acesso remoto seguro, incluindo uma falha de injeção SQL que pode resultar em escalonamento de privilégios administrativos. O problema mais grave é a CVE-2026-4112, com pontuação CVSS 7.2, descrita como uma vulnerabilidade de escalonamento de privilégios via SQL Injection. Segundo a SonicWall, a exploração bem-sucedida pode permitir que um administrador com permissão apenas de leitura obtenha privilégios de administrador principal.",
+      "link": "https://boletimsec.com/vulnerabilidades-na-sonicwall-permitem-ataques-de-injecao-sql/",
+      "published": "10/04/2026 12:00",
+      "cves": [
+        "CVE-2026-4112"
+      ],
+      "vendor": "SonicWall"
     }
   ]
 }
