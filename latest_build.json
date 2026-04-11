@@ -1,71 +1,64 @@
 {
-  "generated_at": "2026-04-10T12:00:00.005196-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-04-11T12:00:00.009463-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Palo Alto e SonicWall lançam patches para falhas críticas",
+      "title": "Botnet faz DDoS sob demanda e evita alvos sensíveis dos EUA",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A Palo Alto Networks e a SonicWall anunciaram separadamente patches para múltiplas vulnerabilidades em seus produtos, incluindo duas falhas de alta gravidade, conforme comunicados. A Palo Alto Networks corrigiu três falhas e implementou correções de terceiros para plataformas Cortex, ADEM para Windows, PAN-OS e produtos que utilizam navegador baseado em Chromium. A mais grave dessas falhas de segurança é a CVE-2026-0234, uma verificação inadequada de assinatura criptográfica na integração do Microsoft Teams com as plataformas Cortex XSOAR e Cortex XSIAM. A exploração bem-sucedida da fraqueza permite que atacantes acessem e adulterem recursos protegidos, afirma a empresa.",
-      "link": "https://www.cisoadvisor.com.br/palo-alto-e-sonicwall-lancam-patches-para-falhas-criticas/",
-      "published": "10/04/2026 12:00",
-      "cves": [
-        "CVE-2026-0234"
-      ],
-      "vendor": "Microsoft"
+      "category": "threat",
+      "summary": "A Trellix publicou um relatório sobre o Masjesu, um botnet de Internet das Coisas (IoT) utilizado para ataques de negação de serviço distribuído (DDoS) sob demanda (DDoS-for-hire). O malware, segundo o relatório, “varre endereços IP aleatórios para identificar e explorar inúmeras vulnerabilidades encontradas em dispositivos de fabricantes como D-Link, GPON e Netgear”. O Masjesu “visa uma ampla variedade de dispositivos IoT, como roteadores e gateways, em múltiplas arquiteturas (incluindo i386, MIPS, ARM e AMD64)”, informou a Trellix. O botnet está operando desde 2023, com foco em discrição em vez de infecção generalizada.",
+      "link": "https://www.cisoadvisor.com.br/botnet-faz-ddos-sob-demanda-e-evita-alvos-sensiveis-dos-eua/",
+      "published": "11/04/2026 12:00",
+      "cves": [],
+      "vendor": null
     },
     {
-      "title": "Pesquisador indica exploração zero‑day no Adobe Reader",
+      "title": "Dfense projeta faturamento de R$ 180M este ano",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "A Dfense Security, responsável pela proteção digital de grandes instituições financeiras e empresas de grande porte no Brasil, iniciou um novo ciclo de expansão nacional com a entrada estruturada na Região Sul. O movimento reforça uma estratégia cada vez mais relevante no setor: crescer com presença local para atender demandas críticas de grandes organizações. Fundada em 2020, a empresa vem consolidando sua atuação em um mercado pressionado pelo aumento da complexidade das ameaças digitais e pela crescente exigência regulatória.",
+      "link": "https://www.cisoadvisor.com.br/dfense-projeta-faturamento-de-r-180m-este-ano/",
+      "published": "11/04/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Adobe Reader tem zero-day explorado",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
       "summary": "Um pesquisador encontrou o que parece ser uma vulnerabilidade zero-day no Adobe Reader sendo explorada ativamente, conforme relato de Haifei Li, fundador e desenvolvedor do Expmon, um sistema baseado em sandbox projetado para detectar zero-days e outros exploits baseados em arquivos. Li está pedindo assistência à comunidade de segurança cibernética para investigar o que ele descreve como um exploit PDF sofisticado.",
       "link": "https://www.cisoadvisor.com.br/adobe-reader-tem-zero-day-explorado/",
-      "published": "10/04/2026 12:00",
+      "published": "11/04/2026 12:00",
       "cves": [],
       "vendor": "Adobe"
     },
     {
-      "title": "Palo Alto corrige falha no Cortex que permitia acesso indevido a dados",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Palo Alto Networks corrigiu uma vulnerabilidade de alta severidade na integração do Microsoft Teams usada nas plataformas Cortex XSOAR e Cortex XSIAM. O problema pode permitir que um invasor sem autenticação acesse e modifique recursos protegidos. A falha foi registrada como CVE-2026-0234 e recebeu urgência máxima no boletim da fabricante.",
-      "link": "https://boletimsec.com/palo-alto-corrige-falha-no-cortex-que-permitia-acesso-indevido-a-dados/",
-      "published": "10/04/2026 12:00",
-      "cves": [
-        "CVE-2026-0234"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "GitLab corrige múltiplas vulnerabilidades que permitem ataques de DoS",
-      "source": "BoletimSec Notícias",
+      "title": "3 dias Segurança Código vazado do Claude Code é usado para disseminar malware que rouba dados",
+      "source": "Canaltech Segurança",
       "priority": "Média",
-      "category": "patches",
-      "summary": "A GitLab liberou atualizações de segurança para corrigir uma série de falhas no GitLab CE e EE, incluindo vulnerabilidades que podem ser exploradas para provocar negação de serviço e abusar de fluxos internos da plataforma. Entre os problemas de maior impacto está a CVE-2026-5173, classificada com CVSS 8.5, que poderia permitir que um usuário autenticado acionasse métodos do lado do servidor por meio de conexões websocket, em um cenário associado a falhas de controle de acesso. A CVE-2026-1092 afeta a API de bloqueio de estado do Terraform e poderia ser explorada por um invasor sem autenticação por meio de cargas JSON malformadas.",
-      "link": "https://boletimsec.com/gitlab-corrige-multiplas-vulnerabilidades-que-permitem-ataques-de-dos/",
-      "published": "10/04/2026 12:00",
-      "cves": [
-        "CVE-2026-5173",
-        "CVE-2026-1092"
-      ],
+      "category": "breach",
+      "summary": "O vazamento do código-fonte do Claude Code vem sendo explorado em uma campanha maliciosa que distribui um malware que rouba dados sensíveis de usuários. O problema começou no final de março, quando a Anthropic, dona da ferramenta de inteligência artificial (IA), expôs acidentalmente o código-fonte do Claude Code por meio de um arquivo JavaScript que, por engano, foi incluído em um pacote npm. O código caiu nas mãos de criminosos depois que foi publicado no GitHub , plataforma usada para criação, armazenamento e compartilhamento de códigos. Desde então, o repositório passou a ser explorado por hackers para a distribuição de um infostealer chamado “Vidar”.",
+      "link": "https://canaltech.com.br/seguranca/codigo-vazado-do-claude-code-e-usado-para-disseminar-malware-que-rouba-dados/",
+      "published": "11/04/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Vulnerabilidades na SonicWall permitem ataques de injeção SQL",
+      "title": "OpenSSL corrige falhas que podem expor dados sensíveis",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A SonicWall publicou uma atualização de segurança para corrigir quatro vulnerabilidades na linha SMA 1000, usada em acesso remoto seguro, incluindo uma falha de injeção SQL que pode resultar em escalonamento de privilégios administrativos. O problema mais grave é a CVE-2026-4112, com pontuação CVSS 7.2, descrita como uma vulnerabilidade de escalonamento de privilégios via SQL Injection. Segundo a SonicWall, a exploração bem-sucedida pode permitir que um administrador com permissão apenas de leitura obtenha privilégios de administrador principal.",
-      "link": "https://boletimsec.com/vulnerabilidades-na-sonicwall-permitem-ataques-de-injecao-sql/",
-      "published": "10/04/2026 12:00",
+      "summary": "O OpenSSL publicou uma atualização de segurança para corrigir múltiplas vulnerabilidades, incluindo uma falha no mecanismo RSA KEM que pode expor dados sensíveis da memória durante operações criptográficas. O problema mais relevante do pacote é o CVE-2026-31790, descrito como uma falha de tratamento incorreto de erro no processo RSASVE encapsulation. De acordo com o projeto, a rodada de correções foi liberada em 7 de abril de 2026 e a versão 3.6.2 passou a incorporar os patches de segurança para a linha mais recente da biblioteca. O OpenSSL classificou o CVE-2026-31790 como a falha mais severa do lote, com gravidade moderada.",
+      "link": "https://boletimsec.com/openssl-corrige-falhas-que-podem-expor-dados-sensiveis/",
+      "published": "11/04/2026 12:00",
       "cves": [
-        "CVE-2026-4112"
+        "CVE-2026-31790"
       ],
-      "vendor": "SonicWall"
+      "vendor": null
     }
   ]
 }
