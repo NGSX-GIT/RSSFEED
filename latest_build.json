@@ -1,63 +1,61 @@
 {
-  "generated_at": "2026-04-11T12:00:00.009463-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-04-12T12:00:00.026265-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Botnet faz DDoS sob demanda e evita alvos sensíveis dos EUA",
+      "title": "Hackers pró-Irã ativos, apesar do cessar-fogo, alertam especialistas",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "A Trellix publicou um relatório sobre o Masjesu, um botnet de Internet das Coisas (IoT) utilizado para ataques de negação de serviço distribuído (DDoS) sob demanda (DDoS-for-hire). O malware, segundo o relatório, “varre endereços IP aleatórios para identificar e explorar inúmeras vulnerabilidades encontradas em dispositivos de fabricantes como D-Link, GPON e Netgear”. O Masjesu “visa uma ampla variedade de dispositivos IoT, como roteadores e gateways, em múltiplas arquiteturas (incluindo i386, MIPS, ARM e AMD64)”, informou a Trellix. O botnet está operando desde 2023, com foco em discrição em vez de infecção generalizada.",
-      "link": "https://www.cisoadvisor.com.br/botnet-faz-ddos-sob-demanda-e-evita-alvos-sensiveis-dos-eua/",
-      "published": "11/04/2026 12:00",
+      "category": "identity",
+      "summary": "O cessar-fogo entre EUA e Irã, anunciado na terça-feira (8 de abril de 2026), não reduziu as ameaças de hackers ligados ao Irã contra infraestrutura crítica nos EUA e no exterior, segundo especialistas citados pelo Dow Jones Risk Journal . “O ciberespaço é a guerra eterna”, disse Marcus Fowler, executivo da Darktrace Federal. “Isso continua independentemente de pausas na atividade cinética.” No Telegram, o grupo Handala afirmou que “a ciberguerra não começou com o conflito militar e não terminará com qualquer cessar-fogo”, segundo a Flashpoint. A SonicWall disse que continua detectando atividade ligada a hackers afiliados ao Irã.",
+      "link": "https://www.cisoadvisor.com.br/hackers-pro-ira-ativos-apesar-do-cessar-fogo-alertam-especialistas/",
+      "published": "12/04/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "SonicWall"
     },
     {
-      "title": "Dfense projeta faturamento de R$ 180M este ano",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "A Dfense Security, responsável pela proteção digital de grandes instituições financeiras e empresas de grande porte no Brasil, iniciou um novo ciclo de expansão nacional com a entrada estruturada na Região Sul. O movimento reforça uma estratégia cada vez mais relevante no setor: crescer com presença local para atender demandas críticas de grandes organizações. Fundada em 2020, a empresa vem consolidando sua atuação em um mercado pressionado pelo aumento da complexidade das ameaças digitais e pela crescente exigência regulatória.",
-      "link": "https://www.cisoadvisor.com.br/dfense-projeta-faturamento-de-r-180m-este-ano/",
-      "published": "11/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Adobe Reader tem zero-day explorado",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "4 dias Segurança Novo malware no Android foi baixado mais de 2,3 milhões de vezes na Play Store",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Um pesquisador encontrou o que parece ser uma vulnerabilidade zero-day no Adobe Reader sendo explorada ativamente, conforme relato de Haifei Li, fundador e desenvolvedor do Expmon, um sistema baseado em sandbox projetado para detectar zero-days e outros exploits baseados em arquivos. Li está pedindo assistência à comunidade de segurança cibernética para investigar o que ele descreve como um exploit PDF sofisticado.",
-      "link": "https://www.cisoadvisor.com.br/adobe-reader-tem-zero-day-explorado/",
-      "published": "11/04/2026 12:00",
+      "summary": "Um novo malware chamado \"NoVoice\" está provocando caos em dispositivos Android. Basta que o usuário instale pelo menos um dos mais de 50 aplicativos falsos disponíveis da Play Store para danificar o sistema do aparelho. Instalado mais de 2,3 milhões de vezes , esses apps contam com o software malicioso escondido em seus códigos, o que faz com que o usuário baixe a plataforma sem perceber que está caindo em uma armadilha. A descoberta do malware foi feita por especialistas de cibersegurança da McAfee, que detectaram os aplicativos fraudulentos em plataformas de limpeza de sistemas, jogos para celular e até em imagens de galerias.",
+      "link": "https://canaltech.com.br/seguranca/novo-malware-no-android-foi-baixado-mais-de-23-milhoes-de-vezes-na-play-store/",
+      "published": "12/04/2026 12:00",
       "cves": [],
-      "vendor": "Adobe"
+      "vendor": null
     },
     {
-      "title": "3 dias Segurança Código vazado do Claude Code é usado para disseminar malware que rouba dados",
+      "title": "4 dias Segurança Código vazado do Claude Code é usado para disseminar malware que rouba dados",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "breach",
       "summary": "O vazamento do código-fonte do Claude Code vem sendo explorado em uma campanha maliciosa que distribui um malware que rouba dados sensíveis de usuários. O problema começou no final de março, quando a Anthropic, dona da ferramenta de inteligência artificial (IA), expôs acidentalmente o código-fonte do Claude Code por meio de um arquivo JavaScript que, por engano, foi incluído em um pacote npm. O código caiu nas mãos de criminosos depois que foi publicado no GitHub , plataforma usada para criação, armazenamento e compartilhamento de códigos. Desde então, o repositório passou a ser explorado por hackers para a distribuição de um infostealer chamado “Vidar”.",
       "link": "https://canaltech.com.br/seguranca/codigo-vazado-do-claude-code-e-usado-para-disseminar-malware-que-rouba-dados/",
-      "published": "11/04/2026 12:00",
+      "published": "12/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "OpenSSL corrige falhas que podem expor dados sensíveis",
-      "source": "BoletimSec Notícias",
+      "title": "Projeto da Anthropic une gigantes de tecnologia para defesa cibernética",
+      "source": "CISO Advisor",
       "priority": "Alta",
+      "category": "general",
+      "summary": "A Anthropic anunciou o Project Glasswing, uma iniciativa que reúne Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, NVIDIA e Palo Alto Networks para usar o modelo Claude Mythos2 Preview em trabalhos de segurança defensiva, segundo o anúncio oficial . A Anthropic afirmou que o Mythos Preview já encontrou “milhares de vulnerabilidades de alta gravidade”, incluindo em todos os principais sistemas operacionais e navegadores web.",
+      "link": "https://www.cisoadvisor.com.br/projeto-da-anthropic-une-gigantes-de-tecnologia-para-defesa-cibernetica/",
+      "published": "12/04/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "3 dias Segurança LinkedIn é processado por suposta varredura de extensões para coletar dados",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
       "category": "patches",
-      "summary": "O OpenSSL publicou uma atualização de segurança para corrigir múltiplas vulnerabilidades, incluindo uma falha no mecanismo RSA KEM que pode expor dados sensíveis da memória durante operações criptográficas. O problema mais relevante do pacote é o CVE-2026-31790, descrito como uma falha de tratamento incorreto de erro no processo RSASVE encapsulation. De acordo com o projeto, a rodada de correções foi liberada em 7 de abril de 2026 e a versão 3.6.2 passou a incorporar os patches de segurança para a linha mais recente da biblioteca. O OpenSSL classificou o CVE-2026-31790 como a falha mais severa do lote, com gravidade moderada.",
-      "link": "https://boletimsec.com/openssl-corrige-falhas-que-podem-expor-dados-sensiveis/",
-      "published": "11/04/2026 12:00",
-      "cves": [
-        "CVE-2026-31790"
-      ],
+      "summary": "O LinkedIn virou alvo de duas ações judiciais coletivas que acusaram a plataforma de extrair dados de usuários sem consentimento por meio da varredura de extensões de navegadores. Os dois processos foram protocolados em um tribunal distrital na Califórnia, nos EUA, depois que o Fairlinked e.V., uma associação que afirma estar ligada a usuários comerciais do LinkedIn, publicou um relatório alegando que a rede social espionava usuários com um arquivo JavaScript que escaneia extensões no Chrome. Em resposta às ações, o LinkedIn afirmou que a disputa é “exagerada” e que distorce práticas firmadas em sua Política de Privacidade.",
+      "link": "https://canaltech.com.br/seguranca/linkedin-e-processado-por-suposta-varredura-de-extensoes-para-coletar-dados/",
+      "published": "12/04/2026 12:00",
+      "cves": [],
       "vendor": null
     }
   ]
