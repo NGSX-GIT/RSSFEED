@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-04-12T12:00:00.026265-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-04-13T12:00:00.005717-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Hackers pró-Irã ativos, apesar do cessar-fogo, alertam especialistas",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "O cessar-fogo entre EUA e Irã, anunciado na terça-feira (8 de abril de 2026), não reduziu as ameaças de hackers ligados ao Irã contra infraestrutura crítica nos EUA e no exterior, segundo especialistas citados pelo Dow Jones Risk Journal . “O ciberespaço é a guerra eterna”, disse Marcus Fowler, executivo da Darktrace Federal. “Isso continua independentemente de pausas na atividade cinética.” No Telegram, o grupo Handala afirmou que “a ciberguerra não começou com o conflito militar e não terminará com qualquer cessar-fogo”, segundo a Flashpoint. A SonicWall disse que continua detectando atividade ligada a hackers afiliados ao Irã.",
-      "link": "https://www.cisoadvisor.com.br/hackers-pro-ira-ativos-apesar-do-cessar-fogo-alertam-especialistas/",
-      "published": "12/04/2026 12:00",
-      "cves": [],
-      "vendor": "SonicWall"
-    },
-    {
-      "title": "4 dias Segurança Novo malware no Android foi baixado mais de 2,3 milhões de vezes na Play Store",
+      "title": "5 dias Segurança Novo malware no Android foi baixado mais de 2,3 milhões de vezes na Play Store",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Um novo malware chamado \"NoVoice\" está provocando caos em dispositivos Android. Basta que o usuário instale pelo menos um dos mais de 50 aplicativos falsos disponíveis da Play Store para danificar o sistema do aparelho. Instalado mais de 2,3 milhões de vezes , esses apps contam com o software malicioso escondido em seus códigos, o que faz com que o usuário baixe a plataforma sem perceber que está caindo em uma armadilha. A descoberta do malware foi feita por especialistas de cibersegurança da McAfee, que detectaram os aplicativos fraudulentos em plataformas de limpeza de sistemas, jogos para celular e até em imagens de galerias.",
       "link": "https://canaltech.com.br/seguranca/novo-malware-no-android-foi-baixado-mais-de-23-milhoes-de-vezes-na-play-store/",
-      "published": "12/04/2026 12:00",
+      "published": "13/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Código vazado do Claude Code é usado para disseminar malware que rouba dados",
+      "title": "5 dias Segurança Código vazado do Claude Code é usado para disseminar malware que rouba dados",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "breach",
       "summary": "O vazamento do código-fonte do Claude Code vem sendo explorado em uma campanha maliciosa que distribui um malware que rouba dados sensíveis de usuários. O problema começou no final de março, quando a Anthropic, dona da ferramenta de inteligência artificial (IA), expôs acidentalmente o código-fonte do Claude Code por meio de um arquivo JavaScript que, por engano, foi incluído em um pacote npm. O código caiu nas mãos de criminosos depois que foi publicado no GitHub , plataforma usada para criação, armazenamento e compartilhamento de códigos. Desde então, o repositório passou a ser explorado por hackers para a distribuição de um infostealer chamado “Vidar”.",
       "link": "https://canaltech.com.br/seguranca/codigo-vazado-do-claude-code-e-usado-para-disseminar-malware-que-rouba-dados/",
-      "published": "12/04/2026 12:00",
+      "published": "13/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Projeto da Anthropic une gigantes de tecnologia para defesa cibernética",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "general",
-      "summary": "A Anthropic anunciou o Project Glasswing, uma iniciativa que reúne Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, NVIDIA e Palo Alto Networks para usar o modelo Claude Mythos2 Preview em trabalhos de segurança defensiva, segundo o anúncio oficial . A Anthropic afirmou que o Mythos Preview já encontrou “milhares de vulnerabilidades de alta gravidade”, incluindo em todos os principais sistemas operacionais e navegadores web.",
-      "link": "https://www.cisoadvisor.com.br/projeto-da-anthropic-une-gigantes-de-tecnologia-para-defesa-cibernetica/",
-      "published": "12/04/2026 12:00",
+      "title": "Google lança criptografia de ponta a ponta no Gmail para usuários do Android e iOS",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O Google anunciou a expansão da criptografia de ponta a ponta no Gmail para usuários de Android e iOS. A novidade amplia a proteção das mensagens e reforça a estratégia da empresa de oferecer mais privacidade também em dispositivos móveis. Com esse modelo, o conteúdo do e-mail permanece protegido de forma que apenas remetente e destinatário autorizados possam acessar a mensagem. Na prática, a proposta reduz a exposição do conteúdo durante o trânsito e dificulta interceptações por terceiros. A chegada do recurso ao ambiente móvel é relevante porque grande parte do uso de e-mail corporativo e pessoal já ocorre em smartphones.",
+      "link": "https://boletimsec.com/google-lanca-criptografia-de-ponta-a-ponta-no-gmail-para-usuarios-do-android-e-ios/",
+      "published": "13/04/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": "Google"
     },
     {
-      "title": "3 dias Segurança LinkedIn é processado por suposta varredura de extensões para coletar dados",
+      "title": "4 dias Segurança LinkedIn é processado por suposta varredura de extensões para coletar dados",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "O LinkedIn virou alvo de duas ações judiciais coletivas que acusaram a plataforma de extrair dados de usuários sem consentimento por meio da varredura de extensões de navegadores. Os dois processos foram protocolados em um tribunal distrital na Califórnia, nos EUA, depois que o Fairlinked e.V., uma associação que afirma estar ligada a usuários comerciais do LinkedIn, publicou um relatório alegando que a rede social espionava usuários com um arquivo JavaScript que escaneia extensões no Chrome. Em resposta às ações, o LinkedIn afirmou que a disputa é “exagerada” e que distorce práticas firmadas em sua Política de Privacidade.",
       "link": "https://canaltech.com.br/seguranca/linkedin-e-processado-por-suposta-varredura-de-extensoes-para-coletar-dados/",
-      "published": "12/04/2026 12:00",
+      "published": "13/04/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "2 dias Segurança O que fazer se sua chave Pix vazar: guia para agir rápido e se proteger",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "O Pix faz parte da rotina dos brasileiros desde que o Banco Central implementou o modelo de pagamento eletrônico instantâneo no país em 2020. Mas, embora tenha facilitado o sistema de transferências bancárias, ele também entrou na mira de criminosos digitais, que apostam em todo tipo de fraude para obter vantagem, principalmente quando as chaves Pix são expostas . Apesar da ideia do vazamento da sua chave assustar a princípio, a exposição não quer dizer exatamente que a sua conta foi acessada por uma pessoa não autorizada.",
+      "link": "https://canaltech.com.br/seguranca/o-que-fazer-se-sua-chave-pix-vazar-guia-para-agir-rapido-e-se-proteger/",
+      "published": "13/04/2026 12:00",
       "cves": [],
       "vendor": null
     }
