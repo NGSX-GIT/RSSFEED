@@ -1,21 +1,8 @@
 {
-  "generated_at": "2026-04-14T12:00:00.005202-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-04-15T09:25:52.694525-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
-    {
-      "title": "Adobe lança patch de emergência para zero-day",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Adobe lançou uma atualização de segurança de emergência para o Acrobat Reader a fim de corrigir uma vulnerabilidade, rastreada como CVE-2026-34621, que tem sido explorada em ataques de dia zero desde pelo menos dezembro, conforme comunicado da empresa. A falha permite que arquivos PDF maliciosos contornem as restrições da sandbox e invoquem APIs JavaScript privilegiadas, levando potencialmente à execução arbitrária de código. Nenhuma interação do usuário é necessária além da abertura do PDF malicioso.",
-      "link": "https://www.cisoadvisor.com.br/adobe-lanca-patch-de-emergencia-para-zero-day/",
-      "published": "14/04/2026 12:00",
-      "cves": [
-        "CVE-2026-34621"
-      ],
-      "vendor": "Adobe"
-    },
     {
       "title": "Microsoft é criticada por incluir Copilot sem consentimento explícito",
       "source": "BoletimSec Notícias",
@@ -23,21 +10,19 @@
       "category": "general",
       "summary": "A Mozilla criticou a Microsoft pela instalação do Copilot no Windows sem consentimento explícito do usuário, reacendendo o debate sobre autonomia, transparência e controle em sistemas operacionais amplamente usados. A discussão vai além de um único recurso e toca em um ponto sensível: até onde fornecedores de plataforma podem empurrar funcionalidades novas sem escolha clara do usuário. A crítica ocorre em um momento em que assistentes baseados em inteligência artificial vêm sendo incorporados de forma acelerada ao ambiente de desktop.",
       "link": "https://boletimsec.com/microsoft-e-criticada-por-incluir-copilot-sem-consentimento-explicito/",
-      "published": "14/04/2026 12:00",
+      "published": "15/04/2026 09:25",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "Juniper Networks corrige 35 vulnerabilidades",
+      "title": "Vantico: 27% das falhas críticas ficam abertas por mais de 70 dias no Brasil",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Juniper Networks lançou patches para quase três dúzias de vulnerabilidades , incluindo falhas no Junos OS e no Junos OS Evolved que poderiam levar à escalação de privilégios, negação de serviço (DoS) e execução de comandos, conforme comunicado da empresa. A mais grave das falhas é a CVE-2026-33784 (pontuação CVSS de 9,8), uma senha padrão no Support Insights (JSI) Virtual Lightweight Collector (vLWC) que poderia ser explorada remotamente para assumir o controle de um dispositivo vulnerável. “As imagens de software do vLWC são fornecidas com uma senha inicial para uma conta de altos privilégios.",
-      "link": "https://www.cisoadvisor.com.br/juniper-networks-corrige-35-vulnerabilidades/",
-      "published": "14/04/2026 12:00",
-      "cves": [
-        "CVE-2026-33784"
-      ],
+      "summary": "No Brasil, 27% das vulnerabilidades classificadas como altas permanecem abertas por mais de 70 dias após a entrega do relatório de teste, segundo a terceira edição do Inside Pentesting , estudo anual publicado pela Vantico com base em centenas de pentests conduzidos pela própria empresa em 2025. Para os países economicamente mais próximos, como Argentina e México, o estudo não fornece recortes específicos, mas o cenário regional de ameaças segue tendências semelhantes. Entre as economias mais poderosas distantes, Estados Unidos e Alemanha enfrentam aceleração na exploração de falhas em horas, conforme contextualiza o relatório.",
+      "link": "https://www.cisoadvisor.com.br/vantico-27-das-falhas-criticas-abertas-por-70-dias-no-brasil/",
+      "published": "15/04/2026 09:25",
+      "cves": [],
       "vendor": null
     },
     {
@@ -47,20 +32,35 @@
       "category": "identity",
       "summary": "O grupo CyberAv3ngers, associado ao Irã, voltou ao centro das atenções após direcionar suas operações contra empresas de água e controladores industriais. A movimentação eleva o alerta sobre riscos a infraestruturas críticas, especialmente em ambientes que dependem de sistemas de automação para operar serviços essenciais A atuação contra o setor de água tem peso estratégico. Diferentemente de ataques voltados apenas ao roubo de dados, ofensivas contra tecnologia operacional podem afetar diretamente a continuidade dos serviços, o monitoramento de processos e a capacidade de resposta das equipes responsáveis pelas plantas.",
       "link": "https://boletimsec.com/grupo-ligado-ao-ira-amplia-foco-em-empresas-de-agua-e-sistemas-industriais/",
-      "published": "14/04/2026 12:00",
+      "published": "15/04/2026 09:25",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Nova exposição no Apache Tomcat pode comprometer tráfego protegido",
-      "source": "BoletimSec Notícias",
+      "title": "Falha crítica na SAP expõe dados financeiros",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Falhas identificadas no Apache Tomcat acenderam um alerta entre administradores ao permitirem a evasão do EncryptInterceptor, mecanismo usado para proteger a comunicação entre componentes do ambiente. O problema pode enfraquecer controles de segurança esperados em implementações que dependem desse recurso para resguardar o tráfego interno. O Tomcat segue amplamente presente em aplicações corporativas, portais internos e serviços web baseados em Java. Por isso, qualquer vulnerabilidade que afete camadas de proteção associadas ao servidor tende a ter impacto expressivo, especialmente em ambientes com grande volume de integrações e múltiplos nós em operação.",
-      "link": "https://boletimsec.com/nova-exposicao-no-apache-tomcat-pode-comprometer-trafego-protegido/",
-      "published": "14/04/2026 12:00",
-      "cves": [],
+      "summary": "A SAP anunciou na terça-feira 20 novas notas e atualizações de segurança como parte do patch day de abril de 2026, conforme comunicado . A falha mais grave resolvida é a CVE-2026-27681 (pontuação CVSS 9,9), um bug crítico em injeção SQL no Business Planning and Consolidation e no Business Warehouse que poderia levar à execução arbitrária de código. “O programa ABAP vulnerável permite que um usuário com poucos privilégios envie um arquivo com instruções SQL arbitrárias, que serão então executadas”, explica a empresa de segurança Onapsis .",
+      "link": "https://www.cisoadvisor.com.br/sap-corrige-injecao-sql-critica-com-nota-99-e-outras-falhas/",
+      "published": "15/04/2026 09:25",
+      "cves": [
+        "CVE-2026-27681"
+      ],
       "vendor": null
+    },
+    {
+      "title": "19 horas Segurança Famoso leitor de PDFs da Adobe sofre falha de segurança",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Acrobat Reader, software da Adobe para visualização e compartilhamento de PDFs, foi vítima de uma nova falha de segurança . A vulnerabilidade permitia a exploração ativa de recursos para espalhar um código malicioso em dispositivos. Identificada como CVE-2026-34621, a falha de segurança consistia em um caso de poluição de protótipo , uma vulnerabilidade do JavaScript que permite a injeção de propriedades arbitrárias de código. Dessa forma, os agentes por trás da ação conseguiam manipular objetos e propriedades de uma aplicação, resultando no comprometimento do sistema visado.",
+      "link": "https://canaltech.com.br/seguranca/famoso-leitor-de-pdfs-da-adobe-sofre-falha-de-seguranca/",
+      "published": "15/04/2026 09:25",
+      "cves": [
+        "CVE-2026-34621"
+      ],
+      "vendor": "Adobe"
     }
   ]
 }
