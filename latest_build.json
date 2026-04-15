@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-04-15T12:00:00.024808-03:00",
+  "generated_at": "2026-04-15T12:00:00.004485-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
+    {
+      "title": "Vantico: 27% das falhas críticas ficam abertas por mais de 70 dias no Brasil",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "No Brasil, 27% das vulnerabilidades classificadas como altas permanecem abertas por mais de 70 dias após a entrega do relatório de teste, segundo a terceira edição do Inside Pentesting , estudo anual publicado pela Vantico com base em centenas de pentests conduzidos pela própria empresa em 2025. Para os países economicamente mais próximos, como Argentina e México, o estudo não fornece recortes específicos, mas o cenário regional de ameaças segue tendências semelhantes. Entre as economias mais poderosas distantes, Estados Unidos e Alemanha enfrentam aceleração na exploração de falhas em horas, conforme contextualiza o relatório.",
+      "link": "https://www.cisoadvisor.com.br/vantico-27-das-falhas-criticas-abertas-por-70-dias-no-brasil/",
+      "published": "15/04/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
     {
       "title": "2 horas Segurança Windows 11 recebe atualização que corrige mais de 160 falhas",
       "source": "Canaltech Segurança",
@@ -13,6 +24,19 @@
       "published": "15/04/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
+    },
+    {
+      "title": "Falha crítica na SAP expõe dados financeiros",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A SAP anunciou na terça-feira 20 novas notas e atualizações de segurança como parte do patch day de abril de 2026, conforme comunicado . A falha mais grave resolvida é a CVE-2026-27681 (pontuação CVSS 9,9), um bug crítico em injeção SQL no Business Planning and Consolidation e no Business Warehouse que poderia levar à execução arbitrária de código. “O programa ABAP vulnerável permite que um usuário com poucos privilégios envie um arquivo com instruções SQL arbitrárias, que serão então executadas”, explica a empresa de segurança Onapsis .",
+      "link": "https://www.cisoadvisor.com.br/sap-corrige-injecao-sql-critica-com-nota-99-e-outras-falhas/",
+      "published": "15/04/2026 12:00",
+      "cves": [
+        "CVE-2026-27681"
+      ],
+      "vendor": null
     },
     {
       "title": "21 horas Segurança Famoso leitor de PDFs da Adobe sofre falha de segurança",
@@ -28,34 +52,12 @@
       "vendor": "Adobe"
     },
     {
-      "title": "Nova exposição no Apache Tomcat pode comprometer tráfego protegido",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Falhas identificadas no Apache Tomcat acenderam um alerta entre administradores ao permitirem a evasão do EncryptInterceptor, mecanismo usado para proteger a comunicação entre componentes do ambiente. O problema pode enfraquecer controles de segurança esperados em implementações que dependem desse recurso para resguardar o tráfego interno. O Tomcat segue amplamente presente em aplicações corporativas, portais internos e serviços web baseados em Java. Por isso, qualquer vulnerabilidade que afete camadas de proteção associadas ao servidor tende a ter impacto expressivo, especialmente em ambientes com grande volume de integrações e múltiplos nós em operação.",
-      "link": "https://boletimsec.com/nova-exposicao-no-apache-tomcat-pode-comprometer-trafego-protegido/",
-      "published": "15/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
       "title": "FBI e Indonésia desmantelam rede global de phishing",
       "source": "CISO Advisor",
       "priority": "Baixa",
       "category": "identity",
       "summary": "O escritório do FBI em Atlanta e autoridades da Indonésia desmantelaram uma sofisticada operação global de phishing que permitiu a cibercriminosos roubar credenciais de milhares de vítimas e tentar mais de US$ 20 milhões em fraudes, segundo o site Fox5 Atlanta . A operação centrava-se em uma ferramenta chamada “W3LL phishing kit”. Esta plataforma de cibercrime permitia que criminosos se passassem por páginas de login legítimas para enganar vítimas e obter seus nomes de usuário e senhas. Por cerca de US$ 500, os usuários podiam comprar acesso ao kit e implantar sites falsos projetados para serem quase idênticos a portais confiáveis.",
       "link": "https://www.cisoadvisor.com.br/fbi-e-indonesia-desmantelam-rede-global-de-phishing/",
-      "published": "15/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Malware JanelaRAT preocupa bancos e usuários após avanço no Brasil",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O malware JanelaRAT entrou no radar da cibersegurança regional ao mirar bancos latino-americanos e concentrar 14.739 ataques no Brasil ao longo de 2025. O volume chama atenção pelo foco geográfico e pela escolha de alvos ligados ao setor financeiro, historicamente um dos mais explorados por campanhas maliciosas na região. A ameaça reforça uma tendência conhecida no ecossistema de fraude digital: operadores ajustam suas campanhas ao idioma, aos hábitos locais e aos serviços mais usados pelas vítimas. No caso brasileiro, o interesse por instituições financeiras e usuários com forte dependência de internet banking amplia o potencial de sucesso das infecções.",
-      "link": "https://boletimsec.com/malware-janelarat-preocupa-bancos-e-usuarios-apos-avanco-no-brasil/",
       "published": "15/04/2026 12:00",
       "cves": [],
       "vendor": null
