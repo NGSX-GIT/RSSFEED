@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-04-18T12:00:00.057718-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-04-19T12:00:00.012028-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "19 horas Segurança Versões antigas do Excel trazem falhas críticas de segurança",
+      "title": "1 dia Segurança Versões antigas do Excel trazem falhas críticas de segurança",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) fez um alerta para uma falha de segurança encontrada em versões antigas do Microsoft Excel, que podem causar problemas para o usuário. Detectada em 2009, a vulnerabilidade foi identificada pela Microsoft como CVE-2009-0238 e vem sendo explorada por cibercriminosos a partir da execução remota de um código arbitrário (RCE). A ação permite que os hackers acionem comandos por meio de uma rede, comprometendo totalmente o sistema.",
       "link": "https://canaltech.com.br/seguranca/versoes-antigas-do-excel-trazem-falhas-criticas-de-seguranca/",
-      "published": "18/04/2026 12:00",
+      "published": "19/04/2026 12:00",
       "cves": [
         "CVE-2009-0238"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "3 dias Segurança Windows 11 recebe atualização que corrige mais de 160 falhas",
+      "title": "4 dias Segurança Windows 11 recebe atualização que corrige mais de 160 falhas",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "169 falhas de segurança no Windows 11 foram corrigidas pela Microsoft nesta terça-feira (14). O pacote de atualizações é uma medida de contenção para interromper possíveis ataques cibernéticos, já que uma delas vinha sendo explorada ativamente por criminosos. Das mais de 160 falhas de segurança, 157 foram classificadas como importantes, oito como críticas, três como moderadas e uma como de baixa gravidade. Entre elas, a Microsoft identificou problemas voltados para o escalonamento de privilégios, divulgação de informações, execução remota de códigos, negação de serviço e falsificação de identidade.",
       "link": "https://canaltech.com.br/seguranca/windows-11-recebe-atualizacao-que-corrige-mais-de-160-falhas/",
-      "published": "18/04/2026 12:00",
+      "published": "19/04/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "3 dias Segurança Famoso leitor de PDFs da Adobe sofre falha de segurança",
+      "title": "4 dias Segurança Famoso leitor de PDFs da Adobe sofre falha de segurança",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "O Acrobat Reader, software da Adobe para visualização e compartilhamento de PDFs, foi vítima de uma nova falha de segurança . A vulnerabilidade permitia a exploração ativa de recursos para espalhar um código malicioso em dispositivos. Identificada como CVE-2026-34621, a falha de segurança consistia em um caso de poluição de protótipo , uma vulnerabilidade do JavaScript que permite a injeção de propriedades arbitrárias de código. Dessa forma, os agentes por trás da ação conseguiam manipular objetos e propriedades de uma aplicação, resultando no comprometimento do sistema visado.",
       "link": "https://canaltech.com.br/seguranca/famoso-leitor-de-pdfs-da-adobe-sofre-falha-de-seguranca/",
-      "published": "18/04/2026 12:00",
+      "published": "19/04/2026 12:00",
       "cves": [
         "CVE-2026-34621"
       ],
       "vendor": "Adobe"
     },
     {
-      "title": "2 dias Segurança Anna’s Archive perde processo e terá que pagar indenização milionária ao Spotify",
+      "title": "3 dias Segurança Hackers são pagos para roubar backups do iCloud e instalar malware no Android",
       "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "breach",
-      "summary": "Em mais um desdobramento do caso do vazamento de faixas do Spotify, o Anna’s Archive foi condenado pela justiça a pagar US$ 322 milhões ao streaming de música e às gravadoras Universal Music Group, Warner Music Group e Sony Music Entertainment por extrair “quase todas as gravações comerciais do mundo” e disponibilizá-las ilegalmente para download. A ação foi deferida depois que o Spotify e as três gravadoras entraram com uma ação no final do ano passado para processar o acervo clandestino em US$ 13 trilhões .",
-      "link": "https://canaltech.com.br/seguranca/annas-archive-perde-processo-e-tera-que-pagar-indenizacao-milionaria-ao-spotify/",
-      "published": "18/04/2026 12:00",
+      "priority": "Média",
+      "category": "cloud",
+      "summary": "Três empresas de segurança digital revelaram um esquema criminoso que afeta tanto usuários de aparelhos da Apple quanto os de Android. As campanhas consistem em roubo de dados do iCloud e disseminação de um spyware em aplicativos da Play Store. O que mais chamou a atenção dos especialistas é que os ataques são orquestrados por hackers contratados por uma empresa de vigilância indiana para espionar jornalistas, ativistas e autoridades na região do Oriente Médio, norte da África, Estados Unidos e Reino Unido. No caso do iCloud, os criminosos criam páginas falsas de login para roubar credenciais do ID Apple.",
+      "link": "https://canaltech.com.br/seguranca/hackers-sao-pagos-para-roubar-backups-do-icloud-e-instalar-malware-no-android/",
+      "published": "19/04/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Apple"
     },
     {
-      "title": "Microsoft corrige falha Zero Day no SharePoint",
-      "source": "BoletimSec Notícias",
+      "title": "2 dias Segurança Copa do Mundo 2026 sob ameaça: especialistas alertam sobre riscos cibernéticos",
+      "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
-      "summary": "A Microsoft liberou correção para uma vulnerabilidade Zero day no SharePoint, falha que elevou o nível de atenção entre equipes de TI e segurança. Por afetar uma plataforma amplamente usada para colaboração e gestão de conteúdo corporativo, o problema pode ter impacto relevante em organizações públicas e privadas. Zero days são especialmente críticos porque podem ser explorados antes da disponibilização de correções ou antes que a maioria dos ambientes consiga se proteger. O SharePoint ocupa posição estratégica em muitas empresas por concentrar arquivos, páginas internas, permissões de usuários e processos integrados com outras ferramentas da Microsoft.",
-      "link": "https://boletimsec.com/microsoft-corrige-falha-zero-day-no-sharepoint/",
-      "published": "18/04/2026 12:00",
+      "summary": "A Copa do Mundo 2026 começa em junho e, com a chegada de um evento tão grandioso, os cibercriminosos estão de olho em oportunidades para aplicar golpes digitais . Pesquisadores da Proofpoint fizeram um alerta para os riscos de segurança que podem vir a partir de descuidos de parceiros da competição da FIFA, com possibilidade de roubo de identidade e fraudes diversas a partir da falsificação de domínios enviados por e-mail.",
+      "link": "https://canaltech.com.br/seguranca/copa-do-mundo-2026-sob-ameaca-especialistas-alertam-sobre-riscos-ciberneticos/",
+      "published": "19/04/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     }
   ]
 }
