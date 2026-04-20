@@ -1,66 +1,68 @@
 {
-  "generated_at": "2026-04-19T12:00:00.012028-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-04-20T12:00:00.022075-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "1 dia Segurança Versões antigas do Excel trazem falhas críticas de segurança",
+      "title": "2 dias Segurança Versões antigas do Excel trazem falhas críticas de segurança",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) fez um alerta para uma falha de segurança encontrada em versões antigas do Microsoft Excel, que podem causar problemas para o usuário. Detectada em 2009, a vulnerabilidade foi identificada pela Microsoft como CVE-2009-0238 e vem sendo explorada por cibercriminosos a partir da execução remota de um código arbitrário (RCE). A ação permite que os hackers acionem comandos por meio de uma rede, comprometendo totalmente o sistema.",
       "link": "https://canaltech.com.br/seguranca/versoes-antigas-do-excel-trazem-falhas-criticas-de-seguranca/",
-      "published": "19/04/2026 12:00",
+      "published": "20/04/2026 12:00",
       "cves": [
         "CVE-2009-0238"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "4 dias Segurança Windows 11 recebe atualização que corrige mais de 160 falhas",
+      "title": "5 dias Segurança Windows 11 recebe atualização que corrige mais de 160 falhas",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "169 falhas de segurança no Windows 11 foram corrigidas pela Microsoft nesta terça-feira (14). O pacote de atualizações é uma medida de contenção para interromper possíveis ataques cibernéticos, já que uma delas vinha sendo explorada ativamente por criminosos. Das mais de 160 falhas de segurança, 157 foram classificadas como importantes, oito como críticas, três como moderadas e uma como de baixa gravidade. Entre elas, a Microsoft identificou problemas voltados para o escalonamento de privilégios, divulgação de informações, execução remota de códigos, negação de serviço e falsificação de identidade.",
       "link": "https://canaltech.com.br/seguranca/windows-11-recebe-atualizacao-que-corrige-mais-de-160-falhas/",
-      "published": "19/04/2026 12:00",
+      "published": "20/04/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "4 dias Segurança Famoso leitor de PDFs da Adobe sofre falha de segurança",
-      "source": "Canaltech Segurança",
+      "title": "Malware transforma DVRs vulneráveis em botnet para ataques DDoS",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O Acrobat Reader, software da Adobe para visualização e compartilhamento de PDFs, foi vítima de uma nova falha de segurança . A vulnerabilidade permitia a exploração ativa de recursos para espalhar um código malicioso em dispositivos. Identificada como CVE-2026-34621, a falha de segurança consistia em um caso de poluição de protótipo , uma vulnerabilidade do JavaScript que permite a injeção de propriedades arbitrárias de código. Dessa forma, os agentes por trás da ação conseguiam manipular objetos e propriedades de uma aplicação, resultando no comprometimento do sistema visado.",
-      "link": "https://canaltech.com.br/seguranca/famoso-leitor-de-pdfs-da-adobe-sofre-falha-de-seguranca/",
-      "published": "19/04/2026 12:00",
+      "summary": "Uma nova campanha envolvendo a variante Mirai chamada Nexcorium está explorando a CVE-2024-3721 para comprometer gravadores digitais TBK e transformá-los em nós de uma botnet voltada a ataques distribuídos de negação de serviço. A atividade reforça a pressão sobre dispositivos IoT frequentemente negligenciados em ambientes corporativos, varejo e pequenas operações. A falha atinge os modelos TBK DVR-4104 e DVR-4216 e foi descrita como uma vulnerabilidade de injeção de comandos no sistema operacional por meio da manipulação de argumentos mdb e mdc.",
+      "link": "https://boletimsec.com/malware-transforma-dvrs-vulneraveis-em-botnet-para-ataques-ddos/",
+      "published": "20/04/2026 12:00",
       "cves": [
-        "CVE-2026-34621"
+        "CVE-2024-3721"
       ],
-      "vendor": "Adobe"
+      "vendor": null
     },
     {
-      "title": "3 dias Segurança Hackers são pagos para roubar backups do iCloud e instalar malware no Android",
+      "title": "Falha em roteadores TP-Link é usada em ataques automatizados",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade conhecida em roteadores TP-Link fora de suporte voltou ao centro das atenções após a detecção de tentativas automatizadas de exploração associadas a cargas compatíveis com botnets da família Mirai. A falha, identificada como CVE-2023-33538, afeta modelos antigos bastante difundidos e reacende o alerta sobre o risco representado por dispositivos IoT legados expostos à internet. Os modelos impactados incluem TL-WR940N v2 e v4, TL-WR740N v1 e v2, além do TL-WR841N v8 e v10.",
+      "link": "https://boletimsec.com/falha-em-roteadores-tp-link-e-usada-em-ataques-automatizados/",
+      "published": "20/04/2026 12:00",
+      "cves": [
+        "CVE-2023-33538"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "4 dias Segurança Hackers são pagos para roubar backups do iCloud e instalar malware no Android",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "cloud",
       "summary": "Três empresas de segurança digital revelaram um esquema criminoso que afeta tanto usuários de aparelhos da Apple quanto os de Android. As campanhas consistem em roubo de dados do iCloud e disseminação de um spyware em aplicativos da Play Store. O que mais chamou a atenção dos especialistas é que os ataques são orquestrados por hackers contratados por uma empresa de vigilância indiana para espionar jornalistas, ativistas e autoridades na região do Oriente Médio, norte da África, Estados Unidos e Reino Unido. No caso do iCloud, os criminosos criam páginas falsas de login para roubar credenciais do ID Apple.",
       "link": "https://canaltech.com.br/seguranca/hackers-sao-pagos-para-roubar-backups-do-icloud-e-instalar-malware-no-android/",
-      "published": "19/04/2026 12:00",
+      "published": "20/04/2026 12:00",
       "cves": [],
       "vendor": "Apple"
-    },
-    {
-      "title": "2 dias Segurança Copa do Mundo 2026 sob ameaça: especialistas alertam sobre riscos cibernéticos",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Copa do Mundo 2026 começa em junho e, com a chegada de um evento tão grandioso, os cibercriminosos estão de olho em oportunidades para aplicar golpes digitais . Pesquisadores da Proofpoint fizeram um alerta para os riscos de segurança que podem vir a partir de descuidos de parceiros da competição da FIFA, com possibilidade de roubo de identidade e fraudes diversas a partir da falsificação de domínios enviados por e-mail.",
-      "link": "https://canaltech.com.br/seguranca/copa-do-mundo-2026-sob-ameaca-especialistas-alertam-sobre-riscos-ciberneticos/",
-      "published": "19/04/2026 12:00",
-      "cves": [],
-      "vendor": null
     }
   ]
 }
