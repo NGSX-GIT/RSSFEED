@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-04-22T12:00:00.006888-03:00",
+  "generated_at": "2026-04-22T12:00:00.019354-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
+    {
+      "title": "4 dias Segurança Versões antigas do Excel trazem falhas críticas de segurança",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) fez um alerta para uma falha de segurança encontrada em versões antigas do Microsoft Excel, que podem causar problemas para o usuário. Detectada em 2009, a vulnerabilidade foi identificada pela Microsoft como CVE-2009-0238 e vem sendo explorada por cibercriminosos a partir da execução remota de um código arbitrário (RCE). A ação permite que os hackers acionem comandos por meio de uma rede, comprometendo totalmente o sistema.",
+      "link": "https://canaltech.com.br/seguranca/versoes-antigas-do-excel-trazem-falhas-criticas-de-seguranca/",
+      "published": "22/04/2026 12:00",
+      "cves": [
+        "CVE-2009-0238"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Vulnerabilidade no protocolo MCP coloca integrações de IA em risco",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Pesquisadores identificaram uma fraqueza de arquitetura no Model Context Protocol, o MCP, que pode abrir caminho para execução remota de código e comprometer a cadeia de suprimentos de aplicações baseadas em agentes e integrações de IA. O problema foi descrito como uma falha “por design”, o que amplia a gravidade por não depender apenas de erro de implementação isolado. O MCP vem sendo adotado para conectar modelos de linguagem a ferramentas, dados e serviços externos.",
+      "link": "https://boletimsec.com/vulnerabilidade-no-protocolo-mcp-coloca-integracoes-de-ia-em-risco/",
+      "published": "22/04/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
     {
       "title": "NSA usa Mythos, da Anthropic, apesar de bloqueio imposto pelo Pentágono",
       "source": "BoletimSec Notícias",
@@ -35,28 +59,6 @@
       "published": "22/04/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "Empresas perdem controle sobre agentes de IA, aponta CSA",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Quase metade das organizações (47%) já sofreu um incidente de segurança envolvendo agentes de inteligência artificial (IA), e 53% relatam que esses agentes excedem regularmente as permissões pretendidas, operando fora do escopo definido, conforme relatório do Cloud Security Alliance (CSA) publicado em 7 de abril em parceria com a Zenity. O estudo, baseado em respostas de 445 profissionais de TI e segurança das Américas entre setembro e novembro de 2025, aponta uma elevação significativa do risco associado ao uso de agentes autônomos em ambientes corporativos. Na pesquisa, 43% das organizações relataram que mais da metade dos funcionários usa agentes de IA regularmente.",
-      "link": "https://www.cisoadvisor.com.br/empresas-perdem-controle-sobre-agentes-de-ia-aponta-csa/",
-      "published": "22/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "2 dias Segurança iCloud na operação da PF: perito explica o que seu celular guarda na nuvem",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 20/04/2026 às 07:00 • Atualizado 20/04/2026 às 09:49 O armazenamento em nuvem sincroniza automaticamente uma quantidade de dados que a maioria dos usuários desconhece, e esse conteúdo pode ser acessado por autoridades mediante ordem judicial, mesmo que o backup esteja desativado no dispositivo. A afirmação é do perito em crimes digitais Wanderson Castilho , entrevistado nesta segunda-feira (20) no Podcast Canaltech . 🎧 Ouça o Podcast Canaltech no Spotify 🎧 Ouça o Podcast Canaltech na Deezer 🎧 Ouça o Podcast Canaltech no Apple Podcasts",
-      "link": "https://canaltech.com.br/seguranca/icloud-na-operacao-da-pf-perito-explica-o-que-seu-celular-guarda-na-nuvem/",
-      "published": "22/04/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
     }
   ]
 }
