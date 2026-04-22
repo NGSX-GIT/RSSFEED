@@ -1,20 +1,57 @@
 {
-  "generated_at": "2026-04-21T12:00:00.077811-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-04-22T11:20:03.532245-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "3 dias Segurança Versões antigas do Excel trazem falhas críticas de segurança",
+      "title": "4 dias Segurança Versões antigas do Excel trazem falhas críticas de segurança",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) fez um alerta para uma falha de segurança encontrada em versões antigas do Microsoft Excel, que podem causar problemas para o usuário. Detectada em 2009, a vulnerabilidade foi identificada pela Microsoft como CVE-2009-0238 e vem sendo explorada por cibercriminosos a partir da execução remota de um código arbitrário (RCE). A ação permite que os hackers acionem comandos por meio de uma rede, comprometendo totalmente o sistema.",
       "link": "https://canaltech.com.br/seguranca/versoes-antigas-do-excel-trazem-falhas-criticas-de-seguranca/",
-      "published": "21/04/2026 12:00",
+      "published": "22/04/2026 11:20",
       "cves": [
         "CVE-2009-0238"
       ],
       "vendor": "Microsoft"
+    },
+    {
+      "title": "Malware transforma DVRs vulneráveis em botnet para ataques DDoS",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma nova campanha envolvendo a variante Mirai chamada Nexcorium está explorando a CVE-2024-3721 para comprometer gravadores digitais TBK e transformá-los em nós de uma botnet voltada a ataques distribuídos de negação de serviço. A atividade reforça a pressão sobre dispositivos IoT frequentemente negligenciados em ambientes corporativos, varejo e pequenas operações. A falha atinge os modelos TBK DVR-4104 e DVR-4216 e foi descrita como uma vulnerabilidade de injeção de comandos no sistema operacional por meio da manipulação de argumentos mdb e mdc.",
+      "link": "https://boletimsec.com/malware-transforma-dvrs-vulneraveis-em-botnet-para-ataques-ddos/",
+      "published": "22/04/2026 11:20",
+      "cves": [
+        "CVE-2024-3721"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Vulnerabilidade no protocolo MCP coloca integrações de IA em risco",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Pesquisadores identificaram uma fraqueza de arquitetura no Model Context Protocol, o MCP, que pode abrir caminho para execução remota de código e comprometer a cadeia de suprimentos de aplicações baseadas em agentes e integrações de IA. O problema foi descrito como uma falha “por design”, o que amplia a gravidade por não depender apenas de erro de implementação isolado. O MCP vem sendo adotado para conectar modelos de linguagem a ferramentas, dados e serviços externos.",
+      "link": "https://boletimsec.com/vulnerabilidade-no-protocolo-mcp-coloca-integracoes-de-ia-em-risco/",
+      "published": "22/04/2026 11:20",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falha em roteadores TP-Link é usada em ataques automatizados",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade conhecida em roteadores TP-Link fora de suporte voltou ao centro das atenções após a detecção de tentativas automatizadas de exploração associadas a cargas compatíveis com botnets da família Mirai. A falha, identificada como CVE-2023-33538, afeta modelos antigos bastante difundidos e reacende o alerta sobre o risco representado por dispositivos IoT legados expostos à internet. Os modelos impactados incluem TL-WR940N v2 e v4, TL-WR740N v1 e v2, além do TL-WR841N v8 e v10.",
+      "link": "https://boletimsec.com/falha-em-roteadores-tp-link-e-usada-em-ataques-automatizados/",
+      "published": "22/04/2026 11:20",
+      "cves": [
+        "CVE-2023-33538"
+      ],
+      "vendor": null
     },
     {
       "title": "Hackers tentam, mas falham ao explorar roteadores",
@@ -23,44 +60,11 @@
       "category": "patches",
       "summary": "Hackers têm como alvo uma vulnerabilidade em roteadores TP-Link descontinuados há um ano, até agora sem conseguir explorá-la com sucesso, reporta a Palo Alto Networks. Rastreada como CVE-2023-33538 (pontuação CVSS de 8,8), a falha é descrita pela empresa de cibersegurança como um problema de injeção de comandos autenticado, enraizado na falta de sanitização do parâmetro ssid1 em requisições HTTP GET. “Um atacante poderia enviar comandos para este parâmetro. Isso permitiria que invasores remotos submetessem requisições especiais, resultando em injeção de comandos e, teoricamente, levando à execução arbitrária de comandos no sistema no roteador Wi-Fi”, explica a Palo Alto Networks.",
       "link": "https://www.cisoadvisor.com.br/hackers-tentam-mas-falham-em-explorar-roteador/",
-      "published": "21/04/2026 12:00",
+      "published": "22/04/2026 11:20",
       "cves": [
         "CVE-2023-33538"
       ],
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "NIST redefine triagem de vulnerabilidades após crescimento recorde de CVEs",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O NIST anunciou uma mudança relevante na operação da National Vulnerability Database, a NVD, e passará a enriquecer automaticamente apenas parte das novas CVEs recebidas. A decisão foi motivada pelo crescimento acelerado no volume de registros e pelo descompasso entre a capacidade de processamento atual e a demanda gerada pelo ecossistema de divulgação de vulnerabilidades. Apenas nos três primeiros meses de 2026, o volume já estava quase um terço acima do mesmo período do ano anterior, sinalizando que a pressão sobre a base tende a continuar aumentando.",
-      "link": "https://boletimsec.com/nist-redefine-triagem-de-vulnerabilidades-apos-crescimento-recorde-de-cves/",
-      "published": "21/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "4 dias Segurança Copa do Mundo 2026 sob ameaça: especialistas alertam sobre riscos cibernéticos",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Copa do Mundo 2026 começa em junho e, com a chegada de um evento tão grandioso, os cibercriminosos estão de olho em oportunidades para aplicar golpes digitais . Pesquisadores da Proofpoint fizeram um alerta para os riscos de segurança que podem vir a partir de descuidos de parceiros da competição da FIFA, com possibilidade de roubo de identidade e fraudes diversas a partir da falsificação de domínios enviados por e-mail.",
-      "link": "https://canaltech.com.br/seguranca/copa-do-mundo-2026-sob-ameaca-especialistas-alertam-sobre-riscos-ciberneticos/",
-      "published": "21/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "1 dia Segurança iCloud na operação da PF: perito explica o que seu celular guarda na nuvem",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 20/04/2026 às 07:00 • Atualizado 20/04/2026 às 09:49 O armazenamento em nuvem sincroniza automaticamente uma quantidade de dados que a maioria dos usuários desconhece, e esse conteúdo pode ser acessado por autoridades mediante ordem judicial, mesmo que o backup esteja desativado no dispositivo. A afirmação é do perito em crimes digitais Wanderson Castilho , entrevistado nesta segunda-feira (20) no Podcast Canaltech . 🎧 Ouça o Podcast Canaltech no Spotify 🎧 Ouça o Podcast Canaltech na Deezer 🎧 Ouça o Podcast Canaltech no Apple Podcasts",
-      "link": "https://canaltech.com.br/seguranca/icloud-na-operacao-da-pf-perito-explica-o-que-seu-celular-guarda-na-nuvem/",
-      "published": "21/04/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
     }
   ]
 }
