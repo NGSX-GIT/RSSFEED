@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-04-22T12:00:00.019354-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-04-23T12:00:00.046448-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "4 dias Segurança Versões antigas do Excel trazem falhas críticas de segurança",
+      "title": "5 dias Segurança Versões antigas do Excel trazem falhas críticas de segurança",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) fez um alerta para uma falha de segurança encontrada em versões antigas do Microsoft Excel, que podem causar problemas para o usuário. Detectada em 2009, a vulnerabilidade foi identificada pela Microsoft como CVE-2009-0238 e vem sendo explorada por cibercriminosos a partir da execução remota de um código arbitrário (RCE). A ação permite que os hackers acionem comandos por meio de uma rede, comprometendo totalmente o sistema.",
       "link": "https://canaltech.com.br/seguranca/versoes-antigas-do-excel-trazem-falhas-criticas-de-seguranca/",
-      "published": "22/04/2026 12:00",
+      "published": "23/04/2026 12:00",
       "cves": [
         "CVE-2009-0238"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "Vulnerabilidade no protocolo MCP coloca integrações de IA em risco",
+      "title": "Vulnerabilidade crítica no Atlassian abre caminho para execução de comandos em servidores",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores identificaram uma fraqueza de arquitetura no Model Context Protocol, o MCP, que pode abrir caminho para execução remota de código e comprometer a cadeia de suprimentos de aplicações baseadas em agentes e integrações de IA. O problema foi descrito como uma falha “por design”, o que amplia a gravidade por não depender apenas de erro de implementação isolado. O MCP vem sendo adotado para conectar modelos de linguagem a ferramentas, dados e serviços externos.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-protocolo-mcp-coloca-integracoes-de-ia-em-risco/",
-      "published": "22/04/2026 12:00",
-      "cves": [],
+      "summary": "A Atlassian divulgou uma falha crítica no Bamboo Data Center e Server que pode permitir a execução de comandos no sistema operacional e comprometer servidores usados em pipelines de integração e entrega contínua. A vulnerabilidade, identificada como CVE-2026-21571, recebeu pontuação 9,4 e afeta múltiplas linhas do produto. O problema foi classificado como injeção de comandos no sistema operacional. Na prática, um invasor autenticado pode abusar da falha para executar comandos arbitrários no servidor subjacente, abrindo caminho para tomada de controle do ambiente, movimentação lateral e acesso a dados sensíveis.",
+      "link": "https://boletimsec.com/vulnerabilidade-critica-no-atlassian-abre-caminho-para-execucao-de-comandos-em-servidores/",
+      "published": "23/04/2026 12:00",
+      "cves": [
+        "CVE-2026-21571"
+      ],
       "vendor": null
     },
     {
-      "title": "NSA usa Mythos, da Anthropic, apesar de bloqueio imposto pelo Pentágono",
+      "title": "CrowdStrike corrige vulnerabilidade grave no LogScale",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "A NSA estaria utilizando o Claude Mythos Preview, modelo avançado da Anthropic voltado a tarefas complexas de segurança e programação, mesmo após a empresa ter sido classificada pelo Pentágono como risco de cadeia de suprimentos. O caso expõe uma contradição entre a restrição formal imposta à companhia e o possível uso de sua tecnologia por um dos principais órgãos de inteligência dos Estados Unidos. A informação veio a público em reportagens publicadas em 19 e 20 de abril de 2026. O enquadramento como “supply chain risk” já havia sido confirmado pela própria Anthropic em março, quando a empresa afirmou ter recebido comunicação oficial do governo e anunciou contestação judicial da medida.",
-      "link": "https://boletimsec.com/nsa-usa-mythos-da-anthropic-apesar-de-bloqueio-imposto-pelo-pentagono/",
-      "published": "22/04/2026 12:00",
-      "cves": [],
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A CrowdStrike emitiu um alerta urgente para uma vulnerabilidade crítica no LogScale que pode permitir a leitura remota de arquivos arbitrários no servidor sem necessidade de autenticação. A falha, rastreada como CVE-2026-40050, recebeu pontuação 9,8 e atinge implementações self-hosted do produto. O problema está em um endpoint específico da API de cluster. Se essa interface estiver exposta, um invasor remoto pode explorar a falha de path traversal para navegar pela estrutura de diretórios e acessar arquivos do sistema que deveriam permanecer restritos.",
+      "link": "https://boletimsec.com/crowdstrike-corrige-vulnerabilidade-grave-no-logscale/",
+      "published": "23/04/2026 12:00",
+      "cves": [
+        "CVE-2026-40050"
+      ],
       "vendor": null
     },
     {
-      "title": "1 dia Segurança \"Golpe do iPhone\" alcança milhares de usuários da Apple",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Uma nova campanha de phishing ameaça usuários de iPhone . Segundo informações do BleepingComputer, o ataque começa a partir do envio de um alerta que informa a vítima em potencial a respeito de uma alteração na conta da Apple . A comunicação fraudulenta é feita a partir do envio de e-mails legítimos vindos de um servidor da Apple. A tática é usada pelos criminosos para aumentar a confiança dos usuários no alerta, já que eles conseguem contornar filtros de spam da plataforma. Na maioria dos casos, o e-mail também menciona a suposta compra de um iPhone, feita pelo PayPal, e pede para que a pessoa entre em contato com um número de telefone para cancelar a transação.",
-      "link": "https://canaltech.com.br/seguranca/golpe-do-iphone-alcanca-milhares-de-usuarios-da-apple/",
-      "published": "22/04/2026 12:00",
+      "title": "Claude Code: vazamento silencioso de credenciais sensíveis",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "breach",
+      "summary": "Os pesquisadores da Check Point Software identificaram uma vulnerabilidade que acende um alerta relevante para empresas que adotam inteligência artificial (IA) no desenvolvimento de software. De acordo com análise publicada pela companhia, assistentes de programação baseados em IA podem expor chaves de API e credenciais sensíveis de forma inadvertida durante o processo de criação e distribuição de código. O problema foi observado no uso do Claude Code, onde um arquivo de configuração oculto pode incluir automaticamente informações sensíveis, como chaves de acesso, dentro de pacotes publicados em repositórios, especialmente no ecossistema npm.",
+      "link": "https://www.cisoadvisor.com.br/claude-code-vazamento-silencioso-de-credenciais-sensiveis/",
+      "published": "23/04/2026 12:00",
       "cves": [],
-      "vendor": "Apple"
+      "vendor": "Check Point"
     },
     {
-      "title": "5 dias Segurança Copa do Mundo 2026 sob ameaça: especialistas alertam sobre riscos cibernéticos",
+      "title": "6 dias Segurança Copa do Mundo 2026 sob ameaça: especialistas alertam sobre riscos cibernéticos",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "A Copa do Mundo 2026 começa em junho e, com a chegada de um evento tão grandioso, os cibercriminosos estão de olho em oportunidades para aplicar golpes digitais . Pesquisadores da Proofpoint fizeram um alerta para os riscos de segurança que podem vir a partir de descuidos de parceiros da competição da FIFA, com possibilidade de roubo de identidade e fraudes diversas a partir da falsificação de domínios enviados por e-mail.",
       "link": "https://canaltech.com.br/seguranca/copa-do-mundo-2026-sob-ameaca-especialistas-alertam-sobre-riscos-ciberneticos/",
-      "published": "22/04/2026 12:00",
+      "published": "23/04/2026 12:00",
       "cves": [],
       "vendor": null
     }
