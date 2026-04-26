@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-04-25T12:00:00.004892-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-04-26T12:00:00.047510-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "3 horas Segurança Quem é o LAPSUS$ e como ele virou um dos grupos hackers mais temidos do mundo",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "No universo dos hackers, poucos grupos ganharam fama tão rápido quanto o LAPSUS$ . Organização criminosa por trás de ciberataques contra grandes empresas, como a Microsoft e a Nvidia , o grupo se tornou o pesadelo das big techs com táticas de extorsão impressionantes. Um caso recente que preocupou os especialistas da área envolveu um suposto vazamento de dados da AstraZeneca , farmacêutica por trás de uma das vacinas da covid-19. O grupo alegou ter invadido o sistema da empresa, roubando aproximadamente 3 GB de dados internos que passaram a ser comercializados em fóruns clandestinos.",
-      "link": "https://canaltech.com.br/seguranca/quem-e-o-lapsus-e-como-ele-virou-um-dos-grupos-hackers-mais-temidos-do-mundo/",
-      "published": "25/04/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "18 horas Segurança Fim da criptografia? Especialistas do CESAR e BB explicam riscos da era quântica",
+      "title": "1 dia Segurança Fim da criptografia? Especialistas do CESAR e BB explicam riscos da era quântica",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Imagine um cenário em que senhas, dados bancários e comunicações sigilosas pudessem ser interceptados em minutos por máquinas ultrarrápidas. O que parece ficção científica é, em 2026, um desafio real para especialistas em cibersegurança: o avanço da computação quântica ameaça tornar obsoleta a criptografia tradicional , que protege desde aplicativos de mensagens até reservas internacionais. Para debater essa vulnerabilidade global, o centro de inovação CESAR , em parceria com o Banco do Brasil , realizou a primeira edição do co.labbs series . O evento, intitulado “Defesa Cibernética na Era Quântica: Estratégia, Resiliência e Futuro” , ocorreu nesta quinta-feira (23), em Brasília.",
       "link": "https://canaltech.com.br/seguranca/fim-da-criptografia-especialistas-do-cesar-e-bb-explicam-riscos-da-era-quantica/",
-      "published": "25/04/2026 12:00",
+      "published": "26/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "3 dias Segurança Microsoft garante que seu antivírus é bom o bastante para bloquear ciberataques",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "A Microsoft garantiu que o Defender , antivírus da empresa que vem integrado ao Windows 11, é o bastante para proteger grande parte dos usuários contra ataques digitais. Segundo a big tech, em uma publicação oficial descoberta pelo Windows Latest, o Microsoft Defender “geralmente é suficiente” para manter a segurança do sistema em dia, sem a necessidade de instalar mais um antivírus para proteger o dispositivo. “Para muitos usuários do Windows 11, o Microsoft Defender Antivirus cobre os riscos do dia a dia sem exigir um software adicional”, explicou a companhia no comunicado.",
-      "link": "https://canaltech.com.br/seguranca/microsoft-garante-que-seu-antivirus-e-bom-o-bastante-para-bloquear-ciberataques/",
-      "published": "25/04/2026 12:00",
+      "title": "Excesso de relatórios de IA derruba programa de bug bounty",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "A Nextcloud decidiu encerrar seu programa de recompensas por vulnerabilidades (bug bounty) devido ao aumento de relatórios genéricos gerados por inteligência artificial (IA), que dificultam a identificação de notificações relevantes, conforme email enviado à comunidade . A empresa comunicou a decisão por e-mail a seus usuários registrados, informando que o programa foi encerrado na quarta-feira, 22 de abril de 2026. De acordo com o texto, a Nextcloud iniciou seu programa de bug bounty na plataforma HackerOne em 2017 com o objetivo de atrair pesquisadores externos para encontrar vulnerabilidades em seu sistema.",
+      "link": "https://www.cisoadvisor.com.br/excesso-de-relatorios-de-ia-derruba-programa-de-bug-bounty/",
+      "published": "26/04/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     },
     {
-      "title": "1 dia Segurança Seu roteador D-Link pode estar trabalhando para hackers sem avisar",
+      "title": "2 dias Segurança Seu roteador D-Link pode estar trabalhando para hackers sem avisar",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 23/04/2026 às 17:15 Uma variação do malware Mirai está ameaçando roteadores D-Link da série DIR-823-X, permitindo que hackers consigam tomar o controle dos aparelhos de internet sem maiores problemas. Segundo análise da empresa de segurança Akamai , a ameaça foi detectada pela primeira vez no início de março deste ano. A vulnerabilidade que permite a invasão é uma injeção de comandos descoberta originalmente há 13 meses: os responsáveis foram os pesquisadores Wang Jinshuai e Zhao Jiangting . Eles chegaram a publicar uma prova de conceito da falha no GitHub , apagando-a posteriormente.",
       "link": "https://canaltech.com.br/seguranca/seu-roteador-d-link-pode-estar-trabalhando-para-hackers-sem-avisar/",
-      "published": "25/04/2026 12:00",
+      "published": "26/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Redbelt diz encurtar de 7h para 3min tempo de resposta a alarmes",
-      "source": "CISO Advisor",
+      "title": "1 dia Segurança Quem é o LAPSUS$ e como ele virou um dos grupos hackers mais temidos do mundo",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "breach",
+      "summary": "No universo dos hackers, poucos grupos ganharam fama tão rápido quanto o LAPSUS$ . Organização criminosa por trás de ciberataques contra grandes empresas, como a Microsoft e a Nvidia , o grupo se tornou o pesadelo das big techs com táticas de extorsão impressionantes. Um caso recente que preocupou os especialistas da área envolveu um suposto vazamento de dados da AstraZeneca , farmacêutica por trás de uma das vacinas da covid-19. O grupo alegou ter invadido o sistema da empresa, roubando aproximadamente 3 GB de dados internos que passaram a ser comercializados em fóruns clandestinos.",
+      "link": "https://canaltech.com.br/seguranca/quem-e-o-lapsus-e-como-ele-virou-um-dos-grupos-hackers-mais-temidos-do-mundo/",
+      "published": "26/04/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Vercel descobre mais contas comprometidas ao aprofundar apuração do incidente",
+      "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "A consultoria brasileira Redbelt Security anunciou hoje em comunicado que uma plataforma de inteligência artificial desenvolvida por ela está fazendo, em três minutos, o que equipes de analistas de cibersegurança levam, em média, 7 horas para concluir: receber um alarme de segurança, classificar o evento, investigar o risco real, decidir o que fazer e, quando necessário, conter a ameaça. Chamada de IARis 3.0, é a terceira versão da IA integrada ao RIS, plataforma SaaS da Redbelt Security que concentra e correlaciona informações e logs de segurança em um dashboard unificado. Os números são de março com uma amostra de 2.500 alarmes reais de companhias de setores variados.",
-      "link": "https://www.cisoadvisor.com.br/redbelt-diz-encurtar-de-7h-para-3min-tempo-de-resposta-a-alarmes/",
-      "published": "25/04/2026 12:00",
+      "summary": "A Vercel informou ter identificado contas adicionais comprometidas ao ampliar a investigação sobre o incidente de segurança ligado à Context.ai. A empresa afirmou que a nova descoberta surgiu após revisar indicadores extras de comprometimento, requisições à rede da plataforma e eventos de leitura de variáveis de ambiente registrados em seus logs. De acordo com a companhia, a violação original começou com o comprometimento da Context.ai, ferramenta de terceiros usada por um funcionário da Vercel. A partir daí, o invasor teria assumido o controle da conta individual de Google Workspace desse colaborador, obtendo acesso à conta da Vercel e pivotando depois para um ambiente interno da empresa.",
+      "link": "https://boletimsec.com/vercel-descobre-mais-contas-comprometidas-ao-aprofundar-apuracao-do-incidente/",
+      "published": "26/04/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Google"
     }
   ]
 }
