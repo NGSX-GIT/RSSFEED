@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-27T12:00:00.017290-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-04-28T11:10:42.917655-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
@@ -10,11 +10,22 @@
       "category": "patches",
       "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos Estados Unidos (CISA) emitiu um alerta crítico sobre duas vulnerabilidades ativamente exploradas no software de suporte remoto SimpleHelp. De acordo com o comunicado da agência, as ferramentas de acesso remoto são alvos de grande valor para cibercriminosos porque fornecem caminhos diretos para redes corporativas. A primeira falha crítica, registrada como CVE-2024-57726 (CVSS não informado), é classificada como um problema de autorização ausente (CWE-862).",
       "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-falhas-ativas-no-simplehelp/",
-      "published": "27/04/2026 12:00",
+      "published": "28/04/2026 11:10",
       "cves": [
         "CVE-2024-57726"
       ],
       "vendor": null
+    },
+    {
+      "title": "Falha crítica no Gemini CLI abre caminho para execução remota de código",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Google corrigiu uma falha crítica no Gemini CLI que poderia permitir execução remota de código em fluxos automatizados, sobretudo em ambientes sem interação humana, como pipelines de CI/CD. O problema afeta o pacote @google/gemini-cli no npm e também a action google-github-actions/run-gemini-cli, usada em automações no GitHub. A brecha combina dois erros de segurança. O primeiro está no tratamento de confiança do diretório de trabalho em modo headless, que em versões anteriores passava a confiar automaticamente na workspace atual. O segundo envolve um desvio das restrições de ferramentas quando o recurso –yolo era usado.",
+      "link": "https://boletimsec.com/falha-critica-no-gemini-cli-abre-caminho-para-execucao-remota-de-codigo/",
+      "published": "28/04/2026 11:10",
+      "cves": [],
+      "vendor": "Google"
     },
     {
       "title": "Falha no Python pode causar corrupção de memória em sistemas Windows",
@@ -23,11 +34,22 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade de alta severidade no Python foi divulgada com impacto específico sobre sistemas Windows. Registrada como CVE-2026-3298, a falha afeta o método sock_recvfrom_into() em asyncio.ProactorEventLoop e permite gravação fora dos limites do buffer quando o parâmetro nbytes é usado sem a validação adequada do tamanho dos dados recebidos. O problema foi publicado em 21 de abril de 2026 e recebeu nota 8,8 na base do GitHub Advisory Database, com referência ao NVD. A descrição técnica aponta que plataformas não Windows não são afetadas, o que concentra o risco em aplicações Python que usam o loop de eventos específico do sistema operacional da Microsoft.",
       "link": "https://boletimsec.com/falha-no-python-pode-causar-corrupcao-de-memoria-em-sistemas-windows/",
-      "published": "27/04/2026 12:00",
+      "published": "28/04/2026 11:10",
       "cves": [
         "CVE-2026-3298"
       ],
       "vendor": "Microsoft"
+    },
+    {
+      "title": "BTG Pactual alerta clientes após ataque atingir dados de contas internacionais",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O BTG Pactual comunicou clientes com contas internacionais sobre um possível vazamento de dados após um ataque cibernético contra a DriveWealth LLC, parceira do banco nos Estados Unidos. Segundo a instituição, o incidente foi identificado em março e atingiu informações ligadas a parte da base atendida no exterior, sem comprometimento de valores ou ativos financeiros. De acordo com a comunicação enviada aos clientes, os dados potencialmente expostos incluem nomes, informações de conta e números de identificação bancária. O alerta foi disparado pela BTG Pactual US Capital LLC na noite de 24 de abril de 2026, embora o ataque, segundo o banco, tenha ocorrido no fim de março.",
+      "link": "https://boletimsec.com/btg-pactual-alerta-clientes-apos-ataque-atingir-dados-de-contas-internacionais/",
+      "published": "28/04/2026 11:10",
+      "cves": [],
+      "vendor": null
     },
     {
       "title": "Parceiro vaza dados de clientes internacionais do BTG",
@@ -36,29 +58,7 @@
       "category": "patches",
       "summary": "O banco BTG Pactual comunicou seus clientes de contas internacionais sobre um possível vazamento de dados pessoais por meio de um ataque cibernético contra a DriveWealth LLC, empresa parceira da organização nos Estados Unidos. As informações foram publicadas pela coluna Capital, do jornal O Globo. O alerta foi feito por e-mail em inglês pela subsidiária BTG Pactual US Capital LLC na noite da última sexta-feira (24 de abril de 2026), mas o ataque, segundo o banco, ocorreu no fim de março. A instituição afirmou que não houve comprometimento de valores ou ativos financeiros. A DriveWealth é uma corretora que mantém contas de clientes do BTG no exterior.",
       "link": "https://www.cisoadvisor.com.br/parceiro-do-vaza-dados-de-clientes-internacionais-do-btg/",
-      "published": "27/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Grupo UNC6692 usa Teams para implantar malware",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O grupo de ameaças rastreado como UNC6692 utiliza engenharia social para implantar uma nova suíte de malware personalizada chamada “Snow”, que inclui uma extensão de navegador, um tunelador e um backdoor, segundo pesquisadores da Google Mandiant. O objetivo do grupo é roubar dados confidenciais após um comprometimento profundo da rede, por meio de roubo de credenciais e tomada de domínio, conforme a mesma fonte. De acordo com os pesquisadores da Mandiant, o atacante usa táticas de “email bombing” para criar urgência e, em seguida, contata os alvos via Microsoft Teams, se passando por agentes do suporte técnico de TI.",
-      "link": "https://www.cisoadvisor.com.br/grupo-unc6692-usa-teams-para-implantar-malware/",
-      "published": "27/04/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "2 dias Segurança Fim da criptografia? Especialistas do CESAR e BB explicam riscos da era quântica",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Imagine um cenário em que senhas, dados bancários e comunicações sigilosas pudessem ser interceptados em minutos por máquinas ultrarrápidas. O que parece ficção científica é, em 2026, um desafio real para especialistas em cibersegurança: o avanço da computação quântica ameaça tornar obsoleta a criptografia tradicional , que protege desde aplicativos de mensagens até reservas internacionais. Para debater essa vulnerabilidade global, o centro de inovação CESAR , em parceria com o Banco do Brasil , realizou a primeira edição do co.labbs series . O evento, intitulado “Defesa Cibernética na Era Quântica: Estratégia, Resiliência e Futuro” , ocorreu nesta quinta-feira (23), em Brasília.",
-      "link": "https://canaltech.com.br/seguranca/fim-da-criptografia-especialistas-do-cesar-e-bb-explicam-riscos-da-era-quantica/",
-      "published": "27/04/2026 12:00",
+      "published": "28/04/2026 11:10",
       "cves": [],
       "vendor": null
     }
