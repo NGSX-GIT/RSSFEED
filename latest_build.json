@@ -1,18 +1,31 @@
 {
-  "generated_at": "2026-04-29T12:00:00.011648-03:00",
+  "generated_at": "2026-04-29T12:00:00.047795-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Medtronic confirma acesso não autorizado a sistemas corporativos",
-      "source": "CISO Advisor",
+      "title": "Vulnerabilidades no OpenClaw permitem bypass e vazamento de credenciais",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Medtronic, fabricante global de dispositivos médicos, que opera também com uma filial no Brasil, confirmou em nota oficial publicada na última sexta-feira que “hackers”terceiros” acessaram dados em “certos sistemas corporativos de TI”. No dia 18 passado, o grupo que opera o ransomware ShinyHunters anunciou na dark web a autoria do ataque e afirmou ter roubado mais de 9 milhões de registros contendo informações pessoais identificáveis (PII), além de “terabytes de dados corporativos internos”. O grupo ameaçou vazar os dados caso a empresa não iniciasse negociações até o dia 21.",
-      "link": "https://www.cisoadvisor.com.br/medtronic-confirma-acesso-nao-autorizado-a-sistemas-corporativos/",
+      "summary": "Pesquisadores divulgaram três falhas no OpenClaw, framework de agentes de IA distribuído como pacote npm, que podem abrir caminho para bypass de políticas, alteração indevida de configurações críticas e redirecionamento de requisições com vazamento de credenciais. O projeto, antes conhecido como Clawdbot e Moltbot, corrigiu os problemas na versão 2026.4.20 e recomendou atualização imediata para quem ainda roda releases anteriores. A primeira falha permitia alterar configurações sensíveis do gateway mesmo quando esse tipo de mudança deveria estar restrito.",
+      "link": "https://boletimsec.com/vulnerabilidades-no-openclaw-permitem-bypass-e-vazamento-de-credenciais/",
       "published": "29/04/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Falha de zero clique no Windows permite autenticação com servidor do invasor",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma nova vulnerabilidade de zero clique no Windows entrou no radar após ser explorada em ataques atribuídos ao grupo APT28 para contornar o Defender SmartScreen e forçar a autenticação automática da vítima em um servidor controlado pelo invasor. A falha, identificada como CVE-2026-32202, foi corrigida pela Microsoft no Patch Tuesday de abril de 2026, mas chamou atenção por surgir como efeito residual de uma correção anterior no Windows Shell. O ponto central da falha está no fato de que o Windows podia tentar acessar automaticamente um caminho remoto controlado pelo atacante só ao abrir a pasta que continha o arquivo malicioso.",
+      "link": "https://boletimsec.com/falha-de-zero-clique-no-windows-permite-autenticacao-com-servidor-do-invasor/",
+      "published": "29/04/2026 12:00",
+      "cves": [
+        "CVE-2026-32202"
+      ],
+      "vendor": "Microsoft"
     },
     {
       "title": "Nava abre 30 vagas na unidade de resposta a incidentes",
@@ -37,25 +50,12 @@
       "vendor": null
     },
     {
-      "title": "Falha no Firefox e Tor expõe usuários",
-      "source": "CISO Advisor",
+      "title": "Hackers norte-coreanos amplia foco e passa a atacar a indústria farmacêutica",
+      "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "patches",
-      "summary": "Uma falha de segurança no navegador Firefox, que também afeta o navegador de anonimato Tor, poderia permitir que agentes de ameaça criassem impressões digitais (fingerprinting) de usuários, mesmo em modo de navegação anônima. A vulnerabilidade , registrada como CVE-2026-6770 (CVSS de 5.4), foi corrigida com o lançamento do Firefox 150 e do Tor 15.0.10 , conforme o comunicado da equipe de segurança da Mozilla. De acordo com os pesquisadores que descobriram o problema, a falha está relacionada à API IndexedDB do navegador, utilizada para armazenar dados estruturados no lado do cliente.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-firefox-e-tor-expoe-usuarios/",
-      "published": "29/04/2026 12:00",
-      "cves": [
-        "CVE-2026-6770"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Framework de sabotagem criado cinco anos antes do Stuxnet",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores da empresa de segurança americana SentinelLABS descobriram um framework de sabotagem cibernética até agora não documentado, chamado fast16, cujos componentes principais datam de 2005 – cinco anos antes do Stuxnet, conforme análise publicada pela companhia . O componente central, um driver de kernel chamado fast16.sys, foi projetado para interceptar e modificar código durante a leitura do disco em ambientes Windows, visando especificamente softwares de cálculo de alta precisão em áreas como física avançada, pesquisa nuclear e engenharia estrutural.",
-      "link": "https://www.cisoadvisor.com.br/framework-de-sabotagem-antecede-stuxnet-em-cinco-anos/",
+      "category": "threat",
+      "summary": "Uma campanha atribuída ao grupo norte-coreano Kimsuky está mirando empresas farmacêuticas com um arquivo disfarçado de planilha Excel para instalar malware de forma silenciosa. A operação usa como isca um suposto documento corporativo chamado “White Life Science ERP Specification”, apresentado como se fosse material legítimo de negócios. O artefato malicioso, porém, não é uma planilha real. Trata-se de um arquivo .lnk, atalho do Windows, preparado para parecer exatamente um documento de Excel e induzir o funcionário a executá-lo acreditando se tratar de uma rotina administrativa comum.",
+      "link": "https://boletimsec.com/hackers-norte-coreanos-amplia-foco-e-passa-a-atacar-a-industria-farmaceutica/",
       "published": "29/04/2026 12:00",
       "cves": [],
       "vendor": "Windows"
