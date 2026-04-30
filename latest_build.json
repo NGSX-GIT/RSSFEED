@@ -1,64 +1,67 @@
 {
-  "generated_at": "2026-04-29T12:00:00.047795-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-04-30T12:00:00.025103-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Vulnerabilidades no OpenClaw permitem bypass e vazamento de credenciais",
-      "source": "BoletimSec Notícias",
+      "title": "CISA ordena correção de falha zero-click do Windows",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores divulgaram três falhas no OpenClaw, framework de agentes de IA distribuído como pacote npm, que podem abrir caminho para bypass de políticas, alteração indevida de configurações críticas e redirecionamento de requisições com vazamento de credenciais. O projeto, antes conhecido como Clawdbot e Moltbot, corrigiu os problemas na versão 2026.4.20 e recomendou atualização imediata para quem ainda roda releases anteriores. A primeira falha permitia alterar configurações sensíveis do gateway mesmo quando esse tipo de mudança deveria estar restrito.",
-      "link": "https://boletimsec.com/vulnerabilidades-no-openclaw-permitem-bypass-e-vazamento-de-credenciais/",
-      "published": "29/04/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha de zero clique no Windows permite autenticação com servidor do invasor",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma nova vulnerabilidade de zero clique no Windows entrou no radar após ser explorada em ataques atribuídos ao grupo APT28 para contornar o Defender SmartScreen e forçar a autenticação automática da vítima em um servidor controlado pelo invasor. A falha, identificada como CVE-2026-32202, foi corrigida pela Microsoft no Patch Tuesday de abril de 2026, mas chamou atenção por surgir como efeito residual de uma correção anterior no Windows Shell. O ponto central da falha está no fato de que o Windows podia tentar acessar automaticamente um caminho remoto controlado pelo atacante só ao abrir a pasta que continha o arquivo malicioso.",
-      "link": "https://boletimsec.com/falha-de-zero-clique-no-windows-permite-autenticacao-com-servidor-do-invasor/",
-      "published": "29/04/2026 12:00",
+      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) emitiu uma ordem para que agências federais corrijam seus sistemas Windows contra uma vulnerabilidade, rastreada como CVE-2026-32202, explorada em ataques do tipo zero-day. A falha de segurança foi reportada pela empresa de cibersegurança Akamai, que a descreveu como um vazamento de hash NTLM de zero-clique, deixado após a Microsoft ter corrigido de forma incompleta uma falha de execução remota de código (CVE-2026-21510) em fevereiro.",
+      "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-de-falha-zero-click-do-windows/",
+      "published": "30/04/2026 12:00",
       "cves": [
-        "CVE-2026-32202"
+        "CVE-2026-32202",
+        "CVE-2026-21510"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "Nava abre 30 vagas na unidade de resposta a incidentes",
+      "title": "Falha de autenticação no cPanel e no WHM com CVSS 9.8",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "general",
-      "summary": "A Nava, consultoria brasileira de tecnologia, anunciou a abertura de 30 vagas na área de Cibersegurança, nos formatos presencial e híbrido, conforme informações divulgadas pela empresa. As oportunidades fazem parte do plano de expansão da companhia, que conta com cerca de 2 mil colaboradores e atua no desenvolvimento de soluções críticas para setores como mercado financeiro, saúde e telecomunicações. Segundo o comunicado, as novas posições refletem o fortalecimento do ecossistema da empresa, especialmente sua unidade especializada em resposta a incidentes, investigação digital e gestão de crises cibernéticas.",
-      "link": "https://www.cisoadvisor.com.br/nava-abre-30-vagas-na-unidade-de-resposta-a-incidentes/",
-      "published": "29/04/2026 12:00",
+      "category": "patches",
+      "summary": "A cPanel publicou uma atualização de segurança em 28 de abril de 2026 para corrigir uma vulnerabilidade crítica que afeta os produtos cPanel & WHM e WP Squared, identificada como CVE-2026-41940, com pontuação CVSS de 9,8, conforme análise publicada hoje pela Rapid7 . A falha permite que atacantes remotos não autenticados contornem a autenticação e obtenham acesso administrativo não autorizado aos sistemas afetados. De acordo com o relatório, uma consulta simples no Shodan retorna aproximadamente 1,5 milhão de instâncias cPanel expostas à internet que podem estar vulneráveis.",
+      "link": "https://www.cisoadvisor.com.br/falha-de-autenticacao-no-cpanel-e-no-whm-com-cvss-9-8/",
+      "published": "30/04/2026 12:00",
+      "cves": [
+        "CVE-2026-41940"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Locked Shields 2026 reúne 41 nações e 4 mil participantes",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "O exercício de defesa cibernética Locked Shields 2026, organizado pelo Centro de Excelência em Ciberdefesa da OTAN (CCDCOE), foi realizado em Tallinn, na Estônia, entre os dias 21 e 24 de abril de 2026, reunindo mais de 4.000 participantes de 41 nações para praticar a proteção de infraestrutura crítica e sistemas militares contra ataques cibernéticos em tempo real, conforme comunicado do CCDCOE . O exercício, realizado anualmente desde 2010, simulou um conflito cibernético realista em larga escala. A preparação para o Locked Shields 2026 começou meses antes.",
+      "link": "https://www.cisoadvisor.com.br/locked-shields-2026-reune-41-nacoes-e-4-mil-participantes/",
+      "published": "30/04/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Checkmarx confirma publicação de dados de repositório no GitHub após ataque",
+      "title": "Vimeo confirma violação de dados após ataque",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Vimeo confirmou uma violação de dados que resultou em acesso não autorizado a parte de sua base de usuários. Segundo a empresa, o incidente teve origem em uma invasão sofrida pela Anodot, fornecedora terceirizada de analytics usada pela plataforma e por outras organizações. De acordo com o relato publicado, o caso foi ligado ao grupo ShinyHunters, conhecido por campanhas de roubo de dados em ambientes SaaS.",
+      "link": "https://boletimsec.com/vimeo-confirma-violacao-de-dados-apos-ataque/",
+      "published": "30/04/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Ataque à cadeia de suprimentos atinge ecossistema SAP",
       "source": "BoletimSec Notícias",
       "priority": "Baixa",
-      "category": "identity",
-      "summary": "A Checkmarx confirmou que dados ligados à empresa foram publicados na dark web como desdobramento do ataque à cadeia de suprimentos identificado em 23 de março de 2026. Segundo a companhia, as evidências atuais indicam que o material vazado se originou de seu repositório no GitHub e que o acesso a esse ambiente ocorreu a partir do incidente inicial. A empresa ressaltou que esse repositório é mantido separadamente do ambiente de produção voltado a clientes. Também afirmou que não armazena dados de clientes nesse espaço, enquanto a apuração forense segue em andamento para verificar a natureza e o alcance exatos do conteúdo publicado.",
-      "link": "https://boletimsec.com/checkmarx-confirma-publicacao-de-dados-de-repositorio-no-github-apos-ataque/",
-      "published": "29/04/2026 12:00",
+      "category": "cloud",
+      "summary": "Uma nova campanha de ataque à cadeia de suprimentos comprometeu quatro pacotes npm ligados ao ecossistema SAP CAP com o objetivo de roubar credenciais de estações de trabalho e pipelines de CI/CD. A operação, apelidada de mini Shai Hulud, inseriu scripts maliciosos de pré-instalação em versões adulteradas de pacotes legítimos como @cap-js/sqlite, @cap-js/postgres, @cap-js/db-service e mbt. O diferencial da campanha está na forma como o código malicioso é disparado. Em vez de depender apenas de execução tradicional com Node.js, o dropper baixa o runtime Bun durante a instalação e o usa para rodar uma segunda carga útil ofuscada.",
+      "link": "https://boletimsec.com/ataque-a-cadeia-de-suprimentos-atinge-ecossistema-sap/",
+      "published": "30/04/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "Hackers norte-coreanos amplia foco e passa a atacar a indústria farmacêutica",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Uma campanha atribuída ao grupo norte-coreano Kimsuky está mirando empresas farmacêuticas com um arquivo disfarçado de planilha Excel para instalar malware de forma silenciosa. A operação usa como isca um suposto documento corporativo chamado “White Life Science ERP Specification”, apresentado como se fosse material legítimo de negócios. O artefato malicioso, porém, não é uma planilha real. Trata-se de um arquivo .lnk, atalho do Windows, preparado para parecer exatamente um documento de Excel e induzir o funcionário a executá-lo acreditando se tratar de uma rotina administrativa comum.",
-      "link": "https://boletimsec.com/hackers-norte-coreanos-amplia-foco-e-passa-a-atacar-a-industria-farmaceutica/",
-      "published": "29/04/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
     }
   ]
 }
