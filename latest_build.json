@@ -1,67 +1,66 @@
 {
-  "generated_at": "2026-04-30T15:11:49.177477-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-05-01T12:00:00.016203-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA ordena correção de falha zero-click do Windows",
+      "title": "Falha no Linux desde 2017 dá root a qualquer usuário local",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos EUA (CISA) emitiu uma ordem para que agências federais corrijam seus sistemas Windows contra uma vulnerabilidade, rastreada como CVE-2026-32202, explorada em ataques do tipo zero-day. A falha de segurança foi reportada pela empresa de cibersegurança Akamai, que a descreveu como um vazamento de hash NTLM de zero-clique, deixado após a Microsoft ter corrigido de forma incompleta uma falha de execução remota de código (CVE-2026-21510) em fevereiro.",
-      "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-de-falha-zero-click-do-windows/",
-      "published": "30/04/2026 15:11",
+      "summary": "Uma vulnerabilidade no kernel Linux, batizada de Copy Fail e registrada sob o código CVE-2026-31431 (sem grau CVSS atribuído até o momento), permite que qualquer pessoa com acesso local a um servidor obtenha privilégios totais de administrador (root) de forma imediata e silenciosa. O anúncio público ocorreu ontem, 29 de abril, conforme o artigo publicado pelo grupo de pesquisa Xint. A falha afeta todas as distribuições Linux lançadas desde 2017, incluindo Ubuntu, Amazon Linux, RHEL e SUSE. No país, os ambientes mais críticos são aqueles que executam código de múltiplos inquilinos no mesmo kernel, explica o comunicado técnico do grupo Xint.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-linux-desde-2017-da-root-a-qualquer-usuario-local/",
+      "published": "01/05/2026 12:00",
       "cves": [
-        "CVE-2026-32202",
-        "CVE-2026-21510"
+        "CVE-2026-31431"
       ],
-      "vendor": "Microsoft"
+      "vendor": "Linux"
     },
     {
-      "title": "Falha de autenticação no cPanel e no WHM com CVSS 9.8",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "Falha no Cursor AI permite execução de código ao clonar repositório",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A cPanel publicou uma atualização de segurança em 28 de abril de 2026 para corrigir uma vulnerabilidade crítica que afeta os produtos cPanel & WHM e WP Squared, identificada como CVE-2026-41940, com pontuação CVSS de 9,8, conforme análise publicada hoje pela Rapid7 . A falha permite que atacantes remotos não autenticados contornem a autenticação e obtenham acesso administrativo não autorizado aos sistemas afetados. De acordo com o relatório, uma consulta simples no Shodan retorna aproximadamente 1,5 milhão de instâncias cPanel expostas à internet que podem estar vulneráveis.",
-      "link": "https://www.cisoadvisor.com.br/falha-de-autenticacao-no-cpanel-e-no-whm-com-cvss-9-8/",
-      "published": "30/04/2026 15:11",
+      "summary": "Uma vulnerabilidade de alta severidade no Cursor, ambiente de desenvolvimento com agente de IA amplamente usado por programadores, pode permitir a execução de código na máquina do desenvolvedor apenas com o clone de um repositório malicioso. Registrada como CVE-2026-26268, a falha chama atenção porque o ataque pode ocorrer sem etapas extras visíveis para a vítima. Segundo a análise divulgada, o problema não estaria em um erro isolado no código principal do Cursor, mas na forma como o agente interage com recursos legítimos do Git em repositórios não confiáveis.",
+      "link": "https://boletimsec.com/falha-no-cursor-ai-permite-execucao-de-codigo-ao-clonar-repositorio/",
+      "published": "01/05/2026 12:00",
       "cves": [
-        "CVE-2026-41940"
+        "CVE-2026-26268"
       ],
       "vendor": null
     },
     {
-      "title": "Locked Shields 2026 reúne 41 nações e 4 mil participantes",
+      "title": "23 horas Segurança Gamer se gaba de ter baixado GTA 6 antecipadamente, mas era um malware poderoso",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "breach",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 30/04/2026 às 12:20 Grand Theft Auto 6 está com um hype maior do que nunca nos meses que antecedem seu lançamento, e a Rockstar sequer está fazendo uma grande campanha de marketing. A vontade de jogar o título é tão grande que usuários, volta e meia, baixam supostas versões antecipadas que terminam sendo trollagens ou, pior ainda, malwares. Um caso recente aconteceu com o usuário do reddit NotAGoat3 , que afirmou ter tido acesso a um download de GTA 6 . “‘Seus vazamentos são fake, você não tem um insider’.",
+      "link": "https://canaltech.com.br/seguranca/gamer-se-gaba-de-ter-baixado-gta-6-antecipadamente-mas-era-um-malware-poderoso/",
+      "published": "01/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "SonicWall pede patch imediato em firewalls por três falhas",
       "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "O exercício de defesa cibernética Locked Shields 2026, organizado pelo Centro de Excelência em Ciberdefesa da OTAN (CCDCOE), foi realizado em Tallinn, na Estônia, entre os dias 21 e 24 de abril de 2026, reunindo mais de 4.000 participantes de 41 nações para praticar a proteção de infraestrutura crítica e sistemas militares contra ataques cibernéticos em tempo real, conforme comunicado do CCDCOE . O exercício, realizado anualmente desde 2010, simulou um conflito cibernético realista em larga escala. A preparação para o Locked Shields 2026 começou meses antes.",
-      "link": "https://www.cisoadvisor.com.br/locked-shields-2026-reune-41-nacoes-e-4-mil-participantes/",
-      "published": "30/04/2026 15:11",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Vimeo confirma violação de dados após ataque",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Vimeo confirmou uma violação de dados que resultou em acesso não autorizado a parte de sua base de usuários. Segundo a empresa, o incidente teve origem em uma invasão sofrida pela Anodot, fornecedora terceirizada de analytics usada pela plataforma e por outras organizações. De acordo com o relato publicado, o caso foi ligado ao grupo ShinyHunters, conhecido por campanhas de roubo de dados em ambientes SaaS.",
-      "link": "https://boletimsec.com/vimeo-confirma-violacao-de-dados-apos-ataque/",
-      "published": "30/04/2026 15:11",
+      "summary": "A SonicWall publicou ontem (29 de abril) correções para três vulnerabilidades no SonicOS, sistema operacional de seus firewalls, e classificou uma delas como de alta gravidade. De acordo com o comunicado da empresa, as falhas podem permitir que atacantes contornem controles de segurança, acessem serviços restritos ou causem queda (crash) dos equipamentos. A empresa afirmou que as falhas exigem “atualizações imediatas de firmware para manter a postura de segurança”.",
+      "link": "https://www.cisoadvisor.com.br/sonicwall-pede-patch-imediato-em-firewalls-por-tres-falhas/",
+      "published": "01/05/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "SonicWall"
     },
     {
-      "title": "Ataque à cadeia de suprimentos atinge ecossistema SAP",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "cloud",
-      "summary": "Uma nova campanha de ataque à cadeia de suprimentos comprometeu quatro pacotes npm ligados ao ecossistema SAP CAP com o objetivo de roubar credenciais de estações de trabalho e pipelines de CI/CD. A operação, apelidada de mini Shai Hulud, inseriu scripts maliciosos de pré-instalação em versões adulteradas de pacotes legítimos como @cap-js/sqlite, @cap-js/postgres, @cap-js/db-service e mbt. O diferencial da campanha está na forma como o código malicioso é disparado. Em vez de depender apenas de execução tradicional com Node.js, o dropper baixa o runtime Bun durante a instalação e o usa para rodar uma segunda carga útil ofuscada.",
-      "link": "https://boletimsec.com/ataque-a-cadeia-de-suprimentos-atinge-ecossistema-sap/",
-      "published": "30/04/2026 15:11",
+      "title": "2 dias Segurança Invasão de sistema em 27 segundos: como os ataques cibernéticos mudaram em 2025",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Por Marcelo Fischer Salvatico | 29/04/2026 às 07:00 • Atualizado 29/04/2026 às 08:52 Em 2025, o intervalo médio entre a entrada de um invasor em uma rede corporativa e sua movimentação para outra máquina foi de 29 minutos, 65% abaixo dos 48 minutos registrados em 2024. 🎧 Ouça o Podcast Canaltech no Spotify 🎧 Ouça o Podcast Canaltech na Deezer 🎧 Ouça o Podcast Canaltech no Apple Podcasts",
+      "link": "https://canaltech.com.br/seguranca/invasao-de-sistema-em-27-segundos-como-os-ataques-ciberneticos-mudaram-em-2025/",
+      "published": "01/05/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Apple"
     }
   ]
 }
