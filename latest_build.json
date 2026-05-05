@@ -1,66 +1,70 @@
 {
-  "generated_at": "2026-05-04T12:00:00.079151-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-05-05T12:00:00.219387-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no cPanel permite bypass de autenticação",
-      "source": "BoletimSec Notícias",
+      "title": "Oracle agora lança patches de segurança mensalmente",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica de autenticação no cPanel e WHM levou a empresa a liberar atualizações urgentes para todas as versões atualmente suportadas da plataforma. O problema, agora rastreado como CVE-2026-41940, recebeu CVSS 9.8 e pode permitir que invasores remotos não autenticados obtenham acesso indevido ao painel de controle. Segundo o alerta, a falha afeta versões posteriores à 11.40 e foi corrigida em múltiplas linhas do produto, incluindo os ramos 11.86, 11.110, 11.118, 11.126, 11.130, 11.132, 11.134 e 11.136.",
-      "link": "https://boletimsec.com/falha-critica-no-cpanel-permite-bypass-de-autenticacao/",
-      "published": "04/05/2026 12:00",
+      "summary": "A Oracle anunciou ontem, 4 de maio de 2026, que passará a publicar atualizações críticas de segurança mensalmente, impulsionada pela evolução das ferramentas de IA. A empresa, que tradicionalmente liberava correções a cada trimestre, justificou a mudança com base na nova geração de inteligência artificial, capaz de encontrar e corrigir vulnerabilidades em alta velocidade. O comunicado da Oracle afirma que “manter os sistemas atualizados é uma das principais formas de reduzir riscos”. A nova iniciativa, chamada Critical Security Patch Update (CSPU), tem início imediato neste mês de maio.",
+      "link": "https://www.cisoadvisor.com.br/oracle-agora-lanca-patches-de-seguranca-mensalmente/",
+      "published": "05/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "cPanel & WHM sob ataque com ransomware e Mirai",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica (bypass de autenticação) no cPanel e no WHM, registrada com o CVE-2026-41940 (CVSS de 9,8), está sendo explorada em massa para distribuir ransomware e variantes do malware Mirai. O alerta foi publicado em 29 de abril pela cPanel, com análises da watchTowr Labs e da Rapid7. Uma consulta simples no Shodan retorna aproximadamente 1,5 milhão de instâncias cPanel expostas à internet que podem estar vulneráveis. A fundação Shadowserver reportou em 1º de maio que pelo menos 44 mil endereços IP foram comprometidos. Um post no Bluesky da organização detalha que os ataques em larga escala começaram em 30 de abril.",
+      "link": "https://www.cisoadvisor.com.br/cpanel-whm-sob-ataque-com-ransomware-e-mirai/",
+      "published": "05/05/2026 12:00",
       "cves": [
         "CVE-2026-41940"
       ],
       "vendor": null
     },
     {
-      "title": "Jenkins recomenda atualização imediata após corrigir falhas de segurança",
-      "source": "BoletimSec Notícias",
+      "title": "Progress alerta para falha crítica no MOVEit Automation",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O projeto Jenkins publicou um novo advisory com correções para sete vulnerabilidades em plugins, incluindo falhas de alta severidade que podem abrir caminho para gravação indevida de arquivos e ataques de stored XSS contra administradores. O pacote de correções atinge componentes amplamente usados em ambientes de CI/CD. A falha mais grave é a CVE-2026-42520, no Credentials Binding Plugin. Segundo o advisory, versões vulneráveis não tratavam corretamente certos tipos de credencial, permitindo que usuários com baixo privilégio em cenários específicos gravassem arquivos em locais arbitrários do nó interno do Jenkins. Isso pode levar a persistência e até execução de código.",
-      "link": "https://boletimsec.com/jenkins-recomenda-atualizacao-imediata-apos-corrigir-falhas-de-seguranca/",
-      "published": "04/05/2026 12:00",
+      "summary": "A desenvolvedora Progress publicou ontem um aviso sobre uma vulnerabilidade crítica no MOVEit Automation, que permite que um atacante ignore a autenticação e obtenha acesso não autorizado ao sistema. A falha, registrada como CVE-2026-4670 (detalhes de gravidade CVSS não informados), pode levar, conforme o comunicado publicado pela Progress, a controle administrativo e vazamento de dados. Três anos atrás, uma vulnerabilidade em outra solução da empresa, o MOVEit Transfer, foi usada em ataques globais de ransomware.",
+      "link": "https://www.cisoadvisor.com.br/progress-alerta-para-falha-critica-no-moveit-automation/",
+      "published": "05/05/2026 12:00",
       "cves": [
-        "CVE-2026-42520"
+        "CVE-2026-4670"
       ],
       "vendor": null
     },
     {
-      "title": "Ransomware Qilin passa a explorar logs do Windows para mapear acessos RDP",
+      "title": "Zero day no Linux ameaça servidores, contêineres e ambientes de CI",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "identity",
-      "summary": "O grupo de ransomware Qilin, também conhecido como Agenda, foi observado usando uma nova tática de reconhecimento em servidores comprometidos para identificar alvos internos com mais rapidez e discrição. Em vez de recorrer a varreduras barulhentas na rede, os operadores passaram a consultar o histórico de autenticação RDP armazenado nos próprios logs do Windows. Segundo a análise, os invasores executaram um comando em PowerShell para extrair registros do Event ID 1149 no log Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational.",
-      "link": "https://boletimsec.com/ransomware-qilin-passa-a-explorar-logs-do-windows-para-mapear-acessos-rdp/",
-      "published": "04/05/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "3 dias Segurança Gamer se gaba de ter baixado GTA 6 antecipadamente, mas era um malware poderoso",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 30/04/2026 às 12:20 Grand Theft Auto 6 está com um hype maior do que nunca nos meses que antecedem seu lançamento, e a Rockstar sequer está fazendo uma grande campanha de marketing. A vontade de jogar o título é tão grande que usuários, volta e meia, baixam supostas versões antecipadas que terminam sendo trollagens ou, pior ainda, malwares. Um caso recente aconteceu com o usuário do reddit NotAGoat3 , que afirmou ter tido acesso a um download de GTA 6 . “‘Seus vazamentos são fake, você não tem um insider’.",
-      "link": "https://canaltech.com.br/seguranca/gamer-se-gaba-de-ter-baixado-gta-6-antecipadamente-mas-era-um-malware-poderoso/",
-      "published": "04/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cisco lança kit para rastrear origem de modelos de IA",
-      "source": "CISO Advisor",
-      "priority": "Média",
       "category": "patches",
-      "summary": "A Cisco anunciou ontem (1º de maio) uma nova ferramenta de código aberto para ajudar organizações a enfrentar riscos de segurança, conformidade e responsabilidade legal associados ao uso de modelos de IA de terceiros. O Model Provenance Kit , disponível no repositório oficial , gera uma “impressão digital” de cada modelo e pode operar em dois modos: comparação direta entre dois modelos ou varredura para encontrar a linhagem mais próxima em um banco de dados da Cisco. Segundo a Cisco, empresas frequentemente utilizam modelos obtidos de repositórios como o HuggingFace , mas não rastreiam as alterações feitas neles.",
-      "link": "https://www.cisoadvisor.com.br/cisco-lanca-kit-para-rastrear-origem-de-modelos-de-ia/",
-      "published": "04/05/2026 12:00",
-      "cves": [],
-      "vendor": "Cisco"
+      "summary": "A CISA incluiu uma vulnerabilidade zero day do kernel Linux em seu catálogo de falhas exploradas, após confirmar uso ativo da brecha em ataques. A falha é rastreada como CVE-2026-31431 e recebeu o apelido de “Copy Fail”. O problema tem pontuação CVSS 7.8, classificada como alta, e afeta o subsistema criptográfico AF_ALG do kernel. A falha está no módulo algif_aead, onde um erro lógico causa tratamento inadequado de memória durante operações locais. Na prática, a vulnerabilidade pode permitir que um usuário local sem privilégios eleve acesso até root.",
+      "link": "https://boletimsec.com/zero-day-no-linux-ameaca-servidores-conteineres-e-ambientes-de-ci/",
+      "published": "05/05/2026 12:00",
+      "cves": [
+        "CVE-2026-31431"
+      ],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Copy Fail: falha no kernel Linux concede acesso root",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Atacantes estão explorando uma vulnerabilidade recentemente divulgada no kernel do Linux, que concede acesso root a shells, conforme alertou a agência de cibersegurança dos EUA, CISA. Registrada como CVE-2026-31431 (CVSS ainda não informado) e apelidada de Copy Fail, a falha afeta o template authencesn AEAD do kernel. De acordo com a CISA, o defeito de segurança existia há quase uma década, impactando todas as distribuições Linux desde 2017. A vulnerabilidade permite que atacantes autenticados com privilégios de execução de código modifiquem a página de cache de binários setuid-root legíveis para elevar privilégios para root.",
+      "link": "https://www.cisoadvisor.com.br/copy-fail-falha-no-kernel-linux-concede-acesso-root/",
+      "published": "05/05/2026 12:00",
+      "cves": [
+        "CVE-2026-31431"
+      ],
+      "vendor": "Linux"
     }
   ]
 }
