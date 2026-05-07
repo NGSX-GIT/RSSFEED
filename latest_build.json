@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T12:00:00.081892-03:00",
+  "generated_at": "2026-05-07T12:00:00.026930-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
@@ -41,27 +41,25 @@
       "vendor": "Microsoft"
     },
     {
-      "title": "Salesforce corrige vulnerabilidades graves no Marketing Cloud",
-      "source": "BoletimSec Notícias",
+      "title": "Novo RAT para Linux rouba credenciais de desenvolvedores",
+      "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Um conjunto de vulnerabilidades no Salesforce Marketing Cloud poderia permitir o acesso indevido a dados privados de e-mails enviados por empresas que usam a plataforma. As falhas já foram corrigidas pela Salesforce. Os problemas estavam ligados a recursos internos de script usados para personalizar campanhas e a um mecanismo antigo de criptografia aplicado a links de visualização de mensagens. Em cenários mais graves, um invasor poderia ler conteúdos de e-mails enviados por organizações hospedadas na mesma infraestrutura.",
-      "link": "https://boletimsec.com/salesforce-corrige-vulnerabilidades-graves-no-marketing-cloud/",
+      "category": "identity",
+      "summary": "Pesquisadores da Trend Micro identificaram o Quasar Linux (QLNX), um trojan de acesso remoto (RAT) anteriormente não documentado, projetado para furtividade e roubo de credenciais em ambientes Linux. De acordo com o relatório publicado dia 4 de maio de 2026 pela equipe TrendAI™, o malware representa uma ameaça significativa à cadeia de suprimentos de software ao visar diretamente as credenciais de desenvolvedores e profissionais de DevOps. O principal alvo do QLNX são os arquivos que armazenam tokens e chaves de acesso a repositórios de código e infraestrutura em nuvem.",
+      "link": "https://www.cisoadvisor.com.br/novo-rat-para-linux-rouba-credenciais-de-desenvolvedores/",
       "published": "07/05/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Linux"
     },
     {
-      "title": "Falha no WhatsApp permite acionar URLs maliciosas por meio do Reels no Instagram",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Meta corrigiu uma vulnerabilidade de média severidade no WhatsApp que poderia permitir o uso da integração com Reels do Instagram para acionar URLs maliciosas em dispositivos das vítimas. A falha foi rastreada como CVE-2026-23866. O problema está relacionado à validação incompleta de mensagens ricas geradas por IA que exibem conteúdo de Reels dentro do WhatsApp. Em determinadas condições, o aplicativo poderia processar uma URL arbitrária controlada por um invasor. A falha afeta o WhatsApp para iOS nas versões 2.25.8.0 até 2.26.15.72 e o WhatsApp para Android nas versões 2.25.8.0 até 2.26.7.10. Versões posteriores já incluem a correção disponibilizada pela Meta.",
-      "link": "https://boletimsec.com/falha-no-whatsapp-permite-acionar-urls-maliciosas-por-meio-do-reels-no-instagram/",
+      "title": "Ataque com DAEMON Tools atinge o Brasil desde abril",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "cloud",
+      "summary": "Pesquisadores da Kaspersky descobriram um ataque de grande escala à cadeia de suprimentos (supply chain) através do software DAEMON Tools, utilizado para montagem e uso de imagens de disco. O relatório técnico publicado no site Securelist revela que os instaladores do programa, distribuídos pelo site legítimo do desenvolvedor, estão comprometidos desde 8 de abril de 2026. A empresa de segurança informou que os arquivos executáveis corrompidos possuem assinatura digital válida da AVB Disc Soft, desenvolvedora do DAEMON Tools. O ataque ainda está em curso no momento da divulgação do artigo. Informações da Internet indicam que a AVB Disc Soft tem sede na Rússia.",
+      "link": "https://www.cisoadvisor.com.br/ataque-com-daemon-tools-atinge-o-brasil-desde-abril/",
       "published": "07/05/2026 12:00",
-      "cves": [
-        "CVE-2026-23866"
-      ],
+      "cves": [],
       "vendor": null
     }
   ]
