@@ -1,70 +1,64 @@
 {
-  "generated_at": "2026-05-05T12:00:00.219387-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-05-07T10:11:58.989964-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Oracle agora lança patches de segurança mensalmente",
+      "title": "Novo RAT para Linux rouba credenciais de desenvolvedores",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A Oracle anunciou ontem, 4 de maio de 2026, que passará a publicar atualizações críticas de segurança mensalmente, impulsionada pela evolução das ferramentas de IA. A empresa, que tradicionalmente liberava correções a cada trimestre, justificou a mudança com base na nova geração de inteligência artificial, capaz de encontrar e corrigir vulnerabilidades em alta velocidade. O comunicado da Oracle afirma que “manter os sistemas atualizados é uma das principais formas de reduzir riscos”. A nova iniciativa, chamada Critical Security Patch Update (CSPU), tem início imediato neste mês de maio.",
-      "link": "https://www.cisoadvisor.com.br/oracle-agora-lanca-patches-de-seguranca-mensalmente/",
-      "published": "05/05/2026 12:00",
+      "category": "identity",
+      "summary": "Pesquisadores da Trend Micro identificaram o Quasar Linux (QLNX), um trojan de acesso remoto (RAT) anteriormente não documentado, projetado para furtividade e roubo de credenciais em ambientes Linux. De acordo com o relatório publicado dia 4 de maio de 2026 pela equipe TrendAI™, o malware representa uma ameaça significativa à cadeia de suprimentos de software ao visar diretamente as credenciais de desenvolvedores e profissionais de DevOps. O principal alvo do QLNX são os arquivos que armazenam tokens e chaves de acesso a repositórios de código e infraestrutura em nuvem.",
+      "link": "https://www.cisoadvisor.com.br/novo-rat-para-linux-rouba-credenciais-de-desenvolvedores/",
+      "published": "07/05/2026 10:12",
+      "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Ataque com DAEMON Tools atinge o Brasil desde abril",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "cloud",
+      "summary": "Pesquisadores da Kaspersky descobriram um ataque de grande escala à cadeia de suprimentos (supply chain) através do software DAEMON Tools, utilizado para montagem e uso de imagens de disco. O relatório técnico publicado no site Securelist revela que os instaladores do programa, distribuídos pelo site legítimo do desenvolvedor, estão comprometidos desde 8 de abril de 2026. A empresa de segurança informou que os arquivos executáveis corrompidos possuem assinatura digital válida da AVB Disc Soft, desenvolvedora do DAEMON Tools. O ataque ainda está em curso no momento da divulgação do artigo. Informações da Internet indicam que a AVB Disc Soft tem sede na Rússia.",
+      "link": "https://www.cisoadvisor.com.br/ataque-com-daemon-tools-atinge-o-brasil-desde-abril/",
+      "published": "07/05/2026 10:12",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "cPanel & WHM sob ataque com ransomware e Mirai",
+      "title": "88% das grandes empresas enfrentam desafios de segurança com IA",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica (bypass de autenticação) no cPanel e no WHM, registrada com o CVE-2026-41940 (CVSS de 9,8), está sendo explorada em massa para distribuir ransomware e variantes do malware Mirai. O alerta foi publicado em 29 de abril pela cPanel, com análises da watchTowr Labs e da Rapid7. Uma consulta simples no Shodan retorna aproximadamente 1,5 milhão de instâncias cPanel expostas à internet que podem estar vulneráveis. A fundação Shadowserver reportou em 1º de maio que pelo menos 44 mil endereços IP foram comprometidos. Um post no Bluesky da organização detalha que os ataques em larga escala começaram em 30 de abril.",
-      "link": "https://www.cisoadvisor.com.br/cpanel-whm-sob-ataque-com-ransomware-e-mirai/",
-      "published": "05/05/2026 12:00",
-      "cves": [
-        "CVE-2026-41940"
-      ],
+      "category": "identity",
+      "summary": "A inteligência artificial deixou de ser experimental e tornou-se uma carga de trabalho de produção crítica, mas 88% das organizações globais enfrentam desafios de segurança relacionados à IA. Os dados constam do relatório “State of Application Strategy 2026”, publicado ontem pela empresa de segurança F5. O estudo ouviu 1.100 líderes de TI e cibersegurança de organizações que faturaram entre 6 e 10 bilhões de dólares em 2025. A pesquisa revela que 78% das empresas executam inferência de IA por conta própria, e 98% estão se preparando para a era da IA agêntica — sistemas autônomos que, segundo o relatório, precisarão de identidades, permissões e proteções assim como usuários humanos.",
+      "link": "https://www.cisoadvisor.com.br/88-das-grandes-empresas-enfrentam-desafios-de-seguranca-com-ia/",
+      "published": "07/05/2026 10:12",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Progress alerta para falha crítica no MOVEit Automation",
+      "title": "Cisco: falha de DoS exige reinicialização manual do sistema",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A desenvolvedora Progress publicou ontem um aviso sobre uma vulnerabilidade crítica no MOVEit Automation, que permite que um atacante ignore a autenticação e obtenha acesso não autorizado ao sistema. A falha, registrada como CVE-2026-4670 (detalhes de gravidade CVSS não informados), pode levar, conforme o comunicado publicado pela Progress, a controle administrativo e vazamento de dados. Três anos atrás, uma vulnerabilidade em outra solução da empresa, o MOVEit Transfer, foi usada em ataques globais de ransomware.",
-      "link": "https://www.cisoadvisor.com.br/progress-alerta-para-falha-critica-no-moveit-automation/",
-      "published": "05/05/2026 12:00",
+      "summary": "A Cisco publicou hoje atualizações de segurança para corrigir uma vulnerabilidade de negação de serviço (DoS) que afeta os sistemas Crosswork Network Controller (CNC) e Network Services Orchestrator (NSO). De acordo com o aviso da empresa, a falha permite que atacantes não autenticados explorem remotamente o problema, causando a queda dos sistemas, que só voltam a operar após uma reinicialização manual. A vulnerabilidade, registrada como CVE-2026-20188 (CVSS de alta gravidade), tem origem na limitação insuficiente de taxa em conexões de rede recebidas.",
+      "link": "https://www.cisoadvisor.com.br/cisco-falha-de-dos-exige-reinicializacao-manual-do-sistema/",
+      "published": "07/05/2026 10:12",
       "cves": [
-        "CVE-2026-4670"
+        "CVE-2026-20188"
       ],
-      "vendor": null
+      "vendor": "Cisco"
     },
     {
-      "title": "Zero day no Linux ameaça servidores, contêineres e ambientes de CI",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA incluiu uma vulnerabilidade zero day do kernel Linux em seu catálogo de falhas exploradas, após confirmar uso ativo da brecha em ataques. A falha é rastreada como CVE-2026-31431 e recebeu o apelido de “Copy Fail”. O problema tem pontuação CVSS 7.8, classificada como alta, e afeta o subsistema criptográfico AF_ALG do kernel. A falha está no módulo algif_aead, onde um erro lógico causa tratamento inadequado de memória durante operações locais. Na prática, a vulnerabilidade pode permitir que um usuário local sem privilégios eleve acesso até root.",
-      "link": "https://boletimsec.com/zero-day-no-linux-ameaca-servidores-conteineres-e-ambientes-de-ci/",
-      "published": "05/05/2026 12:00",
-      "cves": [
-        "CVE-2026-31431"
-      ],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Copy Fail: falha no kernel Linux concede acesso root",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Atacantes estão explorando uma vulnerabilidade recentemente divulgada no kernel do Linux, que concede acesso root a shells, conforme alertou a agência de cibersegurança dos EUA, CISA. Registrada como CVE-2026-31431 (CVSS ainda não informado) e apelidada de Copy Fail, a falha afeta o template authencesn AEAD do kernel. De acordo com a CISA, o defeito de segurança existia há quase uma década, impactando todas as distribuições Linux desde 2017. A vulnerabilidade permite que atacantes autenticados com privilégios de execução de código modifiquem a página de cache de binários setuid-root legíveis para elevar privilégios para root.",
-      "link": "https://www.cisoadvisor.com.br/copy-fail-falha-no-kernel-linux-concede-acesso-root/",
-      "published": "05/05/2026 12:00",
-      "cves": [
-        "CVE-2026-31431"
-      ],
-      "vendor": "Linux"
+      "title": "22 horas Segurança Grupo hacker ScarCruft invade plataforma de jogos e infecta Android e Windows",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 06/05/2026 às 11:35 Os hackers norte-coreanos do grupo ScarCruft conseguiram invadir e comprometer uma plataforma de jogos através de um ataque de cadeia de suprimentos, usando a backdoor BirdCall para transformar os games em trojans. O alvo principal foram coreanos residentes na China , mas qualquer jogador que tenha os games baixados pode ter sido infectado. Anteriormente, o malware em questão só afetava usuários Windows , mas agora também afeta dispositivos Android , segundo pesquisa da empresa de cibersegurança ESET .",
+      "link": "https://canaltech.com.br/seguranca/grupo-hacker-scarcruft-invade-plataforma-de-jogos-e-infecta-android-e-windows/",
+      "published": "07/05/2026 10:12",
+      "cves": [],
+      "vendor": "Windows"
     }
   ]
 }
