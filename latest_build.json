@@ -1,64 +1,68 @@
 {
-  "generated_at": "2026-05-07T10:11:58.989964-03:00",
+  "generated_at": "2026-05-07T12:00:00.081892-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Novo RAT para Linux rouba credenciais de desenvolvedores",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "Pesquisadores da Trend Micro identificaram o Quasar Linux (QLNX), um trojan de acesso remoto (RAT) anteriormente não documentado, projetado para furtividade e roubo de credenciais em ambientes Linux. De acordo com o relatório publicado dia 4 de maio de 2026 pela equipe TrendAI™, o malware representa uma ameaça significativa à cadeia de suprimentos de software ao visar diretamente as credenciais de desenvolvedores e profissionais de DevOps. O principal alvo do QLNX são os arquivos que armazenam tokens e chaves de acesso a repositórios de código e infraestrutura em nuvem.",
-      "link": "https://www.cisoadvisor.com.br/novo-rat-para-linux-rouba-credenciais-de-desenvolvedores/",
-      "published": "07/05/2026 10:12",
-      "cves": [],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Ataque com DAEMON Tools atinge o Brasil desde abril",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "Pesquisadores da Kaspersky descobriram um ataque de grande escala à cadeia de suprimentos (supply chain) através do software DAEMON Tools, utilizado para montagem e uso de imagens de disco. O relatório técnico publicado no site Securelist revela que os instaladores do programa, distribuídos pelo site legítimo do desenvolvedor, estão comprometidos desde 8 de abril de 2026. A empresa de segurança informou que os arquivos executáveis corrompidos possuem assinatura digital válida da AVB Disc Soft, desenvolvedora do DAEMON Tools. O ataque ainda está em curso no momento da divulgação do artigo. Informações da Internet indicam que a AVB Disc Soft tem sede na Rússia.",
-      "link": "https://www.cisoadvisor.com.br/ataque-com-daemon-tools-atinge-o-brasil-desde-abril/",
-      "published": "07/05/2026 10:12",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "88% das grandes empresas enfrentam desafios de segurança com IA",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "A inteligência artificial deixou de ser experimental e tornou-se uma carga de trabalho de produção crítica, mas 88% das organizações globais enfrentam desafios de segurança relacionados à IA. Os dados constam do relatório “State of Application Strategy 2026”, publicado ontem pela empresa de segurança F5. O estudo ouviu 1.100 líderes de TI e cibersegurança de organizações que faturaram entre 6 e 10 bilhões de dólares em 2025. A pesquisa revela que 78% das empresas executam inferência de IA por conta própria, e 98% estão se preparando para a era da IA agêntica — sistemas autônomos que, segundo o relatório, precisarão de identidades, permissões e proteções assim como usuários humanos.",
-      "link": "https://www.cisoadvisor.com.br/88-das-grandes-empresas-enfrentam-desafios-de-seguranca-com-ia/",
-      "published": "07/05/2026 10:12",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cisco: falha de DoS exige reinicialização manual do sistema",
-      "source": "CISO Advisor",
+      "title": "* Falhas críticas em chipsets Qualcomm permitem execução remota de código.",
+      "source": "BoletimSec Diário",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Cisco publicou hoje atualizações de segurança para corrigir uma vulnerabilidade de negação de serviço (DoS) que afeta os sistemas Crosswork Network Controller (CNC) e Network Services Orchestrator (NSO). De acordo com o aviso da empresa, a falha permite que atacantes não autenticados explorem remotamente o problema, causando a queda dos sistemas, que só voltam a operar após uma reinicialização manual. A vulnerabilidade, registrada como CVE-2026-20188 (CVSS de alta gravidade), tem origem na limitação insuficiente de taxa em conexões de rede recebidas.",
-      "link": "https://www.cisoadvisor.com.br/cisco-falha-de-dos-exige-reinicializacao-manual-do-sistema/",
-      "published": "07/05/2026 10:12",
+      "summary": "* Falhas críticas em chipsets Qualcomm permitem execução remota de código. A Qualcomm divulgou correções para um conjunto de vulnerabilidades em softwares proprietários e de código aberto usados em chipsets da empresa, incluindo falhas críticas que podem permitir execução remota de código. A atualização é relevante porque componentes da Qualcomm estão presentes em celulares, modems, roteadores, sistemas automotivos e dispositivos corporativos. O alcance potencial envolve desde plataformas Snapdragon recentes até produtos de conectividade e infraestrutura embarcada. A falha mais grave é a CVE-2026-25254, com pontuação CVSS 9.8.",
+      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
+      "published": "07/05/2026 12:00",
       "cves": [
-        "CVE-2026-20188"
+        "CVE-2026-25254"
       ],
-      "vendor": "Cisco"
+      "vendor": null
     },
     {
-      "title": "22 horas Segurança Grupo hacker ScarCruft invade plataforma de jogos e infecta Android e Windows",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 06/05/2026 às 11:35 Os hackers norte-coreanos do grupo ScarCruft conseguiram invadir e comprometer uma plataforma de jogos através de um ataque de cadeia de suprimentos, usando a backdoor BirdCall para transformar os games em trojans. O alvo principal foram coreanos residentes na China , mas qualquer jogador que tenha os games baixados pode ter sido infectado. Anteriormente, o malware em questão só afetava usuários Windows , mas agora também afeta dispositivos Android , segundo pesquisa da empresa de cibersegurança ESET .",
-      "link": "https://canaltech.com.br/seguranca/grupo-hacker-scarcruft-invade-plataforma-de-jogos-e-infecta-android-e-windows/",
-      "published": "07/05/2026 10:12",
+      "title": "Falha crítica no Apache permite DoS e possível execução de código",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Apache Software Foundation lançou uma atualização de segurança para corrigir uma falha crítica no Apache HTTP Server que afeta o processamento de conexões HTTP/2 e pode causar negação de serviço ou, em cenários específicos, execução remota de código. A vulnerabilidade é rastreada como CVE-2026-23918 e recebeu pontuação CVSS 8.8. O problema afeta o Apache HTTP Server 2.4.66 e foi corrigido na versão 2.4.67. A falha está no módulo mod_http2, mais especificamente no tratamento de limpeza de streams em h2_mplx.c. Na prática, a exploração para negação de serviço é considerada simples em implantações padrão com mod_http2 e MPM multithread.",
+      "link": "https://boletimsec.com/falha-critica-no-apache-permite-dos-e-possivel-execucao-de-codigo/",
+      "published": "07/05/2026 12:00",
+      "cves": [
+        "CVE-2026-23918"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos usam Microsoft Teams para roubar credenciais e manipular MFA",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um grupo de hackers ligado ao Irã usou o Microsoft Teams como porta de entrada para roubar credenciais, manipular configurações de autenticação multifator e manter acesso persistente em redes corporativas. A campanha foi associada ao MuddyWater, também rastreado como Mango Sandstorm, Seedworm e Static Kitten. O grupo é conhecido por operações de espionagem e, neste caso, teria usado sinais de ransomware como disfarce para encobrir uma ação voltada à coleta de dados e permanência no ambiente. A invasão começava com pedidos de conversa externos enviados a funcionários pelo Microsoft Teams.",
+      "link": "https://boletimsec.com/cibercriminosos-usam-microsoft-teams-para-roubar-credenciais-e-manipular-mfa/",
+      "published": "07/05/2026 12:00",
       "cves": [],
-      "vendor": "Windows"
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Salesforce corrige vulnerabilidades graves no Marketing Cloud",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um conjunto de vulnerabilidades no Salesforce Marketing Cloud poderia permitir o acesso indevido a dados privados de e-mails enviados por empresas que usam a plataforma. As falhas já foram corrigidas pela Salesforce. Os problemas estavam ligados a recursos internos de script usados para personalizar campanhas e a um mecanismo antigo de criptografia aplicado a links de visualização de mensagens. Em cenários mais graves, um invasor poderia ler conteúdos de e-mails enviados por organizações hospedadas na mesma infraestrutura.",
+      "link": "https://boletimsec.com/salesforce-corrige-vulnerabilidades-graves-no-marketing-cloud/",
+      "published": "07/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falha no WhatsApp permite acionar URLs maliciosas por meio do Reels no Instagram",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Meta corrigiu uma vulnerabilidade de média severidade no WhatsApp que poderia permitir o uso da integração com Reels do Instagram para acionar URLs maliciosas em dispositivos das vítimas. A falha foi rastreada como CVE-2026-23866. O problema está relacionado à validação incompleta de mensagens ricas geradas por IA que exibem conteúdo de Reels dentro do WhatsApp. Em determinadas condições, o aplicativo poderia processar uma URL arbitrária controlada por um invasor. A falha afeta o WhatsApp para iOS nas versões 2.25.8.0 até 2.26.15.72 e o WhatsApp para Android nas versões 2.25.8.0 até 2.26.7.10. Versões posteriores já incluem a correção disponibilizada pela Meta.",
+      "link": "https://boletimsec.com/falha-no-whatsapp-permite-acionar-urls-maliciosas-por-meio-do-reels-no-instagram/",
+      "published": "07/05/2026 12:00",
+      "cves": [
+        "CVE-2026-23866"
+      ],
+      "vendor": null
     }
   ]
 }
