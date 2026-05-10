@@ -1,64 +1,62 @@
 {
-  "generated_at": "2026-05-09T12:00:00.015813-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-05-10T12:00:00.044406-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "3 dias Segurança Grupo hacker ScarCruft invade plataforma de jogos e infecta Android e Windows",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 06/05/2026 às 11:35 Os hackers norte-coreanos do grupo ScarCruft conseguiram invadir e comprometer uma plataforma de jogos através de um ataque de cadeia de suprimentos, usando a backdoor BirdCall para transformar os games em trojans. O alvo principal foram coreanos residentes na China , mas qualquer jogador que tenha os games baixados pode ter sido infectado. Anteriormente, o malware em questão só afetava usuários Windows , mas agora também afeta dispositivos Android , segundo pesquisa da empresa de cibersegurança ESET .",
-      "link": "https://canaltech.com.br/seguranca/grupo-hacker-scarcruft-invade-plataforma-de-jogos-e-infecta-android-e-windows/",
-      "published": "09/05/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "Relato mostra como hackers exploraram firewalls durante anos",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Entre 2018 e 2020, a empresa de segurança Sophos foi alvo de um ataque persistente e sofisticado que começou com a invasão de uma de suas subsidiárias na Índia, a Cyberoam, e culminou na exploração em massa de uma vulnerabilidade zero-day em seus firewalls XG, afetando aproximadamente 81 mil equipamentos em todo o mundo. A história completa está no episódio 174 do podcast Darknet Diaries , intitulado “Pacific Rim”, publicado dia 5 de maio. Uma linha do tempo detalhada publicada pela Sophos em outubro de 2024 documenta cinco anos de investigação sobre os grupos chineses responsáveis.",
-      "link": "https://www.cisoadvisor.com.br/relato-mostra-como-hackers-exploraram-firewalls-durante-anos/",
-      "published": "09/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Salesforce corrige vulnerabilidades graves no Marketing Cloud",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Um conjunto de vulnerabilidades no Salesforce Marketing Cloud poderia permitir o acesso indevido a dados privados de e-mails enviados por empresas que usam a plataforma. As falhas já foram corrigidas pela Salesforce. Os problemas estavam ligados a recursos internos de script usados para personalizar campanhas e a um mecanismo antigo de criptografia aplicado a links de visualização de mensagens. Em cenários mais graves, um invasor poderia ler conteúdos de e-mails enviados por organizações hospedadas na mesma infraestrutura.",
-      "link": "https://boletimsec.com/salesforce-corrige-vulnerabilidades-graves-no-marketing-cloud/",
-      "published": "09/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cisco: falha de DoS exige reinicialização manual do sistema",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco publicou hoje atualizações de segurança para corrigir uma vulnerabilidade de negação de serviço (DoS) que afeta os sistemas Crosswork Network Controller (CNC) e Network Services Orchestrator (NSO). De acordo com o aviso da empresa, a falha permite que atacantes não autenticados explorem remotamente o problema, causando a queda dos sistemas, que só voltam a operar após uma reinicialização manual. A vulnerabilidade, registrada como CVE-2026-20188 (CVSS de alta gravidade), tem origem na limitação insuficiente de taxa em conexões de rede recebidas.",
-      "link": "https://www.cisoadvisor.com.br/cisco-falha-de-dos-exige-reinicializacao-manual-do-sistema/",
-      "published": "09/05/2026 12:00",
-      "cves": [
-        "CVE-2026-20188"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "1 dia Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
+      "title": "2 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
       "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
-      "published": "09/05/2026 12:00",
+      "published": "10/05/2026 12:00",
       "cves": [],
       "vendor": "Check Point"
+    },
+    {
+      "title": "4 dias Segurança Grupo hacker ScarCruft invade plataforma de jogos e infecta Android e Windows",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 06/05/2026 às 11:35 Os hackers norte-coreanos do grupo ScarCruft conseguiram invadir e comprometer uma plataforma de jogos através de um ataque de cadeia de suprimentos, usando a backdoor BirdCall para transformar os games em trojans. O alvo principal foram coreanos residentes na China , mas qualquer jogador que tenha os games baixados pode ter sido infectado. Anteriormente, o malware em questão só afetava usuários Windows , mas agora também afeta dispositivos Android , segundo pesquisa da empresa de cibersegurança ESET .",
+      "link": "https://canaltech.com.br/seguranca/grupo-hacker-scarcruft-invade-plataforma-de-jogos-e-infecta-android-e-windows/",
+      "published": "10/05/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "WatchGuard lança correção urgente para falhas de alta severidade",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A WatchGuard lançou atualizações de segurança para corrigir múltiplas vulnerabilidades de alta severidade no WatchGuard Agent para Windows, incluindo falhas que permitem a um invasor local elevar privilégios até o nível SYSTEM. O risco é relevante porque o agente é usado em endpoints corporativos para funções de gerenciamento, monitoramento e segurança. Caso explorada, a falha pode transformar uma conta local com poucos privilégios em controle total sobre a máquina afetada.",
+      "link": "https://boletimsec.com/watchguard-lanca-correcao-urgente-para-falhas-de-alta-severidade/",
+      "published": "10/05/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "5 dias Segurança OpenAI anuncia novas medidas de cibersegurança para o ChatGPT",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 05/05/2026 às 09:15 Na última quinta-feira (30), a OpenAI lançou a Segurança Avançada de Conta (AAS, da sigla em inglês Advanced Account Security), uma série de proteções opcionais para usuários do ChatGPT. Apesar de terem sido desenhadas para indivíduos de alto risco, elas estão disponíveis para qualquer um que desejar usá-las. A medida foi construída em parceria com a companhia de segurança digital Yubico , que produziu dois novos tipos de chave de segurança para contas no ChatGPT. Segundo a empresa, a parceria mira em defender os usuários principalmente de iniciativas de phishing , considerada uma ameaça crescente nos chatbots.",
+      "link": "https://canaltech.com.br/seguranca/openai-anuncia-novas-medidas-de-ciberseguranca-para-o-chatgpt/",
+      "published": "10/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "3 dias Segurança O perigo da biometria que quase ninguém percebe",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Reconhecimento facial, leitura de digital e até escaneamento da íris já fazem parte da rotina de milhões de brasileiros. O que pouca gente percebe é que essas informações estão entre os dados mais sensíveis que existem e, diferente de uma senha comum, não podem ser alteradas caso vazem. Com o avanço da inteligência artificial e dos deepfakes, especialistas em segurança digital alertam que o uso indiscriminado da biometria pode abrir espaço para novos tipos de golpes, fraudes financeiras e roubo de identidade.",
+      "link": "https://canaltech.com.br/seguranca/o-perigo-da-biometria-que-quase-ninguem-percebe/",
+      "published": "10/05/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
