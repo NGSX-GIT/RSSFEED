@@ -1,60 +1,68 @@
 {
-  "generated_at": "2026-05-10T12:00:00.044406-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-05-11T12:00:00.023246-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "2 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
+      "title": "Novas falha críticas (duas com CVSS 8.8) corrigidas no cPanel",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A cPanel publicou, na última sexta-feira, dia 8 de maio, o segundo pacote emergencial de correções em menos de duas semanas, após um ataque de ransomware que comprometeu aproximadamente 44 mil servidores que utilizavam o software de gerenciamento de hospedagem. As informações constam de um post do brasileiro Gustavo Gallas, diretor da empresa de hospedagem Copahost, baseada em Portugal. O novo conjunto de patches aborda três vulnerabilidades (CVE-2026-29201, CVE-2026-29202 e CVE-2026-29203), sendo que duas delas têm classificação de gravidade Alta com escore CVSS de 8,8.",
+      "link": "https://www.cisoadvisor.com.br/novas-falha-criticas-duas-com-cvss-8-8-corrigidas-no-cpanel/",
+      "published": "11/05/2026 12:00",
+      "cves": [
+        "CVE-2026-29201",
+        "CVE-2026-29202",
+        "CVE-2026-29203"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Microsoft corrige vulnerabilidades críticas no Copilot",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft corrigiu três vulnerabilidades críticas que afetavam o Microsoft 365 Copilot e o Copilot Chat integrado ao Microsoft Edge, com risco de exposição de informações sensíveis em ambientes corporativos. As falhas foram divulgadas em 7 de maio de 2026 e são rastreadas como CVE-2026-26129, CVE-2026-26164 e CVE-2026-33111. Todas foram classificadas como problemas de divulgação de informações e já foram mitigadas pela Microsoft no lado do serviço. A CVE-2026-26129 afeta o Business Chat do Microsoft 365 Copilot. O problema envolve neutralização inadequada de elementos especiais em saídas processadas por componentes posteriores, o que poderia permitir vazamento de dados pela rede.",
+      "link": "https://boletimsec.com/microsoft-corrige-vulnerabilidades-criticas-no-copilot/",
+      "published": "11/05/2026 12:00",
+      "cves": [
+        "CVE-2026-26129",
+        "CVE-2026-26164",
+        "CVE-2026-33111"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Empresas escondem 89% dos ataques de ransomware",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "breach",
+      "summary": "Organizações em todo o mundo mantêm em segredo a grande maioria dos ataques de ransomware sofridos, com o número de incidentes não divulgados sendo quase dez vezes maior do que os reportados publicamente. Os dados constam do relatório “State of Ransomware Q1 2026”, publicado no fim de abril pela empresa de segurança BlackFog. O documento revela que, no primeiro trimestre de 2026, foram identificados 2.160 ataques não divulgados em sites de vazamento na dark web, contra apenas 264 ocorrências expostas publicamente. Ou seja: da soma total, apenas um em cada nove incidentes vem a público.",
+      "link": "https://www.cisoadvisor.com.br/empresas-escondem-89-dos-ataques-de-ransomware/",
+      "published": "11/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "3 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
       "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
-      "published": "10/05/2026 12:00",
+      "published": "11/05/2026 12:00",
       "cves": [],
       "vendor": "Check Point"
     },
     {
-      "title": "4 dias Segurança Grupo hacker ScarCruft invade plataforma de jogos e infecta Android e Windows",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 06/05/2026 às 11:35 Os hackers norte-coreanos do grupo ScarCruft conseguiram invadir e comprometer uma plataforma de jogos através de um ataque de cadeia de suprimentos, usando a backdoor BirdCall para transformar os games em trojans. O alvo principal foram coreanos residentes na China , mas qualquer jogador que tenha os games baixados pode ter sido infectado. Anteriormente, o malware em questão só afetava usuários Windows , mas agora também afeta dispositivos Android , segundo pesquisa da empresa de cibersegurança ESET .",
-      "link": "https://canaltech.com.br/seguranca/grupo-hacker-scarcruft-invade-plataforma-de-jogos-e-infecta-android-e-windows/",
-      "published": "10/05/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "WatchGuard lança correção urgente para falhas de alta severidade",
+      "title": "Provedor autorizado da Nvidia confirma exposição de dados pessoais",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "A WatchGuard lançou atualizações de segurança para corrigir múltiplas vulnerabilidades de alta severidade no WatchGuard Agent para Windows, incluindo falhas que permitem a um invasor local elevar privilégios até o nível SYSTEM. O risco é relevante porque o agente é usado em endpoints corporativos para funções de gerenciamento, monitoramento e segurança. Caso explorada, a falha pode transformar uma conta local com poucos privilégios em controle total sobre a máquina afetada.",
-      "link": "https://boletimsec.com/watchguard-lanca-correcao-urgente-para-falhas-de-alta-severidade/",
-      "published": "10/05/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "5 dias Segurança OpenAI anuncia novas medidas de cibersegurança para o ChatGPT",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 05/05/2026 às 09:15 Na última quinta-feira (30), a OpenAI lançou a Segurança Avançada de Conta (AAS, da sigla em inglês Advanced Account Security), uma série de proteções opcionais para usuários do ChatGPT. Apesar de terem sido desenhadas para indivíduos de alto risco, elas estão disponíveis para qualquer um que desejar usá-las. A medida foi construída em parceria com a companhia de segurança digital Yubico , que produziu dois novos tipos de chave de segurança para contas no ChatGPT. Segundo a empresa, a parceria mira em defender os usuários principalmente de iniciativas de phishing , considerada uma ameaça crescente nos chatbots.",
-      "link": "https://canaltech.com.br/seguranca/openai-anuncia-novas-medidas-de-ciberseguranca-para-o-chatgpt/",
-      "published": "10/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "3 dias Segurança O perigo da biometria que quase ninguém percebe",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Reconhecimento facial, leitura de digital e até escaneamento da íris já fazem parte da rotina de milhões de brasileiros. O que pouca gente percebe é que essas informações estão entre os dados mais sensíveis que existem e, diferente de uma senha comum, não podem ser alteradas caso vazem. Com o avanço da inteligência artificial e dos deepfakes, especialistas em segurança digital alertam que o uso indiscriminado da biometria pode abrir espaço para novos tipos de golpes, fraudes financeiras e roubo de identidade.",
-      "link": "https://canaltech.com.br/seguranca/o-perigo-da-biometria-que-quase-ninguem-percebe/",
-      "published": "10/05/2026 12:00",
+      "summary": "Um incidente de segurança em um provedor autorizado do NVIDIA GeForce NOW expôs dados pessoais de usuários cadastrados na plataforma de jogos em nuvem. O caso envolve a GFN.AM, operada pela “GFN CLOUD INTERNET SERVICES” LLC, e não indica comprometimento direto dos sistemas centrais da Nvidia. A empresa divulgou o incidente em 5 de maio de 2026, após identificar acesso não autorizado ao seu banco de dados em 2 de maio. A investigação aponta que a invasão pode ter começado em 9 de março, criando uma janela de aproximadamente 54 dias de exposição.",
+      "link": "https://boletimsec.com/provedor-autorizado-da-nvidia-confirma-exposicao-de-dados-pessoais/",
+      "published": "11/05/2026 12:00",
       "cves": [],
       "vendor": null
     }
