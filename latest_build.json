@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T12:00:00.087573-03:00",
+  "generated_at": "2026-05-12T12:00:00.128510-03:00",
   "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
@@ -26,6 +26,28 @@
       "vendor": null
     },
     {
+      "title": "GhostLock bloqueia arquivos via SMB e simula impacto de ransomware",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma nova técnica chamada GhostLock demonstra como invasores podem paralisar compartilhamentos de arquivos do Windows sem criptografar dados, simulando o impacto operacional de um ataque de ransomware. O método explora comportamentos legítimos do SMB e do sistema operacional, sem depender de uma falha com CVE. A técnica foi descrita por Kim Dvash, e mostra que um usuário comum de domínio, com acesso de leitura a arquivos compartilhados, pode bloquear o uso de grandes volumes de dados corporativos. O GhostLock usa a API CreateFileW com o parâmetro dwShareMode definido como zero.",
+      "link": "https://boletimsec.com/ghostlock-bloqueia-arquivos-via-smb-e-simula-impacto-de-ransomware/",
+      "published": "12/05/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "4 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
+      "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
+      "published": "12/05/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
+    },
+    {
       "title": "SailPoint sofre invasão em repositórios GitHub",
       "source": "CISO Advisor",
       "priority": "Média",
@@ -35,28 +57,6 @@
       "published": "12/05/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "Setor de energia é alvo em 30% de alertas",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O setor de energia elétrica tem representado a maior parcela dos incidentes registrados em operações de ICS-SOC, respondendo por mais de 30% do total de alertas monitorados pela TI Safe, empresa brasileira especializada em cibersegurança de sistemas críticos. A posição de destaque reflete a alta criticidade desse segmento, sua forte conectividade com outras cadeias essenciais e o potencial impacto econômico e social causado por interrupções. Em ambientes monitorados por plataformas de inteligência artificial como a Safer, desenvolvida pela própria TI Safe, o volume de tentativas de ataque costuma alcançar milhões de eventos por trimestre.",
-      "link": "https://www.cisoadvisor.com.br/setor-de-energia-e-alvo-em-30-de-alertas/",
-      "published": "12/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "32 min Segurança Pela 1ª vez, Google detecta e bloqueia ataque de dia zero feito com IA",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O Google Threat Intelligence Group (GTIG) identificou e interrompeu, pela primeira vez , um ataque de dia zero desenvolvido com auxílio de inteligência artificial. O grupo de cibercriminosos responsável,descrito como \"proeminente\", mas não identificado pela empresa, planejava usar a brecha em uma campanha de exploração em massa. O relatório foi divulgado na segunda-feira (11). O código malicioso estava embutido em um script Python e permitiria contornar a autenticação de dois fatores de uma ferramenta popular de administração de sistemas, identificada apenas como open-source e baseada na web. Para funcionar, os invasores ainda precisariam de credenciais válidas de acesso à plataforma.",
-      "link": "https://canaltech.com.br/seguranca/pela-1a-vez-google-detecta-e-bloqueia-ataque-de-dia-zero-feito-com-ia/",
-      "published": "12/05/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
     }
   ]
 }
