@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-05-12T09:33:15.673457-03:00",
+  "generated_at": "2026-05-12T12:00:00.087573-03:00",
   "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "GhostLock bloqueia arquivos via SMB e simula impacto de ransomware",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Uma nova técnica chamada GhostLock demonstra como invasores podem paralisar compartilhamentos de arquivos do Windows sem criptografar dados, simulando o impacto operacional de um ataque de ransomware. O método explora comportamentos legítimos do SMB e do sistema operacional, sem depender de uma falha com CVE. A técnica foi descrita por Kim Dvash, e mostra que um usuário comum de domínio, com acesso de leitura a arquivos compartilhados, pode bloquear o uso de grandes volumes de dados corporativos. O GhostLock usa a API CreateFileW com o parâmetro dwShareMode definido como zero.",
-      "link": "https://boletimsec.com/ghostlock-bloqueia-arquivos-via-smb-e-simula-impacto-de-ransomware/",
-      "published": "12/05/2026 09:33",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "4 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
-      "source": "Canaltech Segurança",
+      "title": "Google acha o primeiro exploit para zero-day criado com IA",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
-      "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
-      "published": "12/05/2026 09:33",
+      "summary": "O Google Threat Intelligence Group (GTIG) publicou ontem um relatório documentando, pela primeira vez, um ator de ameaças usando um exploit contra um zero-day desenvolvido com inteligência artificial. O cibercriminoso, segundo relatório do GTIG, planejava usá-la em um evento de exploração em massa, mas a descoberta proativa da equipe pode ter evitado sua utilização. A falha identificada permite bypass da autenticação de dois fatores (2FA) em uma popular ferramenta de administração de sistemas open-source.",
+      "link": "https://www.cisoadvisor.com.br/google-acha-o-primeiro-exploit-para-zero-day-criado-com-ia/",
+      "published": "12/05/2026 12:00",
       "cves": [],
-      "vendor": "Check Point"
+      "vendor": "Google"
     },
     {
-      "title": "05.05.26 Segurança OpenAI anuncia novas medidas de cibersegurança para o ChatGPT",
+      "title": "Empresa de águas multada em € 1.1M por vazamento de dados",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "breach",
+      "summary": "Uma empresa britânica de água potável foi multada em 1,1 milhão de euros devido a uma violação de dados iniciada por um e-mail de phishing que levou a um ataque de ransomware. A penalidade foi aplicada pelo regulador britânico de privacidade ICO, conforme divulgado ontem (11 de maio de 2026). O ataque, reivindicado pelo grupo Cl0p, resultou na captura e publicação na internet de mais de quatro terabytes de dados, incluindo informações pessoais de aproximadamente 634 mil pessoas, como nomes, endereços, e-mails, datas de nascimento, gênero, números de conta e telefones.",
+      "link": "https://www.cisoadvisor.com.br/phishing-em-empresa-de-agua-gera-multa-de-e11-mi/",
+      "published": "12/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "SailPoint sofre invasão em repositórios GitHub",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O provedor de governança e gerenciamento de identidades SailPoint detectou, em 20 de abril de 2026, um acesso não autorizado a um subconjunto de seus repositórios GitHub. Em comunicado enviado ontem à Comissão de Valores Mobiliários dos EUA (SEC), a empresa afirmou que sua equipe de resposta a incidentes rapidamente encerrou a atividade não autorizada e resolveu o problema. De acordo com o comunicado da SailPoint à SEC, os repositórios foram comprometidos por meio de uma vulnerabilidade em uma aplicação de terceiros, cuja causa subjacente já foi corrigida.",
+      "link": "https://www.cisoadvisor.com.br/sailpoint-sofre-invasao-em-repositorios-github/",
+      "published": "12/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Setor de energia é alvo em 30% de alertas",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O setor de energia elétrica tem representado a maior parcela dos incidentes registrados em operações de ICS-SOC, respondendo por mais de 30% do total de alertas monitorados pela TI Safe, empresa brasileira especializada em cibersegurança de sistemas críticos. A posição de destaque reflete a alta criticidade desse segmento, sua forte conectividade com outras cadeias essenciais e o potencial impacto econômico e social causado por interrupções. Em ambientes monitorados por plataformas de inteligência artificial como a Safer, desenvolvida pela própria TI Safe, o volume de tentativas de ataque costuma alcançar milhões de eventos por trimestre.",
+      "link": "https://www.cisoadvisor.com.br/setor-de-energia-e-alvo-em-30-de-alertas/",
+      "published": "12/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "32 min Segurança Pela 1ª vez, Google detecta e bloqueia ataque de dia zero feito com IA",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 05/05/2026 às 09:15 Na última quinta-feira (30), a OpenAI lançou a Segurança Avançada de Conta (AAS, da sigla em inglês Advanced Account Security), uma série de proteções opcionais para usuários do ChatGPT. Apesar de terem sido desenhadas para indivíduos de alto risco, elas estão disponíveis para qualquer um que desejar usá-las. A medida foi construída em parceria com a companhia de segurança digital Yubico , que produziu dois novos tipos de chave de segurança para contas no ChatGPT. Segundo a empresa, a parceria mira em defender os usuários principalmente de iniciativas de phishing , considerada uma ameaça crescente nos chatbots.",
-      "link": "https://canaltech.com.br/seguranca/openai-anuncia-novas-medidas-de-ciberseguranca-para-o-chatgpt/",
-      "published": "12/05/2026 09:33",
+      "summary": "O Google Threat Intelligence Group (GTIG) identificou e interrompeu, pela primeira vez , um ataque de dia zero desenvolvido com auxílio de inteligência artificial. O grupo de cibercriminosos responsável,descrito como \"proeminente\", mas não identificado pela empresa, planejava usar a brecha em uma campanha de exploração em massa. O relatório foi divulgado na segunda-feira (11). O código malicioso estava embutido em um script Python e permitiria contornar a autenticação de dois fatores de uma ferramenta popular de administração de sistemas, identificada apenas como open-source e baseada na web. Para funcionar, os invasores ainda precisariam de credenciais válidas de acesso à plataforma.",
+      "link": "https://canaltech.com.br/seguranca/pela-1a-vez-google-detecta-e-bloqueia-ataque-de-dia-zero-feito-com-ia/",
+      "published": "12/05/2026 12:00",
       "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "5 dias Segurança O perigo da biometria que quase ninguém percebe",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Reconhecimento facial, leitura de digital e até escaneamento da íris já fazem parte da rotina de milhões de brasileiros. O que pouca gente percebe é que essas informações estão entre os dados mais sensíveis que existem e, diferente de uma senha comum, não podem ser alteradas caso vazem. Com o avanço da inteligência artificial e dos deepfakes, especialistas em segurança digital alertam que o uso indiscriminado da biometria pode abrir espaço para novos tipos de golpes, fraudes financeiras e roubo de identidade.",
-      "link": "https://canaltech.com.br/seguranca/o-perigo-da-biometria-que-quase-ninguem-percebe/",
-      "published": "12/05/2026 09:33",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Provedor autorizado da Nvidia confirma exposição de dados pessoais",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Um incidente de segurança em um provedor autorizado do NVIDIA GeForce NOW expôs dados pessoais de usuários cadastrados na plataforma de jogos em nuvem. O caso envolve a GFN.AM, operada pela “GFN CLOUD INTERNET SERVICES” LLC, e não indica comprometimento direto dos sistemas centrais da Nvidia. A empresa divulgou o incidente em 5 de maio de 2026, após identificar acesso não autorizado ao seu banco de dados em 2 de maio. A investigação aponta que a invasão pode ter começado em 9 de março, criando uma janela de aproximadamente 54 dias de exposição.",
-      "link": "https://boletimsec.com/provedor-autorizado-da-nvidia-confirma-exposicao-de-dados-pessoais/",
-      "published": "12/05/2026 09:33",
-      "cves": [],
-      "vendor": null
+      "vendor": "Google"
     }
   ]
 }
