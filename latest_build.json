@@ -1,62 +1,71 @@
 {
-  "generated_at": "2026-05-13T12:00:00.160876-03:00",
+  "generated_at": "2026-05-13T12:00:00.068047-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Google vê risco crescente no uso de IA por Cibercriminosos",
+      "title": "Falhas críticas na extensão PHP SOAP permitem execução remota de código",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O Google identificou o que considera um marco preocupante na evolução das ameaças digitais: um grupo criminoso teria usado inteligência artificial para descobrir uma vulnerabilidade desconhecida e desenvolver uma exploração contra uma ferramenta amplamente usada de administração de sistemas. Segundo a análise do Google Threat Intelligence Group, o ataque foi interrompido antes de causar danos ou ser usado em larga escala. Ainda assim, o caso indica que agentes maliciosos já conseguem empregar modelos de IA em etapas avançadas de pesquisa ofensiva, não apenas em phishing ou automação simples.",
-      "link": "https://boletimsec.com/google-ve-risco-crescente-no-uso-de-ia-por-cibercriminosos/",
-      "published": "13/05/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "Novo ataque Shai-Hulud distribui pacotes maliciosos",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Centenas de pacotes nos repositórios npm e PyPI foram comprometidos na campanha Shai-Hulud ( TeamPCP ), que rouba credenciais de desenvolvedores. O invasor sequestrou tokens OIDC válidos para publicar versões maliciosas com assinaturas legítimas, informou a empresa StepSecurity. O ataque começou com pacotes do TanStack e da Mistral AI e se espalhou para projetos como Guardrails AI, UiPath e OpenSearch. A onda mais recente ocorreu ontem, segundo a StepSecurity. O malware rouba tokens do GitHub, credenciais AWS, chaves SSH, tokens do Kubernetes e arquivos .env. Para exfiltrar os dados, usou a rede Session, o que dificulta a detecção, afirmou a StepSecurity.",
-      "link": "https://www.cisoadvisor.com.br/novo-ataque-shai-hulud-distribui-pacotes-maliciosos/",
-      "published": "13/05/2026 12:00",
-      "cves": [],
-      "vendor": "AWS"
-    },
-    {
-      "title": "5 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
-      "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
-      "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
+      "summary": "Um conjunto de vulnerabilidades em componentes do PHP expõe servidores web a riscos de negação de serviço, vazamento de informações e, no caso mais grave, execução remota de código por meio da extensão SOAP. A principal falha é rastreada como CVE-2026-6722 e afeta a forma como a extensão PHP SOAP processa objetos em documentos XML. O problema é uma condição de use-after-free, causada por falha no controle de referência de objetos armazenados em um mapa global.",
+      "link": "https://boletimsec.com/falhas-criticas-na-extensao-php-soap-permitem-execucao-remota-de-codigo/",
       "published": "13/05/2026 12:00",
-      "cves": [],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "6 dias Segurança O perigo da biometria que quase ninguém percebe",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Reconhecimento facial, leitura de digital e até escaneamento da íris já fazem parte da rotina de milhões de brasileiros. O que pouca gente percebe é que essas informações estão entre os dados mais sensíveis que existem e, diferente de uma senha comum, não podem ser alteradas caso vazem. Com o avanço da inteligência artificial e dos deepfakes, especialistas em segurança digital alertam que o uso indiscriminado da biometria pode abrir espaço para novos tipos de golpes, fraudes financeiras e roubo de identidade.",
-      "link": "https://canaltech.com.br/seguranca/o-perigo-da-biometria-que-quase-ninguem-percebe/",
-      "published": "13/05/2026 12:00",
-      "cves": [],
+      "cves": [
+        "CVE-2026-6722"
+      ],
       "vendor": null
     },
     {
-      "title": "Falha na extensão Claude para Chrome permite roubo de dados",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
+      "title": "Fortinet alerta para falhas críticas de RCE",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores identificaram uma vulnerabilidade na extensão “Claude in Chrome” que poderia permitir a extensões maliciosas sem permissões declaradas controlar o assistente de IA e acessar dados sensíveis do usuário. O problema está relacionado a uma violação de limite de confiança no modelo de comunicação da extensão. O recurso externally_connectable permite interação com o domínio claude.ai, mas a validação se concentra na origem da requisição, não no contexto real em que o código está sendo executado. Com isso, scripts injetados por outra extensão no navegador poderiam operar dentro da origem confiável do Claude.",
-      "link": "https://boletimsec.com/falha-na-extensao-claude-para-chrome-permite-roubo-de-dados/",
+      "summary": "A Fortinet publicou ontem (12 de maio de 2026) atualizações de segurança para corrigir duas vulnerabilidades críticas no FortiSandbox e no FortiAuthenticator, que permitem a execução remota de comandos ou códigos (RCE) em sistemas não corrigidos. A primeira vulnerabilidade, registrada como CVE-2026-44277 , afeta a solução de Gerenciamento de Identidade e Acesso (IAM) FortiAuthenticator. Segundo comunicado da Fortinet publicado em aviso na terça-feira, uma falha de controle de acesso inadequado [CWE-284] pode permitir que um atacante não autenticado execute código ou comandos não autorizados por meio de solicitações manipuladas.",
+      "link": "https://www.cisoadvisor.com.br/fortinet-alerta-para-falhas-criticas-de-rce/",
+      "published": "13/05/2026 12:00",
+      "cves": [
+        "CVE-2026-44277"
+      ],
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "SAP corrige falhas críticas em Commerce Cloud e S/4HANA",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A SAP publicou hoje um pacote de atualizações de segurança que aborda 15 vulnerabilidades em produtos corporativos, com destaque para duas falhas críticas no SAP Commerce Cloud e no S/4HANA. A primeira vulnerabilidade crítica, registrada como CVE-2026-34263 , é uma ausência de verificação de autenticação no SAP Commerce Cloud. Segundo comunicado da própria SAP, devido a uma configuração inadequada do Spring Security, a plataforma permite que um usuário não autenticado realize upload de configuração maliciosa e injeção de código.",
+      "link": "https://www.cisoadvisor.com.br/sap-corrige-falhas-criticas-em-commerce-cloud-e-s-4hana/",
+      "published": "13/05/2026 12:00",
+      "cves": [
+        "CVE-2026-34263"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Microsoft: Patch Tuesday corrige 120 falhas, 17 críticas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft publicou ontem, 12 de maio de 2026, as atualizações de segurança do Patch Tuesday de maio, que corrigem 120 vulnerabilidades. A empresa informou que o lote inclui 17 falhas classificadas como “Críticas”, sendo 14 de execução remota de código, duas de elevação de privilégio e uma de divulgação não autorizada de informações. Entre as 120 falhas corrigidas, 61 são de elevação de privilégio, 31 de execução remota de código, 14 de divulgação de informações, 13 de falsificação (spoofing), oito de negação de serviço e seis de bypass de recurso de segurança, segundo a contagem publicada pelo comunicado técnico da empresa.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-patch-tuesday-corrige-120-falhas-17-criticas/",
       "published": "13/05/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Dirty Frag é 2ª falha crítica no Linux em duas semanas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma segunda vulnerabilidade grave no kernel do Linux, apelidada de “ Dirty Frag “, permite que qualquer usuário com uma conta básica em um computador afetado assuma o controle administrativo total e realize escape de contêineres. A falha foi descoberta por um pesquisador independente, que publicou um exploit funcional após o colapso do embargo de divulgação coordenada. De acordo com o artigo publicado na lista de discussão oss-security, a falha Dirty Frag está sendo rastreada como duas vulnerabilidades encadeadas, CVE-2026-43284 e CVE-2026-43500 (cada uma com gravidade a ser classificada), afetando partes diferentes do código de rede do kernel.",
+      "link": "https://www.cisoadvisor.com.br/dirty-frag-e-2a-falha-critica-no-linux-em-duas-semanas/",
+      "published": "13/05/2026 12:00",
+      "cves": [
+        "CVE-2026-43284",
+        "CVE-2026-43500"
+      ],
+      "vendor": "Linux"
     }
   ]
 }
