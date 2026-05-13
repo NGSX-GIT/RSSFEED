@@ -1,62 +1,71 @@
 {
-  "generated_at": "2026-05-12T12:00:00.128510-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-05-13T10:11:53.170604-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Google acha o primeiro exploit para zero-day criado com IA",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Google Threat Intelligence Group (GTIG) publicou ontem um relatório documentando, pela primeira vez, um ator de ameaças usando um exploit contra um zero-day desenvolvido com inteligência artificial. O cibercriminoso, segundo relatório do GTIG, planejava usá-la em um evento de exploração em massa, mas a descoberta proativa da equipe pode ter evitado sua utilização. A falha identificada permite bypass da autenticação de dois fatores (2FA) em uma popular ferramenta de administração de sistemas open-source.",
-      "link": "https://www.cisoadvisor.com.br/google-acha-o-primeiro-exploit-para-zero-day-criado-com-ia/",
-      "published": "12/05/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "Empresa de águas multada em € 1.1M por vazamento de dados",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "Uma empresa britânica de água potável foi multada em 1,1 milhão de euros devido a uma violação de dados iniciada por um e-mail de phishing que levou a um ataque de ransomware. A penalidade foi aplicada pelo regulador britânico de privacidade ICO, conforme divulgado ontem (11 de maio de 2026). O ataque, reivindicado pelo grupo Cl0p, resultou na captura e publicação na internet de mais de quatro terabytes de dados, incluindo informações pessoais de aproximadamente 634 mil pessoas, como nomes, endereços, e-mails, datas de nascimento, gênero, números de conta e telefones.",
-      "link": "https://www.cisoadvisor.com.br/phishing-em-empresa-de-agua-gera-multa-de-e11-mi/",
-      "published": "12/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "GhostLock bloqueia arquivos via SMB e simula impacto de ransomware",
+      "title": "Falhas críticas na extensão PHP SOAP permitem execução remota de código",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Uma nova técnica chamada GhostLock demonstra como invasores podem paralisar compartilhamentos de arquivos do Windows sem criptografar dados, simulando o impacto operacional de um ataque de ransomware. O método explora comportamentos legítimos do SMB e do sistema operacional, sem depender de uma falha com CVE. A técnica foi descrita por Kim Dvash, e mostra que um usuário comum de domínio, com acesso de leitura a arquivos compartilhados, pode bloquear o uso de grandes volumes de dados corporativos. O GhostLock usa a API CreateFileW com o parâmetro dwShareMode definido como zero.",
-      "link": "https://boletimsec.com/ghostlock-bloqueia-arquivos-via-smb-e-simula-impacto-de-ransomware/",
-      "published": "12/05/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "4 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
-      "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
-      "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
-      "published": "12/05/2026 12:00",
-      "cves": [],
-      "vendor": "Check Point"
+      "summary": "Um conjunto de vulnerabilidades em componentes do PHP expõe servidores web a riscos de negação de serviço, vazamento de informações e, no caso mais grave, execução remota de código por meio da extensão SOAP. A principal falha é rastreada como CVE-2026-6722 e afeta a forma como a extensão PHP SOAP processa objetos em documentos XML. O problema é uma condição de use-after-free, causada por falha no controle de referência de objetos armazenados em um mapa global.",
+      "link": "https://boletimsec.com/falhas-criticas-na-extensao-php-soap-permitem-execucao-remota-de-codigo/",
+      "published": "13/05/2026 10:11",
+      "cves": [
+        "CVE-2026-6722"
+      ],
+      "vendor": null
     },
     {
-      "title": "SailPoint sofre invasão em repositórios GitHub",
+      "title": "Fortinet alerta para falhas críticas de RCE",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "O provedor de governança e gerenciamento de identidades SailPoint detectou, em 20 de abril de 2026, um acesso não autorizado a um subconjunto de seus repositórios GitHub. Em comunicado enviado ontem à Comissão de Valores Mobiliários dos EUA (SEC), a empresa afirmou que sua equipe de resposta a incidentes rapidamente encerrou a atividade não autorizada e resolveu o problema. De acordo com o comunicado da SailPoint à SEC, os repositórios foram comprometidos por meio de uma vulnerabilidade em uma aplicação de terceiros, cuja causa subjacente já foi corrigida.",
-      "link": "https://www.cisoadvisor.com.br/sailpoint-sofre-invasao-em-repositorios-github/",
-      "published": "12/05/2026 12:00",
-      "cves": [],
+      "summary": "A Fortinet publicou ontem (12 de maio de 2026) atualizações de segurança para corrigir duas vulnerabilidades críticas no FortiSandbox e no FortiAuthenticator, que permitem a execução remota de comandos ou códigos (RCE) em sistemas não corrigidos. A primeira vulnerabilidade, registrada como CVE-2026-44277 , afeta a solução de Gerenciamento de Identidade e Acesso (IAM) FortiAuthenticator. Segundo comunicado da Fortinet publicado em aviso na terça-feira, uma falha de controle de acesso inadequado [CWE-284] pode permitir que um atacante não autenticado execute código ou comandos não autorizados por meio de solicitações manipuladas.",
+      "link": "https://www.cisoadvisor.com.br/fortinet-alerta-para-falhas-criticas-de-rce/",
+      "published": "13/05/2026 10:11",
+      "cves": [
+        "CVE-2026-44277"
+      ],
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "SAP corrige falhas críticas em Commerce Cloud e S/4HANA",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A SAP publicou hoje um pacote de atualizações de segurança que aborda 15 vulnerabilidades em produtos corporativos, com destaque para duas falhas críticas no SAP Commerce Cloud e no S/4HANA. A primeira vulnerabilidade crítica, registrada como CVE-2026-34263 , é uma ausência de verificação de autenticação no SAP Commerce Cloud. Segundo comunicado da própria SAP, devido a uma configuração inadequada do Spring Security, a plataforma permite que um usuário não autenticado realize upload de configuração maliciosa e injeção de código.",
+      "link": "https://www.cisoadvisor.com.br/sap-corrige-falhas-criticas-em-commerce-cloud-e-s-4hana/",
+      "published": "13/05/2026 10:11",
+      "cves": [
+        "CVE-2026-34263"
+      ],
       "vendor": null
+    },
+    {
+      "title": "Microsoft: Patch Tuesday corrige 120 falhas, 17 críticas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft publicou ontem, 12 de maio de 2026, as atualizações de segurança do Patch Tuesday de maio, que corrigem 120 vulnerabilidades. A empresa informou que o lote inclui 17 falhas classificadas como “Críticas”, sendo 14 de execução remota de código, duas de elevação de privilégio e uma de divulgação não autorizada de informações. Entre as 120 falhas corrigidas, 61 são de elevação de privilégio, 31 de execução remota de código, 14 de divulgação de informações, 13 de falsificação (spoofing), oito de negação de serviço e seis de bypass de recurso de segurança, segundo a contagem publicada pelo comunicado técnico da empresa.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-patch-tuesday-corrige-120-falhas-17-criticas/",
+      "published": "13/05/2026 10:11",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Dirty Frag é 2ª falha crítica no Linux em duas semanas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma segunda vulnerabilidade grave no kernel do Linux, apelidada de “ Dirty Frag “, permite que qualquer usuário com uma conta básica em um computador afetado assuma o controle administrativo total e realize escape de contêineres. A falha foi descoberta por um pesquisador independente, que publicou um exploit funcional após o colapso do embargo de divulgação coordenada. De acordo com o artigo publicado na lista de discussão oss-security, a falha Dirty Frag está sendo rastreada como duas vulnerabilidades encadeadas, CVE-2026-43284 e CVE-2026-43500 (cada uma com gravidade a ser classificada), afetando partes diferentes do código de rede do kernel.",
+      "link": "https://www.cisoadvisor.com.br/dirty-frag-e-2a-falha-critica-no-linux-em-duas-semanas/",
+      "published": "13/05/2026 10:11",
+      "cves": [
+        "CVE-2026-43284",
+        "CVE-2026-43500"
+      ],
+      "vendor": "Linux"
     }
   ]
 }
