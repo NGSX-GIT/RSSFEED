@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T09:40:50.009097-03:00",
+  "generated_at": "2026-05-14T09:42:27.547804-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "A SAP publicou hoje um pacote de atualizações de segurança que aborda 15 vulnerabilidades em produtos corporativos, com destaque para duas falhas críticas no SAP Commerce Cloud e no S/4HANA. A primeira vulnerabilidade crítica, registrada como CVE-2026-34263 , é uma ausência de verificação de autenticação no SAP Commerce Cloud. Segundo comunicado da própria SAP, devido a uma configuração inadequada do Spring Security, a plataforma permite que um usuário não autenticado realize upload de configuração maliciosa e injeção de código.",
       "link": "https://www.cisoadvisor.com.br/sap-corrige-falhas-criticas-em-commerce-cloud-e-s-4hana/",
-      "published": "14/05/2026 09:40",
+      "published": "14/05/2026 09:42",
       "cves": [
         "CVE-2026-34263"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "A Microsoft publicou ontem, 12 de maio de 2026, as atualizações de segurança do Patch Tuesday de maio, que corrigem 120 vulnerabilidades. A empresa informou que o lote inclui 17 falhas classificadas como “Críticas”, sendo 14 de execução remota de código, duas de elevação de privilégio e uma de divulgação não autorizada de informações. Entre as 120 falhas corrigidas, 61 são de elevação de privilégio, 31 de execução remota de código, 14 de divulgação de informações, 13 de falsificação (spoofing), oito de negação de serviço e seis de bypass de recurso de segurança, segundo a contagem publicada pelo comunicado técnico da empresa.",
       "link": "https://www.cisoadvisor.com.br/microsoft-patch-tuesday-corrige-120-falhas-17-criticas/",
-      "published": "14/05/2026 09:40",
+      "published": "14/05/2026 09:42",
       "cves": [],
       "vendor": "Microsoft"
     },
@@ -34,7 +34,7 @@
       "category": "breach",
       "summary": "A fabricante de eletrônicos Foxconn, conhecida formalmente como Hon Hai Precision Industry, confirmou ontem em comunicado que algumas de suas fábricas na América do Norte sofreram um ataque cibernético. A empresa informou que as unidades afetadas estão retomando a produção normal. O grupo de ransomware Nitrogen listou a Foxconn em seu site de vazamentos em 11 de maio, dias após a empresa confirmar um problema em sistemas de TI afetando operações em suas unidades de Wisconsin. O grupo criminoso afirma ter roubado 8 terabytes de dados da fabricante, compreendendo mais de 11 milhões de arquivos, incluindo informações técnicas de várias empresas de tecnologia proeminentes.",
       "link": "https://www.cisoadvisor.com.br/foxconn-confirma-ataque-com-interrupcao-em-fabricas/",
-      "published": "14/05/2026 09:40",
+      "published": "14/05/2026 09:42",
       "cves": [],
       "vendor": null
     },
@@ -45,7 +45,7 @@
       "category": "patches",
       "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
       "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
-      "published": "14/05/2026 09:41",
+      "published": "14/05/2026 09:42",
       "cves": [],
       "vendor": "Check Point"
     },
@@ -56,7 +56,7 @@
       "category": "patches",
       "summary": "Uma nova vulnerabilidade no kernel Linux, chamada Fragnesia, permite que um usuário local sem privilégios eleve acesso para root sem depender de condição de corrida. A falha foi divulgada com prova de conceito pública, o que aumenta o risco para servidores e estações ainda sem correção. A brecha foi descoberta por William Bowling, da equipe de segurança V12, e pertence à classe Dirty Frag, relacionada a problemas como Dirty Pipe e Copy Fail. O bug afeta o subsistema Linux XFRM ESP-in-TCP, usado em processamento de tráfego encapsulado. Na demonstração, o exploit sobrescreve os primeiros 192 bytes de /usr/bin/su no page cache com um pequeno stub ELF.",
       "link": "https://boletimsec.com/nova-falha-no-kernel-linux-permite-escalada-local-para-root/",
-      "published": "14/05/2026 09:40",
+      "published": "14/05/2026 09:42",
       "cves": [],
       "vendor": "Linux"
     }
