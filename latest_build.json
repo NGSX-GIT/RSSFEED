@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-05-13T12:00:00.068047-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-05-14T09:40:50.009097-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
-    {
-      "title": "Falhas críticas na extensão PHP SOAP permitem execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Um conjunto de vulnerabilidades em componentes do PHP expõe servidores web a riscos de negação de serviço, vazamento de informações e, no caso mais grave, execução remota de código por meio da extensão SOAP. A principal falha é rastreada como CVE-2026-6722 e afeta a forma como a extensão PHP SOAP processa objetos em documentos XML. O problema é uma condição de use-after-free, causada por falha no controle de referência de objetos armazenados em um mapa global.",
-      "link": "https://boletimsec.com/falhas-criticas-na-extensao-php-soap-permitem-execucao-remota-de-codigo/",
-      "published": "13/05/2026 12:00",
-      "cves": [
-        "CVE-2026-6722"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Fortinet alerta para falhas críticas de RCE",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Fortinet publicou ontem (12 de maio de 2026) atualizações de segurança para corrigir duas vulnerabilidades críticas no FortiSandbox e no FortiAuthenticator, que permitem a execução remota de comandos ou códigos (RCE) em sistemas não corrigidos. A primeira vulnerabilidade, registrada como CVE-2026-44277 , afeta a solução de Gerenciamento de Identidade e Acesso (IAM) FortiAuthenticator. Segundo comunicado da Fortinet publicado em aviso na terça-feira, uma falha de controle de acesso inadequado [CWE-284] pode permitir que um atacante não autenticado execute código ou comandos não autorizados por meio de solicitações manipuladas.",
-      "link": "https://www.cisoadvisor.com.br/fortinet-alerta-para-falhas-criticas-de-rce/",
-      "published": "13/05/2026 12:00",
-      "cves": [
-        "CVE-2026-44277"
-      ],
-      "vendor": "Fortinet"
-    },
     {
       "title": "SAP corrige falhas críticas em Commerce Cloud e S/4HANA",
       "source": "CISO Advisor",
@@ -36,7 +10,7 @@
       "category": "patches",
       "summary": "A SAP publicou hoje um pacote de atualizações de segurança que aborda 15 vulnerabilidades em produtos corporativos, com destaque para duas falhas críticas no SAP Commerce Cloud e no S/4HANA. A primeira vulnerabilidade crítica, registrada como CVE-2026-34263 , é uma ausência de verificação de autenticação no SAP Commerce Cloud. Segundo comunicado da própria SAP, devido a uma configuração inadequada do Spring Security, a plataforma permite que um usuário não autenticado realize upload de configuração maliciosa e injeção de código.",
       "link": "https://www.cisoadvisor.com.br/sap-corrige-falhas-criticas-em-commerce-cloud-e-s-4hana/",
-      "published": "13/05/2026 12:00",
+      "published": "14/05/2026 09:40",
       "cves": [
         "CVE-2026-34263"
       ],
@@ -49,22 +23,41 @@
       "category": "patches",
       "summary": "A Microsoft publicou ontem, 12 de maio de 2026, as atualizações de segurança do Patch Tuesday de maio, que corrigem 120 vulnerabilidades. A empresa informou que o lote inclui 17 falhas classificadas como “Críticas”, sendo 14 de execução remota de código, duas de elevação de privilégio e uma de divulgação não autorizada de informações. Entre as 120 falhas corrigidas, 61 são de elevação de privilégio, 31 de execução remota de código, 14 de divulgação de informações, 13 de falsificação (spoofing), oito de negação de serviço e seis de bypass de recurso de segurança, segundo a contagem publicada pelo comunicado técnico da empresa.",
       "link": "https://www.cisoadvisor.com.br/microsoft-patch-tuesday-corrige-120-falhas-17-criticas/",
-      "published": "13/05/2026 12:00",
+      "published": "14/05/2026 09:40",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "Dirty Frag é 2ª falha crítica no Linux em duas semanas",
+      "title": "Foxconn confirma ataque, com interrupção em fábricas",
       "source": "CISO Advisor",
       "priority": "Alta",
+      "category": "breach",
+      "summary": "A fabricante de eletrônicos Foxconn, conhecida formalmente como Hon Hai Precision Industry, confirmou ontem em comunicado que algumas de suas fábricas na América do Norte sofreram um ataque cibernético. A empresa informou que as unidades afetadas estão retomando a produção normal. O grupo de ransomware Nitrogen listou a Foxconn em seu site de vazamentos em 11 de maio, dias após a empresa confirmar um problema em sistemas de TI afetando operações em suas unidades de Wisconsin. O grupo criminoso afirma ter roubado 8 terabytes de dados da fabricante, compreendendo mais de 11 milhões de arquivos, incluindo informações técnicas de várias empresas de tecnologia proeminentes.",
+      "link": "https://www.cisoadvisor.com.br/foxconn-confirma-ataque-com-interrupcao-em-fabricas/",
+      "published": "14/05/2026 09:40",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "6 dias Segurança Sem querer, ransomware tranca arquivos e joga chave fora, inutilizando resgate",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Uma segunda vulnerabilidade grave no kernel do Linux, apelidada de “ Dirty Frag “, permite que qualquer usuário com uma conta básica em um computador afetado assuma o controle administrativo total e realize escape de contêineres. A falha foi descoberta por um pesquisador independente, que publicou um exploit funcional após o colapso do embargo de divulgação coordenada. De acordo com o artigo publicado na lista de discussão oss-security, a falha Dirty Frag está sendo rastreada como duas vulnerabilidades encadeadas, CVE-2026-43284 e CVE-2026-43500 (cada uma com gravidade a ser classificada), afetando partes diferentes do código de rede do kernel.",
-      "link": "https://www.cisoadvisor.com.br/dirty-frag-e-2a-falha-critica-no-linux-em-duas-semanas/",
-      "published": "13/05/2026 12:00",
-      "cves": [
-        "CVE-2026-43284",
-        "CVE-2026-43500"
-      ],
+      "summary": "Por Lillian Sibila Dala Costa • Editado por Jones Oliveira | 07/05/2026 às 12:35 Uma pesquisa da empresa de segurança Check Point Research identificou uma nova cepa de ransomware que, sem querer, também está afetando os hackers negativamente: ela destrói os arquivos que deveria somente bloquear para cobrar resgate, impossibilitando a recuperação. O malware em questão é o VECT 2.0 , do tipo ransomware-as-a-service , que surgiu originalmente em um fórum cibercriminoso russo em 2025. Uma falha no código faz com que o programa “destrua” qualquer arquivo maior do que 128 kb (kilobytes), um tamanho bastante pequeno, menor do que qualquer anexo de e-mail.",
+      "link": "https://canaltech.com.br/seguranca/sem-querer-ransomware-tranca-arquivos-e-joga-chave-fora-inutilizando-resgate/",
+      "published": "14/05/2026 09:41",
+      "cves": [],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Nova falha no kernel Linux permite escalada local para root",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma nova vulnerabilidade no kernel Linux, chamada Fragnesia, permite que um usuário local sem privilégios eleve acesso para root sem depender de condição de corrida. A falha foi divulgada com prova de conceito pública, o que aumenta o risco para servidores e estações ainda sem correção. A brecha foi descoberta por William Bowling, da equipe de segurança V12, e pertence à classe Dirty Frag, relacionada a problemas como Dirty Pipe e Copy Fail. O bug afeta o subsistema Linux XFRM ESP-in-TCP, usado em processamento de tráfego encapsulado. Na demonstração, o exploit sobrescreve os primeiros 192 bytes de /usr/bin/su no page cache com um pequeno stub ELF.",
+      "link": "https://boletimsec.com/nova-falha-no-kernel-linux-permite-escalada-local-para-root/",
+      "published": "14/05/2026 09:40",
+      "cves": [],
       "vendor": "Linux"
     }
   ]
