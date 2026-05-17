@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-05-16T12:00:00.582097-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-05-17T12:00:00.047810-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica de 18 anos no NGINX permite DoS e potencial RCE",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de 18 anos no servidor web open-source NGINX, descoberta por pesquisadores da empresa DepthFirst AI, pode ser explorada para negação de serviço (DoS) e, sob condições específicas, para execução remota de código (RCE). A falha é registrada como CVE-2026-42945 (CVSS de 9.2) e afeta as versões 0.6.27 até 1.30.0 do NGINX Open Source, além de produtos comerciais como NGINX Plus e F5 WAF para NGINX, conforme comunicado da fabricante F5, publicado ontem (13). Segundo o relatório da DepthFirst AI, a CVE-2026-42945 é um estouro de buffer no heap no módulo ngx_http_rewrite_module.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-de-18-anos-no-nginx-permite-dos-e-potencial-rce/",
-      "published": "16/05/2026 12:00",
-      "cves": [
-        "CVE-2026-42945"
-      ],
-      "vendor": "NGINX"
-    },
-    {
-      "title": "Firewalls Palo Alto devem ser atualizados contra Zero Day explorado",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no PAN-OS, sistema usado em firewalls da Palo Alto Networks, está sendo explorada em ataques reais para executar código arbitrário com privilégios root. A falha afeta dispositivos PA-Series e VM-Series em configurações específicas expostas a redes não confiáveis. Rastreada como CVE-2026-0300, a brecha está no User-ID Authentication Portal, também conhecido como Captive Portal. O problema decorre de um estouro de buffer no componente de autenticação e pode ser explorado remotamente sem credenciais. O ataque exige o envio de pacotes especialmente criados ao portal vulnerável.",
-      "link": "https://boletimsec.com/firewalls-palo-alto-devem-ser-atualizados-contra-zero-day-explorado/",
-      "published": "16/05/2026 12:00",
-      "cves": [
-        "CVE-2026-0300"
-      ],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "Código-fonte do Shai-Hulud é aberto e ameaça cadeia de suprimentos",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "Em 12 de maio de 2026, um repositório no GitHub apareceu com o código-fonte completo do Shai-Hulud, worm atribuído ao grupo TeamPCP. O repositório, já removido, incluía as frases “Love – TeamPCP” e “Change keys and C2 as needed”, conforme análise publicada em 13 de maio pelo Datadog Security Labs . Dois dias antes, o worm comprometeu o framework TanStack React e se espalhou para quase 400 pacotes, incluindo bibliotecas da empresa de IA Mistral e da UiPath, segundo o fórum Breached[.]st. O código foi publicado no Breached[.]st. O autor do post incentivou outros hackers a usarem o worm, prometendo US$ 10 mil para quem executasse o maior ataque à cadeia de suprimentos.",
-      "link": "https://www.cisoadvisor.com.br/codigo-fonte-do-shai-hulud-e-aberto-e-ameaca-cadeia-de-suprimentos/",
-      "published": "16/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "2 dias Segurança Fornecedora da Apple, Foxconn é invadida e confirma roubo de 8 TB de dados",
+      "title": "3 dias Segurança Fornecedora da Apple, Foxconn é invadida e confirma roubo de 8 TB de dados",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "identity",
       "summary": "A fabricante Foxconn , principal fornecedora de chips da Apple e uma das maiores fabricantes de eletrônicos do mundo, confirmou que suas operações na América do Norte foram alvo de um ataque de ransomware . De acordo reportagens, o ataque comprometeu servidores e sistemas operacionais em fábricas localizadas no México e nos Estados Unidos , resultando na interrupção temporária das atividades nessas fábricas. A companhia confirmou que os invasores tiveram acesso a documentos internos corporativos antes de sequestrarem e roubarem 8 TB de dados da empresa . Segundo o Wired, esses dados envolvem projetos de clientes como Dell , Google, Apple e NVIDIA .",
       "link": "https://canaltech.com.br/seguranca/fornecedora-da-apple-foxconn-e-invadida-e-confirma-roubo-de-8-tb-de-dados/",
-      "published": "16/05/2026 12:00",
+      "published": "17/05/2026 12:00",
       "cves": [],
       "vendor": "Google"
     },
     {
-      "title": "Google reforça segurança do Android com novas proteções em IA",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "O Google anunciou um conjunto de novas proteções para o Android com foco em golpes financeiros, aplicativos maliciosos, roubo de dispositivos e abuso de permissões sensíveis. As mudanças ampliam o uso de inteligência artificial diretamente no aparelho para detectar ameaças em tempo real. A principal novidade é a evolução do Live Threat Detection, recurso que usa IA no dispositivo para analisar o comportamento de aplicativos instalados. O objetivo é identificar ações suspeitas antes que causem dano ao usuário. A proteção passa a observar padrões como encaminhamento indevido de SMS e abuso de permissões de acessibilidade.",
-      "link": "https://boletimsec.com/google-reforca-seguranca-do-android-com-novas-protecoes-em-ia/",
-      "published": "16/05/2026 12:00",
+      "title": "2 dias Segurança Funcionários da OpenAI tiveram dados roubados em ataque hacker",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A OpenAI confirmou que dispositivos de dois funcionários foram comprometidos por um ataque de cadeia de suprimentos (supply-chain attack) que utilizou a biblioteca open source TanStack como vetor. Após investigação, a empresa afirmou não ter encontrado evidências de acesso a dados de usuários, alteração de software ou comprometimento de sistemas de produção e propriedade intelectual. O ponto de entrada foi a própria TanStack, ferramenta amplamente usada por desenvolvedores para construir aplicações web.",
+      "link": "https://canaltech.com.br/seguranca/funcionarios-da-openai-tiveram-dados-roubados-em-ataque-hacker/",
+      "published": "17/05/2026 12:00",
       "cves": [],
-      "vendor": "Google"
+      "vendor": null
+    },
+    {
+      "title": "Vulnerabilidades no GitLab permitem XSS e negação de serviço",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O GitLab lançou atualizações de segurança emergenciais para corrigir múltiplas vulnerabilidades de alta severidade em suas edições Community Edition e Enterprise Edition autogerenciadas. As falhas podem permitir ataques de XSS e negação de serviço sem autenticação. As correções foram disponibilizadas em 13 de maio de 2026 e afetam diretamente administradores que mantêm instâncias próprias do GitLab. As plataformas hospedadas em nuvem pela empresa já receberam as mitigações no lado do serviço. Entre os problemas mais críticos estão falhas de Cross-Site Scripting, rastreadas como CVE-2026-7481, CVE-2026-5297 e CVE-2026-6073.",
+      "link": "https://boletimsec.com/vulnerabilidades-no-gitlab-permitem-xss-e-negacao-de-servico/",
+      "published": "17/05/2026 12:00",
+      "cves": [
+        "CVE-2026-7481",
+        "CVE-2026-5297",
+        "CVE-2026-6073"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Empresas têm 10h para patches antes do ataque de exploits",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A velocidade de exploração de vulnerabilidades caiu para menos de 10 horas após a divulgação pública, segundo o último boletim de inteligência de ameaças da empresa brasileira DANRESA, divulgado na semana de 27 de abril. O Brasil registra 3.711 ataques semanais por organização, um aumento de 29% em relação ao ano anterior, conforme dados do Check Point Research publicados em 20 de abril de 2026. O levantamento da DANRESA aponta que a tradicional estratégia de correções mensais tornou-se insuficiente. “Com quase 4 mil tentativas de invasão por semana, a velocidade é a única defesa real.",
+      "link": "https://www.cisoadvisor.com.br/empresas-tem-10h-para-patches-antes-do-ataque-de-exploits/",
+      "published": "17/05/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Pesquisador revela duas falhas de dia zero no Windows",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Um pesquisador de segurança anônimo conhecido como “Nightmare-Eclipse” publicou ontem detalhes de duas vulnerabilidades de dia zero no Windows, horas após a atualização mensal de segurança da Microsoft. As falhas, batizadas de YellowKey e GreenPlasma, afetam respectivamente o sistema de criptografia BitLocker e o mecanismo de elevação de privilégios do sistema operacional. A primeira vulnerabilidade permite que um atacante com acesso físico à máquina obtenha acesso irrestrito ao shell de um dispositivo protegido pelo BitLocker. Basta carregar os arquivos em um pendrive e executar uma sequência correta de teclas.",
+      "link": "https://www.cisoadvisor.com.br/pesquisador-revela-duas-falhas-de-dia-zero-no-windows/",
+      "published": "17/05/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
