@@ -1,66 +1,70 @@
 {
-  "generated_at": "2026-05-17T12:00:00.047810-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-05-18T10:13:14.883704-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "3 dias Segurança Fornecedora da Apple, Foxconn é invadida e confirma roubo de 8 TB de dados",
-      "source": "Canaltech Segurança",
+      "title": "Cisco corrige sexta falha zero-day em SD-WAN",
+      "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "identity",
-      "summary": "A fabricante Foxconn , principal fornecedora de chips da Apple e uma das maiores fabricantes de eletrônicos do mundo, confirmou que suas operações na América do Norte foram alvo de um ataque de ransomware . De acordo reportagens, o ataque comprometeu servidores e sistemas operacionais em fábricas localizadas no México e nos Estados Unidos , resultando na interrupção temporária das atividades nessas fábricas. A companhia confirmou que os invasores tiveram acesso a documentos internos corporativos antes de sequestrarem e roubarem 8 TB de dados da empresa . Segundo o Wired, esses dados envolvem projetos de clientes como Dell , Google, Apple e NVIDIA .",
-      "link": "https://canaltech.com.br/seguranca/fornecedora-da-apple-foxconn-e-invadida-e-confirma-roubo-de-8-tb-de-dados/",
-      "published": "17/05/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "2 dias Segurança Funcionários da OpenAI tiveram dados roubados em ataque hacker",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
       "category": "patches",
-      "summary": "A OpenAI confirmou que dispositivos de dois funcionários foram comprometidos por um ataque de cadeia de suprimentos (supply-chain attack) que utilizou a biblioteca open source TanStack como vetor. Após investigação, a empresa afirmou não ter encontrado evidências de acesso a dados de usuários, alteração de software ou comprometimento de sistemas de produção e propriedade intelectual. O ponto de entrada foi a própria TanStack, ferramenta amplamente usada por desenvolvedores para construir aplicações web.",
-      "link": "https://canaltech.com.br/seguranca/funcionarios-da-openai-tiveram-dados-roubados-em-ataque-hacker/",
-      "published": "17/05/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Vulnerabilidades no GitLab permitem XSS e negação de serviço",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O GitLab lançou atualizações de segurança emergenciais para corrigir múltiplas vulnerabilidades de alta severidade em suas edições Community Edition e Enterprise Edition autogerenciadas. As falhas podem permitir ataques de XSS e negação de serviço sem autenticação. As correções foram disponibilizadas em 13 de maio de 2026 e afetam diretamente administradores que mantêm instâncias próprias do GitLab. As plataformas hospedadas em nuvem pela empresa já receberam as mitigações no lado do serviço. Entre os problemas mais críticos estão falhas de Cross-Site Scripting, rastreadas como CVE-2026-7481, CVE-2026-5297 e CVE-2026-6073.",
-      "link": "https://boletimsec.com/vulnerabilidades-no-gitlab-permitem-xss-e-negacao-de-servico/",
-      "published": "17/05/2026 12:00",
+      "summary": "A Cisco publicou na quinta-feira correções para mais uma vulnerabilidade crítica do tipo dia zero em seus produtos SD-WAN, a sexta com exploração ativa confirmada neste ano. O problema, registrado como CVE-2026-20182, foi descrito pelo fabricante como uma falha de bypass de autenticação que permite que um invasor remoto obtenha privilégios de administrador no sistema alvo por meio de pacotes especialmente criados. A vulnerabilidade afeta o mecanismo de autenticação entre pares no Cisco Catalyst SD-WAN Controller (antigo SD-WAN vSmart) e no Cisco Catalyst SD-WAN Manager (antigo SD-WAN vManage).",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-sexta-falha-zero-day-em-sd-wan/",
+      "published": "18/05/2026 10:13",
       "cves": [
-        "CVE-2026-7481",
-        "CVE-2026-5297",
-        "CVE-2026-6073"
+        "CVE-2026-20182"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Vulnerabilidade no Exim permite RCE em servidores de e-mail",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no Exim permite a execução remota de código por um atacante não autenticado em servidores de e-mail. Uma atualização foi lançada para corrigir o problema ( CVE-2026-45185 ). O Exim é um agente de transferência de mensagens (MTA) muito popular. Uma vulnerabilidade no backend GnuTLS permite um ataque de uso após liberação (use-after-free), possibilitando que um atacante execute código no servidor de e-mail. A falha de segurança está presente nas versões 4.97 a 4.99.2 do Exim e ocorre quando o GnuTLS processa uma conexão TLS. A exploração só é possível em sistemas onde a configuração “USE_GNUTLS=yes” está habilitada.",
+      "link": "https://www.cisoadvisor.com.br/vulnerabilidade-no-exim-permite-rce-em-servidores-de-e-mail/",
+      "published": "18/05/2026 10:13",
+      "cves": [
+        "CVE-2026-45185"
       ],
       "vendor": null
     },
     {
-      "title": "Empresas têm 10h para patches antes do ataque de exploits",
+      "title": "MS alerta para ataques ao Exchange Server",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A velocidade de exploração de vulnerabilidades caiu para menos de 10 horas após a divulgação pública, segundo o último boletim de inteligência de ameaças da empresa brasileira DANRESA, divulgado na semana de 27 de abril. O Brasil registra 3.711 ataques semanais por organização, um aumento de 29% em relação ao ano anterior, conforme dados do Check Point Research publicados em 20 de abril de 2026. O levantamento da DANRESA aponta que a tradicional estratégia de correções mensais tornou-se insuficiente. “Com quase 4 mil tentativas de invasão por semana, a velocidade é a única defesa real.",
-      "link": "https://www.cisoadvisor.com.br/empresas-tem-10h-para-patches-antes-do-ataque-de-exploits/",
-      "published": "17/05/2026 12:00",
+      "summary": "A Microsoft alerta que invasores estão explorando ativamente uma vulnerabilidade crítica de cross-site scripting ( XSS ) no Microsoft Exchange Server. Ainda não há atualizações de segurança disponíveis, mas uma mitigação temporária está sendo implementada por meio do Serviço de Mitigação de Emergência do Exchange. A vulnerabilidade ( CVE-2026-42897 ) permite que invasores executem JavaScript no navegador de usuários do Outlook Web Access por meio de um e-mail especialmente criado. Isso lhes permitiria obter acesso a e-mails e outras informações. A Microsoft foi informada sobre o abuso por terceiros, mas não divulgou o nome de quem o relatou.",
+      "link": "https://www.cisoadvisor.com.br/ms-alerta-para-ataques-ao-exchange-server/",
+      "published": "18/05/2026 10:13",
+      "cves": [
+        "CVE-2026-42897"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Dez grupos concentram 70% dos ataques de ransomware",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "breach",
+      "summary": "O mercado global de ransomware passou por uma consolidação acelerada em torno de menos grupos criminosos, mais estruturados e com maior capacidade operacional, segundo o Relatório sobre o Cenário de Ransomware no Primeiro Trimestre de 2026, divulgado pela Check Point Research (CPR), divisão de inteligência de ameaça da Check Point Software. Os dez principais grupos concentraram 71% de todas as vítimas globais, revertendo a fragmentação observada ao longo de grande parte de 2025. O levantamento aponta que 2.122 organizações tiveram dados publicados em sites de vazamento de grupos de ransomware no primeiro trimestre de 2026, o segundo maior número para um primeiro trimestre já registrado.",
+      "link": "https://www.cisoadvisor.com.br/dez-grupos-concentram-70-dos-ataques-de-ransosmware/",
+      "published": "18/05/2026 10:13",
       "cves": [],
       "vendor": "Check Point"
     },
     {
-      "title": "Pesquisador revela duas falhas de dia zero no Windows",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "title": "Falhas em agente de IA OpenClaw ameaçam dados sensíveis",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Um pesquisador de segurança anônimo conhecido como “Nightmare-Eclipse” publicou ontem detalhes de duas vulnerabilidades de dia zero no Windows, horas após a atualização mensal de segurança da Microsoft. As falhas, batizadas de YellowKey e GreenPlasma, afetam respectivamente o sistema de criptografia BitLocker e o mecanismo de elevação de privilégios do sistema operacional. A primeira vulnerabilidade permite que um atacante com acesso físico à máquina obtenha acesso irrestrito ao shell de um dispositivo protegido pelo BitLocker. Basta carregar os arquivos em um pendrive e executar uma sequência correta de teclas.",
-      "link": "https://www.cisoadvisor.com.br/pesquisador-revela-duas-falhas-de-dia-zero-no-windows/",
-      "published": "17/05/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "Pesquisadores divulgaram um conjunto de quatro vulnerabilidades no OpenClaw que podem ser encadeadas para roubo de dados, escalada de privilégios e persistência em sistemas onde o agente de IA está instalado. As falhas foram agrupadas sob o nome Claw Chain e afetam principalmente o OpenShell, backend de sandbox gerenciado pelo OpenClaw. O risco está no fato de o agente ter acesso a arquivos, comandos e configurações sensíveis do ambiente. A primeira vulnerabilidade, CVE-2026-44112, é uma condição de corrida do tipo TOCTOU que permite contornar restrições da sandbox e redirecionar gravações para fora da raiz de montagem prevista.",
+      "link": "https://boletimsec.com/falhas-em-agente-de-ia-openclaw-ameacam-dados-sensiveis/",
+      "published": "18/05/2026 10:13",
+      "cves": [
+        "CVE-2026-44112"
+      ],
+      "vendor": null
     }
   ]
 }
