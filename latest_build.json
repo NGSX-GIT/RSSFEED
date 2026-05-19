@@ -1,70 +1,66 @@
 {
-  "generated_at": "2026-05-18T12:00:00.002968-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-05-19T12:00:00.022358-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Cisco corrige sexta falha zero-day em SD-WAN",
-      "source": "CISO Advisor",
+      "title": "Vulnerabilidade em plugin do WordPress permite bypass de autenticação",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Cisco publicou na quinta-feira correções para mais uma vulnerabilidade crítica do tipo dia zero em seus produtos SD-WAN, a sexta com exploração ativa confirmada neste ano. O problema, registrado como CVE-2026-20182, foi descrito pelo fabricante como uma falha de bypass de autenticação que permite que um invasor remoto obtenha privilégios de administrador no sistema alvo por meio de pacotes especialmente criados. A vulnerabilidade afeta o mecanismo de autenticação entre pares no Cisco Catalyst SD-WAN Controller (antigo SD-WAN vSmart) e no Cisco Catalyst SD-WAN Manager (antigo SD-WAN vManage).",
-      "link": "https://www.cisoadvisor.com.br/cisco-corrige-sexta-falha-zero-day-em-sd-wan/",
-      "published": "18/05/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no plugin Burst Statistics para WordPress expôs mais de 200 mil sites a ataques de bypass de autenticação, com possibilidade de tomada completa de contas administrativas. A falha, rastreada como CVE-2026-8181, recebeu pontuação CVSS 9.8 e afeta as versões 3.4.0 até 3.4.1.1 do plugin. O problema foi introduzido em 23 de abril de 2026 e corrigido na versão 3.4.2, lançada em 12 de maio.",
+      "link": "https://boletimsec.com/vulnerabilidade-em-plugin-do-wordpress-permite-bypass-de-autenticacao/",
+      "published": "19/05/2026 12:00",
       "cves": [
-        "CVE-2026-20182"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Vulnerabilidade no Exim permite RCE em servidores de e-mail",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Exim permite a execução remota de código por um atacante não autenticado em servidores de e-mail. Uma atualização foi lançada para corrigir o problema ( CVE-2026-45185 ). O Exim é um agente de transferência de mensagens (MTA) muito popular. Uma vulnerabilidade no backend GnuTLS permite um ataque de uso após liberação (use-after-free), possibilitando que um atacante execute código no servidor de e-mail. A falha de segurança está presente nas versões 4.97 a 4.99.2 do Exim e ocorre quando o GnuTLS processa uma conexão TLS. A exploração só é possível em sistemas onde a configuração “USE_GNUTLS=yes” está habilitada.",
-      "link": "https://www.cisoadvisor.com.br/vulnerabilidade-no-exim-permite-rce-em-servidores-de-e-mail/",
-      "published": "18/05/2026 12:00",
-      "cves": [
-        "CVE-2026-45185"
+        "CVE-2026-8181"
       ],
       "vendor": null
     },
     {
-      "title": "MS alerta para ataques ao Exchange Server",
-      "source": "CISO Advisor",
+      "title": "Cibercriminosos exploram falha XSS no Microsoft Exchange",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft alerta que invasores estão explorando ativamente uma vulnerabilidade crítica de cross-site scripting ( XSS ) no Microsoft Exchange Server. Ainda não há atualizações de segurança disponíveis, mas uma mitigação temporária está sendo implementada por meio do Serviço de Mitigação de Emergência do Exchange. A vulnerabilidade ( CVE-2026-42897 ) permite que invasores executem JavaScript no navegador de usuários do Outlook Web Access por meio de um e-mail especialmente criado. Isso lhes permitiria obter acesso a e-mails e outras informações. A Microsoft foi informada sobre o abuso por terceiros, mas não divulgou o nome de quem o relatou.",
-      "link": "https://www.cisoadvisor.com.br/ms-alerta-para-ataques-ao-exchange-server/",
-      "published": "18/05/2026 12:00",
+      "summary": "A Microsoft confirmou que uma vulnerabilidade no Exchange Server local está sendo explorada em ataques reais por meio de e-mails especialmente criados. A falha afeta ambientes on-premises e não atinge o Exchange Online. Rastreada como CVE-2026-42897, a vulnerabilidade recebeu pontuação CVSS 8.1 e foi classificada como uma falha de spoofing causada por Cross-Site Scripting no processo de geração de páginas do Exchange Server. Segundo a Microsoft, um invasor não autorizado pode explorar o problema pela rede ao enviar um e-mail malicioso para um usuário.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-xss-no-microsoft-exchange/",
+      "published": "19/05/2026 12:00",
       "cves": [
         "CVE-2026-42897"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "Dez grupos concentram 70% dos ataques de ransomware",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "O mercado global de ransomware passou por uma consolidação acelerada em torno de menos grupos criminosos, mais estruturados e com maior capacidade operacional, segundo o Relatório sobre o Cenário de Ransomware no Primeiro Trimestre de 2026, divulgado pela Check Point Research (CPR), divisão de inteligência de ameaça da Check Point Software. Os dez principais grupos concentraram 71% de todas as vítimas globais, revertendo a fragmentação observada ao longo de grande parte de 2025. O levantamento aponta que 2.122 organizações tiveram dados publicados em sites de vazamento de grupos de ransomware no primeiro trimestre de 2026, o segundo maior número para um primeiro trimestre já registrado.",
-      "link": "https://www.cisoadvisor.com.br/dez-grupos-concentram-70-dos-ataques-de-ransosmware/",
-      "published": "18/05/2026 12:00",
+      "title": "Falhas no PHP permitem vazamento de memória ao processar imagens",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Duas vulnerabilidades em funções de processamento de imagens do PHP podem permitir vazamento de memória sensível e ataques de negação de serviço a partir de arquivos JPEG especialmente criados. As falhas afetam recursos usados por aplicações web, CMS, webmails e serviços que analisam imagens enviadas por usuários. Os problemas foram encontrados na extensão ext/standard do PHP e envolvem as funções getimagesize e iptcembed, responsáveis por processar metadados JPEG e dados IPTC.",
+      "link": "https://boletimsec.com/falhas-no-php-permitem-vazamento-de-memoria-ao-processar-imagens/",
+      "published": "19/05/2026 12:00",
       "cves": [],
-      "vendor": "Check Point"
+      "vendor": null
     },
     {
-      "title": "Falhas em agente de IA OpenClaw ameaçam dados sensíveis",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "title": "4 dias Segurança Funcionários da OpenAI tiveram dados roubados em ataque hacker",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Pesquisadores divulgaram um conjunto de quatro vulnerabilidades no OpenClaw que podem ser encadeadas para roubo de dados, escalada de privilégios e persistência em sistemas onde o agente de IA está instalado. As falhas foram agrupadas sob o nome Claw Chain e afetam principalmente o OpenShell, backend de sandbox gerenciado pelo OpenClaw. O risco está no fato de o agente ter acesso a arquivos, comandos e configurações sensíveis do ambiente. A primeira vulnerabilidade, CVE-2026-44112, é uma condição de corrida do tipo TOCTOU que permite contornar restrições da sandbox e redirecionar gravações para fora da raiz de montagem prevista.",
-      "link": "https://boletimsec.com/falhas-em-agente-de-ia-openclaw-ameacam-dados-sensiveis/",
-      "published": "18/05/2026 12:00",
-      "cves": [
-        "CVE-2026-44112"
-      ],
+      "summary": "A OpenAI confirmou que dispositivos de dois funcionários foram comprometidos por um ataque de cadeia de suprimentos (supply-chain attack) que utilizou a biblioteca open source TanStack como vetor. Após investigação, a empresa afirmou não ter encontrado evidências de acesso a dados de usuários, alteração de software ou comprometimento de sistemas de produção e propriedade intelectual. O ponto de entrada foi a própria TanStack, ferramenta amplamente usada por desenvolvedores para construir aplicações web.",
+      "link": "https://canaltech.com.br/seguranca/funcionarios-da-openai-tiveram-dados-roubados-em-ataque-hacker/",
+      "published": "19/05/2026 12:00",
+      "cves": [],
       "vendor": null
+    },
+    {
+      "title": "5 dias Segurança Fornecedora da Apple, Foxconn é invadida e confirma roubo de 8 TB de dados",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "A fabricante Foxconn , principal fornecedora de chips da Apple e uma das maiores fabricantes de eletrônicos do mundo, confirmou que suas operações na América do Norte foram alvo de um ataque de ransomware . De acordo reportagens, o ataque comprometeu servidores e sistemas operacionais em fábricas localizadas no México e nos Estados Unidos , resultando na interrupção temporária das atividades nessas fábricas. A companhia confirmou que os invasores tiveram acesso a documentos internos corporativos antes de sequestrarem e roubarem 8 TB de dados da empresa . Segundo o Wired, esses dados envolvem projetos de clientes como Dell , Google, Apple e NVIDIA .",
+      "link": "https://canaltech.com.br/seguranca/fornecedora-da-apple-foxconn-e-invadida-e-confirma-roubo-de-8-tb-de-dados/",
+      "published": "19/05/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
     }
   ]
 }
