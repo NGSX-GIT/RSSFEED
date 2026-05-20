@@ -1,66 +1,64 @@
 {
-  "generated_at": "2026-05-19T12:00:00.022358-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-05-20T12:00:00.061107-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Vulnerabilidade em plugin do WordPress permite bypass de autenticação",
+      "title": "Botnets exploram credenciais codificadas em roteadores industriais",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no plugin Burst Statistics para WordPress expôs mais de 200 mil sites a ataques de bypass de autenticação, com possibilidade de tomada completa de contas administrativas. A falha, rastreada como CVE-2026-8181, recebeu pontuação CVSS 9.8 e afeta as versões 3.4.0 até 3.4.1.1 do plugin. O problema foi introduzido em 23 de abril de 2026 e corrigido na versão 3.4.2, lançada em 12 de maio.",
-      "link": "https://boletimsec.com/vulnerabilidade-em-plugin-do-wordpress-permite-bypass-de-autenticacao/",
-      "published": "19/05/2026 12:00",
+      "summary": "19Cibercriminosos estão explorando uma vulnerabilidade crítica em roteadores industriais Four-Faith para assumir o controle dos dispositivos e integrá-los a botnets usadas em atividades maliciosas. A falha é rastreada como CVE-2024-9643 e afeta roteadores celulares industriais da linha F3x36. O problema é um bypass de autenticação causado por credenciais administrativas codificadas diretamente na interface de gerenciamento web dos equipamentos.",
+      "link": "https://boletimsec.com/botnets-exploram-credenciais-codificadas-em-roteadores-industriais/",
+      "published": "20/05/2026 12:00",
       "cves": [
-        "CVE-2026-8181"
+        "CVE-2024-9643"
       ],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos exploram falha XSS no Microsoft Exchange",
+      "title": "Falhas críticas no PostgreSQL permitem RCE e injeção SQL",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft confirmou que uma vulnerabilidade no Exchange Server local está sendo explorada em ataques reais por meio de e-mails especialmente criados. A falha afeta ambientes on-premises e não atinge o Exchange Online. Rastreada como CVE-2026-42897, a vulnerabilidade recebeu pontuação CVSS 8.1 e foi classificada como uma falha de spoofing causada por Cross-Site Scripting no processo de geração de páginas do Exchange Server. Segundo a Microsoft, um invasor não autorizado pode explorar o problema pela rede ao enviar um e-mail malicioso para um usuário.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-xss-no-microsoft-exchange/",
-      "published": "19/05/2026 12:00",
-      "cves": [
-        "CVE-2026-42897"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Falhas no PHP permitem vazamento de memória ao processar imagens",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Duas vulnerabilidades em funções de processamento de imagens do PHP podem permitir vazamento de memória sensível e ataques de negação de serviço a partir de arquivos JPEG especialmente criados. As falhas afetam recursos usados por aplicações web, CMS, webmails e serviços que analisam imagens enviadas por usuários. Os problemas foram encontrados na extensão ext/standard do PHP e envolvem as funções getimagesize e iptcembed, responsáveis por processar metadados JPEG e dados IPTC.",
-      "link": "https://boletimsec.com/falhas-no-php-permitem-vazamento-de-memoria-ao-processar-imagens/",
-      "published": "19/05/2026 12:00",
+      "summary": "20O PostgreSQL Global Development Group lançou atualizações de segurança para corrigir 11 vulnerabilidades em versões suportadas do banco de dados, incluindo falhas que podem permitir execução de código, injeção SQL, vazamento de memória e sobrescrita de arquivos. As correções foram publicadas nas versões PostgreSQL 18.4, 17.10, 16.14, 15.18 e 14.23. Todos os ramos suportados entre 14 e 18 são afetados por ao menos parte dos problemas, o que torna a atualização prioritária para ambientes de produção.",
+      "link": "https://boletimsec.com/falhas-criticas-no-postgresql-permitem-rce-e-injecao-sql/",
+      "published": "20/05/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Funcionários da OpenAI tiveram dados roubados em ataque hacker",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
+      "title": "Drupal corrigirá falha altamente crítica",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A OpenAI confirmou que dispositivos de dois funcionários foram comprometidos por um ataque de cadeia de suprimentos (supply-chain attack) que utilizou a biblioteca open source TanStack como vetor. Após investigação, a empresa afirmou não ter encontrado evidências de acesso a dados de usuários, alteração de software ou comprometimento de sistemas de produção e propriedade intelectual. O ponto de entrada foi a própria TanStack, ferramenta amplamente usada por desenvolvedores para construir aplicações web.",
-      "link": "https://canaltech.com.br/seguranca/funcionarios-da-openai-tiveram-dados-roubados-em-ataque-hacker/",
-      "published": "19/05/2026 12:00",
+      "summary": "A equipe de desenvolvimento do Drupal anunciou a preparação de um patch para uma vulnerabilidade classificada como “altamente crítica”, cuja exploração por atacantes pode ocorrer em horas ou dias após a divulgação. A correção será publicada no dia 20 de maio, entre 17h e 21h UTC, para todas as versões suportadas do sistema de gerenciamento de conteúdo. Os desenvolvedores recomendaram que administradores reservem tempo durante a janela de lançamento para determinar se seus sites foram afetados e precisam de atualização imediata. Informações de mitigação serão incluídas no aviso.",
+      "link": "https://www.cisoadvisor.com.br/drupal-corrigira-falha-altamente-critica/",
+      "published": "20/05/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "5 dias Segurança Fornecedora da Apple, Foxconn é invadida e confirma roubo de 8 TB de dados",
+      "title": "6 dias Segurança Fornecedora da Apple, Foxconn é invadida e confirma roubo de 8 TB de dados",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "identity",
       "summary": "A fabricante Foxconn , principal fornecedora de chips da Apple e uma das maiores fabricantes de eletrônicos do mundo, confirmou que suas operações na América do Norte foram alvo de um ataque de ransomware . De acordo reportagens, o ataque comprometeu servidores e sistemas operacionais em fábricas localizadas no México e nos Estados Unidos , resultando na interrupção temporária das atividades nessas fábricas. A companhia confirmou que os invasores tiveram acesso a documentos internos corporativos antes de sequestrarem e roubarem 8 TB de dados da empresa . Segundo o Wired, esses dados envolvem projetos de clientes como Dell , Google, Apple e NVIDIA .",
       "link": "https://canaltech.com.br/seguranca/fornecedora-da-apple-foxconn-e-invadida-e-confirma-roubo-de-8-tb-de-dados/",
-      "published": "19/05/2026 12:00",
+      "published": "20/05/2026 12:00",
       "cves": [],
       "vendor": "Google"
+    },
+    {
+      "title": "Fornecedor da CISA expôs 844 MB de segredos no GitHub por 6 meses",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um funcionário terceirizado da Agência de Segurança Cibernética dos EUA (CISA) manteve um repositório público no GitHub chamado “Private-CISA” que expunha 844 MB de dados confidenciais, incluindo senhas em texto plano, tokens da AWS GovCloud e certificados SAML da Entra ID, conforme reportagem publicada por Brian Krebs em 18 de maio de 2026. O repositório, criado em 13 de novembro de 2025, continha 498 MB apenas na árvore de trabalho ativa. A empresa de segurança GitGuardian detectou o vazamento em 14 de maio de 2026 por meio de seu monitoramento público e relatou o caso ao CERT/CC, conforme detalhado em publicação no dia 19 de maio.",
+      "link": "https://www.cisoadvisor.com.br/fornecedor-da-cisa-expos-844-mb-de-segredos-no-github-por-6-meses/",
+      "published": "20/05/2026 12:00",
+      "cves": [],
+      "vendor": "AWS"
     }
   ]
 }
