@@ -1,69 +1,67 @@
 {
-  "generated_at": "2026-05-25T10:11:09.306965-03:00",
+  "generated_at": "2026-05-25T12:00:00.078145-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Microsoft corrige falhas do Defender exploradas como zero-day",
-      "source": "CISO Advisor",
+      "title": "Splunk corrige falhas que podem expor dados sensíveis e causar DoS",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft lançou patches para duas vulnerabilidades no Microsoft Defender, ambas já exploradas em ataques como falhas do tipo dia-zero. As brechas, registradas como CVE-2026-41091 e CVE-2026-45498, foram corrigidas na versão 4.18.26040.7 da plataforma antimalware. A primeira permite que atacantes elevem seus privilégios para o nível de Sistema; a segunda cria uma condição de negação de serviço. Segundo especialistas, as duas vulnerabilidades são as variantes RedSun e UnDefend do exploit BlueHammer, divulgadas publicamente no mês passado pelo pesquisador Chaos Eclipse. O BlueHammer também já foi explorado em ataques.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-falhas-do-defender-exploradas-como-zero-day/",
-      "published": "25/05/2026 10:11",
+      "summary": "A Splunk lançou atualizações de segurança para corrigir três vulnerabilidades que afetam o Splunk Enterprise, o Splunk Cloud Platform e o Splunk AI Toolkit. As falhas podem causar negação de serviço e exposição de dados sensíveis em ambientes corporativos. Os problemas foram divulgados em 20 de maio de 2026 e são rastreados como CVE-2026-20238, CVE-2026-20239 e CVE-2026-20240.",
+      "link": "https://boletimsec.com/splunk-corrige-falhas-que-podem-expor-dados-sensiveis-e-causar-dos/",
+      "published": "25/05/2026 12:00",
       "cves": [
-        "CVE-2026-41091",
-        "CVE-2026-45498"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Drupal corrige falha crítica já atacada",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Drupal alertou usuários sobre tentativas de exploração de uma vulnerabilidade crítica corrigida no início da semana. A falha CVE-2026-9082 atinge uma API do sistema, permitindo que atacantes não autenticados enviem solicitações especialmente criadas para injetar comandos SQL arbitrários. Segundo os especialistas da empresa, o problema pode levar à obtenção de informações e, em alguns casos, à escalada de privilégios e execução remota de código. A vulnerabilidade afeta apenas sites que utilizam bancos de dados PostgreSQL, o que corresponde a menos de 5% das centenas de milhares de páginas que usam o sistema de gestão de conteúdo.",
-      "link": "https://www.cisoadvisor.com.br/drupal-corrige-falha-critica-ja-atacada/",
-      "published": "25/05/2026 10:11",
-      "cves": [
-        "CVE-2026-9082"
+        "CVE-2026-20238",
+        "CVE-2026-20239",
+        "CVE-2026-20240"
       ],
       "vendor": null
     },
     {
-      "title": "TrendMicro corrige oito falhas no Apex One e Vision One",
-      "source": "CISO Advisor",
+      "title": "Novo ransomware WantToCry abusa de compartilhamentos SMB",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A TrendMicro publicou atualizações para os sistemas Apex One e Vision One – Standard Endpoint Protection (SEP) nesta quinta-feira, 21 de maio, após observar pelo menos uma tentativa de exploração ativa de vulnerabilidades em ambiente real. O comunicado da empresa detalha oito falhas, identificadas pelos códigos CVE-2026-34926 até 34930 e CVE-2026-45206 até 45208, com pontuação CVSS que varia entre 6,7 e 7,8, classificadas como de gravidade média a alta. Os problemas afetam versões do produto para Windows, incluindo as implantações locais do Apex One 2019 com builds abaixo de 17079 e os agentes SaaS do Apex One as a Service e do Vision One SEP com builds inferiores a 14.0.20731.",
-      "link": "https://www.cisoadvisor.com.br/trendmicro-corrige-oito-falhas-no-apex-one-e-vision-one/",
-      "published": "25/05/2026 10:11",
-      "cves": [
-        "CVE-2026-34926",
-        "CVE-2026-45206"
-      ],
-      "vendor": "Windows"
-    },
-    {
-      "title": "VPN do cibercrime é desmantelada em ação global",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Europol anunciou, em 21 de maio de 2026, o desmantelamento da ‘First VPN’, um serviço VPN utilizado por criminosos para ocultar ataques de ransomware, roubo de dados e outros crimes graves. A operação, liderada pela França e Holanda entre 19 e 20 de maio, contou com o apoio da Europol e da empresa de segurança Bitdefender, parceira na investigação. O administrador do serviço foi entrevistado e sua residência na Ucrânia foi vasculhada, resultando na apreensão de 33 servidores. Por anos, a ‘First VPN’ foi promovida em fóruns de cibercrime de língua russa como uma ferramenta confiável para permanecer fora do alcance da lei, oferecendo pagamentos anônimos e infraestrutura oculta.",
-      "link": "https://www.cisoadvisor.com.br/vpn-do-cibercrime-e-desmantelada-em-acao-global/",
-      "published": "25/05/2026 10:11",
+      "category": "threat",
+      "summary": "O ransomware WantToCry está sendo usado contra empresas ao abusar de serviços SMB expostos na internet para criptografar arquivos remotamente, sem instalar malware no sistema da vítima. A técnica reduz a visibilidade do ataque e dificulta a detecção por ferramentas tradicionais de segurança. Apesar do nome semelhante ao WannaCry, que causou impactos globais em 2017, o WantToCry não se comporta como um worm e não há indicação de ligação entre as duas operações. A semelhança está no interesse por ambientes que mantêm portas SMB acessíveis externamente. A análise da SophosLabs indica que os operadores começam varrendo a internet em busca de sistemas com as portas TCP 139 e 445 abertas.",
+      "link": "https://boletimsec.com/novo-ransomware-wanttocry-abusa-de-compartilhamentos-smb/",
+      "published": "25/05/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Falha crítica da PSN faz mais vítimas e Sony dá de ombros",
+      "title": "14.05.26 Segurança Fornecedora da Apple, Foxconn é invadida e confirma roubo de 8 TB de dados",
       "source": "Canaltech Segurança",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A vulnerabilidade da PSN continua a impactar usuários e mais reclamações lotam as plataformas digitais. Uma das vítimas dos hackers foi o dono do Last Stand Media e apresentador de podcasts, Colin Moriarty, que apontou no X (antigo Twitter ) que também sofreu o golpe recentemente. Ele afirma que os ataques miram “tanto jogadores proeminentes quanto aleatórios”. Inclusive, ele recebeu um aviso de outro usuário de que seria hackeado e a ameaça se concretizou, mesmo sem clicar em links suspeitos ou colocar sua senha em plataformas fora do ecossistema PlayStation. Para piorar, o coapresentador Dustin Furman recebeu uma mensagem da conta hackeada de Moriarty, que afirmava “você é o próximo”.",
-      "link": "https://canaltech.com.br/seguranca/falha-critica-da-psn-faz-mais-vitimas-e-sony-da-de-ombros/",
-      "published": "25/05/2026 10:11",
+      "category": "identity",
+      "summary": "A fabricante Foxconn , principal fornecedora de chips da Apple e uma das maiores fabricantes de eletrônicos do mundo, confirmou que suas operações na América do Norte foram alvo de um ataque de ransomware . De acordo reportagens, o ataque comprometeu servidores e sistemas operacionais em fábricas localizadas no México e nos Estados Unidos , resultando na interrupção temporária das atividades nessas fábricas. A companhia confirmou que os invasores tiveram acesso a documentos internos corporativos antes de sequestrarem e roubarem 8 TB de dados da empresa . Segundo o Wired, esses dados envolvem projetos de clientes como Dell , Google, Apple e NVIDIA .",
+      "link": "https://canaltech.com.br/seguranca/fornecedora-da-apple-foxconn-e-invadida-e-confirma-roubo-de-8-tb-de-dados/",
+      "published": "25/05/2026 12:00",
       "cves": [],
+      "vendor": "Google"
+    },
+    {
+      "title": "15.05.26 Segurança Funcionários da OpenAI tiveram dados roubados em ataque hacker",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A OpenAI confirmou que dispositivos de dois funcionários foram comprometidos por um ataque de cadeia de suprimentos (supply-chain attack) que utilizou a biblioteca open source TanStack como vetor. Após investigação, a empresa afirmou não ter encontrado evidências de acesso a dados de usuários, alteração de software ou comprometimento de sistemas de produção e propriedade intelectual. O ponto de entrada foi a própria TanStack, ferramenta amplamente usada por desenvolvedores para construir aplicações web.",
+      "link": "https://canaltech.com.br/seguranca/funcionarios-da-openai-tiveram-dados-roubados-em-ataque-hacker/",
+      "published": "25/05/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "CISA alerta para falha explorada ativamente no Trend Micro Apex One",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A CISA incluiu uma vulnerabilidade do Trend Micro Apex One em seu catálogo de falhas exploradas ativamente, após alertas sobre ataques em andamento contra implantações locais da plataforma. A falha é rastreada como CVE-2026-34926 e afeta ambientes on-premise do produto. O problema foi classificado como uma vulnerabilidade de directory traversal, associada à categoria CWE-23.",
+      "link": "https://boletimsec.com/cisa-alerta-para-falha-explorada-ativamente-no-trend-micro-apex-one/",
+      "published": "25/05/2026 12:00",
+      "cves": [
+        "CVE-2026-34926"
+      ],
       "vendor": null
     }
   ]
