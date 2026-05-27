@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-05-26T12:00:00.008080-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-05-27T12:00:00.019165-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Mythos encontra 23 mil falhas em projetos de código aberto",
+      "title": "Falha no SharePoint permite execução remota de código",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Anthropic, empresa de inteligência artificial , revelou que seu modelo Claude Mythos identificou mais de 23 mil potenciais falhas de segurança em mais de mil projetos de software de código aberto. Das 1.900 vulnerabilidades analisadas até o momento por empresas externas, 1.726 foram confirmadas, sendo mais de mil classificadas como de gravidade alta ou crítica. Ainda em fase de análise, o modelo já aponta para a confirmação de quase 3.900 vulnerabilidades graves com base apenas nas descobertas atuais, segundo os especialistas da empresa. Como as varreduras continuam, a estimativa é que esse número possa chegar a 6.200.",
-      "link": "https://www.cisoadvisor.com.br/mythos-encontra-23-mil-falhas-em-projetos-de-codigo-aberto/",
-      "published": "26/05/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "summary": "A Microsoft publicou uma vulnerabilidade crítica no SharePoint Server que possibilita ataques de execução remota de código. O problema, registrado como CVE-2026-45659 , atinge versões da plataforma mantidas localmente pelas empresas. A falha foi classificada como de severidade Importante, com potencial de exploração considerado baixo pela fabricante. O risco está na desserialização de dados não confiáveis no Microsoft Office SharePoint. Qualquer usuário autenticado com permissões mínimas de Membro do Site pode acionar a vulnerabilidade, sem necessidade de privilégios administrativos. O vetor de ataque é baseado em rede e de baixa complexidade, conforme comunicado da empresa.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-sharepoint-permite-execucao-remota-de-codigo/",
+      "published": "27/05/2026 12:00",
+      "cves": [
+        "CVE-2026-45659"
+      ],
+      "vendor": "Microsoft"
     },
     {
-      "title": "Vulnerabilidade de SQL injection no Drupal exige correção urgente",
+      "title": "Microsoft corrige vulnerabilidade RCE em versões locais do SharePoint",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA alertou que uma falha de SQL injection no Drupal Core já está sendo explorada em ataques reais. A vulnerabilidade, rastreada como CVE-2026-9082, foi incluída no catálogo de falhas exploradas conhecidas em 22 de maio de 2026. O problema afeta o mecanismo de abstração de banco de dados do Drupal e permite a injeção de comandos SQL por meio de requisições especialmente criadas. A falha foi classificada como CWE-89, categoria associada à neutralização inadequada de elementos usados em consultas SQL.",
-      "link": "https://boletimsec.com/vulnerabilidade-de-sql-injection-no-drupal-exige-correcao-urgente/",
-      "published": "26/05/2026 12:00",
+      "summary": "Uma vulnerabilidade no Microsoft SharePoint Server pode permitir execução remota de código por invasores autenticados em ambientes locais da plataforma. A falha, rastreada como CVE-2026-45659, foi divulgada pela Microsoft em 21 de maio de 2026. O problema afeta implantações on-premise do SharePoint usadas por empresas para colaboração, gestão de documentos e portais internos ou externos. A falha recebeu severidade “Importante”, embora a Microsoft avalie a exploração como menos provável no momento. A vulnerabilidade está ligada à desserialização de dados não confiáveis no Microsoft Office SharePoint.",
+      "link": "https://boletimsec.com/microsoft-corrige-vulnerabilidade-rce-em-versoes-locais-do-sharepoint/",
+      "published": "27/05/2026 12:00",
       "cves": [
-        "CVE-2026-9082"
+        "CVE-2026-45659"
       ],
-      "vendor": null
+      "vendor": "Microsoft"
     },
     {
-      "title": "Injeção de SQL no Ghost expõe banco de dados",
+      "title": "Windows Defender isola máquinas durante ataques",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "O Ghost, sistema de gerenciamento de conteúdo baseado em Node.js, apresenta uma vulnerabilidade de injeção de SQL que permite a leitura de informações do banco de dados por atacantes não autenticados. A falha, identificada como CVE-2026-26980 , afeta todas as versões entre 3.24.0 e 6.19.0. A correção foi publicada na versão 6.19.1. O problema está na funcionalidade de ordenação do filtro “slug” da API de Conteúdo. O código original insere valores fornecidos pelo usuário diretamente em instruções SQL sem a devida sanitização, usando interpolação de strings. Um invasor pode enviar valores maliciosos que quebram o contexto original e injetam comandos SQL arbitrários.",
-      "link": "https://www.cisoadvisor.com.br/injecao-de-sql-no-ghost-expoe-banco-de-dados/",
-      "published": "26/05/2026 12:00",
-      "cves": [
-        "CVE-2026-26980"
-      ],
-      "vendor": null
+      "category": "identity",
+      "summary": "Microsoft ativou funcionalidade no Defender for Endpoint que desconecta estações de trabalho comprometidas da rede no momento da detecção de campanhas de ransomware ou intrusões sofisticadas, sem aguardar ação humana. A plataforma correlaciona sinais entre endpoints, identidades, e-mail e aplicações SaaS para formar uma visão unificada de incidentes. Quando confirma um ataque em andamento com alta confiança, o sistema dispara ações de contenção no nível do incidente, não apenas do alerta.",
+      "link": "https://www.cisoadvisor.com.br/windows-defender-isola-maquinas-durante-ataques/",
+      "published": "27/05/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     },
     {
-      "title": "5 dias Segurança Falha crítica da PSN faz mais vítimas e Sony dá de ombros",
+      "title": "Grupo APT iraniano usa SEO poisoning para distribuir malware",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Um grupo APT iraniano passou a usar envenenamento de SEO para distribuir um instalador falso do Oracle SQL Developer e infectar máquinas Windows com uma nova backdoor. A campanha foi atribuída ao Nimbus Manticore, também rastreado como UNC1549, ligado ao Corpo da Guarda Revolucionária Islâmica do Irã. A atividade foi identificada em três ondas entre fevereiro e abril de 2026. A mais recente, chamada de campanha “SQL Developer”, marcou uma mudança no modo de operação do grupo, que historicamente usava phishing direcionado com falsas ofertas de emprego contra profissionais de aviação e software.",
+      "link": "https://boletimsec.com/grupo-apt-iraniano-usa-seo-poisoning-para-distribuir-malware/",
+      "published": "27/05/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "6 dias Segurança Falha crítica da PSN faz mais vítimas e Sony dá de ombros",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "A vulnerabilidade da PSN continua a impactar usuários e mais reclamações lotam as plataformas digitais. Uma das vítimas dos hackers foi o dono do Last Stand Media e apresentador de podcasts, Colin Moriarty, que apontou no X (antigo Twitter ) que também sofreu o golpe recentemente. Ele afirma que os ataques miram “tanto jogadores proeminentes quanto aleatórios”. Inclusive, ele recebeu um aviso de outro usuário de que seria hackeado e a ameaça se concretizou, mesmo sem clicar em links suspeitos ou colocar sua senha em plataformas fora do ecossistema PlayStation. Para piorar, o coapresentador Dustin Furman recebeu uma mensagem da conta hackeada de Moriarty, que afirmava “você é o próximo”.",
       "link": "https://canaltech.com.br/seguranca/falha-critica-da-psn-faz-mais-vitimas-e-sony-da-de-ombros/",
-      "published": "26/05/2026 12:00",
+      "published": "27/05/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "FBI alerta sobre plataforma de phishing Kali365",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O FBI publicou um alerta sobre a plataforma Kali365, um serviço de phishing por assinatura identificado em abril de 2026. A ferramenta permite que criminosos capturem tokens de acesso a ambientes Microsoft 365 sem a necessidade de interceptar senhas ou enfrentar barreiras de autenticação multifator. A distribuição ocorre principalmente pelo Telegram. O ataque começa com um e-mail que imita serviços legítimos de armazenamento em nuvem. A mensagem contém um código de dispositivo e instruções para que a vítima acesse uma página verdadeira da Microsoft e insira o código ali. Ao fazer isso, o usuário autoriza, sem saber, o equipamento do criminoso a acessar sua conta.",
-      "link": "https://www.cisoadvisor.com.br/fbi-alerta-sobre-plataforma-de-phishing-kali365/",
-      "published": "26/05/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
     }
   ]
 }
