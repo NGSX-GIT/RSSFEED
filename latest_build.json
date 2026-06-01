@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-05-28T12:00:00.022161-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-06-01T12:23:02.272245-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Brasil em nível crítico: Cisco, Exchange e OpenAI",
+      "title": "FortiClient EMS é explorado em novos ataques",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A equipe de Cyber Threat Intelligence da DANRESA Cybersecurity emitiu um comunicado colocando o ecossistema corporativo brasileiro em nível crítico de vulnerabilidade. O monitoramento da última semana revelou uma convergência de riscos de alto impacto operando simultaneamente: exploração ativa de backbones de comunicação de grandes empresas e invasões à cadeia de suprimentos de software de gigantes de inteligência artificial, como a OpenAI. Os analistas identificaram campanhas criminosas explorando duas falhas críticas. A principal delas está na tecnologia Cisco SD-WAN, registrada como CVE-2026-20182, que recebeu nota máxima de gravidade (CVSS 10.0).",
-      "link": "https://www.cisoadvisor.com.br/brasil-em-nivel-critico-cisco-exchange-e-openai/",
-      "published": "28/05/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no FortiClient Endpoint Management Server (EMS), corrigida em abril, está sendo ativamente explorada em novos ataques para instalar malware ladrão de informações, conforme relatório da Arctic Wolf publicado ontem. O defeito, registrado como CVE-2026-35616 (CVSS de 9,1), permite execução remota de código (RCE) por meio de solicitações especialmente criadas e não exige autenticação, segundo a empresa de segurança. A Fortinet publicou hotfixes para o problema no início de abril, alertando que a falha já havia sido explorada como zero-day e instruindo a aplicação imediata de patches.",
+      "link": "https://www.cisoadvisor.com.br/forticlient-ems-e-explorado-em-novos-ataques/",
+      "published": "01/06/2026 12:23",
       "cves": [
-        "CVE-2026-20182"
+        "CVE-2026-35616"
       ],
-      "vendor": "Cisco"
+      "vendor": "Fortinet"
     },
     {
-      "title": "CISA alerta para falha crítica no plugin LiteSpeed",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A agência de cibersegurança dos Estados Unidos emitiu um alerta para que órgãos federais corrijam imediatamente uma vulnerabilidade de severidade crítica no plugin de usuário final da LiteSpeed para cPanel , que está sendo explorada ativamente. Registrada como CVE-2026-48172 e com pontuação 9.8 no CVSS, a falha permite que atacantes executem scripts arbitrários com privilégios de root, conforme comunicado da LiteSpeed. O defeito de segurança foi resolvido na semana passada na versão 2.4.5 do plugin, após ser explorado como vulnerabilidade dia zero. A empresa afirmou que o plugin WHM da LiteSpeed não é afetado. Todas as versões do plugin de usuário final entre v2.3 e v2.4.4 apresentam risco.",
-      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-falha-critica-no-plugin-litespeed/",
-      "published": "28/05/2026 12:00",
-      "cves": [
-        "CVE-2026-48172"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha no 7-Zip permite execução remota de código",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Pesquisadores publicaram detalhes de uma vulnerabilidade no programa de compactação 7-Zip que possibilita a execução remota de código quando usuários abrem um arquivo especialmente preparado. O problema, registrado como CVE-2026-48095, foi resolvido no final de abril com o lançamento da versão 26.01, mas as notas de atualização não mencionavam a falha. A vulnerabilidade existe na parte do software responsável pelo processamento de arquivos NTFS. De acordo com os especialistas, abrir um arquivo especialmente preparado pode causar um estouro de buffer na memória heap, permitindo que um atacante execute código no sistema da vítima.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-7-zip-permite-execucao-remota-de-codigo/",
-      "published": "28/05/2026 12:00",
-      "cves": [
-        "CVE-2026-48095"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha crítica no LiteSpeed cPanel é explorada para obter acesso root",
+      "title": "Usuários do Notepad++ devem atualizar após alerta sobre falhas críticas",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no LiteSpeed User-End cPanel Plugin está sendo explorada ativamente para obter execução de scripts com privilégios de root em servidores de hospedagem. Segundo a LiteSpeed, a falha está relacionada à atribuição incorreta de privilégios e pode ser explorada por qualquer usuário cPanel, incluindo contas comprometidas ou controladas por invasores. O ponto vulnerável está na função lsws.redisAble, que pode ser abusada para executar scripts arbitrários como root.",
-      "link": "https://boletimsec.com/falha-critica-no-litespeed-cpanel-e-explorada-para-obter-acesso-root/",
-      "published": "28/05/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "summary": "O Notepad++ lançou uma atualização urgente para corrigir três vulnerabilidades de segurança, incluindo duas falhas críticas que podem permitir execução arbitrária de código em computadores Windows. A correção foi disponibilizada na versão 8.9.6.1, publicada em 26 de maio de 2026. As falhas afetam usuários que executam o Notepad++ 8.9.6 ou versões anteriores. A vulnerabilidade mais grave, CVE-2026-48778, está ligada ao arquivo config.xml. O problema envolve a tag , cujo valor é lido e armazenado pelo editor sem validação adequada, lista de permissão ou verificação de assinatura.",
+      "link": "https://boletimsec.com/usuarios-do-notepad-devem-atualizar-apos-alerta-sobre-falhas-criticas/",
+      "published": "01/06/2026 12:23",
+      "cves": [
+        "CVE-2026-48778"
+      ],
+      "vendor": "Windows"
     },
     {
-      "title": "HackerOne reduz drasticamente recompensas por falhas",
+      "title": "Pesquisador expõe BitLocker e Microsoft critica divulgação",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A plataforma de bug bounty HackerOne reduziu os valores pagos por vulnerabilidades em seu programa Internet Bug Bounty, que permanece pausado e sem aceitar novas submissões. A recompensa por uma falha crítica caiu de US9.250 para US 2.257, uma redução de mais de 75%, enquanto vulnerabilidades de severidade média passaram de US1.843 para US 297. Segundo a empresa, os níveis de recompensa se ajustam automaticamente com base nas contribuições dos patrocinadores ativos do programa. Um porta-voz afirmou que a pausa ocorre enquanto avaliam ajustes para maximizar o valor para pesquisadores, patrocinadores e o ecossistema de código aberto .",
-      "link": "https://www.cisoadvisor.com.br/hackerone-reduz-drasticamente-recompensas-por-falhas/",
-      "published": "28/05/2026 12:00",
+      "summary": "A Microsoft criticou publicamente pesquisadores de segurança que publicam vulnerabilidades do Windows na internet sem antes informar a empresa, citando como exemplo o caso da falha “YellowKey” no BitLocker . A empresa afirma que essa prática cria riscos desnecessários e coloca usuários do Windows em perigo. Nos últimos dias, diversas vulnerabilidades surgiram na internet, incluindo RedSun, UnDefend, BlueHammer, YellowKey, GreenPlasma e MiniPlasma. No momento da publicação, não havia patches disponíveis, segundo a empresa.",
+      "link": "https://www.cisoadvisor.com.br/pesquisador-expoe-bitlocker-e-microsoft-critica-divulgacao/",
+      "published": "01/06/2026 12:23",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Falha crítica no OpenVPN Connect para macOS",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica de escalonamento de privilégios foi descoberta no OpenVPN Connect para macOS, permitindo que atacantes locais executem comandos arbitrários com privilégios elevados por meio do serviço de segundo plano do aplicativo. Registrada como CVE-2026-9560 (CVSS 4.0 de 9.4 – Crítico), a falha afeta todas as versões de 3.5.1 a 3.8.1. A fraqueza de segurança reside no componente “privileged helper” do OpenVPN Connect para macOS, um serviço de segundo plano responsável por gerenciar conexões VPN com privilégios elevados no sistema.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-openvpn-connect-para-macos/",
+      "published": "01/06/2026 12:23",
+      "cves": [
+        "CVE-2026-9560"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "20.05.26 Segurança Falha crítica da PSN faz mais vítimas e Sony dá de ombros",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A vulnerabilidade da PSN continua a impactar usuários e mais reclamações lotam as plataformas digitais. Uma das vítimas dos hackers foi o dono do Last Stand Media e apresentador de podcasts, Colin Moriarty, que apontou no X (antigo Twitter ) que também sofreu o golpe recentemente. Ele afirma que os ataques miram “tanto jogadores proeminentes quanto aleatórios”. Inclusive, ele recebeu um aviso de outro usuário de que seria hackeado e a ameaça se concretizou, mesmo sem clicar em links suspeitos ou colocar sua senha em plataformas fora do ecossistema PlayStation. Para piorar, o coapresentador Dustin Furman recebeu uma mensagem da conta hackeada de Moriarty, que afirmava “você é o próximo”.",
+      "link": "https://canaltech.com.br/seguranca/falha-critica-da-psn-faz-mais-vitimas-e-sony-da-de-ombros/",
+      "published": "01/06/2026 12:23",
       "cves": [],
       "vendor": null
     }
