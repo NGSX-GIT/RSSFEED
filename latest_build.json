@@ -1,8 +1,54 @@
 {
-  "generated_at": "2026-06-05T12:00:00.002818-03:00",
+  "generated_at": "2026-06-05T12:00:00.119165-03:00",
   "theme": "Top da Semana",
   "items_count": 5,
   "items": [
+    {
+      "title": "Cisco alerta para vulnerabilidade crítica ligada ao serviço WebDialer",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco corrigiu uma vulnerabilidade crítica no Cisco Unified Communications Manager e no Unified Communications Manager Session Management Edition que pode permitir ataques de server-side request forgery contra sistemas afetados. A falha, rastreada como CVE-2026-20230, foi divulgada em 3 de junho de 2026 e recebeu pontuação CVSS 8,6. A Cisco classificou o caso como crítico porque a exploração pode abrir caminho para elevação de privilégios até root. O problema está na validação inadequada de requisições HTTP específicas. Um invasor remoto e não autenticado pode enviar uma solicitação especialmente criada para fazer o dispositivo processar ações indevidas em nome do servidor.",
+      "link": "https://boletimsec.com/cisco-alerta-para-vulnerabilidade-critica-ligada-ao-servico-webdialer/",
+      "published": "05/06/2026 12:00",
+      "cves": [
+        "CVE-2026-20230"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Falha crítica corrigida no Cisco Unified CM",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco publicou, em 3 de junho de 2026 , um aviso de segurança para corrigir uma vulnerabilidade de Server-Side Request Forgery (SSRF) no Cisco Unified Communications Manager (Unified CM) e na edição Session Management Edition (Unified CM SME), conforme comunicado oficial. A falha recebeu classificação Crítica pela Cisco, com pontuação base CVSS de 8,6, e pode permitir que um invasor remoto não autenticado grave arquivos no sistema operacional subjacente e eleve privilégios para root. Segundo a Cisco, a vulnerabilidade é causada por validação inadequada de entrada para requisições HTTP específicas.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-corrigida-no-cisco-unified-cm/",
+      "published": "05/06/2026 12:00",
+      "cves": [],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "TP-Link corrige falha de alta severidade em interface web de roteadores",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade de alta severidade em roteadores TP-Link pode permitir que invasores executem comandos arbitrários no sistema e comprometam dispositivos afetados. O problema afeta os modelos Archer BE450 v1 e Archer BE7200 v1, em versões de firmware anteriores à 1.3.0 Build 20260416. Segundo o alerta da TP-Link, a correção foi disponibilizada em atualização publicada em 27 de maio de 2026.",
+      "link": "https://boletimsec.com/tp-link-corrige-falha-de-alta-severidade-em-interface-web-de-roteadores/",
+      "published": "05/06/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Copa do Mundo: fraudes digitais exploram torcedores",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores em segurança digital identificaram um aumento de campanhas fraudulentas relacionadas à Copa do Mundo de 2026, que mobiliza milhões de torcedores em todo o planeta. A combinação entre grande volume de informações e clima de euforia favorece a ação de criminosos, que aplicam golpes como venda de ingressos falsos, sorteios fraudulentos e páginas que simulam canais oficiais para capturar dados pessoais e bancários. Segundo Fábio Szescsik, especialista em cibersegurança e diretor de Cyber Security da Inn Tecnologia, os criminosos digitais acompanham o calendário de grandes eventos da mesma forma que os torcedores.",
+      "link": "https://www.cisoadvisor.com.br/copa-do-mundo-fraudes-digitais-exploram-torcedores/",
+      "published": "05/06/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
     {
       "title": "Sistemas de medição de tanques sob risco iminente",
       "source": "CISO Advisor",
@@ -13,50 +59,6 @@
       "published": "05/06/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "21.05.26 Segurança Golpe do Imposto de Renda usa app falso e IA para enganar vítimas",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 21/05/2026 às 07:00 • Atualizado 21/05/2026 às 10:35 Um aplicativo que simulava o aplicativo oficial da Receita Federal acumulou mais de 16 mil downloads em lojas não oficiais antes de ser retirado do ar. O levantamento é da INGENI, divisão de inteligência avançada da Redbelt Security, e integra um mapeamento mais amplo que identificou, ao longo desta temporada do Imposto de Renda 2026, ao menos 80 páginas falsas, 26 perfis fraudulentos em redes sociais e cerca de 10 aplicativos maliciosos com tema fiscal. 🎧 Ouça o Podcast Canaltech no Spotify 🎧 Ouça o Podcast Canaltech na Deezer 🎧 Ouça o Podcast Canaltech no Apple Podcasts",
-      "link": "https://canaltech.com.br/seguranca/golpe-do-imposto-de-renda-usa-app-falso-e-ia-para-enganar-vitimas/",
-      "published": "05/06/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
-    },
-    {
-      "title": "27.05.26 Segurança Vazamento no INSS expõe 2,8 milhões de CPFs; veja como se proteger",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Dados de 2,8 milhões de CPFs registrados em sistemas do Instituto Nacional do Seguro Social (INSS) foram expostos em uma falha envolvendo o app Meu INSS. O incidente foi confirmado pela Dataprev nesta quarta-feira (27) em nota ao Canaltech . O incidente ocorreu em 19 de abril , mas foi divulgado apenas na semana passada pela previdência nacional. “No momento que o INSS teve ciência, foi enviada comunicação à Agência Nacional de Proteção de Dados (ANPD) no prazo devido”, disse o INSS. Entre as informações expostas, estão os CPFs, nomes completos e datas de nascimento de segurados .",
-      "link": "https://canaltech.com.br/seguranca/vazamento-no-inss-expoe-28-milhoes-de-cpfs-veja-como-se-proteger/",
-      "published": "05/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Agência alerta para checagem de dependências",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "O Centro Nacional de Segurança Cibernética do Reino Unido (NCSC) está aconselhando os desenvolvedores de software a não instalarem pacotes e outras atualizações de dependências automaticamente, mas a verificá-las manualmente primeiro. Anteriormente, a agência cibernética americana CISA havia emitido uma recomendação para aguardar pelo menos três horas antes de instalar novos pacotes. Essa medida foi motivada pelos ataques à cadeia de suprimentos que diversas organizações têm sofrido. Nas últimas semanas, atacantes conseguiram infectar diversos pacotes do GitHub, npm ou do Índice de Pacotes Python (PyPI) com malware .",
-      "link": "https://www.cisoadvisor.com.br/agencia-alerta-para-checagem-de-dependencias/",
-      "published": "05/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Exploit ‘HTTP/2 Bomb’ derruba servidor web em 10 segundos",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Pesquisadores da Calif publicaram ontem um exploit de negação de serviço (DoS) chamado “HTTP/2 Bomb”. Ele afeta a configuração padrão dos principais servidores web, incluindo nginx, Apache httpd, Microsoft IIS, Envoy e Cloudflare Pingora, conforme artigo no blog da empresa. A falha foi descoberta por Quang Luong com o Codex, e combina duas técnicas conhecidas há uma década: uma bomba de compressão e uma técnica de espera do tipo Slowloris. Um computador doméstico com conexão de 100 Mbps pode tornar um servidor vulnerável inacessível em segundos. Segundo os pesquisadores da Calif, o exploit tem como alvo o HPACK, esquema de compressão de cabeçalho do HTTP/2.",
-      "link": "https://www.cisoadvisor.com.br/exploit-http-2-bomb-derruba-servidor-web-em-10-segundos/",
-      "published": "05/06/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
     }
   ]
 }
