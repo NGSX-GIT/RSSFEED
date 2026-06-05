@@ -1,42 +1,31 @@
 {
-  "generated_at": "2026-06-05T00:11:50.930131-03:00",
+  "generated_at": "2026-06-05T10:57:23.724469-03:00",
   "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Microsoft recua após ameaça legal a pesquisador",
-      "source": "CISO Advisor",
+      "title": "Cisco alerta para vulnerabilidade crítica ligada ao serviço WebDialer",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft respondeu, no último domingo (1º de junho), a críticas da comunidade de segurança após sugerir ações judiciais contra um pesquisador que divulgou publicamente detalhes e códigos de exploração (PoC) para múltiplas vulnerabilidades zero-day em produtos da empresa. O caso expõe a tensão entre práticas de divulgação coordenada e os limites da responsabilidade legal de pesquisadores. Um pesquisador conhecido online como Chaotic Eclipse e Nightmare Eclipse divulgou nas últimas semanas detalhes e PoCs de várias vulnerabilidades não corrigidas em produtos Microsoft.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-recua-apos-ameaca-legal-a-pesquisador/",
-      "published": "05/06/2026 00:12",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Falha no Linux permite escapar de contêineres",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A agência de segurança cibernética dos EUA (CISA) alertou ontem (2 de junho) sobre a exploração ativa da vulnerabilidade CVE-2022-0492 (CVSS 7.8) no kernel do Linux, que permite que invasores escapem de contêineres e escalonem privilégios. A falha, descrita como autenticação inadequada, afeta exclusivamente o cgroups v1, recurso essencial para isolamento de processos e criação de contêineres. A falha reside no cgroups v1, mecanismo do kernel que especifica quais recursos do sistema operacional um grupo de processos pode usar.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-linux-permite-escapar-de-conteineres/",
-      "published": "05/06/2026 00:12",
+      "summary": "A Cisco corrigiu uma vulnerabilidade crítica no Cisco Unified Communications Manager e no Unified Communications Manager Session Management Edition que pode permitir ataques de server-side request forgery contra sistemas afetados. A falha, rastreada como CVE-2026-20230, foi divulgada em 3 de junho de 2026 e recebeu pontuação CVSS 8,6. A Cisco classificou o caso como crítico porque a exploração pode abrir caminho para elevação de privilégios até root. O problema está na validação inadequada de requisições HTTP específicas. Um invasor remoto e não autenticado pode enviar uma solicitação especialmente criada para fazer o dispositivo processar ações indevidas em nome do servidor.",
+      "link": "https://boletimsec.com/cisco-alerta-para-vulnerabilidade-critica-ligada-ao-servico-webdialer/",
+      "published": "05/06/2026 10:57",
       "cves": [
-        "CVE-2022-0492"
+        "CVE-2026-20230"
       ],
-      "vendor": "Linux"
+      "vendor": "Cisco"
     },
     {
-      "title": "20.05.26 Segurança Falha crítica da PSN faz mais vítimas e Sony dá de ombros",
-      "source": "Canaltech Segurança",
+      "title": "Falha crítica corrigida no Cisco Unified CM",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A vulnerabilidade da PSN continua a impactar usuários e mais reclamações lotam as plataformas digitais. Uma das vítimas dos hackers foi o dono do Last Stand Media e apresentador de podcasts, Colin Moriarty, que apontou no X (antigo Twitter ) que também sofreu o golpe recentemente. Ele afirma que os ataques miram “tanto jogadores proeminentes quanto aleatórios”. Inclusive, ele recebeu um aviso de outro usuário de que seria hackeado e a ameaça se concretizou, mesmo sem clicar em links suspeitos ou colocar sua senha em plataformas fora do ecossistema PlayStation. Para piorar, o coapresentador Dustin Furman recebeu uma mensagem da conta hackeada de Moriarty, que afirmava “você é o próximo”.",
-      "link": "https://canaltech.com.br/seguranca/falha-critica-da-psn-faz-mais-vitimas-e-sony-da-de-ombros/",
-      "published": "05/06/2026 00:12",
+      "summary": "A Cisco publicou, em 3 de junho de 2026 , um aviso de segurança para corrigir uma vulnerabilidade de Server-Side Request Forgery (SSRF) no Cisco Unified Communications Manager (Unified CM) e na edição Session Management Edition (Unified CM SME), conforme comunicado oficial. A falha recebeu classificação Crítica pela Cisco, com pontuação base CVSS de 8,6, e pode permitir que um invasor remoto não autenticado grave arquivos no sistema operacional subjacente e eleve privilégios para root. Segundo a Cisco, a vulnerabilidade é causada por validação inadequada de entrada para requisições HTTP específicas.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-corrigida-no-cisco-unified-cm/",
+      "published": "05/06/2026 10:57",
       "cves": [],
-      "vendor": null
+      "vendor": "Cisco"
     },
     {
       "title": "20.05.26 Segurança Golpistas usam Copa do Mundo 2026 para aplicar fraudes online",
@@ -45,21 +34,30 @@
       "category": "patches",
       "summary": "Com a Copa do Mundo de 2026 se aproximando, golpistas já estão preparados para explorar o entusiasmo dos torcedores. Criptomoedas temáticas falsas, ingressos inexistentes, sites de apostas fraudulentos e páginas que imitam a FIFA são algumas das armadilhas identificadas por pesquisadores de segurança digital nas semanas que antecedem o torneio, que começa em 11 de junho no México e termina em 19 de julho em Nova York. O chefe global de pesquisa em golpes e inteligência artificial da Malwarebytes, Shahak Shalev, afirma que os criminosos tratam grandes eventos como datas comerciais .",
       "link": "https://canaltech.com.br/seguranca/golpistas-usam-copa-do-mundo-2026-para-aplicar-fraudes-online/",
-      "published": "05/06/2026 00:12",
+      "published": "05/06/2026 10:57",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Acer alerta para falhas gravíssimas nos roteadores Wave 7",
+      "title": "TP-Link corrige falha de alta severidade em interface web de roteadores",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade de alta severidade em roteadores TP-Link pode permitir que invasores executem comandos arbitrários no sistema e comprometam dispositivos afetados. O problema afeta os modelos Archer BE450 v1 e Archer BE7200 v1, em versões de firmware anteriores à 1.3.0 Build 20260416. Segundo o alerta da TP-Link, a correção foi disponibilizada em atualização publicada em 27 de maio de 2026.",
+      "link": "https://boletimsec.com/tp-link-corrige-falha-de-alta-severidade-em-interface-web-de-roteadores/",
+      "published": "05/06/2026 10:57",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Copa do Mundo: fraudes digitais exploram torcedores",
       "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "A Acer confirmou, em 3 de junho de 2026, que está trabalhando para corrigir duas vulnerabilidades de gravidade máxima em seus roteadores Wave 7, informou o comunicado de segurança publicado pela empresa. As falhas, reportadas pelo pesquisador Gergo Pap, afetam dispositivos com versão de firmware T7c_GBL_1.01.000055 ou anterior. A Acer informou ainda que as correções devem ser lançadas até o final de junho de 2026, conforme comunicado oficial . A primeira vulnerabilidade, registrada como CVE-2026-49200, é uma falha de controle de acesso quebrado. Segundo a Acer, o arquivo acer_cgi.log no firmware do dispositivo fica acessível sem autenticação pela interface web.",
-      "link": "https://www.cisoadvisor.com.br/acer-alerta-para-falhas-gravissimas-nos-roteadores-wave-7/",
-      "published": "05/06/2026 00:12",
-      "cves": [
-        "CVE-2026-49200"
-      ],
+      "summary": "Pesquisadores em segurança digital identificaram um aumento de campanhas fraudulentas relacionadas à Copa do Mundo de 2026, que mobiliza milhões de torcedores em todo o planeta. A combinação entre grande volume de informações e clima de euforia favorece a ação de criminosos, que aplicam golpes como venda de ingressos falsos, sorteios fraudulentos e páginas que simulam canais oficiais para capturar dados pessoais e bancários. Segundo Fábio Szescsik, especialista em cibersegurança e diretor de Cyber Security da Inn Tecnologia, os criminosos digitais acompanham o calendário de grandes eventos da mesma forma que os torcedores.",
+      "link": "https://www.cisoadvisor.com.br/copa-do-mundo-fraudes-digitais-exploram-torcedores/",
+      "published": "05/06/2026 10:57",
+      "cves": [],
       "vendor": null
     }
   ]
