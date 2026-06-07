@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-06T12:00:00.170304-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-06-07T12:00:00.092184-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Agência alerta para checagem de dependências",
+      "title": "Derrubada do XSS criou quatro plataformas de cibercrime",
       "source": "CISO Advisor",
       "priority": "Média",
-      "category": "cloud",
-      "summary": "O Centro Nacional de Segurança Cibernética do Reino Unido (NCSC) está aconselhando os desenvolvedores de software a não instalarem pacotes e outras atualizações de dependências automaticamente, mas a verificá-las manualmente primeiro. Anteriormente, a agência cibernética americana CISA havia emitido uma recomendação para aguardar pelo menos três horas antes de instalar novos pacotes. Essa medida foi motivada pelos ataques à cadeia de suprimentos que diversas organizações têm sofrido. Nas últimas semanas, atacantes conseguiram infectar diversos pacotes do GitHub, npm ou do Índice de Pacotes Python (PyPI) com malware .",
-      "link": "https://www.cisoadvisor.com.br/agencia-alerta-para-checagem-de-dependencias/",
-      "published": "06/06/2026 12:00",
+      "category": "identity",
+      "summary": "O ecossistema do cibercrime de língua russa, antes centralizado no fórum XSS (desarticulado pela Europol em julho de 2025), fragmentou-se em quatro plataformas concorrentes, segundo relatório da Flashpoint divulgado no dia 3 deste mês. O fórum original, que por mais de 20 anos foi o principal ponto de encontro para venda de malware, serviços de phishing, carding e recrutamento de agentes de ameaça, teve seu administrador preso na Ucrânia e seu domínio apreendido em operação multinacional envolvendo França e Ucrânia. De acordo com a análise da Flashpoint, quatro ambientes concorrentes surgiram após a desarticulação do XSS.",
+      "link": "https://www.cisoadvisor.com.br/derrubada-do-xss-criou-quatro-plataformas-de-cibercrime/",
+      "published": "07/06/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Novo Malware mira setor de criptomoedas com técnicas avançadas",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O PHANTOMPULSE, um novo trojan de acesso remoto para Windows, foi detalhado em uma campanha que combina engenharia social, injeção de processos, bypass de UAC e comunicação por blockchain para comprometer sistemas ligados ao setor de criptomoedas. O malware aparece como carga final da cadeia REF6598, que começa com abuso de plugins do Obsidian. Após obter o primeiro acesso, um loader em memória chamado PHANTOMPULL instala o implante e prepara o ambiente para persistência e comunicação com os operadores.",
-      "link": "https://boletimsec.com/novo-malware-mira-setor-de-criptomoedas-com-tecnicas-avancadas/",
-      "published": "06/06/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "21.05.26 Segurança Golpe do Imposto de Renda usa app falso e IA para enganar vítimas",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 21/05/2026 às 07:00 • Atualizado 21/05/2026 às 10:35 Um aplicativo que simulava o aplicativo oficial da Receita Federal acumulou mais de 16 mil downloads em lojas não oficiais antes de ser retirado do ar. O levantamento é da INGENI, divisão de inteligência avançada da Redbelt Security, e integra um mapeamento mais amplo que identificou, ao longo desta temporada do Imposto de Renda 2026, ao menos 80 páginas falsas, 26 perfis fraudulentos em redes sociais e cerca de 10 aplicativos maliciosos com tema fiscal. 🎧 Ouça o Podcast Canaltech no Spotify 🎧 Ouça o Podcast Canaltech na Deezer 🎧 Ouça o Podcast Canaltech no Apple Podcasts",
-      "link": "https://canaltech.com.br/seguranca/golpe-do-imposto-de-renda-usa-app-falso-e-ia-para-enganar-vitimas/",
-      "published": "06/06/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
-    },
-    {
-      "title": "26.05.26 Segurança FBI alerta: nova ameaça rouba contas da Microsoft sem nem precisar da senha",
-      "source": "Canaltech Segurança",
+      "title": "Exploit ‘HTTP/2 Bomb’ derruba servidor web em 10 segundos",
+      "source": "CISO Advisor",
       "priority": "Baixa",
-      "category": "identity",
-      "summary": "O FBI emitiu um alerta sobre o Kali365 , plataforma de phishing como serviço (PhaaS) identificada em abril com foco no Microsoft 365 . O golpe não rouba a senha das vítimas, mas engana o usuário para que ele mesmo autorize o acesso de cibercriminosos a e-mails do Outlook, documentos do OneDrive, mensagens do Teams, entre outras informações. Segundo o investigador de segurança da informação da ESET Latinoamérica, Mario Micucci, a ameaça captura tokens de acesso do Microsoft 365 para sequestrar sessões e contornar a autenticação multifator (MFA) . Para isso, o ataque explora o fluxo de autenticação por código de dispositivo do OAuth , um mecanismo legítimo da Microsoft.",
-      "link": "https://canaltech.com.br/seguranca/fbi-alerta-nova-ameaca-rouba-contas-da-microsoft-sem-nem-precisar-da-senha/",
-      "published": "06/06/2026 12:00",
+      "category": "patches",
+      "summary": "Pesquisadores da Calif publicaram ontem um exploit de negação de serviço (DoS) chamado “HTTP/2 Bomb”. Ele afeta a configuração padrão dos principais servidores web, incluindo nginx, Apache httpd, Microsoft IIS, Envoy e Cloudflare Pingora, conforme artigo no blog da empresa. A falha foi descoberta por Quang Luong com o Codex, e combina duas técnicas conhecidas há uma década: uma bomba de compressão e uma técnica de espera do tipo Slowloris. Um computador doméstico com conexão de 100 Mbps pode tornar um servidor vulnerável inacessível em segundos. Segundo os pesquisadores da Calif, o exploit tem como alvo o HPACK, esquema de compressão de cabeçalho do HTTP/2.",
+      "link": "https://www.cisoadvisor.com.br/exploit-http-2-bomb-derruba-servidor-web-em-10-segundos/",
+      "published": "07/06/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "27.05.26 Segurança Vazamento no INSS expõe 2,8 milhões de CPFs; veja como se proteger",
-      "source": "Canaltech Segurança",
+      "title": "Plugins WordPress acumulam 2.738 falhas no T1 de 2026",
+      "source": "CISO Advisor",
       "priority": "Baixa",
       "category": "patches",
-      "summary": "Dados de 2,8 milhões de CPFs registrados em sistemas do Instituto Nacional do Seguro Social (INSS) foram expostos em uma falha envolvendo o app Meu INSS. O incidente foi confirmado pela Dataprev nesta quarta-feira (27) em nota ao Canaltech . O incidente ocorreu em 19 de abril , mas foi divulgado apenas na semana passada pela previdência nacional. “No momento que o INSS teve ciência, foi enviada comunicação à Agência Nacional de Proteção de Dados (ANPD) no prazo devido”, disse o INSS. Entre as informações expostas, estão os CPFs, nomes completos e datas de nascimento de segurados .",
-      "link": "https://canaltech.com.br/seguranca/vazamento-no-inss-expoe-28-milhoes-de-cpfs-veja-como-se-proteger/",
-      "published": "06/06/2026 12:00",
+      "summary": "A Wordfence registrou 2.738 vulnerabilidades em plugins do WordPress no primeiro trimestre de 2026, um aumento de 24% em relação ao trimestre anterior, com destaque para falhas de cross-site scripting (XSS) e SQL Injection, segundo pesquisa da empresa de segurança divulgada em 5 de junho de 2026. A Wordfence informou que reportou as vulnerabilidades aos respectivos desenvolvedores, mas ao final do trimestre 747 falhas ainda não haviam sido corrigidas – e 13% foram encontradas em plugins que não são mais mantidos pelos desenvolvedores.",
+      "link": "https://www.cisoadvisor.com.br/plugins-wordpress-acumulam-2-738-falhas-no-t1-de-2026/",
+      "published": "07/06/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Malware em Rust rouba segredos do GitHub e ambientes de CI/CD",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Uma nova campanha maliciosa está usando pacotes npm comprometidos para roubar segredos de desenvolvedores, repositórios GitHub e ambientes de CI/CD. A ameaça, chamada IronWorm, foi desenvolvida em Rust e mira principalmente equipes de software, projetos Web3 e operações ligadas a criptomoedas. O ataque começa quando um desenvolvedor instala uma dependência aparentemente legítima. Dentro do pacote, os criminosos escondem um componente malicioso que é executado automaticamente durante o processo de instalação.",
+      "link": "https://boletimsec.com/malware-em-rust-rouba-segredos-do-github-e-ambientes-de-ci-cd/",
+      "published": "07/06/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos espionam e-mails de executivo de bolsa de valores por cinco meses",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Hackers mantiveram acesso por cerca de cinco meses à caixa de e-mail Outlook de um executivo sênior de uma grande bolsa de valores global, em uma operação tratada como provável espionagem cibernética. A atividade foi investigada pelas equipes de Threat Hunting da Symantec e da Carbon Black. O primeiro sinal de atividade maliciosa ocorreu em 10 de outubro de 2025. Naquele momento, os invasores já executavam dois binários com privilégios SYSTEM, o nível mais alto de permissão no Windows, usando nomes que simulavam atualizadores da Adobe e do OneDrive.",
+      "link": "https://boletimsec.com/cibercriminosos-espionam-e-mails-de-executivo-de-bolsa-de-valores-por-cinco-meses/",
+      "published": "07/06/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
     }
   ]
 }
