@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-06-08T12:00:00.009477-03:00",
+  "generated_at": "2026-06-08T12:00:00.105014-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
+    {
+      "title": "CISA alerta para falha explorada ativamente no SolarWinds Serv-U",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A CISA alertou que uma vulnerabilidade crítica no SolarWinds Serv-U está sendo explorada ativamente em ataques. A falha, rastreada como CVE-2026-28318, afeta o software de transferência de arquivos usado por empresas para operações como FTP, SFTP e compartilhamento seguro de dados. O problema foi incluído no catálogo de vulnerabilidades exploradas conhecidas da agência em 5 de junho de 2026. A medida indica que há evidências de exploração em ambiente real e eleva a urgência de correção para organizações que mantêm instâncias do Serv-U expostas. A vulnerabilidade é classificada como consumo descontrolado de recursos.",
+      "link": "https://boletimsec.com/cisa-alerta-para-falha-explorada-ativamente-no-solarwinds-serv-u/",
+      "published": "08/06/2026 12:00",
+      "cves": [
+        "CVE-2026-28318"
+      ],
+      "vendor": "SolarWinds"
+    },
+    {
+      "title": "Chrome corrige 429 vulnerabilidades e amplia pressão sobre equipes de cibersegurança",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "O Chrome 149 recebeu correções para 429 vulnerabilidades, o maior volume já registrado em uma única versão do navegador. O número chama atenção não apenas pelo tamanho do pacote, mas pelo que representa para equipes de segurança responsáveis por manter ambientes corporativos atualizados. A atualização ocorre em um momento de pressão crescente sobre administradores, desenvolvedores e times de resposta a incidentes. Com softwares cada vez mais complexos e integrados, a quantidade de falhas descobertas em ciclos curtos vem aumentando de forma significativa. Embora nem toda vulnerabilidade corrigida represente exploração imediata, pacotes desse porte exigem resposta rápida.",
+      "link": "https://boletimsec.com/chrome-corrige-429-vulnerabilidades-e-amplia-pressao-sobre-equipes-de-ciberseguranca/",
+      "published": "08/06/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
     {
       "title": "Malware Android usa falsos leitores de PDF para espionar vítimas",
       "source": "BoletimSec Notícias",
@@ -13,28 +37,6 @@
       "published": "08/06/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "Malware em Rust rouba segredos do GitHub e ambientes de CI/CD",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Uma nova campanha maliciosa está usando pacotes npm comprometidos para roubar segredos de desenvolvedores, repositórios GitHub e ambientes de CI/CD. A ameaça, chamada IronWorm, foi desenvolvida em Rust e mira principalmente equipes de software, projetos Web3 e operações ligadas a criptomoedas. O ataque começa quando um desenvolvedor instala uma dependência aparentemente legítima. Dentro do pacote, os criminosos escondem um componente malicioso que é executado automaticamente durante o processo de instalação.",
-      "link": "https://boletimsec.com/malware-em-rust-rouba-segredos-do-github-e-ambientes-de-ci-cd/",
-      "published": "08/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cibercriminosos espionam e-mails de executivo de bolsa de valores por cinco meses",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Hackers mantiveram acesso por cerca de cinco meses à caixa de e-mail Outlook de um executivo sênior de uma grande bolsa de valores global, em uma operação tratada como provável espionagem cibernética. A atividade foi investigada pelas equipes de Threat Hunting da Symantec e da Carbon Black. O primeiro sinal de atividade maliciosa ocorreu em 10 de outubro de 2025. Naquele momento, os invasores já executavam dois binários com privilégios SYSTEM, o nível mais alto de permissão no Windows, usando nomes que simulavam atualizadores da Adobe e do OneDrive.",
-      "link": "https://boletimsec.com/cibercriminosos-espionam-e-mails-de-executivo-de-bolsa-de-valores-por-cinco-meses/",
-      "published": "08/06/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
     },
     {
       "title": "26.05.26 Segurança Código da Microsoft chegou do nada no e-mail? Veja se a sua conta está em risco",
