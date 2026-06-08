@@ -1,62 +1,60 @@
 {
-  "generated_at": "2026-06-08T10:11:46.971156-03:00",
+  "generated_at": "2026-06-08T12:00:00.009477-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA alerta para falha explorada ativamente no SolarWinds Serv-U",
+      "title": "Malware Android usa falsos leitores de PDF para espionar vítimas",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA alertou que uma vulnerabilidade crítica no SolarWinds Serv-U está sendo explorada ativamente em ataques. A falha, rastreada como CVE-2026-28318, afeta o software de transferência de arquivos usado por empresas para operações como FTP, SFTP e compartilhamento seguro de dados. O problema foi incluído no catálogo de vulnerabilidades exploradas conhecidas da agência em 5 de junho de 2026. A medida indica que há evidências de exploração em ambiente real e eleva a urgência de correção para organizações que mantêm instâncias do Serv-U expostas. A vulnerabilidade é classificada como consumo descontrolado de recursos.",
-      "link": "https://boletimsec.com/cisa-alerta-para-falha-explorada-ativamente-no-solarwinds-serv-u/",
-      "published": "08/06/2026 10:11",
-      "cves": [
-        "CVE-2026-28318"
-      ],
-      "vendor": "SolarWinds"
-    },
-    {
-      "title": "Derrubada do XSS criou quatro plataformas de cibercrime",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O ecossistema do cibercrime de língua russa, antes centralizado no fórum XSS (desarticulado pela Europol em julho de 2025), fragmentou-se em quatro plataformas concorrentes, segundo relatório da Flashpoint divulgado no dia 3 deste mês. O fórum original, que por mais de 20 anos foi o principal ponto de encontro para venda de malware, serviços de phishing, carding e recrutamento de agentes de ameaça, teve seu administrador preso na Ucrânia e seu domínio apreendido em operação multinacional envolvendo França e Ucrânia. De acordo com a análise da Flashpoint, quatro ambientes concorrentes surgiram após a desarticulação do XSS.",
-      "link": "https://www.cisoadvisor.com.br/derrubada-do-xss-criou-quatro-plataformas-de-cibercrime/",
-      "published": "08/06/2026 10:11",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Um spyware para Android chamado Asin está mirando usuários por meio de aplicativos falsos que prometem notícias, leitura de PDF e mapas de conflitos. A campanha foi identificada pela ESET e vem sendo observada em diferentes ondas desde o início de 2025. Os operadores criaram sites fraudulentos que imitavam serviços úteis ou fontes de informação sensível. Entre eles estavam páginas que se passavam por um portal de notícias governamentais, um editor seguro de PDF e um mapa com atualizações sobre incidentes militares. Dois desses sites também foram promovidos em redes sociais, incluindo Facebook e Telegram.",
+      "link": "https://boletimsec.com/malware-android-usa-falsos-leitores-de-pdf-para-espionar-vitimas/",
+      "published": "08/06/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "26.05.26 Segurança FBI alerta: nova ameaça rouba contas da Microsoft sem nem precisar da senha",
+      "title": "Malware em Rust rouba segredos do GitHub e ambientes de CI/CD",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Uma nova campanha maliciosa está usando pacotes npm comprometidos para roubar segredos de desenvolvedores, repositórios GitHub e ambientes de CI/CD. A ameaça, chamada IronWorm, foi desenvolvida em Rust e mira principalmente equipes de software, projetos Web3 e operações ligadas a criptomoedas. O ataque começa quando um desenvolvedor instala uma dependência aparentemente legítima. Dentro do pacote, os criminosos escondem um componente malicioso que é executado automaticamente durante o processo de instalação.",
+      "link": "https://boletimsec.com/malware-em-rust-rouba-segredos-do-github-e-ambientes-de-ci-cd/",
+      "published": "08/06/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos espionam e-mails de executivo de bolsa de valores por cinco meses",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Hackers mantiveram acesso por cerca de cinco meses à caixa de e-mail Outlook de um executivo sênior de uma grande bolsa de valores global, em uma operação tratada como provável espionagem cibernética. A atividade foi investigada pelas equipes de Threat Hunting da Symantec e da Carbon Black. O primeiro sinal de atividade maliciosa ocorreu em 10 de outubro de 2025. Naquele momento, os invasores já executavam dois binários com privilégios SYSTEM, o nível mais alto de permissão no Windows, usando nomes que simulavam atualizadores da Adobe e do OneDrive.",
+      "link": "https://boletimsec.com/cibercriminosos-espionam-e-mails-de-executivo-de-bolsa-de-valores-por-cinco-meses/",
+      "published": "08/06/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "26.05.26 Segurança Código da Microsoft chegou do nada no e-mail? Veja se a sua conta está em risco",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "O FBI emitiu um alerta sobre o Kali365 , plataforma de phishing como serviço (PhaaS) identificada em abril com foco no Microsoft 365 . O golpe não rouba a senha das vítimas, mas engana o usuário para que ele mesmo autorize o acesso de cibercriminosos a e-mails do Outlook, documentos do OneDrive, mensagens do Teams, entre outras informações. Segundo o investigador de segurança da informação da ESET Latinoamérica, Mario Micucci, a ameaça captura tokens de acesso do Microsoft 365 para sequestrar sessões e contornar a autenticação multifator (MFA) . Para isso, o ataque explora o fluxo de autenticação por código de dispositivo do OAuth , um mecanismo legítimo da Microsoft.",
-      "link": "https://canaltech.com.br/seguranca/fbi-alerta-nova-ameaca-rouba-contas-da-microsoft-sem-nem-precisar-da-senha/",
-      "published": "08/06/2026 10:11",
+      "summary": "Códigos de uso único para acessar e recuperar contas da Microsoft foram enviados para diferentes endereços de e-mail, mesmo sem serem solicitados , nos últimos dias. É o que mostram relatos compartilhados com o Canaltech . Os e-mails contam com o assunto “Seu código de uso único” e trazem a mensagem “nós recebemos uma solicitação para um código de uso único para a sua conta da Microsoft” acompanhada por um código de seis dígitos . Além disso, as mensagens não contam com links maliciosos e trazem o endereço “account-security-noreply@accountprotection.microsoft.com” no campo de remetente.",
+      "link": "https://canaltech.com.br/seguranca/codigo-da-microsoft-chegou-do-nada-no-e-mail-veja-se-a-sua-conta-esta-em-risco/",
+      "published": "08/06/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "Plugins WordPress acumulam 2.738 falhas no T1 de 2026",
+      "title": "Kaspersky apresenta protótipo de smartphone “inviolável”",
       "source": "CISO Advisor",
       "priority": "Baixa",
-      "category": "patches",
-      "summary": "A Wordfence registrou 2.738 vulnerabilidades em plugins do WordPress no primeiro trimestre de 2026, um aumento de 24% em relação ao trimestre anterior, com destaque para falhas de cross-site scripting (XSS) e SQL Injection, segundo pesquisa da empresa de segurança divulgada em 5 de junho de 2026. A Wordfence informou que reportou as vulnerabilidades aos respectivos desenvolvedores, mas ao final do trimestre 747 falhas ainda não haviam sido corrigidas – e 13% foram encontradas em plugins que não são mais mantidos pelos desenvolvedores.",
-      "link": "https://www.cisoadvisor.com.br/plugins-wordpress-acumulam-2-738-falhas-no-t1-de-2026/",
-      "published": "08/06/2026 10:11",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Chrome corrige 429 vulnerabilidades e amplia pressão sobre equipes de cibersegurança",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "O Chrome 149 recebeu correções para 429 vulnerabilidades, o maior volume já registrado em uma única versão do navegador. O número chama atenção não apenas pelo tamanho do pacote, mas pelo que representa para equipes de segurança responsáveis por manter ambientes corporativos atualizados. A atualização ocorre em um momento de pressão crescente sobre administradores, desenvolvedores e times de resposta a incidentes. Com softwares cada vez mais complexos e integrados, a quantidade de falhas descobertas em ciclos curtos vem aumentando de forma significativa. Embora nem toda vulnerabilidade corrigida represente exploração imediata, pacotes desse porte exigem resposta rápida.",
-      "link": "https://boletimsec.com/chrome-corrige-429-vulnerabilidades-e-amplia-pressao-sobre-equipes-de-ciberseguranca/",
-      "published": "08/06/2026 10:11",
+      "category": "identity",
+      "summary": "A Kaspersky Lab está desenvolvendo um telefone que, segundo a empresa, é inviolável. O CEO da empresa, Eugene Kaspersky, anunciou a novidade durante uma sessão do Kommersant no Fórum Econômico Internacional de São Petersburgo. O 29º Fórum Econômico Internacional de São Petersburgo (SPIEF), apoiado pelo jornal de negócios Kommersant, teve início em 3 de junho. O tema deste ano é “Diálogo Pragmático: O Caminho para um Futuro Estável”. Delegações de mais de 100 países foram anunciadas. Durante sua apresentação, Eugene Kaspersky mostrou um protótipo do dispositivo aos participantes da sessão. “Isso não é Android. Claro que não é um iPhone. Não é Huawei, não é Samsung.",
+      "link": "https://www.cisoadvisor.com.br/kaspersky-apresenta-prototipo-de-smartphone-inviolavel/",
+      "published": "08/06/2026 12:00",
       "cves": [],
       "vendor": null
     }
