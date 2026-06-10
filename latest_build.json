@@ -1,66 +1,70 @@
 {
-  "generated_at": "2026-06-09T12:00:00.004948-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-06-10T09:11:05.643038-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Vulnerabilidades no protocolo IKEv1 afetam redes VPN",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma investigação iniciada em 4 de junho de 2026 identificou a exploração ativa da falha CVE-2026-50751 (CVSS de 9.3) em implantações de VPN de acesso remoto e acesso móvel que utilizam o protocolo de troca de chaves descontinuado IKEv1. A informação foi publicada hoje (8) por Lotem Finkelstein, vice-presidente de pesquisa da Check Point Research, em um comunicado técnico detalhando que a falha lógica na validação de certificados permite estabelecer sessões de VPN sem uma palavra-passe válida. Segundo Finkelstein, tentativas de exploração da vulnerabilidade crítica aumentaram no início de junho, tendo sido identificadas as primeiras ações em 7 de maio de 2026.",
-      "link": "https://www.cisoadvisor.com.br/vulnerabilidades-no-protocolo-ikev1-afetam-redes-vpn/",
-      "published": "09/06/2026 12:00",
-      "cves": [
-        "CVE-2026-50751"
-      ],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "Zero day em VPN da Check Point é explorado em ataques com ransomware",
+      "title": "Servidores de backup Veeam entram em alerta após falha de RCE",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade zero-day em soluções VPN da Check Point está sendo explorada em ataques reais para obter acesso inicial a redes corporativas e apoiar atividades ligadas a ransomware. O problema afeta implantações de Remote Access VPN, Mobile Access/SSL VPN e produtos Spark Firewall em versões R80.20.X até R82.10. Segundo a investigação, a exploração já foi associada a ações pós-comprometimento ligadas ao grupo de ransomware Qilin.",
-      "link": "https://boletimsec.com/zero-day-em-vpn-da-check-point-e-explorado-em-ataques-com-ransomware/",
-      "published": "09/06/2026 12:00",
-      "cves": [],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "Falha crítica no Everest Forms Pro é explorada",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de gravidade crítica no plugin Everest Forms Pro, presente em mais de 100 mil sites WordPress, está sendo explorada ativamente desde 13 de abril para tomar controle de páginas, de acordo com alerta da empresa de segurança Defiant. A falha, registrada como CVE-2026-3300 (CVSS 9.8), permite que atacantes não autenticados injetem código PHP arbitrário no servidor por meio do recurso “Complex Calculation” do plugin. Segundo a Defiant, o problema está em uma função vulnerável que, ao processar valores fornecidos pelo usuário, não escapa corretamente aspas simples e outros caracteres.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-everest-forms-pro-e-explorada/",
-      "published": "09/06/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no Veeam Backup & Replication pode permitir execução remota de código contra servidores de backup ingressados em domínio. A falha, rastreada como CVE-2026-44963, recebeu pontuação CVSS 9,4 e afeta ambientes corporativos que usam a plataforma para proteção e recuperação de dados. O problema permite que qualquer usuário autenticado no domínio execute código arbitrário remotamente no servidor de backup.",
+      "link": "https://boletimsec.com/servidores-de-backup-veeam-entram-em-alerta-apos-falha-de-rce/",
+      "published": "10/06/2026 09:11",
       "cves": [
-        "CVE-2026-3300"
+        "CVE-2026-44963"
       ],
       "vendor": null
     },
     {
-      "title": "Falha em IA entregou 20 mil contas do Instagram a hackers",
+      "title": "Correções da SAP resolvem falhas críticas em sistemas",
       "source": "CISO Advisor",
-      "priority": "Baixa",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A Meta informou que aproximadamente 20 mil contas do Instagram podem ter sido comprometidas após hackers explorarem uma vulnerabilidade na ferramenta de recuperação de contas assistida por IA, de acordo com comunicado enviado ao procurador-geral do Maine e reportado pela SecurityWeek. A falha do tipo “deputado confuso” permitiu que invasores pedissem ao chatbot que vinculasse um novo endereço de e-mail a contas de alto perfil, informou a SecurityWeek em 2 de junho.",
-      "link": "https://www.cisoadvisor.com.br/falha-em-ia-entregou-20-mil-contas-do-instagram-a-hackers/",
-      "published": "09/06/2026 12:00",
+      "summary": "A SAP publicou hoje 15 novas notas de segurança para corrigir vulnerabilidades críticas em seus sistemas NetWeaver, Commerce e Data Hub. A informação consta em um artigo técnico detalhando que as falhas corrigidas poderiam permitir a exposição de informações confidenciais, corrupção de memória e interrupção do uso normal das plataformas afetadas. O problema mais grave corrigido, registrado como CVE-2026-44748 (CVSS de 9.9), envolve uma falha de empacotamento de assinatura XML na autenticação SAML do NetWeaver AS ABAP e ABAP Platform.",
+      "link": "https://www.cisoadvisor.com.br/correcoes-da-sap-resolvem-falhas-criticas-em-sistemas/",
+      "published": "10/06/2026 09:11",
+      "cves": [
+        "CVE-2026-44748"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "CISA alerta para exploração ativa de falha no LiteLLM",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma falha no LiteLLM está sendo explorada ativamente e pode permitir execução remota de código em servidores usados como gateway para modelos de inteligência artificial. A vulnerabilidade, rastreada como CVE-2026-42271, foi incluída pela CISA no catálogo de falhas exploradas conhecidas. O LiteLLM é usado por empresas para centralizar acesso a diferentes provedores de IA, controlar autenticação, custos, chaves de API e chamadas a modelos.",
+      "link": "https://boletimsec.com/cisa-alerta-para-exploracao-ativa-de-falha-no-litellm/",
+      "published": "10/06/2026 09:11",
+      "cves": [
+        "CVE-2026-42271"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Gartner alerta para quatro ameaças críticas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "O Gartner identificou quatro ameaças críticas nas quais os atacantes detêm vantagem significativa para explorar vulnerabilidades organizacionais: deepfakes, comprometimento de aplicações de IA, injeção de prompts e ataques à cadeia de suprimentos de software, conforme comunicado da consultoria publicado neste mês. O Gartner ThreatScape classifica as ameaças em seis áreas distintas com base na qualidade do “sinal de ameaça” disponível e na capacidade organizacional para gerenciá-las, segundo a empresa.",
+      "link": "https://www.cisoadvisor.com.br/gartner-alerta-para-quatro-ameacas-criticas/",
+      "published": "10/06/2026 09:11",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Kernel Linux recebe alerta após divulgação de exploit",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma prova de conceito para explorar uma vulnerabilidade no subsistema nftables do kernel Linux foi divulgada publicamente, aumentando a urgência para que administradores apliquem correções disponíveis em servidores e estações afetadas. O nftables faz parte da infraestrutura Netfilter e é usado para filtragem de pacotes, substituindo tecnologias mais antigas como iptables em várias distribuições Linux. Por isso, problemas nesse componente podem ter impacto relevante em ambientes corporativos, servidores de nuvem e sistemas expostos a redes não confiáveis.",
-      "link": "https://boletimsec.com/kernel-linux-recebe-alerta-apos-divulgacao-de-exploit/",
-      "published": "09/06/2026 12:00",
-      "cves": [],
-      "vendor": "Linux"
+      "title": "OpenSSL corrige falha grave identificada por IA",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O projeto OpenSSL publicou hoje novas atualizações que corrigem 18 vulnerabilidades em seu código, incluindo uma falha de alta gravidade que abre caminho para a execução remota de código malicioso. A informação detalhada sobre as atualizações consta em um artigo técnico, apontando que o uso de modelos de inteligência artificial auxiliou na descoberta de múltiplos problemas de segurança na biblioteca criptográfica. A principal vulnerabilidade corrigida, registrada sob o identificador CVE-2026-45447 (CVSS de 8.8), consiste em uma falha de uso após a liberação de memória na função utilizada para a verificação do padrão criptográfico PKCS#7.",
+      "link": "https://www.cisoadvisor.com.br/openssl-corrige-falha-grave-identificada-por-ia/",
+      "published": "10/06/2026 09:11",
+      "cves": [
+        "CVE-2026-45447"
+      ],
+      "vendor": null
     }
   ]
 }
