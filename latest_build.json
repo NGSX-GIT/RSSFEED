@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T00:52:33.949092-03:00",
+  "generated_at": "2026-06-12T00:57:17.388582-03:00",
   "theme": "Top da Semana",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "A Veeam publicou patches de segurança para corrigir uma vulnerabilidade crítica no software Backup & Replication que permite execução remota de código (RCE) por um usuário de domínio autenticado, de acordo com comunicado oficial da empresa. A falha , registrada como CVE-2026-44963, recebeu pontuação CVSS de 9.4, informou o fabricante, que atribuiu a descoberta ao pesquisador da watchTowr, Sina Kheirkhah. A vulnerabilidade afeta o Veeam Backup & Replication versão 12.3.2.4465 e todas as versões anteriores dos builds 12, afirmou a Veeam.",
       "link": "https://www.cisoadvisor.com.br/veeam-corrige-falha-critica-em-servidores-de-backup/",
-      "published": "12/06/2026 00:52",
+      "published": "12/06/2026 00:57",
       "cves": [
         "CVE-2026-44963"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no Veeam Backup & Replication pode permitir execução remota de código contra servidores de backup ingressados em domínio. A falha, rastreada como CVE-2026-44963, recebeu pontuação CVSS 9,4 e afeta ambientes corporativos que usam a plataforma para proteção e recuperação de dados. O problema permite que qualquer usuário autenticado no domínio execute código arbitrário remotamente no servidor de backup.",
       "link": "https://boletimsec.com/servidores-de-backup-veeam-entram-em-alerta-apos-falha-de-rce/",
-      "published": "12/06/2026 00:52",
+      "published": "12/06/2026 00:57",
       "cves": [
         "CVE-2026-44963"
       ],
@@ -36,7 +36,7 @@
       "category": "patches",
       "summary": "A empresa de segurança ofensiva watchTowr Labs publicou hoje detalhes de uma vulnerabilidade de injeção de comandos que permite a um invasor remoto não autenticado alcançar execução remota de código (em nível root) no Ivanti Sentry. A falha , registrada como CVE-2026-10520, recebeu pontuação CVSS 10 (a mais alta possível) e afeta as versões anteriores à R10.5.2, R10.6.2 e R10.7.1 do Ivanti Sentry, antigo MobileIron Sentry, um gateway que gerencia, criptografa e protege o tráfego entre dispositivos móveis e sistemas corporativos internos, explicaram os pesquisadores .",
       "link": "https://www.cisoadvisor.com.br/falha-critica-no-ivanti-sentry-com-cvss-de-10-0/",
-      "published": "12/06/2026 00:52",
+      "published": "12/06/2026 00:57",
       "cves": [
         "CVE-2026-10520"
       ],
@@ -49,7 +49,7 @@
       "category": "patches",
       "summary": "A Microsoft publicou ontem atualizações para quase 200 vulnerabilidades em seus sistemas Windows e softwares suportados, um recorde no ciclo mensal de Patch Tuesday. Um total de de 35 dessas falhas receberam a classificação “crítica”, e o exploit para pelo menos três delas está disponível. Entre os zero days corrigidos está o CVE-2026-49160 (CVSS 7.5), uma vulnerabilidade de negação de serviço que afeta servidores web, incluindo o IIS da Microsoft, descoberto pelo Codex, da OpenAI, segundo a própria Microsoft. Dois zero days corrigidos ontem parecem ter origem em divulgações recentes de um pesquisador conhecido como Nightmare Eclipse , que se diz ex-funcionário da Microsoft.",
       "link": "https://www.cisoadvisor.com.br/patch-tuesday-recorde-com-200-falhas-e-tres-zero-days-sob-ataque/",
-      "published": "12/06/2026 00:52",
+      "published": "12/06/2026 00:57",
       "cves": [
         "CVE-2026-49160"
       ],
@@ -62,7 +62,7 @@
       "category": "patches",
       "summary": "Uma falha no LiteLLM está sendo explorada ativamente e pode permitir execução remota de código em servidores usados como gateway para modelos de inteligência artificial. A vulnerabilidade, rastreada como CVE-2026-42271, foi incluída pela CISA no catálogo de falhas exploradas conhecidas. O LiteLLM é usado por empresas para centralizar acesso a diferentes provedores de IA, controlar autenticação, custos, chaves de API e chamadas a modelos.",
       "link": "https://boletimsec.com/cisa-alerta-para-exploracao-ativa-de-falha-no-litellm/",
-      "published": "12/06/2026 00:52",
+      "published": "12/06/2026 00:57",
       "cves": [
         "CVE-2026-42271"
       ],
