@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-06-11T12:00:00.023676-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-06-12T00:52:33.949092-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
+    {
+      "title": "Veeam corrige falha crítica em servidores de backup",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Veeam publicou patches de segurança para corrigir uma vulnerabilidade crítica no software Backup & Replication que permite execução remota de código (RCE) por um usuário de domínio autenticado, de acordo com comunicado oficial da empresa. A falha , registrada como CVE-2026-44963, recebeu pontuação CVSS de 9.4, informou o fabricante, que atribuiu a descoberta ao pesquisador da watchTowr, Sina Kheirkhah. A vulnerabilidade afeta o Veeam Backup & Replication versão 12.3.2.4465 e todas as versões anteriores dos builds 12, afirmou a Veeam.",
+      "link": "https://www.cisoadvisor.com.br/veeam-corrige-falha-critica-em-servidores-de-backup/",
+      "published": "12/06/2026 00:52",
+      "cves": [
+        "CVE-2026-44963"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Servidores de backup Veeam entram em alerta após falha de RCE",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no Veeam Backup & Replication pode permitir execução remota de código contra servidores de backup ingressados em domínio. A falha, rastreada como CVE-2026-44963, recebeu pontuação CVSS 9,4 e afeta ambientes corporativos que usam a plataforma para proteção e recuperação de dados. O problema permite que qualquer usuário autenticado no domínio execute código arbitrário remotamente no servidor de backup.",
+      "link": "https://boletimsec.com/servidores-de-backup-veeam-entram-em-alerta-apos-falha-de-rce/",
+      "published": "12/06/2026 00:52",
+      "cves": [
+        "CVE-2026-44963"
+      ],
+      "vendor": null
+    },
     {
       "title": "Falha crítica no Ivanti Sentry, com CVSS de 10.0",
       "source": "CISO Advisor",
@@ -10,7 +36,7 @@
       "category": "patches",
       "summary": "A empresa de segurança ofensiva watchTowr Labs publicou hoje detalhes de uma vulnerabilidade de injeção de comandos que permite a um invasor remoto não autenticado alcançar execução remota de código (em nível root) no Ivanti Sentry. A falha , registrada como CVE-2026-10520, recebeu pontuação CVSS 10 (a mais alta possível) e afeta as versões anteriores à R10.5.2, R10.6.2 e R10.7.1 do Ivanti Sentry, antigo MobileIron Sentry, um gateway que gerencia, criptografa e protege o tráfego entre dispositivos móveis e sistemas corporativos internos, explicaram os pesquisadores .",
       "link": "https://www.cisoadvisor.com.br/falha-critica-no-ivanti-sentry-com-cvss-de-10-0/",
-      "published": "11/06/2026 12:00",
+      "published": "12/06/2026 00:52",
       "cves": [
         "CVE-2026-10520"
       ],
@@ -23,48 +49,23 @@
       "category": "patches",
       "summary": "A Microsoft publicou ontem atualizações para quase 200 vulnerabilidades em seus sistemas Windows e softwares suportados, um recorde no ciclo mensal de Patch Tuesday. Um total de de 35 dessas falhas receberam a classificação “crítica”, e o exploit para pelo menos três delas está disponível. Entre os zero days corrigidos está o CVE-2026-49160 (CVSS 7.5), uma vulnerabilidade de negação de serviço que afeta servidores web, incluindo o IIS da Microsoft, descoberto pelo Codex, da OpenAI, segundo a própria Microsoft. Dois zero days corrigidos ontem parecem ter origem em divulgações recentes de um pesquisador conhecido como Nightmare Eclipse , que se diz ex-funcionário da Microsoft.",
       "link": "https://www.cisoadvisor.com.br/patch-tuesday-recorde-com-200-falhas-e-tres-zero-days-sob-ataque/",
-      "published": "11/06/2026 12:00",
+      "published": "12/06/2026 00:52",
       "cves": [
         "CVE-2026-49160"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "Vulnerabilidade no OpenSSL ameaça aplicações",
+      "title": "CISA alerta para exploração ativa de falha no LiteLLM",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O OpenSSL lançou correções para vulnerabilidades que podem afetar aplicações responsáveis por validar mensagens assinadas, certificados e outros fluxos criptográficos. A falha mais grave, rastreada como CVE-2026-45447, pode permitir execução remota de código em cenários específicos. A vulnerabilidade não afeta todos os sistemas que usam OpenSSL. O risco principal está em aplicações que aceitam e verificam mensagens assinadas recebidas de fontes externas, como serviços de e-mail, gateways corporativos, sistemas de documentos e integrações que dependem de PKCS7.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-openssl-ameaca-aplicacoes/",
-      "published": "11/06/2026 12:00",
+      "summary": "Uma falha no LiteLLM está sendo explorada ativamente e pode permitir execução remota de código em servidores usados como gateway para modelos de inteligência artificial. A vulnerabilidade, rastreada como CVE-2026-42271, foi incluída pela CISA no catálogo de falhas exploradas conhecidas. O LiteLLM é usado por empresas para centralizar acesso a diferentes provedores de IA, controlar autenticação, custos, chaves de API e chamadas a modelos.",
+      "link": "https://boletimsec.com/cisa-alerta-para-exploracao-ativa-de-falha-no-litellm/",
+      "published": "12/06/2026 00:52",
       "cves": [
-        "CVE-2026-45447"
+        "CVE-2026-42271"
       ],
-      "vendor": null
-    },
-    {
-      "title": "Falhas no Windows RDP podem expor dados sensíveis de sistemas afetados",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Duas vulnerabilidades no Windows Remote Desktop Protocol podem permitir que invasores exponham dados sensíveis de sistemas afetados. As falhas, rastreadas como CVE-2026-42908 e CVE-2026-45639, foram corrigidas pela Microsoft nas atualizações de segurança de 9 de junho de 2026. Os problemas foram classificados como importantes e receberam pontuação CVSS 7,5. Ambos envolvem leitura fora dos limites de memória no componente RDP, condição que pode fazer o serviço retornar informações além do esperado durante o processamento de tráfego malicioso.",
-      "link": "https://boletimsec.com/falhas-no-windows-rdp-podem-expor-dados-sensiveis-de-sistemas-afetados/",
-      "published": "11/06/2026 12:00",
-      "cves": [
-        "CVE-2026-42908",
-        "CVE-2026-45639"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Invasão em mensageria do governo da França",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "A DINUM, diretoria de assuntos digitais do governo francês, confirmou que hackers usaram uma conta de usuário sequestrada para invadir o Tchap, plataforma de mensagens criptografadas do setor público francês, conforme comunicado oficial . A Agência de Segurança Cibernética Francesa (ANSSI) detectou a invasão no último domingo (7 de junho), informou a DINUM, que também notificou a autoridade de proteção de dados francesa (CNIL) sobre o incidente devido à potencial exposição de dados pessoais. Tudo começou com a mensagem de um cibercriminoso em um fórum (e divulgada pelo French Breaches) reivindicando ter acessado uma conta do Tchap, de acordo com o Le Monde Informatique .",
-      "link": "https://www.cisoadvisor.com.br/invasao-em-mensageria-do-governo-da-franca/",
-      "published": "11/06/2026 12:00",
-      "cves": [],
       "vendor": null
     }
   ]
