@@ -1,66 +1,62 @@
 {
-  "generated_at": "2026-06-15T09:21:39.787089-03:00",
+  "generated_at": "2026-06-15T12:00:00.008983-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Ataques exploram falha crítica no Ivanti Sentry",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Ivanti Sentry passou a ser explorada ativamente poucos dias após a divulgação pública de um código de prova de conceito. A falha, rastreada como CVE-2026-10520, permite execução remota de código com privilégios de root em appliances vulneráveis. O problema é uma injeção de comandos no sistema operacional e recebeu pontuação CVSS 10.0, o nível máximo de severidade.",
-      "link": "https://boletimsec.com/ataques-exploram-falha-critica-no-ivanti-sentry/",
-      "published": "15/06/2026 09:21",
-      "cves": [
-        "CVE-2026-10520"
-      ],
-      "vendor": "Ivanti"
-    },
-    {
-      "title": "Vulnerabilidade no Splunk expõe ambientes AWS",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma cadeia crítica de vulnerabilidades no Splunk Enterprise pode permitir execução remota de código antes da autenticação, a partir de falhas no serviço PostgreSQL Sidecar usado pela plataforma. O problema foi identificado como CVE-2026-20253, recebeu pontuação CVSS 9.8 e afeta o Splunk Enterprise 10 e versões posteriores. A falha está relacionada a um componente interno introduzido em versões recentes do Splunk. Embora nem sempre esteja habilitado em instalações locais, o serviço fica ativo por padrão em ambientes do Splunk Enterprise na AWS, o que aumenta a exposição de implantações em nuvem.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-splunk-expoe-ambientes-aws/",
-      "published": "15/06/2026 09:21",
-      "cves": [
-        "CVE-2026-20253"
-      ],
-      "vendor": "AWS"
-    },
-    {
-      "title": "Falha no Oracle REST Data Services exige atualização urgente",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Oracle lançou seu primeiro Critical Security Patch Update, um pacote menor e mais direcionado para corrigir falhas de alta prioridade entre os ciclos trimestrais tradicionais. A atualização de maio de 2026 reúne 35 correções em produtos corporativos usados em bancos de dados, aplicações de negócio, hotelaria e telecomunicações. O novo modelo foi criado para acelerar a aplicação de patches críticos sem esperar pelo próximo Critical Patch Update trimestral.",
-      "link": "https://boletimsec.com/falha-no-oracle-rest-data-services-exige-atualizacao-urgente/",
-      "published": "15/06/2026 09:21",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ataque contra agentes de IA expõe novo risco na cadeia de software",
+      "title": "Malware ligado ao Irã usa BLUERABBIT para criptografar arquivos",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "identity",
-      "summary": "Um novo ataque chamado Agentjacking mostra como agentes de codificação com IA podem ser manipulados para executar comandos controlados por invasores em máquinas de desenvolvedores, sem depender de phishing, malware tradicional ou invasão direta da infraestrutura da vítima. A técnica foi descrita por pesquisadores da Tenet e explora a forma como ferramentas de observabilidade, como o Sentry, podem alimentar agentes de IA por meio de integrações baseadas no Model Context Protocol. O risco surge quando dados externos, tratados como simples registros de erro, passam a ser interpretados como instruções confiáveis.",
-      "link": "https://boletimsec.com/ataque-contra-agentes-de-ia-expoe-novo-risco-na-cadeia-de-software/",
-      "published": "15/06/2026 09:21",
+      "category": "patches",
+      "summary": "A ferramenta foi escrita em Go e projetada para se misturar ao tráfego normal de redes corporativas, dificultando a detecção por equipes de segurança. Ele pode criptografar arquivos, roubar informações antes do bloqueio e, quando acionado pelos operadores, destruir unidades inteiras do sistema comprometido. Para manter persistência, o malware cria uma tarefa agendada chamada “OneDrive Update”, tentando se passar por um serviço legítimo da Microsoft.",
+      "link": "https://boletimsec.com/malware-ligado-ao-ira-usa-bluerabbit-para-criptografar-arquivos/",
+      "published": "15/06/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "4 dias Segurança Preço inacreditável: NordVPN com 75% OFF e 3 meses grátis com cupom",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "Golpes com ingressos falsos, links de promoções suspeitas, redes Wi-Fi públicas inseguras e vazamento de dados viraram preocupações reais para quem compra online, acompanha grandes eventos ou usa serviços digitais todos os dias. É justamente aí que entra a NordVPN Next Gen Antivirus + VPN , que está com uma oferta imperdível para quem quer reforçar a segurança digital sem pagar caro. Por tempo limitado, o plano de 2 anos da NordVPN, que normalmente custa R$ 31,90 por mês , sai por apenas R$ 10,36/mês .",
+      "link": "https://canaltech.com.br/seguranca/preco-inacreditavel-nordvpn-com-75-off-e-3-meses-gratis-com-cupom/",
+      "published": "15/06/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "IA em pentest : o desafio da descoberta rápida e correção lenta",
+      "title": "Falhas de IoT levam a recorde de CVEs em 2026",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Baixa",
       "category": "patches",
-      "summary": "O paradoxo entre a capacidade da inteligência artificial de descobrir vulnerabilidades em segundos e o volume de trabalho humano resultante para validar e corrigir as falhas foi o tópico central do webinar promovido ontem pelo CISO Advisor com os especialistas Bruno Telles , fundador da Bug Hunt , e Kaique Bonato , responsável pelas operações e serviços da Vantico. “A IA ajudou a democratizar a descoberta técnica. O que ela não conseguiu democratizar é a experiência”, afirmou Telles. Entre as melhores IAs para pentest mencionadas, destacou-se o novo modelo da Anthropic (Claude), considerado “superpoderoso”, embora com restrições para responder sobre cibersegurança.",
-      "link": "https://www.cisoadvisor.com.br/ia-em-pentest-o-desafio-da-descoberta-rapida-e-backlog-de-correcoes/",
-      "published": "15/06/2026 09:21",
+      "summary": "A projeção de CVEs para 2026 aponta para um volume recorde, impulsionada pelo crescimento acelerado da superfície de ataque com dispositivos de Internet das Coisas (IoT), alerta Erick Nascimento, CEO da Huge Networks. Falhas em câmeras, roteadores, sensores e dispositivos conectados continuam, segundo ele, alimentando botnets, que por sua vez são utilizadas em ataques DDoS de grande escala: “2026 já deixa um alerta claro: a superfície de ataque está crescendo rápido demais”, escreveu Nascimento em post publicado na noite passada.",
+      "link": "https://www.cisoadvisor.com.br/falhas-de-iot-apontam-recorde-de-cves-em-2026/",
+      "published": "15/06/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "AMD corrige após 4 meses falha de MITM em atualizador",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A fabricante resolveu falha que usava protocolo HTTP para download de arquivos, expondo usuários a ataques de homem-no-meio (MITM) na rede ou via provedor de internet. A vulnerabilidade foi descoberta por um programador da Nova Zelândia, que utiliza o pseudônimo MrBruh . Ele reportou o problema em 6 de fevereiro à plataforma de bug bounty utilizada pela AMD. No mesmo dia, a plataforma informou que ataques MITM não estavam cobertos pelo programa de recompensas, e o relatório foi encerrado.",
+      "link": "https://www.cisoadvisor.com.br/amd-corrige-apos-4-meses-falha-de-mitm-em-atualizador/",
+      "published": "15/06/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Google processa rede chinesa por usar Gemini em golpes de phishing",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O Google entrou com uma ação judicial contra uma rede de cibercrime baseada na China acusada de usar o Gemini para ampliar campanhas de phishing e golpes por mensagens contra consumidores nos Estados Unidos. O grupo, identificado como Outsider Enterprise, operava uma estrutura de phishing como serviço, oferecendo a criminosos kits prontos para criar páginas falsas, automatizar fraudes e imitar marcas conhecidas. Segundo a denúncia, a rede mantinha canais no Telegram para coordenar afiliados e distribuir ferramentas de golpe.",
+      "link": "https://boletimsec.com/google-processa-rede-chinesa-por-usar-gemini-em-golpes-de-phishing/",
+      "published": "15/06/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
     }
   ]
 }
