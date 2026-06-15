@@ -1,18 +1,31 @@
 {
-  "generated_at": "2026-06-15T12:00:00.008983-03:00",
+  "generated_at": "2026-06-15T12:00:00.004612-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Malware ligado ao Irã usa BLUERABBIT para criptografar arquivos",
+      "title": "Vulnerabilidade no Splunk expõe ambientes AWS",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma cadeia crítica de vulnerabilidades no Splunk Enterprise pode permitir execução remota de código antes da autenticação, a partir de falhas no serviço PostgreSQL Sidecar usado pela plataforma. O problema foi identificado como CVE-2026-20253, recebeu pontuação CVSS 9.8 e afeta o Splunk Enterprise 10 e versões posteriores. A falha está relacionada a um componente interno introduzido em versões recentes do Splunk. Embora nem sempre esteja habilitado em instalações locais, o serviço fica ativo por padrão em ambientes do Splunk Enterprise na AWS, o que aumenta a exposição de implantações em nuvem.",
+      "link": "https://boletimsec.com/vulnerabilidade-no-splunk-expoe-ambientes-aws/",
+      "published": "15/06/2026 12:00",
+      "cves": [
+        "CVE-2026-20253"
+      ],
+      "vendor": "AWS"
+    },
+    {
+      "title": "Ataque contra agentes de IA expõe novo risco na cadeia de software",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "patches",
-      "summary": "A ferramenta foi escrita em Go e projetada para se misturar ao tráfego normal de redes corporativas, dificultando a detecção por equipes de segurança. Ele pode criptografar arquivos, roubar informações antes do bloqueio e, quando acionado pelos operadores, destruir unidades inteiras do sistema comprometido. Para manter persistência, o malware cria uma tarefa agendada chamada “OneDrive Update”, tentando se passar por um serviço legítimo da Microsoft.",
-      "link": "https://boletimsec.com/malware-ligado-ao-ira-usa-bluerabbit-para-criptografar-arquivos/",
+      "category": "identity",
+      "summary": "Um novo ataque chamado Agentjacking mostra como agentes de codificação com IA podem ser manipulados para executar comandos controlados por invasores em máquinas de desenvolvedores, sem depender de phishing, malware tradicional ou invasão direta da infraestrutura da vítima. A técnica foi descrita por pesquisadores da Tenet e explora a forma como ferramentas de observabilidade, como o Sentry, podem alimentar agentes de IA por meio de integrações baseadas no Model Context Protocol. O risco surge quando dados externos, tratados como simples registros de erro, passam a ser interpretados como instruções confiáveis.",
+      "link": "https://boletimsec.com/ataque-contra-agentes-de-ia-expoe-novo-risco-na-cadeia-de-software/",
       "published": "15/06/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     },
     {
       "title": "4 dias Segurança Preço inacreditável: NordVPN com 75% OFF e 3 meses grátis com cupom",
@@ -21,17 +34,6 @@
       "category": "breach",
       "summary": "Golpes com ingressos falsos, links de promoções suspeitas, redes Wi-Fi públicas inseguras e vazamento de dados viraram preocupações reais para quem compra online, acompanha grandes eventos ou usa serviços digitais todos os dias. É justamente aí que entra a NordVPN Next Gen Antivirus + VPN , que está com uma oferta imperdível para quem quer reforçar a segurança digital sem pagar caro. Por tempo limitado, o plano de 2 anos da NordVPN, que normalmente custa R$ 31,90 por mês , sai por apenas R$ 10,36/mês .",
       "link": "https://canaltech.com.br/seguranca/preco-inacreditavel-nordvpn-com-75-off-e-3-meses-gratis-com-cupom/",
-      "published": "15/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falhas de IoT levam a recorde de CVEs em 2026",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "A projeção de CVEs para 2026 aponta para um volume recorde, impulsionada pelo crescimento acelerado da superfície de ataque com dispositivos de Internet das Coisas (IoT), alerta Erick Nascimento, CEO da Huge Networks. Falhas em câmeras, roteadores, sensores e dispositivos conectados continuam, segundo ele, alimentando botnets, que por sua vez são utilizadas em ataques DDoS de grande escala: “2026 já deixa um alerta claro: a superfície de ataque está crescendo rápido demais”, escreveu Nascimento em post publicado na noite passada.",
-      "link": "https://www.cisoadvisor.com.br/falhas-de-iot-apontam-recorde-de-cves-em-2026/",
       "published": "15/06/2026 12:00",
       "cves": [],
       "vendor": null
