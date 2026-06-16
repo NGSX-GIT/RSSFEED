@@ -1,64 +1,66 @@
 {
-  "generated_at": "2026-06-15T12:00:00.004612-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-06-16T12:00:00.002415-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Vulnerabilidade no Splunk expõe ambientes AWS",
+      "title": "CISA inclui falha da Palo Alto em catálogo de vulnerabilidades exploradas",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma cadeia crítica de vulnerabilidades no Splunk Enterprise pode permitir execução remota de código antes da autenticação, a partir de falhas no serviço PostgreSQL Sidecar usado pela plataforma. O problema foi identificado como CVE-2026-20253, recebeu pontuação CVSS 9.8 e afeta o Splunk Enterprise 10 e versões posteriores. A falha está relacionada a um componente interno introduzido em versões recentes do Splunk. Embora nem sempre esteja habilitado em instalações locais, o serviço fica ativo por padrão em ambientes do Splunk Enterprise na AWS, o que aumenta a exposição de implantações em nuvem.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-splunk-expoe-ambientes-aws/",
-      "published": "15/06/2026 12:00",
+      "summary": "A Palo Alto Networks emitiu um alerta sobre a exploração ativa da CVE-2026-0257, uma vulnerabilidade crítica que afeta os componentes GlobalProtect portal e gateway do PAN-OS. A falha permite contornar mecanismos de autenticação e pode abrir caminho para conexões VPN não autorizadas. O problema atinge ambientes que utilizam o GlobalProtect para acesso remoto seguro. Por envolver a borda da rede, a vulnerabilidade é considerada especialmente sensível, já que dispositivos VPN costumam ser expostos à internet e usados como porta de entrada para infraestrutura corporativa.",
+      "link": "https://boletimsec.com/cisa-inclui-falha-da-palo-alto-em-catalogo-de-vulnerabilidades-exploradas/",
+      "published": "16/06/2026 12:00",
       "cves": [
-        "CVE-2026-20253"
+        "CVE-2026-0257"
       ],
-      "vendor": "AWS"
+      "vendor": "Palo Alto"
     },
     {
-      "title": "Ataque contra agentes de IA expõe novo risco na cadeia de software",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Um novo ataque chamado Agentjacking mostra como agentes de codificação com IA podem ser manipulados para executar comandos controlados por invasores em máquinas de desenvolvedores, sem depender de phishing, malware tradicional ou invasão direta da infraestrutura da vítima. A técnica foi descrita por pesquisadores da Tenet e explora a forma como ferramentas de observabilidade, como o Sentry, podem alimentar agentes de IA por meio de integrações baseadas no Model Context Protocol. O risco surge quando dados externos, tratados como simples registros de erro, passam a ser interpretados como instruções confiáveis.",
-      "link": "https://boletimsec.com/ataque-contra-agentes-de-ia-expoe-novo-risco-na-cadeia-de-software/",
-      "published": "15/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "4 dias Segurança Preço inacreditável: NordVPN com 75% OFF e 3 meses grátis com cupom",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "breach",
-      "summary": "Golpes com ingressos falsos, links de promoções suspeitas, redes Wi-Fi públicas inseguras e vazamento de dados viraram preocupações reais para quem compra online, acompanha grandes eventos ou usa serviços digitais todos os dias. É justamente aí que entra a NordVPN Next Gen Antivirus + VPN , que está com uma oferta imperdível para quem quer reforçar a segurança digital sem pagar caro. Por tempo limitado, o plano de 2 anos da NordVPN, que normalmente custa R$ 31,90 por mês , sai por apenas R$ 10,36/mês .",
-      "link": "https://canaltech.com.br/seguranca/preco-inacreditavel-nordvpn-com-75-off-e-3-meses-gratis-com-cupom/",
-      "published": "15/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "AMD corrige após 4 meses falha de MITM em atualizador",
+      "title": "Falha no Microsoft 365 Copilot permitia roubo de e-mails",
       "source": "CISO Advisor",
-      "priority": "Baixa",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A fabricante resolveu falha que usava protocolo HTTP para download de arquivos, expondo usuários a ataques de homem-no-meio (MITM) na rede ou via provedor de internet. A vulnerabilidade foi descoberta por um programador da Nova Zelândia, que utiliza o pseudônimo MrBruh . Ele reportou o problema em 6 de fevereiro à plataforma de bug bounty utilizada pela AMD. No mesmo dia, a plataforma informou que ataques MITM não estavam cobertos pelo programa de recompensas, e o relatório foi encerrado.",
-      "link": "https://www.cisoadvisor.com.br/amd-corrige-apos-4-meses-falha-de-mitm-em-atualizador/",
-      "published": "15/06/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no Microsoft 365 Copilot tornava possível o roubo de e-mails e arquivos da caixa de correio, do SharePoint e do OneDrive de uma vítima, além de garantir acesso ao calendário com apenas um clique. A informação foi publicada hoje em uma reportagem técnica detalhando que a Microsoft corrigiu o problema em 4 de junho. A falha , registrada sob o identificador CVE-2026-42824 (CVSS de 9.0), foi descoberta por pesquisadores da empresa de segurança Hero. Embora vulnerabilidades que permitem a exposição de informações normalmente não sejam avaliadas como críticas, este caso foi uma exceção devido ao seu desenho simples.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-microsoft-365-copilot-permitia-roubo-de-e-mails/",
+      "published": "16/06/2026 12:00",
+      "cves": [
+        "CVE-2026-42824"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Falha crítica no Wazuh permite apagar alertas e evidências de segurança",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no Wazuh Manager pode permitir que invasores manipulem alertas, apaguem evidências forenses e alterem dados usados por equipes de segurança em ambientes monitorados pela plataforma. O problema está no subsistema inventory_sync, introduzido nessa versão, e envolve uma falha de injeção NDJSON. O componente processa dados enviados por agentes e os encaminha para a API _bulk do OpenSearch sem validar corretamente o campo usado para definir índices.",
+      "link": "https://boletimsec.com/falha-critica-no-wazuh-permite-apagar-alertas-e-evidencias-de-seguranca/",
+      "published": "16/06/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Google processa rede chinesa por usar Gemini em golpes de phishing",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O Google entrou com uma ação judicial contra uma rede de cibercrime baseada na China acusada de usar o Gemini para ampliar campanhas de phishing e golpes por mensagens contra consumidores nos Estados Unidos. O grupo, identificado como Outsider Enterprise, operava uma estrutura de phishing como serviço, oferecendo a criminosos kits prontos para criar páginas falsas, automatizar fraudes e imitar marcas conhecidas. Segundo a denúncia, a rede mantinha canais no Telegram para coordenar afiliados e distribuir ferramentas de golpe.",
-      "link": "https://boletimsec.com/google-processa-rede-chinesa-por-usar-gemini-em-golpes-de-phishing/",
-      "published": "15/06/2026 12:00",
+      "title": "Autoridade europeia alerta para vazamentos via ‘shadow AI’",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Supervisor Europeu de Proteção de Dados (EDPS) alertou hoje para os riscos de violações de dados decorrentes do uso de ferramentas de IA não autorizadas por funcionários de organizações, fenômeno conhecido como “shadow AI”, de acordo com comunicado oficial . “O que parece uma maneira fácil de ser mais produtivo pode ter consequências graves, incluindo violações de dados, não conformidade regulatória e interrupções operacionais que passam despercebidas”, afirmou o presidente do EDPS, Wojciech Wiewiórowski, em publicação no blog da agência.",
+      "link": "https://www.cisoadvisor.com.br/autoridade-europeia-alerta-para-vazamentos-via-shadow-ai/",
+      "published": "16/06/2026 12:00",
       "cves": [],
-      "vendor": "Google"
+      "vendor": null
+    },
+    {
+      "title": "Ataque ao Arch Linux sequestra 1.900 pacotes para enviar rootkit",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "cloud",
+      "summary": "Mais de 1.900 pacotes do Arch Linux foram sequestrados no último final de semana como parte de um ataque massivo à cadeia de suprimentos, projetado para infectar usuários com um rootkit e um coletor de credenciais. O atacante (ou grupo) mirou pacotes hospedados no AUR (Arch User Repository), um repositório comunitário onde usuários compartilham scripts de compilação para softwares não presentes nos repositórios oficiais. O portal abriga cerca de 100 mil entradas, mas quase um décimo delas foi abandonado por seus mantenedores. O ataque explorou um mecanismo que permitiu ao hacker “adotar” pacotes órfãos e se tornar mantenedor.",
+      "link": "https://www.cisoadvisor.com.br/ataque-ao-arch-linux-sequestra-1-900-pacotes-para-enviar-rootkit/",
+      "published": "16/06/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
     }
   ]
 }
