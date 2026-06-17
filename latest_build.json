@@ -1,66 +1,68 @@
 {
-  "generated_at": "2026-06-16T12:00:00.002415-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-06-17T12:00:00.009793-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA inclui falha da Palo Alto em catálogo de vulnerabilidades exploradas",
+      "title": "Falhas no FortiSandbox permitem bypass de autenticação",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Palo Alto Networks emitiu um alerta sobre a exploração ativa da CVE-2026-0257, uma vulnerabilidade crítica que afeta os componentes GlobalProtect portal e gateway do PAN-OS. A falha permite contornar mecanismos de autenticação e pode abrir caminho para conexões VPN não autorizadas. O problema atinge ambientes que utilizam o GlobalProtect para acesso remoto seguro. Por envolver a borda da rede, a vulnerabilidade é considerada especialmente sensível, já que dispositivos VPN costumam ser expostos à internet e usados como porta de entrada para infraestrutura corporativa.",
-      "link": "https://boletimsec.com/cisa-inclui-falha-da-palo-alto-em-catalogo-de-vulnerabilidades-exploradas/",
-      "published": "16/06/2026 12:00",
+      "summary": "Atacantes estão explorando três vulnerabilidades no Fortinet FortiSandbox, produto usado por empresas para analisar arquivos suspeitos e identificar possíveis ameaças antes que elas cheguem ao ambiente corporativo. A atividade foi observada pela empresa de inteligência de ameaças Defused Cyber, que relatou tentativas de exploração nas últimas 24 horas envolvendo as falhas CVE-2026-39813, CVE-2026-39808 e CVE-2026-25089. Duas delas foram corrigidas pela Fortinet em abril de 2026, enquanto a terceira teve correção disponibilizada na semana passada.",
+      "link": "https://boletimsec.com/falhas-no-fortisandbox-permitem-bypass-de-autenticacao/",
+      "published": "17/06/2026 12:00",
       "cves": [
-        "CVE-2026-0257"
+        "CVE-2026-39813",
+        "CVE-2026-39808",
+        "CVE-2026-25089"
       ],
-      "vendor": "Palo Alto"
+      "vendor": "Fortinet"
     },
     {
-      "title": "Falha no Microsoft 365 Copilot permitia roubo de e-mails",
-      "source": "CISO Advisor",
+      "title": "Falha no Microsoft 365 Copilot poderia vazar e-mails e arquivos",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Microsoft 365 Copilot tornava possível o roubo de e-mails e arquivos da caixa de correio, do SharePoint e do OneDrive de uma vítima, além de garantir acesso ao calendário com apenas um clique. A informação foi publicada hoje em uma reportagem técnica detalhando que a Microsoft corrigiu o problema em 4 de junho. A falha , registrada sob o identificador CVE-2026-42824 (CVSS de 9.0), foi descoberta por pesquisadores da empresa de segurança Hero. Embora vulnerabilidades que permitem a exposição de informações normalmente não sejam avaliadas como críticas, este caso foi uma exceção devido ao seu desenho simples.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-microsoft-365-copilot-permitia-roubo-de-e-mails/",
-      "published": "16/06/2026 12:00",
-      "cves": [
-        "CVE-2026-42824"
-      ],
+      "summary": "Uma falha no Microsoft 365 Copilot poderia permitir o vazamento de e-mails, arquivos, convites de calendário e até códigos temporários de autenticação a partir de um único clique em um link legítimo da Microsoft. A vulnerabilidade foi identificada por pesquisadores da Varonis Threat Labs e recebeu o nome de SearchLeak. O problema combina três fraquezas diferentes para transformar uma consulta do Copilot Enterprise Search em um caminho de exfiltração de dados.",
+      "link": "https://boletimsec.com/falha-no-microsoft-365-copilot-poderia-vazar-e-mails-e-arquivos/",
+      "published": "17/06/2026 12:00",
+      "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "Falha crítica no Wazuh permite apagar alertas e evidências de segurança",
+      "title": "Cisco alerta para exploração limitada de vulnerabilidade no SD-WAN Manager",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Wazuh Manager pode permitir que invasores manipulem alertas, apaguem evidências forenses e alterem dados usados por equipes de segurança em ambientes monitorados pela plataforma. O problema está no subsistema inventory_sync, introduzido nessa versão, e envolve uma falha de injeção NDJSON. O componente processa dados enviados por agentes e os encaminha para a API _bulk do OpenSearch sem validar corretamente o campo usado para definir índices.",
-      "link": "https://boletimsec.com/falha-critica-no-wazuh-permite-apagar-alertas-e-evidencias-de-seguranca/",
-      "published": "16/06/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "summary": "A Cisco lançou atualizações de segurança para corrigir uma vulnerabilidade no Catalyst SD-WAN Manager que já está sendo explorada em ataques reais. A falha, identificada como CVE-2026-20262, recebeu pontuação CVSS 6.5 e afeta a interface web da plataforma. O problema permite que um invasor remoto autenticado crie ou sobrescreva arquivos no sistema afetado.",
+      "link": "https://boletimsec.com/cisco-alerta-para-exploracao-limitada-de-vulnerabilidade-no-sd-wan-manager/",
+      "published": "17/06/2026 12:00",
+      "cves": [
+        "CVE-2026-20262"
+      ],
+      "vendor": "Cisco"
     },
     {
-      "title": "Autoridade europeia alerta para vazamentos via ‘shadow AI’",
+      "title": "FBI e Google derrubam plataforma de phishing",
       "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Supervisor Europeu de Proteção de Dados (EDPS) alertou hoje para os riscos de violações de dados decorrentes do uso de ferramentas de IA não autorizadas por funcionários de organizações, fenômeno conhecido como “shadow AI”, de acordo com comunicado oficial . “O que parece uma maneira fácil de ser mais produtivo pode ter consequências graves, incluindo violações de dados, não conformidade regulatória e interrupções operacionais que passam despercebidas”, afirmou o presidente do EDPS, Wojciech Wiewiórowski, em publicação no blog da agência.",
-      "link": "https://www.cisoadvisor.com.br/autoridade-europeia-alerta-para-vazamentos-via-shadow-ai/",
-      "published": "16/06/2026 12:00",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O FBI e o Google anunciaram ontem o desmonte da Outsider Enterprise , uma grande plataforma de phishing coordenada por meio do Telegram e operada a partir da China . A ação fez parte da Operação Riptide do FBI, um esforço para desarticular redes criminosas cibernéticas. As autoridades apreenderam domínios ligados aos servidores administrativos da Outsider, uma loja virtual Shopify usada para testes dos kits de phishing e aproximadamente US$ 100 mil em criptoativos. O FBI também utilizou um bot do Telegram da própria Outsider para coletar inteligência sobre os clientes da plataforma.",
+      "link": "https://www.cisoadvisor.com.br/fbi-e-google-derrubam-plataforma-de-phishing/",
+      "published": "17/06/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Google"
     },
     {
-      "title": "Ataque ao Arch Linux sequestra 1.900 pacotes para enviar rootkit",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "Mais de 1.900 pacotes do Arch Linux foram sequestrados no último final de semana como parte de um ataque massivo à cadeia de suprimentos, projetado para infectar usuários com um rootkit e um coletor de credenciais. O atacante (ou grupo) mirou pacotes hospedados no AUR (Arch User Repository), um repositório comunitário onde usuários compartilham scripts de compilação para softwares não presentes nos repositórios oficiais. O portal abriga cerca de 100 mil entradas, mas quase um décimo delas foi abandonado por seus mantenedores. O ataque explorou um mecanismo que permitiu ao hacker “adotar” pacotes órfãos e se tornar mantenedor.",
-      "link": "https://www.cisoadvisor.com.br/ataque-ao-arch-linux-sequestra-1-900-pacotes-para-enviar-rootkit/",
-      "published": "16/06/2026 12:00",
+      "title": "5 dias Segurança Golpe usa falsa vaga da L’Oréal para roubar e-mails de candidatos",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Pesquisadores identificaram uma campanha de phishing que usa falsas vagas de emprego atribuídas à L'Oréal para roubar credenciais de acesso a contas de e-mail. O golpe funciona em etapas: primeiro coleta dados pessoais do candidato e, numa segunda fase, solicita a senha do e-mail sob o argumento de que a medida seria necessária para validar a candidatura. A L'Oréal não tem qualquer relação com as mensagens ou páginas fraudulentas identificadas. Segundo a ESET, empresa de segurança digital que identificou o golpe, outras marcas globais como Coca-Cola, RedBull e Ogilvy também já tiveram seus nomes usados em campanhas com estrutura semelhante.",
+      "link": "https://canaltech.com.br/seguranca/golpe-usa-falsa-vaga-da-loreal-para-roubar-e-mails-de-candidatos/",
+      "published": "17/06/2026 12:00",
       "cves": [],
-      "vendor": "Linux"
+      "vendor": null
     }
   ]
 }
