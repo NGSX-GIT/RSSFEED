@@ -1,66 +1,68 @@
 {
-  "generated_at": "2026-06-17T12:00:00.009793-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-06-18T12:00:00.002217-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Falhas no FortiSandbox permitem bypass de autenticação",
+      "title": "Aparelhos Google Pixel recebem correções contra RCE",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Telefones da linha Google Pixel apresentaram múltiplas vulnerabilidades críticas que possibilitavam a execução remota de código (RCE). O pacote de atualizações de segurança disponibilizado este mês registrou o maior volume de correções críticas resolvidas em um único ciclo mensal na história da linha de dispositivos da marca. A rodada de atualizações de junho de 2026 soluciona um total de 41 vulnerabilidades nos smartphones, sendo 11 delas classificadas com nível crítico de severidade. Desse grupo de alta criticidade, oito falhas técnicas abriam caminho para que invasores executassem códigos arbitrários à distância nos aparelhos corporativos e pessoais afetados.",
+      "link": "https://www.cisoadvisor.com.br/aparelhos-google-pixel-recebem-correcoes-contra-rce/",
+      "published": "18/06/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
+    },
+    {
+      "title": "Vulnerabilidade crítica da Oracle é usada em campanhas de ransomware",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Atacantes estão explorando três vulnerabilidades no Fortinet FortiSandbox, produto usado por empresas para analisar arquivos suspeitos e identificar possíveis ameaças antes que elas cheguem ao ambiente corporativo. A atividade foi observada pela empresa de inteligência de ameaças Defused Cyber, que relatou tentativas de exploração nas últimas 24 horas envolvendo as falhas CVE-2026-39813, CVE-2026-39808 e CVE-2026-25089. Duas delas foram corrigidas pela Fortinet em abril de 2026, enquanto a terceira teve correção disponibilizada na semana passada.",
-      "link": "https://boletimsec.com/falhas-no-fortisandbox-permitem-bypass-de-autenticacao/",
-      "published": "17/06/2026 12:00",
+      "summary": "A CISA incluiu uma vulnerabilidade crítica do Oracle PeopleSoft em seu catálogo de falhas exploradas, após confirmar o uso da brecha em ataques reais envolvendo ransomware. A falha é rastreada como CVE-2026-35273 e afeta o Oracle PeopleSoft Enterprise PeopleTools. O problema permite que invasores remotos executem funções críticas sem credenciais válidas. Na prática, a ausência de autenticação adequada em operações sensíveis pode levar ao controle completo de sistemas vulneráveis.",
+      "link": "https://boletimsec.com/vulnerabilidade-critica-da-oracle-e-usada-em-campanhas-de-ransomware/",
+      "published": "18/06/2026 12:00",
       "cves": [
-        "CVE-2026-39813",
+        "CVE-2026-35273"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Falhas no FortiSandbox entram na mira de invasores",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Três vulnerabilidades corrigidas recentemente no Fortinet FortiSandbox viraram alvo de ataques ativos. A informação foi identificada por sensores e redes de monitoramento da empresa de inteligência de exploits Defused, apontando que as tentativas de intrusão buscam se aproveitar de brechas de execução de comandos e desvio de barreiras de proteção. Os sistemas de monitoramento registraram atividades direcionadas aos registros CVE-2026-39808, CVE-2026-39813 e CVE-2026-25089. As duas primeiras foram classificadas com grau de severidade crítica e receberam correções estruturais em abril de 2026.",
+      "link": "https://www.cisoadvisor.com.br/falhas-no-fortisandbox-entram-na-mira-de-invasores/",
+      "published": "18/06/2026 12:00",
+      "cves": [
         "CVE-2026-39808",
+        "CVE-2026-39813",
         "CVE-2026-25089"
       ],
       "vendor": "Fortinet"
     },
     {
-      "title": "Falha no Microsoft 365 Copilot poderia vazar e-mails e arquivos",
+      "title": "Falha crítica no LiteLLM permite contornar autenticação",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma falha no Microsoft 365 Copilot poderia permitir o vazamento de e-mails, arquivos, convites de calendário e até códigos temporários de autenticação a partir de um único clique em um link legítimo da Microsoft. A vulnerabilidade foi identificada por pesquisadores da Varonis Threat Labs e recebeu o nome de SearchLeak. O problema combina três fraquezas diferentes para transformar uma consulta do Copilot Enterprise Search em um caminho de exfiltração de dados.",
-      "link": "https://boletimsec.com/falha-no-microsoft-365-copilot-poderia-vazar-e-mails-e-arquivos/",
-      "published": "17/06/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Cisco alerta para exploração limitada de vulnerabilidade no SD-WAN Manager",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco lançou atualizações de segurança para corrigir uma vulnerabilidade no Catalyst SD-WAN Manager que já está sendo explorada em ataques reais. A falha, identificada como CVE-2026-20262, recebeu pontuação CVSS 6.5 e afeta a interface web da plataforma. O problema permite que um invasor remoto autenticado crie ou sobrescreva arquivos no sistema afetado.",
-      "link": "https://boletimsec.com/cisco-alerta-para-exploracao-limitada-de-vulnerabilidade-no-sd-wan-manager/",
-      "published": "17/06/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no LiteLLM pode permitir que invasores burlem mecanismos de autenticação em determinadas configurações do proxy usado para gerenciar APIs de modelos de linguagem. A falha foi identificada como CVE-2026-49468 e afeta versões anteriores à 1.84.0. O LiteLLM é usado por empresas e desenvolvedores para centralizar o acesso a diferentes provedores de IA, controlar chaves de API, aplicar limites de uso e organizar chamadas para modelos de linguagem. Por isso, uma falha de autenticação nesse componente pode expor endpoints sensíveis de administração. O problema está relacionado ao tratamento inadequado do cabeçalho Host em requisições HTTP.",
+      "link": "https://boletimsec.com/falha-critica-no-litellm-permite-contornar-autenticacao/",
+      "published": "18/06/2026 12:00",
       "cves": [
-        "CVE-2026-20262"
+        "CVE-2026-49468"
       ],
-      "vendor": "Cisco"
+      "vendor": null
     },
     {
-      "title": "FBI e Google derrubam plataforma de phishing",
+      "title": "Oracle publica nova rodada mensal de atualizações",
       "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O FBI e o Google anunciaram ontem o desmonte da Outsider Enterprise , uma grande plataforma de phishing coordenada por meio do Telegram e operada a partir da China . A ação fez parte da Operação Riptide do FBI, um esforço para desarticular redes criminosas cibernéticas. As autoridades apreenderam domínios ligados aos servidores administrativos da Outsider, uma loja virtual Shopify usada para testes dos kits de phishing e aproximadamente US$ 100 mil em criptoativos. O FBI também utilizou um bot do Telegram da própria Outsider para coletar inteligência sobre os clientes da plataforma.",
-      "link": "https://www.cisoadvisor.com.br/fbi-e-google-derrubam-plataforma-de-phishing/",
-      "published": "17/06/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "5 dias Segurança Golpe usa falsa vaga da L’Oréal para roubar e-mails de candidatos",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Pesquisadores identificaram uma campanha de phishing que usa falsas vagas de emprego atribuídas à L'Oréal para roubar credenciais de acesso a contas de e-mail. O golpe funciona em etapas: primeiro coleta dados pessoais do candidato e, numa segunda fase, solicita a senha do e-mail sob o argumento de que a medida seria necessária para validar a candidatura. A L'Oréal não tem qualquer relação com as mensagens ou páginas fraudulentas identificadas. Segundo a ESET, empresa de segurança digital que identificou o golpe, outras marcas globais como Coca-Cola, RedBull e Ogilvy também já tiveram seus nomes usados em campanhas com estrutura semelhante.",
-      "link": "https://canaltech.com.br/seguranca/golpe-usa-falsa-vaga-da-loreal-para-roubar-e-mails-de-candidatos/",
-      "published": "17/06/2026 12:00",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma nova rodada de atualizações críticas de segurança foi publicada ontem para fornecer correções técnicas aos sistemas da Oracle. O pacote mensal de junho de 2026 visa complementar os ciclos trimestrais tradicionais para mitigar de forma acelerada vulnerabilidades de severidade elevada encontradas em diversas linhas de produtos corporativos. O conjunto recente de atualizações disponibiliza 245 novos patches direcionados a infraestruturas de comunicação, E-Business Suite, Enterprise Manager, Fusion Middleware, MySQL e plataformas de virtualização. Desse montante, cerca de 120 falhas de segurança foram avaliadas com nível crítico de severidade.",
+      "link": "https://www.cisoadvisor.com.br/oracle-publica-nova-rodada-mensal-de-atualizacoes/",
+      "published": "18/06/2026 12:00",
       "cves": [],
       "vendor": null
     }
