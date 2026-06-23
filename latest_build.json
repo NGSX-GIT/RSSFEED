@@ -1,72 +1,66 @@
 {
-  "generated_at": "2026-06-22T12:00:00.002537-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-06-23T12:00:00.002434-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Avada Builder: falha crítica expõe 1 milhão de sites",
-      "source": "CISO Advisor",
+      "title": "Falha crítica no Splunk Enterprise entra no catálogo de vulnerabilidades exploradas",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica de segurança identificada no Avada (Fusion) Builder, um dos complementos mais populares do ecossistema WordPress, expôs mais de 1 milhão de sites a ataques de exclusão arbitrária de arquivos. O defeito lógico abre caminho para o comprometimento total do servidor e a execução remota de código ( RCE ). A correção estrutural já foi disponibilizada pela equipe de desenvolvimento do software. A falha técnica está registrada sob o identificador CVE-2026-8713 e recebeu uma pontuação de severidade CVSS de 9.1.",
-      "link": "https://www.cisoadvisor.com.br/avada-builder-falha-critica-expoe-1-milhao-de-sites/",
-      "published": "22/06/2026 12:00",
-      "cves": [
-        "CVE-2026-8713"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "F5 publica patches para falhas com CVSS 9.2 no NGINX",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A F5 Networks publicou, no último dia 17 de junho, atualizações de segurança de emergência para corrigir duas vulnerabilidades críticas no servidor web NGINX, que podem permitir a execução remota de código em sistemas com configurações específicas, segundo comunicado da empresa. As falhas , identificadas como CVE-2026-42530 e CVE-2026-42055 , receberam pontuação CVSS v4.0 de 9.2, classificada como Crítica, e afetam os módulos ngx_http_v3_module (HTTP/3) e ngx_http_proxy_v2_module/ngx_http_grpc_module, respectivamente.",
-      "link": "https://www.cisoadvisor.com.br/f5-publica-patches-para-falhas-com-cvss-9-2-no-nginx/",
-      "published": "22/06/2026 12:00",
-      "cves": [
-        "CVE-2026-42530",
-        "CVE-2026-42055"
-      ],
-      "vendor": "NGINX"
-    },
-    {
-      "title": "Falha crítica no Splunk Enterprise",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A desenvolvedora de software Splunk emitiu um comunicado de segurança alertando sobre a exploração ativa de uma vulnerabilidade crítica na plataforma Splunk Enterprise. O defeito lógico permite que um agente malicioso não autenticado execute códigos arbitrários diretamente nos servidores afetados, comprometendo a integridade do ambiente corporativo de gerenciamento e análise de logs. A falha de segurança está catalogada sob o registro CVE-2026-20253 . Ela possibilita que invasores remotos criem e apaguem arquivos arbitrários dentro do sistema de arquivos da aplicação, sem a necessidade de fornecer credenciais válidas.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-splunk-enterprise/",
-      "published": "22/06/2026 12:00",
+      "summary": "A CISA alertou que uma vulnerabilidade crítica no Splunk Enterprise está sendo explorada em ataques reais. A falha, identificada como CVE-2026-20253, afeta um componente interno ligado ao serviço PostgreSQL Sidecar da plataforma. O problema foi incluído no catálogo de vulnerabilidades exploradas conhecidas da agência em 18 de junho de 2026. A inclusão indica que a falha já deixou de ser apenas um risco teórico e deve ser tratada como prioridade por organizações que usam o Splunk. A vulnerabilidade ocorre por falta de autenticação em uma função sensível do produto.",
+      "link": "https://boletimsec.com/falha-critica-no-splunk-enterprise-entra-no-catalogo-de-vulnerabilidades-exploradas/",
+      "published": "23/06/2026 12:00",
       "cves": [
         "CVE-2026-20253"
       ],
       "vendor": null
     },
     {
-      "title": "Falha crítica no Avada Builder expõe sites WordPress",
-      "source": "BoletimSec Notícias",
+      "title": "Fortinet reage à campanha FortiBleed",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no plugin Avada Builder para WordPress pode expor mais de 1 milhão de sites a ataques de exclusão arbitrária de arquivos. A falha foi identificada como CVE-2026-8713 e recebeu pontuação CVSS 9.1, indicando alto risco. O problema afeta todas as versões do plugin até a 3.15.3. A correção foi disponibilizada na versão 3.15.4, lançada pela equipe do Avada após o reporte feito por meio do programa de recompensas da Wordfence. A falha está ligada à forma como o plugin lida com arquivos enviados ou associados a formulários.",
-      "link": "https://boletimsec.com/falha-critica-no-avada-builder-expoe-sites-wordpress/",
-      "published": "22/06/2026 12:00",
+      "summary": "Em resposta oficial ao avanço da massiva campanha de roubo de credenciais batizada de FortiBleed, a Fortinet emitiu um posicionamento técnico esclarecendo que as intrusões não estão associadas à exploração de novas falhas de segurança (zero-days) em seus produtos. De acordo com a fabricante, a operação baseia-se na reciclagem automatizada de dados anteriormente vazados e no abuso de firewalls desatualizados ou com configurações frágeis de controle de acesso.",
+      "link": "https://www.cisoadvisor.com.br/fortinet-reage-a-campanha-fortibleed/",
+      "published": "23/06/2026 12:00",
+      "cves": [],
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "Falhas antigas em roteadores permitem expansão do botnet AryStinger",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A botnet AryStinger infectou cerca de 4,3 mil roteadores antigos para criar uma rede global usada por criminosos em atividades de reconhecimento, ocultação de tráfego e apoio a ataques contra outros alvos. A campanha foi documentada pela QiAnXin XLab e mira principalmente roteadores baseados em chips Realtek RTL819X, comuns em equipamentos lançados entre 2012 e 2015. Muitos desses aparelhos ainda estão em uso, apesar de já não receberem atualizações regulares. Os invasores exploram falhas antigas, incluindo CVE-2013-3307 e CVE-2016-5681, para comprometer dispositivos vulneráveis. Modelos da D-Link e da Linksys aparecem entre os equipamentos afetados, com destaque para o D-Link DIR-850L.",
+      "link": "https://boletimsec.com/falhas-antigas-em-roteadores-permitem-expansao-do-botnet-arystinger/",
+      "published": "23/06/2026 12:00",
       "cves": [
-        "CVE-2026-8713"
+        "CVE-2013-3307",
+        "CVE-2016-5681"
       ],
       "vendor": null
     },
     {
-      "title": "Node.js corrige 12 vulnerabilidades em novas atualizações de segurança",
-      "source": "BoletimSec Notícias",
+      "title": "Ataque à Klue comprometeu contas de empresas de segurança",
+      "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "O Node.js lançou atualizações de segurança para corrigir 12 vulnerabilidades em versões ainda suportadas da plataforma, incluindo duas falhas de alta gravidade que podem afetar autenticação e disponibilidade de aplicações. As correções foram liberadas em 18 de junho de 2026 e atingem as linhas Node.js 22.x, 24.x e 26.x. As versões corrigidas são 22.23.0, 24.17.0 e 26.3.1. A falha mais sensível é a CVE-2026-48618, relacionada à forma como o Node.js verifica nomes de domínio em conexões TLS. Em determinadas configurações, o problema poderia permitir contornar verificações baseadas em certificados e comprometer a confiança em conexões seguras.",
-      "link": "https://boletimsec.com/node-js-corrige-12-vulnerabilidades-em-novas-atualizacoes-de-seguranca/",
-      "published": "22/06/2026 12:00",
-      "cves": [
-        "CVE-2026-48618"
-      ],
+      "summary": "O ataque à plataforma de inteligência competitiva Klue resultou no comprometimento de contas de negócios de pelo menos cinco empresas de segurança, que tiveram dados de seus ambientes Salesforce comprometidos, conforme revelações publicadas no último fim de semana. A intrusão , descoberta no dia 12 de junho, foi realizada por meio de uma “credencial legada comprometida associada a um serviço de integração”, que permitiu aos atacantes roubarem tokens OAuth usados pelos clientes para conectar a Klue a plataformas de terceiros.",
+      "link": "https://www.cisoadvisor.com.br/ataque-a-klue-comprometeu-contas-de-empresas-de-seguranca/",
+      "published": "23/06/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Nova botnet AryStinger infecta roteadores D-Link",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma nova operação de cibercrime baseada na formação de redes zumbis, batizada de botnet AryStinger , comprometeu com sucesso milhares de roteadores da fabricante D-Link ao redor do mundo. A campanha maliciosa utiliza táticas de varredura em massa para identificar dispositivos de rede expostos na internet e incorporá-los a uma infraestrutura distribuída voltada para a execução de ataques e outras atividades hostis. O avanço da botnet AryStinger apoia-se principalmente na exploração de falhas conhecidas de segurança e em vulnerabilidades antigas que permanecem ativas em roteadores que não receberam atualizações de firmware por parte dos administradores.",
+      "link": "https://www.cisoadvisor.com.br/nova-botnet-arystinger-infecta-roteadores-d-link/",
+      "published": "23/06/2026 12:00",
+      "cves": [],
       "vendor": null
     }
   ]
