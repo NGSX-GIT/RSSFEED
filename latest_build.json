@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:00:00.004798-03:00",
+  "generated_at": "2026-06-25T12:59:22.533332-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no Cisco Unified Communications Manager (Unified CM), que permite ataques de SSRF e escalonamento de privilégios para root, está sendo explorada ativamente por hackers, de acordo com a empresa de inteligência em explorações Defused. A falha, registrada como CVE-2026-20230 , recebeu correções da Cisco em 3 de junho, mas um código de prova de conceito (PoC) já estava disponível na ocasião, e a Defused observou evidências de exploração no último final de semana.",
       "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-critica-no-cisco-unified-cm/",
-      "published": "25/06/2026 12:00",
+      "published": "25/06/2026 12:59",
       "cves": [
         "CVE-2026-20230"
       ],
@@ -23,11 +23,22 @@
       "category": "patches",
       "summary": "Hackers estão explorando uma falha zero-day no Cisco Catalyst SD-WAN Manager para obter acesso com privilégios máximos em ambientes corporativos. A vulnerabilidade, identificada como CVE-2026-20245, afeta a interface de linha de comando da solução. O caso foi observado em uma campanha contra a infraestrutura SD-WAN de um grande provedor de serviços. Segundo a investigação, os invasores partiram de contas administrativas já comprometidas para ampliar o controle sobre os sistemas afetados. A falha permite que um usuário autenticado com permissões administrativas envie um arquivo especialmente criado e execute comandos com privilégios elevados.",
       "link": "https://boletimsec.com/cibercriminosos-exploram-zero-day-no-cisco-catalyst-sd-wan-manager/",
-      "published": "25/06/2026 12:00",
+      "published": "25/06/2026 12:59",
       "cves": [
         "CVE-2026-20245"
       ],
       "vendor": "Cisco"
+    },
+    {
+      "title": "Campanha FortiBleed coletou credenciais em 24 protocolos",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Os responsáveis pela campanha FortiBleed, que comprometeu dezenas de milhares de firewalls Fortinet, instalaram nos dispositivos invadidos um sniffer personalizado para interceptar o tráfego de login de 24 protocolos diferentes, obtendo hashes e também senhas não criptografadas. A análise , publicada pela empresa de segurança SOCRadar, detalha que a operação visou mais de 430 mil firewalls FortiGate globalmente e está ativa desde, pelo menos, fevereiro de 2026. O ataque começou com ataques de força bruta SSH, para os quais os invasores utilizaram uma lista própria de credenciais , combinando dados de vazamentos anteriores com conjuntos adquiridos, segundo a SOCRadar.",
+      "link": "https://www.cisoadvisor.com.br/campanha-fortibleed-coletou-credenciais-em-24-protocolos/",
+      "published": "25/06/2026 12:59",
+      "cves": [],
+      "vendor": "Fortinet"
     },
     {
       "title": "MisticRAT abre portas para ataques de ransomware",
@@ -36,7 +47,7 @@
       "category": "identity",
       "summary": "Uma nova linhagem de malware avançado do tipo Cavalo de Troia de Acesso Remoto, batizada de MisticRAT , foi identificada em campanhas ativas de espionagem e intrusão corporativa global. O agente malicioso atua de forma estratégica como um facilitador de infecções secundárias, fornecendo a grupos de e-crime e operadores de ransomware um vetor estável de persistência e infiltração profunda em redes corporativas de grande porte. O diferencial técnico do MisticRAT reside em sua arquitetura de engenharia altamente sofisticada e modular.",
       "link": "https://www.cisoadvisor.com.br/misticrat-abre-portas-para-ataques-de-ransomware/",
-      "published": "25/06/2026 12:00",
+      "published": "25/06/2026 12:59",
       "cves": [],
       "vendor": null
     },
@@ -47,22 +58,9 @@
       "category": "threat",
       "summary": "A Casa Branca determinou que agências federais civis dos Estados Unidos iniciem a migração de sistemas críticos para criptografia pós-quântica, em uma tentativa de proteger dados sensíveis contra futuros ataques capazes de quebrar métodos de proteção usados atualmente. A ordem executiva, chamada “Securing the Nation Against Advanced Cryptographic Attacks”, estabelece prazos para a adoção de novos padrões em sistemas de alto valor e alto impacto. A mudança mira principalmente informações governamentais, infraestrutura crítica e serviços essenciais. A preocupação central é o avanço dos computadores quânticos.",
       "link": "https://boletimsec.com/computacao-quantica-leva-casa-branca-a-reforcar-protecao-de-dados-sensiveis/",
-      "published": "25/06/2026 12:00",
+      "published": "25/06/2026 12:59",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "Exploit público aumenta risco de ataque contra Microsoft Exchange Server",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma prova de conceito pública foi divulgada para uma vulnerabilidade de alta gravidade no Microsoft Exchange Server, aumentando o risco de exploração contra ambientes locais que ainda não aplicaram as correções de junho de 2026. A falha, identificada como CVE-2026-45504, afeta Exchange Server 2016, Exchange Server 2019 e Exchange Server Subscription Edition em instalações locais. A Microsoft corrigiu o problema nas atualizações de segurança publicadas em 9 de junho de 2026. O problema permite que um usuário autenticado com baixo privilégio leia arquivos arbitrários no servidor Exchange.",
-      "link": "https://boletimsec.com/exploit-publico-aumenta-risco-de-ataque-contra-microsoft-exchange-server/",
-      "published": "25/06/2026 12:00",
-      "cves": [
-        "CVE-2026-45504"
-      ],
-      "vendor": "Microsoft"
     }
   ]
 }
