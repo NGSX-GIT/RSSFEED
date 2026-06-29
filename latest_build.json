@@ -1,62 +1,67 @@
 {
-  "generated_at": "2026-06-28T12:00:00.060389-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-06-29T12:00:00.037361-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "4 dias Segurança LastPass sofre mais um ataque e dados de usuários são expostos",
+      "title": "PTC Windchill: primeira exploração ativa de falha crítica confirmada",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A agência de segurança cibernética dos EUA (CISA) adicionou dia 25 de Junho a falha de execução remota de código CVE-2026-12569 (CVSS de 9.3) ao seu catálogo de Vulnerabilidades Exploradas Conhecidas (KEV), após a confirmação de ataques ativos contra o sistema de gestão do ciclo de vida de produtos (PLM) PTC Windchill e sua variante FlexPLM. Esta é a primeira vulnerabilidade de produto da PTC a ser incluída no catálogo KEV da CISA, que determinou que agências federais apliquem correções até hoje, 28 de junho. A falha de validação de entrada permite que um atacante remoto e não autenticado execute código arbitrário por meio da desserialização de dados não confiáveis.",
+      "link": "https://www.cisoadvisor.com.br/ptc-windchill-primeira-exploracao-ativa-de-falha/",
+      "published": "29/06/2026 12:00",
+      "cves": [
+        "CVE-2026-12569"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Amazon corrige falhas críticas em extensões do Amazon Q Developer",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade de alta gravidade no Amazon Q Developer poderia permitir que invasores executassem comandos e roubassem credenciais de nuvem quando um desenvolvedor abrisse um repositório malicioso no ambiente de programação. As falhas foram identificadas como CVE-2026-12957 e CVE-2026-12958 e afetam extensões do Amazon Q para ferramentas como Visual Studio Code, JetBrains, Eclipse e Visual Studio. O problema estava na forma como o assistente carregava configurações de servidores MCP presentes dentro do próprio projeto. Em versões vulneráveis, essas configurações podiam ser executadas automaticamente sem confirmação clara do usuário.",
+      "link": "https://boletimsec.com/amazon-corrige-falhas-criticas-em-extensoes-do-amazon-q-developer/",
+      "published": "29/06/2026 12:00",
+      "cves": [
+        "CVE-2026-12957",
+        "CVE-2026-12958"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "5 dias Segurança LastPass sofre mais um ataque e dados de usuários são expostos",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Dados de usuários do LastPass foram expostos em um novo incidente de segurança . O vazamento ocorreu após um ataque à Klue , plataforma de inteligência de mercado utilizada pela companhia, e não comprometeu as senhas guardadas no gerenciador . Os detalhes oficiais foram compartilhados nesta segunda-feira (22). Em nota, a empresa informa que tomou ciência da falha de segurança na plataforma parceira, que é integrada à instâncias internas do Salesforce e Gong , em 12 de junho. A brecha impactou diversas empresas , incluindo o LastPass.",
       "link": "https://canaltech.com.br/seguranca/lastpass-sofre-mais-um-ataque-e-dados-de-usuarios-sao-expostos/",
-      "published": "28/06/2026 12:00",
+      "published": "29/06/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Claro anuncia organização de comunidade de CISOs",
+      "title": "Cai infraestrutura de malwares SocGholish, Amadey, StealC",
       "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "A Claro empresas está anunciando a apresentação de uma comunidade que reúne líderes de segurança da informação, para discutir desafios da cibersegurança no Brasil. A iniciativa, em parceria com a MIT Technology Review Brasil, busca ampliar o papel da segurança como tema estratégico para o desenvolvimento econômico e tecnológico do Brasil, segundo comunicado enviado pelas empresas ao CISO Advisor. O programa será realizado ao longo de um ano com encontros periódicos, produção de conteúdo e geração de insights, moderados pela MIT Technology Review Brasil.",
-      "link": "https://www.cisoadvisor.com.br/claro-anuncia-organizacao-de-comunidade-de-cisos/",
-      "published": "28/06/2026 12:00",
+      "summary": "A Europol, em uma ação coordenada com agências de diversos países e parceiros privados, desferiu um golpe significativo contra as redes criminosas por trás dos malwares SocGholish, Amadey e StealC, como parte da Operação Endgame . A operação, que ocorreu nas últimas duas semanas, resultou na apreensão de mais de 41 milhões de euros em criptoativos criminais e na recuperação de 27 milhões de credenciais de login roubadas, de acordo com o comunicado da Europol divulgado no dia 24 de junho.",
+      "link": "https://www.cisoadvisor.com.br/derrubada-infraestruturas-de-malwares-socgholish-amadey-stealc/",
+      "published": "29/06/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "5 dias Segurança Copa do Mundo coloca em teste os limites do reconhecimento facial em massa",
-      "source": "Canaltech Segurança",
+      "title": "Bucket hijacking redireciona logs em AWS, Azure e Google",
+      "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "A Copa do Mundo de 2026 deve marcar um dos maiores usos de reconhecimento facial já aplicados em um evento esportivo global. Estádios inteligentes, controle biométrico de acesso e integração com sistemas de segurança já fazem parte do planejamento das cidades que receberão partidas nos Estados Unidos, México e Canadá. Com mais de seis milhões de torcedores presenciais esperados e orçamento de segurança superior a um bilhão de dólares, o torneio tende a se consolidar como o maior laboratório de vigilância biométrica da história do esporte . Ao mesmo tempo em que a tecnologia avança, cresce também o debate sobre os limites jurídicos, técnicos e éticos desse modelo de vigilância.",
-      "link": "https://canaltech.com.br/colunas/copa-do-mundo-coloca-em-teste-os-limites-do-reconhecimento-facial-em-massa/",
-      "published": "28/06/2026 12:00",
+      "summary": "Pesquisadores do Unit 42, laboratório de inteligência de ameaças da Palo Alto Networks, identificaram uma técnica de ataque que explora uma falha arquitetônica comum a Google Cloud, AWS e Microsoft Azure. Batizado de “bucket hijacking”, o método permite que invasores redirecionem fluxos de dados ativos de uma organização, incluindo logs de auditoria e telemetria, para buckets de armazenamento controlados pelo atacante. A técnica, cujos detalhes foram publicados no dia 22 de junho, baseia-se na unicidade global dos nomes dos buckets de armazenamento.",
+      "link": "https://www.cisoadvisor.com.br/bucket-hijacking-redireciona-logs-em-aws-azure-e-google/",
+      "published": "29/06/2026 12:00",
       "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Correções no cURL tratam falhas de 25 anos atrás",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Os desenvolvedores do cURL informaram à comunidade de TI ter corrigido um número recorde de vulnerabilidades no software, em sua versão mais recente , incluindo uma falha de segurança com 25 anos de existência. O anúncio foi feito por Daniel Stenberg, um dos mantenedores do cURL. Muitos dos problemas foram encontrados por ferramentas de IA . O cURL é uma biblioteca e ferramenta de linha de comando amplamente utilizada para enviar e receber dados por meio de diversos protocolos de rede. Segundo Stenberg, o cURL está instalado em mais de vinte bilhões de instâncias em todo o mundo. “Ele roda em mais de 110 sistemas operacionais e 28 arquiteturas de CPU.",
-      "link": "https://www.cisoadvisor.com.br/correcoes-no-curl-tratam-falhas-de-25-anos-atras/",
-      "published": "28/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Regulador suíço cobra dos bancos prontidão contra IA",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "A FINMA, autoridade supervisora financeira da Suíça, está pressionando os bancos do país a tratarem com urgência a adoção segura de ferramentas de inteligência artificial, sob o risco de ampliarem vulnerabilidades cibernéticas. A presidente Marlene Amstad alertou que, se as instituições não mantiverem seus sistemas atualizados, a IA pode aumentar os riscos existentes, tornando as ameaças cibernéticas ainda mais complexas. A FINMA também está atuando em fóruns internacionais para incentivar o uso seguro da IA no setor financeiro, tendo reunido reguladores de quase todos os mercados globais em um novo fórum.",
-      "link": "https://www.cisoadvisor.com.br/regulador-suico-cobra-dos-bancos-prontidao-contra-ia/",
-      "published": "28/06/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "vendor": "Microsoft"
     }
   ]
 }
