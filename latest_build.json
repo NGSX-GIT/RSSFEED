@@ -1,73 +1,64 @@
 {
-  "generated_at": "2026-06-30T08:43:31.198789-03:00",
+  "generated_at": "2026-06-30T12:00:00.002832-03:00",
   "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "PTC Windchill: primeira exploração ativa de falha crítica confirmada",
-      "source": "CISO Advisor",
+      "title": "Cibercriminosos exploram falha crítica no Oracle EBS",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A agência de segurança cibernética dos EUA (CISA) adicionou dia 25 de Junho a falha de execução remota de código CVE-2026-12569 (CVSS de 9.3) ao seu catálogo de Vulnerabilidades Exploradas Conhecidas (KEV), após a confirmação de ataques ativos contra o sistema de gestão do ciclo de vida de produtos (PLM) PTC Windchill e sua variante FlexPLM. Esta é a primeira vulnerabilidade de produto da PTC a ser incluída no catálogo KEV da CISA, que determinou que agências federais apliquem correções até hoje, 28 de junho. A falha de validação de entrada permite que um atacante remoto e não autenticado execute código arbitrário por meio da desserialização de dados não confiáveis.",
-      "link": "https://www.cisoadvisor.com.br/ptc-windchill-primeira-exploracao-ativa-de-falha/",
-      "published": "30/06/2026 08:43",
-      "cves": [
-        "CVE-2026-12569"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha no Oracle E-Business Suite explorada em ataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Defused, empresa de cibersegurança, identificou exploração ativa de uma vulnerabilidade crítica no Oracle E-Business Suite, conforme publicação do site Security.nl no dia 29 de junho. A falha , registrada como CVE-2026-46817, afeta o componente Oracle Payments e permite que um atacante não autenticado assuma o controle do produto remotamente, segundo a Oracle. A Oracle classificou a vulnerabilidade como “simples de explorar” e publicou atualizações de segurança em 28 de maio. A Defused relatou , por meio de sua conta no X, que observou tentativas de exploração da falha em seus honeypots durante o último fim de semana, sem, no entanto, fornecer detalhes adicionais sobre os ataques.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-oracle-e-business-suite-explorada-em-ataques/",
-      "published": "30/06/2026 08:43",
+      "summary": "Cibercriminosos estão explorando ativamente uma vulnerabilidade crítica no Oracle E-Business Suite, sistema usado por empresas para processos financeiros, pagamentos e operações corporativas. A falha foi identificada como CVE-2026-46817 e recebeu pontuação CVSS 9.8. O problema afeta versões 12.2.3 a 12.2.15 do Oracle E-Business Suite e está localizado no componente Oracle Payments, mais especificamente na função de transmissão de arquivos. A brecha permite que um invasor sem autenticação, com acesso pela rede via HTTP, comprometa o ambiente afetado. Isso significa que o ataque não exige login válido, o que aumenta o risco para sistemas expostos à internet.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-critica-no-oracle-ebs/",
+      "published": "30/06/2026 12:00",
       "cves": [
         "CVE-2026-46817"
       ],
       "vendor": null
     },
     {
-      "title": "Amazon corrige falhas críticas em extensões do Amazon Q Developer",
-      "source": "BoletimSec Notícias",
+      "title": "6 dias Segurança LastPass sofre mais um ataque e dados de usuários são expostos",
+      "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade de alta gravidade no Amazon Q Developer poderia permitir que invasores executassem comandos e roubassem credenciais de nuvem quando um desenvolvedor abrisse um repositório malicioso no ambiente de programação. As falhas foram identificadas como CVE-2026-12957 e CVE-2026-12958 e afetam extensões do Amazon Q para ferramentas como Visual Studio Code, JetBrains, Eclipse e Visual Studio. O problema estava na forma como o assistente carregava configurações de servidores MCP presentes dentro do próprio projeto. Em versões vulneráveis, essas configurações podiam ser executadas automaticamente sem confirmação clara do usuário.",
-      "link": "https://boletimsec.com/amazon-corrige-falhas-criticas-em-extensoes-do-amazon-q-developer/",
-      "published": "30/06/2026 08:43",
-      "cves": [
-        "CVE-2026-12957",
-        "CVE-2026-12958"
-      ],
+      "summary": "Dados de usuários do LastPass foram expostos em um novo incidente de segurança . O vazamento ocorreu após um ataque à Klue , plataforma de inteligência de mercado utilizada pela companhia, e não comprometeu as senhas guardadas no gerenciador . Os detalhes oficiais foram compartilhados nesta segunda-feira (22). Em nota, a empresa informa que tomou ciência da falha de segurança na plataforma parceira, que é integrada à instâncias internas do Salesforce e Gong , em 12 de junho. A brecha impactou diversas empresas , incluindo o LastPass.",
+      "link": "https://canaltech.com.br/seguranca/lastpass-sofre-mais-um-ataque-e-dados-de-usuarios-sao-expostos/",
+      "published": "30/06/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Falha crítica no Gemini CLI permite execução de comandos",
-      "source": "BoletimSec Notícias",
+      "title": "Ataque à Jaguar Land Rover usou ransomware avançado",
+      "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Gemini CLI, ferramenta de linha de comando do Google voltada a desenvolvedores, pode permitir que invasores executem comandos em ambientes automatizados de desenvolvimento, especialmente em fluxos do GitHub Actions. A falha foi identificada como CVE-2026-12537 e afeta versões do @google/gemini-cli anteriores à 0.39.1 e 0.40.0-preview.3. Também são afetadas versões do google-github-actions/run-gemini-cli anteriores à 0.1.22. O problema está na forma como a ferramenta tratava projetos executados sem interação humana, como pipelines de integração contínua.",
-      "link": "https://boletimsec.com/falha-critica-no-gemini-cli-permite-execucao-de-comandos/",
-      "published": "30/06/2026 08:43",
-      "cves": [
-        "CVE-2026-12537"
-      ],
-      "vendor": "Google"
+      "category": "threat",
+      "summary": "O ataque à Jaguar Land Rover (JLR) em setembro do ano passado, que paralisou a produção por semanas e gerou prejuízos de 550 milhões de euros para a montadora, foi uma operação de ransomware avançado que explorou vulnerabilidades em sistemas legados, de acordo com reportagem do The New York Times. A publicação, que cita fontes anônimas, afirma que o ransomware utilizou um algoritmo de criptografia não observado anteriormente por especialistas em ataques desse tipo.",
+      "link": "https://www.cisoadvisor.com.br/ataque-a-jaguar-land-rover-usou-ransomware-avancado/",
+      "published": "30/06/2026 12:00",
+      "cves": [],
+      "vendor": null
     },
     {
-      "title": "Vulnerabilidade no Microsoft 365 Apps pode permitir ataque por arquivo malicioso",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "title": "Bucket hijacking redireciona logs em AWS, Azure e Google",
+      "source": "CISO Advisor",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Uma vulnerabilidade de execução remota de código no Microsoft 365 Apps pode permitir que invasores comprometam computadores por meio de um arquivo Excel malicioso. A falha foi identificada como CVE-2025-60727 e afeta diferentes versões do Microsoft Office. O problema está na forma como o Excel processa arquivos especialmente criados. Ao abrir uma planilha manipulada, o aplicativo pode acessar áreas indevidas da memória e permitir que comandos maliciosos sejam executados no sistema. Criminosos podem disfarçar o documento como uma fatura, relatório financeiro, proposta comercial ou outro arquivo aparentemente legítimo.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-microsoft-365-apps-pode-permitir-ataque-por-arquivo-malicioso/",
-      "published": "30/06/2026 08:43",
-      "cves": [
-        "CVE-2025-60727"
-      ],
+      "summary": "Pesquisadores do Unit 42, laboratório de inteligência de ameaças da Palo Alto Networks, identificaram uma técnica de ataque que explora uma falha arquitetônica comum a Google Cloud, AWS e Microsoft Azure. Batizado de “bucket hijacking”, o método permite que invasores redirecionem fluxos de dados ativos de uma organização, incluindo logs de auditoria e telemetria, para buckets de armazenamento controlados pelo atacante. A técnica, cujos detalhes foram publicados no dia 22 de junho, baseia-se na unicidade global dos nomes dos buckets de armazenamento.",
+      "link": "https://www.cisoadvisor.com.br/bucket-hijacking-redireciona-logs-em-aws-azure-e-google/",
+      "published": "30/06/2026 12:00",
+      "cves": [],
       "vendor": "Microsoft"
+    },
+    {
+      "title": "22.06.26 Segurança Copa do Mundo coloca em teste os limites do reconhecimento facial em massa",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Copa do Mundo de 2026 deve marcar um dos maiores usos de reconhecimento facial já aplicados em um evento esportivo global. Estádios inteligentes, controle biométrico de acesso e integração com sistemas de segurança já fazem parte do planejamento das cidades que receberão partidas nos Estados Unidos, México e Canadá. Com mais de seis milhões de torcedores presenciais esperados e orçamento de segurança superior a um bilhão de dólares, o torneio tende a se consolidar como o maior laboratório de vigilância biométrica da história do esporte . Ao mesmo tempo em que a tecnologia avança, cresce também o debate sobre os limites jurídicos, técnicos e éticos desse modelo de vigilância.",
+      "link": "https://canaltech.com.br/colunas/copa-do-mundo-coloca-em-teste-os-limites-do-reconhecimento-facial-em-massa/",
+      "published": "30/06/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
