@@ -1,8 +1,21 @@
 {
-  "generated_at": "2026-06-30T12:00:00.002832-03:00",
+  "generated_at": "2026-06-30T12:00:00.011407-03:00",
   "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
+    {
+      "title": "Falha no Oracle E-Business Suite explorada em ataques",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Defused, empresa de cibersegurança, identificou exploração ativa de uma vulnerabilidade crítica no Oracle E-Business Suite, conforme publicação do site Security.nl no dia 29 de junho. A falha , registrada como CVE-2026-46817, afeta o componente Oracle Payments e permite que um atacante não autenticado assuma o controle do produto remotamente, segundo a Oracle. A Oracle classificou a vulnerabilidade como “simples de explorar” e publicou atualizações de segurança em 28 de maio. A Defused relatou , por meio de sua conta no X, que observou tentativas de exploração da falha em seus honeypots durante o último fim de semana, sem, no entanto, fornecer detalhes adicionais sobre os ataques.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-oracle-e-business-suite-explorada-em-ataques/",
+      "published": "30/06/2026 12:00",
+      "cves": [
+        "CVE-2026-46817"
+      ],
+      "vendor": null
+    },
     {
       "title": "Cibercriminosos exploram falha crítica no Oracle EBS",
       "source": "BoletimSec Notícias",
@@ -17,45 +30,38 @@
       "vendor": null
     },
     {
+      "title": "Falha crítica no Gemini CLI permite execução de comandos",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no Gemini CLI, ferramenta de linha de comando do Google voltada a desenvolvedores, pode permitir que invasores executem comandos em ambientes automatizados de desenvolvimento, especialmente em fluxos do GitHub Actions. A falha foi identificada como CVE-2026-12537 e afeta versões do @google/gemini-cli anteriores à 0.39.1 e 0.40.0-preview.3. Também são afetadas versões do google-github-actions/run-gemini-cli anteriores à 0.1.22. O problema está na forma como a ferramenta tratava projetos executados sem interação humana, como pipelines de integração contínua.",
+      "link": "https://boletimsec.com/falha-critica-no-gemini-cli-permite-execucao-de-comandos/",
+      "published": "30/06/2026 12:00",
+      "cves": [
+        "CVE-2026-12537"
+      ],
+      "vendor": "Google"
+    },
+    {
+      "title": "Vulnerabilidade no Microsoft 365 Apps pode permitir ataque por arquivo malicioso",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade de execução remota de código no Microsoft 365 Apps pode permitir que invasores comprometam computadores por meio de um arquivo Excel malicioso. A falha foi identificada como CVE-2025-60727 e afeta diferentes versões do Microsoft Office. O problema está na forma como o Excel processa arquivos especialmente criados. Ao abrir uma planilha manipulada, o aplicativo pode acessar áreas indevidas da memória e permitir que comandos maliciosos sejam executados no sistema. Criminosos podem disfarçar o documento como uma fatura, relatório financeiro, proposta comercial ou outro arquivo aparentemente legítimo.",
+      "link": "https://boletimsec.com/vulnerabilidade-no-microsoft-365-apps-pode-permitir-ataque-por-arquivo-malicioso/",
+      "published": "30/06/2026 12:00",
+      "cves": [
+        "CVE-2025-60727"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
       "title": "6 dias Segurança LastPass sofre mais um ataque e dados de usuários são expostos",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Dados de usuários do LastPass foram expostos em um novo incidente de segurança . O vazamento ocorreu após um ataque à Klue , plataforma de inteligência de mercado utilizada pela companhia, e não comprometeu as senhas guardadas no gerenciador . Os detalhes oficiais foram compartilhados nesta segunda-feira (22). Em nota, a empresa informa que tomou ciência da falha de segurança na plataforma parceira, que é integrada à instâncias internas do Salesforce e Gong , em 12 de junho. A brecha impactou diversas empresas , incluindo o LastPass.",
       "link": "https://canaltech.com.br/seguranca/lastpass-sofre-mais-um-ataque-e-dados-de-usuarios-sao-expostos/",
-      "published": "30/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ataque à Jaguar Land Rover usou ransomware avançado",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "O ataque à Jaguar Land Rover (JLR) em setembro do ano passado, que paralisou a produção por semanas e gerou prejuízos de 550 milhões de euros para a montadora, foi uma operação de ransomware avançado que explorou vulnerabilidades em sistemas legados, de acordo com reportagem do The New York Times. A publicação, que cita fontes anônimas, afirma que o ransomware utilizou um algoritmo de criptografia não observado anteriormente por especialistas em ataques desse tipo.",
-      "link": "https://www.cisoadvisor.com.br/ataque-a-jaguar-land-rover-usou-ransomware-avancado/",
-      "published": "30/06/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Bucket hijacking redireciona logs em AWS, Azure e Google",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores do Unit 42, laboratório de inteligência de ameaças da Palo Alto Networks, identificaram uma técnica de ataque que explora uma falha arquitetônica comum a Google Cloud, AWS e Microsoft Azure. Batizado de “bucket hijacking”, o método permite que invasores redirecionem fluxos de dados ativos de uma organização, incluindo logs de auditoria e telemetria, para buckets de armazenamento controlados pelo atacante. A técnica, cujos detalhes foram publicados no dia 22 de junho, baseia-se na unicidade global dos nomes dos buckets de armazenamento.",
-      "link": "https://www.cisoadvisor.com.br/bucket-hijacking-redireciona-logs-em-aws-azure-e-google/",
-      "published": "30/06/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "22.06.26 Segurança Copa do Mundo coloca em teste os limites do reconhecimento facial em massa",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Copa do Mundo de 2026 deve marcar um dos maiores usos de reconhecimento facial já aplicados em um evento esportivo global. Estádios inteligentes, controle biométrico de acesso e integração com sistemas de segurança já fazem parte do planejamento das cidades que receberão partidas nos Estados Unidos, México e Canadá. Com mais de seis milhões de torcedores presenciais esperados e orçamento de segurança superior a um bilhão de dólares, o torneio tende a se consolidar como o maior laboratório de vigilância biométrica da história do esporte . Ao mesmo tempo em que a tecnologia avança, cresce também o debate sobre os limites jurídicos, técnicos e éticos desse modelo de vigilância.",
-      "link": "https://canaltech.com.br/colunas/copa-do-mundo-coloca-em-teste-os-limites-do-reconhecimento-facial-em-massa/",
       "published": "30/06/2026 12:00",
       "cves": [],
       "vendor": null
