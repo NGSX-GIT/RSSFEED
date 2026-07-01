@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-07-01T08:17:59.950851-03:00",
+  "generated_at": "2026-07-01T12:00:00.626184-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Criminosos usam SEO malicioso para distribuir falso instalador do ManageEngine",
+      "title": "24.06.26 Segurança LastPass sofre mais um ataque e dados de usuários são expostos",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Dados de usuários do LastPass foram expostos em um novo incidente de segurança . O vazamento ocorreu após um ataque à Klue , plataforma de inteligência de mercado utilizada pela companhia, e não comprometeu as senhas guardadas no gerenciador . Os detalhes oficiais foram compartilhados nesta segunda-feira (22). Em nota, a empresa informa que tomou ciência da falha de segurança na plataforma parceira, que é integrada à instâncias internas do Salesforce e Gong , em 12 de junho. A brecha impactou diversas empresas , incluindo o LastPass.",
+      "link": "https://canaltech.com.br/seguranca/lastpass-sofre-mais-um-ataque-e-dados-de-usuarios-sao-expostos/",
+      "published": "01/07/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Microsoft Teams ganha proteção para barrar bots externos em reuniões",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "identity",
-      "summary": "Uma busca comum no Bing por “ManageEngine OpManager” levou à instalação de ransomware em uma rede corporativa, após criminosos manipularem resultados de pesquisa para promover uma página falsa de download. O ataque começou quando um usuário procurou pela ferramenta de monitoramento de rede e acessou um domínio fraudulento que imitava a página legítima do produto. O site entregava um instalador MSI adulterado, apresentado como se fosse o software verdadeiro. A campanha usou uma técnica conhecida como envenenamento de SEO, na qual páginas maliciosas são posicionadas entre os primeiros resultados de busca.",
-      "link": "https://boletimsec.com/criminosos-usam-seo-malicioso-para-distribuir-falso-instalador-do-manageengine/",
-      "published": "01/07/2026 08:18",
+      "category": "patches",
+      "summary": "O Microsoft Teams recebeu um novo recurso para impedir que bots externos entrem em reuniões sem autorização clara dos organizadores. A medida busca reduzir riscos de privacidade ligados a ferramentas automatizadas, especialmente bots de transcrição e assistentes de IA. Com a popularização de serviços que gravam, resumem ou acompanham reuniões, cresceu também a preocupação com participantes automáticos entrando em chamadas sem que todos percebam. Em encontros com dados sensíveis, isso pode criar risco de exposição indevida de informações. A nova política está disponível no Teams Admin Center e permite que administradores controlem o acesso de bots externos às reuniões.",
+      "link": "https://boletimsec.com/microsoft-teams-ganha-protecao-para-barrar-bots-externos-em-reunioes/",
+      "published": "01/07/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Microsoft"
     },
     {
-      "title": "Nova variante do Millenium RAT infecta Windows",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma evolução significativa do trojan de acesso remoto (RAT) Millenium infectou mais de 62 mil dispositivos Windows em mais de 160 países, usando bots do Telegram para comunicação com seus operadores. A empresa de segurança Group-IB, que examinou a versão 4.* do malware , identificou 62.289 endpoints infectados, sendo 39.730 apenas no primeiro trimestre de 2026, o que indica um aumento expressivo nas atividades da campanha. Os pesquisadores atribuem as campanhas maliciosas a um cluster de ameaças que monitoram como Y2K Operators e identificam o desenvolvedor do malware pelo pseudônimo “ShinyEnigma”.",
-      "link": "https://www.cisoadvisor.com.br/nova-variante-do-millenium-rat-infecta-windows/",
-      "published": "01/07/2026 08:18",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "Israel bloqueia acesso a ferramentas de IA em hospitais",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "O Ministério da Saúde de Israel ordenou o bloqueio total do acesso a ferramentas de inteligência artificial, como ChatGPT, Gemini e Claude, em todos os computadores de hospitais públicos, conforme publicado pelo site Mako no dia 26 de junho. A medida, que afeta instituições como o Sheba Medical Center e o Hospital Assaf Harofeh, foi tomada para proteger a privacidade dos pacientes e prevenir ataques cibernéticos e vazamento de informações médicas sensíveis. A decisão representa um endurecimento significativo em relação às orientações anteriores do ministério, que em março de 2026 já havia recomendado a redução do uso dessas ferramentas.",
-      "link": "https://www.cisoadvisor.com.br/israel-bloqueia-acesso-a-ferramentas-de-ia-em-hospitais/",
-      "published": "01/07/2026 08:18",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "2 dias Segurança Copa do Mundo amplia golpes de bets e deepfakes no Brasil",
-      "source": "Canaltech Segurança",
+      "title": "Volume de falhas reportadas ao GitHub supera capacidade de revisão",
+      "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "A Copa do Mundo de 2026 amplia uma área de risco que já estava em expansão no Brasil. Mais de 4,3 mil sites falsos foram identificados explorando o torneio, e as casas de apostas continuam sendo o principal vetor de fraude. Para Daniel Tupinambá, CISO Strategy da Elytron Cybersecurity, o ambiente favorece o crime em pelo menos duas frentes: o volume financeiro circulando nas plataformas e o estado emocional dos torcedores. 🎧Ouça o Podcast Canaltech no Spotify 🎧Ouça o Podcast Canaltech na Deezer 🎧Ouça o Podcast Canaltech no Apple Podcasts \"A emoção reduz o senso crítico\" , afirmou Tupinambá ao Podcast Canaltech desta segunda-feira (29).",
-      "link": "https://canaltech.com.br/seguranca/copa-do-mundo-amplia-golpes-de-bets-e-deepfakes-no-brasil/",
-      "published": "01/07/2026 08:18",
+      "summary": "O GitHub Advisory Database atingiu um volume recorde de publicações em maio de 2026, com 1.560 alertas de segurança revisados. O número representa mais de cinco vezes a média mensal normalmente registrada pela plataforma. O crescimento mostra uma pressão cada vez maior sobre o ecossistema de divulgação de vulnerabilidades. Entre março e maio, o GitHub processou mais de 6 mil decisões por mês, incluindo novas publicações, atualizações e revisões de alertas recebidos. A entrada de novos relatórios também disparou. Os relatos privados de vulnerabilidades passaram de cerca de 550 por semana em janeiro para mais de 3 mil por semana em maio.",
+      "link": "https://boletimsec.com/volume-de-falhas-reportadas-ao-github-supera-capacidade-de-revisao/",
+      "published": "01/07/2026 12:00",
       "cves": [],
-      "vendor": "Apple"
+      "vendor": null
     },
     {
-      "title": "Governo dos EUA flexibiliza restrições ao Mythos",
+      "title": "Ataque de código Claude sequestra máquinas de devs",
       "source": "CISO Advisor",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "O governo dos Estados Unidos autorizou a Anthropic a liberar seu modelo de inteligência artificial para segurança cibernética, Mythos 5, a mais de 100 instituições selecionadas, incluindo agências governamentais, revertendo parcialmente uma proibição imposta há duas semanas. A decisão, formalizada em uma carta do Secretário de Comércio Howard Lutnick no dia 26 de junho, reconhece que a empresa implementou “salvaguardas apropriadas” para permitir o acesso ao modelo.",
-      "link": "https://www.cisoadvisor.com.br/governo-dos-eua-flexibiliza-restricoes-ao-mythos/",
-      "published": "01/07/2026 08:18",
+      "summary": "Pesquisadores da 0din.ai demonstraram um ataque que explora agentes de codificação baseados em IA, como o Claude Code, para obter acesso remoto a máquinas de desenvolvedores, utilizando um repositório aparentemente inofensivo. O estudo de caso , publicado no dia 25 de junho, mostra que o invasor pode executar um shell reverso sem que nenhum código malicioso esteja presente no repositório, bastando que o agente tente “colocar o projeto para funcionar”.",
+      "link": "https://www.cisoadvisor.com.br/ataque-de-codigo-claude-sequestrar-maquinas-de-devs/",
+      "published": "01/07/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "6 dias Segurança Lista expõe sites que ainda não oferecem passkeys no login; confira",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "As passkeys, apesar da importância e popularidade recente, ainda não foram implementadas em todas as plataformas online. Para “dar um empurrão” na adoção , o pesquisador de segurança Scott Helme criou o Why No Passkeys? , que lista as plataformas que ainda não oferecem o recurso. A novidade foi anunciada pelo pesquisador nesta semana. Em uma publicação em seu blog pessoal, Helme relembrou quando criou o site Why No HTTPS? em 2017 com Troy Hunt , responsável pelo Have I Been Pwned? , para indicar os portais que não utilizam o protocolo HTTPS . O novo portal repete a receita do Why No HTTPS? ao selecionar os sites mais populares da internet e verificar quais páginas não oferecem passkeys .",
+      "link": "https://canaltech.com.br/seguranca/lista-expoe-sites-que-ainda-nao-oferecem-passkeys-no-login-confira/",
+      "published": "01/07/2026 12:00",
       "cves": [],
       "vendor": null
     }
