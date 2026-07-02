@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-07-01T12:00:00.049478-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-07-02T12:00:00.075366-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Criminosos usam SEO malicioso para distribuir falso instalador do ManageEngine",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma busca comum no Bing por “ManageEngine OpManager” levou à instalação de ransomware em uma rede corporativa, após criminosos manipularem resultados de pesquisa para promover uma página falsa de download. O ataque começou quando um usuário procurou pela ferramenta de monitoramento de rede e acessou um domínio fraudulento que imitava a página legítima do produto. O site entregava um instalador MSI adulterado, apresentado como se fosse o software verdadeiro. A campanha usou uma técnica conhecida como envenenamento de SEO, na qual páginas maliciosas são posicionadas entre os primeiros resultados de busca.",
-      "link": "https://boletimsec.com/criminosos-usam-seo-malicioso-para-distribuir-falso-instalador-do-manageengine/",
-      "published": "01/07/2026 12:00",
-      "cves": [],
+      "title": "CISA confirma exploração de falha do Defender",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A agência de cibersegurança dos Estados Unidos, CISA, confirmou na última segunda-feira que grupos de ransomware estão explorando ativamente uma vulnerabilidade crítica de escalonamento de privilégios no Microsoft Defender, conhecida como BlueHammer. A falha, registrada como CVE-2026-33825 (CVSS de 7.8), havia sido usada anteriormente em ataques do tipo zero-day e agora representa uma ameaça direta a organizações que não aplicaram as correções disponíveis. A vulnerabilidade existe devido a uma “granularidade insuficiente de controle de acesso no Microsoft Defender”, conforme explicou a Microsoft em comunicado.",
+      "link": "https://www.cisoadvisor.com.br/cisa-confirma-exploracao-de-falha-do-defender/",
+      "published": "02/07/2026 12:00",
+      "cves": [
+        "CVE-2026-33825"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Oracle EBS vulnerável a ataques em larga escala",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Diversas instâncias do Oracle E-Business Suite (EBS) foram encontradas expostas online em meio a ataques contínuos que exploram uma falha crítica de segurança, conforme alertou a empresa de inteligência de ameaças Defused. A vulnerabilidade , registrada como CVE-2026-46817 (CVSS de 9.8), está sendo ativamente explorada desde o fim de semana passado, sem que exista código de prova de conceito público disponível. A falha foi encontrada no componente File Transmission do produto Oracle Payments do EBS e permite que atacantes não autenticados, com acesso à rede HTTP, assumam o controle de sistemas vulneráveis por meio de ataques de baixa complexidade.",
+      "link": "https://www.cisoadvisor.com.br/instancias-oracle-ebs-expostas-a-ataques/",
+      "published": "02/07/2026 12:00",
+      "cves": [
+        "CVE-2026-46817"
+      ],
       "vendor": null
     },
     {
-      "title": "Ataque à Jaguar Land Rover usou ransomware avançado",
+      "title": "Adobe alerta para seis falhas críticas CVSS 10.0",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Adobe publicou ontem à noite correções de segurança para onze vulnerabilidades críticas no ColdFusion, sendo que seis delas receberam a pontuação máxima de impacto de 10.0 no Common Vulnerability Scoring System (CVSS). A empresa de software está recomendando que os clientes apliquem as atualizações o mais rápido possível, idealmente dentro de 72 horas, devido à gravidade das falhas. As seis vulnerabilidades com nota máxima permitem que atacantes não autenticados executem código arbitrário no servidor ColdFusion, uma plataforma amplamente utilizada para o desenvolvimento de aplicações web.",
+      "link": "https://www.cisoadvisor.com.br/adobe-alerta-para-seis-falhas-criticas-cvss-10-0/",
+      "published": "02/07/2026 12:00",
+      "cves": [],
+      "vendor": "Adobe"
+    },
+    {
+      "title": "FortiBleed: roubo de credenciais ligado ao ransomware Lynx",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "threat",
-      "summary": "O ataque à Jaguar Land Rover (JLR) em setembro do ano passado, que paralisou a produção por semanas e gerou prejuízos de 550 milhões de euros para a montadora, foi uma operação de ransomware avançado que explorou vulnerabilidades em sistemas legados, de acordo com reportagem do The New York Times. A publicação, que cita fontes anônimas, afirma que o ransomware utilizou um algoritmo de criptografia não observado anteriormente por especialistas em ataques desse tipo.",
-      "link": "https://www.cisoadvisor.com.br/ataque-a-jaguar-land-rover-usou-ransomware-avancado/",
-      "published": "01/07/2026 12:00",
+      "summary": "A massiva campanha de roubo de credenciais conhecida como FortiBleed foi vinculada às operações de ransomware INC e Lynx, indicando que as credenciais da Fortinet roubadas tinham como objetivo alimentar futuras invasões de rede. A descoberta , publicada pelo SOCRadar, revela que a operação foi consideravelmente maior do que se entendia inicialmente, tendo atingido mais de 430 mil firewalls FortiGate em todo o mundo. No início do mês passado, um servidor contendo credenciais roubadas de mais de 73 mil dispositivos Fortinet foi descoberto exposto na internet.",
+      "link": "https://www.cisoadvisor.com.br/fortibleed-roubo-de-credenciais-ligado-aos-ransomwares-inc-e-lynx/",
+      "published": "02/07/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Fortinet"
     },
     {
-      "title": "24.06.26 Segurança LastPass sofre mais um ataque e dados de usuários são expostos",
-      "source": "Canaltech Segurança",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Dados de usuários do LastPass foram expostos em um novo incidente de segurança . O vazamento ocorreu após um ataque à Klue , plataforma de inteligência de mercado utilizada pela companhia, e não comprometeu as senhas guardadas no gerenciador . Os detalhes oficiais foram compartilhados nesta segunda-feira (22). Em nota, a empresa informa que tomou ciência da falha de segurança na plataforma parceira, que é integrada à instâncias internas do Salesforce e Gong , em 12 de junho. A brecha impactou diversas empresas , incluindo o LastPass.",
-      "link": "https://canaltech.com.br/seguranca/lastpass-sofre-mais-um-ataque-e-dados-de-usuarios-sao-expostos/",
-      "published": "01/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Nova variante do Millenium RAT infecta Windows",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma evolução significativa do trojan de acesso remoto (RAT) Millenium infectou mais de 62 mil dispositivos Windows em mais de 160 países, usando bots do Telegram para comunicação com seus operadores. A empresa de segurança Group-IB, que examinou a versão 4.* do malware , identificou 62.289 endpoints infectados, sendo 39.730 apenas no primeiro trimestre de 2026, o que indica um aumento expressivo nas atividades da campanha. Os pesquisadores atribuem as campanhas maliciosas a um cluster de ameaças que monitoram como Y2K Operators e identificam o desenvolvedor do malware pelo pseudônimo “ShinyEnigma”.",
-      "link": "https://www.cisoadvisor.com.br/nova-variante-do-millenium-rat-infecta-windows/",
-      "published": "01/07/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "Microsoft Teams ganha proteção para barrar bots externos em reuniões",
+      "title": "Ransomware usa drivers assinados para burlar proteções no Windows",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "O Microsoft Teams recebeu um novo recurso para impedir que bots externos entrem em reuniões sem autorização clara dos organizadores. A medida busca reduzir riscos de privacidade ligados a ferramentas automatizadas, especialmente bots de transcrição e assistentes de IA. Com a popularização de serviços que gravam, resumem ou acompanham reuniões, cresceu também a preocupação com participantes automáticos entrando em chamadas sem que todos percebam. Em encontros com dados sensíveis, isso pode criar risco de exposição indevida de informações. A nova política está disponível no Teams Admin Center e permite que administradores controlem o acesso de bots externos às reuniões.",
-      "link": "https://boletimsec.com/microsoft-teams-ganha-protecao-para-barrar-bots-externos-em-reunioes/",
-      "published": "01/07/2026 12:00",
+      "summary": "Cibercriminosos estão usando drivers legítimos do Windows para desativar antivírus e ferramentas de detecção em ataques contra empresas. A técnica é conhecida como BYOVD, sigla em inglês para “traga seu próprio driver vulnerável”. O método se aproveita de drivers reais, assinados digitalmente e confiáveis para o sistema operacional, mas que possuem falhas conhecidas. Como o Windows reconhece esses componentes como legítimos, os invasores conseguem carregá-los com menor chance de bloqueio imediato. Depois que obtêm acesso administrativo a um computador, os atacantes instalam um desses drivers vulneráveis e o usam para interferir diretamente no funcionamento das defesas.",
+      "link": "https://boletimsec.com/ransomware-usa-drivers-assinados-para-burlar-protecoes-no-windows/",
+      "published": "02/07/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": "Windows"
     }
   ]
 }
