@@ -1,66 +1,70 @@
 {
-  "generated_at": "2026-07-02T12:00:00.075366-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-07-03T12:00:00.037057-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA confirma exploração de falha do Defender",
+      "title": "CISA alerta para exploração ativa no SharePoint",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A agência de cibersegurança dos Estados Unidos, CISA, confirmou na última segunda-feira que grupos de ransomware estão explorando ativamente uma vulnerabilidade crítica de escalonamento de privilégios no Microsoft Defender, conhecida como BlueHammer. A falha, registrada como CVE-2026-33825 (CVSS de 7.8), havia sido usada anteriormente em ataques do tipo zero-day e agora representa uma ameaça direta a organizações que não aplicaram as correções disponíveis. A vulnerabilidade existe devido a uma “granularidade insuficiente de controle de acesso no Microsoft Defender”, conforme explicou a Microsoft em comunicado.",
-      "link": "https://www.cisoadvisor.com.br/cisa-confirma-exploracao-de-falha-do-defender/",
-      "published": "02/07/2026 12:00",
+      "summary": "A agência de cibersegurança dos Estados Unidos, CISA, alertou ontem que atacantes começaram a explorar uma vulnerabilidade crítica de execução remota de código no Microsoft SharePoint, registrada como CVE-2026-45659 . A falha, que permite que atacantes autenticados com privilégios baixos executem código arbitrário em servidores não corrigidos, foi adicionada ao Catálogo de Vulnerabilidades Exploradas Conhecidas (KEV) da agência, com prazo para correção até sábado para agências do governo federal. A vulnerabilidade decorre de uma fraqueza de desserialização de dados não confiáveis e pode ser explorada em ataques de baixa complexidade que não requerem interação do usuário.",
+      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-ativa-no-sharepoint/",
+      "published": "03/07/2026 12:00",
       "cves": [
-        "CVE-2026-33825"
+        "CVE-2026-45659"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "Oracle EBS vulnerável a ataques em larga escala",
+      "title": "Falha no Citrix NetScaler é explorada um dia após divulgação",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Diversas instâncias do Oracle E-Business Suite (EBS) foram encontradas expostas online em meio a ataques contínuos que exploram uma falha crítica de segurança, conforme alertou a empresa de inteligência de ameaças Defused. A vulnerabilidade , registrada como CVE-2026-46817 (CVSS de 9.8), está sendo ativamente explorada desde o fim de semana passado, sem que exista código de prova de conceito público disponível. A falha foi encontrada no componente File Transmission do produto Oracle Payments do EBS e permite que atacantes não autenticados, com acesso à rede HTTP, assumam o controle de sistemas vulneráveis por meio de ataques de baixa complexidade.",
-      "link": "https://www.cisoadvisor.com.br/instancias-oracle-ebs-expostas-a-ataques/",
-      "published": "02/07/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no Citrix NetScaler ADC e Gateway, registrada como CVE-2026-8451 e classificada com CVSS 8.8, está sendo ativamente explorada em ataques desde o dia seguinte à sua divulgação pública, de acordo com uma análise publicada pela Lupovis em 1º de julho. O problema, que afeta dispositivos configurados como Provedores de Identidade SAML, permite que atacantes não autenticados leiam informações da memória do sistema, potencialmente expondo dados sensíveis para comprometimento total do dispositivo. A vulnerabilidade, descoberta e reportada pela watchTowr Labs em março de 2026, foi corrigida pela Citrix em 30 de junho com o lançamento das versões 14.1-72.61 e 13.1-63.18.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-citrix-netscaler-e-explorada-um-dia-apos-divulgacao/",
+      "published": "03/07/2026 12:00",
       "cves": [
-        "CVE-2026-46817"
+        "CVE-2026-8451"
       ],
+      "vendor": "Citrix"
+    },
+    {
+      "title": "Cisco confirma exploração ativa de falha no Unified CM",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco confirmou ontem que atacantes estão explorando ativamente uma vulnerabilidade no Unified Communications Manager (Unified CM), sistema central de telefonia IP da empresa. A falha , registrada como CVE-2026-20230 , havia sido corrigida no início de junho, mas a empresa só agora reconheceu que está sendo usada em ataques, após alertas de empresas de segurança e da publicação de código de prova de conceito. A vulnerabilidade permite que atacantes não autenticados a explorem remotamente em ataques de server-side request forgery (SSRF) de baixa complexidade, enviando uma requisição HTTP especialmente criada.",
+      "link": "https://www.cisoadvisor.com.br/cisco-confirma-exploracao-ativa-de-falha-no-unified-cm/",
+      "published": "03/07/2026 12:00",
+      "cves": [
+        "CVE-2026-20230"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Vulnerabilidades na JetBrains ameaçam ambientes de desenvolvimento",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A JetBrains lançou atualizações de segurança para corrigir um conjunto de vulnerabilidades críticas que afetam ferramentas usadas em desenvolvimento, gestão de projetos e integração contínua. As falhas atingem produtos como Hub, YouTrack, IDEs baseadas no IntelliJ, Kotlin, GoLand e TeamCity. Em ambientes corporativos, esses sistemas costumam concentrar contas, códigos, builds e configurações sensíveis. Os problemas mais graves estão no Hub e no YouTrack, que podem atuar como componentes centrais de identidade e administração. Algumas falhas permitem contornar autenticação, assumir contas e obter privilégios elevados sem o controle adequado.",
+      "link": "https://boletimsec.com/vulnerabilidades-na-jetbrains-ameacam-ambientes-de-desenvolvimento/",
+      "published": "03/07/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Adobe alerta para seis falhas críticas CVSS 10.0",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Adobe publicou ontem à noite correções de segurança para onze vulnerabilidades críticas no ColdFusion, sendo que seis delas receberam a pontuação máxima de impacto de 10.0 no Common Vulnerability Scoring System (CVSS). A empresa de software está recomendando que os clientes apliquem as atualizações o mais rápido possível, idealmente dentro de 72 horas, devido à gravidade das falhas. As seis vulnerabilidades com nota máxima permitem que atacantes não autenticados executem código arbitrário no servidor ColdFusion, uma plataforma amplamente utilizada para o desenvolvimento de aplicações web.",
-      "link": "https://www.cisoadvisor.com.br/adobe-alerta-para-seis-falhas-criticas-cvss-10-0/",
-      "published": "02/07/2026 12:00",
-      "cves": [],
-      "vendor": "Adobe"
-    },
-    {
-      "title": "FortiBleed: roubo de credenciais ligado ao ransomware Lynx",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "A massiva campanha de roubo de credenciais conhecida como FortiBleed foi vinculada às operações de ransomware INC e Lynx, indicando que as credenciais da Fortinet roubadas tinham como objetivo alimentar futuras invasões de rede. A descoberta , publicada pelo SOCRadar, revela que a operação foi consideravelmente maior do que se entendia inicialmente, tendo atingido mais de 430 mil firewalls FortiGate em todo o mundo. No início do mês passado, um servidor contendo credenciais roubadas de mais de 73 mil dispositivos Fortinet foi descoberto exposto na internet.",
-      "link": "https://www.cisoadvisor.com.br/fortibleed-roubo-de-credenciais-ligado-aos-ransomwares-inc-e-lynx/",
-      "published": "02/07/2026 12:00",
-      "cves": [],
-      "vendor": "Fortinet"
-    },
-    {
-      "title": "Ransomware usa drivers assinados para burlar proteções no Windows",
+      "title": "Ransomware JADEPUFFER usa IA para conduzir ataque",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos estão usando drivers legítimos do Windows para desativar antivírus e ferramentas de detecção em ataques contra empresas. A técnica é conhecida como BYOVD, sigla em inglês para “traga seu próprio driver vulnerável”. O método se aproveita de drivers reais, assinados digitalmente e confiáveis para o sistema operacional, mas que possuem falhas conhecidas. Como o Windows reconhece esses componentes como legítimos, os invasores conseguem carregá-los com menor chance de bloqueio imediato. Depois que obtêm acesso administrativo a um computador, os atacantes instalam um desses drivers vulneráveis e o usam para interferir diretamente no funcionamento das defesas.",
-      "link": "https://boletimsec.com/ransomware-usa-drivers-assinados-para-burlar-protecoes-no-windows/",
-      "published": "02/07/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
+      "summary": "Um novo ransomware chamado JADEPUFFER foi descrito como uma ameaça “agêntica”, capaz de conduzir etapas de invasão com alto nível de autonomia usando um agente de IA para planejar, adaptar e executar ações no ambiente comprometido. A campanha foi identificada pelos pesquisadores após a captura de cargas maliciosas usadas em uma intrusão. O ataque começou em uma instância do Langflow exposta à internet, explorando a CVE-2025-3248, uma falha que permite executar código Python sem autenticação. Depois do acesso inicial, o JADEPUFFER enviou comandos codificados em Base64 para mapear o sistema, identificar processos, verificar interfaces de rede e procurar credenciais armazenadas.",
+      "link": "https://boletimsec.com/ransomware-jadepuffer-usa-ia-para-conduzir-ataque/",
+      "published": "03/07/2026 12:00",
+      "cves": [
+        "CVE-2025-3248"
+      ],
+      "vendor": null
     }
   ]
 }
