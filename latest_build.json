@@ -1,69 +1,67 @@
 {
-  "generated_at": "2026-07-03T12:00:00.037057-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-07-04T12:00:00.012964-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA alerta para exploração ativa no SharePoint",
-      "source": "CISO Advisor",
+      "title": "CISA alerta para falha explorada no Microsoft SharePoint Server",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A agência de cibersegurança dos Estados Unidos, CISA, alertou ontem que atacantes começaram a explorar uma vulnerabilidade crítica de execução remota de código no Microsoft SharePoint, registrada como CVE-2026-45659 . A falha, que permite que atacantes autenticados com privilégios baixos executem código arbitrário em servidores não corrigidos, foi adicionada ao Catálogo de Vulnerabilidades Exploradas Conhecidas (KEV) da agência, com prazo para correção até sábado para agências do governo federal. A vulnerabilidade decorre de uma fraqueza de desserialização de dados não confiáveis e pode ser explorada em ataques de baixa complexidade que não requerem interação do usuário.",
-      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-ativa-no-sharepoint/",
-      "published": "03/07/2026 12:00",
+      "summary": "A CISA alertou que uma vulnerabilidade no Microsoft SharePoint Server está sendo explorada em ataques reais. A falha, identificada como CVE-2026-45659, permite execução remota de código em servidores locais da plataforma. O problema afeta implantações on-premises do SharePoint Server, usadas por empresas para colaboração, gestão de documentos e portais internos. Por esse motivo, a exploração pode representar risco direto para dados corporativos sensíveis. A falha envolve o processamento inseguro de dados enviados ao servidor. Um invasor autenticado pode criar uma solicitação maliciosa para fazer o SharePoint executar código não autorizado no ambiente afetado.",
+      "link": "https://boletimsec.com/cisa-alerta-para-falha-explorada-no-microsoft-sharepoint-server/",
+      "published": "04/07/2026 12:00",
       "cves": [
         "CVE-2026-45659"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "Falha no Citrix NetScaler é explorada um dia após divulgação",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "Falha em biblioteca Rust da Anthropic pode causar negação de serviço",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Citrix NetScaler ADC e Gateway, registrada como CVE-2026-8451 e classificada com CVSS 8.8, está sendo ativamente explorada em ataques desde o dia seguinte à sua divulgação pública, de acordo com uma análise publicada pela Lupovis em 1º de julho. O problema, que afeta dispositivos configurados como Provedores de Identidade SAML, permite que atacantes não autenticados leiam informações da memória do sistema, potencialmente expondo dados sensíveis para comprometimento total do dispositivo. A vulnerabilidade, descoberta e reportada pela watchTowr Labs em março de 2026, foi corrigida pela Citrix em 30 de junho com o lançamento das versões 14.1-72.61 e 13.1-63.18.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-citrix-netscaler-e-explorada-um-dia-apos-divulgacao/",
-      "published": "03/07/2026 12:00",
+      "summary": "Uma vulnerabilidade zero day na biblioteca Buffa, usada em implementações Rust ligadas a dados em formato protobuf, pode permitir ataques de negação de serviço contra aplicações que processam mensagens não confiáveis. A falha foi identificada como CVE-2026-55407 e também rastreada como GHSA-f9qc-qg88-7pq5. O problema afeta versões do Buffa e do ConnectRPC anteriores à 0.8.0. Na prática, um invasor pode enviar uma mensagem especialmente criada para forçar a aplicação a reservar uma quantidade muito grande de memória. Mesmo uma entrada relativamente pequena pode gerar consumo desproporcional de recursos.",
+      "link": "https://boletimsec.com/falha-em-biblioteca-rust-da-anthropic-pode-causar-negacao-de-servico/",
+      "published": "04/07/2026 12:00",
+      "cves": [
+        "CVE-2026-55407"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Vulnerabilidades no Citrix NetScaler podem causar queda de serviços",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Citrix lançou correções para seis vulnerabilidades no NetScaler ADC e no NetScaler Gateway, incluindo falhas de alta gravidade que podem causar negação de serviço, leitura indevida de arquivos e exposição de dados em memória. Os problemas afetam appliances usados para balanceamento de carga, VPN, acesso remoto e autenticação em ambientes corporativos. Por ficarem frequentemente expostos à internet, esses sistemas costumam ser alvos prioritários em campanhas de ataque. A falha mais sensível é a CVE-2026-8451, com pontuação CVSS 8.8.",
+      "link": "https://boletimsec.com/vulnerabilidades-no-citrix-netscaler-podem-causar-queda-de-servicos/",
+      "published": "04/07/2026 12:00",
       "cves": [
         "CVE-2026-8451"
       ],
       "vendor": "Citrix"
     },
     {
-      "title": "Cisco confirma exploração ativa de falha no Unified CM",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "2 dias Segurança Função da Apple para ocultar e-mail não faz o básico e expõe dados de usuários",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Cisco confirmou ontem que atacantes estão explorando ativamente uma vulnerabilidade no Unified Communications Manager (Unified CM), sistema central de telefonia IP da empresa. A falha , registrada como CVE-2026-20230 , havia sido corrigida no início de junho, mas a empresa só agora reconheceu que está sendo usada em ataques, após alertas de empresas de segurança e da publicação de código de prova de conceito. A vulnerabilidade permite que atacantes não autenticados a explorem remotamente em ataques de server-side request forgery (SSRF) de baixa complexidade, enviando uma requisição HTTP especialmente criada.",
-      "link": "https://www.cisoadvisor.com.br/cisco-confirma-exploracao-ativa-de-falha-no-unified-cm/",
-      "published": "03/07/2026 12:00",
-      "cves": [
-        "CVE-2026-20230"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Vulnerabilidades na JetBrains ameaçam ambientes de desenvolvimento",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A JetBrains lançou atualizações de segurança para corrigir um conjunto de vulnerabilidades críticas que afetam ferramentas usadas em desenvolvimento, gestão de projetos e integração contínua. As falhas atingem produtos como Hub, YouTrack, IDEs baseadas no IntelliJ, Kotlin, GoLand e TeamCity. Em ambientes corporativos, esses sistemas costumam concentrar contas, códigos, builds e configurações sensíveis. Os problemas mais graves estão no Hub e no YouTrack, que podem atuar como componentes centrais de identidade e administração. Algumas falhas permitem contornar autenticação, assumir contas e obter privilégios elevados sem o controle adequado.",
-      "link": "https://boletimsec.com/vulnerabilidades-na-jetbrains-ameacam-ambientes-de-desenvolvimento/",
-      "published": "03/07/2026 12:00",
+      "summary": "O recurso Ocultar Meu E-mail, da Apple , está com uma vulnerabilidade que pode expor justamente os endereços de e-mail que deveriam ser protegidos . De acordo com o site 404 Media, o problema existe há um ano e segue sem solução. A plataforma de remoção de dados EasyOptOuts identificou o caso em junho de 2025 e relatou a situação para a Apple na época. No entanto, a vulnerabilidade segue sem correção e mais endereços foram expostos em novos testes. A Apple informou em maio deste ano que a situação estava sendo investigada, mas ainda não publicou uma correção.",
+      "link": "https://canaltech.com.br/seguranca/funcao-da-apple-para-ocultar-e-mail-nao-faz-o-basico-e-expoe-dados-de-usuarios/",
+      "published": "04/07/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Apple"
     },
     {
-      "title": "Ransomware JADEPUFFER usa IA para conduzir ataque",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "title": "DHS confirma invasão à plataforma HSIN",
+      "source": "CISO Advisor",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Um novo ransomware chamado JADEPUFFER foi descrito como uma ameaça “agêntica”, capaz de conduzir etapas de invasão com alto nível de autonomia usando um agente de IA para planejar, adaptar e executar ações no ambiente comprometido. A campanha foi identificada pelos pesquisadores após a captura de cargas maliciosas usadas em uma intrusão. O ataque começou em uma instância do Langflow exposta à internet, explorando a CVE-2025-3248, uma falha que permite executar código Python sem autenticação. Depois do acesso inicial, o JADEPUFFER enviou comandos codificados em Base64 para mapear o sistema, identificar processos, verificar interfaces de rede e procurar credenciais armazenadas.",
-      "link": "https://boletimsec.com/ransomware-jadepuffer-usa-ia-para-conduzir-ataque/",
-      "published": "03/07/2026 12:00",
-      "cves": [
-        "CVE-2025-3248"
-      ],
+      "summary": "O Departamento de Segurança Interna dos Estados Unidos (DHS) está investigando um ataque cibernético que comprometeu a Homeland Security Information Network (HSIN), uma plataforma sensível de compartilhamento de informações usada por parceiros federais, estaduais, locais e do setor privado, conforme confirmou ontem um porta-voz da agência. A invasão, relatada primeiro pelo Nextgov, foi realizada por um ator de ameaça desconhecido em semanas recentes e acredita-se ter ocorrido entre o final de maio e o início de junho, de acordo com duas pessoas familiarizadas com o assunto que falaram sob condição de anonimato.",
+      "link": "https://www.cisoadvisor.com.br/dhs-confirma-invasao-a-plataforma-hsin/",
+      "published": "04/07/2026 12:00",
+      "cves": [],
       "vendor": null
     }
   ]
