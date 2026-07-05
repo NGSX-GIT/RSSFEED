@@ -1,68 +1,62 @@
 {
-  "generated_at": "2026-07-04T12:00:00.012964-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-07-05T12:00:00.032992-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA alerta para falha explorada no Microsoft SharePoint Server",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA alertou que uma vulnerabilidade no Microsoft SharePoint Server está sendo explorada em ataques reais. A falha, identificada como CVE-2026-45659, permite execução remota de código em servidores locais da plataforma. O problema afeta implantações on-premises do SharePoint Server, usadas por empresas para colaboração, gestão de documentos e portais internos. Por esse motivo, a exploração pode representar risco direto para dados corporativos sensíveis. A falha envolve o processamento inseguro de dados enviados ao servidor. Um invasor autenticado pode criar uma solicitação maliciosa para fazer o SharePoint executar código não autorizado no ambiente afetado.",
-      "link": "https://boletimsec.com/cisa-alerta-para-falha-explorada-no-microsoft-sharepoint-server/",
-      "published": "04/07/2026 12:00",
-      "cves": [
-        "CVE-2026-45659"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Falha em biblioteca Rust da Anthropic pode causar negação de serviço",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade zero day na biblioteca Buffa, usada em implementações Rust ligadas a dados em formato protobuf, pode permitir ataques de negação de serviço contra aplicações que processam mensagens não confiáveis. A falha foi identificada como CVE-2026-55407 e também rastreada como GHSA-f9qc-qg88-7pq5. O problema afeta versões do Buffa e do ConnectRPC anteriores à 0.8.0. Na prática, um invasor pode enviar uma mensagem especialmente criada para forçar a aplicação a reservar uma quantidade muito grande de memória. Mesmo uma entrada relativamente pequena pode gerar consumo desproporcional de recursos.",
-      "link": "https://boletimsec.com/falha-em-biblioteca-rust-da-anthropic-pode-causar-negacao-de-servico/",
-      "published": "04/07/2026 12:00",
-      "cves": [
-        "CVE-2026-55407"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Vulnerabilidades no Citrix NetScaler podem causar queda de serviços",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Citrix lançou correções para seis vulnerabilidades no NetScaler ADC e no NetScaler Gateway, incluindo falhas de alta gravidade que podem causar negação de serviço, leitura indevida de arquivos e exposição de dados em memória. Os problemas afetam appliances usados para balanceamento de carga, VPN, acesso remoto e autenticação em ambientes corporativos. Por ficarem frequentemente expostos à internet, esses sistemas costumam ser alvos prioritários em campanhas de ataque. A falha mais sensível é a CVE-2026-8451, com pontuação CVSS 8.8.",
-      "link": "https://boletimsec.com/vulnerabilidades-no-citrix-netscaler-podem-causar-queda-de-servicos/",
-      "published": "04/07/2026 12:00",
-      "cves": [
-        "CVE-2026-8451"
-      ],
-      "vendor": "Citrix"
-    },
-    {
-      "title": "2 dias Segurança Função da Apple para ocultar e-mail não faz o básico e expõe dados de usuários",
+      "title": "3 dias Segurança Função da Apple para ocultar e-mail não faz o básico e expõe dados de usuários",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "O recurso Ocultar Meu E-mail, da Apple , está com uma vulnerabilidade que pode expor justamente os endereços de e-mail que deveriam ser protegidos . De acordo com o site 404 Media, o problema existe há um ano e segue sem solução. A plataforma de remoção de dados EasyOptOuts identificou o caso em junho de 2025 e relatou a situação para a Apple na época. No entanto, a vulnerabilidade segue sem correção e mais endereços foram expostos em novos testes. A Apple informou em maio deste ano que a situação estava sendo investigada, mas ainda não publicou uma correção.",
       "link": "https://canaltech.com.br/seguranca/funcao-da-apple-para-ocultar-e-mail-nao-faz-o-basico-e-expoe-dados-de-usuarios/",
-      "published": "04/07/2026 12:00",
+      "published": "05/07/2026 12:00",
       "cves": [],
       "vendor": "Apple"
     },
     {
-      "title": "DHS confirma invasão à plataforma HSIN",
-      "source": "CISO Advisor",
+      "title": "6 dias Segurança Copa do Mundo amplia golpes de bets e deepfakes no Brasil",
+      "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
-      "summary": "O Departamento de Segurança Interna dos Estados Unidos (DHS) está investigando um ataque cibernético que comprometeu a Homeland Security Information Network (HSIN), uma plataforma sensível de compartilhamento de informações usada por parceiros federais, estaduais, locais e do setor privado, conforme confirmou ontem um porta-voz da agência. A invasão, relatada primeiro pelo Nextgov, foi realizada por um ator de ameaça desconhecido em semanas recentes e acredita-se ter ocorrido entre o final de maio e o início de junho, de acordo com duas pessoas familiarizadas com o assunto que falaram sob condição de anonimato.",
-      "link": "https://www.cisoadvisor.com.br/dhs-confirma-invasao-a-plataforma-hsin/",
-      "published": "04/07/2026 12:00",
+      "summary": "A Copa do Mundo de 2026 amplia uma área de risco que já estava em expansão no Brasil. Mais de 4,3 mil sites falsos foram identificados explorando o torneio, e as casas de apostas continuam sendo o principal vetor de fraude. Para Daniel Tupinambá, CISO Strategy da Elytron Cybersecurity, o ambiente favorece o crime em pelo menos duas frentes: o volume financeiro circulando nas plataformas e o estado emocional dos torcedores. 🎧Ouça o Podcast Canaltech no Spotify 🎧Ouça o Podcast Canaltech na Deezer 🎧Ouça o Podcast Canaltech no Apple Podcasts \"A emoção reduz o senso crítico\" , afirmou Tupinambá ao Podcast Canaltech desta segunda-feira (29).",
+      "link": "https://canaltech.com.br/seguranca/copa-do-mundo-amplia-golpes-de-bets-e-deepfakes-no-brasil/",
+      "published": "05/07/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
+    },
+    {
+      "title": "20 horas Segurança Meu celular foi hackeado? 9 sinais e o que fazer agora",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Por Marcelo Fischer Salvatico • Editado por Jones Oliveira | 04/07/2026 às 15:10 Um amigo avisa que recebeu uma mensagem estranha sua, mas você não enviou nada. O plano de dados acaba antes do previsto. Chega um código de verificação do WhatsApp que você não pediu. Isolados, esses comportamentos têm explicações comuns. Combinados, são sinal para agir agora, seu celular pode ter sido hackeado . O Canaltech preparou um guia do que fazer caso perceba uma invasão em seu dispositivo. Abaixo, você confere:",
+      "link": "https://canaltech.com.br/seguranca/sinais-meu-celular-foi-hackeado-o-que-fazer/",
+      "published": "05/07/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Atualização do Windows 11 mira falhas de configuração",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A Microsoft lançou a atualização cumulativa KB5095189 para corrigir falhas e melhorar a confiabilidade da configuração inicial do Windows 11 nas versões 24H2 e 25H2. O pacote foi disponibilizado em 23 de junho de 2026 e é voltado exclusivamente à etapa exibida quando um computador novo ou recém-formatado é configurado pela primeira vez. Diferente das atualizações cumulativas tradicionais, a KB5095189 não aparece para computadores já configurados pelo Windows Update comum. Ela é baixada e aplicada automaticamente durante a configuração inicial, desde que o dispositivo tenha conexão ativa com a internet.",
+      "link": "https://boletimsec.com/atualizacao-do-windows-11-mira-falhas-de-configuracao/",
+      "published": "05/07/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Campanha de password spraying contra Microsoft 365",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "cloud",
+      "summary": "Uma agressiva campanha de password spraying contra ambientes Microsoft 365 gerou mais de 81 milhões de tentativas de login em um período de duas semanas, segundo relatório publicado ontem pela empresa de cibersegurança Huntress. A campanha, observada entre 12 e 26 de junho, resultou no comprometimento de 78 contas Microsoft em 64 organizações. O ator da ameaça tentou autenticar por meio da interface de linha de comando (CLI) do Azure da Microsoft, utilizando combinações válidas de nome de usuário e senha que haviam sido expostas em violações anteriores.",
+      "link": "https://www.cisoadvisor.com.br/campanha-de-password-spraying-contra-microsoft-365/",
+      "published": "05/07/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
