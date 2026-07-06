@@ -1,62 +1,68 @@
 {
-  "generated_at": "2026-07-05T12:00:00.032992-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-07-06T12:00:00.018248-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "3 dias Segurança Função da Apple para ocultar e-mail não faz o básico e expõe dados de usuários",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
+      "title": "Primeiro ataque de ransomware conduzido por agente de IA",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "O recurso Ocultar Meu E-mail, da Apple , está com uma vulnerabilidade que pode expor justamente os endereços de e-mail que deveriam ser protegidos . De acordo com o site 404 Media, o problema existe há um ano e segue sem solução. A plataforma de remoção de dados EasyOptOuts identificou o caso em junho de 2025 e relatou a situação para a Apple na época. No entanto, a vulnerabilidade segue sem correção e mais endereços foram expostos em novos testes. A Apple informou em maio deste ano que a situação estava sendo investigada, mas ainda não publicou uma correção.",
-      "link": "https://canaltech.com.br/seguranca/funcao-da-apple-para-ocultar-e-mail-nao-faz-o-basico-e-expoe-dados-de-usuarios/",
-      "published": "05/07/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
+      "summary": "Pesquisadores da Sysdig documentaram o primeiro caso de uma operação de ransomware conduzida inteiramente por um agente autônomo de inteligência artificial. O grupo JadePuffer utilizou um modelo de linguagem de grande escala (LLM) para realizar reconhecimento, roubo de credenciais , movimentação lateral, persistência, escalonamento de privilégios e criptografia de dados, conforme análise publicada dia1 de Julho pela empresa de segurança em nuvem. O ataque teve início com a exploração da vulnerabilidade CVE-2025-3248, uma falha de execução remota de código não autenticada no Langflow, framework open-source para construção de aplicações LLM.",
+      "link": "https://www.cisoadvisor.com.br/primeiro-ataque-de-ransomware-conduzido-por-agente-de-ia/",
+      "published": "06/07/2026 12:00",
+      "cves": [
+        "CVE-2025-3248"
+      ],
+      "vendor": null
     },
     {
-      "title": "6 dias Segurança Copa do Mundo amplia golpes de bets e deepfakes no Brasil",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
+      "title": "Vulnerabilidades no Apache ActiveMQ afetam mensageria e integrações críticas",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A Copa do Mundo de 2026 amplia uma área de risco que já estava em expansão no Brasil. Mais de 4,3 mil sites falsos foram identificados explorando o torneio, e as casas de apostas continuam sendo o principal vetor de fraude. Para Daniel Tupinambá, CISO Strategy da Elytron Cybersecurity, o ambiente favorece o crime em pelo menos duas frentes: o volume financeiro circulando nas plataformas e o estado emocional dos torcedores. 🎧Ouça o Podcast Canaltech no Spotify 🎧Ouça o Podcast Canaltech na Deezer 🎧Ouça o Podcast Canaltech no Apple Podcasts \"A emoção reduz o senso crítico\" , afirmou Tupinambá ao Podcast Canaltech desta segunda-feira (29).",
-      "link": "https://canaltech.com.br/seguranca/copa-do-mundo-amplia-golpes-de-bets-e-deepfakes-no-brasil/",
-      "published": "05/07/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
-    },
-    {
-      "title": "20 horas Segurança Meu celular foi hackeado? 9 sinais e o que fazer agora",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico • Editado por Jones Oliveira | 04/07/2026 às 15:10 Um amigo avisa que recebeu uma mensagem estranha sua, mas você não enviou nada. O plano de dados acaba antes do previsto. Chega um código de verificação do WhatsApp que você não pediu. Isolados, esses comportamentos têm explicações comuns. Combinados, são sinal para agir agora, seu celular pode ter sido hackeado . O Canaltech preparou um guia do que fazer caso perceba uma invasão em seu dispositivo. Abaixo, você confere:",
-      "link": "https://canaltech.com.br/seguranca/sinais-meu-celular-foi-hackeado-o-que-fazer/",
-      "published": "05/07/2026 12:00",
+      "summary": "O Apache ActiveMQ recebeu novas atualizações de segurança para corrigir vulnerabilidades que podem causar queda de serviços, exposição de dados e abuso de permissões em ambientes corporativos. As falhas afetam o ActiveMQ Classic, plataforma usada como intermediária na troca de mensagens entre aplicações. Em empresas, esse tipo de sistema costuma sustentar integrações críticas entre serviços internos, APIs e sistemas de negócio. Entre os problemas corrigidos estão falhas que permitem negação de serviço. Em alguns casos, um invasor sem autenticação pode enviar mensagens especialmente criadas para forçar consumo excessivo de memória e derrubar o broker.",
+      "link": "https://boletimsec.com/vulnerabilidades-no-apache-activemq-afetam-mensageria-e-integracoes-criticas/",
+      "published": "06/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Atualização do Windows 11 mira falhas de configuração",
+      "title": "WatchGuard corrige falhas que permitem execução de código",
       "source": "BoletimSec Notícias",
-      "priority": "Baixa",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Microsoft lançou a atualização cumulativa KB5095189 para corrigir falhas e melhorar a confiabilidade da configuração inicial do Windows 11 nas versões 24H2 e 25H2. O pacote foi disponibilizado em 23 de junho de 2026 e é voltado exclusivamente à etapa exibida quando um computador novo ou recém-formatado é configurado pela primeira vez. Diferente das atualizações cumulativas tradicionais, a KB5095189 não aparece para computadores já configurados pelo Windows Update comum. Ela é baixada e aplicada automaticamente durante a configuração inicial, desde que o dispositivo tenha conexão ativa com a internet.",
-      "link": "https://boletimsec.com/atualizacao-do-windows-11-mira-falhas-de-configuracao/",
-      "published": "05/07/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "A WatchGuard corrigiu três vulnerabilidades de alta gravidade no Fireware OS que podem permitir execução de código e gravação indevida de arquivos em appliances Firebox. As falhas afetam firewalls usados por empresas para proteger redes, VPNs e acessos externos. Embora a exploração exija credenciais administrativas válidas, o impacto pode ser alto caso uma conta privilegiada seja comprometida. As vulnerabilidades foram identificadas como CVE-2026-13053, CVE-2026-13050 e CVE-2026-13054. Todas receberam pontuação CVSS 8.6 e atingem diferentes funções de gerenciamento do Fireware OS. As versões afetadas incluem Fireware OS 11.0 a 11.12.4_Update1, 12.0 a 12.12, 12.5 a 12.5.18 e 2025.1 a 2026.2.",
+      "link": "https://boletimsec.com/watchguard-corrige-falhas-que-permitem-execucao-de-codigo/",
+      "published": "06/07/2026 12:00",
+      "cves": [
+        "CVE-2026-13053",
+        "CVE-2026-13050",
+        "CVE-2026-13054"
+      ],
+      "vendor": null
     },
     {
-      "title": "Campanha de password spraying contra Microsoft 365",
+      "title": "FBI alerta para backdoor em pacotes de software",
       "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "cloud",
-      "summary": "Uma agressiva campanha de password spraying contra ambientes Microsoft 365 gerou mais de 81 milhões de tentativas de login em um período de duas semanas, segundo relatório publicado ontem pela empresa de cibersegurança Huntress. A campanha, observada entre 12 e 26 de junho, resultou no comprometimento de 78 contas Microsoft em 64 organizações. O ator da ameaça tentou autenticar por meio da interface de linha de comando (CLI) do Azure da Microsoft, utilizando combinações válidas de nome de usuário e senha que haviam sido expostas em violações anteriores.",
-      "link": "https://www.cisoadvisor.com.br/campanha-de-password-spraying-contra-microsoft-365/",
-      "published": "05/07/2026 12:00",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "O FBI publicou nodia 2 de Julho, última quinta-feira, um alerta sobre o grupo cibercriminoso TeamPCP, responsável por ataques à cadeia de suprimentos em projetos de software. A agência recomenda que desenvolvedores adotem uma idade mínima de sete dias para instalação de pacotes, conforme o comunicado divulgado pela agência. O grupo comprometeu canais de distribuição confiáveis ao injetar código malicioso em pacotes legítimos, afetando ferramentas como SAP, Checkmarx, Bitwarden, Lightning, Intercom, Trivy e GitHub, segundo o documento do FBI. Desenvolvedores que baixam e instalam esses pacotes têm seus sistemas infectados com malware que rouba tokens, chaves e outras credenciais.",
+      "link": "https://www.cisoadvisor.com.br/fbi-alerta-para-backdoor-em-pacotes-de-software/",
+      "published": "06/07/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
+    },
+    {
+      "title": "Trojan muda seu alvo do Brasil para Espanha e Portugal",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Pesquisadores da FortiGuard Labs identificaram em maio uma campanha do trojan bancário Ousaban direcionada a usuários na Espanha e em Portugal. O malware, anteriormente ativo no Brasil, é distribuído por meio de um downloader MSI e utiliza um arquivo DLL executado por meio de side-loading ou injeção de processo, conforme análise publicada pela equipe de inteligência de ameaças. O ataque tem início com um PDF de phishing que se passa por arquivo corrompido. A vítima é induzida a clicar em um botão “Atualizar”, que a redireciona para uma página maliciosa.",
+      "link": "https://www.cisoadvisor.com.br/trojan-muda-seu-alvo-do-brasil-para-espanha-e-portugal/",
+      "published": "06/07/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
