@@ -1,66 +1,70 @@
 {
-  "generated_at": "2026-07-06T12:00:00.018248-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-07-07T12:00:00.071458-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Primeiro ataque de ransomware conduzido por agente de IA",
+      "title": "Falha crítica é explorada no Adobe ColdFusion",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da Sysdig documentaram o primeiro caso de uma operação de ransomware conduzida inteiramente por um agente autônomo de inteligência artificial. O grupo JadePuffer utilizou um modelo de linguagem de grande escala (LLM) para realizar reconhecimento, roubo de credenciais , movimentação lateral, persistência, escalonamento de privilégios e criptografia de dados, conforme análise publicada dia1 de Julho pela empresa de segurança em nuvem. O ataque teve início com a exploração da vulnerabilidade CVE-2025-3248, uma falha de execução remota de código não autenticada no Langflow, framework open-source para construção de aplicações LLM.",
-      "link": "https://www.cisoadvisor.com.br/primeiro-ataque-de-ransomware-conduzido-por-agente-de-ia/",
-      "published": "06/07/2026 12:00",
+      "summary": "Atacantes estão explorando uma vulnerabilidade de gravidade máxima no Adobe ColdFusion, registrada como CVE-2026-48282 , conforme alertou ontem a empresa de inteligência em vulnerabilidades KEVIntel. A falha afeta as versões 2025.9, 2023.20 e anteriores da plataforma de desenvolvimento de aplicações web e pode ser explorada por atacantes não autenticados para obter execução remota de código em sistemas não corrigidos. A Adobe publicou atualizações de segurança para resolver a vulnerabilidade , afirmando que ela apresentava alto risco de exploração e instando os administradores a aplicarem os patches imediatamente, idealmente dentro de 72 horas.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-e-explorada-no-adobe-coldfusion/",
+      "published": "07/07/2026 12:00",
       "cves": [
-        "CVE-2025-3248"
+        "CVE-2026-48282"
+      ],
+      "vendor": "Adobe"
+    },
+    {
+      "title": "Vulnerabilidades no IBM WebSphere afetam console administrativo",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A IBM divulgou correções para três vulnerabilidades no WebSphere Application Server que podem permitir ataques contra o console administrativo da plataforma. As falhas afetam versões amplamente usadas do WebSphere 8.5 e 9.0. Os problemas estão no sistema de ajuda integrado ao console de administração. Embora esse tipo de componente pareça secundário, ele pode se tornar um ponto de entrada quando não valida corretamente dados enviados por usuários. Duas falhas, identificadas como CVE-2026-11712 e CVE-2026-11708, foram classificadas como críticas, com pontuação CVSS 9.3.",
+      "link": "https://boletimsec.com/vulnerabilidades-no-ibm-websphere-afetam-console-administrativo/",
+      "published": "07/07/2026 12:00",
+      "cves": [
+        "CVE-2026-11712",
+        "CVE-2026-11708"
       ],
       "vendor": null
     },
     {
-      "title": "Vulnerabilidades no Apache ActiveMQ afetam mensageria e integrações críticas",
+      "title": "Falha no Microsoft Edge pode permitir execução remota de código",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O Apache ActiveMQ recebeu novas atualizações de segurança para corrigir vulnerabilidades que podem causar queda de serviços, exposição de dados e abuso de permissões em ambientes corporativos. As falhas afetam o ActiveMQ Classic, plataforma usada como intermediária na troca de mensagens entre aplicações. Em empresas, esse tipo de sistema costuma sustentar integrações críticas entre serviços internos, APIs e sistemas de negócio. Entre os problemas corrigidos estão falhas que permitem negação de serviço. Em alguns casos, um invasor sem autenticação pode enviar mensagens especialmente criadas para forçar consumo excessivo de memória e derrubar o broker.",
-      "link": "https://boletimsec.com/vulnerabilidades-no-apache-activemq-afetam-mensageria-e-integracoes-criticas/",
-      "published": "06/07/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "summary": "Uma vulnerabilidade de alta gravidade no Microsoft Edge pode permitir que um invasor remoto execute código em sistemas afetados por meio de uma página maliciosa criada para explorar o navegador. A falha foi identificada como CVE-2026-57992 e afeta o Microsoft Edge baseado em Chromium. O problema recebeu pontuação CVSS 7.5 e está relacionado a uma falha de corrupção de memória do tipo use-after-free. Na prática, o ataque exige que a vítima acesse um site controlado pelo invasor. A página precisa ser preparada para acionar a falha no mecanismo de renderização do navegador, explorando uma condição ligada ao recurso de preenchimento automático.",
+      "link": "https://boletimsec.com/falha-no-microsoft-edge-pode-permitir-execucao-remota-de-codigo/",
+      "published": "07/07/2026 12:00",
+      "cves": [
+        "CVE-2026-57992"
+      ],
+      "vendor": "Microsoft"
     },
     {
-      "title": "WatchGuard corrige falhas que permitem execução de código",
+      "title": "Falhas no PHP podem derrubar aplicações web",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "A WatchGuard corrigiu três vulnerabilidades de alta gravidade no Fireware OS que podem permitir execução de código e gravação indevida de arquivos em appliances Firebox. As falhas afetam firewalls usados por empresas para proteger redes, VPNs e acessos externos. Embora a exploração exija credenciais administrativas válidas, o impacto pode ser alto caso uma conta privilegiada seja comprometida. As vulnerabilidades foram identificadas como CVE-2026-13053, CVE-2026-13050 e CVE-2026-13054. Todas receberam pontuação CVSS 8.6 e atingem diferentes funções de gerenciamento do Fireware OS. As versões afetadas incluem Fireware OS 11.0 a 11.12.4_Update1, 12.0 a 12.12, 12.5 a 12.5.18 e 2025.1 a 2026.2.",
-      "link": "https://boletimsec.com/watchguard-corrige-falhas-que-permitem-execucao-de-codigo/",
-      "published": "06/07/2026 12:00",
+      "summary": "Múltiplas vulnerabilidades no PHP podem permitir ataques de negação de serviço e corrupção de memória em aplicações web que ainda usam versões desatualizadas da linguagem. As falhas foram identificadas como CVE-2026-12184 e CVE-2026-14355. Ambas afetam componentes usados em operações comuns de aplicações, como conexões externas seguras e funções de criptografia. A falha mais grave, CVE-2026-12184, está relacionada ao processamento de conexões HTTP seguras. O problema ocorre quando uma conexão protegida falha durante a validação, por exemplo por causa de um certificado expirado ou nome incompatível.",
+      "link": "https://boletimsec.com/falhas-no-php-podem-derrubar-aplicacoes-web/",
+      "published": "07/07/2026 12:00",
       "cves": [
-        "CVE-2026-13053",
-        "CVE-2026-13050",
-        "CVE-2026-13054"
+        "CVE-2026-12184",
+        "CVE-2026-14355"
       ],
       "vendor": null
     },
     {
-      "title": "FBI alerta para backdoor em pacotes de software",
-      "source": "CISO Advisor",
+      "title": "1 hora Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
+      "source": "Canaltech Segurança",
       "priority": "Média",
-      "category": "identity",
-      "summary": "O FBI publicou nodia 2 de Julho, última quinta-feira, um alerta sobre o grupo cibercriminoso TeamPCP, responsável por ataques à cadeia de suprimentos em projetos de software. A agência recomenda que desenvolvedores adotem uma idade mínima de sete dias para instalação de pacotes, conforme o comunicado divulgado pela agência. O grupo comprometeu canais de distribuição confiáveis ao injetar código malicioso em pacotes legítimos, afetando ferramentas como SAP, Checkmarx, Bitwarden, Lightning, Intercom, Trivy e GitHub, segundo o documento do FBI. Desenvolvedores que baixam e instalam esses pacotes têm seus sistemas infectados com malware que rouba tokens, chaves e outras credenciais.",
-      "link": "https://www.cisoadvisor.com.br/fbi-alerta-para-backdoor-em-pacotes-de-software/",
-      "published": "06/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Trojan muda seu alvo do Brasil para Espanha e Portugal",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Pesquisadores da FortiGuard Labs identificaram em maio uma campanha do trojan bancário Ousaban direcionada a usuários na Espanha e em Portugal. O malware, anteriormente ativo no Brasil, é distribuído por meio de um downloader MSI e utiliza um arquivo DLL executado por meio de side-loading ou injeção de processo, conforme análise publicada pela equipe de inteligência de ameaças. O ataque tem início com um PDF de phishing que se passa por arquivo corrompido. A vítima é induzida a clicar em um botão “Atualizar”, que a redireciona para uma página maliciosa.",
-      "link": "https://www.cisoadvisor.com.br/trojan-muda-seu-alvo-do-brasil-para-espanha-e-portugal/",
-      "published": "06/07/2026 12:00",
+      "category": "patches",
+      "summary": "Pesquisadores da Sysdig identificaram um dos primeiros ataques de ransomware conduzidos por um agente de IA . Atribuído ao operador JadePuffer, o ataque automatiza etapas do golpe que “sequestra” dados de um sistema , mas ainda depende de uma pessoa por trás da operação. Neste caso, o uso de inteligência artificial ajudou a encadear etapas que normalmente exigem conhecimento técnico , o que pode reduzir a dificuldade para executar ataques considerados complexos. Durante a campanha, o agente executou mais de 600 ações e corrigiu uma tentativa fracassada em quase 30 segundos durante uma das sequências. Contudo, isso não significa que a operação tenha ocorrido de forma completamente autônoma .",
+      "link": "https://canaltech.com.br/seguranca/ransomware-com-ia-acelera-ataques-mas-ainda-depende-de-acao-humana/",
+      "published": "07/07/2026 12:00",
       "cves": [],
       "vendor": null
     }
