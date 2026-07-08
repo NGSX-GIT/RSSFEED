@@ -1,70 +1,67 @@
 {
-  "generated_at": "2026-07-07T12:00:00.071458-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-07-08T12:00:00.053844-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica é explorada no Adobe ColdFusion",
+      "title": "Cibercriminosos testam falha crítica em imagens Docker do Gitea",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Cibercriminosos começaram a testar uma vulnerabilidade crítica em imagens Docker do Gitea apenas 13 dias após a divulgação pública da falha. O problema pode permitir acesso elevado sem senha em servidores configurados de forma vulnerável. A brecha, identificada como CVE-2026-20896, recebeu pontuação CVSS 9.8 e afeta imagens Docker do Gitea até a versão 1.26.2. A plataforma é usada por empresas e desenvolvedores para hospedar e administrar repositórios de código. O problema ocorre quando o Gitea é colocado atrás de um sistema intermediário de autenticação. A configuração vulnerável aceitava informações de login vindas de qualquer endereço capaz de alcançar diretamente o contêiner.",
+      "link": "https://boletimsec.com/cibercriminosos-testam-falha-critica-em-imagens-docker-do-gitea/",
+      "published": "08/07/2026 12:00",
+      "cves": [
+        "CVE-2026-20896"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "BeyondTrust corrige falhas críticas que permitem acesso sem autenticação",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A BeyondTrust corrigiu quatro vulnerabilidades graves em suas soluções Remote Support e Privileged Remote Access, usadas por empresas para suporte remoto e acesso seguro a sistemas internos. Duas falhas receberam pontuação máxima de 9,2 e podem permitir invasões sem necessidade de login. Os problemas mais críticos foram identificados como CVE-2026-40138 e CVE-2026-40139. Em configurações específicas, um atacante remoto pode contornar os controles de acesso e entrar no equipamento afetado, inclusive usando contas com privilégios elevados.",
+      "link": "https://boletimsec.com/beyondtrust-corrige-falhas-criticas-que-permitem-acesso-sem-autenticacao/",
+      "published": "08/07/2026 12:00",
+      "cves": [
+        "CVE-2026-40138",
+        "CVE-2026-40139"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Falha no Codex permitia enviar dados sensíveis para servidores externos",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade no aplicativo Codex para macOS poderia permitir o vazamento silencioso de códigos, chaves de API e outras informações sensíveis processadas pelo assistente de programação da OpenAI. A falha, identificada como CVE-2026-14898, afetava versões do Codex Desktop até a 26.527.31325. O problema estava na forma como o aplicativo exibia imagens externas incluídas nas respostas geradas pela inteligência artificial. O ataque poderia começar quando o Codex analisasse conteúdo malicioso vindo de um arquivo, página, ferramenta conectada ou outra fonte não confiável. Instruções escondidas nesse material poderiam manipular a resposta produzida pela IA.",
+      "link": "https://boletimsec.com/falha-no-codex-permitia-enviar-dados-sensiveis-para-servidores-externos/",
+      "published": "08/07/2026 12:00",
+      "cves": [
+        "CVE-2026-14898"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Armored Likho mira governo e energia no Brasil com Stealer",
       "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Atacantes estão explorando uma vulnerabilidade de gravidade máxima no Adobe ColdFusion, registrada como CVE-2026-48282 , conforme alertou ontem a empresa de inteligência em vulnerabilidades KEVIntel. A falha afeta as versões 2025.9, 2023.20 e anteriores da plataforma de desenvolvimento de aplicações web e pode ser explorada por atacantes não autenticados para obter execução remota de código em sistemas não corrigidos. A Adobe publicou atualizações de segurança para resolver a vulnerabilidade , afirmando que ela apresentava alto risco de exploração e instando os administradores a aplicarem os patches imediatamente, idealmente dentro de 72 horas.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-e-explorada-no-adobe-coldfusion/",
-      "published": "07/07/2026 12:00",
-      "cves": [
-        "CVE-2026-48282"
-      ],
-      "vendor": "Adobe"
-    },
-    {
-      "title": "Vulnerabilidades no IBM WebSphere afetam console administrativo",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A IBM divulgou correções para três vulnerabilidades no WebSphere Application Server que podem permitir ataques contra o console administrativo da plataforma. As falhas afetam versões amplamente usadas do WebSphere 8.5 e 9.0. Os problemas estão no sistema de ajuda integrado ao console de administração. Embora esse tipo de componente pareça secundário, ele pode se tornar um ponto de entrada quando não valida corretamente dados enviados por usuários. Duas falhas, identificadas como CVE-2026-11712 e CVE-2026-11708, foram classificadas como críticas, com pontuação CVSS 9.3.",
-      "link": "https://boletimsec.com/vulnerabilidades-no-ibm-websphere-afetam-console-administrativo/",
-      "published": "07/07/2026 12:00",
-      "cves": [
-        "CVE-2026-11712",
-        "CVE-2026-11708"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha no Microsoft Edge pode permitir execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de alta gravidade no Microsoft Edge pode permitir que um invasor remoto execute código em sistemas afetados por meio de uma página maliciosa criada para explorar o navegador. A falha foi identificada como CVE-2026-57992 e afeta o Microsoft Edge baseado em Chromium. O problema recebeu pontuação CVSS 7.5 e está relacionado a uma falha de corrupção de memória do tipo use-after-free. Na prática, o ataque exige que a vítima acesse um site controlado pelo invasor. A página precisa ser preparada para acionar a falha no mecanismo de renderização do navegador, explorando uma condição ligada ao recurso de preenchimento automático.",
-      "link": "https://boletimsec.com/falha-no-microsoft-edge-pode-permitir-execucao-remota-de-codigo/",
-      "published": "07/07/2026 12:00",
-      "cves": [
-        "CVE-2026-57992"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Falhas no PHP podem derrubar aplicações web",
-      "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "patches",
-      "summary": "Múltiplas vulnerabilidades no PHP podem permitir ataques de negação de serviço e corrupção de memória em aplicações web que ainda usam versões desatualizadas da linguagem. As falhas foram identificadas como CVE-2026-12184 e CVE-2026-14355. Ambas afetam componentes usados em operações comuns de aplicações, como conexões externas seguras e funções de criptografia. A falha mais grave, CVE-2026-12184, está relacionada ao processamento de conexões HTTP seguras. O problema ocorre quando uma conexão protegida falha durante a validação, por exemplo por causa de um certificado expirado ou nome incompatível.",
-      "link": "https://boletimsec.com/falhas-no-php-podem-derrubar-aplicacoes-web/",
-      "published": "07/07/2026 12:00",
-      "cves": [
-        "CVE-2026-12184",
-        "CVE-2026-14355"
-      ],
-      "vendor": null
+      "category": "identity",
+      "summary": "O grupo de ameaça persistente avançada (APT) Armored Likho está conduzindo uma campanha de phishing que visa agências governamentais e o setor de energia elétrica no Brasil, na Rússia e no Cazaquistão, conforme revelou ontem a Kaspersky em relatório técnico. O grupo está utilizando uma ferramenta até então não documentada, batizada de BusySnake Stealer, um infostealer baseado em Python projetado para sistemas Windows, que substitui ferramentas anteriormente usadas pelo grupo e integra funcionalidades de tunelamento reverso SSH.",
+      "link": "https://www.cisoadvisor.com.br/armored-likho-mira-governo-e-energia-no-brasil-com-stealer/",
+      "published": "08/07/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
     },
     {
-      "title": "1 hora Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
+      "title": "1 dia Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Pesquisadores da Sysdig identificaram um dos primeiros ataques de ransomware conduzidos por um agente de IA . Atribuído ao operador JadePuffer, o ataque automatiza etapas do golpe que “sequestra” dados de um sistema , mas ainda depende de uma pessoa por trás da operação. Neste caso, o uso de inteligência artificial ajudou a encadear etapas que normalmente exigem conhecimento técnico , o que pode reduzir a dificuldade para executar ataques considerados complexos. Durante a campanha, o agente executou mais de 600 ações e corrigiu uma tentativa fracassada em quase 30 segundos durante uma das sequências. Contudo, isso não significa que a operação tenha ocorrido de forma completamente autônoma .",
       "link": "https://canaltech.com.br/seguranca/ransomware-com-ia-acelera-ataques-mas-ainda-depende-de-acao-humana/",
-      "published": "07/07/2026 12:00",
+      "published": "08/07/2026 12:00",
       "cves": [],
       "vendor": null
     }
