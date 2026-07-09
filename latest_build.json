@@ -1,29 +1,42 @@
 {
-  "generated_at": "2026-07-08T12:00:00.053844-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-07-09T12:00:00.047356-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Cibercriminosos testam falha crítica em imagens Docker do Gitea",
-      "source": "BoletimSec Notícias",
+      "title": "Falha crítica no Gitea é explorada em ataques",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos começaram a testar uma vulnerabilidade crítica em imagens Docker do Gitea apenas 13 dias após a divulgação pública da falha. O problema pode permitir acesso elevado sem senha em servidores configurados de forma vulnerável. A brecha, identificada como CVE-2026-20896, recebeu pontuação CVSS 9.8 e afeta imagens Docker do Gitea até a versão 1.26.2. A plataforma é usada por empresas e desenvolvedores para hospedar e administrar repositórios de código. O problema ocorre quando o Gitea é colocado atrás de um sistema intermediário de autenticação. A configuração vulnerável aceitava informações de login vindas de qualquer endereço capaz de alcançar diretamente o contêiner.",
-      "link": "https://boletimsec.com/cibercriminosos-testam-falha-critica-em-imagens-docker-do-gitea/",
-      "published": "08/07/2026 12:00",
+      "summary": "Atacantes estão explorando ativamente a vulnerabilidade CVE-2026-20896 (CVSS 9.8) no Gitea, plataforma de desenvolvimento auto-hospedada, para contornar a autenticação e acessar repositórios e segredos de código. A falha , específica das imagens oficiais Docker do Gitea, permite que um invasor envie um único cabeçalho HTTP com um nome de usuário válido para assumir a identidade da vítima, sem necessidade de senha ou token. O primeiro indício de exploração no ambiente real ocorreu 13 dias após a divulgação pública da falha. A tentativa foi associada a um “scanner de saída de VPN” que verificava acessos.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-gitea-e-explorada-em-ataques/",
+      "published": "09/07/2026 12:00",
       "cves": [
         "CVE-2026-20896"
       ],
       "vendor": null
     },
     {
-      "title": "BeyondTrust corrige falhas críticas que permitem acesso sem autenticação",
+      "title": "Vulnerabilidade no ColdFusion permite executar comandos sem login",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A BeyondTrust corrigiu quatro vulnerabilidades graves em suas soluções Remote Support e Privileged Remote Access, usadas por empresas para suporte remoto e acesso seguro a sistemas internos. Duas falhas receberam pontuação máxima de 9,2 e podem permitir invasões sem necessidade de login. Os problemas mais críticos foram identificados como CVE-2026-40138 e CVE-2026-40139. Em configurações específicas, um atacante remoto pode contornar os controles de acesso e entrar no equipamento afetado, inclusive usando contas com privilégios elevados.",
-      "link": "https://boletimsec.com/beyondtrust-corrige-falhas-criticas-que-permitem-acesso-sem-autenticacao/",
-      "published": "08/07/2026 12:00",
+      "summary": "Cibercriminosos começaram a explorar uma vulnerabilidade crítica no Adobe ColdFusion capaz de permitir a execução de comandos em servidores afetados. A falha, identificada como CVE-2026-48282, recebeu pontuação máxima de gravidade, 10 em 10. O ColdFusion é usado por empresas para desenvolver e executar aplicações web. Servidores vulneráveis podem armazenar informações corporativas, processar dados de clientes e manter conexão com outros sistemas internos. A brecha permite que um invasor remoto manipule caminhos de arquivos e grave conteúdo malicioso em áreas indevidas do servidor. O ataque pode ser realizado sem login e não exige qualquer interação de um usuário.",
+      "link": "https://boletimsec.com/vulnerabilidade-no-coldfusion-permite-executar-comandos-sem-login/",
+      "published": "09/07/2026 12:00",
+      "cves": [
+        "CVE-2026-48282"
+      ],
+      "vendor": "Adobe"
+    },
+    {
+      "title": "BeyondTrust corrige duas falhas críticas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A BeyondTrust alertou ontem seus clientes sobre duas vulnerabilidades críticas em suas plataformas Remote Support (RS) e Privileged Remote Access (PRA), que poderiam permitir que atacantes não autenticados contornassem controles de acesso. As falhas, registradas como CVE-2026-40138 e CVE-2026-40139, afetam as versões 25.3.2 ou anteriores de ambos os produtos e exigem que uma configuração específica de autenticação esteja ativada para serem exploradas.",
+      "link": "https://www.cisoadvisor.com.br/beyondtrust-corrige-duas-falhas-criticas/",
+      "published": "09/07/2026 12:00",
       "cves": [
         "CVE-2026-40138",
         "CVE-2026-40139"
@@ -31,39 +44,26 @@
       "vendor": null
     },
     {
-      "title": "Falha no Codex permitia enviar dados sensíveis para servidores externos",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade no aplicativo Codex para macOS poderia permitir o vazamento silencioso de códigos, chaves de API e outras informações sensíveis processadas pelo assistente de programação da OpenAI. A falha, identificada como CVE-2026-14898, afetava versões do Codex Desktop até a 26.527.31325. O problema estava na forma como o aplicativo exibia imagens externas incluídas nas respostas geradas pela inteligência artificial. O ataque poderia começar quando o Codex analisasse conteúdo malicioso vindo de um arquivo, página, ferramenta conectada ou outra fonte não confiável. Instruções escondidas nesse material poderiam manipular a resposta produzida pela IA.",
-      "link": "https://boletimsec.com/falha-no-codex-permitia-enviar-dados-sensiveis-para-servidores-externos/",
-      "published": "08/07/2026 12:00",
-      "cves": [
-        "CVE-2026-14898"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Armored Likho mira governo e energia no Brasil com Stealer",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O grupo de ameaça persistente avançada (APT) Armored Likho está conduzindo uma campanha de phishing que visa agências governamentais e o setor de energia elétrica no Brasil, na Rússia e no Cazaquistão, conforme revelou ontem a Kaspersky em relatório técnico. O grupo está utilizando uma ferramenta até então não documentada, batizada de BusySnake Stealer, um infostealer baseado em Python projetado para sistemas Windows, que substitui ferramentas anteriormente usadas pelo grupo e integra funcionalidades de tunelamento reverso SSH.",
-      "link": "https://www.cisoadvisor.com.br/armored-likho-mira-governo-e-energia-no-brasil-com-stealer/",
-      "published": "08/07/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "1 dia Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
+      "title": "22 horas Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
       "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores da Sysdig identificaram um dos primeiros ataques de ransomware conduzidos por um agente de IA . Atribuído ao operador JadePuffer, o ataque automatiza etapas do golpe que “sequestra” dados de um sistema , mas ainda depende de uma pessoa por trás da operação. Neste caso, o uso de inteligência artificial ajudou a encadear etapas que normalmente exigem conhecimento técnico , o que pode reduzir a dificuldade para executar ataques considerados complexos. Durante a campanha, o agente executou mais de 600 ações e corrigiu uma tentativa fracassada em quase 30 segundos durante uma das sequências. Contudo, isso não significa que a operação tenha ocorrido de forma completamente autônoma .",
-      "link": "https://canaltech.com.br/seguranca/ransomware-com-ia-acelera-ataques-mas-ainda-depende-de-acao-humana/",
-      "published": "08/07/2026 12:00",
+      "priority": "Alta",
+      "category": "breach",
+      "summary": "A Agência Nacional de Proteção de Dados (ANPD) iniciou um processo de sanção contra o Instituto de Saúde e Cidadania (ISAC) nesta quarta-feira (8). O inquérito foi aberto após um ataque que \"sequestrou\" dados de 500 mil pacientes da organização social responsável pela administração de unidades públicas de saúde em Alagoas, Bahia, Goiás, Piauí, Rio Grande do Sul e Tocantins. A ação dá sequência ao incidente ocorrido em 2025 e comunicado pela entidade à agência. Na ocasião, a empresa foi alvo de um ransomware , ataque em que os dados são criptografados por hackers . Depois, os agentes maliciosos cobram um resgate às vítimas para acessá-los novamente e, em alguns casos, para evitar o vazamento.",
+      "link": "https://canaltech.com.br/seguranca/ataque-que-sequestrou-dados-de-500-mil-pacientes-no-brasil-entra-na-mira-da-anpd/",
+      "published": "09/07/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "EtherRAT é instalado via engenharia social no Teams",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "Atores de ameaça estão abusando de chamadas de voz no Microsoft Teams, se passando por funcionários do suporte de TI corporativo para enganar funcionários e instalar o malware EtherRAT, conforme alertou ontem a Unit 42, da Palo Alto Networks. A campanha combina e-mails de phishing, chamadas de voz no Teams, ferramentas legítimas de acesso remoto e um carregador de malware baseado em Node.js para comprometer os computadores das vítimas e obter acesso inicial às redes corporativas. O ataque começa com um e-mail de phishing contendo uma isca de “Pesquisa com Funcionários” e um anexo PDF malicioso.",
+      "link": "https://www.cisoadvisor.com.br/etherrat-e-instalado-via-engenharia-social-no-teams/",
+      "published": "09/07/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
