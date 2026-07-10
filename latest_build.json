@@ -1,69 +1,64 @@
 {
-  "generated_at": "2026-07-09T12:00:00.047356-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-07-10T12:00:00.055916-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no Gitea é explorada em ataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Atacantes estão explorando ativamente a vulnerabilidade CVE-2026-20896 (CVSS 9.8) no Gitea, plataforma de desenvolvimento auto-hospedada, para contornar a autenticação e acessar repositórios e segredos de código. A falha , específica das imagens oficiais Docker do Gitea, permite que um invasor envie um único cabeçalho HTTP com um nome de usuário válido para assumir a identidade da vítima, sem necessidade de senha ou token. O primeiro indício de exploração no ambiente real ocorreu 13 dias após a divulgação pública da falha. A tentativa foi associada a um “scanner de saída de VPN” que verificava acessos.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-gitea-e-explorada-em-ataques/",
-      "published": "09/07/2026 12:00",
-      "cves": [
-        "CVE-2026-20896"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Vulnerabilidade no ColdFusion permite executar comandos sem login",
+      "title": "Microsoft Defender recebe atualização contra falha de elevação de privilégios",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos começaram a explorar uma vulnerabilidade crítica no Adobe ColdFusion capaz de permitir a execução de comandos em servidores afetados. A falha, identificada como CVE-2026-48282, recebeu pontuação máxima de gravidade, 10 em 10. O ColdFusion é usado por empresas para desenvolver e executar aplicações web. Servidores vulneráveis podem armazenar informações corporativas, processar dados de clientes e manter conexão com outros sistemas internos. A brecha permite que um invasor remoto manipule caminhos de arquivos e grave conteúdo malicioso em áreas indevidas do servidor. O ataque pode ser realizado sem login e não exige qualquer interação de um usuário.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-coldfusion-permite-executar-comandos-sem-login/",
-      "published": "09/07/2026 12:00",
+      "summary": "A Microsoft lançou uma correção para a vulnerabilidade RoguePlanet no Microsoft Defender, capaz de permitir que invasores obtenham o nível mais alto de acesso em computadores com Windows. A falha, identificada como CVE-2026-50656, recebeu pontuação CVSS 7.8 e afeta o mecanismo de proteção usado pelo Defender para analisar, detectar e remover ameaças do sistema. O problema foi divulgado publicamente em junho de 2026 pelo pesquisador conhecido como Chaotic Eclipse ou Nightmare-Eclipse. Uma prova de conceito mostrou que a brecha poderia elevar os privilégios de um usuário comum para SYSTEM. A RoguePlanet explorava uma falha de sincronização durante operações realizadas pelo Defender.",
+      "link": "https://boletimsec.com/microsoft-defender-recebe-atualizacao-contra-falha-de-elevacao-de-privilegios/",
+      "published": "10/07/2026 12:00",
       "cves": [
-        "CVE-2026-48282"
+        "CVE-2026-50656"
       ],
-      "vendor": "Adobe"
+      "vendor": "Microsoft"
     },
     {
-      "title": "BeyondTrust corrige duas falhas críticas",
+      "title": "Falhas críticas em empresas mais que dobram em um ano",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A BeyondTrust alertou ontem seus clientes sobre duas vulnerabilidades críticas em suas plataformas Remote Support (RS) e Privileged Remote Access (PRA), que poderiam permitir que atacantes não autenticados contornassem controles de acesso. As falhas, registradas como CVE-2026-40138 e CVE-2026-40139, afetam as versões 25.3.2 ou anteriores de ambos os produtos e exigem que uma configuração específica de autenticação esteja ativada para serem exploradas.",
-      "link": "https://www.cisoadvisor.com.br/beyondtrust-corrige-duas-falhas-criticas/",
-      "published": "09/07/2026 12:00",
-      "cves": [
-        "CVE-2026-40138",
-        "CVE-2026-40139"
-      ],
+      "summary": "A proporção de vulnerabilidades críticas em ambientes corporativos mais que dobrou no último ano, passando de 18,7% para 42,6% de todas as exposições registradas, segundo o relatório “ Sob Pressão: Relatório sobre o Desafio da Gestão de Exposições 2026 “, divulgado pela Check Point Software. O levantamento, baseado em dados de 715 organizações clientes da empresa ao redor do mundo, revela que menos de um em cada 12 alertas (7,8%) foi classificado como crítica ou de alta prioridade após validação da possibilidade real de exploração.",
+      "link": "https://www.cisoadvisor.com.br/falhas-criticas-em-empresas-mais-que-dobram-em-um-ano/",
+      "published": "10/07/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Brasil é epicentro de ransomware em saúde na América Latina",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "breach",
+      "summary": "O Brasil concentrou 51% das ocorrências de ransomware no setor de saúde da América Latina em 2026, figurando entre os três maiores alvos globais, conforme a edição de maio do Elytron Threat Pulse. O relatório, desenvolvido pela Elytron Cybersecurity, consolidou dados de 2.424 ocorrências registradas no primeiro trimestre do ano, sendo 264 ataques divulgados publicamente e 2.160 identificados em portais de vazamento . A tática dos ataques mudou: em 96% dos incidentes monitorados, os criminosos primeiro exfiltram dados sensíveis e depois criptografam os sistemas.",
+      "link": "https://www.cisoadvisor.com.br/brasil-e-epicentro-de-ransomware-em-saude-na-america-latina/",
+      "published": "10/07/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "22 horas Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
+      "title": "ANPD investiga Isac por vazamento de dados de 500 mil pacientes",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Agência Nacional de Proteção de Dados (ANPD) instaurou processo de sanção contra o Instituto Saúde e Cidadania (Isac), organização social que atua na gestão de unidades públicas de saúde em vários estados brasileiros, por falhas na proteção de dados pessoais sensíveis de 500 mil pacientes. A ação decorre de um incidente de segurança ocorrido em 2025 e comunicado pelo Isac à Agência, envolvendo um ataque cibernético de ransomware que afetou aproximadamente 500 mil registros, dos quais 78.772 seriam de crianças e adolescentes e 47.921 de idosos.",
+      "link": "https://www.cisoadvisor.com.br/anpd-investiga-isac-por-vazamento-de-dados-de-500-mil-pacientes/",
+      "published": "10/07/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "1 dia Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "breach",
       "summary": "A Agência Nacional de Proteção de Dados (ANPD) iniciou um processo de sanção contra o Instituto de Saúde e Cidadania (ISAC) nesta quarta-feira (8). O inquérito foi aberto após um ataque que \"sequestrou\" dados de 500 mil pacientes da organização social responsável pela administração de unidades públicas de saúde em Alagoas, Bahia, Goiás, Piauí, Rio Grande do Sul e Tocantins. A ação dá sequência ao incidente ocorrido em 2025 e comunicado pela entidade à agência. Na ocasião, a empresa foi alvo de um ransomware , ataque em que os dados são criptografados por hackers . Depois, os agentes maliciosos cobram um resgate às vítimas para acessá-los novamente e, em alguns casos, para evitar o vazamento.",
       "link": "https://canaltech.com.br/seguranca/ataque-que-sequestrou-dados-de-500-mil-pacientes-no-brasil-entra-na-mira-da-anpd/",
-      "published": "09/07/2026 12:00",
+      "published": "10/07/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "EtherRAT é instalado via engenharia social no Teams",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "Atores de ameaça estão abusando de chamadas de voz no Microsoft Teams, se passando por funcionários do suporte de TI corporativo para enganar funcionários e instalar o malware EtherRAT, conforme alertou ontem a Unit 42, da Palo Alto Networks. A campanha combina e-mails de phishing, chamadas de voz no Teams, ferramentas legítimas de acesso remoto e um carregador de malware baseado em Node.js para comprometer os computadores das vítimas e obter acesso inicial às redes corporativas. O ataque começa com um e-mail de phishing contendo uma isca de “Pesquisa com Funcionários” e um anexo PDF malicioso.",
-      "link": "https://www.cisoadvisor.com.br/etherrat-e-instalado-via-engenharia-social-no-teams/",
-      "published": "09/07/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
     }
   ]
 }
