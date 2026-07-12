@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-11T12:00:00.006554-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-07-12T12:00:00.005435-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "2 dias Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
-      "source": "Canaltech Segurança",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "A Agência Nacional de Proteção de Dados (ANPD) iniciou um processo de sanção contra o Instituto de Saúde e Cidadania (ISAC) nesta quarta-feira (8). O inquérito foi aberto após um ataque que \"sequestrou\" dados de 500 mil pacientes da organização social responsável pela administração de unidades públicas de saúde em Alagoas, Bahia, Goiás, Piauí, Rio Grande do Sul e Tocantins. A ação dá sequência ao incidente ocorrido em 2025 e comunicado pela entidade à agência. Na ocasião, a empresa foi alvo de um ransomware , ataque em que os dados são criptografados por hackers . Depois, os agentes maliciosos cobram um resgate às vítimas para acessá-los novamente e, em alguns casos, para evitar o vazamento.",
-      "link": "https://canaltech.com.br/seguranca/ataque-que-sequestrou-dados-de-500-mil-pacientes-no-brasil-entra-na-mira-da-anpd/",
-      "published": "11/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "GodDamn: ransomware usa driver assinado pela Microsoft",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Uma nova variante de ransomware chamada GodDamn, que é na verdade a mais recente reformulação do ransomware Beast (que por sua vez era uma reformulação do Monster, surgido em 2022), está utilizando um driver kernel malicioso assinado pela Microsoft para desabilitar soluções de segurança em ataques. A equipe Symantec Threat Hunter rastreia o desenvolvedor por trás dessas famílias como Hyadina. O GodDamn foi documentado como visto pela primeira vez em 21 de maio de 2026, com o ataque investigado ocorrendo no início de junho.",
-      "link": "https://www.cisoadvisor.com.br/goddamn-ransomware-usa-driver-assinado-pela-microsoft/",
-      "published": "11/07/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "20 horas Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
+      "title": "1 dia Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "As vulnerabilidades passaram a responder cerca de 40% das exposições críticas registradas em ambientes corporativos em 2026, mais que o dobro da proporção observada no ano anterior . Ainda assim, menos de um em cada 12 alertas exigia ação urgente . É o que mostra um levantamento da Check Point Software divulgado nesta quarta-feira (8) ao Canaltech . Segundo a empresa de cibersegurança, a pressão aumenta com ferramentas de ataque assistidas por IA , capazes de testar falhas conhecidas, credenciais vazadas e sistemas expostos em maior escala e velocidade.",
       "link": "https://canaltech.com.br/seguranca/ia-muda-ritmo-dos-ataques-e-forca-empresas-a-priorizar-vulnerabilidades/",
-      "published": "11/07/2026 12:00",
+      "published": "12/07/2026 12:00",
       "cves": [],
       "vendor": "Check Point"
     },
     {
-      "title": "Falha em assistentes de código abre sandbox",
-      "source": "CISO Advisor",
+      "title": "3 dias Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
+      "source": "Canaltech Segurança",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Pesquisadores da Wiz identificaram uma vulnerabilidade sistemática chamada “GhostApproval” que afeta seis dos principais assistentes de codificação com IA , incluindo Amazon Q Developer, Anthropic Claude Code , Augment, Cursor, Google Antigravity e Windsurf, conforme relatório técnico publicado em 8 de julho de 2026. A falha permite que um repositório malicioso engane o agente para acessar arquivos arbitrários fora do sandbox do espaço de trabalho, potencialmente alcançando execução remota de código na máquina do desenvolvedor.",
-      "link": "https://www.cisoadvisor.com.br/falha-em-assistentes-de-codigo-abre-sandbox/",
-      "published": "11/07/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "Novo botnet Framework aluga poder de processamento para cibercriminosos",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "Um framework chamado Mycelium está sendo anunciado em fóruns do cibercrime como a primeira botnet oferecida no modelo “IA como serviço”. A proposta é transformar computadores invadidos em uma rede de processamento alugada para outros criminosos. Diferente de botnets tradicionais, usadas para enviar spam ou derrubar serviços, a Mycelium promete avaliar os recursos de cada dispositivo comprometido. O sistema procura capacidade de processamento, placas de vídeo, senhas armazenadas e contas ativas em serviços de inteligência artificial.",
-      "link": "https://boletimsec.com/novo-botnet-framework-aluga-poder-de-processamento-para-cibercriminosos/",
-      "published": "11/07/2026 12:00",
+      "category": "breach",
+      "summary": "A Agência Nacional de Proteção de Dados (ANPD) iniciou um processo de sanção contra o Instituto de Saúde e Cidadania (ISAC) nesta quarta-feira (8). O inquérito foi aberto após um ataque que \"sequestrou\" dados de 500 mil pacientes da organização social responsável pela administração de unidades públicas de saúde em Alagoas, Bahia, Goiás, Piauí, Rio Grande do Sul e Tocantins. A ação dá sequência ao incidente ocorrido em 2025 e comunicado pela entidade à agência. Na ocasião, a empresa foi alvo de um ransomware , ataque em que os dados são criptografados por hackers . Depois, os agentes maliciosos cobram um resgate às vítimas para acessá-los novamente e, em alguns casos, para evitar o vazamento.",
+      "link": "https://canaltech.com.br/seguranca/ataque-que-sequestrou-dados-de-500-mil-pacientes-no-brasil-entra-na-mira-da-anpd/",
+      "published": "12/07/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "5 dias Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores da Sysdig identificaram um dos primeiros ataques de ransomware conduzidos por um agente de IA . Atribuído ao operador JadePuffer, o ataque automatiza etapas do golpe que “sequestra” dados de um sistema , mas ainda depende de uma pessoa por trás da operação. Neste caso, o uso de inteligência artificial ajudou a encadear etapas que normalmente exigem conhecimento técnico , o que pode reduzir a dificuldade para executar ataques considerados complexos. Durante a campanha, o agente executou mais de 600 ações e corrigiu uma tentativa fracassada em quase 30 segundos durante uma das sequências. Contudo, isso não significa que a operação tenha ocorrido de forma completamente autônoma .",
+      "link": "https://canaltech.com.br/seguranca/ransomware-com-ia-acelera-ataques-mas-ainda-depende-de-acao-humana/",
+      "published": "12/07/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "01.07.26 Segurança Função da Apple para ocultar e-mail não faz o básico e expõe dados de usuários",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O recurso Ocultar Meu E-mail, da Apple , está com uma vulnerabilidade que pode expor justamente os endereços de e-mail que deveriam ser protegidos . De acordo com o site 404 Media, o problema existe há um ano e segue sem solução. A plataforma de remoção de dados EasyOptOuts identificou o caso em junho de 2025 e relatou a situação para a Apple na época. No entanto, a vulnerabilidade segue sem correção e mais endereços foram expostos em novos testes. A Apple informou em maio deste ano que a situação estava sendo investigada, mas ainda não publicou uma correção.",
+      "link": "https://canaltech.com.br/seguranca/funcao-da-apple-para-ocultar-e-mail-nao-faz-o-basico-e-expoe-dados-de-usuarios/",
+      "published": "12/07/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
+    },
+    {
+      "title": "Malware SCMBANKER mira clientes de bancos com golpe ClickFix",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma nova campanha de fraude bancária está usando falsas verificações de CAPTCHA para instalar o malware SCMBANKER em computadores Windows. A operação mira principalmente clientes de bancos, fintechs, processadores de pagamento e corretoras de criptomoedas no México. O golpe começa em páginas que imitam testes de segurança usados para confirmar que o visitante não é um robô. Após completar o falso desafio, a vítima recebe instruções para copiar e executar um comando no Windows. Esse comando inicia a instalação do malware e exibe uma falsa tela de atualização do sistema para distrair o usuário.",
+      "link": "https://boletimsec.com/malware-scmbanker-mira-clientes-de-bancos-com-golpe-clickfix/",
+      "published": "12/07/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
     }
   ]
 }
