@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-12T12:00:00.005435-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-07-13T12:00:00.143475-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "1 dia Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
+      "title": "Falha crítica no Zimbra permite executar código ao abrir e-mails maliciosos",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no Zimbra Collaboration pode permitir que e-mails especialmente preparados executem códigos maliciosos quando abertos no cliente web clássico da plataforma. A falha afeta o Classic Web Client e está relacionada à forma como o sistema processa determinados conteúdos incorporados às mensagens. Até o momento, o problema ainda não recebeu um identificador CVE público. Na prática, o invasor pode enviar um e-mail criado para incluir instruções maliciosas. Quando a vítima abre a mensagem, o conteúdo é executado dentro da sessão já autenticada no Zimbra. O ataque pode dar acesso a informações da caixa de entrada, dados da sessão e configurações da conta.",
+      "link": "https://boletimsec.com/falha-critica-no-zimbra-permite-executar-codigo-ao-abrir-e-mails-maliciosos/",
+      "published": "13/07/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "2 dias Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "As vulnerabilidades passaram a responder cerca de 40% das exposições críticas registradas em ambientes corporativos em 2026, mais que o dobro da proporção observada no ano anterior . Ainda assim, menos de um em cada 12 alertas exigia ação urgente . É o que mostra um levantamento da Check Point Software divulgado nesta quarta-feira (8) ao Canaltech . Segundo a empresa de cibersegurança, a pressão aumenta com ferramentas de ataque assistidas por IA , capazes de testar falhas conhecidas, credenciais vazadas e sistemas expostos em maior escala e velocidade.",
       "link": "https://canaltech.com.br/seguranca/ia-muda-ritmo-dos-ataques-e-forca-empresas-a-priorizar-vulnerabilidades/",
-      "published": "12/07/2026 12:00",
+      "published": "13/07/2026 12:00",
       "cves": [],
       "vendor": "Check Point"
     },
     {
-      "title": "3 dias Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
+      "title": "4 dias Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "breach",
       "summary": "A Agência Nacional de Proteção de Dados (ANPD) iniciou um processo de sanção contra o Instituto de Saúde e Cidadania (ISAC) nesta quarta-feira (8). O inquérito foi aberto após um ataque que \"sequestrou\" dados de 500 mil pacientes da organização social responsável pela administração de unidades públicas de saúde em Alagoas, Bahia, Goiás, Piauí, Rio Grande do Sul e Tocantins. A ação dá sequência ao incidente ocorrido em 2025 e comunicado pela entidade à agência. Na ocasião, a empresa foi alvo de um ransomware , ataque em que os dados são criptografados por hackers . Depois, os agentes maliciosos cobram um resgate às vítimas para acessá-los novamente e, em alguns casos, para evitar o vazamento.",
       "link": "https://canaltech.com.br/seguranca/ataque-que-sequestrou-dados-de-500-mil-pacientes-no-brasil-entra-na-mira-da-anpd/",
-      "published": "12/07/2026 12:00",
+      "published": "13/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "5 dias Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
+      "title": "6 dias Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Pesquisadores da Sysdig identificaram um dos primeiros ataques de ransomware conduzidos por um agente de IA . Atribuído ao operador JadePuffer, o ataque automatiza etapas do golpe que “sequestra” dados de um sistema , mas ainda depende de uma pessoa por trás da operação. Neste caso, o uso de inteligência artificial ajudou a encadear etapas que normalmente exigem conhecimento técnico , o que pode reduzir a dificuldade para executar ataques considerados complexos. Durante a campanha, o agente executou mais de 600 ações e corrigiu uma tentativa fracassada em quase 30 segundos durante uma das sequências. Contudo, isso não significa que a operação tenha ocorrido de forma completamente autônoma .",
       "link": "https://canaltech.com.br/seguranca/ransomware-com-ia-acelera-ataques-mas-ainda-depende-de-acao-humana/",
-      "published": "12/07/2026 12:00",
+      "published": "13/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "01.07.26 Segurança Função da Apple para ocultar e-mail não faz o básico e expõe dados de usuários",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O recurso Ocultar Meu E-mail, da Apple , está com uma vulnerabilidade que pode expor justamente os endereços de e-mail que deveriam ser protegidos . De acordo com o site 404 Media, o problema existe há um ano e segue sem solução. A plataforma de remoção de dados EasyOptOuts identificou o caso em junho de 2025 e relatou a situação para a Apple na época. No entanto, a vulnerabilidade segue sem correção e mais endereços foram expostos em novos testes. A Apple informou em maio deste ano que a situação estava sendo investigada, mas ainda não publicou uma correção.",
-      "link": "https://canaltech.com.br/seguranca/funcao-da-apple-para-ocultar-e-mail-nao-faz-o-basico-e-expoe-dados-de-usuarios/",
-      "published": "12/07/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
-    },
-    {
-      "title": "Malware SCMBANKER mira clientes de bancos com golpe ClickFix",
+      "title": "GhostCommit mostra risco de vazamento em ferramentas de desenvolvimento com IA",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "patches",
-      "summary": "Uma nova campanha de fraude bancária está usando falsas verificações de CAPTCHA para instalar o malware SCMBANKER em computadores Windows. A operação mira principalmente clientes de bancos, fintechs, processadores de pagamento e corretoras de criptomoedas no México. O golpe começa em páginas que imitam testes de segurança usados para confirmar que o visitante não é um robô. Após completar o falso desafio, a vítima recebe instruções para copiar e executar um comando no Windows. Esse comando inicia a instalação do malware e exibe uma falsa tela de atualização do sistema para distrair o usuário.",
-      "link": "https://boletimsec.com/malware-scmbanker-mira-clientes-de-bancos-com-golpe-clickfix/",
-      "published": "12/07/2026 12:00",
+      "category": "breach",
+      "summary": "Um novo ataque chamado GhostCommit esconde instruções maliciosas dentro de imagens para enganar agentes de inteligência artificial usados na revisão e geração de código. A técnica pode levar ao vazamento de arquivos com senhas, chaves de API e credenciais de nuvem. O ataque foi demonstrado pelo ASSET Research Group em um repositório de código. Em vez de colocar a instrução perigosa diretamente no texto, os pesquisadores dividiram o conteúdo entre um arquivo aparentemente comum e uma imagem PNG. O arquivo orientava o agente de IA a consultar uma imagem para obter uma suposta informação de configuração.",
+      "link": "https://boletimsec.com/ghostcommit-mostra-risco-de-vazamento-em-ferramentas-de-desenvolvimento-com-ia/",
+      "published": "13/07/2026 12:00",
       "cves": [],
-      "vendor": "Windows"
+      "vendor": null
     }
   ]
 }
