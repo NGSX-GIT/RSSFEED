@@ -1,64 +1,67 @@
 {
-  "generated_at": "2026-07-14T12:00:00.077117-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-07-15T12:00:00.005369-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Duas falhas críticas no Joomla permitem RCE",
+      "title": "Junho: zero-days sob ataque em MS, Oracle, Ivanti",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA adicionou duas vulnerabilidades críticas em extensões do Joomla ao seu catálogo de vulnerabilidades exploradas, instando agências federais dos EUA a aplicarem patches em até três dias. As falhas , nas extensões Balbooa Forms e iCagenda, permitem que invasores não autenticados façam upload arbitrário de arquivos e executem código remotamente (RCE). A vulnerabilidade na Balbooa Forms, registrada como CVE-2026-56291 (CVSS 9.8), afeta o endpoint de upload de anexos no frontend da extensão. A falha impacta todas as versões 2.4.0 e anteriores, e a empresa publicou a versão corrigida 2.4.1 em 9 de julho. Ataques foram observados explorando a falha como zero-day antes do patch.",
-      "link": "https://www.cisoadvisor.com.br/duas-falhas-criticas-no-joomla-permitem-rce/",
-      "published": "14/07/2026 12:00",
+      "summary": "A Redbelt Security, consultoria brasileira de cibersegurança, divulgou seu relatório mensal de vulnerabilidades de junho de 2026, destacando falhas críticas em plataformas de Microsoft, Oracle, Fortinet, Ivanti e ServiceNow, com ao menos dois casos de exploração ativa antes da publicação de correções oficiais, conforme análise da empresa. O documento aponta uma campanha do grupo de extorsão ShinyHunters contra sistemas Oracle PeopleSoft e um grande vazamento de credenciais em firewalls Fortinet, que expôs 73 mil dispositivos em 194 países.",
+      "link": "https://www.cisoadvisor.com.br/junho-zero-days-sob-ataque-em-ms-oracle-ivanti/",
+      "published": "15/07/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "SAP corrige quatro falhas críticas no Patch Day de julho",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A SAP publicou hoje, em seu Patch Day, 16 novos boletins de segurança e três atualizações para notas anteriores, conforme comunicado da empresa. Quatro vulnerabilidades receberam classificação Crítica, com destaque para falhas de corrupção de memória no NetWeaver ABAP, HTTP smuggling no Approuter, credenciais inseguras no Commerce Cloud e directory traversal no NetWeaver AS Java. Entre as vulnerabilidades críticas, três apresentam pontuação CVSS acima de 9,0 e exigem atenção imediata dos administradores. A CVE-2026-44747, com classificação Crítica, é uma falha de corrupção de memória no SAP NetWeaver Application Server ABAP que afeta múltiplas versões do kernel (7.22 a 9.20).",
+      "link": "https://www.cisoadvisor.com.br/sap-corrige-quatro-falhas-criticas-no-patch-day-de-julho/",
+      "published": "15/07/2026 12:00",
       "cves": [
-        "CVE-2026-56291"
+        "CVE-2026-44747"
       ],
       "vendor": null
     },
     {
-      "title": "Sites WordPress devem atualizar miniOrange após alerta crítico",
+      "title": "VMware ALB recebe correções para falhas graves de segurança",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no plugin miniOrange Social Login para WordPress pode permitir que invasores assumam contas de usuários, incluindo perfis administrativos, sem precisar conhecer a senha. A falha, identificada como CVE-2026-12761, recebeu pontuação CVSS 9.8 e afeta versões do plugin até a 7.7.0. A ferramenta permite entrar em sites usando contas de serviços como Google, Discord, Twitter e LinkedIn. O problema está no processo usado para concluir o cadastro após o login por uma plataforma externa. Em versões vulneráveis, o plugin aceita um endereço de e-mail informado pelo próprio visitante sem confirmar se ele pertence à conta usada na autenticação.",
-      "link": "https://boletimsec.com/sites-wordpress-devem-atualizar-miniorange-apos-alerta-critico/",
-      "published": "14/07/2026 12:00",
+      "summary": "A Broadcom corrigiu sete vulnerabilidades no VMware Avi Load Balancer, incluindo uma falha crítica que pode permitir acesso não autorizado ao painel de controle da plataforma sem necessidade de login. A brecha mais grave, identificada como CVE-2026-47865, recebeu pontuação CVSS 9.8. Um invasor com acesso pela rede pode contornar a autenticação e alcançar o plano de controle do produto. Outras falhas permitem execução remota de código, aumento de privilégios e acesso indevido a arquivos. Em alguns casos, o atacante precisa estar autenticado; em outros, basta conseguir alcançar a interface vulnerável pela rede.",
+      "link": "https://boletimsec.com/vmware-alb-recebe-correcoes-para-falhas-graves-de-seguranca/",
+      "published": "15/07/2026 12:00",
       "cves": [
-        "CVE-2026-12761"
+        "CVE-2026-47865"
       ],
-      "vendor": "Google"
+      "vendor": "VMware"
     },
     {
-      "title": "3 dias Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
-      "source": "Canaltech Segurança",
+      "title": "Falhas no SAP podem comprometer dados e serviços corporativos",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "As vulnerabilidades passaram a responder cerca de 40% das exposições críticas registradas em ambientes corporativos em 2026, mais que o dobro da proporção observada no ano anterior . Ainda assim, menos de um em cada 12 alertas exigia ação urgente . É o que mostra um levantamento da Check Point Software divulgado nesta quarta-feira (8) ao Canaltech . Segundo a empresa de cibersegurança, a pressão aumenta com ferramentas de ataque assistidas por IA , capazes de testar falhas conhecidas, credenciais vazadas e sistemas expostos em maior escala e velocidade.",
-      "link": "https://canaltech.com.br/seguranca/ia-muda-ritmo-dos-ataques-e-forca-empresas-a-priorizar-vulnerabilidades/",
-      "published": "14/07/2026 12:00",
-      "cves": [],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "5 dias Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
-      "source": "Canaltech Segurança",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "A Agência Nacional de Proteção de Dados (ANPD) iniciou um processo de sanção contra o Instituto de Saúde e Cidadania (ISAC) nesta quarta-feira (8). O inquérito foi aberto após um ataque que \"sequestrou\" dados de 500 mil pacientes da organização social responsável pela administração de unidades públicas de saúde em Alagoas, Bahia, Goiás, Piauí, Rio Grande do Sul e Tocantins. A ação dá sequência ao incidente ocorrido em 2025 e comunicado pela entidade à agência. Na ocasião, a empresa foi alvo de um ransomware , ataque em que os dados são criptografados por hackers . Depois, os agentes maliciosos cobram um resgate às vítimas para acessá-los novamente e, em alguns casos, para evitar o vazamento.",
-      "link": "https://canaltech.com.br/seguranca/ataque-que-sequestrou-dados-de-500-mil-pacientes-no-brasil-entra-na-mira-da-anpd/",
-      "published": "14/07/2026 12:00",
-      "cves": [],
+      "summary": "A SAP lançou seu pacote de segurança de julho de 2026 com correções para 16 novas vulnerabilidades, um alerta adicional publicado no GitHub e três atualizações de problemas divulgados anteriormente. Quatro falhas foram classificadas como críticas. A vulnerabilidade mais grave, CVE-2026-44747, recebeu pontuação CVSS 9.9 e afeta o SAP NetWeaver Application Server ABAP. O problema pode causar corrupção de memória e comprometer a confidencialidade, a integridade e a disponibilidade dos sistemas atingidos. Outra falha crítica, CVE-2026-27690, está no SAP Approuter e pode permitir a manipulação de comunicações entre usuários e aplicações.",
+      "link": "https://boletimsec.com/falhas-no-sap-podem-comprometer-dados-e-servicos-corporativos/",
+      "published": "15/07/2026 12:00",
+      "cves": [
+        "CVE-2026-44747",
+        "CVE-2026-27690"
+      ],
       "vendor": null
     },
     {
-      "title": "07.07.26 Segurança Ransomware com IA acelera ataques, mas ainda depende de ação humana",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
+      "title": "Brasil em 3º nos ransomwares de junho",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da Sysdig identificaram um dos primeiros ataques de ransomware conduzidos por um agente de IA . Atribuído ao operador JadePuffer, o ataque automatiza etapas do golpe que “sequestra” dados de um sistema , mas ainda depende de uma pessoa por trás da operação. Neste caso, o uso de inteligência artificial ajudou a encadear etapas que normalmente exigem conhecimento técnico , o que pode reduzir a dificuldade para executar ataques considerados complexos. Durante a campanha, o agente executou mais de 600 ações e corrigiu uma tentativa fracassada em quase 30 segundos durante uma das sequências. Contudo, isso não significa que a operação tenha ocorrido de forma completamente autônoma .",
-      "link": "https://canaltech.com.br/seguranca/ransomware-com-ia-acelera-ataques-mas-ainda-depende-de-acao-humana/",
-      "published": "14/07/2026 12:00",
+      "summary": "O Brasil foi o terceiro país que mais sofreu ataques com ransomwares em junho, registrando 23 casos. Os dados são da plataforma Ransomware.live, iniciativa de Julien Mousqueton, CISO da Cohesity, empresa líder em segurança de dados com IA . É a primeira vez que o Brasil aparece entre os dez países mais afetados desde o início da publicação de dados do site, em janeiro. A plataforma monitora e coleta dados de sites de vazamento de grupos de ransomware continuamente para identificar e listar novas vítimas. Ransomwares são softwares maliciosos que bloqueiam o acesso de usuários ou organizações, exigindo pagamento de resgate para restauração, sob a ameaça de vazamento ou exclusão permanente.",
+      "link": "https://www.cisoadvisor.com.br/brasil-em-3o-nos-ransomwares-de-junho/",
+      "published": "15/07/2026 12:00",
       "cves": [],
       "vendor": null
     }
