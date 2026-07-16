@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T12:00:00.004646-03:00",
+  "generated_at": "2026-07-16T15:51:23.592303-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "A SonicWall confirmou ontem que invasores estão explorando ativamente duas vulnerabilidades em seus appliances da série SMA1000, classificadas como CVE-2026-15409 e CVE-2026-15410, e emitiu um alerta urgente para que os clientes instalem as correções de segurança recém-publicadas. A CVE-2026-15409 (CVSS de 10.0) é uma falha crítica de server-side request forgery (SSRF) na interface Appliance Work Place, que permite que um atacante remoto e não autenticado force o dispositivo a fazer requisições para destinos não autorizados.",
       "link": "https://www.cisoadvisor.com.br/sonicwall-alerta-para-exploracao-ativa-de-falhas-no-sma1000/",
-      "published": "16/07/2026 12:00",
+      "published": "16/07/2026 15:51",
       "cves": [
         "CVE-2026-15409",
         "CVE-2026-15410"
@@ -24,7 +24,7 @@
       "category": "patches",
       "summary": "A agência de cibersegurança dos EUA (CISA) emitiu ontem um alerta sobre a exploração ativa de três vulnerabilidades em servidores Microsoft SharePoint, classificadas como CVE-2026-32201, CVE-2026-45659 e CVE-2026-56164, e recomendou medidas adicionais de segurança para proteger as instalações. As falhas afetam todas as versões on-premises do SharePoint e permitem a execução remota de código, o roubo de informações confidenciais e a manutenção de acesso persistente ao servidor, conforme informou a CISA em comunicado publicado ontem. A Microsoft publicou correções para essas vulnerabilidades em abril, maio e na noite de ontem, respectivamente.",
       "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-ativa-em-servidores-sharepoint/",
-      "published": "16/07/2026 12:00",
+      "published": "16/07/2026 15:51",
       "cves": [
         "CVE-2026-32201",
         "CVE-2026-45659",
@@ -33,13 +33,26 @@
       "vendor": "Microsoft"
     },
     {
+      "title": "VMware ALB recebe correções para falhas graves de segurança",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Broadcom corrigiu sete vulnerabilidades no VMware Avi Load Balancer, incluindo uma falha crítica que pode permitir acesso não autorizado ao painel de controle da plataforma sem necessidade de login. A brecha mais grave, identificada como CVE-2026-47865, recebeu pontuação CVSS 9.8. Um invasor com acesso pela rede pode contornar a autenticação e alcançar o plano de controle do produto. Outras falhas permitem execução remota de código, aumento de privilégios e acesso indevido a arquivos. Em alguns casos, o atacante precisa estar autenticado; em outros, basta conseguir alcançar a interface vulnerável pela rede.",
+      "link": "https://boletimsec.com/vmware-alb-recebe-correcoes-para-falhas-graves-de-seguranca/",
+      "published": "16/07/2026 15:51",
+      "cves": [
+        "CVE-2026-47865"
+      ],
+      "vendor": "VMware"
+    },
+    {
       "title": "Microsoft quebra recorde com 622 correções na Patch Tuesday",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
       "summary": "A Microsoft publicou ontem seu Patch Tuesday mensal, com um recorde de 622 vulnerabilidades corrigidas, incluindo 57 classificadas como críticas, conforme o Security Update Guide da empresa. O número é quase três vezes superior ao recorde anterior do mês passado. A empresa atribuiu o aumento expressivo ao uso de inteligência artificial para descoberta de vulnerabilidades. Entre as vulnerabilidades corrigidas, duas estão sendo ativamente exploradas, de acordo com informações da Talos Intelligence. A CVE-2026-56155 é uma falha de elevação de privilégio no Active Directory Federation Services (AD FS), e a CVE-2026-56164 é uma vulnerabilidade de spoofing no Microsoft SharePoint Server.",
       "link": "https://www.cisoadvisor.com.br/microsoft-quebra-recorde-com-622-correcoes-na-patch-tuesday/",
-      "published": "16/07/2026 12:00",
+      "published": "16/07/2026 15:51",
       "cves": [
         "CVE-2026-56155",
         "CVE-2026-56164"
@@ -53,24 +66,11 @@
       "category": "patches",
       "summary": "A Adobe publicou ontem as atualizações ColdFusion 2025 Update 11 e ColdFusion 2023 Update 22, que corrigem doze vulnerabilidades críticas na plataforma, e recomenda que administradores instalem os patches com a máxima urgência, citando o prazo de 72 horas como referência para ação imediata. Entre as falhas corrigidas, a mais severa é a CVE-2026-48318, uma vulnerabilidade de passagem de caminho que permite execução arbitrária de código, com pontuação CVSS de 9.9. As demais vulnerabilidades, segundo o comunicado da Adobe, permitem que invasores instalem códigos arbitrários em servidores, elevem privilégios e ignorem recursos de segurança da plataforma.",
       "link": "https://www.cisoadvisor.com.br/adobe-corrige-doze-falhas-criticas-no-coldfusion/",
-      "published": "16/07/2026 12:00",
+      "published": "16/07/2026 15:51",
       "cves": [
         "CVE-2026-48318"
       ],
       "vendor": "Adobe"
-    },
-    {
-      "title": "BitLocker: zero-day permite bypass físico",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft confirmou ontem a existência de uma vulnerabilidade zero-day no BitLocker, registrada como CVE-2026-50661, que permite que invasores com acesso físico ao dispositivo contornem completamente a criptografia de disco do sistema. A falha , classificada como um bypass de recurso de segurança, decorre de uma falha no mecanismo de proteção do BitLocker durante o fluxo de criptografia do dispositivo, possibilitando que um atacante acesse dados do drive sem necessidade de PIN, senha ou chave de recuperação. A vulnerabilidade afeta uma ampla gama de versões suportadas do Windows, incluindo Windows 10, Windows 11 e Windows Server, conforme detalhado no aviso de segurança.",
-      "link": "https://www.cisoadvisor.com.br/bitlocker-zero-day-permite-bypass-fisico/",
-      "published": "16/07/2026 12:00",
-      "cves": [
-        "CVE-2026-50661"
-      ],
-      "vendor": "Microsoft"
     }
   ]
 }
