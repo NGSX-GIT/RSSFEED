@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T12:00:00.012372-03:00",
+  "generated_at": "2026-07-17T18:34:49.992055-03:00",
   "theme": "Top da Semana",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "A agência de cibersegurança dos EUA (CISA) determinou ontem que órgãos federais corrigam seus sistemas até sábado contra ataques em curso que exploram uma vulnerabilidade crítica no Oracle E-Business Suite (EBS). A falha, registrada como CVE-2026-46817 (CVSS de 9.8), afeta o componente File Transmission do produto Oracle Payments e permite que invasores não autenticados com acesso à rede HTTP assumam o controle de sistemas vulneráveis em ataques de baixa complexidade.",
       "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-urgente-de-falha-critica-no-oracle-e-business/",
-      "published": "17/07/2026 12:00",
+      "published": "17/07/2026 18:34",
       "cves": [
         "CVE-2026-46817"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "A Zoom publicou um alerta sobre uma vulnerabilidade crítica em seu cliente para Windows e no kit de desenvolvimento de software (SDK) para a plataforma, identificada como CVE-2026-53412 (CVSS de 9.8), que poderia permitir que um invasor não autenticado assumisse o controle de contas de usuários por meio de acesso à rede. A falha, descoberta internamente pela própria empresa, afeta o Zoom Workplace para Windows em versões anteriores à 7.0.0, o cliente VDI para Windows antes das versões 7.0.10, 6.6.15 e 6.5.18, e o Meeting SDK para Windows antes da versão 7.0.0.",
       "link": "https://www.cisoadvisor.com.br/zoom-falha-critica-permite-controle-de-contas/",
-      "published": "17/07/2026 12:00",
+      "published": "17/07/2026 18:34",
       "cves": [
         "CVE-2026-53412"
       ],
@@ -36,7 +36,7 @@
       "category": "patches",
       "summary": "A Dell lançou atualizações para corrigir várias vulnerabilidades no PowerProtect Data Domain, incluindo duas falhas críticas que podem permitir o controle completo de sistemas vulneráveis pela internet. Os problemas afetam appliances Data Domain, a edição virtual da plataforma, o Dell APEX Protection Storage e o Data Domain Management Center. Essas soluções são usadas para armazenar backups e apoiar a recuperação de ambientes corporativos. As falhas mais graves são CVE-2026-53483 e CVE-2026-53481, ambas com pontuação CVSS 9.8. A exploração pode ocorrer remotamente, sem credenciais válidas e sem qualquer ação de um usuário.",
       "link": "https://boletimsec.com/dell-corrige-falhas-criticas-que-permitem-controle-remoto-do-powerprotect/",
-      "published": "17/07/2026 12:00",
+      "published": "17/07/2026 18:34",
       "cves": [
         "CVE-2026-53483",
         "CVE-2026-53481"
@@ -44,13 +44,13 @@
       "vendor": null
     },
     {
-      "title": "6 dias Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
+      "title": "10.07.26 Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "As vulnerabilidades passaram a responder cerca de 40% das exposições críticas registradas em ambientes corporativos em 2026, mais que o dobro da proporção observada no ano anterior . Ainda assim, menos de um em cada 12 alertas exigia ação urgente . É o que mostra um levantamento da Check Point Software divulgado nesta quarta-feira (8) ao Canaltech . Segundo a empresa de cibersegurança, a pressão aumenta com ferramentas de ataque assistidas por IA , capazes de testar falhas conhecidas, credenciais vazadas e sistemas expostos em maior escala e velocidade.",
       "link": "https://canaltech.com.br/seguranca/ia-muda-ritmo-dos-ataques-e-forca-empresas-a-priorizar-vulnerabilidades/",
-      "published": "17/07/2026 12:00",
+      "published": "17/07/2026 18:35",
       "cves": [],
       "vendor": "Check Point"
     },
@@ -61,7 +61,7 @@
       "category": "identity",
       "summary": "A identidade se tornou o vetor de acesso inicial dominante para ataques de ransomware, com quatro em cada cinco incidentes (79%) tendo origem em credenciais comprometidas, segundo o sétimo relatório anual State of Ransomware da Sophos. A pesquisa independente, conduzida com líderes de TI e cibersegurança em 17 países, revela que, pela primeira vez em quatro anos, vulnerabilidades exploradas deixaram de ser a causa raiz, cedendo lugar a e-mails maliciosos (26%) e phishing (24%) como principais métodos de ataque.",
       "link": "https://www.cisoadvisor.com.br/79-dos-ataques-comecam-com-credenciais-comprometidas/",
-      "published": "17/07/2026 12:00",
+      "published": "17/07/2026 18:34",
       "cves": [],
       "vendor": null
     }
