@@ -1,69 +1,62 @@
 {
-  "generated_at": "2026-07-18T12:00:00.006979-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-07-19T12:00:00.020633-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "08.07.26 Segurança Ataque que sequestrou dados de 500 mil pacientes no Brasil entra na mira da ANPD",
-      "source": "Canaltech Segurança",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "A Agência Nacional de Proteção de Dados (ANPD) iniciou um processo de sanção contra o Instituto de Saúde e Cidadania (ISAC) nesta quarta-feira (8). O inquérito foi aberto após um ataque que \"sequestrou\" dados de 500 mil pacientes da organização social responsável pela administração de unidades públicas de saúde em Alagoas, Bahia, Goiás, Piauí, Rio Grande do Sul e Tocantins. A ação dá sequência ao incidente ocorrido em 2025 e comunicado pela entidade à agência. Na ocasião, a empresa foi alvo de um ransomware , ataque em que os dados são criptografados por hackers . Depois, os agentes maliciosos cobram um resgate às vítimas para acessá-los novamente e, em alguns casos, para evitar o vazamento.",
-      "link": "https://canaltech.com.br/seguranca/ataque-que-sequestrou-dados-de-500-mil-pacientes-no-brasil-entra-na-mira-da-anpd/",
-      "published": "18/07/2026 12:00",
+      "title": "Vulnerabilidades no Remote Desktop ameaçam ambientes corporativos",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Microsoft corrigiu cinco vulnerabilidades no Remote Desktop Protocol do Windows que podem permitir o acesso indevido a informações sensíveis durante sessões remotas. As falhas afetam diferentes versões do Windows 10, Windows 11 e Windows Server. Os problemas estão ligados à forma como o recurso de acesso remoto lida com a memória do sistema. Em determinadas situações, partes de informações usadas anteriormente podem ser expostas a um invasor conectado pela rede. Entre os dados potencialmente acessíveis estão credenciais, identificadores de sessão e informações internas usadas pelo próprio Windows.",
+      "link": "https://boletimsec.com/vulnerabilidades-no-remote-desktop-ameacam-ambientes-corporativos/",
+      "published": "19/07/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Falha HollowByte permite DDoS em servidores OpenSSL",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores da Okta identificaram uma vulnerabilidade , denominada HollowByte, que permite que atacantes não autenticados provoquem uma condição de negação de serviço (DoS) em servidores OpenSSL com um payload malicioso de apenas 11 bytes. A equipe do OpenSSL corrigiu silenciosamente a falha , sem atribuir um identificador CVE, e fez o backport do patch para versões mais antigas. Em um comunicado publicado ontem, a equipe de Red Team da Okta explicou que, durante o handshake TLS, cada mensagem possui um cabeçalho de 4 bytes que declara o tamanho da mensagem recebida.",
+      "link": "https://www.cisoadvisor.com.br/falha-hollowbyte-permite-ddos-em-servidores-openssl/",
+      "published": "19/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Zero Day no AnyDesk pode causar negação de serviço em sistemas afetados",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade zero day no AnyDesk pode permitir que invasores causem negação de serviço em instalações afetadas da ferramenta de acesso remoto. A falha foi identificada como CVE-2026-15682 e envolve um recurso usado para envio de informações de suporte. A exploração usa um recurso do sistema de arquivos do Windows que redireciona operações para outro caminho. Com isso, um atacante com acesso local limitado pode enganar o serviço do AnyDesk e provocar falhas no aplicativo ou no sistema.",
-      "link": "https://boletimsec.com/zero-day-no-anydesk-pode-causar-negacao-de-servico-em-sistemas-afetados/",
-      "published": "18/07/2026 12:00",
-      "cves": [
-        "CVE-2026-15682"
-      ],
-      "vendor": "Windows"
-    },
-    {
-      "title": "Falha zero day no Cursor executa arquivos maliciosos ao abrir repositórios",
-      "source": "BoletimSec Notícias",
+      "title": "5 dias Segurança Vírus \"imortal\" para Android invade e esvazia contas bancárias em segredo",
+      "source": "Canaltech Segurança",
       "priority": "Média",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade ainda sem correção no editor de código Cursor pode permitir que arquivos maliciosos sejam executados automaticamente em computadores Windows quando o usuário abre um repositório preparado por invasores. A falha afeta o processo usado pelo Cursor para localizar o Git, ferramenta responsável pelo controle de versões dos projetos. Durante essa busca, o programa verifica também a pasta principal do repositório aberto. Um criminoso pode aproveitar esse comportamento adicionando ao projeto um arquivo malicioso chamado git.exe. Ao carregar o repositório, o Cursor pode executar esse arquivo como se fosse o programa legítimo, sem exibir alerta ou pedir confirmação.",
-      "link": "https://boletimsec.com/falha-zero-day-no-cursor-executa-arquivos-maliciosos-ao-abrir-repositorios/",
-      "published": "18/07/2026 12:00",
+      "category": "identity",
+      "summary": "Por André Lourenti Magalhães | 13/07/2026 às 16:00 • Atualizado 13/07/2026 às 16:00 Pesquisadores da empresa de cibersegurança Group-IB identificaram uma nova versão de malware capaz de controlar o sistema Android e até esvaziar contas bancárias. O vírus recebe o nome de RedHook e funciona como um trojan que permite acesso remoto ao aparelho. De acordo com o relatório, o malware é distribuído a partir de um APK (instalador de aplicativos do Android) em sites falsos que simulam a Google Play Store. A vítima é induzida a baixar e instalar o arquivo em tentativas de phishing .",
+      "link": "https://canaltech.com.br/seguranca/virus-imortal-para-android-invade-e-esvazia-contas-bancarias-em-segredo/",
+      "published": "19/07/2026 12:00",
       "cves": [],
-      "vendor": "Windows"
+      "vendor": "Google"
     },
     {
-      "title": "Cibercriminosos exploram Zero Day crítico em appliances SonicWall",
-      "source": "BoletimSec Notícias",
+      "title": "Sophos Fusion: defesa em IA unifica endpoint, rede e nuvem",
+      "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "Cibercriminosos estão explorando ativamente uma falha zero day em appliances SonicWall SMA1000 usados para acesso remoto corporativo. A cadeia de ataque pode permitir execução de código e obtenção de privilégios máximos nos dispositivos afetados. O caso envolve duas vulnerabilidades. A mais grave é a CVE-2026-15409, com pontuação CVSS 10.0, que permite a um invasor alcançar serviços internos do appliance sem autenticação. A segunda, CVE-2026-15410, permite elevar privilégios localmente. As falhas afetam modelos SMA1000 Series 6210, 7210 e 8200v em diferentes versões de firmware, incluindo 12.4.3-03434 e 12.5.0-02800.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-zero-day-critico-em-appliances-sonicwall/",
-      "published": "18/07/2026 12:00",
-      "cves": [
-        "CVE-2026-15409",
-        "CVE-2026-15410"
-      ],
-      "vendor": "SonicWall"
+      "summary": "A Sophos anunciou hoje o Sophos Fusion, o primeiro sistema de defesa em cibersegurança nativo em inteligência artificial do setor, projetado para oferecer resposta coordenada e automatizada a ameaças na velocidade da IA . A plataforma unifica operações de segurança, endpoint, rede, identidade, e-mail e nuvem em uma arquitetura aberta que integra tecnologias nativas e de terceiros. De acordo com a empresa, o sistema foi desenvolvido para um cenário de ameaças reformulado pela IA, no qual ataques conseguem se mover por todo o ambiente corporativo em poucas horas.",
+      "link": "https://www.cisoadvisor.com.br/sophos-fusion-defesa-em-ia-unifica-endpoint-rede-e-nuvem/",
+      "published": "19/07/2026 12:00",
+      "cves": [],
+      "vendor": null
     },
     {
-      "title": "Vulnerabilidades no NGINX podem derrubar serviços",
-      "source": "BoletimSec Notícias",
+      "title": "4 dias Segurança Apple alerta sobre golpe no FaceTime que pode limpar sua conta bancária",
+      "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
-      "summary": "A F5, empresa responsável pelo NGINX, divulgou correções para três vulnerabilidades de alta gravidade que afetam componentes usados em servidores web, balanceamento de carga e proteção de aplicações. As falhas foram publicadas em 15 de julho de 2026 e atingem produtos amplamente usados em infraestrutura web, incluindo NGINX Ingress Controller, Gateway Fabric, App Protect WAF e Instance Manager. A vulnerabilidade mais grave é a CVE-2026-42533, que recebeu pontuação CVSS 8.1 na versão 3.1 e 9.2 na versão 4.0. O problema envolve uma falha de memória acionada por requisições HTTP especialmente criadas.",
-      "link": "https://boletimsec.com/vulnerabilidades-no-nginx-podem-derrubar-servicos/",
-      "published": "18/07/2026 12:00",
-      "cves": [
-        "CVE-2026-42533"
-      ],
-      "vendor": "NGINX"
+      "summary": "Por Marcelo Fischer Salvatico | 14/07/2026 às 21:00 • Atualizado 14/07/2026 às 21:00 A Apple emitiu um alerta a usuários de iPhone sobre golpes que usam o FaceTime para se passar por bancos, órgãos governamentais, suporte técnico e até parceiros românticos. Os criminosos exploram a familiaridade das chamadas de vídeo para convencer vítimas a compartilhar senhas, códigos de segurança e outras informações financeiras. O alerta foi divulgado em conjunto com a Federal Trade Commission (FTC) , órgão de proteção ao consumidor dos Estados Unidos, e tem foco no mercado americano.",
+      "link": "https://canaltech.com.br/seguranca/apple-alerta-sobre-golpe-no-face-time-que-pode-limpar-sua-conta-bancaria/",
+      "published": "19/07/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
     }
   ]
 }
