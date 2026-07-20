@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-07-19T12:00:00.020633-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-07-20T11:04:38.652031-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Vulnerabilidades no Remote Desktop ameaçam ambientes corporativos",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
+      "title": "Exploração ativa de falha crítica no ServiceNow",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft corrigiu cinco vulnerabilidades no Remote Desktop Protocol do Windows que podem permitir o acesso indevido a informações sensíveis durante sessões remotas. As falhas afetam diferentes versões do Windows 10, Windows 11 e Windows Server. Os problemas estão ligados à forma como o recurso de acesso remoto lida com a memória do sistema. Em determinadas situações, partes de informações usadas anteriormente podem ser expostas a um invasor conectado pela rede. Entre os dados potencialmente acessíveis estão credenciais, identificadores de sessão e informações internas usadas pelo próprio Windows.",
-      "link": "https://boletimsec.com/vulnerabilidades-no-remote-desktop-ameacam-ambientes-corporativos/",
-      "published": "19/07/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "A empresa de inteligência em ameaças Defused confirmou que invasores começaram a explorar ativamente uma vulnerabilidade crítica no ServiceNow AI Platform , registrada como CVE-2026-6875. A falha , descoberta pela Searchlight Cyber e reportada em 1º de abril, permite que atacantes não autenticados escapem do sandbox e executem código remotamente dentro da plataforma em ataques de alta complexidade. O ServiceNow publicou correções para instâncias auto-hospedadas em 13 de julho, uma semana antes da confirmação da exploração ativa . De acordo com a Defused, as primeiras tentativas de ataque foram observadas na sexta-feira, dias após a disponibilização dos patches.",
+      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-critica-no-servicenow/",
+      "published": "20/07/2026 11:04",
+      "cves": [
+        "CVE-2026-6875"
+      ],
+      "vendor": null
     },
     {
-      "title": "Falha HollowByte permite DDoS em servidores OpenSSL",
+      "title": "wp2shell: falha crítica no núcleo do WordPress permite RCE",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da Okta identificaram uma vulnerabilidade , denominada HollowByte, que permite que atacantes não autenticados provoquem uma condição de negação de serviço (DoS) em servidores OpenSSL com um payload malicioso de apenas 11 bytes. A equipe do OpenSSL corrigiu silenciosamente a falha , sem atribuir um identificador CVE, e fez o backport do patch para versões mais antigas. Em um comunicado publicado ontem, a equipe de Red Team da Okta explicou que, durante o handshake TLS, cada mensagem possui um cabeçalho de 4 bytes que declara o tamanho da mensagem recebida.",
-      "link": "https://www.cisoadvisor.com.br/falha-hollowbyte-permite-ddos-em-servidores-openssl/",
-      "published": "19/07/2026 12:00",
+      "summary": "Pesquisadores da Searchlight Cyber identificaram uma vulnerabilidade de execução remota de código (RCE) sem autenticação no núcleo do WordPress, apelidada de “wp2shell”, que afeta as versões 6.9.0 a 6.9.4 e 7.0.0 a 7.0.1. De acordo com o comunicado publicado ontem, o ataque não requer pré-condições e pode ser explorado por um usuário anônimo mesmo em uma instalação padrão do WordPress, sem plugins adicionais. Estima-se que mais de 500 milhões de sites utilizam a plataforma globalmente. A empresa de segurança explicou que a falha é composta por duas vulnerabilidades independentes que, quando encadeadas, permitem o RCE pré-autenticação.",
+      "link": "https://www.cisoadvisor.com.br/wp2shell-falha-critica-no-nucleo-do-wordpress-permite-rce/",
+      "published": "20/07/2026 11:04",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "5 dias Segurança Vírus \"imortal\" para Android invade e esvazia contas bancárias em segredo",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Por André Lourenti Magalhães | 13/07/2026 às 16:00 • Atualizado 13/07/2026 às 16:00 Pesquisadores da empresa de cibersegurança Group-IB identificaram uma nova versão de malware capaz de controlar o sistema Android e até esvaziar contas bancárias. O vírus recebe o nome de RedHook e funciona como um trojan que permite acesso remoto ao aparelho. De acordo com o relatório, o malware é distribuído a partir de um APK (instalador de aplicativos do Android) em sites falsos que simulam a Google Play Store. A vítima é induzida a baixar e instalar o arquivo em tentativas de phishing .",
-      "link": "https://canaltech.com.br/seguranca/virus-imortal-para-android-invade-e-esvazia-contas-bancarias-em-segredo/",
-      "published": "19/07/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
+      "title": "CISA ordena correção urgente de falha crítica no Oracle E-Business",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A agência de cibersegurança dos EUA (CISA) determinou ontem que órgãos federais corrigam seus sistemas até sábado contra ataques em curso que exploram uma vulnerabilidade crítica no Oracle E-Business Suite (EBS). A falha, registrada como CVE-2026-46817 (CVSS de 9.8), afeta o componente File Transmission do produto Oracle Payments e permite que invasores não autenticados com acesso à rede HTTP assumam o controle de sistemas vulneráveis em ataques de baixa complexidade.",
+      "link": "https://www.cisoadvisor.com.br/cisa-ordena-correcao-urgente-de-falha-critica-no-oracle-e-business/",
+      "published": "20/07/2026 11:04",
+      "cves": [
+        "CVE-2026-46817"
+      ],
+      "vendor": null
     },
     {
-      "title": "Sophos Fusion: defesa em IA unifica endpoint, rede e nuvem",
+      "title": "Ransomware ‘The Gentlemen’ lidera no 2T de 2026",
       "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Sophos anunciou hoje o Sophos Fusion, o primeiro sistema de defesa em cibersegurança nativo em inteligência artificial do setor, projetado para oferecer resposta coordenada e automatizada a ameaças na velocidade da IA . A plataforma unifica operações de segurança, endpoint, rede, identidade, e-mail e nuvem em uma arquitetura aberta que integra tecnologias nativas e de terceiros. De acordo com a empresa, o sistema foi desenvolvido para um cenário de ameaças reformulado pela IA, no qual ataques conseguem se mover por todo o ambiente corporativo em poucas horas.",
-      "link": "https://www.cisoadvisor.com.br/sophos-fusion-defesa-em-ia-unifica-endpoint-rede-e-nuvem/",
-      "published": "19/07/2026 12:00",
+      "priority": "Alta",
+      "category": "breach",
+      "summary": "O grupo de ransomware The Gentlemen assumiu a primeira posição em número de vítimas no segundo trimestre de 2026, com 300 organizações listadas em seu site de vazamentos, superando o Qilin (289 vítimas), que liderava há quatro trimestres consecutivos, conforme relatório da ReliaQuest publicado no dia 16 de julho. O levantamento registrou um total de 2.252 vítimas no período, queda de 15% ante o trimestre anterior, mas com uma alta de 51% em relação ao mesmo período de 2025. Segundo a ReliaQuest, o crescimento do The Gentlemen foi impulsionado por recrutamento agressivo de afiliados e pelo fornecimento de um kit de intrusão que reduz a barreira de entrada para novos operadores.",
+      "link": "https://www.cisoadvisor.com.br/ransomware-the-gentlemen-lidera-no-2t-de-2026/",
+      "published": "20/07/2026 11:04",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Apple alerta sobre golpe no FaceTime que pode limpar sua conta bancária",
+      "title": "10.07.26 Segurança IA muda ritmo dos ataques e força empresas a priorizar vulnerabilidades",
       "source": "Canaltech Segurança",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 14/07/2026 às 21:00 • Atualizado 14/07/2026 às 21:00 A Apple emitiu um alerta a usuários de iPhone sobre golpes que usam o FaceTime para se passar por bancos, órgãos governamentais, suporte técnico e até parceiros românticos. Os criminosos exploram a familiaridade das chamadas de vídeo para convencer vítimas a compartilhar senhas, códigos de segurança e outras informações financeiras. O alerta foi divulgado em conjunto com a Federal Trade Commission (FTC) , órgão de proteção ao consumidor dos Estados Unidos, e tem foco no mercado americano.",
-      "link": "https://canaltech.com.br/seguranca/apple-alerta-sobre-golpe-no-face-time-que-pode-limpar-sua-conta-bancaria/",
-      "published": "19/07/2026 12:00",
+      "summary": "As vulnerabilidades passaram a responder cerca de 40% das exposições críticas registradas em ambientes corporativos em 2026, mais que o dobro da proporção observada no ano anterior . Ainda assim, menos de um em cada 12 alertas exigia ação urgente . É o que mostra um levantamento da Check Point Software divulgado nesta quarta-feira (8) ao Canaltech . Segundo a empresa de cibersegurança, a pressão aumenta com ferramentas de ataque assistidas por IA , capazes de testar falhas conhecidas, credenciais vazadas e sistemas expostos em maior escala e velocidade.",
+      "link": "https://canaltech.com.br/seguranca/ia-muda-ritmo-dos-ataques-e-forca-empresas-a-priorizar-vulnerabilidades/",
+      "published": "20/07/2026 11:04",
       "cves": [],
-      "vendor": "Apple"
+      "vendor": "Check Point"
     }
   ]
 }
