@@ -1,65 +1,70 @@
 {
-  "generated_at": "2026-07-21T12:00:00.019802-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-07-22T12:00:00.009168-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica wp2shell permite controle remoto de sites WordPress",
-      "source": "BoletimSec Notícias",
+      "title": "Exploração ativa de falha no SharePoint",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O WordPress lançou atualizações emergenciais para corrigir a wp2shell, uma cadeia crítica de vulnerabilidades que permite a execução remota de código sem autenticação. O ataque pode comprometer instalações padrão, mesmo sem plugins vulneráveis ou interação do administrador. A ameaça combina as falhas CVE-2026-63030 e CVE-2026-60137. Juntas, elas possibilitam contornar verificações da API REST, manipular consultas ao banco de dados e avançar até o controle administrativo do site. A CVE-2026-63030 está relacionada a uma confusão no processamento de rotas em lote da API REST. O erro permite que parâmetros validados para uma requisição sejam aplicados incorretamente em outra.",
-      "link": "https://boletimsec.com/falha-critica-wp2shell-permite-controle-remoto-de-sites-wordpress/",
-      "published": "21/07/2026 12:00",
+      "summary": "Atacantes exploram ativamente uma vulnerabilidade crítica de execução remota de código no Microsoft SharePoint, conforme relatou ontem a empresa de segurança watchTowr. A falha, registrada como CVE-2026-50522 (CVSS de 9.8), permite que um agente não autenticado execute código no servidor SharePoint. A Microsoft publicou as atualizações de segurança para a vulnerabilidade há uma semana, conforme informou a própria empresa no comunicado. Ao publicar os patches, a Microsoft já alertou que esperava abuso da falha no curto prazo. A watchTowr relatou que os invasores estão roubando machine keys dos servidores comprometidos para manter acesso persistente.",
+      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-no-sharepoint/",
+      "published": "22/07/2026 12:00",
       "cves": [
-        "CVE-2026-63030",
-        "CVE-2026-60137"
+        "CVE-2026-50522"
       ],
-      "vendor": null
-    },
-    {
-      "title": "19 horas Segurança Novo golpe no X envia alerta de login para roubar sua senha",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 20/07/2026 às 17:00 • Atualizado 20/07/2026 às 17:00 Um novo golpe de phishing está circulando entre usuários do X, antigo Twitter. Criminosos enviam e-mails falsos que imitam alertas legítimos de login em novo dispositivo , com o objetivo de roubar senhas ou obter acesso direto às contas. O esquema foi identificado pelo jornalista Samuel Gibbs, do jornal britânico The Guardian, em reportagem publicada neste domingo (19).",
-      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-x-envia-alerta-de-login-para-roubar-sua-senha/",
-      "published": "21/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "EY confirma violação de dados em plataforma de suporte",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A EY confirmou uma violação de dados envolvendo uma plataforma terceirizada usada para suporte a serviços fiscais de clientes. O incidente permitiu que um invasor acessasse e baixasse documentos armazenados em chamados de atendimento. Segundo a EY, os sistemas centrais da companhia não foram comprometidos. O incidente ficou restrito à plataforma de terceiros usada para suporte, mas os documentos acessados continham informações relacionadas a clientes e serviços tributários. Entre os dados expostos podem estar documentos fiscais, formulários, informações pessoais e registros enviados durante solicitações de atendimento. O conteúdo exato varia conforme cada chamado afetado.",
-      "link": "https://boletimsec.com/ey-confirma-violacao-de-dados-em-plataforma-suporte/",
-      "published": "21/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "ACR Stealer usa ClickFix e WebDAV para roubar dados",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Microsoft observou um aumento significativo em ataques utilizando o malware ACR Stealer para roubar senhas, tokens de autenticação e documentos confidenciais de clientes empresariais, conforme comunicado publicado na sexta-feira. Entre o final de abril e meados de junho, o ator de ameaças utilizou o método de engenharia social ClickFix, servidores WebDAV e o utilitário MSHTA para entregar o payload. A Microsoft detalhou duas cadeias de intrusão predominantes. A primeira campanha começa com um chamariz ClickFix que executa um comando para rodar uma DLL maliciosa de um compartilhamento WebDAV remoto usando rundll32.exe.",
-      "link": "https://www.cisoadvisor.com.br/acr-stealer-usa-clickfix-e-webdav-para-roubar-dados/",
-      "published": "21/07/2026 12:00",
-      "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "6 dias Segurança Apple alerta sobre golpe no FaceTime que pode limpar sua conta bancária",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
+      "title": "Cibercriminosos exploram vulnerabilidade crítica em instalações do SharePoint",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 14/07/2026 às 21:00 • Atualizado 14/07/2026 às 21:00 A Apple emitiu um alerta a usuários de iPhone sobre golpes que usam o FaceTime para se passar por bancos, órgãos governamentais, suporte técnico e até parceiros românticos. Os criminosos exploram a familiaridade das chamadas de vídeo para convencer vítimas a compartilhar senhas, códigos de segurança e outras informações financeiras. O alerta foi divulgado em conjunto com a Federal Trade Commission (FTC) , órgão de proteção ao consumidor dos Estados Unidos, e tem foco no mercado americano.",
-      "link": "https://canaltech.com.br/seguranca/apple-alerta-sobre-golpe-no-face-time-que-pode-limpar-sua-conta-bancaria/",
-      "published": "21/07/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica no Microsoft SharePoint Server foi explorada em ataques para executar código remotamente sem autenticação. Registrada como CVE-2025-53770, a falha recebeu pontuação CVSS de 9,8 e afeta instalações locais da plataforma. O problema envolve a desserialização insegura de dados enviados ao servidor. Com requisições especialmente preparadas, invasores conseguem executar comandos e assumir o controle do sistema sem precisar de credenciais ou interação de usuários. A exploração integra uma cadeia chamada ToolShell, relacionada às vulnerabilidades CVE-2025-49704 e CVE-2025-49706.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-vulnerabilidade-critica-em-instalacoes-do-sharepoint/",
+      "published": "22/07/2026 12:00",
+      "cves": [
+        "CVE-2025-53770",
+        "CVE-2025-49704",
+        "CVE-2025-49706"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Falha de autenticação em VPN da Palo Alto é usada em ataques de ransomware",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Operadores ligados ao ransomware Qilin exploraram uma falha no PAN-OS para invadir redes corporativas e criptografar sistemas. Os ataques observados em junho de 2026 começaram pelo serviço de VPN GlobalProtect, instalado em firewalls da Palo Alto Networks. Identificada como CVE-2026-0257, a vulnerabilidade permite contornar a autenticação e estabelecer sessões VPN sem credenciais válidas. A exploração depende do uso de cookies de substituição de autenticação com determinadas configurações de certificado. Após obter acesso, os invasores coletaram credenciais do Windows e do Active Directory, incluindo dados extraídos dos processos LSASS e NTDS.",
+      "link": "https://boletimsec.com/falha-de-autenticacao-em-vpn-da-palo-alto-e-usada-em-ataques-de-ransomware/",
+      "published": "22/07/2026 12:00",
+      "cves": [
+        "CVE-2026-0257"
+      ],
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "Campanha do malware Lampion tem 95% dos alvos em Portugal",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "O malware bancário Lampion, de origem brasileira, concentra 94,6% de suas infecções em Portugal, conforme estudo publicado ontem pela Unidade de Pesquisa de Ameaças da Acronis (TRU). Apenas 4,3% das detecções ocorreram na Espanha e 1,1% no Reino Unido. O Lampion, derivado da linhagem ChePro, foi desenvolvido para roubar credenciais bancárias e informações sensíveis. Embora tenha surgido no Brasil , o malware historicamente concentra ataques a países lusófonos, utilizando campanhas de phishing em português e explorando a identidade visual de serviços locais.",
+      "link": "https://www.cisoadvisor.com.br/campanha-do-malware-lampion-tem-95-dos-alvos-em-portugal/",
+      "published": "22/07/2026 12:00",
       "cves": [],
-      "vendor": "Apple"
+      "vendor": null
+    },
+    {
+      "title": "AsyncAPI: ataque no GitHub injeta malware em pacotes npm",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Atacantes comprometeram o processo de publicação legítimo do projeto AsyncAPI para injetar o malware Miasma em pacotes npm confiáveis, afetando cerca de 2,9 milhões de downloads semanais combinados e colocando em risco sistemas de desenvolvimento e ambientes de construção automatizados. A empresa de segurança Cato Networks identificou a atividade por meio de monitoramento de inteligência sobre cadeia de suprimentos e compartilhou as descobertas em um relatório. Os pesquisadores descobriram que os invasores utilizaram um caminho de publicação confiável para distribuir uma carga Node.js associada ao Miasma.",
+      "link": "https://www.cisoadvisor.com.br/asyncapi-ataque-no-github-injeta-malware-em-pacotes-npm/",
+      "published": "22/07/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
