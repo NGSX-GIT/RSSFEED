@@ -1,66 +1,71 @@
 {
-  "generated_at": "2026-07-23T12:00:00.017748-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-07-24T12:00:00.051828-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "ASUS corrige falha crítica que permite executar comandos em roteadores",
-      "source": "BoletimSec Notícias",
+      "title": "Grupo Cl0p explora falhas no PTC Windchill",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A ASUS lançou atualizações de segurança para corrigir uma vulnerabilidade crítica em roteadores que pode permitir a execução remota de comandos. Identificada como CVE-2026-13385, a falha recebeu pontuação 9,5 no sistema CVSS. O problema afeta dispositivos que utilizam as versões de firmware 3.0.0.4_386, 3.0.0.4_388 e 3.0.0.6_102. A lista reúne diferentes linhas de roteadores domésticos e equipamentos empregados em pequenos ambientes empresariais. A vulnerabilidade está relacionada à validação inadequada de certificados digitais e dos mecanismos usados para verificar a integridade de arquivos.",
-      "link": "https://boletimsec.com/asus-corrige-falha-critica-que-permite-executar-comandos-em-roteadores/",
-      "published": "23/07/2026 12:00",
+      "summary": "A Ransom-ISAC, em colaboração com eCrime.ch e DEFUSED, publicou ontem um alerta sobre a exploração ativa, por afiliados do ransomware Cl0p, de vulnerabilidades em implementações do PTC Windchill e FlexPLM expostas à internet. Os atacantes estão encadeando uma divulgação de informações não autenticada no endpoint WSDL do FlexPLM com uma falha no servlet de login do Windchill, permitindo execução remota de código não autenticada e implantação de webshells JSP. A vulnerabilidade crítica, registrada como CVE-2026-12569 (CVSS 9.8), foi divulgada em 17 de junho de 2026 e adicionada ao catálogo da CISA em 25 de junho.",
+      "link": "https://www.cisoadvisor.com.br/grupo-cl0p-explora-falhas-no-ptc-windchill/",
+      "published": "24/07/2026 12:00",
       "cves": [
-        "CVE-2026-13385"
+        "CVE-2026-12569"
       ],
       "vendor": null
     },
     {
-      "title": "Falha no Adobe Acrobat permitia roubar conversas do WhatsApp Web",
-      "source": "BoletimSec Notícias",
+      "title": "SolarWinds corrige 15 falhas críticas no Serv-U",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade na extensão do Adobe Acrobat para Chrome permitia que páginas maliciosas roubassem conversas, contatos e informações de perfil exibidas no WhatsApp Web. A extensão está instalada em cerca de 329 milhões de navegadores. Identificada como CVE-2026-48294 e chamada de HermeticReader, a falha recebeu pontuação CVSS de 7,4. O problema afeta todas as versões da extensão até a 26.5.2.2. Para iniciar o ataque, bastava que uma pessoa com a extensão instalada e uma sessão ativa no WhatsApp Web acessasse um endereço preparado. Não era necessário instalar malware, informar senhas ou clicar em arquivos.",
-      "link": "https://boletimsec.com/falha-no-adobe-acrobat-permitia-roubar-conversas-do-whatsapp-web/",
-      "published": "23/07/2026 12:00",
+      "summary": "A SolarWinds publicou ontem a versão 2026.3 de seu software de transferência de arquivos Serv-U, que corrige 15 vulnerabilidades que poderiam permitir a atacantes autenticados a elevação de privilégios e a execução remota de código com acesso de usuário root. As falhas , reportadas pelo programa de recompensa por bugs da Intigriti, são rastreadas pelos identificadores CVE-2026-28302 a CVE-2026-28321. A maioria delas recebeu pontuação de gravidade 9.1 na escala CVSS, indicando risco crítico, de acordo com o comunicado da empresa. Muitas dessas questões surgem de fraquezas do tipo IDOR (Insecure Direct Object Reference) e de mecanismos de controle de acesso quebrados.",
+      "link": "https://www.cisoadvisor.com.br/solarwinds-corrige-15-falhas-criticas-no-serv-u/",
+      "published": "24/07/2026 12:00",
       "cves": [
-        "CVE-2026-48294"
+        "CVE-2026-28302",
+        "CVE-2026-28321"
       ],
-      "vendor": "Adobe"
+      "vendor": "SolarWinds"
     },
     {
-      "title": "Google lança modelo de IA para corrigir código",
+      "title": "Check Point corrige falha zero-day no SmartConsole",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "O Google DeepMind anunciou ontem o Gemini 3.5 Flash Cyber, um modelo de inteligência artificial especializado em segurança cibernética, desenvolvido para detectar, validar e corrigir vulnerabilidades em código de forma rápida e com baixo custo. O anúncio, publicado no blog do DeepMind, detalha que o novo modelo é construído sobre o Gemini 3.5 Flash e ajustado especificamente para tarefas de segurança, superando os modelos principais da linha Flash nesse tipo de atividade. O modelo será disponibilizado exclusivamente para governos e parceiros de confiança por meio de um programa piloto de acesso limitado, integrado ao agente de segurança CodeMender.",
-      "link": "https://www.cisoadvisor.com.br/google-lanca-modelo-de-ia-para-corrigir-codigo/",
-      "published": "23/07/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
+      "summary": "A Check Point Software publicou ontem uma correção para uma vulnerabilidade zero-day ativamente explorada no painel administrativo SmartConsole, rastreada como CVE-2026-16232. A falha de bypass de autenticação permite que atacantes não autenticados obtenham um token de login da aplicação e autentiquem-se com privilégios de administrador, conforme comunicado da empresa. Após obter acesso a um Security Management Server ou Multi-Domain Security Management Server (MDS) vulnerável, o invasor pode alterar configurações e a política de segurança.",
+      "link": "https://www.cisoadvisor.com.br/check-point-corrige-falha-zero-day-no-smartconsole/",
+      "published": "24/07/2026 12:00",
+      "cves": [
+        "CVE-2026-16232"
+      ],
+      "vendor": "Check Point"
     },
     {
-      "title": "2 dias Segurança Novo golpe no X envia alerta de login para roubar sua senha",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 20/07/2026 às 17:00 • Atualizado 20/07/2026 às 17:00 Um novo golpe de phishing está circulando entre usuários do X, antigo Twitter. Criminosos enviam e-mails falsos que imitam alertas legítimos de login em novo dispositivo , com o objetivo de roubar senhas ou obter acesso direto às contas. O esquema foi identificado pelo jornalista Samuel Gibbs, do jornal britânico The Guardian, em reportagem publicada neste domingo (19).",
-      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-x-envia-alerta-de-login-para-roubar-sua-senha/",
-      "published": "23/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Grupo NTSec cria holding para acelerar expansão",
+      "title": "Falha crítica no kernel Linux permite escalonamento de privilégios via XFS",
       "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "cloud",
-      "summary": "O Grupo NTSec , um dos maiores integradores de tecnologia e segurança da informação do Brasil, anunciou que acaba de concluir uma ampla reorganização corporativa que marca o início de uma nova etapa de crescimento. A companhia, segundo o comunicado, transformou-se em Sociedade Anônima de capital fechado, unificando as quatro empresas do grupo — NTSec, InfoSec, ZivaSec e CloudSec — sob uma estrutura de holding. O movimento abre caminho também para a expansão internacional da empresa, com foco inicial em mercados da América Latina e Europa.",
-      "link": "https://www.cisoadvisor.com.br/grupo-ntsec-cria-holding-para-acelerar-expansao/",
-      "published": "23/07/2026 12:00",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Pesquisadores da Qualys Threat Research Unit (TRU) identificaram uma vulnerabilidade de escalonamento local de privilégios no kernel Linux, rastreada como CVE-2026-64600 e apelidada de RefluXFS. A falha , presente desde a versão 4.11 do kernel (2017), afeta sistemas que utilizam o sistema de arquivos XFS com reflink ativado, impactando mais de 16,4 milhões de sistemas mundialmente, de acordo com análise da Qualys CyberSecurity Asset Management. A vulnerabilidade é uma condição de corrida no caminho de copy-on-write (CoW) do XFS.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-kernel-linux-permite-escalonamento-de-privilegios-via-xfs/",
+      "published": "24/07/2026 12:00",
+      "cves": [
+        "CVE-2026-64600"
+      ],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Ransomware Chaos usa navegador invisível para ocultar tráfego de ransomware",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "O grupo de ransomware Chaos passou a usar o novo trojan msaRAT para ocultar comunicações de comando e controle em conexões legítimas do Chrome e do Edge. O malware foi identificado em uma máquina Windows comprometida antes da execução do criptografador. Escrito em Rust, o msaRAT não se conecta diretamente à infraestrutura criminosa. O implante inicia um navegador em modo invisível e o controla por meio do Chrome DevTools Protocol, mantendo o tráfego do próprio processo restrito ao endereço local da máquina. A ameaça injeta código JavaScript no navegador e utiliza um serviço do Cloudflare Workers para negociar a conexão WebRTC.",
+      "link": "https://boletimsec.com/ransomware-chaos-usa-navegador-invisivel-para-ocultar-trafego-de-ransomware/",
+      "published": "24/07/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Windows"
     }
   ]
 }
