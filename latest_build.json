@@ -1,62 +1,67 @@
 {
-  "generated_at": "2026-07-26T12:00:00.059468-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-07-27T12:00:00.019254-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "5 dias Segurança Novo golpe no X envia alerta de login para roubar sua senha",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Por Marcelo Fischer Salvatico | 20/07/2026 às 17:00 • Atualizado 20/07/2026 às 17:00 Um novo golpe de phishing está circulando entre usuários do X, antigo Twitter. Criminosos enviam e-mails falsos que imitam alertas legítimos de login em novo dispositivo , com o objetivo de roubar senhas ou obter acesso direto às contas. O esquema foi identificado pelo jornalista Samuel Gibbs, do jornal britânico The Guardian, em reportagem publicada neste domingo (19).",
-      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-x-envia-alerta-de-login-para-roubar-sua-senha/",
-      "published": "26/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "5 dias Segurança Como saber se uma empresa está tratando seus dados de forma adequada",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "breach",
-      "summary": "A proteção de dados deixou de ser um tema restrito às áreas de tecnologia e jurídico para ocupar um espaço estratégico dentro das empresas. Com a digitalização dos processos e o avanço da inteligência artificial, um volume cada vez maior de informações pessoais e corporativas passa diariamente por plataformas digitais. Segundo o relatório Cost of a Data Breach 2025, da IBM, o custo médio global de um incidente de segurança chegou a US$ 4,9 milhões , reforçando que a gestão adequada dos dados é um tema que envolve continuidade dos negócios, reputação e competitividade.",
-      "link": "https://canaltech.com.br/colunas/como-saber-se-uma-empresa-esta-tratando-seus-dados-de-forma-adequada/",
-      "published": "26/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Plataforma Vakinha comunica intrusão em sua rede",
+      "title": "1.449 patches no update recorde da Oracle",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A plataforma Vakinha, sediada em Porto Alegre e especializada na organização de coletas de valores para objetivos comuns, comunicou hoje ao mercado a ocorrência de uma intrusão em sua rede, com acesso de leitura a dados cadastrais armazenados no sistema. Em contato com o CISO Advisor, a agencia de relações públicas da empresa informou que o incidente foi descoberto no dia 14 deste mês. Após a descoberta, informou a agência, foram acionados não só os protocolos de segurança como também os parceiros de tecnologia da informação e segurança cibernética para mitigação do incidente.",
-      "link": "https://www.cisoadvisor.com.br/plataforma-vakinha-comunica-intrusao-em-sua-rede/",
-      "published": "26/07/2026 12:00",
+      "summary": "A Oracle publicou seu Critical Patch Update (CPU) de julho de 2026, um pacote recorde que inclui 1.449 patches para remediar mais de 1.200 vulnerabilidades em seus produtos, incluindo bancos de dados, middleware, serviços em nuvem e aplicações empresariais . Este é agora o maior CPU já lançado pela empresa, refletindo não apenas a complexidade de seus produtos, mas também a nova realidade impulsionada por sistemas de IA de ponta, que estão acelerando drasticamente a descoberta e o desenvolvimento de explorações de vulnerabilidades .",
+      "link": "https://www.cisoadvisor.com.br/1-449-patches-no-update-recorde-da-oracle/",
+      "published": "27/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Campanha usa GitHub Actions para explorar cPanel",
+      "title": "SolarWinds corrige 15 vulnerabilidades críticas",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Uma campanha cibernética em larga escala está abusando do GitHub Actions para transformar repositórios open source comprometidos em armas contra servidores de hospedagem, conforme revelou ontem a empresa de segurança Socket.dev. Os atacantes inserem arquivos de workflow maliciosos em repositórios e usam a infraestrutura gratuita do GitHub para escanear a internet em busca de alvos vulneráveis. O alvo principal da operação são servidores cPanel e WHM, amplamente utilizados para gerenciar sites, contas de e-mail e bancos de dados.",
-      "link": "https://www.cisoadvisor.com.br/campanha-usa-github-actions-para-explorar-cpanel/",
-      "published": "26/07/2026 12:00",
+      "summary": "A SolarWinds publicou a versão 2026.3 de seu software de transferência gerenciada de arquivos (MFT) Serv-U, corrigindo um conjunto de 15 vulnerabilidades que, em sua maioria, receberam classificação crítica (CVSS 9.1). O pacote de correções aborda falhas que podem permitir desde a execução remota de códigos arbitrários (RCE) até escalonamento de privilégios para nível de root em sistemas Unix-like . Entre as vulnerabilidades corrigidas estão casos de Referência Direta a Objetos Insegura (IDOR) e controle de acesso quebrado que podem ser encadeados por atacantes autenticados .",
+      "link": "https://www.cisoadvisor.com.br/solarwinds-corrige-15-vulnerabilidades-criticas/",
+      "published": "27/07/2026 12:00",
       "cves": [],
+      "vendor": "SolarWinds"
+    },
+    {
+      "title": "Cl0p explora falha no Windchill para roubar projetos industriais",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O grupo de extorsão Cl0p está explorando servidores PTC Windchill e FlexPLM expostos à internet para roubar projetos, especificações técnicas e outros dados confidenciais. A campanha mira especialmente organizações dos setores industrial, automotivo, aeroespacial, de defesa e varejo. O principal vetor é a CVE-2026-12569, vulnerabilidade crítica de execução remota de código causada pela desserialização de dados não confiáveis. A falha pode ser explorada pela rede, sem autenticação ou interação do usuário, e recebeu pontuação CVSS 9,8. Os ataques também combinam uma exposição de informações no endpoint WSDL do FlexPLM com uma fraqueza no mecanismo de login do Windchill.",
+      "link": "https://boletimsec.com/cl0p-explora-falha-no-windchill-para-roubar-projetos-industriais/",
+      "published": "27/07/2026 12:00",
+      "cves": [
+        "CVE-2026-12569"
+      ],
       "vendor": null
     },
     {
-      "title": "Vulnerabilidade no Claude Cowork abre acesso ao sistema de arquivos do Mac",
+      "title": "Falhas críticas ameaçam ambientes remotos de desenvolvimento da JetBrains",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A JetBrains corrigiu vulnerabilidades críticas no IntelliJ IDEA e no TeamCity que poderiam permitir execução de código, alteração de pipelines e acesso indevido a arquivos. As atualizações devem ser aplicadas com prioridade em ambientes de desenvolvimento compartilhados. No IntelliJ IDEA, a CVE-2026-59792 explora uma travessia de diretórios no processamento do identificador do workspace. O problema pode resultar em execução de código e recebeu pontuação de até 9,8 no CVSS. A falha foi corrigida nas versões 2026.1.4 e 2026.2. No TeamCity, a CVE-2026-65907 permite executar código por meio de configurações maliciosas de repositórios Git.",
+      "link": "https://boletimsec.com/falhas-criticas-ameacam-ambientes-remotos-de-desenvolvimento-da-jetbrains/",
+      "published": "27/07/2026 12:00",
+      "cves": [
+        "CVE-2026-59792",
+        "CVE-2026-65907"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "GitLab corrige falhas de memória que permitem controlar servidores",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "identity",
-      "summary": "Uma vulnerabilidade no Claude Cowork permitia que o agente de inteligência artificial escapasse da máquina virtual usada como ambiente isolado e acessasse arquivos armazenados no Mac. A cadeia, chamada SharedRoot, possibilitava ler ou modificar dados fora das pastas autorizadas pelo usuário. O problema afetava sessões executadas localmente no macOS. Segundo os pesquisadores, cerca de 500 mil usuários estiveram potencialmente expostos, incluindo arquivos sensíveis como chaves SSH, credenciais de serviços em nuvem e documentos acessíveis pela conta conectada ao computador. O Cowork processa tarefas dentro de uma máquina virtual Linux criada pelo framework de virtualização da Apple.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-claude-cowork-abre-acesso-ao-sistema-de-arquivos-do-mac/",
-      "published": "26/07/2026 12:00",
+      "category": "patches",
+      "summary": "Duas vulnerabilidades de corrupção de memória permitiam executar código remotamente em instalações padrão do GitLab. A cadeia afetava as edições Community e Enterprise autogerenciadas, expondo repositórios, segredos da aplicação e serviços internos. As falhas estavam no Oj, um analisador de JSON escrito parcialmente em C e usado por aplicações Ruby. Os problemas permaneceram no código por quase cinco anos e envolviam uma gravação fora dos limites da memória e o vazamento de um ponteiro do heap. A exploração aproveitava a função do GitLab que exibe diferenças entre versões de arquivos Jupyter Notebook.",
+      "link": "https://boletimsec.com/gitlab-corrige-falhas-de-memoria-que-permitem-controlar-servidores/",
+      "published": "27/07/2026 12:00",
       "cves": [],
-      "vendor": "Linux"
+      "vendor": null
     }
   ]
 }
