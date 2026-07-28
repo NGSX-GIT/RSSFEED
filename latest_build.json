@@ -1,65 +1,64 @@
 {
-  "generated_at": "2026-07-27T12:00:00.019254-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-07-28T12:00:00.043165-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "1.449 patches no update recorde da Oracle",
+      "title": "Versão atual do FastJson traz falha com CVSS 9.0",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Oracle publicou seu Critical Patch Update (CPU) de julho de 2026, um pacote recorde que inclui 1.449 patches para remediar mais de 1.200 vulnerabilidades em seus produtos, incluindo bancos de dados, middleware, serviços em nuvem e aplicações empresariais . Este é agora o maior CPU já lançado pela empresa, refletindo não apenas a complexidade de seus produtos, mas também a nova realidade impulsionada por sistemas de IA de ponta, que estão acelerando drasticamente a descoberta e o desenvolvimento de explorações de vulnerabilidades .",
-      "link": "https://www.cisoadvisor.com.br/1-449-patches-no-update-recorde-da-oracle/",
-      "published": "27/07/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica de RCE (execução remota de código) foi descoberta na biblioteca de serialização JSON FastJson versão 1 .2.83, mantida pelo AliBaba — até agora considerada a versão segura e recomendada para uso. A falha está sendo explorada no ambiente do Spring Boot, e permite que um atacante obtenha RCE sem a necessidade de uma classe “gadget” no alvo, contornando a proteção AutoType, que está desabilitada por padrão. Um relatório completo sobre o problema foi publicado pela empresa de segurança FearSoff .",
+      "link": "https://www.cisoadvisor.com.br/versao-atual-do-fastjson-traz-falha-com-cvss-9-0/",
+      "published": "28/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "SolarWinds corrige 15 vulnerabilidades críticas",
+      "title": "Falha crítica no TeamCity permite RCE sem autenticação",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A SolarWinds publicou a versão 2026.3 de seu software de transferência gerenciada de arquivos (MFT) Serv-U, corrigindo um conjunto de 15 vulnerabilidades que, em sua maioria, receberam classificação crítica (CVSS 9.1). O pacote de correções aborda falhas que podem permitir desde a execução remota de códigos arbitrários (RCE) até escalonamento de privilégios para nível de root em sistemas Unix-like . Entre as vulnerabilidades corrigidas estão casos de Referência Direta a Objetos Insegura (IDOR) e controle de acesso quebrado que podem ser encadeados por atacantes autenticados .",
-      "link": "https://www.cisoadvisor.com.br/solarwinds-corrige-15-vulnerabilidades-criticas/",
-      "published": "27/07/2026 12:00",
+      "summary": "A JetBrains divulgou um alerta de segurança urgente para sua plataforma de integração contínua TeamCity, após a descoberta de uma vulnerabilidade crítica que permite que atacantes não autenticados assumam o controle remoto de servidores locais. A falha , identificada como CVE-2026-63077 e com escore CVSS de 9.8, afeta todas as versões do TeamCity On-Premises e pode ser explorada por um invasor com acesso HTTP(S) ao servidor para executar comandos arbitrários no sistema operacional com os privilégios do processo do servidor. A empresa recomenda que as organizações instalem a atualização imediatamente.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-teamcity-permite-rce-sem-autenticacao/",
+      "published": "28/07/2026 12:00",
+      "cves": [
+        "CVE-2026-63077"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Grupos de ransomware atacam VPNs de quatro grandes fabricantes",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Grupos de ransomware estão explorando falhas e credenciais expostas em soluções de VPN e firewall da Palo Alto Networks, Fortinet, Check Point e Citrix. Os equipamentos de borda se tornaram uma das principais portas de entrada para ataques contra redes corporativas. Esses dispositivos ficam acessíveis pela internet e, quando comprometidos, permitem que criminosos aparentem ser usuários remotos legítimos. A técnica pode contornar parte dos controles de perímetro e reduzir os alertas gerados por ferramentas instaladas nos computadores. No PAN-OS, afiliados do ransomware Qilin exploraram a CVE-2026-0257 para falsificar cookies do GlobalProtect e iniciar sessões sem credenciais válidas.",
+      "link": "https://boletimsec.com/grupos-de-ransomware-atacam-vpns-de-quatro-grandes-fabricantes/",
+      "published": "28/07/2026 12:00",
+      "cves": [
+        "CVE-2026-0257"
+      ],
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "20.07.26 Segurança Novo golpe no X envia alerta de login para roubar sua senha",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Por Marcelo Fischer Salvatico | 20/07/2026 às 17:00 • Atualizado 20/07/2026 às 17:00 Um novo golpe de phishing está circulando entre usuários do X, antigo Twitter. Criminosos enviam e-mails falsos que imitam alertas legítimos de login em novo dispositivo , com o objetivo de roubar senhas ou obter acesso direto às contas. O esquema foi identificado pelo jornalista Samuel Gibbs, do jornal britânico The Guardian, em reportagem publicada neste domingo (19).",
+      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-x-envia-alerta-de-login-para-roubar-sua-senha/",
+      "published": "28/07/2026 12:00",
       "cves": [],
-      "vendor": "SolarWinds"
-    },
-    {
-      "title": "Cl0p explora falha no Windchill para roubar projetos industriais",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O grupo de extorsão Cl0p está explorando servidores PTC Windchill e FlexPLM expostos à internet para roubar projetos, especificações técnicas e outros dados confidenciais. A campanha mira especialmente organizações dos setores industrial, automotivo, aeroespacial, de defesa e varejo. O principal vetor é a CVE-2026-12569, vulnerabilidade crítica de execução remota de código causada pela desserialização de dados não confiáveis. A falha pode ser explorada pela rede, sem autenticação ou interação do usuário, e recebeu pontuação CVSS 9,8. Os ataques também combinam uma exposição de informações no endpoint WSDL do FlexPLM com uma fraqueza no mecanismo de login do Windchill.",
-      "link": "https://boletimsec.com/cl0p-explora-falha-no-windchill-para-roubar-projetos-industriais/",
-      "published": "27/07/2026 12:00",
-      "cves": [
-        "CVE-2026-12569"
-      ],
       "vendor": null
     },
     {
-      "title": "Falhas críticas ameaçam ambientes remotos de desenvolvimento da JetBrains",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A JetBrains corrigiu vulnerabilidades críticas no IntelliJ IDEA e no TeamCity que poderiam permitir execução de código, alteração de pipelines e acesso indevido a arquivos. As atualizações devem ser aplicadas com prioridade em ambientes de desenvolvimento compartilhados. No IntelliJ IDEA, a CVE-2026-59792 explora uma travessia de diretórios no processamento do identificador do workspace. O problema pode resultar em execução de código e recebeu pontuação de até 9,8 no CVSS. A falha foi corrigida nas versões 2026.1.4 e 2026.2. No TeamCity, a CVE-2026-65907 permite executar código por meio de configurações maliciosas de repositórios Git.",
-      "link": "https://boletimsec.com/falhas-criticas-ameacam-ambientes-remotos-de-desenvolvimento-da-jetbrains/",
-      "published": "27/07/2026 12:00",
-      "cves": [
-        "CVE-2026-59792",
-        "CVE-2026-65907"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "GitLab corrige falhas de memória que permitem controlar servidores",
+      "title": "AgentForger usava conectores do ChatGPT para acessar dados corporativos",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "Duas vulnerabilidades de corrupção de memória permitiam executar código remotamente em instalações padrão do GitLab. A cadeia afetava as edições Community e Enterprise autogerenciadas, expondo repositórios, segredos da aplicação e serviços internos. As falhas estavam no Oj, um analisador de JSON escrito parcialmente em C e usado por aplicações Ruby. Os problemas permaneceram no código por quase cinco anos e envolviam uma gravação fora dos limites da memória e o vazamento de um ponteiro do heap. A exploração aproveitava a função do GitLab que exibe diferenças entre versões de arquivos Jupyter Notebook.",
-      "link": "https://boletimsec.com/gitlab-corrige-falhas-de-memoria-que-permitem-controlar-servidores/",
-      "published": "27/07/2026 12:00",
+      "summary": "Uma vulnerabilidade no ChatGPT Workspace Agents permitia criar e implantar um agente de inteligência artificial malicioso dentro de uma empresa a partir de um único link de phishing. Batizada de AgentForger, a falha foi corrigida pela OpenAI em 8 de junho de 2026. O ataque explorava um parâmetro permissivo no Agent Builder, capaz de receber instruções por meio da URL. Quando um usuário autenticado abria o endereço preparado, o comando era enviado e executado automaticamente, sem uma confirmação adicional.",
+      "link": "https://boletimsec.com/agentforger-usava-conectores-do-chatgpt-para-acessar-dados-corporativos/",
+      "published": "28/07/2026 12:00",
       "cves": [],
       "vendor": null
     }
