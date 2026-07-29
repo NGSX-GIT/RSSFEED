@@ -1,71 +1,64 @@
 {
-  "generated_at": "2026-07-29T08:02:02.401864-03:00",
+  "generated_at": "2026-07-29T12:00:00.010893-03:00",
   "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Fastjson: falha crítica permite RCE sem autenticação",
+      "title": "CISA e parceiros publicam guia para isolar infraestrutura crítica",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade de execução remota de código no Fastjson afeta todas as versões até 1.2.83, permitindo que um atacante execute código arbitrário em servidores vulneráveis sem privilégios ou interação do usuário, de acordo com análise publicada ontem pela equipe de inteligência da ThreatBook. A falha , registrada como XVE-2026-39684, não possui identificador CVE atribuído. A vulnerabilidade , que não exige bypass de mecanismos de segurança, é explorável sempre que o SafeMode do Fastjson não está ativado. A ThreatBook TDP (Threat Detection Platform) já capturou exploração ativa da falha em ambientes reais, conforme comunicado da empresa.",
-      "link": "https://www.cisoadvisor.com.br/fastjson-falha-critica-permite-rce-sem-autenticacao/",
-      "published": "29/07/2026 08:02",
+      "summary": "A CISA (Cybersecurity and Infrastructure Security Agency), agência de segurança cibernética e infraestrutura dos Estados Unidos, e o ASD’s ACSC (Australian Signals Directorate’s Australian Cyber Security Centre), centro de segurança cibernética da Austrália, em colaboração com o FBI e parceiros internacionais, publicaram hoje o guia conjunto “CI Fortify – Advice for isolating vital systems”.",
+      "link": "https://www.cisoadvisor.com.br/cisa-e-parceiros-publicam-guia-para-isolar-infraestrutura-critica/",
+      "published": "29/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "vBulletin corrige falha crítica com exploit público",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O vBulletin, plataforma proprietária de fóruns baseada em PHP, corrigiu uma vulnerabilidade crítica que permite a execução remota de código (RCE) sem autenticação. O problema, registrado como CVE-2026-61511 , afeta as versões 5.x e 6.x até a 5.7.5 e 6.2.1. O pesquisador independente Egidio Romano descobriu a falha e a reportou em 25 de junho de 2026, por meio do programa SSD Secure Disclosure, que também publicou uma análise técnica sobre o tema. A vulnerabilidade reside na função ‘runMaths()’, que não sanitiza adequadamente a entrada do usuário antes de passá-la à função eval() do PHP, limitada a expressões matemáticas.",
-      "link": "https://www.cisoadvisor.com.br/vbulletin-corrige-falha-critica-com-exploit-publico/",
-      "published": "29/07/2026 08:02",
-      "cves": [
-        "CVE-2026-61511"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Cl0p explora falha no Windchill para roubar projetos industriais",
+      "title": "Grupos de ransomware atacam VPNs de quatro grandes fabricantes",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O grupo de extorsão Cl0p está explorando servidores PTC Windchill e FlexPLM expostos à internet para roubar projetos, especificações técnicas e outros dados confidenciais. A campanha mira especialmente organizações dos setores industrial, automotivo, aeroespacial, de defesa e varejo. O principal vetor é a CVE-2026-12569, vulnerabilidade crítica de execução remota de código causada pela desserialização de dados não confiáveis. A falha pode ser explorada pela rede, sem autenticação ou interação do usuário, e recebeu pontuação CVSS 9,8. Os ataques também combinam uma exposição de informações no endpoint WSDL do FlexPLM com uma fraqueza no mecanismo de login do Windchill.",
-      "link": "https://boletimsec.com/cl0p-explora-falha-no-windchill-para-roubar-projetos-industriais/",
-      "published": "29/07/2026 08:02",
+      "summary": "Grupos de ransomware estão explorando falhas e credenciais expostas em soluções de VPN e firewall da Palo Alto Networks, Fortinet, Check Point e Citrix. Os equipamentos de borda se tornaram uma das principais portas de entrada para ataques contra redes corporativas. Esses dispositivos ficam acessíveis pela internet e, quando comprometidos, permitem que criminosos aparentem ser usuários remotos legítimos. A técnica pode contornar parte dos controles de perímetro e reduzir os alertas gerados por ferramentas instaladas nos computadores. No PAN-OS, afiliados do ransomware Qilin exploraram a CVE-2026-0257 para falsificar cookies do GlobalProtect e iniciar sessões sem credenciais válidas.",
+      "link": "https://boletimsec.com/grupos-de-ransomware-atacam-vpns-de-quatro-grandes-fabricantes/",
+      "published": "29/07/2026 12:00",
       "cves": [
-        "CVE-2026-12569"
+        "CVE-2026-0257"
       ],
-      "vendor": null
+      "vendor": "Fortinet"
     },
     {
-      "title": "Vulnerabilidade crítica no Nginx permite RCE",
+      "title": "Botnet Tengu usa 25 métodos para derrubar serviços online",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Uma nova botnet chamada Tengu está infectando dispositivos de Internet das Coisas e sistemas Linux embarcados para executar ataques de negação de serviço, redirecionar tráfego e manter acesso persistente. A ameaça é uma versão modernizada do malware Mirai. A infecção observada começa por ataques de força bruta contra serviços Telnet expostos. Após descobrir credenciais válidas, um script baixa pela internet a versão do malware compatível com a arquitetura do equipamento. O Tengu utiliza comunicação parcialmente criptografada com o servidor de comando e controle.",
+      "link": "https://boletimsec.com/botnet-tengu-usa-25-metodos-para-derrubar-servicos-online/",
+      "published": "29/07/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Apple corrige falhas de execução em imagens no iOS e macOS",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade de estouro de buffer no NGINX Plus e NGINX Open Source, rastreada como CVE-2026-42533, pode permitir que atacantes não autenticados derrubem processos worker e, sob certas condições, executem código arbitrário, de acordo com análise compartilhada pelo pesquisador Zhenpeng Lin, da Depth First Labs . A falha , classificada como de alta gravidade, afeta configurações que utilizam diretivas de map baseadas em regex ou variáveis não armazenáveis em cache em expressões de string, representando perigo especial quando o módulo Stream e o recurso ssl_preread processam tráfego TLS manipulado antes da autenticação.",
-      "link": "https://www.cisoadvisor.com.br/vulnerabilidade-critica-no-nginx-permite-rce/",
-      "published": "29/07/2026 08:02",
-      "cves": [
-        "CVE-2026-42533"
-      ],
-      "vendor": "NGINX"
+      "summary": "A Apple publicou ontem atualizações de segurança para iOS, iPadOS e macOS que corrigem vulnerabilidades permitindo a execução de código arbitrário em iPhones, iPads e Macs por meio de imagens maliciosas. As falhas afetam os componentes AppleDouble, ImageIO e SceneKit. No iOS e iPadOS 26.6, a empresa corrigiu 87 vulnerabilidades, das quais cinco permitem execução de código. No caso da falha no ImageIO, o problema ocorre durante o processamento de imagens manipuladas. As outras quatro exigem o processamento de um arquivo malicioso especialmente preparado. De acordo com a Apple, não há evidências de exploração ativa dessas vulnerabilidades.",
+      "link": "https://www.cisoadvisor.com.br/apple-corrige-falhas-de-execucao-de-codigo-em-imagens-no-ios-e-macos/",
+      "published": "29/07/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
     },
     {
-      "title": "Falhas críticas ameaçam ambientes remotos de desenvolvimento da JetBrains",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A JetBrains corrigiu vulnerabilidades críticas no IntelliJ IDEA e no TeamCity que poderiam permitir execução de código, alteração de pipelines e acesso indevido a arquivos. As atualizações devem ser aplicadas com prioridade em ambientes de desenvolvimento compartilhados. No IntelliJ IDEA, a CVE-2026-59792 explora uma travessia de diretórios no processamento do identificador do workspace. O problema pode resultar em execução de código e recebeu pontuação de até 9,8 no CVSS. A falha foi corrigida nas versões 2026.1.4 e 2026.2. No TeamCity, a CVE-2026-65907 permite executar código por meio de configurações maliciosas de repositórios Git.",
-      "link": "https://boletimsec.com/falhas-criticas-ameacam-ambientes-remotos-de-desenvolvimento-da-jetbrains/",
-      "published": "29/07/2026 08:02",
-      "cves": [
-        "CVE-2026-59792",
-        "CVE-2026-65907"
-      ],
-      "vendor": null
+      "title": "4 dias Segurança Truque simples de DNS ativa bloqueio de malware grátis no Windows; veja como",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Um ajuste simples nas configurações de rede do Windows pode ajudar a evitar malwares no PC: alguns servidores de DNS são configurados para bloquear sites e endereços IP associados a vírus e outras ameaças — e tudo isso pode ser feito de graça . A mudança de servidor DNS é simples, ajuda a filtrar endereços maliciosos e em alguns casos até deixa a navegação mais rápida porque agiliza o carregamento de páginas da web. DNS é a sigla para Domain Name System, ou “Sistema de nomes de domínio”, em tradução livre, e funciona como uma saudosa agenda telefônica para conectar sites a seus respectivos endereços IPs .",
+      "link": "https://canaltech.com.br/seguranca/truque-simples-de-dns-ativa-bloqueio-de-malware-gratis-no-windows-veja-como/",
+      "published": "29/07/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
     }
   ]
 }
