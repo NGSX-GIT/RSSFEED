@@ -1,66 +1,68 @@
 {
-  "generated_at": "2026-07-29T12:00:00.025370-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-07-30T12:00:00.013222-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Fastjson: falha crítica permite RCE sem autenticação",
+      "title": "Dinamarca cria backup de sistema de pagamentos",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de execução remota de código no Fastjson afeta todas as versões até 1.2.83, permitindo que um atacante execute código arbitrário em servidores vulneráveis sem privilégios ou interação do usuário, de acordo com análise publicada ontem pela equipe de inteligência da ThreatBook. A falha , registrada como XVE-2026-39684, não possui identificador CVE atribuído. A vulnerabilidade , que não exige bypass de mecanismos de segurança, é explorável sempre que o SafeMode do Fastjson não está ativado. A ThreatBook TDP (Threat Detection Platform) já capturou exploração ativa da falha em ambientes reais, conforme comunicado da empresa.",
-      "link": "https://www.cisoadvisor.com.br/fastjson-falha-critica-permite-rce-sem-autenticacao/",
-      "published": "29/07/2026 12:00",
+      "category": "threat",
+      "summary": "O Danmarks Nationalbank, banco central da Dinamarca, publicou ontem (28 de julho) um plano estratégico para estabelecer um Banco de Emergência Adormecido (DEB, na sigla em inglês) como parte do programa Emergency Preparedness for Critical Financial Sector Activities in Extreme Scenarios (EP-CFSA-ES), anunciado em dezembro de 2025. A iniciativa visa garantir a continuidade dos pagamentos e transações financeiras no país durante ataques cibernéticos em larga escala contra instituições financeiras ou a infraestrutura bancária nacional.",
+      "link": "https://www.cisoadvisor.com.br/dinamarca-cria-um-banco-de-reserva-para-emergencias/",
+      "published": "30/07/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "vBulletin corrige falha crítica com exploit público",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O vBulletin, plataforma proprietária de fóruns baseada em PHP, corrigiu uma vulnerabilidade crítica que permite a execução remota de código (RCE) sem autenticação. O problema, registrado como CVE-2026-61511 , afeta as versões 5.x e 6.x até a 5.7.5 e 6.2.1. O pesquisador independente Egidio Romano descobriu a falha e a reportou em 25 de junho de 2026, por meio do programa SSD Secure Disclosure, que também publicou uma análise técnica sobre o tema. A vulnerabilidade reside na função ‘runMaths()’, que não sanitiza adequadamente a entrada do usuário antes de passá-la à função eval() do PHP, limitada a expressões matemáticas.",
-      "link": "https://www.cisoadvisor.com.br/vbulletin-corrige-falha-critica-com-exploit-publico/",
-      "published": "29/07/2026 12:00",
-      "cves": [
-        "CVE-2026-61511"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Vulnerabilidade crítica no Nginx permite RCE",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de estouro de buffer no NGINX Plus e NGINX Open Source, rastreada como CVE-2026-42533, pode permitir que atacantes não autenticados derrubem processos worker e, sob certas condições, executem código arbitrário, de acordo com análise compartilhada pelo pesquisador Zhenpeng Lin, da Depth First Labs . A falha , classificada como de alta gravidade, afeta configurações que utilizam diretivas de map baseadas em regex ou variáveis não armazenáveis em cache em expressões de string, representando perigo especial quando o módulo Stream e o recurso ssl_preread processam tráfego TLS manipulado antes da autenticação.",
-      "link": "https://www.cisoadvisor.com.br/vulnerabilidade-critica-no-nginx-permite-rce/",
-      "published": "29/07/2026 12:00",
-      "cves": [
-        "CVE-2026-42533"
-      ],
-      "vendor": "NGINX"
-    },
-    {
-      "title": "CISA e parceiros publicam guia para isolar infraestrutura crítica",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA (Cybersecurity and Infrastructure Security Agency), agência de segurança cibernética e infraestrutura dos Estados Unidos, e o ASD’s ACSC (Australian Signals Directorate’s Australian Cyber Security Centre), centro de segurança cibernética da Austrália, em colaboração com o FBI e parceiros internacionais, publicaram hoje o guia conjunto “CI Fortify – Advice for isolating vital systems”.",
-      "link": "https://www.cisoadvisor.com.br/cisa-e-parceiros-publicam-guia-para-isolar-infraestrutura-critica/",
-      "published": "29/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Botnet Tengu usa 25 métodos para derrubar serviços online",
+      "title": "Falha crítica no NVIDIA BlueField permite execução de código",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma nova botnet chamada Tengu está infectando dispositivos de Internet das Coisas e sistemas Linux embarcados para executar ataques de negação de serviço, redirecionar tráfego e manter acesso persistente. A ameaça é uma versão modernizada do malware Mirai. A infecção observada começa por ataques de força bruta contra serviços Telnet expostos. Após descobrir credenciais válidas, um script baixa pela internet a versão do malware compatível com a arquitetura do equipamento. O Tengu utiliza comunicação parcialmente criptografada com o servidor de comando e controle.",
-      "link": "https://boletimsec.com/botnet-tengu-usa-25-metodos-para-derrubar-servicos-online/",
-      "published": "29/07/2026 12:00",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A NVIDIA corrigiu uma vulnerabilidade crítica no VIRTIO-Net do BlueField-3 que pode permitir a execução de código em ambientes virtualizados. A falha representa risco principalmente para data centers, plataformas de nuvem e infraestruturas com máquinas virtuais de diferentes usuários. Identificado como CVE-2026-65094, o problema recebeu pontuação 9,0 no sistema CVSS. A vulnerabilidade foi classificada como “write-what-where”, condição que permite gravar dados controlados pelo invasor em locais indevidos da memória. Uma exploração bem-sucedida pode resultar na execução de código dentro do escopo do VIRTIO-Net, comprometendo a confidencialidade, a integridade e a disponibilidade do ambiente.",
+      "link": "https://boletimsec.com/falha-critica-no-nvidia-bluefield-permite-execucao-de-codigo/",
+      "published": "30/07/2026 12:00",
+      "cves": [
+        "CVE-2026-65094"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "VMware corrige vulnerabilidades que ameaçam ambientes virtualizados",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Broadcom corrigiu cinco vulnerabilidades em produtos VMware que podem permitir desvio de autenticação, execução de código e escape de máquinas virtuais. As falhas atingem ambientes corporativos baseados em vCenter, ESX, Cloud Foundation, Workstation e Fusion. A mais grave, CVE-2026-59309, recebeu pontuação CVSS 9,8 e afeta o VMware Directory Service do vCenter. Um invasor com acesso de rede ao servidor pode contornar a autenticação e entrar no sistema sem credenciais válidas. O controle do vCenter representa um risco elevado porque a plataforma administra hosts, máquinas virtuais, redes e armazenamentos.",
+      "link": "https://boletimsec.com/vmware-corrige-vulnerabilidades-que-ameacam-ambientes-virtualizados/",
+      "published": "30/07/2026 12:00",
+      "cves": [
+        "CVE-2026-59309"
+      ],
+      "vendor": "VMware"
+    },
+    {
+      "title": "Apple corrige falhas de execução em imagens no iOS e macOS",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Apple publicou ontem atualizações de segurança para iOS, iPadOS e macOS que corrigem vulnerabilidades permitindo a execução de código arbitrário em iPhones, iPads e Macs por meio de imagens maliciosas. As falhas afetam os componentes AppleDouble, ImageIO e SceneKit. No iOS e iPadOS 26.6, a empresa corrigiu 87 vulnerabilidades, das quais cinco permitem execução de código. No caso da falha no ImageIO, o problema ocorre durante o processamento de imagens manipuladas. As outras quatro exigem o processamento de um arquivo malicioso especialmente preparado. De acordo com a Apple, não há evidências de exploração ativa dessas vulnerabilidades.",
+      "link": "https://www.cisoadvisor.com.br/apple-corrige-falhas-de-execucao-de-codigo-em-imagens-no-ios-e-macos/",
+      "published": "30/07/2026 12:00",
       "cves": [],
-      "vendor": "Linux"
+      "vendor": "Apple"
+    },
+    {
+      "title": "Alerta para falha CVSS 10 no VeloCloud Orchestrator",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Arista Networks publicou ontem (27 de julho) um aviso de segurança sobre uma vulnerabilidade de injeção de comandos no VeloCloud Orchestrator (VCO) on-prem, classificada com a pontuação máxima de gravidade CVSS 10.0. A falha , rastreada como CVE-2026-16812, pode permitir que um invasor remoto acesse funcionalidades internas privilegiadas e comprometa a confidencialidade, integridade e disponibilidade do orquestrador e dos dados gerenciados por ele. A vulnerabilidade, classificada como CWE-78 (neutralização inadequada de elementos especiais usados em um comando do sistema operacional), afeta todas as versões do VCO on-premises anteriores a 5.2.3.14, 6.1.3.4, 6.4.2.4 e 7.0.0.1.",
+      "link": "https://www.cisoadvisor.com.br/alerta-para-falha-cvss-10-no-velocloud-orchestrator/",
+      "published": "30/07/2026 12:00",
+      "cves": [
+        "CVE-2026-16812"
+      ],
+      "vendor": null
     }
   ]
 }
