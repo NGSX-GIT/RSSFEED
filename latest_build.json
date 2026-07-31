@@ -1,68 +1,69 @@
 {
-  "generated_at": "2026-07-30T12:00:00.013222-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-07-31T12:00:00.027109-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Dinamarca cria backup de sistema de pagamentos",
+      "title": "VMware corrige falhas críticas no vCenter e ESX",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "O Danmarks Nationalbank, banco central da Dinamarca, publicou ontem (28 de julho) um plano estratégico para estabelecer um Banco de Emergência Adormecido (DEB, na sigla em inglês) como parte do programa Emergency Preparedness for Critical Financial Sector Activities in Extreme Scenarios (EP-CFSA-ES), anunciado em dezembro de 2025. A iniciativa visa garantir a continuidade dos pagamentos e transações financeiras no país durante ataques cibernéticos em larga escala contra instituições financeiras ou a infraestrutura bancária nacional.",
-      "link": "https://www.cisoadvisor.com.br/dinamarca-cria-um-banco-de-reserva-para-emergencias/",
-      "published": "30/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha crítica no NVIDIA BlueField permite execução de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
       "category": "patches",
-      "summary": "A NVIDIA corrigiu uma vulnerabilidade crítica no VIRTIO-Net do BlueField-3 que pode permitir a execução de código em ambientes virtualizados. A falha representa risco principalmente para data centers, plataformas de nuvem e infraestruturas com máquinas virtuais de diferentes usuários. Identificado como CVE-2026-65094, o problema recebeu pontuação 9,0 no sistema CVSS. A vulnerabilidade foi classificada como “write-what-where”, condição que permite gravar dados controlados pelo invasor em locais indevidos da memória. Uma exploração bem-sucedida pode resultar na execução de código dentro do escopo do VIRTIO-Net, comprometendo a confidencialidade, a integridade e a disponibilidade do ambiente.",
-      "link": "https://boletimsec.com/falha-critica-no-nvidia-bluefield-permite-execucao-de-codigo/",
-      "published": "30/07/2026 12:00",
+      "summary": "A VMware alertou os clientes, ontem, sobre duas vulnerabilidades críticas que podem permitir que atacantes obtenham acesso a servidores vCenter. A empresa publicou atualizações para corrigir os problemas. O vCenter, solução para gerenciar máquinas virtuais e servidores virtualizados, tem sido alvo de ataques no passado. A CVE-2026-59309 é uma vulnerabilidade que permite que um atacante não autenticado contorne a autenticação e acesse o servidor vCenter. A segunda falha no vCenter, registrada como CVE-2026-59310, envolve uma vulnerabilidade crítica de path traversal que pode permitir que um atacante não autenticado execute código no servidor vCenter.",
+      "link": "https://www.cisoadvisor.com.br/vmware-corrige-falhas-criticas-no-vcenter-e-esx/",
+      "published": "31/07/2026 12:00",
       "cves": [
-        "CVE-2026-65094"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "VMware corrige vulnerabilidades que ameaçam ambientes virtualizados",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Broadcom corrigiu cinco vulnerabilidades em produtos VMware que podem permitir desvio de autenticação, execução de código e escape de máquinas virtuais. As falhas atingem ambientes corporativos baseados em vCenter, ESX, Cloud Foundation, Workstation e Fusion. A mais grave, CVE-2026-59309, recebeu pontuação CVSS 9,8 e afeta o VMware Directory Service do vCenter. Um invasor com acesso de rede ao servidor pode contornar a autenticação e entrar no sistema sem credenciais válidas. O controle do vCenter representa um risco elevado porque a plataforma administra hosts, máquinas virtuais, redes e armazenamentos.",
-      "link": "https://boletimsec.com/vmware-corrige-vulnerabilidades-que-ameacam-ambientes-virtualizados/",
-      "published": "30/07/2026 12:00",
-      "cves": [
-        "CVE-2026-59309"
+        "CVE-2026-59309",
+        "CVE-2026-59310"
       ],
       "vendor": "VMware"
     },
     {
-      "title": "Apple corrige falhas de execução em imagens no iOS e macOS",
+      "title": "Tempo médio para exploração de CVEs cai para 80 dias",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Apple publicou ontem atualizações de segurança para iOS, iPadOS e macOS que corrigem vulnerabilidades permitindo a execução de código arbitrário em iPhones, iPads e Macs por meio de imagens maliciosas. As falhas afetam os componentes AppleDouble, ImageIO e SceneKit. No iOS e iPadOS 26.6, a empresa corrigiu 87 vulnerabilidades, das quais cinco permitem execução de código. No caso da falha no ImageIO, o problema ocorre durante o processamento de imagens manipuladas. As outras quatro exigem o processamento de um arquivo malicioso especialmente preparado. De acordo com a Apple, não há evidências de exploração ativa dessas vulnerabilidades.",
-      "link": "https://www.cisoadvisor.com.br/apple-corrige-falhas-de-execucao-de-codigo-em-imagens-no-ios-e-macos/",
-      "published": "30/07/2026 12:00",
+      "summary": "O tempo médio entre a publicação de uma vulnerabilidade e sua confirmação como explorada caiu de 120 dias em 2025 para 80 dias no primeiro semestre de 2026, segundo o relatório “ State of Exploitation 1H-2026 “, publicado ontem pela VulnCheck. A análise identificou 495 vulnerabilidades conhecidas como exploradas (KEVs) no período, com 23,43% delas apresentando evidências de exploração no dia da publicação ou antes. O relatório, assinado por Patrick Garrity, mostra que, embora o percentual de KEVs exploradas no dia da publicação tenha caído em relação a 2025 (28,93%), a velocidade geral de exploração aumentou.",
+      "link": "https://www.cisoadvisor.com.br/tempo-medio-para-exploracao-de-cves-cai-para-80-dias/",
+      "published": "31/07/2026 12:00",
       "cves": [],
-      "vendor": "Apple"
+      "vendor": null
     },
     {
-      "title": "Alerta para falha CVSS 10 no VeloCloud Orchestrator",
+      "title": "Falha crítica rompe isolamento entre clientes do Azure Cosmos DB",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica chamada CosmosEscape poderia permitir o controle de praticamente todas as instâncias do Azure Cosmos DB, incluindo bancos de dados internos da Microsoft. A falha rompia o isolamento entre clientes da plataforma de nuvem. O problema estava na API Gremlin, usada para consultas em bancos de dados orientados a grafos. Consultas especialmente preparadas conseguiam escapar do ambiente restrito e executar código na infraestrutura responsável por processar solicitações dos clientes. A cadeia explorava limitações na proteção contra recursos de reflexão do .NET.",
+      "link": "https://boletimsec.com/falha-critica-rompe-isolamento-entre-clientes-do-azure-cosmos-db/",
+      "published": "31/07/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Ataques exploram falha no centro de controle de firewalls da Cisco",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade zero day no Cisco Secure Firewall Management Center está sendo explorada para acessar dados sensíveis de ambientes corporativos. A falha, identificada como CVE-2026-20316, permite login remoto sem autenticação válida. O problema é causado por credenciais estáticas associadas a uma conta de poucos privilégios. Um invasor pode usar esses dados embutidos no software para entrar na interface web do equipamento afetado. Embora a pontuação CVSS seja 5,3, a Cisco classificou o risco como alto. A falha pode ser combinada com outras vulnerabilidades para elevar privilégios e ampliar o controle sobre a plataforma de gerenciamento.",
+      "link": "https://boletimsec.com/ataques-exploram-falha-no-centro-de-controle-de-firewalls-da-cisco/",
+      "published": "31/07/2026 12:00",
+      "cves": [
+        "CVE-2026-20316"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Firewall: senha fixa explorada ativamente é corrigida",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Arista Networks publicou ontem (27 de julho) um aviso de segurança sobre uma vulnerabilidade de injeção de comandos no VeloCloud Orchestrator (VCO) on-prem, classificada com a pontuação máxima de gravidade CVSS 10.0. A falha , rastreada como CVE-2026-16812, pode permitir que um invasor remoto acesse funcionalidades internas privilegiadas e comprometa a confidencialidade, integridade e disponibilidade do orquestrador e dos dados gerenciados por ele. A vulnerabilidade, classificada como CWE-78 (neutralização inadequada de elementos especiais usados em um comando do sistema operacional), afeta todas as versões do VCO on-premises anteriores a 5.2.3.14, 6.1.3.4, 6.4.2.4 e 7.0.0.1.",
-      "link": "https://www.cisoadvisor.com.br/alerta-para-falha-cvss-10-no-velocloud-orchestrator/",
-      "published": "30/07/2026 12:00",
+      "summary": "A Cisco alertou que atacantes estão explorando ativamente uma senha fixa (hardcoded) no Cisco Secure Firewall Management Center (FMC), software para gerenciamento de firewalls. A empresa publicou atualizações para resolver a vulnerabilidade, registrada como CVE-2026-20316 (CVSS de 10.0). O FMC, descrito pela Cisco como o “centro nervoso administrativo” para gerenciar equipamentos de segurança de rede, contém a senha embutida que permite que atacantes façam login na interface web e acessem dados sensíveis. Segundo a Cisco, um invasor pode, então, usar outras vulnerabilidades para escalar privilégios dentro do software de gerenciamento de firewalls.",
+      "link": "https://www.cisoadvisor.com.br/cisco-firewall-senha-fixa-explorada-ativamente-e-corrigida/",
+      "published": "31/07/2026 12:00",
       "cves": [
-        "CVE-2026-16812"
+        "CVE-2026-20316"
       ],
-      "vendor": null
+      "vendor": "Cisco"
     }
   ]
 }
