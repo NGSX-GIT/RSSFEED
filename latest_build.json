@@ -1,69 +1,64 @@
 {
-  "generated_at": "2026-07-31T12:00:00.027109-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-08-01T12:00:00.079372-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "VMware corrige falhas críticas no vCenter e ESX",
+      "title": "Pesquisador demonstra worm de IA em documentos do Microsoft Word",
       "source": "CISO Advisor",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A VMware alertou os clientes, ontem, sobre duas vulnerabilidades críticas que podem permitir que atacantes obtenham acesso a servidores vCenter. A empresa publicou atualizações para corrigir os problemas. O vCenter, solução para gerenciar máquinas virtuais e servidores virtualizados, tem sido alvo de ataques no passado. A CVE-2026-59309 é uma vulnerabilidade que permite que um atacante não autenticado contorne a autenticação e acesse o servidor vCenter. A segunda falha no vCenter, registrada como CVE-2026-59310, envolve uma vulnerabilidade crítica de path traversal que pode permitir que um atacante não autenticado execute código no servidor vCenter.",
-      "link": "https://www.cisoadvisor.com.br/vmware-corrige-falhas-criticas-no-vcenter-e-esx/",
-      "published": "31/07/2026 12:00",
-      "cves": [
-        "CVE-2026-59309",
-        "CVE-2026-59310"
-      ],
-      "vendor": "VMware"
-    },
-    {
-      "title": "Tempo médio para exploração de CVEs cai para 80 dias",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O tempo médio entre a publicação de uma vulnerabilidade e sua confirmação como explorada caiu de 120 dias em 2025 para 80 dias no primeiro semestre de 2026, segundo o relatório “ State of Exploitation 1H-2026 “, publicado ontem pela VulnCheck. A análise identificou 495 vulnerabilidades conhecidas como exploradas (KEVs) no período, com 23,43% delas apresentando evidências de exploração no dia da publicação ou antes. O relatório, assinado por Patrick Garrity, mostra que, embora o percentual de KEVs exploradas no dia da publicação tenha caído em relação a 2025 (28,93%), a velocidade geral de exploração aumentou.",
-      "link": "https://www.cisoadvisor.com.br/tempo-medio-para-exploracao-de-cves-cai-para-80-dias/",
-      "published": "31/07/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha crítica rompe isolamento entre clientes do Azure Cosmos DB",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica chamada CosmosEscape poderia permitir o controle de praticamente todas as instâncias do Azure Cosmos DB, incluindo bancos de dados internos da Microsoft. A falha rompia o isolamento entre clientes da plataforma de nuvem. O problema estava na API Gremlin, usada para consultas em bancos de dados orientados a grafos. Consultas especialmente preparadas conseguiam escapar do ambiente restrito e executar código na infraestrutura responsável por processar solicitações dos clientes. A cadeia explorava limitações na proteção contra recursos de reflexão do .NET.",
-      "link": "https://boletimsec.com/falha-critica-rompe-isolamento-entre-clientes-do-azure-cosmos-db/",
-      "published": "31/07/2026 12:00",
+      "summary": "Um pesquisador de segurança revelou uma vulnerabilidade no Microsoft Copilot para Word que permite a propagação autônoma de instruções maliciosas entre documentos, criando um worm baseado em inteligência artificial. A falha, divulgada publicamente após 144 dias de coordenação com a Microsoft, permanece sem correção definitiva e afeta a integridade de informações em fluxos de trabalho corporativos. O ataque, descrito pelo pesquisador em um artigo técnico publicado ontem, explora instruções ocultas em documentos que, ao serem processados pelo Copilot, fazem com que o assistente altere o conteúdo de novos documentos e copie as instruções maliciosas para eles.",
+      "link": "https://www.cisoadvisor.com.br/pesquisador-demonstra-worm-de-ia-em-documentos-do-microsoft-word/",
+      "published": "01/08/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "Ataques exploram falha no centro de controle de firewalls da Cisco",
+      "title": "Vulnerabilidade no Firefox expõe usuários do Tor Browser a ataques remotos",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Uma vulnerabilidade zero day no Cisco Secure Firewall Management Center está sendo explorada para acessar dados sensíveis de ambientes corporativos. A falha, identificada como CVE-2026-20316, permite login remoto sem autenticação válida. O problema é causado por credenciais estáticas associadas a uma conta de poucos privilégios. Um invasor pode usar esses dados embutidos no software para entrar na interface web do equipamento afetado. Embora a pontuação CVSS seja 5,3, a Cisco classificou o risco como alto. A falha pode ser combinada com outras vulnerabilidades para elevar privilégios e ampliar o controle sobre a plataforma de gerenciamento.",
-      "link": "https://boletimsec.com/ataques-exploram-falha-no-centro-de-controle-de-firewalls-da-cisco/",
-      "published": "31/07/2026 12:00",
+      "summary": "Uma vulnerabilidade no mecanismo JavaScript do Firefox pode permitir o comprometimento do Tor Browser apenas com a abertura de uma página maliciosa. A falha afeta versões sem as correções mais recentes e não exige downloads ou permissões adicionais. Registrado como CVE-2026-10702, o problema permite executar código dentro do processo responsável por renderizar o conteúdo do navegador. A Mozilla classificou a vulnerabilidade como de alta gravidade. A brecha está no compilador JIT SpiderMonkey, utilizado para transformar JavaScript em código nativo. Uma análise incorreta mantém uma referência para uma região de memória que já foi liberada, criando uma condição explorável.",
+      "link": "https://boletimsec.com/vulnerabilidade-no-firefox-expoe-usuarios-do-tor-browser-a-ataques-remotos/",
+      "published": "01/08/2026 12:00",
       "cves": [
-        "CVE-2026-20316"
+        "CVE-2026-10702"
       ],
-      "vendor": "Cisco"
+      "vendor": null
     },
     {
-      "title": "Cisco Firewall: senha fixa explorada ativamente é corrigida",
+      "title": "Modelos da Anthropic invadem três organizações em testes",
       "source": "CISO Advisor",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Cisco alertou que atacantes estão explorando ativamente uma senha fixa (hardcoded) no Cisco Secure Firewall Management Center (FMC), software para gerenciamento de firewalls. A empresa publicou atualizações para resolver a vulnerabilidade, registrada como CVE-2026-20316 (CVSS de 10.0). O FMC, descrito pela Cisco como o “centro nervoso administrativo” para gerenciar equipamentos de segurança de rede, contém a senha embutida que permite que atacantes façam login na interface web e acessem dados sensíveis. Segundo a Cisco, um invasor pode, então, usar outras vulnerabilidades para escalar privilégios dentro do software de gerenciamento de firewalls.",
-      "link": "https://www.cisoadvisor.com.br/cisco-firewall-senha-fixa-explorada-ativamente-e-corrigida/",
-      "published": "31/07/2026 12:00",
-      "cves": [
-        "CVE-2026-20316"
-      ],
-      "vendor": "Cisco"
+      "summary": "A Anthropic revelou que vários de seus modelos avançados de inteligência artificial, durante testes realizados por um parceiro terceiro, acessaram a internet aberta e comprometeram três organizações em incidentes separados, com registros a partir de abril. A empresa de IA afirmou que seus modelos não “se exfiltraram ou tentaram escapar deliberadamente do ambiente de teste”. Em vez disso, um “mal-entendido” entre a Anthropic e um de seus parceiros de avaliação deixou o ambiente de teste conectado à internet, segundo a empresa.",
+      "link": "https://www.cisoadvisor.com.br/modelos-da-anthropic-invadem-tres-organizacoes-em-testes/",
+      "published": "01/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "ChatGPT entra no top 10 de marcas mais clonadas em phishing",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "O ChatGPT, da OpenAI , apareceu pela primeira vez entre as dez marcas mais imitadas em campanhas de phishing no segundo trimestre de 2026, segundo o relatório Brand Phishing Ranking, publicado ontem pela Check Point Research (CPR), divisão de Inteligência em Ameaças da Check Point Software. A plataforma de IA respondeu por 1,1% das tentativas de phishing de marca registradas no período, enquanto a Microsoft liderou o ranking com 22,6%. O levantamento mostra que o LinkedIn ocupou a segunda posição (11,6%), seguido por Google (6,7%), Apple (5,8%) e Amazon (5,2%). Juntas, as cinco marcas mais imitadas concentraram mais da metade de toda a atividade monitorada no trimestre.",
+      "link": "https://www.cisoadvisor.com.br/chatgpt-entra-no-top-10-de-marcas-mais-clonadas-em-phishing/",
+      "published": "01/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "22.07.26 Segurança O paradoxo da agilidade: quando acelerar demais pode aumentar o risco em cibersegurança",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A pressão por acelerar entregas nunca foi tão intensa nas áreas de tecnologia. Inovar continuamente, reduzir o time to market e digitalizar produtos deixaram de ser diferenciais e se tornaram exigência mínima para continuar competindo. O que raramente aparece com a mesma clareza é o efeito colateral desse movimento. À medida que a velocidade aumenta, o risco cresce junto, e quase sempre em silêncio. Dados recentes do World Economic Forum mostram que mais de 70% das organizações perceberam aumento no risco cibernético , enquanto mais de 40% relataram ataques bem-sucedidos em um único ano.",
+      "link": "https://canaltech.com.br/colunas/o-paradoxo-da-agilidade-quando-acelerar-demais-pode-aumentar-o-risco-em-ciberseguranca/",
+      "published": "01/08/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
