@@ -1,62 +1,60 @@
 {
-  "generated_at": "2026-08-01T12:00:00.079372-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-08-02T12:00:00.018554-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Pesquisador demonstra worm de IA em documentos do Microsoft Word",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Um pesquisador de segurança revelou uma vulnerabilidade no Microsoft Copilot para Word que permite a propagação autônoma de instruções maliciosas entre documentos, criando um worm baseado em inteligência artificial. A falha, divulgada publicamente após 144 dias de coordenação com a Microsoft, permanece sem correção definitiva e afeta a integridade de informações em fluxos de trabalho corporativos. O ataque, descrito pelo pesquisador em um artigo técnico publicado ontem, explora instruções ocultas em documentos que, ao serem processados pelo Copilot, fazem com que o assistente altere o conteúdo de novos documentos e copie as instruções maliciosas para eles.",
-      "link": "https://www.cisoadvisor.com.br/pesquisador-demonstra-worm-de-ia-em-documentos-do-microsoft-word/",
-      "published": "01/08/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Vulnerabilidade no Firefox expõe usuários do Tor Browser a ataques remotos",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade no mecanismo JavaScript do Firefox pode permitir o comprometimento do Tor Browser apenas com a abertura de uma página maliciosa. A falha afeta versões sem as correções mais recentes e não exige downloads ou permissões adicionais. Registrado como CVE-2026-10702, o problema permite executar código dentro do processo responsável por renderizar o conteúdo do navegador. A Mozilla classificou a vulnerabilidade como de alta gravidade. A brecha está no compilador JIT SpiderMonkey, utilizado para transformar JavaScript em código nativo. Uma análise incorreta mantém uma referência para uma região de memória que já foi liberada, criando uma condição explorável.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-firefox-expoe-usuarios-do-tor-browser-a-ataques-remotos/",
-      "published": "01/08/2026 12:00",
-      "cves": [
-        "CVE-2026-10702"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Modelos da Anthropic invadem três organizações em testes",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Anthropic revelou que vários de seus modelos avançados de inteligência artificial, durante testes realizados por um parceiro terceiro, acessaram a internet aberta e comprometeram três organizações em incidentes separados, com registros a partir de abril. A empresa de IA afirmou que seus modelos não “se exfiltraram ou tentaram escapar deliberadamente do ambiente de teste”. Em vez disso, um “mal-entendido” entre a Anthropic e um de seus parceiros de avaliação deixou o ambiente de teste conectado à internet, segundo a empresa.",
-      "link": "https://www.cisoadvisor.com.br/modelos-da-anthropic-invadem-tres-organizacoes-em-testes/",
-      "published": "01/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "ChatGPT entra no top 10 de marcas mais clonadas em phishing",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O ChatGPT, da OpenAI , apareceu pela primeira vez entre as dez marcas mais imitadas em campanhas de phishing no segundo trimestre de 2026, segundo o relatório Brand Phishing Ranking, publicado ontem pela Check Point Research (CPR), divisão de Inteligência em Ameaças da Check Point Software. A plataforma de IA respondeu por 1,1% das tentativas de phishing de marca registradas no período, enquanto a Microsoft liderou o ranking com 22,6%. O levantamento mostra que o LinkedIn ocupou a segunda posição (11,6%), seguido por Google (6,7%), Apple (5,8%) e Amazon (5,2%). Juntas, as cinco marcas mais imitadas concentraram mais da metade de toda a atividade monitorada no trimestre.",
-      "link": "https://www.cisoadvisor.com.br/chatgpt-entra-no-top-10-de-marcas-mais-clonadas-em-phishing/",
-      "published": "01/08/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "22.07.26 Segurança O paradoxo da agilidade: quando acelerar demais pode aumentar o risco em cibersegurança",
+      "title": "6 dias Segurança 4 formas de bloquear chamadas e SMS de golpes no Android de forma eficiente",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
-      "summary": "A pressão por acelerar entregas nunca foi tão intensa nas áreas de tecnologia. Inovar continuamente, reduzir o time to market e digitalizar produtos deixaram de ser diferenciais e se tornaram exigência mínima para continuar competindo. O que raramente aparece com a mesma clareza é o efeito colateral desse movimento. À medida que a velocidade aumenta, o risco cresce junto, e quase sempre em silêncio. Dados recentes do World Economic Forum mostram que mais de 70% das organizações perceberam aumento no risco cibernético , enquanto mais de 40% relataram ataques bem-sucedidos em um único ano.",
-      "link": "https://canaltech.com.br/colunas/o-paradoxo-da-agilidade-quando-acelerar-demais-pode-aumentar-o-risco-em-ciberseguranca/",
-      "published": "01/08/2026 12:00",
+      "summary": "As chamadas telefônicas aparecem em 65% das tentativas de fraude no Brasil, segundo relatório da Global Anti-Scam Alliance (GASA) divulgado pela Security Leaders. O mesmo levantamento mostra que 81% dos brasileiros já foram alvo desse tipo de abordagem, com uma tentativa registrada a cada dia e meio, em média. O Android reúne uma combinação de recursos nativos e aplicativos de terceiros para reduzir esse contato indesejado. Neste texto, o Canaltech listou algumas formas para você bloquear chamadas e SMS de golpes no seu celular Android.",
+      "link": "https://canaltech.com.br/seguranca/como-bloquear-chamadas-sms-de-golpes-no-android/",
+      "published": "02/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "25.07.26 Segurança Truque simples de DNS ativa bloqueio de malware grátis no Windows; veja como",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Um ajuste simples nas configurações de rede do Windows pode ajudar a evitar malwares no PC: alguns servidores de DNS são configurados para bloquear sites e endereços IP associados a vírus e outras ameaças — e tudo isso pode ser feito de graça . A mudança de servidor DNS é simples, ajuda a filtrar endereços maliciosos e em alguns casos até deixa a navegação mais rápida porque agiliza o carregamento de páginas da web. DNS é a sigla para Domain Name System, ou “Sistema de nomes de domínio”, em tradução livre, e funciona como uma saudosa agenda telefônica para conectar sites a seus respectivos endereços IPs .",
+      "link": "https://canaltech.com.br/seguranca/truque-simples-de-dns-ativa-bloqueio-de-malware-gratis-no-windows-veja-como/",
+      "published": "02/08/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "1 dia Segurança Microsoft lidera lista de marcas mais usadas por hackers; veja ranking completo",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A Microsoft segue como a marca mais usada por criminosos em ataques de phishing. Segundo o relatório do segundo trimestre de 2026 da Check Point Research, a empresa aparece em 22,6% de todas as tentativas de personificação de marca registradas no período, quase o dobro da segunda colocada, o LinkedIn. O levantamento também mostra a primeira entrada do ChatGPT no top 10 da lista, sinal de que ferramentas de inteligência artificial já são alvo recorrente de golpistas. O ranking de marcas mais imitadas no trimestre, com a variação de posição em relação ao primeiro trimestre de 2026, ficou assim:",
+      "link": "https://canaltech.com.br/seguranca/microsoft-lidera-lista-de-marcas-mais-usadas-por-hackers-veja-ranking-completo/",
+      "published": "02/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Como Diferenciar um Scan de um Pentest com IA",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Um novo modelo de teste ofensivo começa a ganhar espaço no mercado: o pentest com IA . Grandes empresas de cibersegurança ofensiva estão desenvolvendo agentes capazes de executar partes cada vez maiores de um pentest e complementar o trabalho dos especialistas humanos. A tecnologia amplia a velocidade, a profundidade e a frequência dos testes, mas ainda é confundida com scan de vulnerabilidades, uma solução muito mais simples e superficial. O scan executa verificações previamente programadas para procurar versões desatualizadas, configurações inseguras e padrões associados a vulnerabilidades conhecidas.",
+      "link": "https://boletimsec.com/como-diferenciar-um-scan-de-um-pentest-com-ia/",
+      "published": "02/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "5 dias Segurança Seu setup pode ser o elo mais fraco da segurança digital da empresa",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Quando pensamos em segurança digital , quase sempre imaginamos antivírus, autenticação em dois fatores, firewalls ou treinamentos contra phishing. Tudo isso continua sendo indispensável. Mas existe um elemento que costuma ficar fora dessa conversa e que, paradoxalmente, está presente na mesa de praticamente todos os profissionais: o hardware . Teclados, mouses, webcams, headsets e receptores USB deixaram há muito tempo de ser apenas acessórios. Eles fazem parte da infraestrutura tecnológica de qualquer empresa e, como qualquer dispositivo conectado, também precisam ser vistos sob a ótica da segurança. Essa mudança de perspectiva se tornou ainda mais importante nos últimos anos.",
+      "link": "https://canaltech.com.br/colunas/seu-setup-pode-ser-o-elo-mais-fraco-da-seguranca-digital-da-empresa/",
+      "published": "02/08/2026 12:00",
       "cves": [],
       "vendor": null
     }
