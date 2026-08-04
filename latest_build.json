@@ -1,61 +1,72 @@
 {
-  "generated_at": "2026-08-03T12:00:00.042037-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-08-04T12:00:00.049154-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica permitia controle de bancos de dados na Azure",
+      "title": "INC Ransomware explora falhas no SonicWall SMA1000",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Wiz, empresa de segurança em nuvem, publicou em 30 de julho um relatório detalhando uma cadeia de vulnerabilidades críticas no Azure Cosmos DB, serviço de banco de dados NoSQL da Microsoft . As falhas , batizadas de CosmosEscape , poderiam permitir que um atacante não autenticado obtivesse acesso total de leitura e escrita a qualquer banco de dados Cosmos DB, sem necessidade de privilégios, segundo o comunicado da Wiz . A vulnerabilidade residia na forma como o Azure Cosmos DB gerenciava as chaves de acesso primárias. O serviço utiliza uma arquitetura multi-tenant onde diferentes bancos de dados de clientes compartilham a mesma infraestrutura subjacente.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-permitia-controle-de-bancos-de-dados-na-azure/",
-      "published": "03/08/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "O grupo INC Ransomware está explorando ativamente duas vulnerabilidades recentes em appliances SonicWall SMA1000 para obter acesso root e realizar movimentação lateral, de acordo com um relatório publicado pela Resecurity. As falhas , rastreadas como CVE-2026-15409 (CVSS 10.0) e CVE-2026-15410 (CVSS 7.2), permitem que atacantes remotos não autenticados abram um túnel WebSocket para serviços restritos e elevem privilégios para root. Os patches para as vulnerabilidades foram publicados em 14 de julho e, no mesmo dia, as falhas foram adicionadas ao catálogo de Vulnerabilidades Conhecidas Exploradas (KEV) da CISA, após serem exploradas como zero-days desde pelo menos 22 de junho.",
+      "link": "https://www.cisoadvisor.com.br/inc-ransomware-explora-falhas-no-sonicwall-sma1000/",
+      "published": "04/08/2026 12:00",
+      "cves": [
+        "CVE-2026-15409",
+        "CVE-2026-15410"
+      ],
+      "vendor": "SonicWall"
     },
     {
-      "title": "Ataque à cadeia de suprimentos atinge repositório comunitário do Arch Linux",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "O Arch Linux suspendeu temporariamente a adoção de pacotes no Arch User Repository após identificar uma nova onda de contas assumindo projetos abandonados para inserir código malicioso. A medida foi ampliada posteriormente com o bloqueio de todos os novos envios ao AUR. A ação busca conter ataques à cadeia de suprimentos que exploram o sistema de manutenção comunitária. No AUR, usuários publicam arquivos PKGBUILD com instruções para baixar, compilar e instalar programas que não fazem parte dos repositórios oficiais. Criminosos estavam adotando pacotes sem mantenedores ativos e adicionando alterações maliciosas em commits posteriores.",
-      "link": "https://boletimsec.com/ataque-a-cadeia-de-suprimentos-atinge-repositorio-comunitario-do-arch-linux/",
-      "published": "03/08/2026 12:00",
-      "cves": [],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Ataques a sistemas industriais: América Latina em 2º",
+      "title": "TP-Link TL-WR940N tem falha crítica de execução remota de código",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A Kaspersky publicou dia 30 de julho seu relatório ICS CERT, revelando que 20,4% dos computadores de Sistemas de Controle Industrial (ICS) da América Latina foram afetados por artefatos maliciosos, posicionando a região como a segunda mais exposta a ameaças de perímetro em nível global. O percentual supera a média mundial de 19,7%, que atingiu o nível mais baixo desde 2022, segundo a empresa de segurança. O e-mail é um dos principais vetores iniciais de ataque na região, com uma taxa de 5,3% de computadores industriais afetados, equivalente a 1,9 vez a média global. O México lidera com ampla vantagem, com 9,51% dos equipamentos afetados, seguido pelo Uruguai, com 8,56%.",
-      "link": "https://www.cisoadvisor.com.br/ataques-a-sistemas-industriais-america-latina-em-2o/",
-      "published": "03/08/2026 12:00",
-      "cves": [],
+      "summary": "A TP-Link publicou um aviso de segurança sobre uma vulnerabilidade de alta gravidade que afeta o roteador sem fio TL-WR940N V6. A falha , registrada como CVE-2026-12935 (CVSS de 8.7), pode permitir que invasores não autenticados provoquem negação de serviço ou executem código remotamente em dispositivos vulneráveis, segundo a fabricante. O problema está no módulo de rastreamento de conexão RTSP do roteador, que processa tráfego de rede relacionado a streaming multimídia diretamente no kernel do dispositivo. De acordo com a TP-Link, a vulnerabilidade é causada por um estouro de buffer baseado em pilha, que ocorre quando dados especialmente criados excedem a memória alocada.",
+      "link": "https://www.cisoadvisor.com.br/tp-link-tl-wr940n-tem-falha-critica-de-execucao-remota-de-codigo/",
+      "published": "04/08/2026 12:00",
+      "cves": [
+        "CVE-2026-12935"
+      ],
       "vendor": null
     },
     {
-      "title": "Water Makara mira instituições financeiras no Brasil",
+      "title": "RufRoot: falha crítica expõe chaves de IA e memória de agentes",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "O grupo Water Makara, descoberto em outubro de 2024, direcionou seus ataques principalmente a instituições financeiras do Brasil com o objetivo de roubar dados, segundo o relatório “ 2025 APT Group Research Annual Repor t”, publicado recentemente pela NSFOCUS em parceria com o Instituto de Tecnologia Avançada do Ciberespaço da Universidade de Guangzhou, na China. Ao longo do ano passado, foram monitorados 86 indicadores de ameaças à infraestrutura de rede dos alvos, com três características principais: alta eficiência operacional, superfícies de ataque expandidas e ofensivas mais rápidas.",
-      "link": "https://www.cisoadvisor.com.br/water-makara-mira-instituicoes-financeiras-no-brasil/",
-      "published": "03/08/2026 12:00",
-      "cves": [],
+      "summary": "Pesquisadores do Noma Labs descobriram uma vulnerabilidade crítica, registrada como CVE-2026-59726 (CVSS de 10.0), na plataforma open source Ruflo para gerenciamento de agentes de IA. A falha , apelidada de RufRoot, afetou versões anteriores a 3.16.3 e permitiu que invasores obtivessem um shell de comandos na plataforma com uma única requisição POST, sem necessidade de autenticação. O Ruflo, que na publicação do estudo contava com mais de 67 mil estrelas no GitHub, ajuda desenvolvedores a criar grupos de agentes de IA.",
+      "link": "https://www.cisoadvisor.com.br/rufroot-falha-critica-expoe-chaves-de-ia-e-memoria-de-agentes/",
+      "published": "04/08/2026 12:00",
+      "cves": [
+        "CVE-2026-59726"
+      ],
       "vendor": null
     },
     {
-      "title": "Vazamento da SplitVPN expõe dados de 865 mil usuários",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "Um vazamento de dados da SplitVPN, serviço russo anteriormente conhecido como NotVPN, expôs informações pessoais de aproximadamente 865 mil usuários. O incidente ocorreu em julho de 2026 e envolveu e-mails, endereços IP, localização e dados parciais de cartões. O material comprometido teria sido retirado de um banco SQL de 17 GB e distribuído em um fórum cibercriminoso. A análise identificou cerca de 23,4 milhões de registros de usuários, 13,6 milhões de dispositivos e 2,6 milhões de pagamentos. A base também continha quase 58 milhões de registros de conexão, com informações sobre qual dispositivo acessou determinado servidor da VPN e o horário exato da atividade.",
-      "link": "https://boletimsec.com/vazamento-da-splitvpn-expoe-dados-de-865-mil-usuarios/",
-      "published": "03/08/2026 12:00",
-      "cves": [],
+      "title": "N-able: falha no N-central é explorada em ataques",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A N-able alertou os clientes que hackers estão explorando uma vulnerabilidade de bypass de autenticação ( CVE-2026-18577 ) que afeta servidores N-central , tanto hospedados quanto on-premises. A empresa publicou no domingo, 2 de agosto, o hotfix 2026.3.1.7 para corrigir o problema , que afeta todas as versões do N-central anteriores à 2026.3. No dia 1º de agosto, a fabricante divulgou que detectou exploração ativa e iniciou uma investigação que revelou preocupações adicionais de segurança afetando todas as versões do N-central, sua plataforma principal de Remoto Monitoring and Management (RMM). A empresa recomendou fortemente que todos os clientes atualizassem imediatamente para o hotfix.",
+      "link": "https://www.cisoadvisor.com.br/n-able-falha-no-n-central-e-explorada-em-ataques/",
+      "published": "04/08/2026 12:00",
+      "cves": [
+        "CVE-2026-18577"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "SQLite: CVE crítico é cancelado por ser alucinação de IA",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A vulnerabilidade crítica no SQLite, registrada como CVE-2026-51302 e originalmente classificada com pontuação CVSS de 10.0, foi retirada após se constatar que a falha de segurança não existe. O CVE, que descrevia uma suposta vulnerabilidade de execução de código no banco de dados SQLite, foi emitido por uma autoridade de numeração CVE (CNA) e incluído pela MITER sem revisão adicional, segundo Richard Hipp, desenvolvedor do SQLite. O SQLite é um mecanismo de banco de dados SQL sem servidor, amplamente utilizado em bilhões de instalações de software, presente em smartphones, navegadores, televisões, sistemas operacionais e muitas outras plataformas.",
+      "link": "https://www.cisoadvisor.com.br/sqlite-cve-critico-e-cancelado-por-ser-alucinacao-de-ia/",
+      "published": "04/08/2026 12:00",
+      "cves": [
+        "CVE-2026-51302"
+      ],
       "vendor": null
     }
   ]
