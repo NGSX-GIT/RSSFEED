@@ -1,73 +1,66 @@
 {
-  "generated_at": "2026-08-04T12:00:00.049154-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-08-05T12:00:00.027503-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "INC Ransomware explora falhas no SonicWall SMA1000",
-      "source": "CISO Advisor",
+      "title": "Falha crítica no cPanel permite executar comandos como administrador",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O grupo INC Ransomware está explorando ativamente duas vulnerabilidades recentes em appliances SonicWall SMA1000 para obter acesso root e realizar movimentação lateral, de acordo com um relatório publicado pela Resecurity. As falhas , rastreadas como CVE-2026-15409 (CVSS 10.0) e CVE-2026-15410 (CVSS 7.2), permitem que atacantes remotos não autenticados abram um túnel WebSocket para serviços restritos e elevem privilégios para root. Os patches para as vulnerabilidades foram publicados em 14 de julho e, no mesmo dia, as falhas foram adicionadas ao catálogo de Vulnerabilidades Conhecidas Exploradas (KEV) da CISA, após serem exploradas como zero-days desde pelo menos 22 de junho.",
-      "link": "https://www.cisoadvisor.com.br/inc-ransomware-explora-falhas-no-sonicwall-sma1000/",
-      "published": "04/08/2026 12:00",
+      "summary": "O cPanel corrigiu uma vulnerabilidade crítica que permite a clientes autenticados de serviços de hospedagem executar comandos SQL com privilégios administrativos. A falha pode expor bancos de dados de outros usuários e, em determinadas configurações, comprometer o próprio servidor. Identificado como CVE-2026-58048, o problema recebeu pontuação 9,4 no CVSS. Todas as versões suportadas do cPanel & WHM e o painel WP Squared foram afetados. A exploração exige uma conta válida no cPanel e acesso ao recurso MySQL ou MariaDB. Dessa forma, o risco é maior em servidores de hospedagem compartilhada, nos quais vários clientes utilizam a mesma infraestrutura.",
+      "link": "https://boletimsec.com/falha-critica-no-cpanel-permite-executar-comandos-como-administrador/",
+      "published": "05/08/2026 12:00",
       "cves": [
-        "CVE-2026-15409",
-        "CVE-2026-15410"
-      ],
-      "vendor": "SonicWall"
-    },
-    {
-      "title": "TP-Link TL-WR940N tem falha crítica de execução remota de código",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A TP-Link publicou um aviso de segurança sobre uma vulnerabilidade de alta gravidade que afeta o roteador sem fio TL-WR940N V6. A falha , registrada como CVE-2026-12935 (CVSS de 8.7), pode permitir que invasores não autenticados provoquem negação de serviço ou executem código remotamente em dispositivos vulneráveis, segundo a fabricante. O problema está no módulo de rastreamento de conexão RTSP do roteador, que processa tráfego de rede relacionado a streaming multimídia diretamente no kernel do dispositivo. De acordo com a TP-Link, a vulnerabilidade é causada por um estouro de buffer baseado em pilha, que ocorre quando dados especialmente criados excedem a memória alocada.",
-      "link": "https://www.cisoadvisor.com.br/tp-link-tl-wr940n-tem-falha-critica-de-execucao-remota-de-codigo/",
-      "published": "04/08/2026 12:00",
-      "cves": [
-        "CVE-2026-12935"
+        "CVE-2026-58048"
       ],
       "vendor": null
     },
     {
-      "title": "RufRoot: falha crítica expõe chaves de IA e memória de agentes",
-      "source": "CISO Advisor",
+      "title": "Exploit público amplia risco de ataques contra aplicações Ruby on Rails",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores do Noma Labs descobriram uma vulnerabilidade crítica, registrada como CVE-2026-59726 (CVSS de 10.0), na plataforma open source Ruflo para gerenciamento de agentes de IA. A falha , apelidada de RufRoot, afetou versões anteriores a 3.16.3 e permitiu que invasores obtivessem um shell de comandos na plataforma com uma única requisição POST, sem necessidade de autenticação. O Ruflo, que na publicação do estudo contava com mais de 67 mil estrelas no GitHub, ajuda desenvolvedores a criar grupos de agentes de IA.",
-      "link": "https://www.cisoadvisor.com.br/rufroot-falha-critica-expoe-chaves-de-ia-e-memoria-de-agentes/",
-      "published": "04/08/2026 12:00",
+      "summary": "Uma prova de conceito pública demonstrou como a vulnerabilidade CVE-2026-66066 pode levar à execução remota de código em aplicações Ruby on Rails. A falha, chamada KindaRails2Shell, afeta o processamento de arquivos pelo Active Storage. O problema atinge aplicações que usam o libvips para criar variantes de imagens e permitem uploads enviados por usuários não confiáveis. Nessas condições, um arquivo especialmente preparado pode acionar operações inseguras da biblioteca. A exploração começa com a leitura de arquivos acessíveis ao processo do Rails.",
+      "link": "https://boletimsec.com/exploit-publico-amplia-risco-de-ataques-contra-aplicacoes-ruby-on-rails/",
+      "published": "05/08/2026 12:00",
       "cves": [
-        "CVE-2026-59726"
+        "CVE-2026-66066"
       ],
       "vendor": null
     },
     {
-      "title": "N-able: falha no N-central é explorada em ataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A N-able alertou os clientes que hackers estão explorando uma vulnerabilidade de bypass de autenticação ( CVE-2026-18577 ) que afeta servidores N-central , tanto hospedados quanto on-premises. A empresa publicou no domingo, 2 de agosto, o hotfix 2026.3.1.7 para corrigir o problema , que afeta todas as versões do N-central anteriores à 2026.3. No dia 1º de agosto, a fabricante divulgou que detectou exploração ativa e iniciou uma investigação que revelou preocupações adicionais de segurança afetando todas as versões do N-central, sua plataforma principal de Remoto Monitoring and Management (RMM). A empresa recomendou fortemente que todos os clientes atualizassem imediatamente para o hotfix.",
-      "link": "https://www.cisoadvisor.com.br/n-able-falha-no-n-central-e-explorada-em-ataques/",
-      "published": "04/08/2026 12:00",
-      "cves": [
-        "CVE-2026-18577"
-      ],
+      "title": "Malware cria serviços de vigilância para permanecer ativo no Android",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Um trojan de acesso remoto para Android chamado Octagon está se passando pelo aplicativo de alertas emergenciais do Bahrein para assumir o controle de celulares e roubar informações sensíveis. A infecção começa com o download do arquivo BH-Alert.apk em páginas de phishing. O aplicativo imita serviços oficiais e conduz a vítima por sete etapas para obter permissões perigosas. O primeiro componente mantém parte do código criptografada em um arquivo com extensão de fonte. O conteúdo é decodificado e carregado apenas durante a execução, dificultando análises estáticas. Em seguida, o malware instala um segundo aplicativo chamado OctagonPanel.",
+      "link": "https://boletimsec.com/malware-cria-servicos-de-vigilancia-para-permanecer-ativo-no-android/",
+      "published": "05/08/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "SQLite: CVE crítico é cancelado por ser alucinação de IA",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A vulnerabilidade crítica no SQLite, registrada como CVE-2026-51302 e originalmente classificada com pontuação CVSS de 10.0, foi retirada após se constatar que a falha de segurança não existe. O CVE, que descrevia uma suposta vulnerabilidade de execução de código no banco de dados SQLite, foi emitido por uma autoridade de numeração CVE (CNA) e incluído pela MITER sem revisão adicional, segundo Richard Hipp, desenvolvedor do SQLite. O SQLite é um mecanismo de banco de dados SQL sem servidor, amplamente utilizado em bilhões de instalações de software, presente em smartphones, navegadores, televisões, sistemas operacionais e muitas outras plataformas.",
-      "link": "https://www.cisoadvisor.com.br/sqlite-cve-critico-e-cancelado-por-ser-alucinacao-de-ia/",
-      "published": "04/08/2026 12:00",
-      "cves": [
-        "CVE-2026-51302"
-      ],
-      "vendor": null
+      "title": "4 dias Segurança Microsoft lidera lista de marcas mais usadas por hackers; veja ranking completo",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A Microsoft segue como a marca mais usada por criminosos em ataques de phishing. Segundo o relatório do segundo trimestre de 2026 da Check Point Research, a empresa aparece em 22,6% de todas as tentativas de personificação de marca registradas no período, quase o dobro da segunda colocada, o LinkedIn. O levantamento também mostra a primeira entrada do ChatGPT no top 10 da lista, sinal de que ferramentas de inteligência artificial já são alvo recorrente de golpistas. O ranking de marcas mais imitadas no trimestre, com a variação de posição em relação ao primeiro trimestre de 2026, ficou assim:",
+      "link": "https://canaltech.com.br/seguranca/microsoft-lidera-lista-de-marcas-mais-usadas-por-hackers-veja-ranking-completo/",
+      "published": "05/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "1 hora Segurança Novo ataque explora gerenciador de senhas do Chrome no Windows",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Pesquisadores da empresa de cibersegurança Unit 42 identificaram três novos métodos de ataque capazes de burlar a proteção por passkeys no gerenciador de senhas do Google Chrome para Windows. As técnicas, batizadas de Pass-ta-key, Silver Pass-ta-key e Golden Pass-ta-key , permitem que softwares maliciosos acessem contas protegidas sem exigir a validação de biometria ou PIN do usuário. A exploração exige que o dispositivo Windows equipado com módulo de plataforma confiável (TPM) esteja previamente infectado por um malware em execução. A partir do acesso local, o programa malicioso lê os metadados de credenciais sincronizadas do Chrome armazenados na pasta de dados do sistema.",
+      "link": "https://canaltech.com.br/seguranca/novo-ataque-explora-gerenciador-de-senhas-do-chrome-no-windows/",
+      "published": "05/08/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
     }
   ]
 }
