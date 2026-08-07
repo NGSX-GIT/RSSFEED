@@ -1,66 +1,72 @@
 {
-  "generated_at": "2026-08-06T12:00:00.023008-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-08-07T12:00:00.537951-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Relatório da CrowdStrike alerta para IA como ferramenta e alvo",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "cloud",
-      "summary": "A CrowdStrike publicou o Relatório de Caça a Ameaças 2026, revelando que a IA agora está incorporada às operações dos adversários modernos. O documento aponta que grupos vinculados à China exploraram vulnerabilidades críticas em até 24 horas após a divulgação pública da prova de conceito, enquanto agentes ligados à Coreia do Norte infectaram 131 pacotes de frameworks de inteligência artificial. “Os atores maliciosos usaram IA para gerar cargas úteis e comandos Shell, explorar infraestrutura de IA e abusar de LLMs corporativos”, afirmou Adam Meyers, executivo-chefe de operações contra adversários da CrowdStrike. A empresa monitora mais de 290 adversários nomeados.",
-      "link": "https://www.cisoadvisor.com.br/relatorio-da-crowdstrike-alerta-para-ia-como-ferramenta-e-alvo/",
-      "published": "06/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha grave no Django pode levar à execução remota de código",
+      "title": "AWS e Vercel corrigem falhas críticas em agentes de IA",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O Django lançou as versões 6.0.8 e 5.2.17 para corrigir quatro vulnerabilidades que podem causar gravação de arquivos, requisições indevidas, negação de serviço e ataques de cross-site scripting. Desenvolvedores devem atualizar aplicações e servidores com prioridade. A falha mais grave, CVE-2026-15307, afeta consultas espaciais que processam dados raster pelo GDALRaster. Valores manipulados podem levar o servidor a gravar arquivos ou fazer conexões externas com as permissões do processo do Django. Em algumas configurações, a gravação pode resultar em execução remota de código.",
-      "link": "https://boletimsec.com/falha-grave-no-django-pode-levar-a-execucao-remota-de-codigo/",
-      "published": "06/08/2026 12:00",
+      "summary": "A AWS e a Vercel corrigiram vulnerabilidades em plataformas de agentes de inteligência artificial que permitiam executar ferramentas sem uma autorização legítima do modelo. Em alguns cenários, comandos sensíveis podiam ser acionados sem que a IA analisasse ou aprovasse a operação. As falhas fazem parte de um padrão chamado CoreBreak. O problema ocorria quando a infraestrutura interpretava uma chamada de ferramenta enviada pelo usuário como prova de que aquela ação havia sido produzida e autorizada pelo agente. Na AWS, a CVE-2026-18830 afetava a API InvokeHarness do Amazon Bedrock AgentCore.",
+      "link": "https://boletimsec.com/aws-e-vercel-corrigem-falhas-criticas-em-agentes-de-ia/",
+      "published": "07/08/2026 12:00",
       "cves": [
-        "CVE-2026-15307"
+        "CVE-2026-18830"
+      ],
+      "vendor": "AWS"
+    },
+    {
+      "title": "Falha crítica no Paperclip permite acesso administrativo e RCE",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade de bypass de autorização na plataforma Paperclip, identificada como CVE-2026-41679 (CVSS 10), poderia permitir que atacantes remotos obtivessem execução arbitrária de código com as permissões do servidor, conforme relatório técnico publicado ontem pela Oasis Security. A falha afeta instâncias acessíveis pela rede com configurações padrão de modo autenticado. A Oasis Security explica em seu relatório que um atacante poderia explorar a ausência de verificação de autorização para auto-registrar uma conta sem validação de e-mail.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-paperclip-permite-acesso-administrativo-e-rce/",
+      "published": "07/08/2026 12:00",
+      "cves": [
+        "CVE-2026-41679"
       ],
       "vendor": null
     },
     {
-      "title": "Tesouro da Hungria atingido em ataque com criptografia",
+      "title": "Cisco corrige falhas críticas no Catalyst SD-WAN, IOS XE e FMC",
       "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "O Tesouro da Hungria sofreu um ataque cibernético com roubo de dados e criptografia de arquivos, executado pelo mesmo hacker que invadiu e apagou o banco de dados de registros de terras da Romênia no mês passado, segundo informações da newsletter Risky Biz e do site húngaro Telex. O incidente, ocorrido na semana passada, afetou a área de Agricultura e Desenvolvimento Rural do Tesouro (MVH) e partes dos dados roubados já foram colocados à venda em fóruns clandestinos. O hacker, que fez o ataque, conhecido como ByteToBreach , foi identificado pela empresa de segurança Kela como Zakaria Mahdjoub, morador de Oran, na Argélia.",
-      "link": "https://www.cisoadvisor.com.br/tesouro-da-hungria-atingido-em-ataque-com-criptografia/",
-      "published": "06/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha em BMC expõe 24 mil data centers a ataque",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Mais de 24 mil interfaces de gerenciamento de servidores acessíveis pela internet divulgam hashes de autenticação antes do login. A vulnerabilidade CVE-2013-4786 , introduzida em 2004 no protocolo IPMI 2.0, permite que invasores obtenham hashes de senha e os decifrem offline. A falha afeta os processadores de gerenciamento Baseboard Management Controller (BMC) presentes na maioria das plataformas de servidores.",
-      "link": "https://www.cisoadvisor.com.br/falha-em-bmc-expoe-24-mil-data-centers-a-ataque/",
-      "published": "06/08/2026 12:00",
+      "summary": "A Cisco publicou ontem correções para duas dúzias de vulnerabilidades em seus produtos, incluindo bugs de severidade crítica no Catalyst SD-WAN, IOS XE e Secure Firewall Management Center (FMC). A empresa alerta que uma das falhas, com CVSS 10, permite autenticação bypass e execução remota de scripts com privilégios root. Para o Catalyst SD-WAN, a Cisco lançou cinco correções . De acordo com o comunicado da empresa, três vulnerabilidades (CVE-2026-20303, CVE-2026-20304 e CVE-2026-20310) têm pontuação CVSS de 9.9 e são descritas como problemas de validação de entrada, controle de acesso e resolução de link antes do acesso a arquivos.",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-falhas-criticas-no-catalyst-sd-wan-ios-xe-e-fmc/",
+      "published": "07/08/2026 12:00",
       "cves": [
-        "CVE-2013-4786"
+        "CVE-2026-20303",
+        "CVE-2026-20304",
+        "CVE-2026-20310"
       ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Netscout leva capacidade de mitigação de DDoS a 33 Tbps",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Netscout anunciou em 24 de julho a expansão da capacidade de mitigação de ataques DDoS de seu serviço Arbor Cloud para 33 Tbps, o dobro do limite anterior de 15 Tbps, de acordo com o comunicado oficial da empresa . O movimento ocorre após a aquisição da infraestrutura por trás do Arbor Cloud, anteriormente gerenciada por terceiros, que a Netscout comprou da DigiCert Inc. por US$ 55 milhões em maio. A expansão coloca a Netscout em posição para enfrentar ataques DDoS de escala recorde, como o ataque do botnet Aisuru no final de 2025, que atingiu 31,4 Tbps.",
+      "link": "https://www.cisoadvisor.com.br/netscout-leva-capacidade-de-mitigacao-de-ddos-a-33-tbps/",
+      "published": "07/08/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Ataque a pacotes NPM afeta mais de 430 bibliotecas de software",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "title": "Cisco corrige falhas graves que ameaçam equipamentos de rede",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Um invasor comprometeu a conta de um mantenedor de pacotes populares no npm e espalhou um programa malicioso que rouba credenciais de acesso. Segundo Ilyas Makari, que divulgou o caso em 4 de agosto, o ataque atingiu diretamente o pacote keyv, usado em cerca de 127 milhões de downloads semanais, e se propagou para outros 433 pacotes, totalizando mais de 2 bilhões de instalações mensais combinadas. O atacante injetou um código escondido em novas versões dessas bibliotecas. Qualquer desenvolvedor ou sistema que baixasse uma dessas versões executava o programa malicioso sem perceber.",
-      "link": "https://www.cisoadvisor.com.br/ataque-a-pacotes-npm-afeta-mais-de-430-bibliotecas-de-software/",
-      "published": "06/08/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "summary": "A Cisco lançou uma atualização de segurança para corrigir sete vulnerabilidades no IOS XE, sistema utilizado em roteadores, switches, controladores sem fio e outros equipamentos corporativos. A falha mais grave recebeu pontuação CVSS 9,8. Identificada como CVE-2026-20272, a vulnerabilidade envolve o tratamento inadequado de elementos especiais em comandos. O problema pode permitir injeção de instruções, execução de operações não autorizadas e comprometimento do dispositivo pela rede. As demais vulnerabilidades afetam o gerenciamento de memória, o ciclo de vida de recursos, cálculos numéricos, o fluxo de execução e a validação de entradas.",
+      "link": "https://boletimsec.com/cisco-corrige-falhas-graves-que-ameacam-equipamentos-de-rede/",
+      "published": "07/08/2026 12:00",
+      "cves": [
+        "CVE-2026-20272"
+      ],
+      "vendor": "Cisco"
     }
   ]
 }
