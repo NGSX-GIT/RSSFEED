@@ -1,72 +1,62 @@
 {
-  "generated_at": "2026-08-07T12:00:00.537951-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-08-08T12:00:00.039632-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "AWS e Vercel corrigem falhas críticas em agentes de IA",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A AWS e a Vercel corrigiram vulnerabilidades em plataformas de agentes de inteligência artificial que permitiam executar ferramentas sem uma autorização legítima do modelo. Em alguns cenários, comandos sensíveis podiam ser acionados sem que a IA analisasse ou aprovasse a operação. As falhas fazem parte de um padrão chamado CoreBreak. O problema ocorria quando a infraestrutura interpretava uma chamada de ferramenta enviada pelo usuário como prova de que aquela ação havia sido produzida e autorizada pelo agente. Na AWS, a CVE-2026-18830 afetava a API InvokeHarness do Amazon Bedrock AgentCore.",
-      "link": "https://boletimsec.com/aws-e-vercel-corrigem-falhas-criticas-em-agentes-de-ia/",
-      "published": "07/08/2026 12:00",
-      "cves": [
-        "CVE-2026-18830"
-      ],
-      "vendor": "AWS"
-    },
-    {
-      "title": "Falha crítica no Paperclip permite acesso administrativo e RCE",
+      "title": "Localizado agente autônomo de IA em ataques cibernéticos",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de bypass de autorização na plataforma Paperclip, identificada como CVE-2026-41679 (CVSS 10), poderia permitir que atacantes remotos obtivessem execução arbitrária de código com as permissões do servidor, conforme relatório técnico publicado ontem pela Oasis Security. A falha afeta instâncias acessíveis pela rede com configurações padrão de modo autenticado. A Oasis Security explica em seu relatório que um atacante poderia explorar a ausência de verificação de autorização para auto-registrar uma conta sem validação de e-mail.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-paperclip-permite-acesso-administrativo-e-rce/",
-      "published": "07/08/2026 12:00",
-      "cves": [
-        "CVE-2026-41679"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Cisco corrige falhas críticas no Catalyst SD-WAN, IOS XE e FMC",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco publicou ontem correções para duas dúzias de vulnerabilidades em seus produtos, incluindo bugs de severidade crítica no Catalyst SD-WAN, IOS XE e Secure Firewall Management Center (FMC). A empresa alerta que uma das falhas, com CVSS 10, permite autenticação bypass e execução remota de scripts com privilégios root. Para o Catalyst SD-WAN, a Cisco lançou cinco correções . De acordo com o comunicado da empresa, três vulnerabilidades (CVE-2026-20303, CVE-2026-20304 e CVE-2026-20310) têm pontuação CVSS de 9.9 e são descritas como problemas de validação de entrada, controle de acesso e resolução de link antes do acesso a arquivos.",
-      "link": "https://www.cisoadvisor.com.br/cisco-corrige-falhas-criticas-no-catalyst-sd-wan-ios-xe-e-fmc/",
-      "published": "07/08/2026 12:00",
-      "cves": [
-        "CVE-2026-20303",
-        "CVE-2026-20304",
-        "CVE-2026-20310"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Netscout leva capacidade de mitigação de DDoS a 33 Tbps",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Netscout anunciou em 24 de julho a expansão da capacidade de mitigação de ataques DDoS de seu serviço Arbor Cloud para 33 Tbps, o dobro do limite anterior de 15 Tbps, de acordo com o comunicado oficial da empresa . O movimento ocorre após a aquisição da infraestrutura por trás do Arbor Cloud, anteriormente gerenciada por terceiros, que a Netscout comprou da DigiCert Inc. por US$ 55 milhões em maio. A expansão coloca a Netscout em posição para enfrentar ataques DDoS de escala recorde, como o ataque do botnet Aisuru no final de 2025, que atingiu 31,4 Tbps.",
-      "link": "https://www.cisoadvisor.com.br/netscout-leva-capacidade-de-mitigacao-de-ddos-a-33-tbps/",
-      "published": "07/08/2026 12:00",
+      "category": "threat",
+      "summary": "O Laboratório de Pesquisa em Ameaças da Unit 42 identificou uma campanha de hacking autônoma habilitada por IA, conduzida por um ator de perfil que fala chinês. De acordo com o relatório técnico publicado em 30 de julho, o invasor utilizou o modelo DeepSeek por meio do framework Hermes Agent para realizar enumeração autônoma de alvos, busca por ferramentas de exploração e execução de ataques sem intervenção humana. O ator, operando sob os pseudônimos knaithe e KnYuan, orquestrou as operações via Telegram. O relatório da Unit 42 aponta que o agente Hermes, com DeepSeek como motor de raciocínio, conduziu pesquisas autônomas por vulnerabilidades críticas .",
+      "link": "https://www.cisoadvisor.com.br/unit-42-mapeia-agente-autonomo-de-ia-em-ataques-ciberneticos/",
+      "published": "08/08/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cisco corrige falhas graves que ameaçam equipamentos de rede",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "title": "Grupo de ransomware rouba credenciais analisando a RAM",
+      "source": "CISO Advisor",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Cisco lançou uma atualização de segurança para corrigir sete vulnerabilidades no IOS XE, sistema utilizado em roteadores, switches, controladores sem fio e outros equipamentos corporativos. A falha mais grave recebeu pontuação CVSS 9,8. Identificada como CVE-2026-20272, a vulnerabilidade envolve o tratamento inadequado de elementos especiais em comandos. O problema pode permitir injeção de instruções, execução de operações não autorizadas e comprometimento do dispositivo pela rede. As demais vulnerabilidades afetam o gerenciamento de memória, o ciclo de vida de recursos, cálculos numéricos, o fluxo de execução e a validação de entradas.",
-      "link": "https://boletimsec.com/cisco-corrige-falhas-graves-que-ameacam-equipamentos-de-rede/",
-      "published": "07/08/2026 12:00",
-      "cves": [
-        "CVE-2026-20272"
-      ],
-      "vendor": "Cisco"
+      "summary": "A Sophos X-Ops publicou uma pesquisa sobre o grupo de ransomware Interlock (GOLD EMBRACE), que se destaca por fugir do modelo tradicional de Ransomware como Serviço (RaaS) e operar como uma equipe especializada que desenvolve suas próprias ferramentas e conduz seus próprios ataques. Durante uma investigação de resposta a incidentes realizada em março de 2026, os analistas da Sophos observaram o grupo utilizando o Volatility3, uma ferramenta legítima de análise de memória, para capturar credenciais de endpoints. O relatório reconstitui toda a cadeia de ataque, desde o acesso inicial com uma isca ClickFix até a movimentação lateral e o impacto final do ransomware.",
+      "link": "https://www.cisoadvisor.com.br/grupo-de-ransomware-rouba-credenciais-analisando-a-ram/",
+      "published": "08/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "19 horas Segurança Falha grave de privacidade está vazando o IP de usuários do iPhone",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O serviço de Retransmissão Privada do iCloud , usado para esconder o endereço IP do usuário durante a navegação na interenet, tem uma vulnerabilidade que permite que sites e provedores acessem o IP mesmo com o recurso ligado . O incidente foi divulgado pela desenvolvedora Mysk e publicado pelo site 404 Media. O problema envolve a estrutura de navegação da Apple e o uso de passkeys para acessar um site ou aplicativo. Como o processamento dos passkeys ocorre em ambiente virtual diferente, o endereço pode ser exposto aos rastreadores.",
+      "link": "https://canaltech.com.br/seguranca/falha-grave-de-privacidade-esta-vazando-o-ip-de-usuarios-do-i-phone/",
+      "published": "08/08/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
+    },
+    {
+      "title": "3 dias Segurança Novo ataque explora gerenciador de senhas do Chrome no Windows",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Pesquisadores da empresa de cibersegurança Unit 42 identificaram três novos métodos de ataque capazes de burlar a proteção por passkeys no gerenciador de senhas do Google Chrome para Windows. As técnicas, batizadas de Pass-ta-key, Silver Pass-ta-key e Golden Pass-ta-key , permitem que softwares maliciosos acessem contas protegidas sem exigir a validação de biometria ou PIN do usuário. A exploração exige que o dispositivo Windows equipado com módulo de plataforma confiável (TPM) esteja previamente infectado por um malware em execução. A partir do acesso local, o programa malicioso lê os metadados de credenciais sincronizadas do Chrome armazenados na pasta de dados do sistema.",
+      "link": "https://canaltech.com.br/seguranca/novo-ataque-explora-gerenciador-de-senhas-do-chrome-no-windows/",
+      "published": "08/08/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
+    },
+    {
+      "title": "31.07.26 Segurança Microsoft lidera lista de marcas mais usadas por hackers; veja ranking completo",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A Microsoft segue como a marca mais usada por criminosos em ataques de phishing. Segundo o relatório do segundo trimestre de 2026 da Check Point Research, a empresa aparece em 22,6% de todas as tentativas de personificação de marca registradas no período, quase o dobro da segunda colocada, o LinkedIn. O levantamento também mostra a primeira entrada do ChatGPT no top 10 da lista, sinal de que ferramentas de inteligência artificial já são alvo recorrente de golpistas. O ranking de marcas mais imitadas no trimestre, com a variação de posição em relação ao primeiro trimestre de 2026, ficou assim:",
+      "link": "https://canaltech.com.br/seguranca/microsoft-lidera-lista-de-marcas-mais-usadas-por-hackers-veja-ranking-completo/",
+      "published": "08/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
