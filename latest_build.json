@@ -1,66 +1,71 @@
 {
-  "generated_at": "2026-08-10T12:00:00.022701-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-08-11T12:00:00.034056-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Metabase confirma exploração ativa de falha crítica",
+      "title": "Ransomware explora falhas críticas em gateways SonicWall",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Metabase confirmou que uma vulnerabilidade zero-day crítica, rastreada como GHSA-vwf4-m7j8-wcjf, está sendo ativamente explorada para conceder acesso administrativo completo a instâncias não corrigidas. De acordo com o comunicado da empresa, a falha atinge todas as versões a partir do lançamento 1 .58 e permite que atacantes não autenticados executem injeções de SQL no endpoint POST /api/session/reset_password. A vulnerabilidade possui pontuação CVSS máxima de 10.0 e afeta os branches 0.58 a 0.63, conforme informou a Metabase. A empresa detectou o abuso após sua própria plataforma SaaS ser comprometida em 3 de agosto, quando um invasor usou a falha para violar instâncias de clientes.",
-      "link": "https://www.cisoadvisor.com.br/metabase-confirma-exploracao-ativa-de-falha-critica/",
-      "published": "10/08/2026 12:00",
+      "summary": "A CISA confirmou que grupos de ransomware estão explorando duas vulnerabilidades recentemente corrigidas em gateways de acesso remoto SonicWall SMA1000, incluindo uma falha de severidade máxima do tipo SSRF. As vulnerabilidades, rastreadas como CVE-2026-15409 e CVE-2026-15410, foram alvo de ataques desde pelo menos 22 de junho, semanas antes da divulgação pública de patches pela SonicWall em meados de julho. Os gateways SMA1000 são utilizados por grandes corporações, agências governamentais e provedores de serviços gerenciados para fornecer acesso VPN.",
+      "link": "https://www.cisoadvisor.com.br/ransomware-explora-falhas-criticas-em-gateways-sonicwall-sma1000/",
+      "published": "11/08/2026 12:00",
+      "cves": [
+        "CVE-2026-15409",
+        "CVE-2026-15410"
+      ],
+      "vendor": "SonicWall"
+    },
+    {
+      "title": "Cisco alerta para falhas críticas no ClamAV com PoC público",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco Systems publicou, na sexta-feira, 7 de agosto, um aviso sobre sete vulnerabilidades de alta severidade que afetam o mecanismo de detecção de malware ClamAV , presentes em seus produtos Secure Endpoint Connector para Windows, macOS e Linux. Um atacante remoto não autenticado pode explorar as falhas para causar uma condição de negação de serviço (DoS), interrompendo a varredura antimalware. Os problemas, identificados pelos códigos CVE-2026-20337 a CVE-2026-20339 e CVE-2026-20345 a CVE-2026-20348, residem nos analisadores sintáticos do ClamAV para os formatos ZIP, GPT, PESpin, PDF, Mach-O e XAR.",
+      "link": "https://www.cisoadvisor.com.br/cisco-alerta-para-falhas-criticas-no-clamav-com-poc-publico/",
+      "published": "11/08/2026 12:00",
+      "cves": [
+        "CVE-2026-20337",
+        "CVE-2026-20339",
+        "CVE-2026-20345",
+        "CVE-2026-20348"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Exploração ativa de falha crítica no Progress LoadMaster",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A CISA emitiu um alerta sobre a exploração ativa de uma vulnerabilidade crítica de injeção de comandos no Progress Kemp LoadMaster , rastreada como CVE-2026-8037 . A falha permite que atacantes não autenticados executem comandos arbitrários em dispositivos não corrigidos, explorando entradas não sanitizadas da API em múltiplos endpoints de comando. O Kemp LoadMaster é um controlador de entrega de aplicações (ADC) e balanceador de carga utilizado por empresas de tecnologia e entidades governamentais, incluindo a Força Aérea dos EUA. A Progress Software informa que 80% das empresas da Fortune 500 usam seus produtos, com mais de 100.000 implantações do LoadMaster globalmente.",
+      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-critica-no-progress-loadmaster/",
+      "published": "11/08/2026 12:00",
+      "cves": [
+        "CVE-2026-8037"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Falha Zero Day no Metabase expõe credenciais e dados empresariais",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade zero day crítica no Metabase está sendo explorada em ataques reais para obter acesso administrativo sem autenticação. A falha de injeção SQL recebeu pontuação máxima de 10 no CVSS e afeta versões recentes da plataforma de análise de dados. O problema está no endpoint /api/session/reset_password, acessível remotamente em instalações expostas. Um invasor pode enviar comandos SQL especialmente preparados diretamente ao banco de dados utilizado pelo Metabase, sem precisar de credenciais. Após explorar a brecha, o atacante pode modificar registros e conseguir privilégios administrativos na aplicação.",
+      "link": "https://boletimsec.com/falha-zero-day-no-metabase-expoe-credenciais-e-dados-empresariais/",
+      "published": "11/08/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Chrome 151 corrige 41 falhas críticas e de alta severidade",
+      "title": "Patches gerados por IA falham em 54% dos casos",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O Google publicou na última quinta-feira uma atualização do Chrome 151 que corrige 41 vulnerabilidades, incluindo seis falhas críticas, conforme informou a empresa. Entre os bugs de memória corrigidos, destacam-se cinco erros do tipo “use-after-free” nos componentes WebGL, Aura, Skia e Views, além de uma escrita fora dos limites no mecanismo gráfico ANGLE. De acordo com o comunicado do Google, a atualização do Chrome, que agora está disponível nas versões 151.0.7922.108/.109 para Windows e macOS e 151.0.7922.108 para Linux, elimina mais de duas dúzias de falhas de segurança de memória que poderiam levar à corrupção de dados, travamentos e execução remota de código.",
-      "link": "https://www.cisoadvisor.com.br/chrome-151-corrige-41-falhas-criticas-e-de-alta-severidade/",
-      "published": "10/08/2026 12:00",
+      "summary": "A Off-by-1 Labs, equipe de pesquisa da 1Password, publicou um estudo concluindo que patches gerados por LLMs para vulnerabilidades complexas são ineficazes ou introduzem novas falhas em 53,9% das tentativas, segundo o relatório da empresa . A pesquisa analisou 6.080 patches produzidos por modelos da OpenAI e Anthropic para seis vulnerabilidades recentemente divulgadas em software open source. A taxa média de sucesso para gerar um patch que resolvesse completamente a vulnerabilidade sem alterar o comportamento da aplicação foi de apenas 26,0%, de acordo com o estudo.",
+      "link": "https://www.cisoadvisor.com.br/patches-gerados-por-ia-falham-em-54-dos-casos/",
+      "published": "11/08/2026 12:00",
       "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "Google corrige falhas críticas no Chrome que ameaçam computadores",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Google lançou o Chrome 151 com correções para 41 vulnerabilidades de segurança, incluindo seis falhas críticas capazes de causar corrupção de memória, travamentos e possível execução de código malicioso no computador da vítima. As versões 151.0.7922.108 e 151.0.7922.109 estão sendo distribuídas para Windows e macOS, enquanto usuários de Linux recebem a edição 151.0.7922.108. A liberação ocorre gradualmente. Entre os problemas mais graves estão duas vulnerabilidades use-after-free no WebGL, registradas como CVE-2026-19137 e CVE-2026-19170. Esse tipo de falha ocorre quando o navegador continua acessando uma região da memória depois que ela já foi liberada.",
-      "link": "https://boletimsec.com/google-corrige-falhas-criticas-no-chrome-que-ameacam-computadores/",
-      "published": "10/08/2026 12:00",
-      "cves": [
-        "CVE-2026-19137",
-        "CVE-2026-19170"
-      ],
-      "vendor": "Google"
-    },
-    {
-      "title": "Falhas críticas em plataformas Java permitem execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Pesquisadores identificaram 12 vulnerabilidades em plataformas Java corporativas capazes de abrir caminho para execução remota de código, inclusive sem autenticação. As falhas atingem componentes de middleware e incluem um escape de sandbox e quatro problemas exploráveis antes do login. Os casos mais graves envolvem o Bonita BPM 10.4.3 e o Apache OFBiz 24.09.05. Em ambos, diferentes falhas podem ser encadeadas para alcançar recursos internos que deveriam permanecer inacessíveis a usuários externos. No Bonita BPM, o ataque explora diferenças na interpretação de URLs entre componentes do servidor.",
-      "link": "https://boletimsec.com/falhas-criticas-em-plataformas-java-permitem-execucao-remota-de-codigo/",
-      "published": "10/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "WordPress corrige falha grave que pode levar à execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de alta gravidade no núcleo do WordPress pode transformar uma simples tentativa de login maliciosa em execução de código PHP no servidor. Batizada de XSS2Shell e registrada como CVE-2026-64638, a falha recebeu nota 8,9 no CVSS. O problema começa como um cross-site scripting refletido na tela de autenticação. Um invasor sem conta pode enviar um nome de usuário especialmente preparado que passa pelos mecanismos de sanitização e acaba interpretado como conteúdo HTML pelo navegador. A cadeia explora uma diferença na forma como funções do PHP e do próprio WordPress interpretam determinados caracteres.",
-      "link": "https://boletimsec.com/wordpress-corrige-falha-grave-que-pode-levar-a-execucao-remota-de-codigo/",
-      "published": "10/08/2026 12:00",
-      "cves": [
-        "CVE-2026-64638"
-      ],
       "vendor": null
     }
   ]
