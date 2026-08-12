@@ -1,72 +1,75 @@
 {
-  "generated_at": "2026-08-11T12:00:00.034056-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-08-12T12:00:00.815671-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Ransomware explora falhas críticas em gateways SonicWall",
+      "title": "Microsoft corrige 400 falhas, incluindo três zero-days",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA confirmou que grupos de ransomware estão explorando duas vulnerabilidades recentemente corrigidas em gateways de acesso remoto SonicWall SMA1000, incluindo uma falha de severidade máxima do tipo SSRF. As vulnerabilidades, rastreadas como CVE-2026-15409 e CVE-2026-15410, foram alvo de ataques desde pelo menos 22 de junho, semanas antes da divulgação pública de patches pela SonicWall em meados de julho. Os gateways SMA1000 são utilizados por grandes corporações, agências governamentais e provedores de serviços gerenciados para fornecer acesso VPN.",
-      "link": "https://www.cisoadvisor.com.br/ransomware-explora-falhas-criticas-em-gateways-sonicwall-sma1000/",
-      "published": "11/08/2026 12:00",
-      "cves": [
-        "CVE-2026-15409",
-        "CVE-2026-15410"
-      ],
-      "vendor": "SonicWall"
+      "summary": "A Microsoft lançou, nesta terça-feira, 11 de agosto, as atualizações de segurança do Patch Tuesday de agosto de 2026, que corrigem um total de 400 vulnerabilidades em seus produtos. O pacote inclui correções para 42 falhas classificadas como “Críticas”, sendo 37 relacionadas a execução remota de código e cinco a elevação de privilégio. A empresa também corrigiu três vulnerabilidades do tipo zero-day, sendo uma explorada ativamente e duas divulgadas publicamente.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-400-falhas-incluindo-tres-zero-days/",
+      "published": "12/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     },
     {
-      "title": "Cisco alerta para falhas críticas no ClamAV com PoC público",
+      "title": "SAP corrige falhas críticas de injeção de código e corrupção de memória",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Cisco Systems publicou, na sexta-feira, 7 de agosto, um aviso sobre sete vulnerabilidades de alta severidade que afetam o mecanismo de detecção de malware ClamAV , presentes em seus produtos Secure Endpoint Connector para Windows, macOS e Linux. Um atacante remoto não autenticado pode explorar as falhas para causar uma condição de negação de serviço (DoS), interrompendo a varredura antimalware. Os problemas, identificados pelos códigos CVE-2026-20337 a CVE-2026-20339 e CVE-2026-20345 a CVE-2026-20348, residem nos analisadores sintáticos do ClamAV para os formatos ZIP, GPT, PESpin, PDF, Mach-O e XAR.",
-      "link": "https://www.cisoadvisor.com.br/cisco-alerta-para-falhas-criticas-no-clamav-com-poc-publico/",
-      "published": "11/08/2026 12:00",
+      "summary": "A SAP publicou, nesta terça-feira, 11 de agosto, 28 novos boletins de segurança , duas atualizações de notas anteriores e um aviso no GitHub em seu Patch Day. A empresa corrigiu quatro vulnerabilidades críticas, sendo a mais severa uma falha de autorização incorreta no SAP Commerce Cloud (Data Hub Adapter), identificada como CVE-2026-58231 (CVSS 10), que permite que atacantes remotos contornem a autenticação, levando à execução de código e acesso não autorizado a componentes internos. A empresa também abordou duas falhas críticas de injeção de código no Manufacturing Integration and Intelligence, rastreadas como CVE-2026-44772 (CVSS 9.9) e CVE-2026-44758 (CVSS 9.1).",
+      "link": "https://www.cisoadvisor.com.br/sap-corrige-falhas-criticas-de-injecao-de-codigo-e-corrupcao-de-memoria/",
+      "published": "12/08/2026 12:00",
       "cves": [
-        "CVE-2026-20337",
-        "CVE-2026-20339",
-        "CVE-2026-20345",
-        "CVE-2026-20348"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Exploração ativa de falha crítica no Progress LoadMaster",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA emitiu um alerta sobre a exploração ativa de uma vulnerabilidade crítica de injeção de comandos no Progress Kemp LoadMaster , rastreada como CVE-2026-8037 . A falha permite que atacantes não autenticados executem comandos arbitrários em dispositivos não corrigidos, explorando entradas não sanitizadas da API em múltiplos endpoints de comando. O Kemp LoadMaster é um controlador de entrega de aplicações (ADC) e balanceador de carga utilizado por empresas de tecnologia e entidades governamentais, incluindo a Força Aérea dos EUA. A Progress Software informa que 80% das empresas da Fortune 500 usam seus produtos, com mais de 100.000 implantações do LoadMaster globalmente.",
-      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-critica-no-progress-loadmaster/",
-      "published": "11/08/2026 12:00",
-      "cves": [
-        "CVE-2026-8037"
+        "CVE-2026-58231",
+        "CVE-2026-44772",
+        "CVE-2026-44758"
       ],
       "vendor": null
     },
     {
-      "title": "Falha Zero Day no Metabase expõe credenciais e dados empresariais",
+      "title": "Falhas graves colocam plataformas corporativas da SAP em risco",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade zero day crítica no Metabase está sendo explorada em ataques reais para obter acesso administrativo sem autenticação. A falha de injeção SQL recebeu pontuação máxima de 10 no CVSS e afeta versões recentes da plataforma de análise de dados. O problema está no endpoint /api/session/reset_password, acessível remotamente em instalações expostas. Um invasor pode enviar comandos SQL especialmente preparados diretamente ao banco de dados utilizado pelo Metabase, sem precisar de credenciais. Após explorar a brecha, o atacante pode modificar registros e conseguir privilégios administrativos na aplicação.",
-      "link": "https://boletimsec.com/falha-zero-day-no-metabase-expoe-credenciais-e-dados-empresariais/",
-      "published": "11/08/2026 12:00",
-      "cves": [],
+      "summary": "A SAP lançou uma ampla atualização de segurança para corrigir vulnerabilidades críticas capazes de permitir injeção de código, corrupção de memória e escalada de privilégios em sistemas corporativos. O pacote de agosto reúne 28 novas notas de segurança, um aviso no GitHub e duas atualizações de correções anteriores. A falha mais grave, CVE-2026-58231, recebeu nota máxima 10 no CVSS e afeta o Data Hub Adapter do SAP Commerce Cloud nas versões 2211 e 2211-JDK21. O problema envolve autorização inadequada e pode ser explorado remotamente sem interação do usuário. Outra vulnerabilidade crítica, CVE-2026-44772, atinge o SAP Manufacturing Integration and Intelligence 15.4 e 15.5.",
+      "link": "https://boletimsec.com/falhas-graves-colocam-plataformas-corporativas-da-sap-em-risco/",
+      "published": "12/08/2026 12:00",
+      "cves": [
+        "CVE-2026-58231",
+        "CVE-2026-44772"
+      ],
       "vendor": null
     },
     {
-      "title": "Patches gerados por IA falham em 54% dos casos",
+      "title": "Adobe alerta para falhas críticas no ColdFusion e Campaign Classic",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Off-by-1 Labs, equipe de pesquisa da 1Password, publicou um estudo concluindo que patches gerados por LLMs para vulnerabilidades complexas são ineficazes ou introduzem novas falhas em 53,9% das tentativas, segundo o relatório da empresa . A pesquisa analisou 6.080 patches produzidos por modelos da OpenAI e Anthropic para seis vulnerabilidades recentemente divulgadas em software open source. A taxa média de sucesso para gerar um patch que resolvesse completamente a vulnerabilidade sem alterar o comportamento da aplicação foi de apenas 26,0%, de acordo com o estudo.",
-      "link": "https://www.cisoadvisor.com.br/patches-gerados-por-ia-falham-em-54-dos-casos/",
-      "published": "11/08/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "summary": "A Adobe lançou, nesta terça-feira, 11 de agosto, atualizações de segurança que corrigem mais de 50 vulnerabilidades em seus produtos, com destaque para falhas críticas no ColdFusion, Campaign Classic e Commerce. A empresa classificou como prioridade 1 as correções para o ColdFusion, que resolvem 15 falhas, incluindo três críticas que podem levar à execução arbitrária de código e à negação de serviço (DoS) da aplicação, segundo o comunicado da Adobe. Entre as vulnerabilidades críticas do ColdFusion estão uma injeção de comando do sistema operacional (CVE-2026-48362, CVSS 10), uma injeção de eval (CVE-2026-48273, CVSS 9.9) e uma autorização incorreta (CVE-2026-71384, CVSS 9.6).",
+      "link": "https://www.cisoadvisor.com.br/adobe-alerta-para-falhas-criticas-no-coldfusion-e-campaign-classic/",
+      "published": "12/08/2026 12:00",
+      "cves": [
+        "CVE-2026-48362",
+        "CVE-2026-48273",
+        "CVE-2026-71384"
+      ],
+      "vendor": "Adobe"
+    },
+    {
+      "title": "Ivanti corrige falhas que expõem credenciais e armazenamento em nuvem",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Ivanti corrigiu três vulnerabilidades de alta gravidade no Endpoint Manager (EPM) que podem permitir a invasores remotos derrubar agentes, manipular arquivos armazenados na nuvem e interceptar credenciais de bancos de dados. As falhas afetam versões até a 2024 SU6. A falha mais grave, CVE-2026-18129, recebeu pontuação 8,1. O problema permite que um invasor posicionado no caminho da comunicação intercepte credenciais utilizadas pelo EPM para acessar bancos SQL externos, devido à transmissão inadequadamente protegida dessas informações. Todas as três vulnerabilidades foram corrigidas no Ivanti Endpoint Manager 2024 SU7.",
+      "link": "https://boletimsec.com/ivanti-corrige-falhas-que-expoem-credenciais-e-armazenamento-em-nuvem/",
+      "published": "12/08/2026 12:00",
+      "cves": [
+        "CVE-2026-18129"
+      ],
+      "vendor": "Ivanti"
     }
   ]
 }
