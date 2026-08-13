@@ -1,75 +1,68 @@
 {
-  "generated_at": "2026-08-12T12:00:00.815671-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-08-13T12:00:00.071586-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Microsoft corrige 400 falhas, incluindo três zero-days",
+      "title": "Grupo Lazarus explora zero-day do Windows contra empresas de defesa",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft lançou, nesta terça-feira, 11 de agosto, as atualizações de segurança do Patch Tuesday de agosto de 2026, que corrigem um total de 400 vulnerabilidades em seus produtos. O pacote inclui correções para 42 falhas classificadas como “Críticas”, sendo 37 relacionadas a execução remota de código e cinco a elevação de privilégio. A empresa também corrigiu três vulnerabilidades do tipo zero-day, sendo uma explorada ativamente e duas divulgadas publicamente.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-400-falhas-incluindo-tres-zero-days/",
-      "published": "12/08/2026 12:00",
-      "cves": [],
+      "summary": "O grupo de hackers Lazarus, ligado à Coreia do Norte, explorou ativamente uma vulnerabilidade do tipo zero-day no Windows ( CVE-2026-68820 ) para atacar empresas do setor de defesa como parte da campanha Operation Dream Job, de acordo com um relatório da Check Point. A falha, corrigida pela Microsoft no Patch Tuesday de agosto, é um “use after free” no Windows Ancillary Function Driver for WinSock (AFD.sys) que permite que um atacante autenticado localmente obtenha privilégios de SYSTEM, de acordo com a Microsoft.",
+      "link": "https://www.cisoadvisor.com.br/grupo-lazarus-explora-zero-day-do-windows-contra-empresas-de-defesa/",
+      "published": "13/08/2026 12:00",
+      "cves": [
+        "CVE-2026-68820"
+      ],
       "vendor": "Microsoft"
     },
     {
-      "title": "SAP corrige falhas críticas de injeção de código e corrupção de memória",
+      "title": "Ivanti corrige falhas no EPM e Neurons",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A SAP publicou, nesta terça-feira, 11 de agosto, 28 novos boletins de segurança , duas atualizações de notas anteriores e um aviso no GitHub em seu Patch Day. A empresa corrigiu quatro vulnerabilidades críticas, sendo a mais severa uma falha de autorização incorreta no SAP Commerce Cloud (Data Hub Adapter), identificada como CVE-2026-58231 (CVSS 10), que permite que atacantes remotos contornem a autenticação, levando à execução de código e acesso não autorizado a componentes internos. A empresa também abordou duas falhas críticas de injeção de código no Manufacturing Integration and Intelligence, rastreadas como CVE-2026-44772 (CVSS 9.9) e CVE-2026-44758 (CVSS 9.1).",
-      "link": "https://www.cisoadvisor.com.br/sap-corrige-falhas-criticas-de-injecao-de-codigo-e-corrupcao-de-memoria/",
-      "published": "12/08/2026 12:00",
-      "cves": [
-        "CVE-2026-58231",
-        "CVE-2026-44772",
-        "CVE-2026-44758"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falhas graves colocam plataformas corporativas da SAP em risco",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A SAP lançou uma ampla atualização de segurança para corrigir vulnerabilidades críticas capazes de permitir injeção de código, corrupção de memória e escalada de privilégios em sistemas corporativos. O pacote de agosto reúne 28 novas notas de segurança, um aviso no GitHub e duas atualizações de correções anteriores. A falha mais grave, CVE-2026-58231, recebeu nota máxima 10 no CVSS e afeta o Data Hub Adapter do SAP Commerce Cloud nas versões 2211 e 2211-JDK21. O problema envolve autorização inadequada e pode ser explorado remotamente sem interação do usuário. Outra vulnerabilidade crítica, CVE-2026-44772, atinge o SAP Manufacturing Integration and Intelligence 15.4 e 15.5.",
-      "link": "https://boletimsec.com/falhas-graves-colocam-plataformas-corporativas-da-sap-em-risco/",
-      "published": "12/08/2026 12:00",
-      "cves": [
-        "CVE-2026-58231",
-        "CVE-2026-44772"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Adobe alerta para falhas críticas no ColdFusion e Campaign Classic",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Adobe lançou, nesta terça-feira, 11 de agosto, atualizações de segurança que corrigem mais de 50 vulnerabilidades em seus produtos, com destaque para falhas críticas no ColdFusion, Campaign Classic e Commerce. A empresa classificou como prioridade 1 as correções para o ColdFusion, que resolvem 15 falhas, incluindo três críticas que podem levar à execução arbitrária de código e à negação de serviço (DoS) da aplicação, segundo o comunicado da Adobe. Entre as vulnerabilidades críticas do ColdFusion estão uma injeção de comando do sistema operacional (CVE-2026-48362, CVSS 10), uma injeção de eval (CVE-2026-48273, CVSS 9.9) e uma autorização incorreta (CVE-2026-71384, CVSS 9.6).",
-      "link": "https://www.cisoadvisor.com.br/adobe-alerta-para-falhas-criticas-no-coldfusion-e-campaign-classic/",
-      "published": "12/08/2026 12:00",
-      "cves": [
-        "CVE-2026-48362",
-        "CVE-2026-48273",
-        "CVE-2026-71384"
-      ],
-      "vendor": "Adobe"
-    },
-    {
-      "title": "Ivanti corrige falhas que expõem credenciais e armazenamento em nuvem",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Ivanti corrigiu três vulnerabilidades de alta gravidade no Endpoint Manager (EPM) que podem permitir a invasores remotos derrubar agentes, manipular arquivos armazenados na nuvem e interceptar credenciais de bancos de dados. As falhas afetam versões até a 2024 SU6. A falha mais grave, CVE-2026-18129, recebeu pontuação 8,1. O problema permite que um invasor posicionado no caminho da comunicação intercepte credenciais utilizadas pelo EPM para acessar bancos SQL externos, devido à transmissão inadequadamente protegida dessas informações. Todas as três vulnerabilidades foram corrigidas no Ivanti Endpoint Manager 2024 SU7.",
-      "link": "https://boletimsec.com/ivanti-corrige-falhas-que-expoem-credenciais-e-armazenamento-em-nuvem/",
-      "published": "12/08/2026 12:00",
+      "summary": "A Ivanti, empresa de software empresarial, anunciou na terça-feira, 11 de agosto, correções para quatro vulnerabilidades em seus produtos Endpoint Manager (EPM) e Neurons for MDM. O comunicado da empresa informa que a atualização do EPM aborda três falhas de alta gravidade, sendo duas exploráveis por atacantes remotos não autenticados. A primeira vulnerabilidade, rastreada como CVE-2026-18129, é descrita como um problema de transmissão de informações sensíveis em texto não criptografado, que pode ser explorada por um atacante em posição de homem-no-meio (MitM) para vazar credenciais de conexões SQL externas, de acordo com a Ivanti.",
+      "link": "https://www.cisoadvisor.com.br/ivanti-corrige-falhas-exploraveis-remotamente/",
+      "published": "13/08/2026 12:00",
       "cves": [
         "CVE-2026-18129"
       ],
       "vendor": "Ivanti"
+    },
+    {
+      "title": "Falha no SharePoint é explorada dias após publicação de PoC",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade no SharePoint, identificada como CVE-2026-55040 , que foi corrigida pela Microsoft em julho, está sendo explorada ativamente em ataques , de acordo com a empresa de inteligência de ameaças Defused. Os ataques começaram logo após a publicação de um código de prova de conceito (PoC) pela Rapid7, em 11 de agosto, com os honeypots da Defused registrando tentativas de exploração no dia seguinte, 12 de agosto. A Microsoft descreveu a falha como um problema de autenticação fraca que permite que um atacante remoto não autenticado contorne a autenticação e faça uma conexão anônima, podendo divulgar arquivos e modificar dados.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-sharepoint-e-explorada-dias-apos-publicacao-de-poc/",
+      "published": "13/08/2026 12:00",
+      "cves": [
+        "CVE-2026-55040"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "1 dia Segurança Novo golpe no Brasil rouba acesso a contas Microsoft sem usar sua senha",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um novo golpe digital em circulação no Brasil permite a cibercriminosos invadirem contas corporativas sem precisar roubar senhas . A fraude engana o funcionário para que ele mesmo autorize, sem perceber, a conexão de um dispositivo desconhecido à sua conta da Microsoft. A tática foi identificada pela Kaspersky. Com esse acesso, os golpistas passam a controlar e-mails, arquivos armazenados no SharePoint e conversas no Teams. A técnica foi detalhada pela empresa de cibersegurança em análise publicada no Securelist.com. A fraude parte de um e-mail de phishing com assunto urgente, como um orçamento pendente ou um pedido de compra.",
+      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-brasil-rouba-acesso-a-contas-microsoft-sem-usar-sua-senha/",
+      "published": "13/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "5 dias Segurança Falha grave de privacidade está vazando o IP de usuários do iPhone",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O serviço de Retransmissão Privada do iCloud , usado para esconder o endereço IP do usuário durante a navegação na interenet, tem uma vulnerabilidade que permite que sites e provedores acessem o IP mesmo com o recurso ligado . O incidente foi divulgado pela desenvolvedora Mysk e publicado pelo site 404 Media. O problema envolve a estrutura de navegação da Apple e o uso de passkeys para acessar um site ou aplicativo. Como o processamento dos passkeys ocorre em ambiente virtual diferente, o endereço pode ser exposto aos rastreadores.",
+      "link": "https://canaltech.com.br/seguranca/falha-grave-de-privacidade-esta-vazando-o-ip-de-usuarios-do-i-phone/",
+      "published": "13/08/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
     }
   ]
 }
