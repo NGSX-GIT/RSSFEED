@@ -1,72 +1,64 @@
 {
-  "generated_at": "2026-08-14T13:46:19.432411-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-08-15T12:00:00.053358-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Brecha no Exchange Server abre caminho para ataques remotos",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft corrigiu sete vulnerabilidades no Exchange Server que podem permitir execução remota de código, elevação de privilégios, negação de serviço, falsificação de conteúdo e desvio de mecanismos de segurança. Entre as mais graves está a CVE-2026-62913, com pontuação CVSS 8,8. A falha envolve um estouro de buffer no heap e pode ser explorada pela rede por um invasor com poucos privilégios, sem interação adicional da vítima. Uma exploração bem-sucedida pode permitir a execução de código no servidor, abrindo caminho para roubo de caixas de e-mail, instalação de mecanismos de persistência, movimentação lateral e até implantação de ransomware.",
-      "link": "https://boletimsec.com/brecha-no-exchange-server-abre-caminho-para-ataques-remotos/",
-      "published": "14/08/2026 13:46",
-      "cves": [
-        "CVE-2026-62913"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Hackers norte-coreanos exploram falha zero day no Windows",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O grupo norte-coreano Lazarus está explorando uma vulnerabilidade zero-day no kernel do Windows para obter privilégios SYSTEM e instalar o rootkit FudModule. A falha, identificada como CVE-2026-68820, foi corrigida pela Microsoft em 11 de agosto. O problema afeta o afd.sys, driver responsável por funções de rede e gerenciamento de sockets no Windows. A exploração exige que o invasor já consiga executar código com poucos privilégios na máquina. A partir daí, a falha permite elevar o acesso para SYSTEM, nível que concede amplo controle sobre o sistema operacional.",
-      "link": "https://boletimsec.com/hackers-norte-coreanos-exploram-falha-zero-day-no-windows/",
-      "published": "14/08/2026 13:46",
-      "cves": [
-        "CVE-2026-68820"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Campanha ativa explora falha crítica no VMware vCenter",
+      "title": "Fortinet corrige falhas de autenticação",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica recentemente corrigida no VMware vCenter Syslog Server (CVE-2026-59310) está sendo ativamente explorada em uma campanha para implantar uma ferramenta de SSH reversa e obter persistência e acesso remoto, A empresa de resposta a incidentes QUIRSO identificou comprometimentos em 361 endereços IP em 47 países, com mais da metade concentrada na Alemanha, Estados Unidos, Turquia, Irã e França.",
-      "link": "https://www.cisoadvisor.com.br/campanha-ativa-explora-falha-critica-no-vmware-vcenter/",
-      "published": "14/08/2026 13:46",
-      "cves": [
-        "CVE-2026-59310"
-      ],
-      "vendor": "VMware"
-    },
-    {
-      "title": "Vulnerabilidade no Outlook abre caminho para execução de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft corrigiu uma vulnerabilidade de alta gravidade no Outlook que pode permitir a execução remota de código em computadores vulneráveis. A falha, identificada como CVE-2026-70329, recebeu pontuação 8,8 no CVSS. O problema é causado por um estouro de inteiro no processamento de dados pelo Outlook. Um invasor pode preparar conteúdo malicioso capaz de provocar corrupção de memória e alterar o fluxo normal de execução do aplicativo. A exploração pode ser realizada pela rede e não exige que o criminoso possua uma conta ou privilégios no sistema. No entanto, algum nível de interação da vítima é necessário para que o conteúdo especialmente preparado seja processado.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-outlook-abre-caminho-para-execucao-de-codigo/",
-      "published": "14/08/2026 13:46",
-      "cves": [
-        "CVE-2026-70329"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Fortinet corrige falha que permite login com credenciais aleatórias",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Fortinet lançou correções para vulnerabilidades em produtos como FortiWeb, FortiManager e FortiClient, incluindo falhas que podem permitir acesso administrativo sem credenciais válidas e execução de código em sistemas Windows. A principal brecha, CVE-2026-26035, afeta o FortiWeb e recebeu nota 8,8 no CVSS. O problema aparece quando contas administrativas com autenticação RADIUS remota utilizam a opção “wildcard”, configuração que não vem habilitada por padrão. Nesse cenário, um invasor remoto e não autenticado pode acessar a interface gráfica ou a linha de comando usando nome de usuário e senha aleatórios.",
-      "link": "https://boletimsec.com/fortinet-corrige-falha-que-permite-login-com-credenciais-aleatorias/",
-      "published": "14/08/2026 13:46",
+      "summary": "A Fortinet publicou correções para múltiplas vulnerabilidades relacionadas a autenticação em seus produtos FortiWeb, FortiManager e FortiClient, conforme comunicado da empresa. A falha mais grave, rastreada como CVE-2026-26035, afeta o mecanismo de login do FortiWeb e possui pontuação CVSS entre 8.8 e 9.8, dependendo da fonte, refletindo a facilidade de exploração em configurações específicas. De acordo com o aviso da Fortinet, a CVE-2026-26035 é um problema de autenticação inadequada (CWE-287) que surge quando uma conta de administrador do FortiWeb é configurada para autenticação RADIUS Remota com a opção “wildcard” ativada.",
+      "link": "https://www.cisoadvisor.com.br/fortinet-corrige-falhas-de-autenticacao/",
+      "published": "15/08/2026 12:00",
       "cves": [
         "CVE-2026-26035"
       ],
       "vendor": "Fortinet"
+    },
+    {
+      "title": "Microsoft corrige falha LegacyHive no Windows",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft publicou, em 13 de agosto, atualizações de segurança para corrigir uma vulnerabilidade de dia zero no Windows conhecida como “LegacyHive”. A falha foi divulgada pelo pesquisador que usa o pseudônimo “Nightmare Eclipse”, horas após a edição de julho do Patch Tuesday, em protesto contra as práticas de programa de recompensas por bugs e de divulgação de vulnerabilidades da Microsoft.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-falha-legacyhive-no-windows/",
+      "published": "15/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "3 dias Segurança Novo golpe no Brasil rouba acesso a contas Microsoft sem usar sua senha",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um novo golpe digital em circulação no Brasil permite a cibercriminosos invadirem contas corporativas sem precisar roubar senhas . A fraude engana o funcionário para que ele mesmo autorize, sem perceber, a conexão de um dispositivo desconhecido à sua conta da Microsoft. A tática foi identificada pela Kaspersky. Com esse acesso, os golpistas passam a controlar e-mails, arquivos armazenados no SharePoint e conversas no Teams. A técnica foi detalhada pela empresa de cibersegurança em análise publicada no Securelist.com. A fraude parte de um e-mail de phishing com assunto urgente, como um orçamento pendente ou um pedido de compra.",
+      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-brasil-rouba-acesso-a-contas-microsoft-sem-usar-sua-senha/",
+      "published": "15/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "3 dias Segurança Estudo: Windows é 6x mais vulnerável a ataques do que o Mac",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Computadores com Windows registraram taxa de detecção de malware quase seis vezes superior à dos dispositivos com macOS entre janeiro e julho de 2026, segundo levantamento da Surfshark Antivirus. A empresa analisou 391.305 detecções de ameaças no período e cruzou os dados com a base de usuários ativos de cada sistema. Usuários de Windows representavam 66% da base ativa do antivírus, mas concentraram 92% de todas as detecções registradas. Já o macOS respondia por 34% da base e apenas 8% das ameaças identificadas. A diferença resulta em uma taxa de detecção por usuário quase seis vezes maior no Windows.",
+      "link": "https://canaltech.com.br/seguranca/estudo-windows-e-6x-mais-vulneravel-a-ataques-do-que-o-mac/",
+      "published": "15/08/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "SafeLabs passa a operar sob marca única",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Vision, empresa de inovação tecnológica no setor privado, anunciou ontem uma nova etapa de sua trajetória com a unificação de suas operações e a consolidação de uma única marca no mercado de cibersegurança . Como parte desse movimento, a SafeLabs, empresa voltada ao atendimento de provedores de serviços gerenciados de segurança (MSPs e MSSPs), passa a integrar integralmente a Vision, que assume todo o portfólio de soluções, além do relacionamento com clientes e parceiros.",
+      "link": "https://www.cisoadvisor.com.br/safelabs-passa-a-operar-sob-marca-unica/",
+      "published": "15/08/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
