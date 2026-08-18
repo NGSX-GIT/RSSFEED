@@ -1,62 +1,64 @@
 {
-  "generated_at": "2026-08-17T12:00:00.030469-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-08-18T12:00:00.040942-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Microsoft abandona SMS e aposta em passkeys no Entra ID",
+      "title": "Falha no Screen Sharing da Apple expõe Macs a controle remoto",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Microsoft tornará as passkeys o método de autenticação padrão no Entra ID a partir de 1º de setembro de 2026. A mudança busca reduzir a dependência de métodos vulneráveis a phishing, como códigos enviados por SMS e chamadas de voz. Usuários atualmente habilitados para SMS ou voz serão automaticamente incluídos no suporte a passkeys. Na próxima autenticação multifator, eles poderão receber uma solicitação para registrar a nova credencial. As passkeys utilizam criptografia de chave pública e não dependem de segredos compartilhados. Isso dificulta ataques de phishing, interceptação de códigos, reutilização de credenciais e técnicas como SIM swapping.",
-      "link": "https://boletimsec.com/microsoft-abandona-sms-e-aposta-em-passkeys-no-entra-id/",
-      "published": "17/08/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "Uma vulnerabilidade no recurso de compartilhamento de tela do macOS permite que um invasor remoto execute comandos com privilégios de root em determinadas configurações. A falha, identificada como CVE-2026-43760, está relacionada ao serviço screensharingd. A exploração exige que o Mac esteja com Screen Sharing ou Remote Management habilitado, além da opção legada que permite controle por visualizadores VNC mediante senha. O atacante também precisa conhecer essa senha. O problema ocorre porque conexões autenticadas pelo mecanismo VNC não são associadas a uma conta específica do macOS.",
+      "link": "https://boletimsec.com/falha-no-screen-sharing-da-apple-expoe-macs-a-controle-remoto/",
+      "published": "18/08/2026 12:00",
+      "cves": [
+        "CVE-2026-43760"
+      ],
+      "vendor": "Apple"
     },
     {
-      "title": "5 dias Segurança Novo golpe no Brasil rouba acesso a contas Microsoft sem usar sua senha",
+      "title": "6 dias Segurança Novo golpe no Brasil rouba acesso a contas Microsoft sem usar sua senha",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Um novo golpe digital em circulação no Brasil permite a cibercriminosos invadirem contas corporativas sem precisar roubar senhas . A fraude engana o funcionário para que ele mesmo autorize, sem perceber, a conexão de um dispositivo desconhecido à sua conta da Microsoft. A tática foi identificada pela Kaspersky. Com esse acesso, os golpistas passam a controlar e-mails, arquivos armazenados no SharePoint e conversas no Teams. A técnica foi detalhada pela empresa de cibersegurança em análise publicada no Securelist.com. A fraude parte de um e-mail de phishing com assunto urgente, como um orçamento pendente ou um pedido de compra.",
       "link": "https://canaltech.com.br/seguranca/novo-golpe-no-brasil-rouba-acesso-a-contas-microsoft-sem-usar-sua-senha/",
-      "published": "17/08/2026 12:00",
+      "published": "18/08/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "Botnet Dysphoria controla quase 300 mil dispositivos para ataques DDoS",
+      "title": "Nova botnet Linux rouba credenciais e lança 16 tipos de ataques DDoS",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "A botnet Dysphoria já comprometeu cerca de 296 mil dispositivos, incluindo roteadores, câmeras IP, gateways e equipamentos Linux embarcados. A infraestrutura é usada principalmente em ataques DDoS e passou a oferecer também funções de proxy residencial. A ameaça começou a ser acompanhada no primeiro trimestre de 2026 e evoluiu rapidamente a partir das famílias jackskid e fbot. Pesquisadores identificaram picos de até 239 mil dispositivos infectados ativos fora da China em um único dia. A disseminação ocorre principalmente por ataques de força bruta contra serviços Telnet e SSH protegidos por senhas fracas.",
-      "link": "https://boletimsec.com/botnet-dysphoria-controla-quase-300-mil-dispositivos-para-ataques-ddos/",
-      "published": "17/08/2026 12:00",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "Uma nova botnet chamada Evooo1Bot está comprometendo dispositivos Linux expostos à internet para executar ataques DDoS, roubar credenciais e transformar equipamentos infectados em proxies controlados por criminosos. A atividade é observada desde julho de 2026. Baseada parcialmente no código vazado da Mirai, a ameaça amplia consideravelmente suas capacidades. O malware possui comunicação criptografada com servidores de comando e controle, scanner SSH, sniffer de credenciais, transferência de arquivos e execução remota de comandos. A disseminação ocorre pela exploração de vulnerabilidades conhecidas e por ataques de força bruta contra SSH.",
+      "link": "https://boletimsec.com/nova-botnet-linux-rouba-credenciais-e-lanca-16-tipos-de-ataques-ddos/",
+      "published": "18/08/2026 12:00",
       "cves": [],
       "vendor": "Linux"
     },
     {
-      "title": "Uber Freight confirma incidente cibernético",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "A Uber Freight, subsidiária de transporte logístico da Uber Technologies, confirmou ter identificado e contido um acesso não autorizado a partes de seus sistemas e repositórios, após o grupo de hackers autodenominado ‘Helix’ alegar ter roubado quase 1 milhão de arquivos da plataforma de logística, de acordo com comunicado da empresa à FreightWaves. O grupo listou a Uber Freight em seu site de vazamentos em 6 de agosto e afirmou ter acessado caixas de e-mail, contas do OneDrive e materiais de contas a receber, mas não forneceu provas independentes da autenticidade dos registros. A empresa afirmou que o incidente foi “identificado, contido e remediado” e que acionou as autoridades federais.",
-      "link": "https://www.cisoadvisor.com.br/uber-freight-confirma-incidente-cibernetico/",
-      "published": "17/08/2026 12:00",
+      "title": "IA criminosa oferece criação de ransomware por apenas US$ 8 ao mês",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "Uma plataforma criminosa de inteligência artificial chamada MessiahGPT está sendo comercializada para auxiliar na criação de ransomware, kits de phishing, ladrões de informações e outras ferramentas usadas em ataques cibernéticos. O serviço é promovido abertamente em fóruns frequentados por cibercriminosos. Pesquisadores da Trellix identificaram o MessiahGPT como parte de um mercado crescente de serviços de IA voltados ao cibercrime. A plataforma oferece 50 consultas gratuitas e planos pagos a partir de US$ 8 mensais, com pagamentos em criptomoedas e sem verificação de identidade.",
+      "link": "https://boletimsec.com/ia-criminosa-oferece-criacao-de-ransomware-por-apenas-us-8-ao-mes/",
+      "published": "18/08/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "5 dias Segurança Estudo: Windows é 6x mais vulnerável a ataques do que o Mac",
+      "title": "5 dias Segurança O maior risco da IA não é a intenção, mas a imprevisibilidade",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
-      "category": "threat",
-      "summary": "Computadores com Windows registraram taxa de detecção de malware quase seis vezes superior à dos dispositivos com macOS entre janeiro e julho de 2026, segundo levantamento da Surfshark Antivirus. A empresa analisou 391.305 detecções de ameaças no período e cruzou os dados com a base de usuários ativos de cada sistema. Usuários de Windows representavam 66% da base ativa do antivírus, mas concentraram 92% de todas as detecções registradas. Já o macOS respondia por 34% da base e apenas 8% das ameaças identificadas. A diferença resulta em uma taxa de detecção por usuário quase seis vezes maior no Windows.",
-      "link": "https://canaltech.com.br/seguranca/estudo-windows-e-6x-mais-vulneravel-a-ataques-do-que-o-mac/",
-      "published": "17/08/2026 12:00",
+      "category": "patches",
+      "summary": "Durante muito tempo, o debate sobre inteligência artificial e cibersegurança esteve concentrado em uma hipótese relativamente simples: o que aconteceria se criminosos começassem a utilizar sistemas de IA para automatizar ataques? A preocupação é legítima. Agentes cada vez mais autônomos podem acelerar a identificação de falhas, vulnerabilidades e caminhos de exploração, reduzindo drasticamente o tempo necessário para comprometer uma infraestrutura. Atividades que hoje exigem semanas ou meses de trabalho humano poderiam ser realizadas em horas. Nas mãos de cibercriminosos, esse tipo de tecnologia se tornaria um multiplicador de força sem precedentes.",
+      "link": "https://canaltech.com.br/colunas/o-maior-risco-da-ia-nao-e-a-intencao-mas-a-imprevisibilidade/",
+      "published": "18/08/2026 12:00",
       "cves": [],
-      "vendor": "Windows"
+      "vendor": null
     }
   ]
 }
