@@ -1,64 +1,73 @@
 {
-  "generated_at": "2026-08-18T12:00:00.040942-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-08-20T12:00:00.889471-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha no Screen Sharing da Apple expõe Macs a controle remoto",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade no recurso de compartilhamento de tela do macOS permite que um invasor remoto execute comandos com privilégios de root em determinadas configurações. A falha, identificada como CVE-2026-43760, está relacionada ao serviço screensharingd. A exploração exige que o Mac esteja com Screen Sharing ou Remote Management habilitado, além da opção legada que permite controle por visualizadores VNC mediante senha. O atacante também precisa conhecer essa senha. O problema ocorre porque conexões autenticadas pelo mecanismo VNC não são associadas a uma conta específica do macOS.",
-      "link": "https://boletimsec.com/falha-no-screen-sharing-da-apple-expoe-macs-a-controle-remoto/",
-      "published": "18/08/2026 12:00",
-      "cves": [
-        "CVE-2026-43760"
-      ],
-      "vendor": "Apple"
-    },
-    {
-      "title": "6 dias Segurança Novo golpe no Brasil rouba acesso a contas Microsoft sem usar sua senha",
-      "source": "Canaltech Segurança",
+      "title": "CISA alerta para exploração ativa de falha crítica no Windows IKE",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Um novo golpe digital em circulação no Brasil permite a cibercriminosos invadirem contas corporativas sem precisar roubar senhas . A fraude engana o funcionário para que ele mesmo autorize, sem perceber, a conexão de um dispositivo desconhecido à sua conta da Microsoft. A tática foi identificada pela Kaspersky. Com esse acesso, os golpistas passam a controlar e-mails, arquivos armazenados no SharePoint e conversas no Teams. A técnica foi detalhada pela empresa de cibersegurança em análise publicada no Securelist.com. A fraude parte de um e-mail de phishing com assunto urgente, como um orçamento pendente ou um pedido de compra.",
-      "link": "https://canaltech.com.br/seguranca/novo-golpe-no-brasil-rouba-acesso-a-contas-microsoft-sem-usar-sua-senha/",
-      "published": "18/08/2026 12:00",
-      "cves": [],
+      "summary": "A Agência de Segurança Cibernética e Infraestrutura dos EUA (CISA) alertou que hackers estão explorando ativamente uma vulnerabilidade crítica de execução remota de código ( CVE-2026-33824 ) no componente Windows Internet Key Exchange (IKE) Service Extensions, conforme atualização do catálogo de vulnerabilidades conhecidas exploradas publicada em 19 de agosto. A falha, corrigida pela Microsoft em abril de 2026, afeta todas as versões suportadas do Windows 10, Windows 11 e Windows Server.",
+      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-ativa-de-falha-critica-no-windows-ike/",
+      "published": "20/08/2026 12:00",
+      "cves": [
+        "CVE-2026-33824"
+      ],
       "vendor": "Microsoft"
     },
     {
-      "title": "Nova botnet Linux rouba credenciais e lança 16 tipos de ataques DDoS",
-      "source": "BoletimSec Notícias",
+      "title": "CISA adiciona falha crítica no SharePoint à lista KEV",
+      "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "Uma nova botnet chamada Evooo1Bot está comprometendo dispositivos Linux expostos à internet para executar ataques DDoS, roubar credenciais e transformar equipamentos infectados em proxies controlados por criminosos. A atividade é observada desde julho de 2026. Baseada parcialmente no código vazado da Mirai, a ameaça amplia consideravelmente suas capacidades. O malware possui comunicação criptografada com servidores de comando e controle, scanner SSH, sniffer de credenciais, transferência de arquivos e execução remota de comandos. A disseminação ocorre pela exploração de vulnerabilidades conhecidas e por ataques de força bruta contra SSH.",
-      "link": "https://boletimsec.com/nova-botnet-linux-rouba-credenciais-e-lanca-16-tipos-de-ataques-ddos/",
-      "published": "18/08/2026 12:00",
-      "cves": [],
-      "vendor": "Linux"
-    },
-    {
-      "title": "IA criminosa oferece criação de ransomware por apenas US$ 8 ao mês",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "Uma plataforma criminosa de inteligência artificial chamada MessiahGPT está sendo comercializada para auxiliar na criação de ransomware, kits de phishing, ladrões de informações e outras ferramentas usadas em ataques cibernéticos. O serviço é promovido abertamente em fóruns frequentados por cibercriminosos. Pesquisadores da Trellix identificaram o MessiahGPT como parte de um mercado crescente de serviços de IA voltados ao cibercrime. A plataforma oferece 50 consultas gratuitas e planos pagos a partir de US$ 8 mensais, com pagamentos em criptomoedas e sem verificação de identidade.",
-      "link": "https://boletimsec.com/ia-criminosa-oferece-criacao-de-ransomware-por-apenas-us-8-ao-mes/",
-      "published": "18/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "5 dias Segurança O maior risco da IA não é a intenção, mas a imprevisibilidade",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
       "category": "patches",
-      "summary": "Durante muito tempo, o debate sobre inteligência artificial e cibersegurança esteve concentrado em uma hipótese relativamente simples: o que aconteceria se criminosos começassem a utilizar sistemas de IA para automatizar ataques? A preocupação é legítima. Agentes cada vez mais autônomos podem acelerar a identificação de falhas, vulnerabilidades e caminhos de exploração, reduzindo drasticamente o tempo necessário para comprometer uma infraestrutura. Atividades que hoje exigem semanas ou meses de trabalho humano poderiam ser realizadas em horas. Nas mãos de cibercriminosos, esse tipo de tecnologia se tornaria um multiplicador de força sem precedentes.",
-      "link": "https://canaltech.com.br/colunas/o-maior-risco-da-ia-nao-e-a-intencao-mas-a-imprevisibilidade/",
-      "published": "18/08/2026 12:00",
-      "cves": [],
+      "summary": "A Agência de Segurança Cibernética e Infraestrutura dos EUA (CISA) adicionou uma vulnerabilidade crítica de autenticação no Microsoft SharePoint ( CVE-2026-55040 ) ao seu catálogo de vulnerabilidades conhecidas exploradas (KEV) em 18 de agosto, após confirmação de exploração ativa , conforme atualização da agência. A falha afeta o caminho de validação de JSON Web Token no SharePoint, permitindo que um atacante não autenticado forje tokens de autenticação que o sistema aceita como válidos, contornando mecanismos de segurança.",
+      "link": "https://www.cisoadvisor.com.br/cisa-adiciona-falha-critica-no-sharepoint-a-lista-kev/",
+      "published": "20/08/2026 12:00",
+      "cves": [
+        "CVE-2026-55040"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Falhas críticas no Citrix NetScaler permitem bypass de autenticação",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cloud Software Group emitiu um alerta crítico sobre duas vulnerabilidades que afetam o NetScaler ADC (antigo Citrix ADC) e o NetScaler Gateway (antigo Citrix Gateway), conforme comunicado da fabricante. A falha mais grave, rastreada como CVE-2026-19490, possui pontuação CVSS v4.0 de 9.3 e permite que um atacante contorne os controles de autenticação em appliances configurados como Gateway para SSL VPN, ICA Proxy, CVPN ou RDP Proxy, ou como servidor virtual AAA. A exploração da CVE-2026-19490 depende da versão do software em uso.",
+      "link": "https://www.cisoadvisor.com.br/falhas-criticas-no-citrix-netscaler-permitem-bypass-de-autenticacao/",
+      "published": "20/08/2026 12:00",
+      "cves": [
+        "CVE-2026-19490"
+      ],
+      "vendor": "Citrix"
+    },
+    {
+      "title": "Plugin do WordPress abre caminho para execução remota de código",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no plugin Forminator Forms para WordPress pode permitir que invasores sem autenticação enviem arquivos PHP maliciosos e, em determinadas configurações, executem código no servidor. A falha é identificada como CVE-2026-15748 e recebeu nota 9,8 no CVSS. O Forminator possui mais de 600 mil instalações ativas e é utilizado para criar formulários, pesquisas, pagamentos, quizzes e campos de upload. São afetadas todas as versões até a 1.56.1. A exploração depende de um formulário publicado contendo simultaneamente os campos File Upload e Select. O atacante pode manipular os dados enviados pelo campo Select para criar uma configuração falsa de upload aceita pelo plugin.",
+      "link": "https://boletimsec.com/plugin-do-wordpress-abre-caminho-para-execucao-remota-de-codigo/",
+      "published": "20/08/2026 12:00",
+      "cves": [
+        "CVE-2026-15748"
+      ],
       "vendor": null
+    },
+    {
+      "title": "Chrome recebe atualização para corrigir vulnerabilidades críticas de memória",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Google lançou uma atualização de segurança para o Chrome que corrige 15 vulnerabilidades, incluindo duas falhas críticas de corrupção de memória nos componentes WebGL e Dawn. As brechas mais graves são identificadas como CVE-2026-76034 e CVE-2026-76036. Ambas são falhas de buffer overflow, condição que pode permitir gravações fora dos limites previstos da memória. A CVE-2026-76034 está localizada no WebGL, tecnologia utilizada pelo navegador para processar gráficos 2D e 3D em páginas e aplicações web. O problema foi reportado internamente pela Google em 15 de julho.",
+      "link": "https://boletimsec.com/chrome-recebe-atualizacao-para-corrigir-vulnerabilidades-criticas-de-memoria/",
+      "published": "20/08/2026 12:00",
+      "cves": [
+        "CVE-2026-76034",
+        "CVE-2026-76036"
+      ],
+      "vendor": "Google"
     }
   ]
 }
