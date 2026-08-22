@@ -1,75 +1,62 @@
 {
-  "generated_at": "2026-08-21T12:00:00.875172-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-08-22T12:00:00.054573-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no Elementor Pro expõe sites WordPress a RCE",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no plugin Elementor Pro (CVE-2026-32475) permite que atacantes façam upload de arquivos executáveis para execução remota de código no servidor, conforme análise da Patchstack, empresa de segurança focada no ecossistema WordPress . A falha afeta versões anteriores à 4.2.2 e está no módulo de Upload de Arquivos, que utiliza loops separados para validação e processamento de arquivos, tratando de forma diferente uploads com nome de arquivo vazio. O problema ocorre porque o loop de validação e o loop de processamento têm lógicas de saída antecipada diferentes para entradas vazias, explica o relatório da Patchstack.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-elementor-pro-expoe-sites-wordpress-a-rce/",
-      "published": "21/08/2026 12:00",
-      "cves": [
-        "CVE-2026-32475"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "CISA alerta para exploração ativa de falha crítica no MLflow",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Agência de Segurança Cibernética e Infraestrutura dos EUA (CISA) alertou que atores de ameaça estão explorando ativamente uma vulnerabilidade crítica no MLflow ( CVE-2026-64849 ), conforme atualização do catálogo de vulnerabilidades conhecidas exploradas publicada em 19 de agosto. O MLflow é uma plataforma open-source de engenharia de IA para grandes modelos de linguagem (LLMs) e agentes, com mais de 30 milhões de downloads mensais, utilizada por milhares de organizações.",
-      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-ativa-de-falha-critica-no-mlflow/",
-      "published": "21/08/2026 12:00",
-      "cves": [
-        "CVE-2026-64849"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Oracle libera correções para vulnerabilidades em servidores WebLogic",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Oracle publicou em 18 de agosto uma atualização emergencial de segurança com 943 novos patches para dezenas de famílias de produtos corporativos. O pacote corrige falhas em plataformas como WebLogic Server, Fusion Middleware, E-Business Suite, Oracle Database e Commerce. Entre os problemas mais graves estão vulnerabilidades do Oracle WebLogic Server exploráveis remotamente sem autenticação. As falhas CVE-2026-60698, CVE-2026-60672, CVE-2026-60696 e CVE-2026-60977 receberam pontuação CVSS 9.8. Os problemas atingem componentes centrais do WebLogic por meio dos protocolos IIOP, T3 e RMI.",
-      "link": "https://boletimsec.com/oracle-libera-correcoes-para-vulnerabilidades-em-servidores-weblogic/",
-      "published": "21/08/2026 12:00",
-      "cves": [
-        "CVE-2026-60698",
-        "CVE-2026-60672",
-        "CVE-2026-60696",
-        "CVE-2026-60977"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Citrix alerta para correção de novas falhas no NetScaler",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Citrix alertou os clientes para que protejam imediatamente seus sistemas contra duas vulnerabilidades que afetam o NetScaler Gateway e o NetScaler ADC, conforme comunicado da empresa. A falha mais severa, rastreada como CVE-2026-19490 , permite que atacantes remotos não autenticados contornem a autenticação quando o appliance está configurado como servidor virtual AAA ou como Gateway, dependendo da versão do firmware e da configuração de ação SAML.",
-      "link": "https://www.cisoadvisor.com.br/citrix-alerta-para-correcao-de-novas-falhas-no-netscaler/",
-      "published": "21/08/2026 12:00",
-      "cves": [
-        "CVE-2026-19490"
-      ],
-      "vendor": "Citrix"
-    },
-    {
-      "title": "Cursor é afetado por falha de execução de código via arquivo git.exe",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de alta gravidade no Cursor para Windows pode permitir a execução automática de código malicioso quando um desenvolvedor abre um repositório especialmente preparado. A falha é rastreada como CVE-2026-63093 e recebeu pontuação CVSS 8.7. O problema é classificado como binary planting e ocorre porque o editor procura pelo executável do Git em diferentes locais, incluindo o próprio diretório do projeto. Um invasor pode explorar esse comportamento inserindo um arquivo malicioso chamado git.exe na raiz do repositório. Quando a vítima clona e abre o projeto, o Cursor pode resolver esse arquivo como se fosse o Git legítimo e executá-lo automaticamente.",
-      "link": "https://boletimsec.com/cursor-e-afetado-por-falha-de-execucao-de-codigo-via-arquivo-git-exe/",
-      "published": "21/08/2026 12:00",
-      "cves": [
-        "CVE-2026-63093"
-      ],
+      "title": "12.08.26 Segurança Estudo: Windows é 6x mais vulnerável a ataques do que o Mac",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Computadores com Windows registraram taxa de detecção de malware quase seis vezes superior à dos dispositivos com macOS entre janeiro e julho de 2026, segundo levantamento da Surfshark Antivirus. A empresa analisou 391.305 detecções de ameaças no período e cruzou os dados com a base de usuários ativos de cada sistema. Usuários de Windows representavam 66% da base ativa do antivírus, mas concentraram 92% de todas as detecções registradas. Já o macOS respondia por 34% da base e apenas 8% das ameaças identificadas. A diferença resulta em uma taxa de detecção por usuário quase seis vezes maior no Windows.",
+      "link": "https://canaltech.com.br/seguranca/estudo-windows-e-6x-mais-vulneravel-a-ataques-do-que-o-mac/",
+      "published": "22/08/2026 12:00",
+      "cves": [],
       "vendor": "Windows"
+    },
+    {
+      "title": "1 dia Segurança Vazamento grave da Latam expõe dados pessoais, milhas e cartões de clientes",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "A Latam confirmou um incidente de segurança que resultou no vazamento de dados de clientes . De acordo com a companhia aérea, o caso aconteceu em 29 de julho deste ano e os consumidores já foram informados do ocorrido por e-mail. Os dados vazados incluem nome completo, data de nascimento, endereço, telefone, e-mail, saldo de milhas e até informações parciais do cartão de crédito : primeiros dígitos, bandeira, nome do titular e data de validade foram afetados, mas os códigos de segurança não foram expostos.",
+      "link": "https://canaltech.com.br/seguranca/vazamento-grave-da-latam-expoe-dados-pessoais-milhas-e-cartoes-de-clientes/",
+      "published": "22/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Novo Malware rouba PINs e usa celulares infectados para enviar dados",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Um novo malware para Android chamado Manic combina recursos de trojan bancário, spyware e controle remoto do aparelho. A ameaça chama atenção por conseguir enviar dados roubados por meio de outros celulares infectados próximos, mesmo quando o dispositivo original está sem acesso direto à internet. O Manic está ativo pelo menos desde fevereiro de 2026 e permanece em desenvolvimento. Em julho, novas versões passaram a adotar técnicas adicionais contra análise, carregamento de código na memória e mecanismos voltados ao roubo de credenciais de bloqueio.",
+      "link": "https://boletimsec.com/novo-malware-rouba-pins-e-usa-celulares-infectados-para-enviar-dados/",
+      "published": "22/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos contornam MFA do Microsoft 365 e tentam desviar pagamentos",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Uma campanha de phishing conseguiu contornar a autenticação multifator do Microsoft 365 e comprometer a conta de um funcionário do setor financeiro, permitindo que criminosos acompanhassem conversas internas e tentassem desviar pagamentos destinados a fornecedores. O ataque começou com um e-mail personalizado sobre uma suposta solicitação de folga negada. O link passou por diferentes redirecionamentos antes de levar a vítima a uma página falsa de autenticação do Microsoft 365. A página funcionava como um proxy Adversary-in-the-Middle, ou AiTM. Credenciais e aprovação do MFA eram repassadas ao serviço legítimo em tempo real, enquanto os invasores capturavam o cookie da sessão autenticada.",
+      "link": "https://boletimsec.com/cibercriminosos-contornam-mfa-do-microsoft-365-e-tentam-desviar-pagamentos/",
+      "published": "22/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "ITProtect fatura R$ 300 milhões e mira setor privado em 2026",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "A iTProtect, empresa brasileira de cibersegurança , infraestrutura e serviços gerenciados de segurança (MSS), alcançou receita acumulada de aproximadamente R$ 300 milhões nos últimos cinco anos, com expectativa de crescimento superior a 30% em 2026, conforme anunciou a companhia. A trajetória de expansão baseia-se na combinação de tecnologia, serviços especializados e relacionamento de longo prazo com clientes, segundo o comunicado da empresa. Théo Costa, CEO da iTProtect, afirma que a evolução da empresa acompanha a transformação do mercado de cibersegurança, que passa a priorizar a capacidade das organizações de manterem operações em funcionamento diante de ataques .",
+      "link": "https://www.cisoadvisor.com.br/itprotect-fatura-r-300-milhoes-e-mira-setor-privado-em-2026/",
+      "published": "22/08/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
