@@ -1,60 +1,64 @@
 {
-  "generated_at": "2026-08-23T12:00:00.024815-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-08-24T10:17:38.798380-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "2 dias Segurança Vazamento grave da Latam expõe dados pessoais, milhas e cartões de clientes",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
+      "title": "Entra ID sofre exploração de falha com CVSS 10",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft emitiu um alerta para organizações sobre a exploração ativa de uma vulnerabilidade crítica no Entra ID (anteriormente Azure Active Directory), que recebeu a classificação CVSS de 10.0 em uma escala de 1 a 10, conforme comunicado publicado pela empresa na última sexta-feira (21 de agosto). A falha, identificada como CVE-2026-69836, permite que um atacante não autenticado execute código remotamente por meio de uma vulnerabilidade de desserialização de dados não confiáveis no serviço de gerenciamento de identidade e acesso em nuvem.",
+      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-com-cvss-10-no-entra-id/",
+      "published": "24/08/2026 10:17",
+      "cves": [
+        "CVE-2026-69836"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Vulnerabilidade crítica no Entra ID permitia execução remota de código",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft corrigiu uma vulnerabilidade de gravidade máxima no Entra ID que poderia permitir execução remota de código pela rede. A falha, identificada como CVE-2026-69836, recebeu pontuação CVSS 10.0 e afetava o serviço de gerenciamento de identidade e acesso em nuvem da empresa. O problema estava relacionado à desserialização de dados não confiáveis. Nesse tipo de falha, informações controladas por um invasor podem ser convertidas em objetos ou estruturas executáveis sem validação adequada, criando condições para comprometimento do serviço. Segundo a descrição técnica divulgada pela Microsoft, um atacante não autorizado poderia explorar a vulnerabilidade remotamente por meio da rede.",
+      "link": "https://boletimsec.com/vulnerabilidade-critica-no-entra-id-permitia-execucao-remota-de-codigo/",
+      "published": "24/08/2026 10:17",
+      "cves": [
+        "CVE-2026-69836"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "LockBit afirma ter invadido U.S. Bank e ameaça publicar dados",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "breach",
-      "summary": "A Latam confirmou um incidente de segurança que resultou no vazamento de dados de clientes . De acordo com a companhia aérea, o caso aconteceu em 29 de julho deste ano e os consumidores já foram informados do ocorrido por e-mail. Os dados vazados incluem nome completo, data de nascimento, endereço, telefone, e-mail, saldo de milhas e até informações parciais do cartão de crédito : primeiros dígitos, bandeira, nome do titular e data de validade foram afetados, mas os códigos de segurança não foram expostos.",
-      "link": "https://canaltech.com.br/seguranca/vazamento-grave-da-latam-expoe-dados-pessoais-milhas-e-cartoes-de-clientes/",
-      "published": "23/08/2026 12:00",
+      "summary": "O U.S. Bank está investigando uma alegação do grupo de ransomware LockBit, que afirma ter invadido a instituição financeira e roubado dados. Até o momento, o banco diz não ter encontrado evidências de acesso não autorizado à sua rede ou de impacto em seus sistemas internos. O LockBit adicionou o domínio do banco ao seu site de vazamentos em 19 de agosto e estabeleceu 3 de setembro de 2026 como prazo para o pagamento de uma extorsão. Caso a exigência não seja atendida, o grupo ameaça publicar as informações supostamente obtidas. Lee Henderson, vice-presidente de assuntos públicos do U.S. Bank, confirmou que a instituição está ciente das alegações e mantém o caso sob investigação.",
+      "link": "https://boletimsec.com/lockbit-afirma-ter-invadido-u-s-bank-e-ameaca-publicar-dados/",
+      "published": "24/08/2026 10:17",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "13.08.26 Segurança O maior risco da IA não é a intenção, mas a imprevisibilidade",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Durante muito tempo, o debate sobre inteligência artificial e cibersegurança esteve concentrado em uma hipótese relativamente simples: o que aconteceria se criminosos começassem a utilizar sistemas de IA para automatizar ataques? A preocupação é legítima. Agentes cada vez mais autônomos podem acelerar a identificação de falhas, vulnerabilidades e caminhos de exploração, reduzindo drasticamente o tempo necessário para comprometer uma infraestrutura. Atividades que hoje exigem semanas ou meses de trabalho humano poderiam ser realizadas em horas. Nas mãos de cibercriminosos, esse tipo de tecnologia se tornaria um multiplicador de força sem precedentes.",
-      "link": "https://canaltech.com.br/colunas/o-maior-risco-da-ia-nao-e-a-intencao-mas-a-imprevisibilidade/",
-      "published": "23/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "12.08.26 Segurança Bug no Zoom deixava qualquer pessoa em uma chamada vulnerável a invasão de PC e celular",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "O Zoom corrigiu três falhas na ferramenta de anotação que permitiam a um participante de uma chamada assumir o controle do dispositivo de outra pessoa na mesma reunião. O ataque funcionava nos dois sentidos: quem compartilhava a tela podia invadir quem assistia, e quem assistia podia invadir quem compartilhava. As vulnerabilidades não exigiam nenhuma ação da vítima. Bastava estar na chamada . Não havia clique, download, nem qualquer sinal na tela que indicasse a invasão, segundo o Hacker News. As falhas foram descobertas pela A Security, startup de segurança.",
-      "link": "https://canaltech.com.br/seguranca/bug-no-zoom-deixava-qualquer-pessoa-em-uma-chamada-vulneravel-a-invasao-de-pc-e-celular/",
-      "published": "23/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "CISO Advisor e Pimenta Comunicação organizam evento de cyber",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
+      "title": "Cibercriminosos automatizam exploração de vulnerabilidades com agentes de IA",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
       "category": "identity",
-      "summary": "O CISO Advisor e a Pimenta Comunicação organizaram, na última quarta-feira (19 de agosto) em São Paulo, o Identity & Business Day da Veridas , um encontro que reuniu líderes do setor financeiro e de segurança para debater autenticação digital, biometria e prevenção a fraudes. A realização do evento , que contou com a curadoria de conteúdo do CISO Advisor e a gestão logística completa da Pimenta Comunicação, é resultado da capacidade das duas empresas de produzir eventos corporativos de alto nível para o mercado de tecnologia e segurança da informação. A Pimenta incluiu em seu atendimento uma campanha completa de PR para a ocasião.",
-      "link": "https://www.cisoadvisor.com.br/ciso-advisor-e-pimenta-comunicacao-organizam-evento-de-cyber/",
-      "published": "23/08/2026 12:00",
+      "summary": "Um grupo cibercriminoso chinês está usando agentes de inteligência artificial para automatizar ataques contra servidores Windows e Linux expostos à internet. Rastreada como UAT-10147, a operação atingiu organizações de governo, educação, mídia, tecnologia e jogos em vários países, incluindo o Brasil. A campanha foi identificada pela Cisco Talos, que encontrou uma lista com aproximadamente 170 mil URLs na infraestrutura dos criminosos. Os operadores dividiram os alvos em grupos menores para acelerar varreduras e exploração de sistemas vulneráveis. O acesso inicial depende principalmente de vulnerabilidades conhecidas em aplicações como Zimbra, AjaxPro, Nacos e Telerik.",
+      "link": "https://boletimsec.com/cibercriminosos-automatizam-exploracao-de-vulnerabilidades-com-agentes-de-ia/",
+      "published": "24/08/2026 10:17",
       "cves": [],
-      "vendor": null
+      "vendor": "Cisco"
     },
     {
-      "title": "Veridas debate autenticação digital e fraudes em SP",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
+      "title": "Novo Malware rouba PINs e usa celulares infectados para enviar dados",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
       "category": "identity",
-      "summary": "A Veridas, empresa global especializada em identidade digital, promoveu nesta quarta-feira, 19 de agosto, em São Paulo, o Identity & Business Day , que reuniu executivos do Bradesco, Santander e 4EXON para discutir segurança, biometria e prevenção a fraudes no sistema financeiro, conforme comunicado da empresa. O encontro integra a estratégia de expansão da Veridas no Brasil , um dos mercados prioritários para a companhia.",
-      "link": "https://www.cisoadvisor.com.br/veridas-debate-autenticacao-digital-e-fraudes-em-sp/",
-      "published": "23/08/2026 12:00",
+      "summary": "Um novo malware para Android chamado Manic combina recursos de trojan bancário, spyware e controle remoto do aparelho. A ameaça chama atenção por conseguir enviar dados roubados por meio de outros celulares infectados próximos, mesmo quando o dispositivo original está sem acesso direto à internet. O Manic está ativo pelo menos desde fevereiro de 2026 e permanece em desenvolvimento. Em julho, novas versões passaram a adotar técnicas adicionais contra análise, carregamento de código na memória e mecanismos voltados ao roubo de credenciais de bloqueio.",
+      "link": "https://boletimsec.com/novo-malware-rouba-pins-e-usa-celulares-infectados-para-enviar-dados/",
+      "published": "24/08/2026 10:17",
       "cves": [],
       "vendor": null
     }
