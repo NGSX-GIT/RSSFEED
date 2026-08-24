@@ -1,64 +1,60 @@
 {
-  "generated_at": "2026-08-24T10:17:38.798380-03:00",
+  "generated_at": "2026-08-24T12:00:00.011870-03:00",
   "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Entra ID sofre exploração de falha com CVSS 10",
+      "title": "EUA podem classificar IA como infraestrutura crítica",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft emitiu um alerta para organizações sobre a exploração ativa de uma vulnerabilidade crítica no Entra ID (anteriormente Azure Active Directory), que recebeu a classificação CVSS de 10.0 em uma escala de 1 a 10, conforme comunicado publicado pela empresa na última sexta-feira (21 de agosto). A falha, identificada como CVE-2026-69836, permite que um atacante não autenticado execute código remotamente por meio de uma vulnerabilidade de desserialização de dados não confiáveis no serviço de gerenciamento de identidade e acesso em nuvem.",
-      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-com-cvss-10-no-entra-id/",
-      "published": "24/08/2026 10:17",
-      "cves": [
-        "CVE-2026-69836"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Vulnerabilidade crítica no Entra ID permitia execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft corrigiu uma vulnerabilidade de gravidade máxima no Entra ID que poderia permitir execução remota de código pela rede. A falha, identificada como CVE-2026-69836, recebeu pontuação CVSS 10.0 e afetava o serviço de gerenciamento de identidade e acesso em nuvem da empresa. O problema estava relacionado à desserialização de dados não confiáveis. Nesse tipo de falha, informações controladas por um invasor podem ser convertidas em objetos ou estruturas executáveis sem validação adequada, criando condições para comprometimento do serviço. Segundo a descrição técnica divulgada pela Microsoft, um atacante não autorizado poderia explorar a vulnerabilidade remotamente por meio da rede.",
-      "link": "https://boletimsec.com/vulnerabilidade-critica-no-entra-id-permitia-execucao-remota-de-codigo/",
-      "published": "24/08/2026 10:17",
-      "cves": [
-        "CVE-2026-69836"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "LockBit afirma ter invadido U.S. Bank e ameaça publicar dados",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "O U.S. Bank está investigando uma alegação do grupo de ransomware LockBit, que afirma ter invadido a instituição financeira e roubado dados. Até o momento, o banco diz não ter encontrado evidências de acesso não autorizado à sua rede ou de impacto em seus sistemas internos. O LockBit adicionou o domínio do banco ao seu site de vazamentos em 19 de agosto e estabeleceu 3 de setembro de 2026 como prazo para o pagamento de uma extorsão. Caso a exigência não seja atendida, o grupo ameaça publicar as informações supostamente obtidas. Lee Henderson, vice-presidente de assuntos públicos do U.S. Bank, confirmou que a instituição está ciente das alegações e mantém o caso sob investigação.",
-      "link": "https://boletimsec.com/lockbit-afirma-ter-invadido-u-s-bank-e-ameaca-publicar-dados/",
-      "published": "24/08/2026 10:17",
+      "category": "general",
+      "summary": "Um grupo industrial dos Estados Unidos, o Americans for Responsible Innovation (ARI), está pressionando a administração Trump para que designe o setor de inteligência artificial como infraestrutura crítica, conforme relatório publicado pela própria organização na última quarta-feira (19 de agosto).",
+      "link": "https://www.cisoadvisor.com.br/eua-podem-classificar-ia-como-infraestrutura-critica/",
+      "published": "24/08/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos automatizam exploração de vulnerabilidades com agentes de IA",
-      "source": "BoletimSec Notícias",
+      "title": "Veeam aborda desafios de IA durante evento",
+      "source": "CISO Advisor",
       "priority": "Média",
-      "category": "identity",
-      "summary": "Um grupo cibercriminoso chinês está usando agentes de inteligência artificial para automatizar ataques contra servidores Windows e Linux expostos à internet. Rastreada como UAT-10147, a operação atingiu organizações de governo, educação, mídia, tecnologia e jogos em vários países, incluindo o Brasil. A campanha foi identificada pela Cisco Talos, que encontrou uma lista com aproximadamente 170 mil URLs na infraestrutura dos criminosos. Os operadores dividiram os alvos em grupos menores para acelerar varreduras e exploração de sistemas vulneráveis. O acesso inicial depende principalmente de vulnerabilidades conhecidas em aplicações como Zimbra, AjaxPro, Nacos e Telerik.",
-      "link": "https://boletimsec.com/cibercriminosos-automatizam-exploracao-de-vulnerabilidades-com-agentes-de-ia/",
-      "published": "24/08/2026 10:17",
+      "category": "patches",
+      "summary": "A Veeam Software, empresa de resiliência de dados, realizou dia 18 passado o VeeamON Tour Brasil em São Paulo, reunindo clientes, parceiros, profissionais de tecnologia e especialistas do setor para discutir os desafios relacionados à confiança em dados e inteligência artificial, conforme comunicado da empresa. Entre os temas abordados estiveram a necessidade de garantir visibilidade, segurança, governança, conformidade e capacidade de recuperação dos dados utilizados por sistemas e agentes de IA.",
+      "link": "https://www.cisoadvisor.com.br/veeam-aborda-desafios-de-ia-durante-evento/",
+      "published": "24/08/2026 12:00",
       "cves": [],
-      "vendor": "Cisco"
+      "vendor": null
     },
     {
-      "title": "Novo Malware rouba PINs e usa celulares infectados para enviar dados",
+      "title": "Cibercriminosos contornam MFA do Microsoft 365 e tentam desviar pagamentos",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "identity",
-      "summary": "Um novo malware para Android chamado Manic combina recursos de trojan bancário, spyware e controle remoto do aparelho. A ameaça chama atenção por conseguir enviar dados roubados por meio de outros celulares infectados próximos, mesmo quando o dispositivo original está sem acesso direto à internet. O Manic está ativo pelo menos desde fevereiro de 2026 e permanece em desenvolvimento. Em julho, novas versões passaram a adotar técnicas adicionais contra análise, carregamento de código na memória e mecanismos voltados ao roubo de credenciais de bloqueio.",
-      "link": "https://boletimsec.com/novo-malware-rouba-pins-e-usa-celulares-infectados-para-enviar-dados/",
-      "published": "24/08/2026 10:17",
+      "summary": "Uma campanha de phishing conseguiu contornar a autenticação multifator do Microsoft 365 e comprometer a conta de um funcionário do setor financeiro, permitindo que criminosos acompanhassem conversas internas e tentassem desviar pagamentos destinados a fornecedores. O ataque começou com um e-mail personalizado sobre uma suposta solicitação de folga negada. O link passou por diferentes redirecionamentos antes de levar a vítima a uma página falsa de autenticação do Microsoft 365. A página funcionava como um proxy Adversary-in-the-Middle, ou AiTM. Credenciais e aprovação do MFA eram repassadas ao serviço legítimo em tempo real, enquanto os invasores capturavam o cookie da sessão autenticada.",
+      "link": "https://boletimsec.com/cibercriminosos-contornam-mfa-do-microsoft-365-e-tentam-desviar-pagamentos/",
+      "published": "24/08/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "12.08.26 Segurança Estudo: Windows é 6x mais vulnerável a ataques do que o Mac",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Computadores com Windows registraram taxa de detecção de malware quase seis vezes superior à dos dispositivos com macOS entre janeiro e julho de 2026, segundo levantamento da Surfshark Antivirus. A empresa analisou 391.305 detecções de ameaças no período e cruzou os dados com a base de usuários ativos de cada sistema. Usuários de Windows representavam 66% da base ativa do antivírus, mas concentraram 92% de todas as detecções registradas. Já o macOS respondia por 34% da base e apenas 8% das ameaças identificadas. A diferença resulta em uma taxa de detecção por usuário quase seis vezes maior no Windows.",
+      "link": "https://canaltech.com.br/seguranca/estudo-windows-e-6x-mais-vulneravel-a-ataques-do-que-o-mac/",
+      "published": "24/08/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "3 dias Segurança Vazamento grave da Latam expõe dados pessoais, milhas e cartões de clientes",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "A Latam confirmou um incidente de segurança que resultou no vazamento de dados de clientes . De acordo com a companhia aérea, o caso aconteceu em 29 de julho deste ano e os consumidores já foram informados do ocorrido por e-mail. Os dados vazados incluem nome completo, data de nascimento, endereço, telefone, e-mail, saldo de milhas e até informações parciais do cartão de crédito : primeiros dígitos, bandeira, nome do titular e data de validade foram afetados, mas os códigos de segurança não foram expostos.",
+      "link": "https://canaltech.com.br/seguranca/vazamento-grave-da-latam-expoe-dados-pessoais-milhas-e-cartoes-de-clientes/",
+      "published": "24/08/2026 12:00",
       "cves": [],
       "vendor": null
     }
