@@ -1,64 +1,67 @@
 {
-  "generated_at": "2026-08-24T12:00:00.032407-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-08-25T12:00:00.010805-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Entra ID sofre exploração de falha com CVSS 10",
+      "title": "Cisco lança patches para falhas graves em soluções corporativas",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco corrigiu nove vulnerabilidades críticas nas plataformas Crosswork e Secure Workload, incluindo falhas com pontuação máxima CVSS 10.0. Segundo a empresa, não há indícios de exploração ativa. No Crosswork, as falhas são rastreadas como CVE-2026-20030, CVE-2026-20357, CVE-2026-20358 e CVE-2026-20359. Elas envolvem problemas como injeção de SQL, falhas de autenticação, controle inadequado de arquivos e proteção insuficiente de credenciais. Três dessas vulnerabilidades receberam nota CVSS 10.0, enquanto a CVE-2026-20359 alcançou 9.9. A exploração pode permitir acesso indevido, alteração de dados e exposição de informações sensíveis.",
+      "link": "https://boletimsec.com/cisco-lanca-patches-para-falhas-graves-em-solucoes-corporativas/",
+      "published": "25/08/2026 12:00",
+      "cves": [
+        "CVE-2026-20030",
+        "CVE-2026-20357",
+        "CVE-2026-20358",
+        "CVE-2026-20359"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CISA alerta para vulnerabilidade explorada ativamente no Zimbra",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade de execução remota de código no Zimbra Collaboration Suite está sendo explorada ativamente em ataques, permitindo que invasores não autenticados executem comandos no sistema operacional de servidores vulneráveis. A falha é rastreada como CVE-2026-73570. O problema é uma injeção de comandos no componente de monitoramento SNMP. A exploração é possível quando o pacote opcional zimbra-snmp está instalado, as notificações SNMP estão habilitadas pelo parâmetro snmp_notify e o serviço swatchdog está em execução. Um invasor pode enviar requisições SMTP especialmente preparadas para explorar a sanitização inadequada de dados processados pelas notificações SNMP.",
+      "link": "https://boletimsec.com/cisa-alerta-para-vulnerabilidade-explorada-ativamente-no-zimbra/",
+      "published": "25/08/2026 12:00",
+      "cves": [
+        "CVE-2026-73570"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Veeam aborda desafios de IA durante evento",
       "source": "CISO Advisor",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Microsoft emitiu um alerta para organizações sobre a exploração ativa de uma vulnerabilidade crítica no Entra ID (anteriormente Azure Active Directory), que recebeu a classificação CVSS de 10.0 em uma escala de 1 a 10, conforme comunicado publicado pela empresa na última sexta-feira (21 de agosto). A falha, identificada como CVE-2026-69836, permite que um atacante não autenticado execute código remotamente por meio de uma vulnerabilidade de desserialização de dados não confiáveis no serviço de gerenciamento de identidade e acesso em nuvem.",
-      "link": "https://www.cisoadvisor.com.br/exploracao-ativa-de-falha-com-cvss-10-no-entra-id/",
-      "published": "24/08/2026 12:00",
-      "cves": [
-        "CVE-2026-69836"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Vulnerabilidade crítica no Entra ID permitia execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft corrigiu uma vulnerabilidade de gravidade máxima no Entra ID que poderia permitir execução remota de código pela rede. A falha, identificada como CVE-2026-69836, recebeu pontuação CVSS 10.0 e afetava o serviço de gerenciamento de identidade e acesso em nuvem da empresa. O problema estava relacionado à desserialização de dados não confiáveis. Nesse tipo de falha, informações controladas por um invasor podem ser convertidas em objetos ou estruturas executáveis sem validação adequada, criando condições para comprometimento do serviço. Segundo a descrição técnica divulgada pela Microsoft, um atacante não autorizado poderia explorar a vulnerabilidade remotamente por meio da rede.",
-      "link": "https://boletimsec.com/vulnerabilidade-critica-no-entra-id-permitia-execucao-remota-de-codigo/",
-      "published": "24/08/2026 12:00",
-      "cves": [
-        "CVE-2026-69836"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "LockBit afirma ter invadido U.S. Bank e ameaça publicar dados",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "O U.S. Bank está investigando uma alegação do grupo de ransomware LockBit, que afirma ter invadido a instituição financeira e roubado dados. Até o momento, o banco diz não ter encontrado evidências de acesso não autorizado à sua rede ou de impacto em seus sistemas internos. O LockBit adicionou o domínio do banco ao seu site de vazamentos em 19 de agosto e estabeleceu 3 de setembro de 2026 como prazo para o pagamento de uma extorsão. Caso a exigência não seja atendida, o grupo ameaça publicar as informações supostamente obtidas. Lee Henderson, vice-presidente de assuntos públicos do U.S. Bank, confirmou que a instituição está ciente das alegações e mantém o caso sob investigação.",
-      "link": "https://boletimsec.com/lockbit-afirma-ter-invadido-u-s-bank-e-ameaca-publicar-dados/",
-      "published": "24/08/2026 12:00",
+      "summary": "A Veeam Software, empresa de resiliência de dados, realizou dia 18 passado o VeeamON Tour Brasil em São Paulo, reunindo clientes, parceiros, profissionais de tecnologia e especialistas do setor para discutir os desafios relacionados à confiança em dados e inteligência artificial, conforme comunicado da empresa. Entre os temas abordados estiveram a necessidade de garantir visibilidade, segurança, governança, conformidade e capacidade de recuperação dos dados utilizados por sistemas e agentes de IA.",
+      "link": "https://www.cisoadvisor.com.br/veeam-aborda-desafios-de-ia-durante-evento/",
+      "published": "25/08/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos automatizam exploração de vulnerabilidades com agentes de IA",
+      "title": "Novo malware para Mac sequestra sessões autenticadas do navegador",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Um grupo cibercriminoso chinês está usando agentes de inteligência artificial para automatizar ataques contra servidores Windows e Linux expostos à internet. Rastreada como UAT-10147, a operação atingiu organizações de governo, educação, mídia, tecnologia e jogos em vários países, incluindo o Brasil. A campanha foi identificada pela Cisco Talos, que encontrou uma lista com aproximadamente 170 mil URLs na infraestrutura dos criminosos. Os operadores dividiram os alvos em grupos menores para acelerar varreduras e exploração de sistemas vulneráveis. O acesso inicial depende principalmente de vulnerabilidades conhecidas em aplicações como Zimbra, AjaxPro, Nacos e Telerik.",
-      "link": "https://boletimsec.com/cibercriminosos-automatizam-exploracao-de-vulnerabilidades-com-agentes-de-ia/",
-      "published": "24/08/2026 12:00",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Um novo malware para macOS chamado AmnesiaStealer permite que invasores roubem dados e assumam silenciosamente o controle de navegadores já autenticados. A ameaça combina infostealer, persistência e sequestro de sessões ativas. A infecção começa com uma página falsa que imita o GitHub e orienta a vítima a copiar um comando para o Terminal. A técnica, conhecida como ClickFix, faz o próprio usuário iniciar a cadeia maliciosa. Depois de executado, o malware instala uma carga escrita em Rust, coleta informações do Mac e exibe uma falsa janela de instalador para capturar a senha do usuário. Com ela, tenta desbloquear o Keychain e acessar informações protegidas.",
+      "link": "https://boletimsec.com/novo-malware-para-mac-sequestra-sessoes-autenticadas-do-navegador/",
+      "published": "25/08/2026 12:00",
       "cves": [],
-      "vendor": "Cisco"
+      "vendor": null
     },
     {
-      "title": "EUA podem classificar IA como infraestrutura crítica",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "general",
-      "summary": "Um grupo industrial dos Estados Unidos, o Americans for Responsible Innovation (ARI), está pressionando a administração Trump para que designe o setor de inteligência artificial como infraestrutura crítica, conforme relatório publicado pela própria organização na última quarta-feira (19 de agosto).",
-      "link": "https://www.cisoadvisor.com.br/eua-podem-classificar-ia-como-infraestrutura-critica/",
-      "published": "24/08/2026 12:00",
+      "title": "4 dias Segurança Vazamento grave da Latam expõe dados pessoais, milhas e cartões de clientes",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "A Latam confirmou um incidente de segurança que resultou no vazamento de dados de clientes . De acordo com a companhia aérea, o caso aconteceu em 29 de julho deste ano e os consumidores já foram informados do ocorrido por e-mail. Os dados vazados incluem nome completo, data de nascimento, endereço, telefone, e-mail, saldo de milhas e até informações parciais do cartão de crédito : primeiros dígitos, bandeira, nome do titular e data de validade foram afetados, mas os códigos de segurança não foram expostos.",
+      "link": "https://canaltech.com.br/seguranca/vazamento-grave-da-latam-expoe-dados-pessoais-milhas-e-cartoes-de-clientes/",
+      "published": "25/08/2026 12:00",
       "cves": [],
       "vendor": null
     }
