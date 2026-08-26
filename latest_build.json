@@ -1,67 +1,67 @@
 {
-  "generated_at": "2026-08-25T12:00:00.010805-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-08-26T12:00:00.782483-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Cisco lança patches para falhas graves em soluções corporativas",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco corrigiu nove vulnerabilidades críticas nas plataformas Crosswork e Secure Workload, incluindo falhas com pontuação máxima CVSS 10.0. Segundo a empresa, não há indícios de exploração ativa. No Crosswork, as falhas são rastreadas como CVE-2026-20030, CVE-2026-20357, CVE-2026-20358 e CVE-2026-20359. Elas envolvem problemas como injeção de SQL, falhas de autenticação, controle inadequado de arquivos e proteção insuficiente de credenciais. Três dessas vulnerabilidades receberam nota CVSS 10.0, enquanto a CVE-2026-20359 alcançou 9.9. A exploração pode permitir acesso indevido, alteração de dados e exposição de informações sensíveis.",
-      "link": "https://boletimsec.com/cisco-lanca-patches-para-falhas-graves-em-solucoes-corporativas/",
-      "published": "25/08/2026 12:00",
-      "cves": [
-        "CVE-2026-20030",
-        "CVE-2026-20357",
-        "CVE-2026-20358",
-        "CVE-2026-20359"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "CISA alerta para vulnerabilidade explorada ativamente no Zimbra",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade de execução remota de código no Zimbra Collaboration Suite está sendo explorada ativamente em ataques, permitindo que invasores não autenticados executem comandos no sistema operacional de servidores vulneráveis. A falha é rastreada como CVE-2026-73570. O problema é uma injeção de comandos no componente de monitoramento SNMP. A exploração é possível quando o pacote opcional zimbra-snmp está instalado, as notificações SNMP estão habilitadas pelo parâmetro snmp_notify e o serviço swatchdog está em execução. Um invasor pode enviar requisições SMTP especialmente preparadas para explorar a sanitização inadequada de dados processados pelas notificações SNMP.",
-      "link": "https://boletimsec.com/cisa-alerta-para-vulnerabilidade-explorada-ativamente-no-zimbra/",
-      "published": "25/08/2026 12:00",
-      "cves": [
-        "CVE-2026-73570"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Veeam aborda desafios de IA durante evento",
+      "title": "Falha crítica no Oracle WebLogic tem exploração ativa",
       "source": "CISO Advisor",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A Veeam Software, empresa de resiliência de dados, realizou dia 18 passado o VeeamON Tour Brasil em São Paulo, reunindo clientes, parceiros, profissionais de tecnologia e especialistas do setor para discutir os desafios relacionados à confiança em dados e inteligência artificial, conforme comunicado da empresa. Entre os temas abordados estiveram a necessidade de garantir visibilidade, segurança, governança, conformidade e capacidade de recuperação dos dados utilizados por sistemas e agentes de IA.",
-      "link": "https://www.cisoadvisor.com.br/veeam-aborda-desafios-de-ia-durante-evento/",
-      "published": "25/08/2026 12:00",
-      "cves": [],
+      "summary": "A vulnerabilidade CVE-2026-21962 (CVSS de 10,0), que afeta o Oracle HTTP Server e o plug-in de proxy do Oracle WebLogic Server, está sendo explorada ativamente por agentes maliciosos. A falha foi publicada pela Oracle em 20 de janeiro com atualizações de segurança e a empresa pediu que as organizações as instalassem imediatamente. A vulnerabilidade pode permitir que um atacante não autenticado comprometa o servidor, mas a Oracle não forneceu mais detalhes. O Oracle HTTP Server é o componente de servidor web do Oracle Fusion Middleware e é usado para se comunicar com o Oracle WebLogic Server.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-oracle-weblogic-tem-exploracao-ativa/",
+      "published": "26/08/2026 12:00",
+      "cves": [
+        "CVE-2026-21962"
+      ],
       "vendor": null
     },
     {
-      "title": "Novo malware para Mac sequestra sessões autenticadas do navegador",
+      "title": "Falhas no Zscaler Client Connector permitem RCE",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Zscaler corrigiu múltiplas vulnerabilidades no Client Connector que podem permitir execução remota de código, bypass de autenticação, elevação de privilégios e negação de serviço. As falhas atingem diferentes versões do agente utilizado em ambientes corporativos para aplicar políticas de acesso e segurança. A mais grave é a CVE-2026-59568, classificada com CVSS 9.1. A vulnerabilidade reúne falhas que podem ser exploradas remotamente por um invasor sem autenticação ou privilégios prévios. Uma exploração bem-sucedida permite executar código arbitrário dentro do contexto do Zscaler Client Connector.",
+      "link": "https://boletimsec.com/falhas-no-zscaler-client-connector-permitem-rce/",
+      "published": "26/08/2026 12:00",
+      "cves": [
+        "CVE-2026-59568"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "DrayTek corrige falhas críticas em switches e access points",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A fabricante de equipamentos de rede DrayTek publicou correções para onze vulnerabilidades em modelos VigorAP e trinta falhas em VigorSwitches, incluindo três vulnerabilidades críticas que permitem execução remota de comandos com privilégios de root e modificação não autorizada de configurações. As falhas CVE-2026-71914 e CVE-2026-71921 (CVSS não informado) existem em VigorAP e permitem que atacantes não autenticados executem comandos do sistema operacional com privilégios de root, conforme comunicado da DrayTek. Para isso, é necessário enviar uma mensagem ou entrada especialmente preparada para o dispositivo de rede.",
+      "link": "https://www.cisoadvisor.com.br/draytek-corrige-falhas-criticas-em-switches-e-access-points/",
+      "published": "26/08/2026 12:00",
+      "cves": [
+        "CVE-2026-71914",
+        "CVE-2026-71921"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "WhatsApp passa a aceitar várias passkeys na mesma conta",
       "source": "BoletimSec Notícias",
       "priority": "Baixa",
-      "category": "patches",
-      "summary": "Um novo malware para macOS chamado AmnesiaStealer permite que invasores roubem dados e assumam silenciosamente o controle de navegadores já autenticados. A ameaça combina infostealer, persistência e sequestro de sessões ativas. A infecção começa com uma página falsa que imita o GitHub e orienta a vítima a copiar um comando para o Terminal. A técnica, conhecida como ClickFix, faz o próprio usuário iniciar a cadeia maliciosa. Depois de executado, o malware instala uma carga escrita em Rust, coleta informações do Mac e exibe uma falsa janela de instalador para capturar a senha do usuário. Com ela, tenta desbloquear o Keychain e acessar informações protegidas.",
-      "link": "https://boletimsec.com/novo-malware-para-mac-sequestra-sessoes-autenticadas-do-navegador/",
-      "published": "25/08/2026 12:00",
+      "category": "identity",
+      "summary": "O WhatsApp ampliou a proteção de contas e agora permite cadastrar mais de uma passkey no mesmo perfil. A mudança beneficia principalmente usuários que alternam entre dispositivos Android e iOS e querem manter um método de login resistente a phishing. As passkeys substituem códigos e senhas tradicionais por autenticação baseada na biometria, reconhecimento facial ou bloqueio do próprio aparelho. Segundo a Meta, mais de 1 bilhão de pessoas já utilizam o recurso no WhatsApp. O suporte começou no Android em 2023 e chegou ao iOS em 2024. Com a novidade, diferentes chaves podem ser associadas à mesma conta, reduzindo a dependência de um único dispositivo durante o processo de autenticação.",
+      "link": "https://boletimsec.com/whatsapp-passa-a-aceitar-varias-passkeys-na-mesma-conta/",
+      "published": "26/08/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Vazamento grave da Latam expõe dados pessoais, milhas e cartões de clientes",
-      "source": "Canaltech Segurança",
+      "title": "Agente de Pentest alcança 98% de efetividade",
+      "source": "BoletimSec Notícias",
       "priority": "Baixa",
-      "category": "breach",
-      "summary": "A Latam confirmou um incidente de segurança que resultou no vazamento de dados de clientes . De acordo com a companhia aérea, o caso aconteceu em 29 de julho deste ano e os consumidores já foram informados do ocorrido por e-mail. Os dados vazados incluem nome completo, data de nascimento, endereço, telefone, e-mail, saldo de milhas e até informações parciais do cartão de crédito : primeiros dígitos, bandeira, nome do titular e data de validade foram afetados, mas os códigos de segurança não foram expostos.",
-      "link": "https://canaltech.com.br/seguranca/vazamento-grave-da-latam-expoe-dados-pessoais-milhas-e-cartoes-de-clientes/",
-      "published": "25/08/2026 12:00",
+      "category": "identity",
+      "summary": "O agente de pentest conhecido como, Yaga , desenvolvido pela empresa de cibersegurança ofensiva HackerSec, atingiu 98,8% de efetividade em cenários white box na nova versão mais recente do YagaBench. Nas demais modalidades, o agente registrou 96,2% em black box e 97% em gray box, completando o melhor resultado já obtido pela tecnologia desde o início das medições. Isso significa que nos ambientes testados a Yaga encontrou mais de 98% das vulnerabilidades existentes. O objetivo central do benchmark é demonstrar a diferença entre usar um modelo de IA isolado e colocar esses mesmos modelos dentro do harness desenvolvido pela HackerSec especificamente para pentest.",
+      "link": "https://boletimsec.com/agente-de-pentest-alcanca-98-de-efetividade/",
+      "published": "26/08/2026 12:00",
       "cves": [],
       "vendor": null
     }
