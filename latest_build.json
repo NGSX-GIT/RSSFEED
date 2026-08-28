@@ -1,68 +1,69 @@
 {
-  "generated_at": "2026-08-27T12:00:00.053898-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-08-28T12:00:00.027169-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Next.js corrige duas vulnerabilidades críticas com risco de RCE",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Next.js recebeu uma atualização de segurança para corrigir duas vulnerabilidades críticas que podem levar à execução remota de código sem autenticação. As correções foram disponibilizadas nas versões 15.5.24 e 16.3.3. A primeira falha, CVE-2026-75604, recebeu pontuação CVSS 9.0 e afeta aplicações hospedadas em servidores Windows que utilizam Pages Router ou App Router sem Cache Components. O problema está relacionado a path traversal. Um invasor pode manipular caminhos processados pela aplicação e, em condições específicas, alcançar execução de código no servidor sem precisar de credenciais ou interação do usuário.",
-      "link": "https://boletimsec.com/next-js-corrige-duas-vulnerabilidades-criticas-com-risco-de-rce/",
-      "published": "27/08/2026 12:00",
-      "cves": [
-        "CVE-2026-75604"
-      ],
-      "vendor": "Windows"
-    },
-    {
-      "title": "Falhas críticas no Next.js permitem execução remota de código",
+      "title": "Vulnerabilidade crítica no SharePoint está sendo explorada",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Duas vulnerabilidades críticas no Next.js, identificadas como CVE-2026-75604 e GHSA-2xp9-vwfh-vxw4, permitem execução remota de código não autenticada em aplicações hospedadas no Windows que utilizam a API de Otimização de Imagens para processar arquivos AVIF, de acordo com avisos da Vercel e do GitHub. A primeira falha , CVE-2026-75604 (CVSS 9.8), afeta aplicações Next.js que usam o Pages Router ou o App Router sem Cache Components, conforme o aviso GHSA-p293-qw3h-jr36.",
-      "link": "https://www.cisoadvisor.com.br/falhas-criticas-no-next-js-permitem-execucao-remota-de-codigo/",
-      "published": "27/08/2026 12:00",
+      "summary": "A vulnerabilidade CVE-2026-63520 no Microsoft SharePoint, que permite execução remota de código, está sendo explorada ativamente em ataques, conforme relatou a empresa de segurança cibernética Defused. A falha, publicada pela Microsoft em 11 de agosto com atualizações de segurança, não tinha exploração conhecida no momento do lançamento do patch, mas a empresa alertou que esperava abuso em curto prazo. A CVE-2026-63520 permite que um atacante não autenticado execute código em servidores SharePoint, de acordo com o comunicado da Microsoft.",
+      "link": "https://www.cisoadvisor.com.br/vulnerabilidade-critica-no-sharepoint-esta-sendo-explorada/",
+      "published": "28/08/2026 12:00",
       "cves": [
-        "CVE-2026-75604"
+        "CVE-2026-63520"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Falha crítica no Veeam pode expor credenciais de contas de serviço",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Veeam corrigiu uma vulnerabilidade crítica no Veeam ONE que pode permitir a um invasor remoto e não autenticado forçar tentativas de autenticação SMB a partir da conta de serviço da plataforma. A falha é identificada como CVE-2026-65641 e recebeu pontuação CVSS 9.3. O problema afeta o Veeam ONE 13.1.0.7034 e todas as builds anteriores da versão 13. Instalações da linha 12.x não são vulneráveis ao problema, segundo a fabricante. Ao explorar a brecha, um atacante pode direcionar a autenticação SMB para um servidor sob seu controle. Em ambientes Windows, isso pode expor material de autenticação Net-NTLM associado à conta utilizada pelo serviço.",
+      "link": "https://boletimsec.com/falha-critica-no-veeam-pode-expor-credenciais-de-contas-de-servico/",
+      "published": "28/08/2026 12:00",
+      "cves": [
+        "CVE-2026-65641"
       ],
       "vendor": "Windows"
     },
     {
-      "title": "SonicWall corrige falhas graves no NetExtender para Linux",
+      "title": "PaperCut NG e MF têm falha explorada em ataques zero-day",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A PaperCut está alertando que hackers estão explorando ativamente uma vulnerabilidade em todas as versões de seus softwares de gerenciamento de impressão PaperCut NG e PaperCut MF em ataques do tipo zero-day. A empresa afirmou estar ciente de ataques confirmados a clientes e publicou um comunicado de segurança urgente nesta quinta-feira. A PaperCut afirma que a vulnerabilidade afeta todas as versões do NG e MF, mas não compartilhou detalhes sobre a falha ou como ela está sendo explorada. A empresa disse que sua equipe de segurança reproduziu a vulnerabilidade usando informações fornecidas por um cliente universitário.",
+      "link": "https://www.cisoadvisor.com.br/papercut-ng-e-mf-tem-falha-explorada-em-ataques-zero-day/",
+      "published": "28/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falhas no TeamViewer permitem execução de comandos e gravação de arquivos",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A SonicWall corrigiu duas vulnerabilidades no NetExtender para Linux que podem permitir gravação arbitrária de arquivos com privilégios elevados e manipulação do processo de atualização. As falhas afetam versões 10.3.5 e anteriores. A mais grave, CVE-2026-66152, recebeu pontuação CVSS 8.8 e envolve uma falha de path traversal no processamento de um arquivo OPSWAT em formato tar. Um invasor remoto pode usar caminhos especialmente preparados para fazer arquivos escaparem do diretório previsto durante a extração. Como a operação é executada com privilégios de root, arquivos podem ser gravados em áreas sensíveis do sistema.",
-      "link": "https://boletimsec.com/sonicwall-corrige-falhas-graves-no-netextender-para-linux/",
-      "published": "27/08/2026 12:00",
+      "summary": "A TeamViewer corrigiu duas vulnerabilidades de alta gravidade em seus clientes de acesso remoto. As falhas podem permitir execução de comandos e gravação de arquivos em locais não autorizados, afetando produtos como TeamViewer Remote, Tensor e ONE. A mais grave, CVE-2026-19042, recebeu pontuação CVSS 8.8 e afeta clientes Full Client e Host para Linux anteriores à versão 15.81.5. A exploração executa comandos com os privilégios do usuário conectado. Para enviar a mensagem, porém, o atacante precisa estar na lista de contatos da vítima ou ela deve permitir mensagens de usuários externos. A segunda falha, CVE-2026-16444, tem CVSS 7.5 e envolve validação inadequada de caminhos de arquivos.",
+      "link": "https://boletimsec.com/falhas-no-teamviewer-permitem-execucao-de-comandos-e-gravacao-de-arquivos/",
+      "published": "28/08/2026 12:00",
       "cves": [
-        "CVE-2026-66152"
+        "CVE-2026-19042",
+        "CVE-2026-16444"
       ],
       "vendor": "Linux"
     },
     {
-      "title": "O pior da malícia de IA ainda está a caminho",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "title": "Grupo de ransomware usa IA para explorar Active Directory e servidores ESXi",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "threat",
-      "summary": "A grande maioria dos malwares que integram inteligência artificial ainda está em estágio experimental ou de prova de conceito, com apenas 12 das 405 amostras analisadas pela Unit 42, braço de inteligência de ameaças da Palo Alto Networks, tendo sido detectadas em infecções reais, conforme relatório publicado ontem (25 de agosto) pela empresa. O estudo, que analisou amostras de código malicioso que utilizam IA de alguma forma – desde roubo de marca e código gerado por LLM até loops de execução agêntica – concluiu que aproximadamente 97% dos exemplares examinados existem apenas em sandboxes de segurança e no VirusTotal, sem evidências de que tenham alcançado ambientes de produção.",
-      "link": "https://www.cisoadvisor.com.br/o-pior-da-malicia-de-ia-ainda-esta-a-caminho/",
-      "published": "27/08/2026 12:00",
+      "summary": "Um afiliado do ransomware Aurora utilizou inteligência artificial para planejar e executar ataques contra ambientes corporativos, com foco em Active Directory e servidores VMware ESXi. A operação atingiu mais de 20 organizações entre abril e julho de 2026. A investigação revelou que o invasor empregava o Cursor, assistente de programação com IA, para desenvolver comandos, ajustar técnicas de exploração e montar sequências voltadas ao comprometimento de infraestruturas Windows. Entre os principais alvos estava o Active Directory Certificate Services (ADCS).",
+      "link": "https://boletimsec.com/grupo-de-ransomware-usa-ia-para-explorar-active-directory-e-servidores-esxi/",
+      "published": "28/08/2026 12:00",
       "cves": [],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "Hackers infectam sistemas Android de carros para criar botnet",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Pesquisadores da Kaspersky identificaram um novo malware que infecta sistemas de infoentretenimento automotivo baseados em Android, transformando os dispositivos em parte de uma botnet. Este é o primeiro caso documentado de malware que infecta uma unidade principal de carro por meio de um ataque especificamente projetado para esse tipo de dispositivo, de acordo com o relatório da empresa russa publicado na sexta-feira. O malware foi encontrado em unidades head fabricadas pela fornecedora chinesa de software e hardware automotivo DoFun, que fabrica sistemas amplamente utilizados na China e em outros países da Ásia-Pacífico.",
-      "link": "https://www.cisoadvisor.com.br/hackers-infectam-sistemas-android-de-carros-para-criar-botnet/",
-      "published": "27/08/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "vendor": "VMware"
     }
   ]
 }
