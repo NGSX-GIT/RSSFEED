@@ -1,69 +1,62 @@
 {
-  "generated_at": "2026-08-28T12:00:00.027169-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-08-29T12:00:00.020883-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Vulnerabilidade crítica no SharePoint está sendo explorada",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A vulnerabilidade CVE-2026-63520 no Microsoft SharePoint, que permite execução remota de código, está sendo explorada ativamente em ataques, conforme relatou a empresa de segurança cibernética Defused. A falha, publicada pela Microsoft em 11 de agosto com atualizações de segurança, não tinha exploração conhecida no momento do lançamento do patch, mas a empresa alertou que esperava abuso em curto prazo. A CVE-2026-63520 permite que um atacante não autenticado execute código em servidores SharePoint, de acordo com o comunicado da Microsoft.",
-      "link": "https://www.cisoadvisor.com.br/vulnerabilidade-critica-no-sharepoint-esta-sendo-explorada/",
-      "published": "28/08/2026 12:00",
-      "cves": [
-        "CVE-2026-63520"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Falha crítica no Veeam pode expor credenciais de contas de serviço",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Veeam corrigiu uma vulnerabilidade crítica no Veeam ONE que pode permitir a um invasor remoto e não autenticado forçar tentativas de autenticação SMB a partir da conta de serviço da plataforma. A falha é identificada como CVE-2026-65641 e recebeu pontuação CVSS 9.3. O problema afeta o Veeam ONE 13.1.0.7034 e todas as builds anteriores da versão 13. Instalações da linha 12.x não são vulneráveis ao problema, segundo a fabricante. Ao explorar a brecha, um atacante pode direcionar a autenticação SMB para um servidor sob seu controle. Em ambientes Windows, isso pode expor material de autenticação Net-NTLM associado à conta utilizada pelo serviço.",
-      "link": "https://boletimsec.com/falha-critica-no-veeam-pode-expor-credenciais-de-contas-de-servico/",
-      "published": "28/08/2026 12:00",
-      "cves": [
-        "CVE-2026-65641"
-      ],
-      "vendor": "Windows"
-    },
-    {
-      "title": "PaperCut NG e MF têm falha explorada em ataques zero-day",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A PaperCut está alertando que hackers estão explorando ativamente uma vulnerabilidade em todas as versões de seus softwares de gerenciamento de impressão PaperCut NG e PaperCut MF em ataques do tipo zero-day. A empresa afirmou estar ciente de ataques confirmados a clientes e publicou um comunicado de segurança urgente nesta quinta-feira. A PaperCut afirma que a vulnerabilidade afeta todas as versões do NG e MF, mas não compartilhou detalhes sobre a falha ou como ela está sendo explorada. A empresa disse que sua equipe de segurança reproduziu a vulnerabilidade usando informações fornecidas por um cliente universitário.",
-      "link": "https://www.cisoadvisor.com.br/papercut-ng-e-mf-tem-falha-explorada-em-ataques-zero-day/",
-      "published": "28/08/2026 12:00",
+      "title": "20.08.26 Segurança Vazamento grave da Latam expõe dados pessoais, milhas e cartões de clientes",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "Por André Lourenti Magalhães • Editado por Jones Oliveira | 20/08/2026 às 15:17 • Atualizado 25/08/2026 às 15:50 A Latam confirmou um incidente de segurança que resultou no vazamento de dados de clientes do programa Latam Pass . De acordo com a companhia aérea, o caso aconteceu em 29 de julho deste ano e os consumidores já foram informados do ocorrido por e-mail. Os dados vazados incluem nome completo, data de nascimento, endereço, telefone, e-mail, saldo de milhas e até informações parciais do cartão de crédito : primeiros dígitos, bandeira, nome do titular e data de validade foram afetados, mas os códigos de segurança não foram expostos.",
+      "link": "https://canaltech.com.br/seguranca/vazamento-grave-da-latam-expoe-dados-pessoais-milhas-e-cartoes-de-clientes/",
+      "published": "29/08/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Falhas no TeamViewer permitem execução de comandos e gravação de arquivos",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A TeamViewer corrigiu duas vulnerabilidades de alta gravidade em seus clientes de acesso remoto. As falhas podem permitir execução de comandos e gravação de arquivos em locais não autorizados, afetando produtos como TeamViewer Remote, Tensor e ONE. A mais grave, CVE-2026-19042, recebeu pontuação CVSS 8.8 e afeta clientes Full Client e Host para Linux anteriores à versão 15.81.5. A exploração executa comandos com os privilégios do usuário conectado. Para enviar a mensagem, porém, o atacante precisa estar na lista de contatos da vítima ou ela deve permitir mensagens de usuários externos. A segunda falha, CVE-2026-16444, tem CVSS 7.5 e envolve validação inadequada de caminhos de arquivos.",
-      "link": "https://boletimsec.com/falhas-no-teamviewer-permitem-execucao-de-comandos-e-gravacao-de-arquivos/",
-      "published": "28/08/2026 12:00",
-      "cves": [
-        "CVE-2026-19042",
-        "CVE-2026-16444"
-      ],
+      "title": "ZBT: backdoors em roteadores expõem redes globalmente",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Roteadores fabricados pela Shenzhen Zhibotong Electronics (ZBT) e vendidos como produtos white-label em todo o mundo contêm múltiplas backdoors embutidas, algumas com privilégios de root, de acordo com pesquisa divulgada por Jacob Baines, CTO da VulnCheck. A empresa, com produção anual de 3,57 milhões de unidades segundo seu marketing na Alibaba.com, exporta para mais de 50 países, incluindo Filipinas , Índia, Canadá, Austrália, Alemanha, Rússia e Estados Unidos. Baines descobriu inicialmente o “EndlessDoors”, uma ferramenta de controle remoto Linux de código aberto com uma década de existência, disfarçada como thread do kernel para processamento comum do sistema.",
+      "link": "https://www.cisoadvisor.com.br/zbt-backdoors-em-roteadores-expoem-redes-globalmente/",
+      "published": "29/08/2026 12:00",
+      "cves": [],
       "vendor": "Linux"
     },
     {
-      "title": "Grupo de ransomware usa IA para explorar Active Directory e servidores ESXi",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "Um afiliado do ransomware Aurora utilizou inteligência artificial para planejar e executar ataques contra ambientes corporativos, com foco em Active Directory e servidores VMware ESXi. A operação atingiu mais de 20 organizações entre abril e julho de 2026. A investigação revelou que o invasor empregava o Cursor, assistente de programação com IA, para desenvolver comandos, ajustar técnicas de exploração e montar sequências voltadas ao comprometimento de infraestruturas Windows. Entre os principais alvos estava o Active Directory Certificate Services (ADCS).",
-      "link": "https://boletimsec.com/grupo-de-ransomware-usa-ia-para-explorar-active-directory-e-servidores-esxi/",
-      "published": "28/08/2026 12:00",
+      "title": "Justiça tira Anthropic da lista de “risco nacional”",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A juíza federal Rita F. Lin, do Distrito Norte da Califórnia, decidiu ontem (27 de agosto) que o governo Trump violou os direitos da Primeira Emenda da empresa de inteligência artificial Anthropic ao classificá-la como risco para a cadeia de suprimentos, conforme decisão judicial . A ordem, que atendeu em grande parte ao pedido da empresa em sua ação movida em março, determinou que o governo não apresentou evidências de que a Anthropic representava um risco real à segurança nacional, agindo, em vez disso, com “retaliação ilegal” à oposição pública da empresa ao uso de IA pelo Pentágono.",
+      "link": "https://www.cisoadvisor.com.br/justica-tira-anthropic-da-lista-de-risco-nacional/",
+      "published": "29/08/2026 12:00",
       "cves": [],
-      "vendor": "VMware"
+      "vendor": null
+    },
+    {
+      "title": "Ataques a sistemas de água foram piores do que o divulgado",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "A Agência de Segurança Cibernética e Infraestrutura dos EUA (CISA) reconheceu que os ataques cibernéticos a sistemas municipais de água em julho foram mais extensos do que o inicialmente reportado, com mais de 100 provedores em 12 estados sendo alvo de invasores. A agência informou que a atividade maliciosa, observada em julho, visou sistemas expostos à internet no setor de Água e Esgoto (WWS), com invasores acessando controladores lógicos programáveis (PLCs) conectados diretamente a modems celulares.",
+      "link": "https://www.cisoadvisor.com.br/ataques-a-sistemas-de-agua-foram-piores-do-que-o-divulgado/",
+      "published": "29/08/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Ataque à Boston Scientific tem impacto global",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "A Boston Scientific identificou na última segunda-feira (25 de agosto) um incidente de segurança que afeta seus sistemas de TI, causando interrupção na rede e impedindo o processamento de pedidos e envios de produtos, conforme comunicado da empresa publicado ontem (26 de agosto). O incidente afetou operações em unidades fabris, como em Cork, na Irlanda, onde funcionários foram dispensados do trabalho por não conseguirem executar suas funções, de acordo com o HIPAA Journal.",
+      "link": "https://www.cisoadvisor.com.br/ataque-a-boston-scientific-tem-impacto-global/",
+      "published": "29/08/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
