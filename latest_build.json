@@ -1,64 +1,62 @@
 {
-  "generated_at": "2026-08-31T12:00:00.056071-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-09-01T12:00:00.064111-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Mais de 8.300 servidores Gitea vulneráveis a ataques RCE",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Mais de 8.300 instâncias do Gitea expostas à internet ainda não foram corrigidas contra a falha crítica de segurança CVE-2026-60004 , que está sendo explorada em ataques contínuos de execução remota de código, de acordo com o grupo de monitoramento Shadowserver. A vulnerabilidade , relatada pelo pesquisador da Salesforce, Shai Rod, permite que atacantes autenticados executem comandos arbitrários com privilégios da conta de serviço do Gitea.",
-      "link": "https://www.cisoadvisor.com.br/mais-de-8-300-servidores-gitea-vulneraveis-a-ataques-rce/",
-      "published": "31/08/2026 12:00",
-      "cves": [
-        "CVE-2026-60004"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Diretórios abertos expõem operações de cibercriminosos",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Cibercriminosos estão expondo detalhes de suas próprias operações ao deixarem diretórios abertos em servidores utilizados em ataques , acessíveis a qualquer pessoa na internet, de acordo com análises de múltiplas empresas de segurança cibernética. A CloudSek, por exemplo, relatou ter encontrado um diretório aberto de um parceiro do grupo de ransomware Aurora, que continha informações sobre ferramentas, negociações e vítimas. A Aurora opera sob o modelo Ransomware-as-a-Service (RaaS), no qual parceiros distribuem o ransomware e repassam parte dos lucros aos desenvolvedores.",
-      "link": "https://www.cisoadvisor.com.br/diretorios-abertos-expoem-operacoes-de-cibercriminosos/",
-      "published": "31/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "ServiceNow alerta para CVSS 10.0 em falhas críticas na plataforma de IA",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A ServiceNow emitiu um alerta sobre múltiplas vulnerabilidades críticas em sua plataforma de IA , que permitem que atacantes não autenticados executem código e acessem dados, de acordo com comunicado da empresa publicado na sexta-feira. As três falhas críticas receberam pontuação máxima de 10,0 na escala CVSS, e a empresa já disponibilizou atualizações de segurança para clientes que hospedam o software em seus próprios ambientes.",
-      "link": "https://www.cisoadvisor.com.br/servicenow-alerta-para-cvss-10-0-em-falhas-criticas-na-plataforma-de-ia/",
-      "published": "31/08/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ransomware TITAN combina ransomware e IA para acelerar análise de informações roubadas",
+      "title": "Falha no Kaspersky Endpoint Security pode permitir elevação de privilégios no Windows",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "O grupo de ransomware TITAN afirma estar usando inteligência artificial para analisar grandes volumes de dados roubados e aumentar a pressão sobre vítimas. Segundo a operação, sua plataforma consegue processar até 700 GB de informações por hora. Ativo desde maio de 2026, o TITAN opera no modelo ransomware-as-a-service e combina criptografia de arquivos com roubo de dados. Até agora, o grupo já listou 24 vítimas em 10 países. Empresas de manufatura e serviços profissionais representam 29% das vítimas registradas. O diferencial promovido pelos criminosos é uma plataforma de IA executada localmente em servidores AMD EPYC com aceleração por GPU.",
-      "link": "https://boletimsec.com/ransomware-titan-combina-ransomware-e-ia-para-acelerar-analise-de-informacoes-roubadas/",
-      "published": "31/08/2026 12:00",
+      "category": "patches",
+      "summary": "Um pesquisador publicou um exploit chamado HardBreacher que demonstra uma falha de elevação de privilégios no Kaspersky Endpoint Security para Windows. A Kaspersky confirmou o problema e informou que a correção já foi distribuída aos usuários. O código foi divulgado por Nightmare Eclipse, também conhecido como MSNightmare. Os testes foram realizados em um Windows 11 25H2 totalmente atualizado com o Kaspersky Endpoint Security 14.0.0.504. Segundo o pesquisador, a exploração interfere no processo de interface do produto e pode permitir que um usuário local com poucos privilégios ultrapasse limites de segurança normalmente impostos pelo sistema.",
+      "link": "https://boletimsec.com/falha-no-kaspersky-endpoint-security-pode-permitir-elevacao-de-privilegios-no-windows/",
+      "published": "01/09/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Windows"
     },
     {
-      "title": "Grupo APT28 amplia espionagem com novo backdoor para Windows",
-      "source": "BoletimSec Notícias",
+      "title": "1 hora Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
+      "source": "Canaltech Segurança",
       "priority": "Média",
-      "category": "identity",
-      "summary": "A campanha foi atribuída com confiança moderada ao BlueDelta, grupo ligado à inteligência militar russa e também conhecido como APT28. O objetivo aparente é espionagem contra organizações estratégicas europeias. Os ataques ocorreram entre setembro de 2025 e abril de 2026 e atingiram entidades governamentais, diplomáticas e fabricantes do setor de defesa na Romênia, Espanha e Turquia. A infecção começa com documentos do Microsoft Word habilitados para macros, geralmente enviados por spearphishing. Alguns arquivos imitavam materiais do governo espanhol e induziam a vítima a clicar em “Enable Content”.",
-      "link": "https://boletimsec.com/grupo-apt28-amplia-espionagem-com-novo-backdoor-para-windows/",
-      "published": "31/08/2026 12:00",
+      "category": "patches",
+      "summary": "Trinta e dois por cento dos usuários de internet no Brasil com 16 anos ou mais, o equivalente a 45 milhões de pessoas, relataram ter recebido tentativas de golpe com uso de seus dados pessoais. Os dados são da Pesquisa Privacidade e Proteção de Dados Pessoais, divulgada nesta segunda-feira (31) pelo Cetic.br, área do NIC.br vinculada ao Comitê Gestor da Internet no Brasil (CGI.br). Entre esses usuários, 20% afirmam ter sido vítimas de fato do golpe. O levantamento ouviu 2,5 mil pessoas em dezembro de 2025 e chega à terceira edição. A pesquisa integra a série de estudos TIC do Cetic.br e tem apoio da Agência Nacional de Proteção de Dados (ANPD).",
+      "link": "https://canaltech.com.br/seguranca/45-milhoes-de-brasileiros-ja-sofreram-tentativas-de-golpes-digitais-veja-os-mais-comuns/",
+      "published": "01/09/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
+    },
+    {
+      "title": "D-Link corrige vulnerabilidades que expõem credenciais de rede sem fio",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A D-Link corrigiu duas falhas de segurança no roteador DIR-X1860Z que permitem a um invasor conectado à rede local alterar a senha de administrador e acessar informações da configuração Wi-Fi sem autenticação. Os problemas estão na interface de gerenciamento ubus JSON-RPC, baseada em OpenWrt e acessível pela porta TCP 23355. A falha afeta o modelo DIR-X1860Z, revisão de hardware A1, com firmware V1.0.2.220120.165402. A primeira vulnerabilidade envolve o método routerd.passwd_set, que pode ser acionado sem as verificações adequadas. Um invasor com acesso à rede local consegue definir uma nova senha administrativa e depois entrar normalmente no painel do equipamento.",
+      "link": "https://boletimsec.com/d-link-corrige-vulnerabilidades-que-expoem-credenciais-de-rede-sem-fio/",
+      "published": "01/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Como desenvolver de forma segura com Vibe Coding",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Desenvolver com IA virou o caminho natural para tirar uma ideia do papel rápido. O problema é que a maior parte das falhas em aplicações criadas dessa forma não nasce de um erro do modelo, e sim de uma suposição do desenvolvedor . A IA entrega o que foi pedido, e segurança quase nunca está no pedido. Cinco pontos concentram a maioria dos problemas. Prompts costumam detalhar funcionalidades e ignorar restrições. A IA implementa o fluxo feliz com precisão, mas não imagina o usuário mal-intencionado por conta própria. Ao pedir uma funcionalidade, especifique também quem não pode acessá-la, quais valores são inválidos e o que deve acontecer quando alguém tentar burlar o fluxo.",
+      "link": "https://boletimsec.com/como-desenvolver-de-forma-segura-com-vibecoding/",
+      "published": "01/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "24.08.26 Segurança Cartão 'zumbi': falha permite pagar por aproximação com Visa vencido",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Um cartão Visa vencido pode voltar a funcionar em pagamentos por aproximação , segundo pesquisa apresentada na conferência de cibersegurança Usenix. A falha foi identificada por pesquisadores da Universidade de Massachusetts Amherst e permite que golpistas reutilizem cartões expirados em transações contactless, informou a revista Wired. A técnica foi batizada pelos próprios pesquisadores de zombificação , numa referência à possibilidade de um cartão fora de validade voltar a ser usado. O problema está na cadeia de autenticação que deveria bloquear cobranças feitas com cartões vencidos.",
+      "link": "https://canaltech.com.br/seguranca/cartao-zumbi-falha-permite-pagar-por-aproximacao-com-visa-vencido/",
+      "published": "01/09/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
