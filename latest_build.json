@@ -1,61 +1,70 @@
 {
-  "generated_at": "2026-09-01T15:39:00.433132-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-09-03T12:00:00.968715-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Diretórios abertos expõem operações de cibercriminosos",
+      "title": "Falha crítica no JFrog Artifactory permite forjar tokens Admin",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos estão expondo detalhes de suas próprias operações ao deixarem diretórios abertos em servidores utilizados em ataques , acessíveis a qualquer pessoa na internet, de acordo com análises de múltiplas empresas de segurança cibernética. A CloudSek, por exemplo, relatou ter encontrado um diretório aberto de um parceiro do grupo de ransomware Aurora, que continha informações sobre ferramentas, negociações e vítimas. A Aurora opera sob o modelo Ransomware-as-a-Service (RaaS), no qual parceiros distribuem o ransomware e repassam parte dos lucros aos desenvolvedores.",
-      "link": "https://www.cisoadvisor.com.br/diretorios-abertos-expoem-operacoes-de-cibercriminosos/",
-      "published": "01/09/2026 15:39",
-      "cves": [],
+      "summary": "Uma vulnerabilidade crítica de bypass de autenticação ( CVE-2026-82329 ) no JFrog Artifactory está sendo explorada em ataques para criar tokens que concedem acesso administrativo, de acordo com pesquisadores da watchTowr e relatos da Vercel. A falha está presente na configuração padrão de instâncias autogerenciadas do JFrog Artifactory, um gerenciador de repositórios usado para armazenar, organizar e distribuir pacotes de software, e pode ser explorada por um atacante não autenticado com acesso à rede para obter permissões administrativas.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-jfrog-artifactory-permite-forjar-tokens-admin/",
+      "published": "03/09/2026 12:00",
+      "cves": [
+        "CVE-2026-82329"
+      ],
       "vendor": null
     },
     {
-      "title": "ServiceNow alerta para CVSS 10.0 em falhas críticas na plataforma de IA",
+      "title": "SonicWall alerta para exploração ativa em SMA1000",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A ServiceNow emitiu um alerta sobre múltiplas vulnerabilidades críticas em sua plataforma de IA , que permitem que atacantes não autenticados executem código e acessem dados, de acordo com comunicado da empresa publicado na sexta-feira. As três falhas críticas receberam pontuação máxima de 10,0 na escala CVSS, e a empresa já disponibilizou atualizações de segurança para clientes que hospedam o software em seus próprios ambientes.",
-      "link": "https://www.cisoadvisor.com.br/servicenow-alerta-para-cvss-10-0-em-falhas-criticas-na-plataforma-de-ia/",
-      "published": "01/09/2026 15:39",
-      "cves": [],
-      "vendor": null
+      "summary": "A SonicWall alertou sobre o abuso ativo de duas vulnerabilidades no gateway SMA1000, incluindo uma falha crítica (CVE-2026-83548) com pontuação CVSS de 10,0, que permite a um atacante não autenticado obter acesso não autorizado a funções sensíveis, e uma segunda vulnerabilidade (CVE-2026-83549) que permite a execução remota de comandos, de acordo com comunicado da empresa. Atualizações de segurança foram publicadas para corrigir os problemas. O gateway Secure Mobile Access (SMA) é um dispositivo usado para permitir que usuários façam login na rede corporativa, oferecendo funcionalidades de VPN e balanceamento de carga.",
+      "link": "https://www.cisoadvisor.com.br/sonicwall-alerta-para-exploracao-ativa-em-sma1000/",
+      "published": "03/09/2026 12:00",
+      "cves": [
+        "CVE-2026-83548",
+        "CVE-2026-83549"
+      ],
+      "vendor": "SonicWall"
     },
     {
-      "title": "Falha no Kaspersky Endpoint Security pode permitir elevação de privilégios no Windows",
+      "title": "Cibercriminosos exploram falhas zero day em appliances SonicWall",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Um pesquisador publicou um exploit chamado HardBreacher que demonstra uma falha de elevação de privilégios no Kaspersky Endpoint Security para Windows. A Kaspersky confirmou o problema e informou que a correção já foi distribuída aos usuários. O código foi divulgado por Nightmare Eclipse, também conhecido como MSNightmare. Os testes foram realizados em um Windows 11 25H2 totalmente atualizado com o Kaspersky Endpoint Security 14.0.0.504. Segundo o pesquisador, a exploração interfere no processo de interface do produto e pode permitir que um usuário local com poucos privilégios ultrapasse limites de segurança normalmente impostos pelo sistema.",
-      "link": "https://boletimsec.com/falha-no-kaspersky-endpoint-security-pode-permitir-elevacao-de-privilegios-no-windows/",
-      "published": "01/09/2026 15:39",
+      "summary": "A SonicWall corrigiu duas vulnerabilidades zero-day no Secure Mobile Access (SMA) 1000 que já estão sendo exploradas em ataques. As falhas podem ser combinadas para obter acesso não autorizado e, em determinadas condições, executar comandos no appliance. A mais grave, CVE-2026-83548, recebeu pontuação CVSS 10.0. Trata-se de uma falha SSRF pré-autenticação na interface Appliance Work Place, explorável remotamente sem necessidade de credenciais. A vulnerabilidade pode permitir acesso a funcionalidades sensíveis e a execução de operações que normalmente não estariam disponíveis para usuários externos. Por ocorrer antes da autenticação, ela representa o principal ponto de entrada da cadeia.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falhas-zero-day-em-appliances-sonicwall/",
+      "published": "03/09/2026 12:00",
+      "cves": [
+        "CVE-2026-83548"
+      ],
+      "vendor": "SonicWall"
+    },
+    {
+      "title": "Malware brasileiro usa IA para vender redes corporativas invadidas",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "Pesquisadores identificaram um novo malware para Windows chamado BraZetsu, usado para mapear redes corporativas comprometidas, identificar sistemas de maior valor e preparar esses acessos para venda a outros criminosos. A operação tem foco principalmente no Brasil e em outros países da América Latina e Península Ibérica. A ameaça foi atribuída com alta confiança ao ator brasileiro Exilware, que opera como Initial Access Broker. Nesse modelo, o grupo invade empresas e comercializa o acesso inicial para operadores de fraude, roubo de dados ou ransomware. O BraZetsu é desenvolvido em Python e utiliza arquitetura modular.",
+      "link": "https://boletimsec.com/malware-brasileiro-usa-ia-para-vender-redes-corporativas-invadidas/",
+      "published": "03/09/2026 12:00",
       "cves": [],
       "vendor": "Windows"
     },
     {
-      "title": "Ransomware TITAN combina ransomware e IA para acelerar análise de informações roubadas",
-      "source": "BoletimSec Notícias",
+      "title": "Hackers exploram falha no Sangoma Switchvox",
+      "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "O grupo de ransomware TITAN afirma estar usando inteligência artificial para analisar grandes volumes de dados roubados e aumentar a pressão sobre vítimas. Segundo a operação, sua plataforma consegue processar até 700 GB de informações por hora. Ativo desde maio de 2026, o TITAN opera no modelo ransomware-as-a-service e combina criptografia de arquivos com roubo de dados. Até agora, o grupo já listou 24 vítimas em 10 países. Empresas de manufatura e serviços profissionais representam 29% das vítimas registradas. O diferencial promovido pelos criminosos é uma plataforma de IA executada localmente em servidores AMD EPYC com aceleração por GPU.",
-      "link": "https://boletimsec.com/ransomware-titan-combina-ransomware-e-ia-para-acelerar-analise-de-informacoes-roubadas/",
-      "published": "01/09/2026 15:39",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "5 horas Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
       "category": "patches",
-      "summary": "Trinta e dois por cento dos usuários de internet no Brasil com 16 anos ou mais, o equivalente a 45 milhões de pessoas, relataram ter recebido tentativas de golpe com uso de seus dados pessoais. Os dados são da Pesquisa Privacidade e Proteção de Dados Pessoais, divulgada nesta segunda-feira (31) pelo Cetic.br, área do NIC.br vinculada ao Comitê Gestor da Internet no Brasil (CGI.br). Entre esses usuários, 20% afirmam ter sido vítimas de fato do golpe. O levantamento ouviu 2,5 mil pessoas em dezembro de 2025 e chega à terceira edição. A pesquisa integra a série de estudos TIC do Cetic.br e tem apoio da Agência Nacional de Proteção de Dados (ANPD).",
-      "link": "https://canaltech.com.br/seguranca/45-milhoes-de-brasileiros-ja-sofreram-tentativas-de-golpes-digitais-veja-os-mais-comuns/",
-      "published": "01/09/2026 15:39",
-      "cves": [],
+      "summary": "Atacantes estão explorando ativamente a CVE-2026-9586, uma vulnerabilidade de injeção SQL não autenticada na plataforma VoIP Sangoma Switchvox que pode levar à execução remota de código, de acordo com pesquisadores da Horizon3. A maioria dos sistemas Switchvox expostos à internet provavelmente já foi ou em breve será alvo dos ataques. A vulnerabilidade, descoberta e relatada pela Horizon3 à Sangoma em 10 de abril, foi corrigida na versão 8.4.0.2 do Switchvox, lançada em 14 de julho.",
+      "link": "https://www.cisoadvisor.com.br/hackers-exploram-falha-no-sangoma-switchvox/",
+      "published": "03/09/2026 12:00",
+      "cves": [
+        "CVE-2026-9586"
+      ],
       "vendor": null
     }
   ]
