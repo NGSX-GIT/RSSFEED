@@ -1,70 +1,65 @@
 {
-  "generated_at": "2026-09-03T12:00:00.968715-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-09-04T12:00:00.030670-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no JFrog Artifactory permite forjar tokens Admin",
+      "title": "Cisco corrige falha crítica no Nexus 9000",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica de bypass de autenticação ( CVE-2026-82329 ) no JFrog Artifactory está sendo explorada em ataques para criar tokens que concedem acesso administrativo, de acordo com pesquisadores da watchTowr e relatos da Vercel. A falha está presente na configuração padrão de instâncias autogerenciadas do JFrog Artifactory, um gerenciador de repositórios usado para armazenar, organizar e distribuir pacotes de software, e pode ser explorada por um atacante não autenticado com acesso à rede para obter permissões administrativas.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-jfrog-artifactory-permite-forjar-tokens-admin/",
-      "published": "03/09/2026 12:00",
+      "summary": "A Cisco publicou atualizações de segurança para os switches Nexus 9000, utilizados principalmente em data centers, devido a uma vulnerabilidade crítica que pode permitir a execução remota de código com privilégios de root. O problema, registrado como CVE-2026-20212 (CVSS 9.8), decorre da acessibilidade das portas TCP 43210 e 43211 no roteamento (VRF) e encaminhamento virtual padrão da camada 3 (L3). Um atacante não autenticado pode explorar a falha para conectar-se aos switches e, em seguida, executar código com privilégios máximos, conforme comunicado da própria Cisco. A empresa recomenda que os administradores apliquem as correções disponíveis ou adotem medidas paliativas.",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-falha-critica-no-nexus-9000/",
+      "published": "04/09/2026 12:00",
       "cves": [
-        "CVE-2026-82329"
+        "CVE-2026-20212"
       ],
-      "vendor": null
+      "vendor": "Cisco"
     },
     {
-      "title": "SonicWall alerta para exploração ativa em SMA1000",
+      "title": "Corrigidas falhas críticas no VMware Workstation e FusioN",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A SonicWall alertou sobre o abuso ativo de duas vulnerabilidades no gateway SMA1000, incluindo uma falha crítica (CVE-2026-83548) com pontuação CVSS de 10,0, que permite a um atacante não autenticado obter acesso não autorizado a funções sensíveis, e uma segunda vulnerabilidade (CVE-2026-83549) que permite a execução remota de comandos, de acordo com comunicado da empresa. Atualizações de segurança foram publicadas para corrigir os problemas. O gateway Secure Mobile Access (SMA) é um dispositivo usado para permitir que usuários façam login na rede corporativa, oferecendo funcionalidades de VPN e balanceamento de carga.",
-      "link": "https://www.cisoadvisor.com.br/sonicwall-alerta-para-exploracao-ativa-em-sma1000/",
-      "published": "03/09/2026 12:00",
+      "summary": "A Broadcom, fabricante do software de virtualização VMware, publicou o comunicado de segurança VMSA-2026-0007 alertando para duas vulnerabilidades em seus produtos VMware Workstation e VMware Fusion, que podem permitir que um atacante execute código no sistema operacional host a partir de uma máquina virtual convidada. A falha mais severa, registrada como CVE-2026-59346, recebeu pontuação 9.3 na escala CVSSv3 e é classificada como crítica. A vulnerabilidade CVE-2026-59346 é um estouro de inteiro (integer overflow) no adaptador de rede virtual VMXNET3.",
+      "link": "https://www.cisoadvisor.com.br/broadcom-corrige-falhas-criticas-no-vmware-workstation-e-fusion/",
+      "published": "04/09/2026 12:00",
       "cves": [
-        "CVE-2026-83548",
-        "CVE-2026-83549"
+        "CVE-2026-59346"
       ],
-      "vendor": "SonicWall"
+      "vendor": "VMware"
     },
     {
-      "title": "Cibercriminosos exploram falhas zero day em appliances SonicWall",
-      "source": "BoletimSec Notícias",
+      "title": "Publicado exploit para zero-day no CrowdStrike Falcon",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A SonicWall corrigiu duas vulnerabilidades zero-day no Secure Mobile Access (SMA) 1000 que já estão sendo exploradas em ataques. As falhas podem ser combinadas para obter acesso não autorizado e, em determinadas condições, executar comandos no appliance. A mais grave, CVE-2026-83548, recebeu pontuação CVSS 10.0. Trata-se de uma falha SSRF pré-autenticação na interface Appliance Work Place, explorável remotamente sem necessidade de credenciais. A vulnerabilidade pode permitir acesso a funcionalidades sensíveis e a execução de operações que normalmente não estariam disponíveis para usuários externos. Por ocorrer antes da autenticação, ela representa o principal ponto de entrada da cadeia.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falhas-zero-day-em-appliances-sonicwall/",
-      "published": "03/09/2026 12:00",
-      "cves": [
-        "CVE-2026-83548"
-      ],
-      "vendor": "SonicWall"
+      "summary": "Um pesquisador de segurança conhecido como Chaotic Eclipse, também identificado como MSNightmare e Nightmare-Eclipse, publicou na madrugada de hoje um código de prova de conceito para o que ele alega ser uma vulnerabilidade de elevação de privilégios não corrigida no sensor CrowdStrike Falcon. Ela foi denominada FalconFlank, conforme repositório disponível no GitHub . O exploit abusa do recurso de remediação de macros maliciosas do Microsoft Office no Falcon para escalar privilégios de um usuário local sem privilégios para um contexto mais poderoso, segundo o pesquisador.",
+      "link": "https://www.cisoadvisor.com.br/publicado-exploit-para-zero-day-no-crowdstrike-falcon/",
+      "published": "04/09/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     },
     {
-      "title": "Malware brasileiro usa IA para vender redes corporativas invadidas",
+      "title": "Operadores de ransomware usam TukTuk para espionagem e roubo de senhas",
       "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "Operadores ligados ao ransomware The Gentlemen estão usando um novo framework de comando e controle chamado TukTuk para roubar credenciais, monitorar máquinas comprometidas e preparar ambientes para ataques de ransomware. O conjunto foi identificado em um servidor que também armazenava ferramentas para desativar soluções EDR, pesquisas sobre drivers vulneráveis e dados aparentemente roubados de duas grandes organizações. O TukTuk possui agentes para Windows e Linux, além de backend e painel próprio de gerenciamento. A estrutura permite executar comandos remotamente, transferir arquivos, capturar telas e acompanhar dispositivos comprometidos a partir de uma única interface.",
+      "link": "https://boletimsec.com/operadores-de-ransomware-usam-tuktuk-para-espionagem-e-roubo-de-senhas/",
+      "published": "04/09/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Por que a NVidia está adquirindo a HuggingFace",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "identity",
-      "summary": "Pesquisadores identificaram um novo malware para Windows chamado BraZetsu, usado para mapear redes corporativas comprometidas, identificar sistemas de maior valor e preparar esses acessos para venda a outros criminosos. A operação tem foco principalmente no Brasil e em outros países da América Latina e Península Ibérica. A ameaça foi atribuída com alta confiança ao ator brasileiro Exilware, que opera como Initial Access Broker. Nesse modelo, o grupo invade empresas e comercializa o acesso inicial para operadores de fraude, roubo de dados ou ransomware. O BraZetsu é desenvolvido em Python e utiliza arquitetura modular.",
-      "link": "https://boletimsec.com/malware-brasileiro-usa-ia-para-vender-redes-corporativas-invadidas/",
-      "published": "03/09/2026 12:00",
+      "summary": "O analista Vivek Arya, do Bank of America Securities, manteve a recomendação de compra para as ações da Nvidia , apos o anúncio da aquisicao da HuggingFace. Arya, que vê a Hugging Face como o principal hub para modelos e ferramentas de IA de código aberto, argumenta que a compra daria à Nvidia acesso direto a uma camada crítica onde modelos de IA são criados, compartilhados e implantados, expandindo a demanda por IA para além de sua atual base de clientes de hiperescala.",
+      "link": "https://www.cisoadvisor.com.br/por-que-a-nvidia-esta-adquirindo-a-huggingface/",
+      "published": "04/09/2026 12:00",
       "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "Hackers exploram falha no Sangoma Switchvox",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Atacantes estão explorando ativamente a CVE-2026-9586, uma vulnerabilidade de injeção SQL não autenticada na plataforma VoIP Sangoma Switchvox que pode levar à execução remota de código, de acordo com pesquisadores da Horizon3. A maioria dos sistemas Switchvox expostos à internet provavelmente já foi ou em breve será alvo dos ataques. A vulnerabilidade, descoberta e relatada pela Horizon3 à Sangoma em 10 de abril, foi corrigida na versão 8.4.0.2 do Switchvox, lançada em 14 de julho.",
-      "link": "https://www.cisoadvisor.com.br/hackers-exploram-falha-no-sangoma-switchvox/",
-      "published": "03/09/2026 12:00",
-      "cves": [
-        "CVE-2026-9586"
-      ],
       "vendor": null
     }
   ]
