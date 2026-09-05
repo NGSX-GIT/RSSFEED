@@ -1,64 +1,60 @@
 {
-  "generated_at": "2026-09-04T12:00:00.030670-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-09-05T12:00:00.054778-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Cisco corrige falha crítica no Nexus 9000",
+      "title": "Vision e Tempest se unem para faturar R$ 700 milhões",
       "source": "CISO Advisor",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A Cisco publicou atualizações de segurança para os switches Nexus 9000, utilizados principalmente em data centers, devido a uma vulnerabilidade crítica que pode permitir a execução remota de código com privilégios de root. O problema, registrado como CVE-2026-20212 (CVSS 9.8), decorre da acessibilidade das portas TCP 43210 e 43211 no roteamento (VRF) e encaminhamento virtual padrão da camada 3 (L3). Um atacante não autenticado pode explorar a falha para conectar-se aos switches e, em seguida, executar código com privilégios máximos, conforme comunicado da própria Cisco. A empresa recomenda que os administradores apliquem as correções disponíveis ou adotem medidas paliativas.",
-      "link": "https://www.cisoadvisor.com.br/cisco-corrige-falha-critica-no-nexus-9000/",
-      "published": "04/09/2026 12:00",
-      "cves": [
-        "CVE-2026-20212"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Corrigidas falhas críticas no VMware Workstation e FusioN",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Broadcom, fabricante do software de virtualização VMware, publicou o comunicado de segurança VMSA-2026-0007 alertando para duas vulnerabilidades em seus produtos VMware Workstation e VMware Fusion, que podem permitir que um atacante execute código no sistema operacional host a partir de uma máquina virtual convidada. A falha mais severa, registrada como CVE-2026-59346, recebeu pontuação 9.3 na escala CVSSv3 e é classificada como crítica. A vulnerabilidade CVE-2026-59346 é um estouro de inteiro (integer overflow) no adaptador de rede virtual VMXNET3.",
-      "link": "https://www.cisoadvisor.com.br/broadcom-corrige-falhas-criticas-no-vmware-workstation-e-fusion/",
-      "published": "04/09/2026 12:00",
-      "cves": [
-        "CVE-2026-59346"
-      ],
-      "vendor": "VMware"
-    },
-    {
-      "title": "Publicado exploit para zero-day no CrowdStrike Falcon",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Um pesquisador de segurança conhecido como Chaotic Eclipse, também identificado como MSNightmare e Nightmare-Eclipse, publicou na madrugada de hoje um código de prova de conceito para o que ele alega ser uma vulnerabilidade de elevação de privilégios não corrigida no sensor CrowdStrike Falcon. Ela foi denominada FalconFlank, conforme repositório disponível no GitHub . O exploit abusa do recurso de remediação de macros maliciosas do Microsoft Office no Falcon para escalar privilégios de um usuário local sem privilégios para um contexto mais poderoso, segundo o pesquisador.",
-      "link": "https://www.cisoadvisor.com.br/publicado-exploit-para-zero-day-no-crowdstrike-falcon/",
-      "published": "04/09/2026 12:00",
+      "summary": "A Vision Cybersecurity e a Tempest Security Intelligence anunciaram hoje (3 de setembro) a combinação de suas operações para criar uma plataforma independente de cibersegurança com receita anual superior a R$ 700 milhões, cerca de 900 profissionais e mais de 600 clientes corporativos, conforme comunicado conjunto divulgado pelas empresas. A operação, viabilizada por uma parceria estratégica entre a SPX Capital, controladora da Vision, e a Embraer, única acionista da Tempest, está estruturada prioritariamente via troca de ações, sujeita à aprovação do Cade.",
+      "link": "https://www.cisoadvisor.com.br/vision-e-tempest-se-unem-para-faturar-r-700-milhoes/",
+      "published": "05/09/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     },
     {
-      "title": "Operadores de ransomware usam TukTuk para espionagem e roubo de senhas",
+      "title": "Spyware Pegasus volta a ser usado em campanha de vigilância",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "Operadores ligados ao ransomware The Gentlemen estão usando um novo framework de comando e controle chamado TukTuk para roubar credenciais, monitorar máquinas comprometidas e preparar ambientes para ataques de ransomware. O conjunto foi identificado em um servidor que também armazenava ferramentas para desativar soluções EDR, pesquisas sobre drivers vulneráveis e dados aparentemente roubados de duas grandes organizações. O TukTuk possui agentes para Windows e Linux, além de backend e painel próprio de gerenciamento. A estrutura permite executar comandos remotamente, transferir arquivos, capturar telas e acompanhar dispositivos comprometidos a partir de uma única interface.",
-      "link": "https://boletimsec.com/operadores-de-ransomware-usam-tuktuk-para-espionagem-e-roubo-de-senhas/",
-      "published": "04/09/2026 12:00",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Um integrante do movimento estudantil da Sérvia teve seu iPhone infectado pelo spyware Pegasus por meio de um exploit zero-click no iMessage, sem necessidade de clicar em links ou abrir arquivos. A infecção foi confirmada pelo Citizen Lab em parceria com a SHARE Foundation. A análise encontrou indicadores de comprometimento entre dezembro de 2025 e janeiro de 2026. O alvo recebeu posteriormente uma notificação da Apple alertando sobre uma possível tentativa de ataque com spyware mercenário. Segundo os pesquisadores, o exploit explorava o iMessage e permitia instalar o Pegasus de forma silenciosa.",
+      "link": "https://boletimsec.com/spyware-pegasus-volta-a-ser-usado-em-campanha-de-vigilancia/",
+      "published": "05/09/2026 12:00",
       "cves": [],
-      "vendor": "Linux"
+      "vendor": "Apple"
     },
     {
-      "title": "Por que a NVidia está adquirindo a HuggingFace",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "Pesquisador divulga exploit de elevação de privilégios no Avast Antivirus",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Um pesquisador de segurança publicou uma prova de conceito para uma possível vulnerabilidade zero day no Avast Antivirus capaz de elevar privilégios no Windows. O exploit, chamado PrettyPrague, teria funcionado contra uma instalação totalmente atualizada do antivírus no Windows 11 25H2. A falha foi divulgada pelo pesquisador conhecido como Chaotic Eclipse. Segundo ele, o problema está no componente Avast Sandbox, utilizado para isolar arquivos suspeitos durante sua execução. O PoC demonstra acesso ao banco Security Account Manager (SAM) do Windows e a abertura de um shell com privilégios NT AUTHORITY\\SYSTEM, o nível mais elevado de acesso local no sistema operacional.",
+      "link": "https://boletimsec.com/pesquisador-divulga-exploit-de-elevacao-de-privilegios-no-avast-antivirus/",
+      "published": "05/09/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "4 dias Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Trinta e dois por cento dos usuários de internet no Brasil com 16 anos ou mais, o equivalente a 45 milhões de pessoas, relataram ter recebido tentativas de golpe com uso de seus dados pessoais. Os dados são da Pesquisa Privacidade e Proteção de Dados Pessoais, divulgada nesta segunda-feira (31) pelo Cetic.br, área do NIC.br vinculada ao Comitê Gestor da Internet no Brasil (CGI.br). Entre esses usuários, 20% afirmam ter sido vítimas de fato do golpe. O levantamento ouviu 2,5 mil pessoas em dezembro de 2025 e chega à terceira edição. A pesquisa integra a série de estudos TIC do Cetic.br e tem apoio da Agência Nacional de Proteção de Dados (ANPD).",
+      "link": "https://canaltech.com.br/seguranca/45-milhoes-de-brasileiros-ja-sofreram-tentativas-de-golpes-digitais-veja-os-mais-comuns/",
+      "published": "05/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Node.js vira ferramenta para execução de malware em ataques direcionados",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
       "category": "identity",
-      "summary": "O analista Vivek Arya, do Bank of America Securities, manteve a recomendação de compra para as ações da Nvidia , apos o anúncio da aquisicao da HuggingFace. Arya, que vê a Hugging Face como o principal hub para modelos e ferramentas de IA de código aberto, argumenta que a compra daria à Nvidia acesso direto a uma camada crítica onde modelos de IA são criados, compartilhados e implantados, expandindo a demanda por IA para além de sua atual base de clientes de hiperescala.",
-      "link": "https://www.cisoadvisor.com.br/por-que-a-nvidia-esta-adquirindo-a-huggingface/",
-      "published": "04/09/2026 12:00",
+      "summary": "Cibercriminosos estão abusando do Node.js, ambiente legítimo para execução de JavaScript, para instalar malware e manter acesso persistente em redes corporativas. A técnica vem sendo observada desde fevereiro de 2026 contra governos, empresas de tecnologia, hotéis e organizações financeiras. O interesse dos atacantes está no node.exe, um binário legítimo e assinado. Em vez de executar diretamente um programa malicioso, os invasores usam o runtime para interpretar scripts JavaScript, dificultando algumas detecções baseadas em assinaturas.",
+      "link": "https://boletimsec.com/node-js-vira-ferramenta-para-execucao-de-malware-em-ataques-direcionados/",
+      "published": "05/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
