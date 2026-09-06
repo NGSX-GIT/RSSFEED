@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-09-05T12:00:00.054778-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-09-06T12:00:00.018548-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Vision e Tempest se unem para faturar R$ 700 milhões",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Vision Cybersecurity e a Tempest Security Intelligence anunciaram hoje (3 de setembro) a combinação de suas operações para criar uma plataforma independente de cibersegurança com receita anual superior a R$ 700 milhões, cerca de 900 profissionais e mais de 600 clientes corporativos, conforme comunicado conjunto divulgado pelas empresas. A operação, viabilizada por uma parceria estratégica entre a SPX Capital, controladora da Vision, e a Embraer, única acionista da Tempest, está estruturada prioritariamente via troca de ações, sujeita à aprovação do Cade.",
-      "link": "https://www.cisoadvisor.com.br/vision-e-tempest-se-unem-para-faturar-r-700-milhoes/",
-      "published": "05/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Spyware Pegasus volta a ser usado em campanha de vigilância",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Um integrante do movimento estudantil da Sérvia teve seu iPhone infectado pelo spyware Pegasus por meio de um exploit zero-click no iMessage, sem necessidade de clicar em links ou abrir arquivos. A infecção foi confirmada pelo Citizen Lab em parceria com a SHARE Foundation. A análise encontrou indicadores de comprometimento entre dezembro de 2025 e janeiro de 2026. O alvo recebeu posteriormente uma notificação da Apple alertando sobre uma possível tentativa de ataque com spyware mercenário. Segundo os pesquisadores, o exploit explorava o iMessage e permitia instalar o Pegasus de forma silenciosa.",
-      "link": "https://boletimsec.com/spyware-pegasus-volta-a-ser-usado-em-campanha-de-vigilancia/",
-      "published": "05/09/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
-    },
-    {
-      "title": "Pesquisador divulga exploit de elevação de privilégios no Avast Antivirus",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Um pesquisador de segurança publicou uma prova de conceito para uma possível vulnerabilidade zero day no Avast Antivirus capaz de elevar privilégios no Windows. O exploit, chamado PrettyPrague, teria funcionado contra uma instalação totalmente atualizada do antivírus no Windows 11 25H2. A falha foi divulgada pelo pesquisador conhecido como Chaotic Eclipse. Segundo ele, o problema está no componente Avast Sandbox, utilizado para isolar arquivos suspeitos durante sua execução. O PoC demonstra acesso ao banco Security Account Manager (SAM) do Windows e a abertura de um shell com privilégios NT AUTHORITY\\SYSTEM, o nível mais elevado de acesso local no sistema operacional.",
-      "link": "https://boletimsec.com/pesquisador-divulga-exploit-de-elevacao-de-privilegios-no-avast-antivirus/",
-      "published": "05/09/2026 12:00",
-      "cves": [],
-      "vendor": "Windows"
-    },
-    {
-      "title": "4 dias Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
+      "title": "5 dias Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Trinta e dois por cento dos usuários de internet no Brasil com 16 anos ou mais, o equivalente a 45 milhões de pessoas, relataram ter recebido tentativas de golpe com uso de seus dados pessoais. Os dados são da Pesquisa Privacidade e Proteção de Dados Pessoais, divulgada nesta segunda-feira (31) pelo Cetic.br, área do NIC.br vinculada ao Comitê Gestor da Internet no Brasil (CGI.br). Entre esses usuários, 20% afirmam ter sido vítimas de fato do golpe. O levantamento ouviu 2,5 mil pessoas em dezembro de 2025 e chega à terceira edição. A pesquisa integra a série de estudos TIC do Cetic.br e tem apoio da Agência Nacional de Proteção de Dados (ANPD).",
       "link": "https://canaltech.com.br/seguranca/45-milhoes-de-brasileiros-ja-sofreram-tentativas-de-golpes-digitais-veja-os-mais-comuns/",
-      "published": "05/09/2026 12:00",
+      "published": "06/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Node.js vira ferramenta para execução de malware em ataques direcionados",
-      "source": "BoletimSec Notícias",
+      "title": "27.08.26 Segurança Ligações falsas usam voz de IA para destravar iPhones roubados no Brasil",
+      "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "Cibercriminosos estão abusando do Node.js, ambiente legítimo para execução de JavaScript, para instalar malware e manter acesso persistente em redes corporativas. A técnica vem sendo observada desde fevereiro de 2026 contra governos, empresas de tecnologia, hotéis e organizações financeiras. O interesse dos atacantes está no node.exe, um binário legítimo e assinado. Em vez de executar diretamente um programa malicioso, os invasores usam o runtime para interpretar scripts JavaScript, dificultando algumas detecções baseadas em assinaturas.",
-      "link": "https://boletimsec.com/node-js-vira-ferramenta-para-execucao-de-malware-em-ataques-direcionados/",
-      "published": "05/09/2026 12:00",
+      "summary": "A empresa de cibersegurança SOCRadar identificou um golpe para desbloquear iPhones roubados no Brasil . Uma ligação que se diz passar pela equipe de suporte da Apple usa uma voz de IA para enganar as vítimas e destravar o aparelho. Quando um iPhone é roubado ou furtado, a vítima pode bloquear o dispositivo com o Apple ID e impedir que invasores mudem a conta ou formatem o celular. O ataque atua justamente para obter as informações necessárias da conta e invadir o aparelho. O golpe usa um kit de phishing chamado AnonyMousKIT, que inclui SMS, e-mails, sites e mensagens falsas, além de um agente para fazer as ligações por IA.",
+      "link": "https://canaltech.com.br/seguranca/ligacoes-falsas-usam-voz-de-ia-para-destravar-iphones-roubados-no-brasil/",
+      "published": "06/09/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
+    },
+    {
+      "title": "5 dias Segurança Microsoft Teams se transforma em ferramenta de golpes milionários; veja como funciona",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O Microsoft Teams é o pivô de uma onda de golpes na China : o país acumula relatos de fraudes digitais usando a ferramenta de comunicação e a Microsoft precisou até bloquear o uso da versão pessoal do aplicativo na região. De acordo com a revista Wired, os golpes podem surgir com diferentes motivações, mas o jeito de operar é o mesmo: criminosos levam as pessoas para uma conta do Teams e então conseguem extrair dinheiro das vítimas com técnicas de engenharia social. Comentários nas lojas de aplicativo mencionam golpes que extraíram cerca de 1,5 milhão de yuan (cerca de R$ 1,1 milhão em conversão direta).",
+      "link": "https://canaltech.com.br/seguranca/microsoft-teams-se-transforma-em-ferramenta-de-golpes-milionarios-veja-como-funciona/",
+      "published": "06/09/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Integração com Lenovo ID expõe milhares de contas do Dropbox",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Uma falha na integração entre Dropbox e Lenovo ID permitiu que invasores comprometessem cerca de 5 mil contas entre 4 e 21 de agosto de 2026, sem precisar conhecer a senha original das vítimas. O problema estava no processo de autenticação federada. Atacantes conseguiam registrar um Lenovo ID usando o endereço de e-mail associado a uma conta Dropbox devido a uma falha na verificação desse endereço. Depois, bastava utilizar a opção de login com Lenovo ID. Como o Dropbox confiava na identidade apresentada pelo serviço externo, o mesmo e-mail era associado à conta existente e uma sessão autenticada podia ser criada sem solicitar a senha do Dropbox.",
+      "link": "https://boletimsec.com/integracao-com-lenovo-id-expoe-milhares-de-contas-do-dropbox/",
+      "published": "06/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "24.08.26 Segurança Golpe do Pix: por que a checagem virou nosso escudo mais importante?",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O Pix revolucionou a forma como os brasileiros realizam pagamentos. A rapidez e a praticidade transformaram o meio de pagamento em um dos mais utilizados do país, mas também despertaram o interesse de criminosos, que passaram a desenvolver golpes cada vez mais sofisticados para explorar a confiança das pessoas . O tamanho do problema já pode ser medido. Entre julho de 2024 e junho de 2025, cerca de 24 milhões de brasileiros foram vítimas de golpes envolvendo Pix ou boletos bancários , acumulando um prejuízo estimado em quase R$ 29 bilhões , segundo dados do Fórum Brasileiro de Segurança Pública. O levantamento mostra que as fraudes atingem todas as faixas etárias.",
+      "link": "https://canaltech.com.br/colunas/golpe-do-pix-por-que-a-checagem-virou-nosso-escudo-mais-importante/",
+      "published": "06/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
