@@ -1,60 +1,62 @@
 {
-  "generated_at": "2026-09-07T12:00:00.028848-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-09-08T12:00:00.046330-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha no Elementor Pro permite upload de arquivos maliciosos",
+      "title": "Falha crítica no Adobe Commerce permite comprometer servidores de lojas virtuais",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade zero day ainda sem correção oficial no Magento Open Source e Adobe Commerce está sendo explorada para executar código remotamente e instalar backdoors em lojas virtuais. A falha foi chamada de StyleSmuggler e os primeiros ataques foram observados em 4 de setembro. A exploração não exige autenticação. O ataque injeta código PHP malicioso em arquivos gerados pelo Magento e depois força a própria plataforma a processar esse conteúdo por meio do sistema de templates. A cadeia pode ser acionada durante a geração do e-mail padrão de falha em transações. A vítima não precisa abrir a mensagem, e o ataque pode funcionar mesmo quando o envio do e-mail não é concluído.",
+      "link": "https://boletimsec.com/falha-critica-no-adobe-commerce-permite-comprometer-servidores-de-lojas-virtuais/",
+      "published": "08/09/2026 12:00",
+      "cves": [],
+      "vendor": "Adobe"
+    },
+    {
+      "title": "Zero-day no Magento Adobe Commerce instala backdoor em lojas",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Wordfence divulgou uma vulnerabilidade crítica de upload arbitrário de arquivos no plugin Elementor Pro, utilizado em cerca de 6 milhões de sites WordPress , o que permite a atacantes não autenticados enviar arquivos PHP executáveis e assumir o controle total do site. O alerta foi feito pela WordFence. A falha , descoberta e reportada por Austin Ginder através do programa de recompensa por bugs da Wordfence, afeta todas as versões do plugin até a 4.2.1, de acordo com a Wordfence. A exploração requer que o site tenha publicado uma página contendo um widget de formulário do Elementor Pro, com pelo menos um campo de upload de arquivo que não esteja marcado como obrigatório.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-elementor-pro-permite-upload-de-arquivos-maliciosos/",
-      "published": "07/09/2026 12:00",
+      "summary": "Um ataque em larga escala explora uma vulnerabilidade zero-day no Magento e no Adobe Commerce, plataformas que equipam mais de 160 mil sites, para instalar um backdoor persistente em servidores Linux. A primeira tentativa de invasão foi registrada em 4 de setembro. A falha , batizada de “ StyleSmuggler “, afeta todas as versões atuais do Magento, incluindo a 2.4.7, 2.4.8 e 2.4.9, e também compromete instalações que já haviam aplicado os pacotes de segurança de julho e agosto de 2026. O ataque ocorre em duas etapas. Primeiro, o invasor insere um código malicioso no sistema de criação de páginas do Magento, escondendo-o em propriedades de estilo.",
+      "link": "https://www.cisoadvisor.com.br/zero-day-no-magento-adobe-commerce-instala-backdoor-em-lojas/",
+      "published": "08/09/2026 12:00",
       "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Falha no ASUS Control Center permite controle total de sistemas",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no ASUS Control Center Enterprise (ACC) pode permitir que invasores remotos assumam controle completo do servidor de gerenciamento e dos dispositivos administrados pela plataforma. A falha é identificada como CVE-2026-75754 e recebeu pontuação CVSS 10.0. O problema resulta da combinação de três falhas: ausência de autenticação em uma função crítica, uma vulnerabilidade SSRF e o uso de credenciais gravadas diretamente no software. Um atacante sem credenciais pode enviar uma requisição HTTP especialmente preparada para obter a chave de criptografia utilizada pelo sistema. A exploração faz um serviço local habilitar uma interface SSH na porta TCP 2222.",
+      "link": "https://boletimsec.com/falha-no-asus-control-center-permite-controle-total-de-sistemas/",
+      "published": "08/09/2026 12:00",
+      "cves": [
+        "CVE-2026-75754"
+      ],
       "vendor": null
     },
     {
-      "title": "IA derruba empresa e deixa relatório de 80 páginas",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "A Unidade 42 da Palo Alto Networks documentou um ataque de ransomware no qual agentes de inteligência artificial de fronteira, coordenados por um operador humano, comprometeram com ransomware uma empresa não identificada em menos de 10 horas, explorando mais de 50 técnicas do MITRE ATT&CK, conforme análise publicada na semana passada. O ataque, que poderia ter exigido até duas semanas de trabalho de uma equipe de pentest , foi executado por um “enxame” de agentes, que agiram em paralelo para mapear a infraestrutura, extrair credenciais, assumir o controle de sistemas de gerenciamento de segredos e sequestrar pipelines de CI/CD, de acordo com a Unit 42.",
-      "link": "https://www.cisoadvisor.com.br/ia-derruba-empresa-e-deixa-relatorio-de-80-paginas/",
-      "published": "07/09/2026 12:00",
-      "cves": [],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "Falsos CAPTCHAs comprometeram organizações alemãs",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O Escritório Federal para Segurança em Tecnologia da Informação da Alemanha (BSI) emitiu um alerta sobre uma campanha que comprometeu a rede de um órgão estatal em agosto passado, conforme comunicado publicado na sexta-feira dia 4 de setembro. A análise do BSI indica que o modus operandi coincide com uma campanha de ataques em múltiplos estágios recentemente documentada pela Microsoft, que envolve o uso de falsos CAPTCHAs (ClickFix) para enganar usuários e executar comandos maliciosos. De acordo com o BSI, há relatos adicionais de que os atacantes tentaram instalar ransomware e, em um esquema de dupla extorsão, exfiltrar dados e ameaçar publicá-los.",
-      "link": "https://www.cisoadvisor.com.br/falsos-captchas-comprometeram-organizacoes-alemas/",
-      "published": "07/09/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Phishing criado por IA ilude filtros e camufla palavras",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Pesquisadores da Microsoft identificaram uma campanha de phishing com grande volume de distribuição, que utiliza caracteres Unicode invisíveis do bloco de tags U+E0000 até U+E007F). Essa é uma técnica popular em injeção de prompt em IA, conhecida como “ASCII smuggling”, para ocultar a visibilidade de palavras-chave indesejadas e evadir filtros de e-mail. O alerta está em artigo publicado no blog de segurança da Microsoft.",
-      "link": "https://www.cisoadvisor.com.br/phishing-criado-por-ia-ilude-filtros-e-camufla-palavras/",
-      "published": "07/09/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "6 dias Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
+      "title": "01.09.26 Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Trinta e dois por cento dos usuários de internet no Brasil com 16 anos ou mais, o equivalente a 45 milhões de pessoas, relataram ter recebido tentativas de golpe com uso de seus dados pessoais. Os dados são da Pesquisa Privacidade e Proteção de Dados Pessoais, divulgada nesta segunda-feira (31) pelo Cetic.br, área do NIC.br vinculada ao Comitê Gestor da Internet no Brasil (CGI.br). Entre esses usuários, 20% afirmam ter sido vítimas de fato do golpe. O levantamento ouviu 2,5 mil pessoas em dezembro de 2025 e chega à terceira edição. A pesquisa integra a série de estudos TIC do Cetic.br e tem apoio da Agência Nacional de Proteção de Dados (ANPD).",
       "link": "https://canaltech.com.br/seguranca/45-milhoes-de-brasileiros-ja-sofreram-tentativas-de-golpes-digitais-veja-os-mais-comuns/",
-      "published": "07/09/2026 12:00",
+      "published": "08/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos exploram falha no MikroTik RouterOS para comprometer roteadores",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade grave no MikroTik RouterOS está sendo alvo de ataques contra roteadores expostos à internet. A falha pode permitir acesso não autenticado ao equipamento e abrir caminho para controle da rede administrada pelo dispositivo. A MikroTik confirmou o problema em 3 de setembro e liberou atualizações para todas as principais linhas do RouterOS. A fabricante ainda restringe detalhes técnicos para dar aos administradores tempo de aplicar as correções. Análises técnicas indicam que o problema está relacionado à forma como serviços internos processam argumentos de autenticação.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-mikrotik-routeros-para-comprometer-roteadores/",
+      "published": "08/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
