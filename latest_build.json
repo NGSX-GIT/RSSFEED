@@ -1,66 +1,68 @@
 {
-  "generated_at": "2026-09-09T12:00:00.077290-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-09-10T12:00:00.032232-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Rootkit atinge dispositivos F5 BIG-IP APM",
+      "title": "Novo exploit para zero-day no Windows Defender",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Um programa malicioso que tem como alvo dispositivos F5 BIG-IP APM está interceptando o carregamento de arquivos para injetar um código diretamente na memória, sem escrever conteúdo malicioso em disco. De acordo com análise da Sophos publicada esta semana, o malware é uma etapa secundária, provavelmente implantado após a exploração de uma falha crítica de execução remota de código que a F5 Networks reclassificou em março. A ShadowServer Foundation relatou ontem que 795 equipamentos vulneráveis permanecem expostos online. O malware, também identificado como ‘PoisonedRefresh’ pela ESET, foi implantado por um componente instalador que infectou um executável usado nos sistemas BIG-IP APM.",
-      "link": "https://www.cisoadvisor.com.br/rootkit-atinge-dispositivos-f5-big-ip-apm/",
-      "published": "09/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Adobe lança correção para zero-day crítico no Magento",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Adobe publicou hoje uma correção emergencial para a vulnerabilidade CVE-2026-75650, um zero-day de gravidade máxima que afeta múltiplas versões do Magento e do Adobe Commerce. A falha, batizada de “StyleSmuggler” pela empresa de segurança Sansec, está sendo explorada ativamente em ataques desde pelo menos 4 de setembro para instalar um backdoor em servidores vulneráveis. A atualização de segurança foi liberada ontem e aborda o problema em todas as versões afetadas, desde a 2.4.4 até a 2.4.9, incluindo as releases de agosto de 2026.",
-      "link": "https://www.cisoadvisor.com.br/adobe-lanca-correcao-para-zero-day-critico-no-magento/",
-      "published": "09/09/2026 12:00",
+      "summary": "O pesquisador de segurança conhecido como MSNightmare publicou um código de prova de conceito (PoC) para uma vulnerabilidade de dia zero no Windows Defender, denominada “ShieldCrash”. Segundo a publicação no GitHub, a falha permite a leitura arbitrária de arquivos com privilégios de sistema em todas as versões suportadas do Windows, incluindo as totalmente atualizadas com os patches de setembro de 2026. De acordo com o pesquisador, a nova vulnerabilidade é uma variação da CVE-2026-69414, apelidada de ShieldBreak, que a Microsoft teria corrigido de forma incompleta. “A Microsoft falhou em aplicar o patch adequado para o ShieldBreak.",
+      "link": "https://www.cisoadvisor.com.br/novo-exploit-para-zero-day-no-windows-defender/",
+      "published": "10/09/2026 12:00",
       "cves": [
-        "CVE-2026-75650"
+        "CVE-2026-69414"
       ],
-      "vendor": "Adobe"
+      "vendor": "Microsoft"
     },
     {
-      "title": "Falha no FortiOS permite invasão remota e roubo de credenciais",
+      "title": "Falha no Remote Desktop permite executar código pela rede",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos estão explorando ativamente uma vulnerabilidade em firewalls FortiGate para instalar um malware personalizado baseado em Node.js e transformar os dispositivos comprometidos em pontos permanentes de acesso à rede. A campanha já atingiu dezenas de equipamentos. A falha explorada é a CVE-2025-25249, um buffer overflow no daemon cw_acd do FortiOS e FortiSwitchManager. O problema permite execução remota de código sem autenticação por meio de requisições especialmente preparadas ao serviço CAPWAP Control. Após obter acesso, os invasores implantam o arquivo fortirun.bin e utilizam scripts Bash e Python para automatizar novas tentativas de exploração.",
-      "link": "https://boletimsec.com/falha-no-fortios-permite-invasao-remota-e-roubo-de-credenciais/",
-      "published": "09/09/2026 12:00",
+      "summary": "A Microsoft corrigiu uma vulnerabilidade de execução remota de código no Windows Remote Desktop Client que pode permitir a um invasor autenticado executar comandos em sistemas afetados. A falha é rastreada como CVE-2026-69485 e recebeu pontuação CVSS 8.8. O problema está relacionado ao uso de um recurso não inicializado pelo cliente de Área de Trabalho Remota. Em determinadas condições, uma requisição de rede especialmente preparada pode acionar o erro e permitir execução de código. A exploração exige que o atacante já possua uma conta com poucos privilégios no sistema alvo.",
+      "link": "https://boletimsec.com/falha-no-remote-desktop-permite-executar-codigo-pela-rede/",
+      "published": "10/09/2026 12:00",
       "cves": [
-        "CVE-2025-25249"
+        "CVE-2026-69485"
       ],
-      "vendor": "FortiOS"
+      "vendor": "Microsoft"
     },
     {
-      "title": "Governo dos EUA oferece recompensa por líder do comando cibernético iraniano",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "Os Estados Unidos estão oferecendo até US$ 10 milhões por informações que levem à identificação ou localização de Amir Yaryab, Líder do comando cibernético da Guarda Revolucionária Islâmica do Irã (IRGC). Segundo autoridades americanas, Yaryab lidera o Cyber Operations Command do IRGC Cyber-Electronic Command e supervisiona unidades envolvidas em operações contra infraestrutura crítica. Entre os grupos sob sua direção aparecem Shahid Hemmat e Shahid Shushtari, associados a campanhas contra setores de defesa, energia, telecomunicações, finanças, transporte, hotéis e companhias aéreas nos Estados Unidos, Europa e Oriente Médio.",
-      "link": "https://boletimsec.com/governo-dos-eua-oferece-recompensa-por-lider-do-comando-cibernetico-iraniano/",
-      "published": "09/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Conselhos se preparam para choques em infra digital",
+      "title": "Brasil registra recorde em ataques de ransomware",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "cloud",
-      "summary": "A crescente dependência de infraestrutura digital crítica, exposta por tensões geopolíticas, controles de exportação e ameaças cibernéticas, está levando grandes empresas e órgãos públicos a tratarem o tema com a mesma seriedade dedicada a cadeias de suprimentos físicas e energia. É o que revela a pesquisa “ Digital Sovereignty: From Policy Ambition to Executive Imperative “, do Capgemini Research Institute, publicada hoje pela manhã. O relatório de 72 páginas, baseado em uma pesquisa global com 1 .300 executivos de grandes organizações em 11 países, mostra que a soberania digital já é um assunto discutido nos conselhos de 93% das organizações.",
-      "link": "https://www.cisoadvisor.com.br/conselhos-se-preparam-para-choques-em-infra-digital/",
-      "published": "09/09/2026 12:00",
+      "category": "patches",
+      "summary": "Os ataques de ransomware no Brasil aumentaram pelo terceiro mês consecutivo, chegando a 27 casos em agosto, o maior número registrado no país em 2026. Os dados são da plataforma Ransomware.live , de monitoramento contínuo de vazamentos, divulgados pela Cohesity, empresa especializada em IA e segurança de dados. O cenário global também mostra uma escalada preocupante. Agosto foi o mês de maior atividade de ransomware nos últimos doze meses, com 1.212 ocorrências, um aumento de 27% em relação aos 955 casos de julho. O menor número no período foi registrado em setembro de 2025, com 598 incidentes, conforme os dados da plataforma.",
+      "link": "https://www.cisoadvisor.com.br/brasil-registra-recorde-em-ataques-de-ransomware/",
+      "published": "10/09/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Google corrige zero day no Chromium explorado ativamente em ataques",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Google corrigiu uma vulnerabilidade zero day no Chromium que já está sendo explorada em ataques. A falha é identificada como CVE-2026-85046 e afeta o mecanismo V8, responsável pela execução de JavaScript e WebAssembly em navegadores baseados no Chromium. O problema é uma falha de type confusion, situação em que o software trata um objeto como se fosse de um tipo diferente do esperado. Esse comportamento pode provocar corrupção de memória e abrir caminho para execução de código arbitrário. A exploração pode ocorrer quando a vítima acessa uma página HTML especialmente preparada.",
+      "link": "https://boletimsec.com/google-corrige-zero-day-no-chromium-explorado-ativamente-em-ataques/",
+      "published": "10/09/2026 12:00",
+      "cves": [
+        "CVE-2026-85046"
+      ],
+      "vendor": "Google"
+    },
+    {
+      "title": "Agentes do ChatGPT descobrem canal para vazar dados",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores da Check Point Research (CPR), divisão de inteligência de ameaças da Check Point Software, identificaram um canal de comunicação oculto entre diferentes contas do ChatGPT que poderia permitir que um atacante utilizasse a sessão de outro usuário para executar tarefas com acesso a dados, ferramentas e aplicativos conectados. A descoberta, detalhada em um relatório publicado ontem, demonstra que o sistema pode ser induzido a agir como um “usuário interno coagido”, realizando ações em benefício de terceiros. Segundo a CPR, o canal operava por meio de ambientes de execução de código de diferentes contas do ChatGPT.",
+      "link": "https://www.cisoadvisor.com.br/agentes-do-chatgpt-descobrem-canal-para-vazar-dados/",
+      "published": "10/09/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
     }
   ]
 }
