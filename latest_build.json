@@ -1,68 +1,73 @@
 {
-  "generated_at": "2026-09-10T12:00:00.032232-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-09-11T12:00:00.017634-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Novo exploit para zero-day no Windows Defender",
+      "title": "Microsoft corrige 974 falhas e dois zero-days",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O pesquisador de segurança conhecido como MSNightmare publicou um código de prova de conceito (PoC) para uma vulnerabilidade de dia zero no Windows Defender, denominada “ShieldCrash”. Segundo a publicação no GitHub, a falha permite a leitura arbitrária de arquivos com privilégios de sistema em todas as versões suportadas do Windows, incluindo as totalmente atualizadas com os patches de setembro de 2026. De acordo com o pesquisador, a nova vulnerabilidade é uma variação da CVE-2026-69414, apelidada de ShieldBreak, que a Microsoft teria corrigido de forma incompleta. “A Microsoft falhou em aplicar o patch adequado para o ShieldBreak.",
-      "link": "https://www.cisoadvisor.com.br/novo-exploit-para-zero-day-no-windows-defender/",
-      "published": "10/09/2026 12:00",
-      "cves": [
-        "CVE-2026-69414"
-      ],
+      "summary": "A Microsoft publicou nesta terça-feira, 8 de setembro, sua atualização mensal de segurança referente a setembro de 2026, corrigindo um número recorde de 974 falhas, incluindo duas vulnerabilidades zero-day exploradas ativamente. Desse total, 105 foram classificadas como “Críticas”, sendo 81 de execução remota de código, 20 de elevação de privilégios, duas de divulgação de informações e uma de burla de recurso de segurança. A atualização supera com folga as 570 falhas corrigidas em julho e as 400 de agosto, marcando o maior pacote de segurança já publicado pela empresa. Entre as vulnerabilidades corrigidas, duas estavam sendo exploradas ativamente antes da disponibilização da correção.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-966-falhas-e-dois-zero-days/",
+      "published": "11/09/2026 12:00",
+      "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "Falha no Remote Desktop permite executar código pela rede",
+      "title": "Vulnerabilidades críticas em VPN da Check Point permitem RCE",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft corrigiu uma vulnerabilidade de execução remota de código no Windows Remote Desktop Client que pode permitir a um invasor autenticado executar comandos em sistemas afetados. A falha é rastreada como CVE-2026-69485 e recebeu pontuação CVSS 8.8. O problema está relacionado ao uso de um recurso não inicializado pelo cliente de Área de Trabalho Remota. Em determinadas condições, uma requisição de rede especialmente preparada pode acionar o erro e permitir execução de código. A exploração exige que o atacante já possua uma conta com poucos privilégios no sistema alvo.",
-      "link": "https://boletimsec.com/falha-no-remote-desktop-permite-executar-codigo-pela-rede/",
-      "published": "10/09/2026 12:00",
+      "summary": "A Check Point corrigiu duas vulnerabilidades críticas que afetam o Security Gateway, o Security Management Server e o Spark Firewall gerenciado localmente. As duas receberam pontuação CVSS 9.8 e permitem execução remota de código sem autenticação. A CVE-2026-85102 está na validação de confiança do certificado durante a negociação da VPN. Um atacante não autenticado pode forçar essa negociação e executar código arbitrário no Security Gateway. A CVE-2026-85103 é um estouro de buffer na região de heap, acionado durante a análise da estrutura ASN.1 do certificado usado na VPN. A exploração ocorre pelo envio de um certificado especialmente preparado.",
+      "link": "https://boletimsec.com/vulnerabilidades-criticas-em-vpn-da-check-point-permitem-rce/",
+      "published": "11/09/2026 12:00",
       "cves": [
-        "CVE-2026-69485"
+        "CVE-2026-85102",
+        "CVE-2026-85103"
       ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Brasil registra recorde em ataques de ransomware",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Os ataques de ransomware no Brasil aumentaram pelo terceiro mês consecutivo, chegando a 27 casos em agosto, o maior número registrado no país em 2026. Os dados são da plataforma Ransomware.live , de monitoramento contínuo de vazamentos, divulgados pela Cohesity, empresa especializada em IA e segurança de dados. O cenário global também mostra uma escalada preocupante. Agosto foi o mês de maior atividade de ransomware nos últimos doze meses, com 1.212 ocorrências, um aumento de 27% em relação aos 955 casos de julho. O menor número no período foi registrado em setembro de 2025, com 598 incidentes, conforme os dados da plataforma.",
-      "link": "https://www.cisoadvisor.com.br/brasil-registra-recorde-em-ataques-de-ransomware/",
-      "published": "10/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Google corrige zero day no Chromium explorado ativamente em ataques",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Google corrigiu uma vulnerabilidade zero day no Chromium que já está sendo explorada em ataques. A falha é identificada como CVE-2026-85046 e afeta o mecanismo V8, responsável pela execução de JavaScript e WebAssembly em navegadores baseados no Chromium. O problema é uma falha de type confusion, situação em que o software trata um objeto como se fosse de um tipo diferente do esperado. Esse comportamento pode provocar corrupção de memória e abrir caminho para execução de código arbitrário. A exploração pode ocorrer quando a vítima acessa uma página HTML especialmente preparada.",
-      "link": "https://boletimsec.com/google-corrige-zero-day-no-chromium-explorado-ativamente-em-ataques/",
-      "published": "10/09/2026 12:00",
-      "cves": [
-        "CVE-2026-85046"
-      ],
-      "vendor": "Google"
-    },
-    {
-      "title": "Agentes do ChatGPT descobrem canal para vazar dados",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores da Check Point Research (CPR), divisão de inteligência de ameaças da Check Point Software, identificaram um canal de comunicação oculto entre diferentes contas do ChatGPT que poderia permitir que um atacante utilizasse a sessão de outro usuário para executar tarefas com acesso a dados, ferramentas e aplicativos conectados. A descoberta, detalhada em um relatório publicado ontem, demonstra que o sistema pode ser induzido a agir como um “usuário interno coagido”, realizando ações em benefício de terceiros. Segundo a CPR, o canal operava por meio de ambientes de execução de código de diferentes contas do ChatGPT.",
-      "link": "https://www.cisoadvisor.com.br/agentes-do-chatgpt-descobrem-canal-para-vazar-dados/",
-      "published": "10/09/2026 12:00",
-      "cves": [],
       "vendor": "Check Point"
+    },
+    {
+      "title": "Falha em firewalls FortiGate é explorada em ataques ativos",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica em firewalls Fortinet FortiGate está sendo explorada ativamente em ataques, segundo alertas da empresa de cibersegurança SOCRadar e da agência de segurança cibernética dos Estados Unidos (CISA). Por meio da falha, registrada como CVE-2025-25249 , um atacante não autenticado pode executar código e comandos arbitrários no firewall. A Fortinet publicou atualizações de segurança para o problema em 13 de janeiro deste ano. A vulnerabilidade está presente no FortiOS, sistema operacional da Fortinet que roda em diversos dispositivos de rede, como firewalls e sistemas de VPN. Entre os equipamentos afetados estão os firewalls FortiGate.",
+      "link": "https://www.cisoadvisor.com.br/falha-em-firewalls-fortigate-e-explorada-em-ataques-ativos/",
+      "published": "11/09/2026 12:00",
+      "cves": [
+        "CVE-2025-25249"
+      ],
+      "vendor": "Fortinet"
+    },
+    {
+      "title": "Cisco FMC: falhas exploradas por ransomware e hackers estatais",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Três grupos distintos de ameaças, incluindo afiliados de ransomware e atores ligados a um governo estrangeiro, exploraram duas vulnerabilidades recentemente corrigidas no Secure Firewall Management Center (FMC) da Cisco para comprometer dispositivos e realizar ataques. A informação consta em relatório publicado pela Cisco Talos, que identificou os clusters de atividade como UAT-12197, UAT-11823 e UAT-11988. As falhas exploradas são a CVE-2026-20079, de gravidade máxima (CVSS 10.0), que permite a burla de autenticação por atacantes remotos não autenticados, e a CVE-2026-20316 (CVSS 5.3), que possibilita o login com credenciais estáticas de uma conta de baixo privilégio.",
+      "link": "https://www.cisoadvisor.com.br/cisco-fmc-falhas-exploradas-por-ransomware-e-hackers-estatais/",
+      "published": "11/09/2026 12:00",
+      "cves": [
+        "CVE-2026-20079",
+        "CVE-2026-20316"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Falhas no LiteLLM permitem executar código como root e roubar credenciais",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores divulgaram três vulnerabilidades no LiteLLM, gateway de código aberto usado para centralizar o acesso a modelos de linguagem em ambientes corporativos. Exploradas em conjunto, elas permitem executar comandos como root e roubar credenciais de nuvem. A CVE-2026-59821 está no recurso de guardrails personalizados. O endpoint de registro não aplicava as validações presentes na interface de teste, o que permitia executar código Python arbitrário com privilégios de root dentro do contêiner. A falha foi corrigida na versão 1.82.0. A CVE-2026-59822 permite contornar por completo a autenticação do MCP.",
+      "link": "https://boletimsec.com/falhas-no-litellm-permitem-executar-codigo-como-root-e-roubar-credenciais/",
+      "published": "11/09/2026 12:00",
+      "cves": [
+        "CVE-2026-59821",
+        "CVE-2026-59822"
+      ],
+      "vendor": null
     }
   ]
 }
