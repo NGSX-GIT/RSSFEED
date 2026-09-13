@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-12T12:00:00.048121-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-09-13T12:00:00.054785-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "IA agêntica e zero-days pressionam cyber no Brasil",
+      "title": "Nokia lança plataforma de IA e edge para operações críticas",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "O Brasil enfrentou um mês de agosto de 2026 marcado pela convergência de diferentes vetores de ameaça cibernética, segundo relatório estratégico do NextGen SOC da DANRESA, parceiro Fortinet EPSP no Brasil. O documento, que monitorou o panorama de riscos entre os dias 3 e 30 de agosto, aponta três frentes principais: o uso de IA agêntica em operações ofensivas, a exploração ativa de vulnerabilidades críticas e novas investidas contra a cadeia de suprimentos de software. O ponto de maior atenção foi a identificação de operações maliciosas utilizando ferramentas de IA agêntica, como PentestGPT e DeepAudit, para apoiar fluxos de pós-comprometimento em servidores web.",
-      "link": "https://www.cisoadvisor.com.br/ia-agentica-e-zero-days-pressionam-cyber-no-brasil/",
-      "published": "12/09/2026 12:00",
+      "category": "cloud",
+      "summary": "A Nokia apresentou hoje o Cognitive Operations (CO), uma nova plataforma comercial que unifica comunicações de missão crítica, computação de borda e inteligência artificial operacional em um único sistema. O anúncio foi feito ontem, em São Paulo, e a solução é voltada inicialmente aos mercados de mineração, segurança pública e defesa. A plataforma permite implantação local, com infraestrutura de TI própria, ou hospedagem por meio do Microsoft Azure Marketplace.",
+      "link": "https://www.cisoadvisor.com.br/nokia-lanca-plataforma-de-ia-e-edge-para-operacoes-criticas/",
+      "published": "13/09/2026 12:00",
       "cves": [],
-      "vendor": "Fortinet"
+      "vendor": "Microsoft"
     },
     {
-      "title": "4 horas Segurança O que é um spyware mercenário?",
+      "title": "1 dia Segurança O que é um spyware mercenário?",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "A Apple envia com frequência alertas de spyware mercenário para usuários que podem ter sido alvo de ataques direcionados. Mas, afinal, o que isso significa ? Apesar do nome parecer complicado, a expressão se refere a uma categoria de spyware criada para realizar operações de espionagem altamente sofisticadas contra pessoas específicas. Esse tipo de ameaça é diferente dos malwares usados em campanhas de cibercrime em massa. Em vez de tentar infectar o maior número possível de dispositivos, o spyware mercenário é empregado contra alvos selecionados , geralmente por causa de sua atuação profissional, posição pública ou informações às quais têm acesso.",
       "link": "https://canaltech.com.br/seguranca/o-que-e-um-spyware-mercenario/",
-      "published": "12/09/2026 12:00",
+      "published": "13/09/2026 12:00",
       "cves": [],
       "vendor": "Apple"
     },
     {
-      "title": "Cibercriminosos usam downloads falsos de GTA 6 para distribuir malware",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Cibercriminosos estão usando a expectativa em torno do GTA 6 para distribuir malware por meio de downloads falsos do jogo. A campanha foi identificada por analistas da Huntress e entrega desde ferramentas de acesso remoto até um programa que destrói arquivos. A distribuição combina envenenamento de resultados de busca, fóruns de jogos, sites de torrent e publicações em redes sociais. As vítimas baixam arquivos ISO falsos com mais de 100 GB, inflados com dados inúteis para parecerem legítimos. Após a execução, o instalador exibe mensagens em russo sobre crack inválido e um erro de licença não encontrada.",
-      "link": "https://boletimsec.com/cibercriminosos-usam-downloads-falsos-de-gta-6-para-distribuir-malware/",
-      "published": "12/09/2026 12:00",
+      "title": "Investimento em cyber cresce, maturidade é o desafio",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O Brasil acompanha a tendência da América Latina de aumento nos investimentos em cibersegurança, mas ainda enfrenta lacunas importantes em governança e capacidade de resposta. É o que aponta a pesquisa Latin America Cybersecurity Survey 2026, conduzida pela RSM com 265 executivos e profissionais de 18 países, incluindo 31 participantes brasileiros. O estudo foi publicado em 17 de agosto, conforme a pesquisa da RSM Brasil. Entre os respondentes brasileiros, 71% esperam aumentar o orçamento destinado à cibersegurança nos próximos 12 meses, percentual próximo aos 69% registrados na região.",
+      "link": "https://www.cisoadvisor.com.br/investimento-em-cyber-cresce-maturidade-e-o-desafio/",
+      "published": "13/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos usam agentes autônomos de IA para roubar milhares de credenciais",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "cloud",
-      "summary": "Cibercriminosos estão usando agentes autônomos de inteligência artificial para acelerar ataques contra ambientes de nuvem e roubar credenciais em larga escala. Em um caso investigado pelo Google Threat Intelligence Group, toda a operação foi planejada e executada em menos de seis horas. Os invasores comprometeram inicialmente a infraestrutura de nuvem de uma organização e utilizaram esses recursos como ponto de partida para a campanha. O uso de endereços legítimos também ajudava o tráfego malicioso a se misturar às atividades normais.",
-      "link": "https://boletimsec.com/cibercriminosos-usam-agentes-autonomos-de-ia-para-roubar-milhares-de-credenciais/",
-      "published": "12/09/2026 12:00",
+      "title": "Think anuncia parceria estratégica com a ManageEngine",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Uma combinação de serviços, tecnologias e ferramentas de segurança, em uma abordagem integrada voltada à construção de ambientes de TI mais seguros, inteligentes, automatizados e resilientes. Essa é a novidade que a Think, empresa brasileira especializada em transformação digital, inteligência artificial e operações de tecnologia, está oferecendo ao mercado a partir da parceria estratégica firmada com a ManageEngine, referência global em gerenciamento de infraestrutura e operações de TI.",
+      "link": "https://www.cisoadvisor.com.br/think-anuncia-parceria-estrategica-com-a-manageengine/",
+      "published": "13/09/2026 12:00",
       "cves": [],
-      "vendor": "Google"
+      "vendor": null
     },
     {
-      "title": "31.08.26 Segurança Microsoft Teams se transforma em ferramenta de golpes milionários; veja como funciona",
-      "source": "Canaltech Segurança",
+      "title": "Estudo planeja quebra de assinaturas do Bitcoin",
+      "source": "CISO Advisor",
       "priority": "Baixa",
-      "category": "identity",
-      "summary": "O Microsoft Teams é o pivô de uma onda de golpes na China : o país acumula relatos de fraudes digitais usando a ferramenta de comunicação e a Microsoft precisou até bloquear o uso da versão pessoal do aplicativo na região. De acordo com a revista Wired, os golpes podem surgir com diferentes motivações, mas o jeito de operar é o mesmo: criminosos levam as pessoas para uma conta do Teams e então conseguem extrair dinheiro das vítimas com técnicas de engenharia social. Comentários nas lojas de aplicativo mencionam golpes que extraíram cerca de 1,5 milhão de yuan (cerca de R$ 1,1 milhão em conversão direta).",
-      "link": "https://canaltech.com.br/seguranca/microsoft-teams-se-transforma-em-ferramenta-de-golpes-milionarios-veja-como-funciona/",
-      "published": "12/09/2026 12:00",
+      "category": "patches",
+      "summary": "A empresa de cp,útação quântica IonQ publicou um estudo de 70 páginas descrito como o primeiro projeto para quebrar assinaturas de curva elíptica de 256 bits com um computador quântico. O estudo estima que uma máquina quântica tolerante a falhas poderia resolver o problema da curva secp256k1, usada pelo Bitcoin, em aproximadamente 25,7 dias, segundo o documento técnico da empresa. O documento foi publicado em 8 de setembro. Os pesquisadores calcularam a necessidade de 19.397 qubits físicos para o cálculo, número que inclui o hardware necessário para executar o algoritmo com correção de erros.",
+      "link": "https://www.cisoadvisor.com.br/estudo-preve-quebra-de-assinaturas-do-bitcoin-em-26-dias/",
+      "published": "13/09/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     }
   ]
 }
