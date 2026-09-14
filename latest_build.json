@@ -1,62 +1,64 @@
 {
-  "generated_at": "2026-09-13T12:00:00.054785-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-09-14T12:00:00.014326-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Nokia lança plataforma de IA e edge para operações críticas",
-      "source": "CISO Advisor",
+      "title": "Ransomware para Android sequestra arquivos e transmite a tela da vítima",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "cloud",
-      "summary": "A Nokia apresentou hoje o Cognitive Operations (CO), uma nova plataforma comercial que unifica comunicações de missão crítica, computação de borda e inteligência artificial operacional em um único sistema. O anúncio foi feito ontem, em São Paulo, e a solução é voltada inicialmente aos mercados de mineração, segurança pública e defesa. A plataforma permite implantação local, com infraestrutura de TI própria, ou hospedagem por meio do Microsoft Azure Marketplace.",
-      "link": "https://www.cisoadvisor.com.br/nokia-lanca-plataforma-de-ia-e-edge-para-operacoes-criticas/",
-      "published": "13/09/2026 12:00",
+      "category": "identity",
+      "summary": "Pesquisadores da Zimperium identificaram um novo ransomware para Android que, além de criptografar os arquivos do aparelho, grava e transmite a tela da vítima em tempo real. Batizado de Mantax Otax, o malware reúne extorsão e vigilância no mesmo pacote. A distribuição acontece fora das lojas oficiais, por meio de arquivos APK avulsos hospedados em serviços de compartilhamento. Os links chegam por aplicativos de mensagem e por mensagens de phishing, que convencem o usuário a instalar o pacote manualmente. Uma vez ativo, o Mantax Otax criptografa os arquivos com AES e acrescenta a extensão .enc. A negociação do resgate ocorre dentro do próprio aparelho, em um chat exibido na tela da vítima.",
+      "link": "https://boletimsec.com/ransomware-para-android-sequestra-arquivos-e-transmite-a-tela-da-vitima/",
+      "published": "14/09/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     },
     {
-      "title": "1 dia Segurança O que é um spyware mercenário?",
+      "title": "Falha no GitLab permite ler arquivos sem autenticação",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A CISA incluiu no catálogo de vulnerabilidades exploradas uma falha de path traversal no GitLab que recebeu pontuação CVSS 10.0, a nota máxima da escala. Identificada como CVE-2026-85706, ela permite que um atacante sem autenticação leia arquivos arbitrários do servidor. São afetadas as edições Community e Enterprise. O problema está na API de commits do repositório. O componente não confina corretamente o caminho informado na requisição e também não aplica a verificação de autenticação esperada, o que permite escapar do diretório previsto e alcançar arquivos fora dele. A exploração não exige conta, interação do usuário nem acesso prévio ao ambiente.",
+      "link": "https://boletimsec.com/falha-no-gitlab-permite-ler-arquivos-sem-autenticacao/",
+      "published": "14/09/2026 12:00",
+      "cves": [
+        "CVE-2026-85706"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "2 dias Segurança O que é um spyware mercenário?",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "A Apple envia com frequência alertas de spyware mercenário para usuários que podem ter sido alvo de ataques direcionados. Mas, afinal, o que isso significa ? Apesar do nome parecer complicado, a expressão se refere a uma categoria de spyware criada para realizar operações de espionagem altamente sofisticadas contra pessoas específicas. Esse tipo de ameaça é diferente dos malwares usados em campanhas de cibercrime em massa. Em vez de tentar infectar o maior número possível de dispositivos, o spyware mercenário é empregado contra alvos selecionados , geralmente por causa de sua atuação profissional, posição pública ou informações às quais têm acesso.",
       "link": "https://canaltech.com.br/seguranca/o-que-e-um-spyware-mercenario/",
-      "published": "13/09/2026 12:00",
+      "published": "14/09/2026 12:00",
       "cves": [],
       "vendor": "Apple"
     },
     {
-      "title": "Investimento em cyber cresce, maturidade é o desafio",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O Brasil acompanha a tendência da América Latina de aumento nos investimentos em cibersegurança, mas ainda enfrenta lacunas importantes em governança e capacidade de resposta. É o que aponta a pesquisa Latin America Cybersecurity Survey 2026, conduzida pela RSM com 265 executivos e profissionais de 18 países, incluindo 31 participantes brasileiros. O estudo foi publicado em 17 de agosto, conforme a pesquisa da RSM Brasil. Entre os respondentes brasileiros, 71% esperam aumentar o orçamento destinado à cibersegurança nos próximos 12 meses, percentual próximo aos 69% registrados na região.",
-      "link": "https://www.cisoadvisor.com.br/investimento-em-cyber-cresce-maturidade-e-o-desafio/",
-      "published": "13/09/2026 12:00",
+      "title": "Grupo estatal russo automatiza reconstrução de malware com agentes de IA",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A Anthropic identificou uma operação em que um grupo ligado ao Estado russo usou agentes de inteligência artificial para refazer o próprio malware sempre que ele era detectado. O grupo é rastreado como GTG-20006 e tem ligação com o Midnight Blizzard, também conhecido como APT29 e Cozy Bear. O processo funcionava como um ciclo automático. Os agentes acompanhavam o desempenho das ferramentas diante das defesas conhecidas e, ao identificar que um artefato havia sido detectado por um produto de segurança, iniciavam sozinhos a modificação e a reconstrução do código para escapar daquela detecção. A automação ia além do malware.",
+      "link": "https://boletimsec.com/grupo-estatal-russo-automatiza-reconstrucao-de-malware-com-agentes-de-ia/",
+      "published": "14/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Think anuncia parceria estratégica com a ManageEngine",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Uma combinação de serviços, tecnologias e ferramentas de segurança, em uma abordagem integrada voltada à construção de ambientes de TI mais seguros, inteligentes, automatizados e resilientes. Essa é a novidade que a Think, empresa brasileira especializada em transformação digital, inteligência artificial e operações de tecnologia, está oferecendo ao mercado a partir da parceria estratégica firmada com a ManageEngine, referência global em gerenciamento de infraestrutura e operações de TI.",
-      "link": "https://www.cisoadvisor.com.br/think-anuncia-parceria-estrategica-com-a-manageengine/",
-      "published": "13/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Estudo planeja quebra de assinaturas do Bitcoin",
+      "title": "PuzzleMask dribla IA e expõe ponto sem proteção",
       "source": "CISO Advisor",
       "priority": "Baixa",
-      "category": "patches",
-      "summary": "A empresa de cp,útação quântica IonQ publicou um estudo de 70 páginas descrito como o primeiro projeto para quebrar assinaturas de curva elíptica de 256 bits com um computador quântico. O estudo estima que uma máquina quântica tolerante a falhas poderia resolver o problema da curva secp256k1, usada pelo Bitcoin, em aproximadamente 25,7 dias, segundo o documento técnico da empresa. O documento foi publicado em 8 de setembro. Os pesquisadores calcularam a necessidade de 19.397 qubits físicos para o cálculo, número que inclui o hardware necessário para executar o algoritmo com correção de erros.",
-      "link": "https://www.cisoadvisor.com.br/estudo-preve-quebra-de-assinaturas-do-bitcoin-em-26-dias/",
-      "published": "13/09/2026 12:00",
+      "category": "identity",
+      "summary": "Pesquisadores da Check Point Research identificaram uma nova técnica de injeção de prompt capaz de esconder instruções maliciosas dentro de textos comuns, sem características que levantem suspeitas em sistemas automatizados de proteção. Batizada de PuzzleMask, a técnica passou por quatro modelos de inteligência artificial que verificam prompts antes do processamento, com taxa de evasão de 100% em 23 testes. O anúncio foi feito em 11 de setembro, conforme comunicado da Check Point Software. Na arquitetura analisada, um modelo rápido e de menor custo atua como barreira antes de encaminhar o conteúdo a um modelo mais poderoso, que efetivamente processa a solicitação.",
+      "link": "https://www.cisoadvisor.com.br/puzzlemask-dribla-ia-e-expoe-ponto-cego/",
+      "published": "14/09/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Check Point"
     }
   ]
 }
