@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:00:00.046937-03:00",
+  "generated_at": "2026-09-15T13:39:29.703141-03:00",
   "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos Estados Unidos (CISA) informa que uma vulnerabilidade crítica no VMware vCenter, identificada como CVE-2026-59310 , vem sendo explorada em ataques de ransomware. A correção para a falha está disponível desde 29 de julho deste ano. O vCenter é uma solução para gerenciamento de máquinas virtuais e servidores virtualizados e já foi alvo de ataques anteriormente. A CVE-2026-59310 é uma vulnerabilidade crítica de travessia de caminho, no qual um invasor com acesso ao vCenter pode executar código arbitrário no sistema. Segundo a empresa de cibersegurança Quirso, os invasores exploram o problema desde 3 de agosto deste ano.",
       "link": "https://www.cisoadvisor.com.br/falha-critica-no-vcenter-e-explorada-em-ransomware/",
-      "published": "15/09/2026 12:00",
+      "published": "15/09/2026 13:39",
       "cves": [
         "CVE-2026-59310"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "O Centro Nacional de Segurança Cibernética dos Países Baixos (NCSC) alerta que duas vulnerabilidades críticas nos produtos VPN da Check Point , identificadas como CVE-2026-85102 e CVE-2026-85103, têm exploração iminente. Embora nenhuma prova de conceito pública tenha sido relatada até o momento, o órgão holandês recomenda que as organizações instalem as atualizações de segurança o quanto antes. Segundo o comunicado do NCSC, a agência avalia como alta tanto a probabilidade de exploração quanto o impacto potencial das falhas , e espera que tentativas de ataque ocorram em breve.",
       "link": "https://www.cisoadvisor.com.br/falhas-em-vpn-da-check-point-tem-exploracao-iminente/",
-      "published": "15/09/2026 12:00",
+      "published": "15/09/2026 13:39",
       "cves": [
         "CVE-2026-85102",
         "CVE-2026-85103"
@@ -37,35 +37,35 @@
       "category": "patches",
       "summary": "A Palo Alto Networks corrigiu uma vulnerabilidade no PAN-OS que permite a um atacante remoto e sem autenticação assumir o controle de firewalls da linha PA-Series. Identificada como CVE-2026-0310, a falha recebeu pontuação base 9.2 na escala CVSS. O problema é um estouro de buffer do tipo escrita fora dos limites, classificado como CWE-787, no componente que processa dados XML. A exploração acontece pelo envio de dados XML especialmente preparados para a interface web de gerenciamento ou para a interface de dataplane. O impacto varia conforme o produto.",
       "link": "https://boletimsec.com/palo-alto-corrige-falha-no-pan-os-que-expoe-firewalls-a-ataque-remoto/",
-      "published": "15/09/2026 12:00",
+      "published": "15/09/2026 13:39",
       "cves": [
         "CVE-2026-0310"
       ],
       "vendor": "Palo Alto"
     },
     {
-      "title": "GitLab: falha máxima já é explorada em ataques",
-      "source": "CISO Advisor",
+      "title": "Ransomware para Android sequestra arquivos e transmite a tela da vítima",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "Pesquisadores da Zimperium identificaram um novo ransomware para Android que, além de criptografar os arquivos do aparelho, grava e transmite a tela da vítima em tempo real. Batizado de Mantax Otax, o malware reúne extorsão e vigilância no mesmo pacote. A distribuição acontece fora das lojas oficiais, por meio de arquivos APK avulsos hospedados em serviços de compartilhamento. Os links chegam por aplicativos de mensagem e por mensagens de phishing, que convencem o usuário a instalar o pacote manualmente. Uma vez ativo, o Mantax Otax criptografa os arquivos com AES e acrescenta a extensão .enc. A negociação do resgate ocorre dentro do próprio aparelho, em um chat exibido na tela da vítima.",
+      "link": "https://boletimsec.com/ransomware-para-android-sequestra-arquivos-e-transmite-a-tela-da-vitima/",
+      "published": "15/09/2026 13:39",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falha no GitLab permite ler arquivos sem autenticação",
+      "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos Estados Unidos (CISA) alerta que invasores já exploram uma vulnerabilidade de gravidade máxima na plataforma GitLab. A falha, catalogada como CVE-2026-85706 , decorre da ausência de aplicação de autenticação e do confinamento inadequado de caminhos na API de commits de repositórios, permitindo que invasores não autenticados leiam credenciais, segredos e outras informações sensíveis de servidores vulneráveis.",
-      "link": "https://www.cisoadvisor.com.br/falha-maxima-do-gitlab-ja-e-explorada-em-ataques/",
-      "published": "15/09/2026 12:00",
+      "summary": "A CISA incluiu no catálogo de vulnerabilidades exploradas uma falha de path traversal no GitLab que recebeu pontuação CVSS 10.0, a nota máxima da escala. Identificada como CVE-2026-85706, ela permite que um atacante sem autenticação leia arquivos arbitrários do servidor. São afetadas as edições Community e Enterprise. O problema está na API de commits do repositório. O componente não confina corretamente o caminho informado na requisição e também não aplica a verificação de autenticação esperada, o que permite escapar do diretório previsto e alcançar arquivos fora dele. A exploração não exige conta, interação do usuário nem acesso prévio ao ambiente.",
+      "link": "https://boletimsec.com/falha-no-gitlab-permite-ler-arquivos-sem-autenticacao/",
+      "published": "15/09/2026 13:39",
       "cves": [
         "CVE-2026-85706"
       ],
       "vendor": null
-    },
-    {
-      "title": "3 dias Segurança O que é um spyware mercenário?",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Apple envia com frequência alertas de spyware mercenário para usuários que podem ter sido alvo de ataques direcionados. Mas, afinal, o que isso significa ? Apesar do nome parecer complicado, a expressão se refere a uma categoria de spyware criada para realizar operações de espionagem altamente sofisticadas contra pessoas específicas. Esse tipo de ameaça é diferente dos malwares usados em campanhas de cibercrime em massa. Em vez de tentar infectar o maior número possível de dispositivos, o spyware mercenário é empregado contra alvos selecionados , geralmente por causa de sua atuação profissional, posição pública ou informações às quais têm acesso.",
-      "link": "https://canaltech.com.br/seguranca/o-que-e-um-spyware-mercenario/",
-      "published": "15/09/2026 12:00",
-      "cves": [],
-      "vendor": "Apple"
     }
   ]
 }
