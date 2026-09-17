@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T10:45:25.930860-03:00",
+  "generated_at": "2026-09-17T11:38:21.189526-03:00",
   "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
@@ -10,7 +10,7 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no ScreenConnect, da fornecedora de software ConnectWise, está sendo ativamente explorada em ataques, segundo a agência de segurança cibernética dos Estados Unidos (CISA). A atualização de segurança para o problema, registrado como CVE-2026-84869 , foi publicada em 8 de setembro. O ScreenConnect é um software para gerenciar e monitorar sistemas remotamente, usado por provedores de serviços gerenciados (MSPs) para administrar os sistemas de seus clientes. Vulnerabilidades no ScreenConnect já foram usadas em ataques de larga escala no passado, incluindo para a propagação de ransomware.",
       "link": "https://www.cisoadvisor.com.br/connectwise-screenconnect-falha-critica-sob-exploracao-ativa/",
-      "published": "17/09/2026 10:45",
+      "published": "17/09/2026 11:38",
       "cves": [
         "CVE-2026-84869"
       ],
@@ -23,7 +23,7 @@
       "category": "patches",
       "summary": "A Cisco confirmou a exploração ativa de uma vulnerabilidade crítica no Secure Email Gateway, que permite executar comandos com privilégios de root no equipamento. Identificada como CVE-2026-76461, a falha recebeu pontuação CVSS 9.8 e afeta o software AsyncOS nas versões física e virtual do produto. O problema está na validação insuficiente da lógica que analisa as mensagens. Segundo a empresa, o envio de um e-mail preparado com instruções SQL maliciosas através de um dispositivo afetado permite executar comandos SQL arbitrários, o que leva à execução de comandos como root.",
       "link": "https://boletimsec.com/falha-no-cisco-secure-email-e-explorada-e-permite-executar-comandos-como-root/",
-      "published": "17/09/2026 10:45",
+      "published": "17/09/2026 11:38",
       "cves": [
         "CVE-2026-76461"
       ],
@@ -36,7 +36,7 @@
       "category": "patches",
       "summary": "Pesquisadores da Hunt.io identificaram uma invasão à 3BB, marca de consumo da provedora tailandesa Triple T Broadband, a partir da exploração de uma falha crítica no componente SSL-VPN do FortiGate. A vulnerabilidade, identificada como CVE-2024-21762, recebeu pontuação CVSS 9.8. A descoberta veio de um servidor de preparação que os próprios atacantes deixaram exposto, capturado em 3 de junho de 2026, com a operação ainda em andamento. Os pesquisadores alertam que as evidências descrevem a intrusão como estava no início de junho, sem confirmação sobre o acesso atual. A falha é uma escrita fora dos limites de memória.",
       "link": "https://boletimsec.com/cibercriminosos-exploram-falha-em-ssl-vpn-do-fortigate/",
-      "published": "17/09/2026 10:45",
+      "published": "17/09/2026 11:38",
       "cves": [
         "CVE-2024-21762"
       ],
@@ -49,7 +49,7 @@
       "category": "patches",
       "summary": "A Oracle anunciou na terça-feira a publicação de 673 novos patches de segurança como parte de sua Atualização Crítica de Segurança (CSPU) de setembro de 2026. As atualizações resolvem mais de 800 vulnerabilidades em 17 famílias de produtos, incluindo mais de 100 falhas de gravidade crítica. Do total de vulnerabilidades recém-corrigidas, mais de 240 são exploráveis remotamente sem autenticação. O Oracle E-Business Suite recebeu 159 patches de segurança, o maior lote da CSPU, com 19 vulnerabilidades exploráveis remotamente sem autenticação. O Fusion Middleware ficou em segundo lugar, com 153 patches, incluindo correções para 78 falhas exploráveis remotamente sem autenticação.",
       "link": "https://www.cisoadvisor.com.br/oracle-corrige-mais-de-800-vulnerabilidades-em-atualizacao/",
-      "published": "17/09/2026 10:45",
+      "published": "17/09/2026 11:38",
       "cves": [],
       "vendor": null
     },
@@ -60,7 +60,7 @@
       "category": "general",
       "summary": "A Global Gate, empresa brasileira especializada em infraestrutura de TI, proteção de dados, continuidade de negócios e cibersegurança, amplia sua presença no mercado nacional com a abertura de um novo data center na Grande São Paulo, informou a companhia. A estrutura passa a integrar a operação da empresa e fortalece a oferta de redundância geográfica para organizações que mantêm ambientes e aplicações críticas. Segundo a Global Gate, a expansão complementa a infraestrutura Tier III já mantida pela empresa em Santa Catarina e permite que os clientes contem com ambientes distribuídos em diferentes regiões do país.",
       "link": "https://www.cisoadvisor.com.br/global-gate-abre-data-center-com-foco-em-redundancia/",
-      "published": "17/09/2026 10:45",
+      "published": "17/09/2026 11:38",
       "cves": [],
       "vendor": null
     }
