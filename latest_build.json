@@ -1,66 +1,62 @@
 {
-  "generated_at": "2026-09-17T11:38:21.189526-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-09-18T12:00:00.744384-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "ConnectWise ScreenConnect: falha crítica sob exploração ativa",
+      "title": "Cisco: explorada falha crítica no Identity Services",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no ScreenConnect, da fornecedora de software ConnectWise, está sendo ativamente explorada em ataques, segundo a agência de segurança cibernética dos Estados Unidos (CISA). A atualização de segurança para o problema, registrado como CVE-2026-84869 , foi publicada em 8 de setembro. O ScreenConnect é um software para gerenciar e monitorar sistemas remotamente, usado por provedores de serviços gerenciados (MSPs) para administrar os sistemas de seus clientes. Vulnerabilidades no ScreenConnect já foram usadas em ataques de larga escala no passado, incluindo para a propagação de ransomware.",
-      "link": "https://www.cisoadvisor.com.br/connectwise-screenconnect-falha-critica-sob-exploracao-ativa/",
-      "published": "17/09/2026 11:38",
+      "summary": "A Cisco alertou organizações sobre uma vulnerabilidade crítica no Identity Services Engine que está sendo ativamente explorada por atacantes. A falha recebeu pontuação CVSS máxima de 10.0, conforme o aviso de segurança da Cisco, publicado em 16 de setembro. O Cisco ISE é uma solução de controle de acesso à rede que permite às organizações gerenciar quais endpoints, usuários e dispositivos obtêm acesso à rede. A vulnerabilidade afeta tanto o Cisco ISE quanto o Cisco ISE Passive Identity Connector, independentemente da configuração do dispositivo. Segundo o aviso, a vulnerabilidade, identificada como CVE-2026-76460, é uma falha de bypass de autenticação em um endpoint de API.",
+      "link": "https://www.cisoadvisor.com.br/explorada-falha-critica-no-cisco-identity-services-engine/",
+      "published": "18/09/2026 12:00",
       "cves": [
-        "CVE-2026-84869"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha no Cisco Secure Email é explorada e permite executar comandos como root",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco confirmou a exploração ativa de uma vulnerabilidade crítica no Secure Email Gateway, que permite executar comandos com privilégios de root no equipamento. Identificada como CVE-2026-76461, a falha recebeu pontuação CVSS 9.8 e afeta o software AsyncOS nas versões física e virtual do produto. O problema está na validação insuficiente da lógica que analisa as mensagens. Segundo a empresa, o envio de um e-mail preparado com instruções SQL maliciosas através de um dispositivo afetado permite executar comandos SQL arbitrários, o que leva à execução de comandos como root.",
-      "link": "https://boletimsec.com/falha-no-cisco-secure-email-e-explorada-e-permite-executar-comandos-como-root/",
-      "published": "17/09/2026 11:38",
-      "cves": [
-        "CVE-2026-76461"
+        "CVE-2026-76460"
       ],
       "vendor": "Cisco"
     },
     {
-      "title": "Cibercriminosos exploram falha em SSL-VPN do FortiGate",
+      "title": "Servidores DNS com BIND recebem correção para 14 vulnerabilidades",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da Hunt.io identificaram uma invasão à 3BB, marca de consumo da provedora tailandesa Triple T Broadband, a partir da exploração de uma falha crítica no componente SSL-VPN do FortiGate. A vulnerabilidade, identificada como CVE-2024-21762, recebeu pontuação CVSS 9.8. A descoberta veio de um servidor de preparação que os próprios atacantes deixaram exposto, capturado em 3 de junho de 2026, com a operação ainda em andamento. Os pesquisadores alertam que as evidências descrevem a intrusão como estava no início de junho, sem confirmação sobre o acesso atual. A falha é uma escrita fora dos limites de memória.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-em-ssl-vpn-do-fortigate/",
-      "published": "17/09/2026 11:38",
-      "cves": [
-        "CVE-2024-21762"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Oracle corrige mais de 800 vulnerabilidades em atualização",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Oracle anunciou na terça-feira a publicação de 673 novos patches de segurança como parte de sua Atualização Crítica de Segurança (CSPU) de setembro de 2026. As atualizações resolvem mais de 800 vulnerabilidades em 17 famílias de produtos, incluindo mais de 100 falhas de gravidade crítica. Do total de vulnerabilidades recém-corrigidas, mais de 240 são exploráveis remotamente sem autenticação. O Oracle E-Business Suite recebeu 159 patches de segurança, o maior lote da CSPU, com 19 vulnerabilidades exploráveis remotamente sem autenticação. O Fusion Middleware ficou em segundo lugar, com 153 patches, incluindo correções para 78 falhas exploráveis remotamente sem autenticação.",
-      "link": "https://www.cisoadvisor.com.br/oracle-corrige-mais-de-800-vulnerabilidades-em-atualizacao/",
-      "published": "17/09/2026 11:38",
+      "summary": "O Internet Systems Consortium publicou uma atualização do BIND 9 que corrige 14 vulnerabilidades. Sete delas receberam pontuação CVSS 7.5, classificadas como de alta gravidade, e as outras sete ficaram entre 5.3 e 6.5. O BIND é o servidor de DNS mais usado da internet e responde pela tradução de nomes em endereços. Quando ele para ou passa a responder errado, o efeito não fica restrito ao servidor: alcança todos os serviços que dependem daquela resolução. A falha mais séria permite que um remetente sem nenhuma credencial derrube o processo named com uma única requisição, usando uma assinatura SIG(0) inválida sobre DNS over HTTPS.",
+      "link": "https://boletimsec.com/servidores-dns-com-bind-recebem-correcao-para-14-vulnerabilidades/",
+      "published": "18/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Global Gate abre data center com foco em redundância",
+      "title": "18 horas Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores da Kaspersky identificaram uma campanha de malware criada especificamente para infectar centrais multimídia de carros com Android . A ameaça explorava o próprio sistema de atualização do aparelho para instalar programas maliciosos sem ação do motorista e podia transformar a central em parte de uma rede usada para fraudes na internet. Segundo a análise técnica publicada pela Securelist, o ataque atingiu centrais que utilizavam software da fabricante chinesa DoFun . A empresa foi notificada e informou ter corrigido o problema. A infecção ocorria por meio do TWCore , aplicativo legítimo responsável por coletar informações técnicas e atualizar o software das centrais multimídia.",
+      "link": "https://canaltech.com.br/seguranca/virus-no-carro-malware-infecta-central-multimidia-sem-motorista-perceber/",
+      "published": "18/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "6 dias Segurança O que é um spyware mercenário?",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Apple envia com frequência alertas de spyware mercenário para usuários que podem ter sido alvo de ataques direcionados. Mas, afinal, o que isso significa ? Apesar do nome parecer complicado, a expressão se refere a uma categoria de spyware criada para realizar operações de espionagem altamente sofisticadas contra pessoas específicas. Esse tipo de ameaça é diferente dos malwares usados em campanhas de cibercrime em massa. Em vez de tentar infectar o maior número possível de dispositivos, o spyware mercenário é empregado contra alvos selecionados , geralmente por causa de sua atuação profissional, posição pública ou informações às quais têm acesso.",
+      "link": "https://canaltech.com.br/seguranca/o-que-e-um-spyware-mercenario/",
+      "published": "18/09/2026 12:00",
+      "cves": [],
+      "vendor": "Apple"
+    },
+    {
+      "title": "MRS faz migração de 600 servidores com Nutanix",
       "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "general",
-      "summary": "A Global Gate, empresa brasileira especializada em infraestrutura de TI, proteção de dados, continuidade de negócios e cibersegurança, amplia sua presença no mercado nacional com a abertura de um novo data center na Grande São Paulo, informou a companhia. A estrutura passa a integrar a operação da empresa e fortalece a oferta de redundância geográfica para organizações que mantêm ambientes e aplicações críticas. Segundo a Global Gate, a expansão complementa a infraestrutura Tier III já mantida pela empresa em Santa Catarina e permite que os clientes contem com ambientes distribuídos em diferentes regiões do país.",
-      "link": "https://www.cisoadvisor.com.br/global-gate-abre-data-center-com-foco-em-redundancia/",
-      "published": "17/09/2026 11:38",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A MRS Logística, uma das maiores operadoras de logística do Brasil , teve um ponto de virada de sua transformação digital com a profunda modernização da sua infraestrutura, com destaque para a migração de mais de 600 servidores em apenas 12 meses. O projeto, conduzido em parceria com a Add Value e baseado na tecnologia da Nutanix, reposicionou a TI da companhia como elemento central para suportar crescimento, segurança e novos modelos operacionais. A MRS Logística é uma operadora ferroviária brasileira que administra 1 .643 km de malha nos estados de Minas Gerais, Rio de Janeiro e São Paulo, conectando 107 municípios.",
+      "link": "https://www.cisoadvisor.com.br/mrs-faz-migracao-de-600-servidores-com-nutanix/",
+      "published": "18/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
