@@ -1,62 +1,60 @@
 {
-  "generated_at": "2026-09-18T12:00:00.744384-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-09-19T12:00:00.061217-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Cisco: explorada falha crítica no Identity Services",
+      "title": "Zero-day no Steam escala para SYSTEM no Windows",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Cisco alertou organizações sobre uma vulnerabilidade crítica no Identity Services Engine que está sendo ativamente explorada por atacantes. A falha recebeu pontuação CVSS máxima de 10.0, conforme o aviso de segurança da Cisco, publicado em 16 de setembro. O Cisco ISE é uma solução de controle de acesso à rede que permite às organizações gerenciar quais endpoints, usuários e dispositivos obtêm acesso à rede. A vulnerabilidade afeta tanto o Cisco ISE quanto o Cisco ISE Passive Identity Connector, independentemente da configuração do dispositivo. Segundo o aviso, a vulnerabilidade, identificada como CVE-2026-76460, é uma falha de bypass de autenticação em um endpoint de API.",
-      "link": "https://www.cisoadvisor.com.br/explorada-falha-critica-no-cisco-identity-services-engine/",
-      "published": "18/09/2026 12:00",
-      "cves": [
-        "CVE-2026-76460"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Servidores DNS com BIND recebem correção para 14 vulnerabilidades",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Internet Systems Consortium publicou uma atualização do BIND 9 que corrige 14 vulnerabilidades. Sete delas receberam pontuação CVSS 7.5, classificadas como de alta gravidade, e as outras sete ficaram entre 5.3 e 6.5. O BIND é o servidor de DNS mais usado da internet e responde pela tradução de nomes em endereços. Quando ele para ou passa a responder errado, o efeito não fica restrito ao servidor: alcança todos os serviços que dependem daquela resolução. A falha mais séria permite que um remetente sem nenhuma credencial derrube o processo named com uma única requisição, usando uma assinatura SIG(0) inválida sobre DNS over HTTPS.",
-      "link": "https://boletimsec.com/servidores-dns-com-bind-recebem-correcao-para-14-vulnerabilidades/",
-      "published": "18/09/2026 12:00",
+      "summary": "Uma vulnerabilidade zero-day recém-divulgada que afeta o Serviço do Cliente Steam no Windows pode permitir que um usuário local comum obtenha privilégios de NT AUTHORITY\\SYSTEM sem credenciais de administrador, sem aviso do Controle de Conta de Usuário (UAC), sem autenticação da Steam e sem iniciar um jogo. O pesquisador KillaBoi publicou a prova de conceito chamada BrokenPipe em 14 de setembro, descrevendo a escalação local de privilégios por meio do steamservice.exe, o serviço privilegiado da Steam no Windows. A falha não é um erro de corrupção de memória nem uma assinatura forjada.",
+      "link": "https://www.cisoadvisor.com.br/zero-day-no-steam-escala-para-system-no-windows/",
+      "published": "19/09/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Windows"
     },
     {
-      "title": "18 horas Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
+      "title": "1 dia Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Pesquisadores da Kaspersky identificaram uma campanha de malware criada especificamente para infectar centrais multimídia de carros com Android . A ameaça explorava o próprio sistema de atualização do aparelho para instalar programas maliciosos sem ação do motorista e podia transformar a central em parte de uma rede usada para fraudes na internet. Segundo a análise técnica publicada pela Securelist, o ataque atingiu centrais que utilizavam software da fabricante chinesa DoFun . A empresa foi notificada e informou ter corrigido o problema. A infecção ocorria por meio do TWCore , aplicativo legítimo responsável por coletar informações técnicas e atualizar o software das centrais multimídia.",
       "link": "https://canaltech.com.br/seguranca/virus-no-carro-malware-infecta-central-multimidia-sem-motorista-perceber/",
-      "published": "18/09/2026 12:00",
+      "published": "19/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "6 dias Segurança O que é um spyware mercenário?",
+      "title": "12.09.26 Segurança O que é um spyware mercenário?",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "A Apple envia com frequência alertas de spyware mercenário para usuários que podem ter sido alvo de ataques direcionados. Mas, afinal, o que isso significa ? Apesar do nome parecer complicado, a expressão se refere a uma categoria de spyware criada para realizar operações de espionagem altamente sofisticadas contra pessoas específicas. Esse tipo de ameaça é diferente dos malwares usados em campanhas de cibercrime em massa. Em vez de tentar infectar o maior número possível de dispositivos, o spyware mercenário é empregado contra alvos selecionados , geralmente por causa de sua atuação profissional, posição pública ou informações às quais têm acesso.",
       "link": "https://canaltech.com.br/seguranca/o-que-e-um-spyware-mercenario/",
-      "published": "18/09/2026 12:00",
+      "published": "19/09/2026 12:00",
       "cves": [],
       "vendor": "Apple"
     },
     {
-      "title": "MRS faz migração de 600 servidores com Nutanix",
-      "source": "CISO Advisor",
+      "title": "Spyware HEAVYGRAM usa o Telegram para controlar aparelhos infectados",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Pesquisadores do Group-IB detalharam o funcionamento do HEAVYGRAM, spyware que usa o próprio Telegram como infraestrutura de comando e controle. A análise identificou 29 amostras adicionais, entre carregadores e cargas finais. O malware recorre a bots, contas e grupos do mensageiro para receber instruções, transportar os dados roubados e manter os aparelhos infectados sob controle. A comunicação passa pela API de bots do Telegram, em modelos que usam um ou dois bots para registrar a presença da vítima, guardar registros e entregar os estágios seguintes.",
+      "link": "https://boletimsec.com/spyware-heavygram-usa-o-telegram-para-controlar-aparelhos-infectados/",
+      "published": "19/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "01.09.26 Segurança 45 milhões de brasileiros já sofreram tentativas de golpes digitais; veja os mais comuns",
+      "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
-      "summary": "A MRS Logística, uma das maiores operadoras de logística do Brasil , teve um ponto de virada de sua transformação digital com a profunda modernização da sua infraestrutura, com destaque para a migração de mais de 600 servidores em apenas 12 meses. O projeto, conduzido em parceria com a Add Value e baseado na tecnologia da Nutanix, reposicionou a TI da companhia como elemento central para suportar crescimento, segurança e novos modelos operacionais. A MRS Logística é uma operadora ferroviária brasileira que administra 1 .643 km de malha nos estados de Minas Gerais, Rio de Janeiro e São Paulo, conectando 107 municípios.",
-      "link": "https://www.cisoadvisor.com.br/mrs-faz-migracao-de-600-servidores-com-nutanix/",
-      "published": "18/09/2026 12:00",
+      "summary": "Trinta e dois por cento dos usuários de internet no Brasil com 16 anos ou mais, o equivalente a 45 milhões de pessoas, relataram ter recebido tentativas de golpe com uso de seus dados pessoais. Os dados são da Pesquisa Privacidade e Proteção de Dados Pessoais, divulgada nesta segunda-feira (31) pelo Cetic.br, área do NIC.br vinculada ao Comitê Gestor da Internet no Brasil (CGI.br). Entre esses usuários, 20% afirmam ter sido vítimas de fato do golpe. O levantamento ouviu 2,5 mil pessoas em dezembro de 2025 e chega à terceira edição. A pesquisa integra a série de estudos TIC do Cetic.br e tem apoio da Agência Nacional de Proteção de Dados (ANPD).",
+      "link": "https://canaltech.com.br/seguranca/45-milhoes-de-brasileiros-ja-sofreram-tentativas-de-golpes-digitais-veja-os-mais-comuns/",
+      "published": "19/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
