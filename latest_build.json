@@ -1,60 +1,63 @@
 {
-  "generated_at": "2026-09-20T12:00:00.066527-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-09-21T12:00:00.039111-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "2 dias Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
+      "title": "CISA alerta para falhas no kernel do Linux exploradas em ataques",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A CISA incluiu no catálogo de vulnerabilidades exploradas três falhas do kernel do Linux. A inclusão significa que houve confirmação de uso em ataques reais e obriga as agências civis do governo federal dos Estados Unidos a aplicar as correções dentro do prazo previsto na diretiva BOD 26-04. A mais grave é a CVE-2025-39682, com pontuação CVSS 9.8, no caminho de recebimento do TLS. A exploração pode levar a divulgação de conteúdo da memória ou a negação de serviço, e exige um usuário local autenticado. A segunda é a CVE-2026-53266, com nota 8.8, na reescrita de ARP feita pelo SNAT do ebtables.",
+      "link": "https://boletimsec.com/cisa-alerta-para-falhas-no-kernel-do-linux-exploradas-em-ataques/",
+      "published": "21/09/2026 12:00",
+      "cves": [
+        "CVE-2025-39682",
+        "CVE-2026-53266"
+      ],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Novo ransomware SETTRA usa MeshAgent e BYOVD contra sistemas Windows",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "Analistas da Huntress identificaram dois incidentes com um ransomware batizado de SETTRA, que ataca sistemas Windows combinando ferramenta legítima de administração remota e abuso de driver vulnerável. As vítimas foram uma empresa de serviços ao consumidor e varejo, em julho, e uma indústria, em setembro. A entrada aconteceu por VPN ou com credenciais roubadas anteriormente. Os pesquisadores não confirmaram como essas redes foram comprometidas em primeiro lugar. Já dentro do ambiente, os operadores instalaram o MeshAgent, ferramenta legítima de monitoramento e gerenciamento remoto.",
+      "link": "https://boletimsec.com/novo-ransomware-settra-usa-meshagent-e-byovd-contra-sistemas-windows/",
+      "published": "21/09/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
+    },
+    {
+      "title": "3 dias Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Pesquisadores da Kaspersky identificaram uma campanha de malware criada especificamente para infectar centrais multimídia de carros com Android . A ameaça explorava o próprio sistema de atualização do aparelho para instalar programas maliciosos sem ação do motorista e podia transformar a central em parte de uma rede usada para fraudes na internet. Segundo a análise técnica publicada pela Securelist, o ataque atingiu centrais que utilizavam software da fabricante chinesa DoFun . A empresa foi notificada e informou ter corrigido o problema. A infecção ocorria por meio do TWCore , aplicativo legítimo responsável por coletar informações técnicas e atualizar o software das centrais multimídia.",
       "link": "https://canaltech.com.br/seguranca/virus-no-carro-malware-infecta-central-multimidia-sem-motorista-perceber/",
-      "published": "20/09/2026 12:00",
+      "published": "21/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "CISA e NIST publicam checklist técnico para proteger tokens de identidade",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "A CISA e o NIST publicaram em 15 de setembro o relatório NIST IR 8587, com orientações técnicas para proteger tokens de identidade contra roubo e uso indevido. O documento é dirigido a agências federais dos Estados Unidos e a provedores de serviços em nuvem. O escopo alcança ambientes de autenticação única, federação de identidade, acesso a APIs e autenticação entre máquinas. São cobertos tokens de identidade, de acesso e de renovação, além de asserções SAML, asserções assinadas e JWT. Na proteção das chaves criptográficas, o texto determina o uso de algoritmos aprovados e de módulos validados pelo FIPS 140. As chaves devem ser inventariadas por finalidade e nunca exportadas em texto puro.",
-      "link": "https://boletimsec.com/cisa-e-nist-publicam-checklist-tecnico-para-proteger-tokens-de-identidade/",
-      "published": "20/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Malware bancário KREMLIN sequestra Chrome e Edge para roubar credenciais",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Pesquisadores do Elastic Security Labs detalharam a operação de um malware bancário batizado de KREMLIN, que sequestra o Chrome e o Edge para roubar credenciais e tokens de sessão. A atividade é rastreada sob o identificador REF9334. O alvo é o Brasil. Dos 1.515 sistemas infectados identificados, 98% estão no país, e a campanha se apresenta como uma dezena de bancos brasileiros diferentes. A infecção começa por carregadores em JavaScript de múltiplos estágios, disfarçados de documentos bancários, faturas ou papéis corporativos. É preciso que a vítima execute o arquivo manualmente, e a partir daí são baixados instaladores em C++ e extensões maliciosas de navegador.",
-      "link": "https://boletimsec.com/malware-bancario-kremlin-sequestra-chrome-e-edge-para-roubar-credenciais/",
-      "published": "20/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "5 dias Segurança Quishing: golpes com QR Code aumentam 460% no Brasil",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Golpes de phishing que usam QR Codes cresceram 460% no Brasil entre janeiro e fevereiro de 2026, segundo dados da ESET. O levantamento, baseado na telemetria da empresa durante o primeiro semestre, mostra que os chamados ataques de quishing já representaram 7,2% das detecções de phishing no período. O termo quishing é usado para descrever golpes de phishing que utilizam códigos QR para levar a vítima a páginas falsas, formulários de captura de dados ou arquivos maliciosos. A técnica aproveita a familiaridade do público com os códigos usados em pagamentos, cardápios, entregas, eventos e autenticações.",
-      "link": "https://canaltech.com.br/seguranca/quishing-golpes-com-qr-code-aumentam-460-no-brasil/",
-      "published": "20/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Alcatel-Lucent lança OmniVista com assistente de IA para redes",
+      "title": "Huge Networks aponta alta de 85% em ataques DDoS",
       "source": "CISO Advisor",
-      "priority": "Baixa",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A ALE International, que opera sob a marca Alcatel-Lucent, lançou a versão mais recente de sua plataforma unificada de gerenciamento de redes, OmniVista, informou a empresa em comunicado. A atualização introduz um assistente virtual de IA capaz de receber instruções em linguagem natural, recurso que, segundo a companhia, mantém as equipes de rede no controle total, pois nenhuma ação é automatizada sem sua aprovação. A solução também oferece uma visão mais clara de toda a infraestrutura de rede. Conforme o comunicado, com o OmniVista as empresas acessam operações de IA de alta velocidade sem abrir mão da capacidade de auditoria ou da soberania dos dados.",
-      "link": "https://www.cisoadvisor.com.br/alcatel-lucent-lanca-omnivista-com-assistente-de-ia-para-redes/",
-      "published": "20/09/2026 12:00",
+      "summary": "A Huge Networks, empresa brasileira especializada em mitigação de DDoS, detectou crescimento de 85% no volume de ataques cibernéticos nos primeiros sete meses de 2026, segundo dados de sua infraestrutura de proteção divulgados em comunicado. Em julho, a companhia mitigou 6,86 Tbps de tráfego malicioso, crescimento de 185% em relação a junho e o maior volume já registrado pela empresa desde sua fundação em 2014. De acordo com a empresa, a Huge Networks protege mais de mil organizações no Brasil, incluindo operadoras de telecomunicações, instituições financeiras, fintechs, e-commerces e órgãos públicos. A base de clientes permite uma visão ampla sobre as tendências de ataques DDoS no país.",
+      "link": "https://www.cisoadvisor.com.br/huge-networks-aponta-alta-de-85-em-ataques-ddos/",
+      "published": "21/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falha Click2Shell no WordPress permite RCE com um único link",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores da pwn.ai divulgaram uma falha no núcleo do WordPress, batizada de Click2Shell, que instala um tema à revelia do administrador a partir de um único link. Isolada, a falha recebeu pontuação CVSS 7.1, mas a cadeia completa até a execução de código chega a 9.6. O problema não está em um plugin específico, e sim no próprio WordPress. Estão afetadas as versões a partir da 6.0 e anteriores à 7.1.1. O ataque explora uma divergência de interpretação. O diretório do WordPress.org lê o valor presente no link como se fosse um nome comum de tema, enquanto o navegador do administrador reaproveita o texto original dentro de um código que serve para localizar um item na página.",
+      "link": "https://boletimsec.com/falha-click2shell-no-wordpress-permite-rce-com-um-unico-link/",
+      "published": "21/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
