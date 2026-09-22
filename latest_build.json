@@ -1,63 +1,66 @@
 {
-  "generated_at": "2026-09-21T12:00:00.039111-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-09-22T12:00:00.062370-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA alerta para falhas no kernel do Linux exploradas em ataques",
-      "source": "BoletimSec Notícias",
+      "title": "Falha crítica no cPanel usada para implantar malware Mirai",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA incluiu no catálogo de vulnerabilidades exploradas três falhas do kernel do Linux. A inclusão significa que houve confirmação de uso em ataques reais e obriga as agências civis do governo federal dos Estados Unidos a aplicar as correções dentro do prazo previsto na diretiva BOD 26-04. A mais grave é a CVE-2025-39682, com pontuação CVSS 9.8, no caminho de recebimento do TLS. A exploração pode levar a divulgação de conteúdo da memória ou a negação de serviço, e exige um usuário local autenticado. A segunda é a CVE-2026-53266, com nota 8.8, na reescrita de ARP feita pelo SNAT do ebtables.",
-      "link": "https://boletimsec.com/cisa-alerta-para-falhas-no-kernel-do-linux-exploradas-em-ataques/",
-      "published": "21/09/2026 12:00",
+      "summary": "Hackers estão explorando uma falha crítica no cPanel e no WHM para instalar o malware Mirai em servidores expostos, ampliando uma ameaça de botnet normalmente associada a dispositivos conectados. A atividade produziu um aumento acentuado no tráfego suspeito de Telnet e expôs um problema de segurança mais amplo na internet. O uso do malware diretamente contra servidores gera preocupação para organizações que podem não associar infraestrutura de hospedagem convencional a operações de botnet impulsionadas pelo Mirai. O problema, registrado como CVE-2026-41940, permite que um atacante não autenticado contorne o processo de login em sistemas cPanel e WHM vulneráveis.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-cpanel-usada-para-implantar-malware-mirai/",
+      "published": "22/09/2026 12:00",
       "cves": [
-        "CVE-2025-39682",
-        "CVE-2026-53266"
+        "CVE-2026-41940"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Microsoft corrige falha máxima no Azure AI Foundry",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft corrigiu uma falha de segurança de gravidade máxima no Azure AI Foundry, sua plataforma empresarial para construir e gerenciar aplicações e agentes de IA generativa, que poderia ter permitido a um atacante não autenticado escalar privilégios pela rede sem qualquer interação do usuário. A vulnerabilidade, registrada como CVE-2026-85889, tem a pontuação CVSS mais alta possível, 10.0, colocando-a entre os problemas de segurança em nuvem mais graves divulgados este ano. Segundo o comunicado da Microsoft, publicado em 17 de setembro de 2026, a causa raiz é a ausência de uma verificação de autenticação para uma função crítica dentro do Azure AI Foundry, classificada sob CWE-306.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-falha-maxima-no-azure-ai-foundry/",
+      "published": "22/09/2026 12:00",
+      "cves": [
+        "CVE-2026-85889"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "CISA alerta para exploração de três falhas no kernel do Linux",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A agência de segurança cibernética dos Estados Unidos (CISA) alertou que hackers estão explorando três vulnerabilidades no kernel do Linux, uma delas classificada como crítica. As três falhas foram adicionadas separadamente à lista na semana passada e têm classificações de gravidade que variam de média a crítica. Uma delas, registrada como CVE-2025-39964 , existia no kernel do Linux há 14 anos. A CISA marcou as três falhas com a mais alta prioridade para agências federais, ordenando que apliquem as atualizações e mitigações disponíveis até o final de hoje.",
+      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-de-tres-falhas-no-kernel-do-linux/",
+      "published": "22/09/2026 12:00",
+      "cves": [
+        "CVE-2025-39964"
       ],
       "vendor": "Linux"
     },
     {
-      "title": "Novo ransomware SETTRA usa MeshAgent e BYOVD contra sistemas Windows",
+      "title": "Extensão maliciosa usa blockchain para roubar login de bancos",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Analistas da Huntress identificaram dois incidentes com um ransomware batizado de SETTRA, que ataca sistemas Windows combinando ferramenta legítima de administração remota e abuso de driver vulnerável. As vítimas foram uma empresa de serviços ao consumidor e varejo, em julho, e uma indústria, em setembro. A entrada aconteceu por VPN ou com credenciais roubadas anteriormente. Os pesquisadores não confirmaram como essas redes foram comprometidas em primeiro lugar. Já dentro do ambiente, os operadores instalaram o MeshAgent, ferramenta legítima de monitoramento e gerenciamento remoto.",
-      "link": "https://boletimsec.com/novo-ransomware-settra-usa-meshagent-e-byovd-contra-sistemas-windows/",
-      "published": "21/09/2026 12:00",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Pesquisadores de segurança detalharam uma campanha chamada EtherHiding, que esconde a infraestrutura de comando e controle dentro de contratos inteligentes na rede Polygon. A carga final é uma extensão de navegador que funciona como trojan bancário. Em vez de trazer endereços fixos no próprio código, o malware consulta o contrato inteligente e recebe de lá o endereço criptografado do servidor de controle. Trocar esse destino custa uma transação barata na rede, e o bloqueio de domínios perde a eficácia. A extensão intercepta credenciais e códigos de dois fatores em cerca de 479 sites de instituições financeiras e de criptomoedas.",
+      "link": "https://boletimsec.com/extensao-maliciosa-usa-blockchain-para-roubar-login-de-bancos/",
+      "published": "22/09/2026 12:00",
       "cves": [],
-      "vendor": "Windows"
+      "vendor": null
     },
     {
-      "title": "3 dias Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
+      "title": "4 dias Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "Pesquisadores da Kaspersky identificaram uma campanha de malware criada especificamente para infectar centrais multimídia de carros com Android . A ameaça explorava o próprio sistema de atualização do aparelho para instalar programas maliciosos sem ação do motorista e podia transformar a central em parte de uma rede usada para fraudes na internet. Segundo a análise técnica publicada pela Securelist, o ataque atingiu centrais que utilizavam software da fabricante chinesa DoFun . A empresa foi notificada e informou ter corrigido o problema. A infecção ocorria por meio do TWCore , aplicativo legítimo responsável por coletar informações técnicas e atualizar o software das centrais multimídia.",
       "link": "https://canaltech.com.br/seguranca/virus-no-carro-malware-infecta-central-multimidia-sem-motorista-perceber/",
-      "published": "21/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Huge Networks aponta alta de 85% em ataques DDoS",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Huge Networks, empresa brasileira especializada em mitigação de DDoS, detectou crescimento de 85% no volume de ataques cibernéticos nos primeiros sete meses de 2026, segundo dados de sua infraestrutura de proteção divulgados em comunicado. Em julho, a companhia mitigou 6,86 Tbps de tráfego malicioso, crescimento de 185% em relação a junho e o maior volume já registrado pela empresa desde sua fundação em 2014. De acordo com a empresa, a Huge Networks protege mais de mil organizações no Brasil, incluindo operadoras de telecomunicações, instituições financeiras, fintechs, e-commerces e órgãos públicos. A base de clientes permite uma visão ampla sobre as tendências de ataques DDoS no país.",
-      "link": "https://www.cisoadvisor.com.br/huge-networks-aponta-alta-de-85-em-ataques-ddos/",
-      "published": "21/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha Click2Shell no WordPress permite RCE com um único link",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores da pwn.ai divulgaram uma falha no núcleo do WordPress, batizada de Click2Shell, que instala um tema à revelia do administrador a partir de um único link. Isolada, a falha recebeu pontuação CVSS 7.1, mas a cadeia completa até a execução de código chega a 9.6. O problema não está em um plugin específico, e sim no próprio WordPress. Estão afetadas as versões a partir da 6.0 e anteriores à 7.1.1. O ataque explora uma divergência de interpretação. O diretório do WordPress.org lê o valor presente no link como se fosse um nome comum de tema, enquanto o navegador do administrador reaproveita o texto original dentro de um código que serve para localizar um item na página.",
-      "link": "https://boletimsec.com/falha-click2shell-no-wordpress-permite-rce-com-um-unico-link/",
-      "published": "21/09/2026 12:00",
+      "published": "22/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
