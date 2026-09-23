@@ -1,66 +1,64 @@
 {
-  "generated_at": "2026-09-22T12:00:00.062370-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-09-23T12:00:00.035614-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no cPanel usada para implantar malware Mirai",
+      "title": "ShinyHunters diz ter invadido FBI com zero-day no PeopleSoft",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Hackers estão explorando uma falha crítica no cPanel e no WHM para instalar o malware Mirai em servidores expostos, ampliando uma ameaça de botnet normalmente associada a dispositivos conectados. A atividade produziu um aumento acentuado no tráfego suspeito de Telnet e expôs um problema de segurança mais amplo na internet. O uso do malware diretamente contra servidores gera preocupação para organizações que podem não associar infraestrutura de hospedagem convencional a operações de botnet impulsionadas pelo Mirai. O problema, registrado como CVE-2026-41940, permite que um atacante não autenticado contorne o processo de login em sistemas cPanel e WHM vulneráveis.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-cpanel-usada-para-implantar-malware-mirai/",
-      "published": "22/09/2026 12:00",
+      "summary": "A gangue de extorsão ShinyHunters afirmou ter violado sistemas do FBI usando uma nova vulnerabilidade de dia zero do Oracle PeopleSoft, obtendo acesso a serviços internos e roubando dados confidenciais de funcionários e candidatos a empregos. Os atores da ameaça disseram que a vulnerabilidade permite a execução remota de código e que a usaram na noite de segunda-feira para acessar os sistemas do FBI antes de se mover lateralmente para a infraestrutura AWS GovCloud gerenciada pelo FBI. A ShinyHunters afirma ter roubado entre 2 TB e 3 TB de dados da agência, incluindo informações sobre funcionários atuais e ex-funcionários do FBI, candidatos a empregos e outros registros internos.",
+      "link": "https://www.cisoadvisor.com.br/shinyhunters-diz-ter-invadido-fbi-com-zero-day-no-peoplesoft/",
+      "published": "23/09/2026 12:00",
+      "cves": [],
+      "vendor": "AWS"
+    },
+    {
+      "title": "WordPress corrige falha crítica que atinge todas as versões",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O WordPress publicou a correção de uma vulnerabilidade crítica no próprio núcleo da plataforma, identificada como CVE-2026-87902 e com pontuação CVSS 9.2. São afetadas todas as versões da 4.7.0 até a 7.1.1, o que alcança praticamente qualquer instalação que não tenha recebido a atualização desta semana. O problema não está em plugin nem em tema, e sim no código base do sistema. Isso significa que sites sem nenhuma extensão instalada também estão expostos. A falha permite carregar um arquivo PHP de fora das pastas de tema e, em determinadas configurações de servidor, levar à execução de código escolhido pelo atacante.",
+      "link": "https://boletimsec.com/wordpress-corrige-falha-critica-que-atinge-todas-as-versoes/",
+      "published": "23/09/2026 12:00",
       "cves": [
-        "CVE-2026-41940"
+        "CVE-2026-87902"
       ],
       "vendor": null
     },
     {
-      "title": "Microsoft corrige falha máxima no Azure AI Foundry",
-      "source": "CISO Advisor",
+      "title": "Falha no Microsoft SharePoint permite execução remota de código",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft corrigiu uma falha de segurança de gravidade máxima no Azure AI Foundry, sua plataforma empresarial para construir e gerenciar aplicações e agentes de IA generativa, que poderia ter permitido a um atacante não autenticado escalar privilégios pela rede sem qualquer interação do usuário. A vulnerabilidade, registrada como CVE-2026-85889, tem a pontuação CVSS mais alta possível, 10.0, colocando-a entre os problemas de segurança em nuvem mais graves divulgados este ano. Segundo o comunicado da Microsoft, publicado em 17 de setembro de 2026, a causa raiz é a ausência de uma verificação de autenticação para uma função crítica dentro do Azure AI Foundry, classificada sob CWE-306.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-falha-maxima-no-azure-ai-foundry/",
-      "published": "22/09/2026 12:00",
+      "summary": "Uma vulnerabilidade no Microsoft SharePoint Server permite que um atacante autenticado com poucos privilégios execute código arbitrário no servidor. Identificada como CVE-2026-65660, a falha recebeu pontuação CVSS 8.8. São afetadas as versões SharePoint Server 2016, SharePoint Server 2019 e a Subscription Edition, ou seja, as instalações mantidas dentro da própria infraestrutura das organizações. O problema está em uma injeção que contorna a proteção SafeControls, mecanismo que deveria limitar quais classes podem ser registradas e executadas pela aplicação.",
+      "link": "https://boletimsec.com/falha-no-microsoft-sharepoint-permite-execucao-remota-de-codigo/",
+      "published": "23/09/2026 12:00",
       "cves": [
-        "CVE-2026-85889"
+        "CVE-2026-65660"
       ],
       "vendor": "Microsoft"
     },
     {
-      "title": "CISA alerta para exploração de três falhas no kernel do Linux",
+      "title": "Hacktron usou IA para invadir OpenAI e acessar repositórios",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A agência de segurança cibernética dos Estados Unidos (CISA) alertou que hackers estão explorando três vulnerabilidades no kernel do Linux, uma delas classificada como crítica. As três falhas foram adicionadas separadamente à lista na semana passada e têm classificações de gravidade que variam de média a crítica. Uma delas, registrada como CVE-2025-39964 , existia no kernel do Linux há 14 anos. A CISA marcou as três falhas com a mais alta prioridade para agências federais, ordenando que apliquem as atualizações e mitigações disponíveis até o final de hoje.",
-      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-de-tres-falhas-no-kernel-do-linux/",
-      "published": "22/09/2026 12:00",
-      "cves": [
-        "CVE-2025-39964"
-      ],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Extensão maliciosa usa blockchain para roubar login de bancos",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Pesquisadores de segurança detalharam uma campanha chamada EtherHiding, que esconde a infraestrutura de comando e controle dentro de contratos inteligentes na rede Polygon. A carga final é uma extensão de navegador que funciona como trojan bancário. Em vez de trazer endereços fixos no próprio código, o malware consulta o contrato inteligente e recebe de lá o endereço criptografado do servidor de controle. Trocar esse destino custa uma transação barata na rede, e o bloqueio de domínios perde a eficácia. A extensão intercepta credenciais e códigos de dois fatores em cerca de 479 sites de instituições financeiras e de criptomoedas.",
-      "link": "https://boletimsec.com/extensao-maliciosa-usa-blockchain-para-roubar-login-de-bancos/",
-      "published": "22/09/2026 12:00",
+      "summary": "Pesquisadores da Hacktron AI encadearam duas vulnerabilidades críticas para comprometer contas ChatGPT de funcionários da OpenAI e acessar repositórios internos da empresa. O caso foi detalhado no relatório publicado pela Hacktron AI. Segundo o documento, o ataque ocorreu em 25 de julho de 2026 e levou menos de 72 horas entre a descoberta inicial e o acesso ao repositório interno da OpenAI. De acordo com o relatório, a primeira falha estava no libheif, biblioteca de decodificação de imagens usada pelo Discourse, o software de fórum da OpenAI. A equipe iniciou uma sessão com o Claude Opus 4.8 e pediu que ele inspecionasse o pacote instalado em busca de problemas de segurança.",
+      "link": "https://www.cisoadvisor.com.br/hacktron-usou-ia-para-invadir-openai-e-acessar-repositorios/",
+      "published": "23/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
+      "title": "Cibercriminosos usam IA open source para atacar empresas",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da Kaspersky identificaram uma campanha de malware criada especificamente para infectar centrais multimídia de carros com Android . A ameaça explorava o próprio sistema de atualização do aparelho para instalar programas maliciosos sem ação do motorista e podia transformar a central em parte de uma rede usada para fraudes na internet. Segundo a análise técnica publicada pela Securelist, o ataque atingiu centrais que utilizavam software da fabricante chinesa DoFun . A empresa foi notificada e informou ter corrigido o problema. A infecção ocorria por meio do TWCore , aplicativo legítimo responsável por coletar informações técnicas e atualizar o software das centrais multimídia.",
-      "link": "https://canaltech.com.br/seguranca/virus-no-carro-malware-infecta-central-multimidia-sem-motorista-perceber/",
-      "published": "22/09/2026 12:00",
+      "summary": "Cibercriminosos vêm se aproveitando de ferramentas de inteligência artificial open source, públicas e ao alcance de qualquer pessoa, para comprometer empresas sem precisar desenvolver malware próprio. Uma campanha montada dessa forma roubou mais de 600 mil registros de cartões de crédito. O caso veio à tona depois que os operadores deixaram exposto um servidor de preparação. A partir dos dados esquecidos ali, pesquisadores da Gambit Security reconstruíram a campanha, que começou em julho de 2026 e seguia ativa neste mês. Cerca de 79% dos dados, o equivalente a 488 mil cartões, pertenciam a titulares nos Estados Unidos.",
+      "link": "https://boletimsec.com/cibercriminosos-usam-ia-open-source-para-atacar-empresas/",
+      "published": "23/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
