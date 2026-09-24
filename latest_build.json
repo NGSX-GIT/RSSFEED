@@ -1,66 +1,69 @@
 {
-  "generated_at": "2026-09-23T12:00:00.035614-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-09-24T12:00:00.055156-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "ShinyHunters diz ter invadido FBI com zero-day no PeopleSoft",
+      "title": "Arista pede correção imediata de zero-day no VeloCloud",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A gangue de extorsão ShinyHunters afirmou ter violado sistemas do FBI usando uma nova vulnerabilidade de dia zero do Oracle PeopleSoft, obtendo acesso a serviços internos e roubando dados confidenciais de funcionários e candidatos a empregos. Os atores da ameaça disseram que a vulnerabilidade permite a execução remota de código e que a usaram na noite de segunda-feira para acessar os sistemas do FBI antes de se mover lateralmente para a infraestrutura AWS GovCloud gerenciada pelo FBI. A ShinyHunters afirma ter roubado entre 2 TB e 3 TB de dados da agência, incluindo informações sobre funcionários atuais e ex-funcionários do FBI, candidatos a empregos e outros registros internos.",
-      "link": "https://www.cisoadvisor.com.br/shinyhunters-diz-ter-invadido-fbi-com-zero-day-no-peoplesoft/",
-      "published": "23/09/2026 12:00",
-      "cves": [],
-      "vendor": "AWS"
-    },
-    {
-      "title": "WordPress corrige falha crítica que atinge todas as versões",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O WordPress publicou a correção de uma vulnerabilidade crítica no próprio núcleo da plataforma, identificada como CVE-2026-87902 e com pontuação CVSS 9.2. São afetadas todas as versões da 4.7.0 até a 7.1.1, o que alcança praticamente qualquer instalação que não tenha recebido a atualização desta semana. O problema não está em plugin nem em tema, e sim no código base do sistema. Isso significa que sites sem nenhuma extensão instalada também estão expostos. A falha permite carregar um arquivo PHP de fora das pastas de tema e, em determinadas configurações de servidor, levar à execução de código escolhido pelo atacante.",
-      "link": "https://boletimsec.com/wordpress-corrige-falha-critica-que-atinge-todas-as-versoes/",
-      "published": "23/09/2026 12:00",
+      "summary": "A Arista, fornecedora de soluções de rede, publicou patches urgentes para uma vulnerabilidade crítica em implantações locais do VeloCloud Orchestrator (VCO) que foi explorada como zero-day . O VCO é uma ferramenta de gerenciamento centralizado para configurar, monitorar e orquestrar dispositivos de borda, políticas e tráfego no SD-WAN da Arista VeloCloud. O zero-day explorado, registrado como CVE-2026-93952 (CVSS 10), é descrito como um problema de validação inadequada de entrada que pode permitir a atacantes remotos acessar funcionalidades internas privilegiadas.",
+      "link": "https://www.cisoadvisor.com.br/arista-pede-correcao-imediata-de-zero-day-no-velocloud/",
+      "published": "24/09/2026 12:00",
       "cves": [
-        "CVE-2026-87902"
+        "CVE-2026-93952"
       ],
       "vendor": null
     },
     {
-      "title": "Falha no Microsoft SharePoint permite execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade no Microsoft SharePoint Server permite que um atacante autenticado com poucos privilégios execute código arbitrário no servidor. Identificada como CVE-2026-65660, a falha recebeu pontuação CVSS 8.8. São afetadas as versões SharePoint Server 2016, SharePoint Server 2019 e a Subscription Edition, ou seja, as instalações mantidas dentro da própria infraestrutura das organizações. O problema está em uma injeção que contorna a proteção SafeControls, mecanismo que deveria limitar quais classes podem ser registradas e executadas pela aplicação.",
-      "link": "https://boletimsec.com/falha-no-microsoft-sharepoint-permite-execucao-remota-de-codigo/",
-      "published": "23/09/2026 12:00",
-      "cves": [
-        "CVE-2026-65660"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Hacktron usou IA para invadir OpenAI e acessar repositórios",
+      "title": "Check Point corrige falha crítica no Security Management Server",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da Hacktron AI encadearam duas vulnerabilidades críticas para comprometer contas ChatGPT de funcionários da OpenAI e acessar repositórios internos da empresa. O caso foi detalhado no relatório publicado pela Hacktron AI. Segundo o documento, o ataque ocorreu em 25 de julho de 2026 e levou menos de 72 horas entre a descoberta inicial e o acesso ao repositório interno da OpenAI. De acordo com o relatório, a primeira falha estava no libheif, biblioteca de decodificação de imagens usada pelo Discourse, o software de fórum da OpenAI. A equipe iniciou uma sessão com o Claude Opus 4.8 e pediu que ele inspecionasse o pacote instalado em busca de problemas de segurança.",
-      "link": "https://www.cisoadvisor.com.br/hacktron-usou-ia-para-invadir-openai-e-acessar-repositorios/",
-      "published": "23/09/2026 12:00",
+      "summary": "A Check Point Software publicou hotfixes de emergência para corrigir duas vulnerabilidades críticas que estão sendo exploradas ativamente: a CVE-2026-85102, uma falha de execução remota de código pré-autenticação, e a CVE-2026-93616, uma falha de passagem de caminho pré-autenticação no serviço web de gerenciamento. As duas exigem ação imediata dos administradores. A CVE-2026-85102 é uma vulnerabilidade de execução remota de código pré-autenticação no tratamento de certificados VPN do Security Gateway. A Check Point divulgou a falha e publicou as correções em 9 de setembro de 2026. Naquele momento, não havia evidência de exploração.",
+      "link": "https://www.cisoadvisor.com.br/check-point-corrige-falha-critica-no-security-management-server/",
+      "published": "24/09/2026 12:00",
+      "cves": [
+        "CVE-2026-85102",
+        "CVE-2026-93616"
+      ],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Zero day em servidor da Check Point permite execução sem autenticação",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Check Point corrigiu uma vulnerabilidade crítica que vinha sendo explorada como zero day em seus servidores de gerenciamento. Identificada como CVE-2026-93616, a falha recebeu pontuação CVSS 9.8 e permite que um atacante remoto e sem autenticação carregue e execute scripts no equipamento. A exploração combina travessia de diretório com um comportamento inseguro no envio de arquivos. Na prática, o invasor escapa do diretório previsto e grava um script em local onde ele acaba sendo executado. O alvo agrava o quadro.",
+      "link": "https://boletimsec.com/zero-day-em-servidor-da-check-point-permite-execucao-sem-autenticacao/",
+      "published": "24/09/2026 12:00",
+      "cves": [
+        "CVE-2026-93616"
+      ],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Teletex e Vectra AI fecham parceria para NDR",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Teletex, integradora brasileira de tecnologia com 40 anos de mercado, anunciou uma parceria com a Vectra AI, empresa especializada em segurança e observabilidade baseadas em inteligência artificial. O acordo incorpora ao portfólio da Cybercare, unidade de cibersegurança da Teletex, recursos de Network Detection and Response voltados à identificação e interrupção de ataques em ambientes híbridos e multicloud, segundo comunicado da empresa. Conforme o comunicado, a parceria combina a tecnologia da Vectra AI em detecção e resposta a ameaças com a presença nacional, a capacidade de integração e os serviços da Teletex.",
+      "link": "https://www.cisoadvisor.com.br/teletex-e-vectra-ai-fecham-parceria-para-ndr/",
+      "published": "24/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos usam IA open source para atacar empresas",
+      "title": "Ransomware PAYLOAD sequestra GPO do Active Directory sem criptografar",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Cibercriminosos vêm se aproveitando de ferramentas de inteligência artificial open source, públicas e ao alcance de qualquer pessoa, para comprometer empresas sem precisar desenvolver malware próprio. Uma campanha montada dessa forma roubou mais de 600 mil registros de cartões de crédito. O caso veio à tona depois que os operadores deixaram exposto um servidor de preparação. A partir dos dados esquecidos ali, pesquisadores da Gambit Security reconstruíram a campanha, que começou em julho de 2026 e seguia ativa neste mês. Cerca de 79% dos dados, o equivalente a 488 mil cartões, pertenciam a titulares nos Estados Unidos.",
-      "link": "https://boletimsec.com/cibercriminosos-usam-ia-open-source-para-atacar-empresas/",
-      "published": "23/09/2026 12:00",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "Pesquisadores da Kaspersky documentaram um ataque do ransomware PAYLOAD que paralisa um domínio Windows inteiro sem criptografar um único arquivo. No lugar da cifragem, os operadores usam os próprios mecanismos de política do Windows para impor a disrupção. O centro do ataque é um objeto de política de grupo malicioso, batizado de PAYLOAD, vinculado à raiz do domínio do Active Directory. Uma política aplicada nesse ponto alcança praticamente todos os dispositivos conectados, o que a transforma em ferramenta de alcance corporativo.",
+      "link": "https://boletimsec.com/ransomware-payload-sequestra-gpo-do-active-directory-sem-criptografar/",
+      "published": "24/09/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Windows"
     }
   ]
 }
