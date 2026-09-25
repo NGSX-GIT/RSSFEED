@@ -1,69 +1,68 @@
 {
-  "generated_at": "2026-09-24T12:00:00.055156-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-09-25T12:00:00.031720-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Arista pede correção imediata de zero-day no VeloCloud",
+      "title": "SolarWinds corrige falhas críticas de execução remota de código",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Arista, fornecedora de soluções de rede, publicou patches urgentes para uma vulnerabilidade crítica em implantações locais do VeloCloud Orchestrator (VCO) que foi explorada como zero-day . O VCO é uma ferramenta de gerenciamento centralizado para configurar, monitorar e orquestrar dispositivos de borda, políticas e tráfego no SD-WAN da Arista VeloCloud. O zero-day explorado, registrado como CVE-2026-93952 (CVSS 10), é descrito como um problema de validação inadequada de entrada que pode permitir a atacantes remotos acessar funcionalidades internas privilegiadas.",
-      "link": "https://www.cisoadvisor.com.br/arista-pede-correcao-imediata-de-zero-day-no-velocloud/",
-      "published": "24/09/2026 12:00",
+      "summary": "A SolarWinds publicou patches para duas vulnerabilidades graves no Observability Self-Hosted que podem ser exploradas para execução remota de código (RCE). O Observability Self-Hosted é uma solução de monitoramento de TI local e híbrida que oferece às organizações monitoramento unificado entre ambientes, gerenciamento de configuração e controle sobre dados operacionais e conformidade de segurança. A primeira falha, registrada como CVE-2026-28324 (CVSS de 9.8), é um problema de verificação de integridade insuficiente que leva à execução remota de código em implantações que executam configurações não padrão e não seguras.",
+      "link": "https://www.cisoadvisor.com.br/solarwinds-corrige-falhas-criticas-de-execucao-remota-de-codigo/",
+      "published": "25/09/2026 12:00",
       "cves": [
-        "CVE-2026-93952"
+        "CVE-2026-28324"
+      ],
+      "vendor": "SolarWinds"
+    },
+    {
+      "title": "Falha no WordPress escala para comprometimentos ativos",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A exploração de uma vulnerabilidade recente no WordPress começou horas após a divulgação pública e escalou para comprometimentos ativos, alerta a empresa de segurança Patchstack. Registrada como CVE-2026-87902 (CVSS de 9.2), trata-se de uma falha de passagem de caminho na resolução de templates de página do WordPress. Sob certas condições, atacantes não autenticados podem explorá-la para execução remota de código. Segundo o comunicado do WordPress, um atacante não autenticado pode fazer com que a resolução de template de página inclua um arquivo .php local legível fora dos diretórios do tema ativo.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-wordpress-escala-para-comprometimentos-ativos/",
+      "published": "25/09/2026 12:00",
+      "cves": [
+        "CVE-2026-87902"
       ],
       "vendor": null
     },
     {
-      "title": "Check Point corrige falha crítica no Security Management Server",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Check Point Software publicou hotfixes de emergência para corrigir duas vulnerabilidades críticas que estão sendo exploradas ativamente: a CVE-2026-85102, uma falha de execução remota de código pré-autenticação, e a CVE-2026-93616, uma falha de passagem de caminho pré-autenticação no serviço web de gerenciamento. As duas exigem ação imediata dos administradores. A CVE-2026-85102 é uma vulnerabilidade de execução remota de código pré-autenticação no tratamento de certificados VPN do Security Gateway. A Check Point divulgou a falha e publicou as correções em 9 de setembro de 2026. Naquele momento, não havia evidência de exploração.",
-      "link": "https://www.cisoadvisor.com.br/check-point-corrige-falha-critica-no-security-management-server/",
-      "published": "24/09/2026 12:00",
-      "cves": [
-        "CVE-2026-85102",
-        "CVE-2026-93616"
-      ],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "Zero day em servidor da Check Point permite execução sem autenticação",
+      "title": "Falhas no cPanel expõem dados de outras contas de hospedagem",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Check Point corrigiu uma vulnerabilidade crítica que vinha sendo explorada como zero day em seus servidores de gerenciamento. Identificada como CVE-2026-93616, a falha recebeu pontuação CVSS 9.8 e permite que um atacante remoto e sem autenticação carregue e execute scripts no equipamento. A exploração combina travessia de diretório com um comportamento inseguro no envio de arquivos. Na prática, o invasor escapa do diretório previsto e grava um script em local onde ele acaba sendo executado. O alvo agrava o quadro.",
-      "link": "https://boletimsec.com/zero-day-em-servidor-da-check-point-permite-execucao-sem-autenticacao/",
-      "published": "24/09/2026 12:00",
-      "cves": [
-        "CVE-2026-93616"
-      ],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "Teletex e Vectra AI fecham parceria para NDR",
-      "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "A Teletex, integradora brasileira de tecnologia com 40 anos de mercado, anunciou uma parceria com a Vectra AI, empresa especializada em segurança e observabilidade baseadas em inteligência artificial. O acordo incorpora ao portfólio da Cybercare, unidade de cibersegurança da Teletex, recursos de Network Detection and Response voltados à identificação e interrupção de ataques em ambientes híbridos e multicloud, segundo comunicado da empresa. Conforme o comunicado, a parceria combina a tecnologia da Vectra AI em detecção e resposta a ameaças com a presença nacional, a capacidade de integração e os serviços da Teletex.",
-      "link": "https://www.cisoadvisor.com.br/teletex-e-vectra-ai-fecham-parceria-para-ndr/",
-      "published": "24/09/2026 12:00",
+      "summary": "O cPanel corrigiu três vulnerabilidades que quebram o isolamento entre contas hospedadas no mesmo servidor. Em servidores compartilhados, esse isolamento é justamente o que impede um cliente de alcançar os dados do cliente ao lado. A primeira, identificada como CVE-2026-68490, está nos componentes CalDAV e CardDAV e permite a leitura não autorizada de calendários e contatos de outras contas. O acesso é somente de leitura, sem possibilidade de alterar o conteúdo. O dado exposto é mais sensível do que parece. A falha revela nomes, endereços de e-mail, relações comerciais e compromissos agendados, material valioso para quem prepara um ataque de engenharia social bem direcionado.",
+      "link": "https://boletimsec.com/falhas-no-cpanel-expoem-dados-de-outras-contas-de-hospedagem/",
+      "published": "25/09/2026 12:00",
+      "cves": [
+        "CVE-2026-68490"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "17.09.26 Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Pesquisadores da Kaspersky identificaram uma campanha de malware criada especificamente para infectar centrais multimídia de carros com Android . A ameaça explorava o próprio sistema de atualização do aparelho para instalar programas maliciosos sem ação do motorista e podia transformar a central em parte de uma rede usada para fraudes na internet. Segundo a análise técnica publicada pela Securelist, o ataque atingiu centrais que utilizavam software da fabricante chinesa DoFun . A empresa foi notificada e informou ter corrigido o problema. A infecção ocorria por meio do TWCore , aplicativo legítimo responsável por coletar informações técnicas e atualizar o software das centrais multimídia.",
+      "link": "https://canaltech.com.br/seguranca/virus-no-carro-malware-infecta-central-multimidia-sem-motorista-perceber/",
+      "published": "25/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Ransomware PAYLOAD sequestra GPO do Active Directory sem criptografar",
-      "source": "BoletimSec Notícias",
+      "title": "Botnet Carbonato ataca Docker e instala agente de IA Hermes",
+      "source": "CISO Advisor",
       "priority": "Média",
-      "category": "threat",
-      "summary": "Pesquisadores da Kaspersky documentaram um ataque do ransomware PAYLOAD que paralisa um domínio Windows inteiro sem criptografar um único arquivo. No lugar da cifragem, os operadores usam os próprios mecanismos de política do Windows para impor a disrupção. O centro do ataque é um objeto de política de grupo malicioso, batizado de PAYLOAD, vinculado à raiz do domínio do Active Directory. Uma política aplicada nesse ponto alcança praticamente todos os dispositivos conectados, o que a transforma em ferramenta de alcance corporativo.",
-      "link": "https://boletimsec.com/ransomware-payload-sequestra-gpo-do-active-directory-sem-criptografar/",
-      "published": "24/09/2026 12:00",
+      "category": "cloud",
+      "summary": "Um novo malware de botnet chamado Carbonato está atacando hosts inseguros que executam daemons Docker para instalar o framework de IA Hermes Agent e assumir o controle. O malware tem capacidades semelhantes às de um worm e foi descoberto em um registro Docker não autenticado que continha quase 60 repositórios e 4,3 GB de dados de imagem. Pesquisadores da ThreatDown, divisão da empresa de cibersegurança Malwarebytes, recuperaram evidências operacionais que abrangem de outubro de 2024 a agosto de 2026. O arquivo também incluía detalhes sobre o botnet e uma campanha separada que distribuía aplicativos falsos de carteira de criptomoedas.",
+      "link": "https://www.cisoadvisor.com.br/botnet-carbonato-ataca-docker-e-instala-agente-de-ia-hermes/",
+      "published": "25/09/2026 12:00",
       "cves": [],
-      "vendor": "Windows"
+      "vendor": null
     }
   ]
 }
