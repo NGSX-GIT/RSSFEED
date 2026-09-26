@@ -1,66 +1,60 @@
 {
-  "generated_at": "2026-09-25T12:00:00.031720-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-09-26T12:00:00.040851-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "SolarWinds corrige falhas críticas de execução remota de código",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A SolarWinds publicou patches para duas vulnerabilidades graves no Observability Self-Hosted que podem ser exploradas para execução remota de código (RCE). O Observability Self-Hosted é uma solução de monitoramento de TI local e híbrida que oferece às organizações monitoramento unificado entre ambientes, gerenciamento de configuração e controle sobre dados operacionais e conformidade de segurança. A primeira falha, registrada como CVE-2026-28324 (CVSS de 9.8), é um problema de verificação de integridade insuficiente que leva à execução remota de código em implantações que executam configurações não padrão e não seguras.",
-      "link": "https://www.cisoadvisor.com.br/solarwinds-corrige-falhas-criticas-de-execucao-remota-de-codigo/",
-      "published": "25/09/2026 12:00",
-      "cves": [
-        "CVE-2026-28324"
-      ],
-      "vendor": "SolarWinds"
-    },
-    {
-      "title": "Falha no WordPress escala para comprometimentos ativos",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A exploração de uma vulnerabilidade recente no WordPress começou horas após a divulgação pública e escalou para comprometimentos ativos, alerta a empresa de segurança Patchstack. Registrada como CVE-2026-87902 (CVSS de 9.2), trata-se de uma falha de passagem de caminho na resolução de templates de página do WordPress. Sob certas condições, atacantes não autenticados podem explorá-la para execução remota de código. Segundo o comunicado do WordPress, um atacante não autenticado pode fazer com que a resolução de template de página inclua um arquivo .php local legível fora dos diretórios do tema ativo.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-wordpress-escala-para-comprometimentos-ativos/",
-      "published": "25/09/2026 12:00",
-      "cves": [
-        "CVE-2026-87902"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falhas no cPanel expõem dados de outras contas de hospedagem",
+      "title": "Novo trojan Android copia a tela do banco e captura o PIN da vítima",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "patches",
-      "summary": "O cPanel corrigiu três vulnerabilidades que quebram o isolamento entre contas hospedadas no mesmo servidor. Em servidores compartilhados, esse isolamento é justamente o que impede um cliente de alcançar os dados do cliente ao lado. A primeira, identificada como CVE-2026-68490, está nos componentes CalDAV e CardDAV e permite a leitura não autorizada de calendários e contatos de outras contas. O acesso é somente de leitura, sem possibilidade de alterar o conteúdo. O dado exposto é mais sensível do que parece. A falha revela nomes, endereços de e-mail, relações comerciais e compromissos agendados, material valioso para quem prepara um ataque de engenharia social bem direcionado.",
-      "link": "https://boletimsec.com/falhas-no-cpanel-expoem-dados-de-outras-contas-de-hospedagem/",
-      "published": "25/09/2026 12:00",
-      "cves": [
-        "CVE-2026-68490"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "17.09.26 Segurança “Vírus no carro”: malware infecta central multimídia sem motorista perceber",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores da Kaspersky identificaram uma campanha de malware criada especificamente para infectar centrais multimídia de carros com Android . A ameaça explorava o próprio sistema de atualização do aparelho para instalar programas maliciosos sem ação do motorista e podia transformar a central em parte de uma rede usada para fraudes na internet. Segundo a análise técnica publicada pela Securelist, o ataque atingiu centrais que utilizavam software da fabricante chinesa DoFun . A empresa foi notificada e informou ter corrigido o problema. A infecção ocorria por meio do TWCore , aplicativo legítimo responsável por coletar informações técnicas e atualizar o software das centrais multimídia.",
-      "link": "https://canaltech.com.br/seguranca/virus-no-carro-malware-infecta-central-multimidia-sem-motorista-perceber/",
-      "published": "25/09/2026 12:00",
+      "category": "identity",
+      "summary": "A Group-IB identificou um novo trojan bancário para Android batizado de RemControl, com amostras desde julho de 2026. O malware traz telas de phishing preparadas para mais de 30 instituições financeiras na Europa, no Oriente Médio e no Canadá, com Itália e França como alvos principais. O golpe central é a sobreposição. Quando a vítima abre o aplicativo do banco, o RemControl exibe uma cópia em tela cheia daquela interface. A pessoa digita PIN, código de acesso ou validade do cartão na tela falsa, que se fecha e devolve o aplicativo verdadeiro, sem sinal do desvio. As telas não vêm embutidas no aplicativo.",
+      "link": "https://boletimsec.com/novo-trojan-android-copia-a-tela-do-banco-e-captura-o-pin-da-vitima/",
+      "published": "26/09/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Botnet Carbonato ataca Docker e instala agente de IA Hermes",
+      "title": "Agente de IA invade portais do governo australiano",
       "source": "CISO Advisor",
       "priority": "Média",
+      "category": "identity",
+      "summary": "Pesquisadores da Transluce, um laboratório sediado em São Francisco que pesquisa a supervisão da IA , descobriram que agentes de inteligência artificial usaram o serviço de segurança web urlquery.net para contornar restrições e ampliar o acesso à internet pública. Em três ocasiões, entre maio e junho deste ano, esses agentes tentaram explorar vulnerabilidades e invadir sites de provedores públicos de dados, incluindo o Instituto Australiano de Saúde e Bem-Estar (AIHW), segundo relatório publicado dia 23 pela organização. Os ataques ocorreram enquanto os agentes executavam tarefas comuns de recuperação de informações, sem relação com cibersegurança .",
+      "link": "https://www.cisoadvisor.com.br/agente-de-ia-invade-portais-do-governo-australiano/",
+      "published": "26/09/2026 12:00",
+      "cves": [],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Provedores Terraform falsos infectam desenvolvedores com malware em Go",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
       "category": "cloud",
-      "summary": "Um novo malware de botnet chamado Carbonato está atacando hosts inseguros que executam daemons Docker para instalar o framework de IA Hermes Agent e assumir o controle. O malware tem capacidades semelhantes às de um worm e foi descoberto em um registro Docker não autenticado que continha quase 60 repositórios e 4,3 GB de dados de imagem. Pesquisadores da ThreatDown, divisão da empresa de cibersegurança Malwarebytes, recuperaram evidências operacionais que abrangem de outubro de 2024 a agosto de 2026. O arquivo também incluía detalhes sobre o botnet e uma campanha separada que distribuía aplicativos falsos de carteira de criptomoedas.",
-      "link": "https://www.cisoadvisor.com.br/botnet-carbonato-ataca-docker-e-instala-agente-de-ia-hermes/",
-      "published": "25/09/2026 12:00",
+      "summary": "Pesquisadores de cibersegurança identificaram um malware em Go distribuído por dois provedores Terraform e dois módulos Go. É o primeiro caso documentado do registro da HashiCorp usado para distribuir código malicioso, um caminho direto até credenciais de produção. Os provedores são o gocommunity-io/dockerd, com 222 downloads, e o kreuzwenker/docker, com 1.449. Os módulos correspondentes são o gocommunity.io/orderedbtree e o gogets.dev/btreex, todos imitando nomes de projetos legítimos. A entrada não começa no registro.",
+      "link": "https://boletimsec.com/provedores-terraform-falsos-infectam-desenvolvedores-com-malware-em-go/",
+      "published": "26/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Grupo ShinyHunters diz ter invadido o FBI e cobra resgate milionário",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O grupo ShinyHunters afirma ter invadido o site de vagas do FBI e obtido dados sensíveis de quase todos os agentes da corporação, além de informações de pessoas que se candidataram a vagas na instituição. Segundo o próprio grupo, o acesso alcançou sistemas de Justiça Criminal, de recursos humanos e o Medlink, entre outros. Nenhuma dessas afirmações foi confirmada de forma independente até o momento. O FBI reconheceu o episódio de forma limitada. A instituição informou estar ciente das alegações de atividade não autorizada afetando o FBIjobs.gov e que a apuração está em andamento, sem confirmar o roubo de dados nem a extensão do acesso.",
+      "link": "https://boletimsec.com/grupo-shinyhunters-diz-ter-invadido-o-fbi-e-cobra-resgate-milionario/",
+      "published": "26/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "15.09.26 Segurança Quishing: golpes com QR Code aumentam 460% no Brasil",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "Golpes de phishing que usam QR Codes cresceram 460% no Brasil entre janeiro e fevereiro de 2026, segundo dados da ESET. O levantamento, baseado na telemetria da empresa durante o primeiro semestre, mostra que os chamados ataques de quishing já representaram 7,2% das detecções de phishing no período. O termo quishing é usado para descrever golpes de phishing que utilizam códigos QR para levar a vítima a páginas falsas, formulários de captura de dados ou arquivos maliciosos. A técnica aproveita a familiaridade do público com os códigos usados em pagamentos, cardápios, entregas, eventos e autenticações.",
+      "link": "https://canaltech.com.br/seguranca/quishing-golpes-com-qr-code-aumentam-460-no-brasil/",
+      "published": "26/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
