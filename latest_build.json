@@ -1,60 +1,67 @@
 {
-  "generated_at": "2026-09-27T12:00:00.111326-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-09-28T12:00:00.065902-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Golpe em anúncios do Google simula bloqueio e falso suporte",
+      "title": "Citrix confirma exploração de dois zero-days no NetScaler",
       "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Uma campanha de falso suporte técnico distribuída por anúncios do Google exibe avisos fraudulentos no Windows e no macOS para induzir usuários a ligar para um número de atendimento. O Netskope Threat Labs identificou a operação, cujo objetivo é cobrar por um falso suporte, obter acesso remoto ao equipamento ou coletar informações pessoais e financeiras. O clique em um anúncio exibido em um site legítimo leva a uma página que simula uma emergência de segurança no computador. Entre 31 de agosto e 14 de setembro de 2026, a análise identificou ocorrências em pelo menos 619 organizações, com maior concentração nos Estados Unidos, no Japão e na Austrália.",
-      "link": "https://www.cisoadvisor.com.br/golpe-em-anuncios-do-google-simula-bloqueio-e-falso-suporte/",
-      "published": "27/09/2026 12:00",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Citrix reconheceu que duas falhas críticas de execução remota de código no NetScaler, registradas como CVE-2026-88771 e CVE-2026-88772, foram usadas em ataques reais e já têm correções disponíveis. Os dispositivos NetScaler costumam ficar expostos à internet como pontos de entrada para acesso remoto e entrega de aplicações, o que os torna alvos de alto interesse para invasores que buscam um ponto de apoio no perímetro da rede corporativa. Antes do comunicado público, administradores relataram no Reddit que fornecedores de TI e equipes de segurança entraram em contato recomendando o desligamento imediato dos equipamentos.",
+      "link": "https://www.cisoadvisor.com.br/citrix-confirma-exploracao-de-dois-zero-days-criticos-no-netscaler/",
+      "published": "28/09/2026 12:00",
+      "cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772"
+      ],
+      "vendor": "Citrix"
+    },
+    {
+      "title": "Cibercriminosos driblam WAF para explorar falha no Oracle PeopleSoft",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Mandiant identificou uma campanha que explora a CVE-2026-35273, falha crítica no Oracle PeopleSoft com nota 9.8 na escala CVSS. O problema está no Environment Management Hub, o PSEMHUB, e permite execução remota de código sem autenticação. O que mudou nesta onda foi o desvio do WAF, e ele depende de um único caractere. Os invasores trocam /PSEMHUB/ por /%50SEMHUB/ no caminho da requisição, já que %50 é a codificação da letra P. Segundo a Mandiant, muitas regras de WAF e de proxy reverso comparam o caminho literal antes de decodificar a URL, enquanto o servidor de aplicação do PeopleSoft decodifica a requisição e a encaminha ao servlet vulnerável.",
+      "link": "https://boletimsec.com/cibercriminosos-driblam-waf-para-explorar-falha-no-oracle-peoplesoft/",
+      "published": "28/09/2026 12:00",
+      "cves": [
+        "CVE-2026-35273"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "SharePoint: falha explorada após divulgação técnica",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade no Microsoft SharePoint, registrada como CVE-2026-65660 , está sendo explorada em ataques cerca de seis semanas após a Microsoft anunciar as correções e dois dias depois de pesquisadores divulgarem os detalhes técnicos. A falha é uma vulnerabilidade de execução remota de código corrigida pela Microsoft em suas atualizações de terça-feira de patches de agosto de 2026. O comunicado da empresa descreve o problema como uma injeção de código que permite a um atacante autenticado com acesso de baixo nível a um servidor afetado executar código arbitrário sem interação do usuário.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-sharepoint-e-explorada-apos-divulgacao-de-detalhes-tecnicos/",
+      "published": "28/09/2026 12:00",
+      "cves": [
+        "CVE-2026-65660"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "ShinyHunters burla WAF em ataques ao PeopleSoft",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A gangue de extorsão ShinyHunters voltou a explorar em larga escala uma falha no Oracle PeopleSoft, usando uma técnica de codificação de URL para contornar regras de firewall de aplicação web (WAF) que bloqueavam o acesso ao endpoint vulnerável. Segundo relatório do Google Mandiant e do Threat Intelligence Group ( GTIG ), o grupo conseguiu atingir novamente servidores que não aplicaram as atualizações de segurança e que tentaram mitigar o risco bloqueando o acesso ao endpoint PSEMHUB. A técnica consiste em substituir a letra “P” por sua versão codificada em percentual. Em vez de enviar requisições para /PSEMHUB/, os atacantes usam /%50SEMHUB/, onde “%50” representa a letra “P”.",
+      "link": "https://www.cisoadvisor.com.br/shinyhunters-burla-waf-e-retoma-ataques-ao-oracle-peoplesoft/",
+      "published": "28/09/2026 12:00",
       "cves": [],
       "vendor": "Google"
     },
     {
-      "title": "Microsoft leva agentes de IA ao SOC para encurtar o tempo de resposta",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "A Microsoft anunciou em 23 de setembro o Integrated Security Operations Center, ou ISOC, que reúne SIEM e proteção contra ameaças dentro do Microsoft Defender. A investigação contínua de incidentes passa a agentes de IA, com analistas definindo as prioridades. O produto está em versão prévia. O argumento é de descompasso de velocidade. Invasores que automatizam etapas com IA escalam um ataque mais rápido do que equipes humanas conseguem investigar, e a empresa trata esse intervalo como problema de arquitetura, não de quantidade de ferramentas.",
-      "link": "https://boletimsec.com/microsoft-leva-agentes-de-ia-ao-soc-para-encurtar-o-tempo-de-resposta/",
-      "published": "27/09/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Um em cada três bancos deixa clientes em risco",
+      "title": "Cloudflare corrige falha de isolamento em contêineres",
       "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "A Proofpoint divulgou uma nova pesquisa revelando que mais de uma em cada três (35%) instituições financeiras brasileiras está atrasada em relação a medidas básicas de segurança cibernética, sujeitando clientes e funcionários a um risco maior de ataques de falsificação de identidade baseados em e-mail. As descobertas baseiam-se em uma análise DMARC (Autenticação, Relatório e Conformidade de Mensagens Baseadas em Domínio) de 20 bancos no Brasil. O DMARC é um protocolo de validação de e-mail projetado para proteger domínios contra o uso indevido por cibercriminosos, autenticando a identidade do remetente antes de permitir que a mensagem chegue ao destino pretendido.",
-      "link": "https://www.cisoadvisor.com.br/um-em-cada-tres-bancos-deixa-clientes-em-risco/",
-      "published": "27/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Avast expõe armadilha da confiança na IA no Brasil",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O relatório Avast 2026 Safe Tech, publicado em 22 de setembro, revela que 73% dos adultos brasileiros acreditam que identificariam uma falsificação criada por IA assim que a vissem, enquanto 70% já compartilharam ou consideraram compartilhar informações sensíveis com uma ferramenta de IA. A Avast, parte da Gen (NASDAQ: GEN), encomendou o estudo para entender como as pessoas lidam com confiança, privacidade e IA no cotidiano.",
-      "link": "https://www.cisoadvisor.com.br/avast-expoe-armadilha-da-confianca-na-ia-no-brasil/",
-      "published": "27/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "08.09.26 Segurança Por que você não deve compartilhar dados da fatura do cartão nas redes sociais",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Posts no X viralizaram nas últimas semanas ao mostrar o saldo da fatura de cartão de crédito dos respectivos usuários, com valores chegando a seis dígitos. No entanto, expor esses dados pode colocar a pessoa em risco . O valor da fatura pode não ser o mesmo do saldo da conta, mas funciona como uma “isca” para criminosos que desejam aplicar golpes financeiros. Os aplicativos de banco até trazem uma opção para ocultar o valor no celular e impedir que outras pessoas vejam a informação em público. Os dados financeiros são considerados sensíveis, então o ideal é mantê-los privados .",
-      "link": "https://canaltech.com.br/seguranca/por-que-voce-nao-deve-compartilhar-dados-da-fatura-do-cartao-nas-redes-sociais/",
-      "published": "27/09/2026 12:00",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Cloudflare corrigiu uma vulnerabilidade nos serviços Containers e Sandboxes que permitia a clientes com conta Workers Paid recuperar dados residuais de contêineres de outros clientes no mesmo host físico. O Cloudflare Containers é um serviço disponível no plano Workers Paid que permite a desenvolvedores executar aplicações em contêineres na infraestrutura da Cloudflare, ao lado do Cloudflare Workers. Desenvolvedores e empresas que constroem aplicações na plataforma costumam usá-lo, incluindo aqueles que executam serviços de backend, processamento de tarefas e ambientes de execução de código.",
+      "link": "https://www.cisoadvisor.com.br/cloudflare-corrige-falha-que-expunha-dados-entre-clientes/",
+      "published": "28/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
