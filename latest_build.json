@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-28T12:00:00.065902-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-09-29T12:00:00.105854-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Citrix confirma exploração de dois zero-days no NetScaler",
-      "source": "CISO Advisor",
+      "title": "Falhas críticas no Citrix NetScaler entram no catálogo da CISA",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Citrix reconheceu que duas falhas críticas de execução remota de código no NetScaler, registradas como CVE-2026-88771 e CVE-2026-88772, foram usadas em ataques reais e já têm correções disponíveis. Os dispositivos NetScaler costumam ficar expostos à internet como pontos de entrada para acesso remoto e entrega de aplicações, o que os torna alvos de alto interesse para invasores que buscam um ponto de apoio no perímetro da rede corporativa. Antes do comunicado público, administradores relataram no Reddit que fornecedores de TI e equipes de segurança entraram em contato recomendando o desligamento imediato dos equipamentos.",
-      "link": "https://www.cisoadvisor.com.br/citrix-confirma-exploracao-de-dois-zero-days-criticos-no-netscaler/",
-      "published": "28/09/2026 12:00",
+      "summary": "A CISA incluiu duas falhas críticas do Citrix NetScaler no catálogo de vulnerabilidades exploradas conhecidas, depois de relatos de exploração ativa em escala global. A agência determinou prazo até 30 de setembro para que os órgãos federais americanos apliquem as correções. As duas são a CVE-2026-88771 e a CVE-2026-88772, ambas com nota 9.5 na escala CVSS. A Citrix publicou as versões corrigidas em 27 de setembro, no mesmo dia em que a agência americana fez a inclusão no catálogo. A primeira decorre de validação inadequada de entrada e permite executar comandos arbitrários sem autenticação. Atinge todas as instalações do NetScaler ADC e do Gateway em configuração padrão.",
+      "link": "https://boletimsec.com/falhas-criticas-no-citrix-netscaler-entram-no-catalogo-da-cisa/",
+      "published": "29/09/2026 12:00",
       "cves": [
         "CVE-2026-88771",
         "CVE-2026-88772"
@@ -18,50 +18,46 @@
       "vendor": "Citrix"
     },
     {
-      "title": "Cibercriminosos driblam WAF para explorar falha no Oracle PeopleSoft",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Mandiant identificou uma campanha que explora a CVE-2026-35273, falha crítica no Oracle PeopleSoft com nota 9.8 na escala CVSS. O problema está no Environment Management Hub, o PSEMHUB, e permite execução remota de código sem autenticação. O que mudou nesta onda foi o desvio do WAF, e ele depende de um único caractere. Os invasores trocam /PSEMHUB/ por /%50SEMHUB/ no caminho da requisição, já que %50 é a codificação da letra P. Segundo a Mandiant, muitas regras de WAF e de proxy reverso comparam o caminho literal antes de decodificar a URL, enquanto o servidor de aplicação do PeopleSoft decodifica a requisição e a encaminha ao servlet vulnerável.",
-      "link": "https://boletimsec.com/cibercriminosos-driblam-waf-para-explorar-falha-no-oracle-peoplesoft/",
-      "published": "28/09/2026 12:00",
-      "cves": [
-        "CVE-2026-35273"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "SharePoint: falha explorada após divulgação técnica",
+      "title": "JadePuffer usa IA para atacar Azure e destruir recursos",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade no Microsoft SharePoint, registrada como CVE-2026-65660 , está sendo explorada em ataques cerca de seis semanas após a Microsoft anunciar as correções e dois dias depois de pesquisadores divulgarem os detalhes técnicos. A falha é uma vulnerabilidade de execução remota de código corrigida pela Microsoft em suas atualizações de terça-feira de patches de agosto de 2026. O comunicado da empresa descreve o problema como uma injeção de código que permite a um atacante autenticado com acesso de baixo nível a um servidor afetado executar código arbitrário sem interação do usuário.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-sharepoint-e-explorada-apos-divulgacao-de-detalhes-tecnicos/",
-      "published": "28/09/2026 12:00",
-      "cves": [
-        "CVE-2026-65660"
-      ],
+      "category": "cloud",
+      "summary": "O operador de ransomware JadePuffer está mirando locatários do Azure com ataques conduzidos por agentes de IA que automatizam toda a cadeia de ataque, do reconhecimento ao roubo de credenciais, movimento lateral, persistência e destruição de dados. O malware surgiu em julho, segundo a empresa de segurança em nuvem Sysdig , e depois expandiu o foco para ativos de IA, conjuntos de dados de treinamento e bancos de dados vetoriais, usando uma ferramenta chamada EncForge. A Microsoft Security Research observou dois ataques do grupo em junho, que mapearam recursos de nuvem, recuperaram chaves de contas de armazenamento e excluíram contas do Azure Storage.",
+      "link": "https://www.cisoadvisor.com.br/jadepuffer-usa-ia-para-atacar-azure-e-destruir-recursos/",
+      "published": "29/09/2026 12:00",
+      "cves": [],
       "vendor": "Microsoft"
     },
     {
-      "title": "ShinyHunters burla WAF em ataques ao PeopleSoft",
+      "title": "FDC e Stefanini criam centro de referência em tecnologia",
       "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "A gangue de extorsão ShinyHunters voltou a explorar em larga escala uma falha no Oracle PeopleSoft, usando uma técnica de codificação de URL para contornar regras de firewall de aplicação web (WAF) que bloqueavam o acesso ao endpoint vulnerável. Segundo relatório do Google Mandiant e do Threat Intelligence Group ( GTIG ), o grupo conseguiu atingir novamente servidores que não aplicaram as atualizações de segurança e que tentaram mitigar o risco bloqueando o acesso ao endpoint PSEMHUB. A técnica consiste em substituir a letra “P” por sua versão codificada em percentual. Em vez de enviar requisições para /PSEMHUB/, os atacantes usam /%50SEMHUB/, onde “%50” representa a letra “P”.",
-      "link": "https://www.cisoadvisor.com.br/shinyhunters-burla-waf-e-retoma-ataques-ao-oracle-peoplesoft/",
-      "published": "28/09/2026 12:00",
+      "summary": "A Fundação Dom Cabral (FDC), em parceria com o Grupo Stefanini, publica na próxima quarta-feira, 30 de setembro, o Centro de Referência em Tecnologia (CRTech), no Campus São Paulo da FDC. A iniciativa é dedicada à geração e cocriação de frameworks e ideias para gestão da tecnologia, inovação, inteligência artificial e impacto da tecnologia nos negócios, conectando empresas, executivos, pesquisadores e especialistas em um ambiente de aprendizagem colaborativa. Inserido no Núcleo de Inovação e Inteligência Artificial da FDC, o CRTech foi concebido para promover reflexões estratégicas sobre o papel da tecnologia na transformação dos negócios.",
+      "link": "https://www.cisoadvisor.com.br/fdc-e-stefanini-criam-centro-de-referencia-em-tecnologia/",
+      "published": "29/09/2026 12:00",
       "cves": [],
-      "vendor": "Google"
+      "vendor": null
     },
     {
-      "title": "Cloudflare corrige falha de isolamento em contêineres",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "title": "Falha de CSRF no Elementor afeta 2 milhões de sites WordPress",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
       "category": "patches",
-      "summary": "A Cloudflare corrigiu uma vulnerabilidade nos serviços Containers e Sandboxes que permitia a clientes com conta Workers Paid recuperar dados residuais de contêineres de outros clientes no mesmo host físico. O Cloudflare Containers é um serviço disponível no plano Workers Paid que permite a desenvolvedores executar aplicações em contêineres na infraestrutura da Cloudflare, ao lado do Cloudflare Workers. Desenvolvedores e empresas que constroem aplicações na plataforma costumam usá-lo, incluindo aqueles que executam serviços de backend, processamento de tarefas e ambientes de execução de código.",
-      "link": "https://www.cisoadvisor.com.br/cloudflare-corrige-falha-que-expunha-dados-entre-clientes/",
-      "published": "28/09/2026 12:00",
+      "summary": "Uma falha de CSRF no Elementor, construtor de sites presente em mais de 10 milhões de instalações WordPress, permite que um invasor crie uma conta de administrador no site alvo. As duas versões afetadas, 4.3.0 e 4.3.1, somam mais de 2 milhões de instalações. A nota é 8.8 na escala CVSS, o que a coloca na faixa alta de gravidade. Na data da divulgação, em 26 de setembro, a falha não tinha identificador CVE atribuído. A correção saiu na versão 4.3.2, e quem estiver em uma das duas versões afetadas precisa atualizar. O problema está no módulo Editor Events, que trata de forma incorreta a proteção contra CSRF nas requisições à API REST autenticadas por cookie.",
+      "link": "https://boletimsec.com/falha-de-csrf-no-elementor-afeta-2-milhoes-de-sites-wordpress/",
+      "published": "29/09/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falha no OpenCode alcança os 16 milhões de devs que usam o agente",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A Datadog Security Labs encontrou uma falha no OpenCode, agente de codificação com IA de código aberto que soma 208 mil estrelas no GitHub e 16 milhões de desenvolvedores por mês. Um site malicioso consegue executar código na máquina de quem estiver com o agente em execução. A falha recebeu o identificador GHSA-632h-h47v-g4x4, sem pedido de CVE. Atinge as versões 1.14.30 a 1.18.21 instaladas por npm, pnpm ou Bun, e foi corrigida na 1.18.22. Os pesquisadores comunicaram o problema de forma privada em 11 de agosto, e o conserto saiu treze dias depois, em 24 de agosto. O ataque começa com uma página que monta um formulário HTML com o tipo de codificação text/plain.",
+      "link": "https://boletimsec.com/falha-no-opencode-alcanca-os-16-milhoes-de-devs-que-usam-o-agente/",
+      "published": "29/09/2026 12:00",
       "cves": [],
       "vendor": null
     }
