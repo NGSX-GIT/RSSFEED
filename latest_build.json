@@ -1,64 +1,66 @@
 {
-  "generated_at": "2026-09-30T12:00:00.034015-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-10-02T12:00:00.419634-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Apple corrige zero-day no CoreGraphics",
+      "title": "Cisco alerta para zero-day no SD-WAN sob ataque",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Apple publicou atualizações de segurança para corrigir uma vulnerabilidade zero-day explorada em ataques direcionados “extremamente sofisticados” contra dispositivos iOS. A falha, registrada como CVE-2026-86950 , decorre de uma fraqueza de gravação fora dos limites descoberta pela Meta Product Security no CoreGraphics, framework usado para gráficos vetoriais bidimensionais, renderização de imagens e desenho de texto em iOS, macOS, iPadOS, watchOS e tvOS.",
-      "link": "https://www.cisoadvisor.com.br/apple-corrige-zero-day-no-coregraphics/",
-      "published": "30/09/2026 12:00",
+      "summary": "A Cisco publicou atualizações de segurança para corrigir um zero-day crítico no Catalyst SD-WAN Manager, registrado como CVE-2026-76504 , que atacantes estão explorando ativamente para escalar privilégios de administrador. “Em setembro de 2026, o Cisco PSIRT tomou conhecimento da exploração ativa desta vulnerabilidade”, alertou a empresa na quarta-feira.",
+      "link": "https://www.cisoadvisor.com.br/cisco-alerta-para-zero-day-no-sd-wan-sob-ataque/",
+      "published": "02/10/2026 12:00",
       "cves": [
-        "CVE-2026-86950"
+        "CVE-2026-76504"
       ],
-      "vendor": "Apple"
+      "vendor": "Cisco"
     },
     {
-      "title": "Falhas críticas na API do WatchGuard permitem execução de comandos",
+      "title": "Cisco confirma exploração de falha que dá acesso admin sem credenciais",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A WatchGuard corrigiu três falhas nos seus pontos de acesso, duas delas críticas, que permitem executar comandos no sistema operacional do equipamento. As versões de firmware 1.0 até 3.4.7 são afetadas, e o conserto está na 3.4.8. A mais grave é a CVE-2026-86102, com nota 9.3 na escala CVSS. É uma injeção de comando no serviço interno de API de gerenciamento, e um invasor com acesso de rede ao equipamento vulnerável consegue disparar comandos arbitrários de shell. O ponto decisivo é que ela não exige autenticação. Basta alcançar o dispositivo pela rede para executar comandos no sistema que sustenta o ponto de acesso, sem senha, sem sessão válida e sem qualquer interação de um administrador.",
-      "link": "https://boletimsec.com/falhas-criticas-na-api-do-watchguard-permitem-execucao-de-comandos/",
-      "published": "30/09/2026 12:00",
+      "summary": "A Cisco confirmou que a CVE-2026-76504, falha crítica no Catalyst SD-WAN Manager com nota 9.8 na escala CVSS, foi explorada em ataques durante setembro. A vulnerabilidade permite entrar como administrador sem apresentar credencial alguma. O problema está no tratamento das sessões de login da API. Segundo o aviso da fabricante, o Manager lida de forma incorreta com a codificação de URI em uma requisição HTTP, e uma requisição forjada contorna a regra de autenticação que deveria restringir o acesso a um único endpoint. Basta conseguir enviar requisições à API do Manager.",
+      "link": "https://boletimsec.com/cisco-confirma-exploracao-de-falha-que-da-acesso-admin-sem-credenciais/",
+      "published": "02/10/2026 12:00",
       "cves": [
-        "CVE-2026-86102"
+        "CVE-2026-76504"
       ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Polícia desativa KillSec e identifica suposto líder adolescente",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "breach",
+      "summary": "A polícia assumiu o controle do site de vazamentos do grupo de ransomware KillSec e apreendeu pelo menos 110 terabytes de dados roubados de vítimas. A Europol afirma que um adolescente de 16 anos é considerado o administrador e principal operador do grupo, ligado a cerca de 1.000 ataques suspeitos em todo o mundo. O jovem foi identificado na Operação KillSwitch, uma investigação internacional liderada por polícia e promotores na Alemanha. As autoridades fizeram três prisões provisórias e realizaram buscas em oito residências na Grécia, Romênia, Espanha e Reino Unido.",
+      "link": "https://www.cisoadvisor.com.br/policia-desativa-killsec-e-identifica-suposto-lider-adolescente/",
+      "published": "02/10/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Microsoft analisa framework NeedyMantis usado em ataques",
+      "title": "Falha no Zimbra é explorada antes da divulgação pública",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "identity",
-      "summary": "A Microsoft analisou um framework de malware usado por um ator de ameaças baseado na China em ataques contra organizações de telecomunicações e governamentais. Batizado de NeedyMantis , o framework foi descoberto durante a análise de indicadores de comprometimento associados ao ataque à cadeia de suprimentos do Daemon Tools em maio de 2026, quando milhares de computadores foram infectados por versões adulteradas do software distribuídas pelo site oficial. Um backdoor foi implantado em cerca de uma dúzia deles, atingindo organizações governamentais, científicas, industriais e de varejo em Belarus, Rússia e Tailândia.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-analisa-framework-needymantis-usado-em-ataques/",
-      "published": "30/09/2026 12:00",
-      "cves": [],
+      "category": "patches",
+      "summary": "Hackers começaram a explorar uma vulnerabilidade de injeção de comando no sistema operacional do Zimbra Collaboration Suite (ZCS) pouco depois da publicação das correções, mas antes da divulgação pública, segundo a Microsoft. Registrada como CVE-2026-73570 (CVSS 8.9), a falha existe porque, no ZCS anterior à versão 10.1.20, a entrada não confiável durante o processamento de notificações SNMP é sanitizada de forma inadequada. Se o pacote zimbra-snmp estiver instalado e as notificações SNMP estiverem habilitadas, um atacante pode acionar o defeito por meio de requisições SMTP especialmente preparadas.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-zimbra-e-explorada-antes-da-divulgacao-publica/",
+      "published": "02/10/2026 12:00",
+      "cves": [
+        "CVE-2026-73570"
+      ],
       "vendor": "Microsoft"
     },
     {
-      "title": "EVEO cresce 62% no Nordeste e amplia data centers",
-      "source": "CISO Advisor",
+      "title": "1 dia Segurança Golpe usa site oficial do ChatGPT para infectar PCs com Windows",
+      "source": "Canaltech Segurança",
       "priority": "Alta",
-      "category": "cloud",
-      "summary": "A EVEO registrou avanço de 62% na base de clientes do Nordeste no último ano e crescimento acumulado de 272% desde o início da operação regional, em 2024, segundo comunicado da companhia ao CISO Advisor. O movimento sustenta o plano da empresa de alcançar R$ 500 milhões em receita até 2030. O crescimento é impulsionado pela procura por servidores dedicados, private cloud e GPU dedicada para projetos de inteligência artificial, com empresas da região buscando operações locais capazes de reduzir latência e aumentar a disponibilidade de aplicações de missão crítica.",
-      "link": "https://www.cisoadvisor.com.br/eveo-cresce-62-no-nordeste-e-amplia-data-centers/",
-      "published": "30/09/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cibercriminosos usam GPTs personalizados para instalar malware",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "A Huntress investigou pelo menos 40 incidentes de uma campanha que usa GPTs personalizados falsos, criados no ChatGPT para se passar por produtos legítimos de IA, como porta de entrada para instalar um trojan de acesso remoto no Windows. A captação começa na busca. Quem pesquisa por chatgpt no Google encontra resultados patrocinados que levam a um endereço parecido com o oficial. Um dos GPTs maliciosos se chamava Plus 5.6, nome que imita o de um modelo, embora informasse como criador um community builder. A conversa exibe então um aviso de disponibilidade de serviço, alegando acesso limitado e encaminhando o visitante para um site reserva.",
-      "link": "https://boletimsec.com/cibercriminosos-usam-gpts-personalizados-para-instalar-malware/",
-      "published": "30/09/2026 12:00",
+      "category": "patches",
+      "summary": "Criminosos estão usando páginas hospedadas no próprio domínio do ChatGPT para levar usuários do Windows a instalar um malware capaz de assumir o controle do computador . A campanha foi identificada pela empresa de segurança Huntress e explora os GPTs personalizados, versões do chatbot que podem ser criadas por terceiros e publicadas dentro do “chatgpt.com”. Um dos GPTs maliciosos recebeu o nome de “Plus 5.6”, em uma tentativa de fazê-lo parecer um produto oficial da OpenAI. A fraude fica mais convincente porque algumas vítimas chegaram à página por anúncios patrocinados exibidos em pesquisas no Google por “ChatGPT”, segundo os pesquisadores.",
+      "link": "https://canaltech.com.br/seguranca/golpe-usa-site-oficial-do-chatgpt-para-infectar-pcs-com-windows/",
+      "published": "02/10/2026 12:00",
       "cves": [],
       "vendor": "Google"
     }
