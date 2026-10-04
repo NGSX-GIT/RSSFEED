@@ -1,62 +1,63 @@
 {
-  "generated_at": "2026-10-03T12:00:00.019090-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-10-04T12:00:00.048799-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Governos são o setor mais afetado por ciberataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "De acordo com o Microsoft Digital Defense Report (MDDR) deste ano, órgãos públicos foram o setor mais afetado por ameaças cibernéticas em 2026, respondendo por 27% da atividade observada, ante 17% em 2025. O levantamento, que cobre o período entre julho de 2025 e junho de 2026, também aponta os governos como o alvo mais recorrente de ações ligadas a Estados-nação, por concentrarem informações sensíveis, operar serviços essenciais e estarem no centro de redes de fornecedores e operadores de infraestrutura crítica.",
-      "link": "https://www.cisoadvisor.com.br/governos-sao-o-setor-mais-afetado-por-ciberataques/",
-      "published": "03/10/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "3 dias Segurança Hackers agora miram roubo de contas de IA para acessar dados sensíveis de empresas",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Criminosos virtuais estão ampliando o foco de malwares que roubam informações para capturar contas de inteligência artificial usadas dentro de empresas . O objetivo pode ir além de obter uma senha: uma sessão comprometida do ChatGPT ou de outra plataforma pode expor históricos de conversas, códigos, documentos internos e até chaves usadas para acessar modelos de IA. Um levantamento da empresa de cibersegurança SOCRadar analisou mais de 1 milhão de registros coletados por infostealers , tipo de malware especializado em roubar informações armazenadas em dispositivos infectados. Os dados estavam relacionados a serviços de IA e envolviam mais de 80 mil domínios corporativos.",
-      "link": "https://canaltech.com.br/seguranca/hackers-agora-miram-roubo-de-contas-de-ia-para-acessar-dados-sensiveis-de-empresas/",
-      "published": "03/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "2 dias Segurança Golpe usa site oficial do ChatGPT para infectar PCs com Windows",
+      "title": "3 dias Segurança Golpe usa site oficial do ChatGPT para infectar PCs com Windows",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Criminosos estão usando páginas hospedadas no próprio domínio do ChatGPT para levar usuários do Windows a instalar um malware capaz de assumir o controle do computador . A campanha foi identificada pela empresa de segurança Huntress e explora os GPTs personalizados, versões do chatbot que podem ser criadas por terceiros e publicadas dentro do “chatgpt.com”. Um dos GPTs maliciosos recebeu o nome de “Plus 5.6”, em uma tentativa de fazê-lo parecer um produto oficial da OpenAI. A fraude fica mais convincente porque algumas vítimas chegaram à página por anúncios patrocinados exibidos em pesquisas no Google por “ChatGPT”, segundo os pesquisadores.",
       "link": "https://canaltech.com.br/seguranca/golpe-usa-site-oficial-do-chatgpt-para-infectar-pcs-com-windows/",
-      "published": "03/10/2026 12:00",
+      "published": "04/10/2026 12:00",
       "cves": [],
       "vendor": "Google"
     },
     {
-      "title": "Cibercriminosos exploram falha do Zimbra para roubar chaves de acesso",
+      "title": "Malware se esconde em pastas que o Windows Defender deixa de varrer",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "Uma falha no Zimbra identificada como CVE-2026-73570, com nota 8.9 na escala CVSS, vem sendo explorada para instalar web shells e roubar os segredos que sustentam a autenticação do servidor de e-mail. A exploração não exige credencial nem qualquer ação do usuário. O problema está nas notificações SNMP e atinge apenas instalações com o pacote opcional zimbra-snmp. Nelas, uma requisição SMTP forjada, ou seja, um e-mail, basta para disparar a execução de comandos no sistema operacional. Com o acesso, os invasores plantam web shells em JSP nos caminhos de aplicação do Jetty e do mailboxd, e abrem shells reversos por conexões cifradas com OpenSSL.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-do-zimbra-para-roubar-chaves-de-acesso/",
-      "published": "03/10/2026 12:00",
+      "summary": "Pesquisadores da Huntress detalharam uma técnica em que os invasores não desligam o Microsoft Defender. Em vez disso, criam exclusões que abrem buracos na varredura em volta das pastas onde o malware fica guardado, e a proteção segue aparentemente ativa. As exclusões são um recurso legítimo do produto. Elas podem ser definidas por caminho, dispensando diretórios inteiros da varredura, ou por extensão, dispensando arquivos conforme o sufixo. A alteração entra por vários caminhos: comandos do PowerShell, a instrumentação de gerenciamento do Windows, política de grupo ou escrita direta no registro.",
+      "link": "https://boletimsec.com/malware-se-esconde-em-pastas-que-o-windows-defender-deixa-de-varrer/",
+      "published": "04/10/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "4 dias Segurança Hackers agora miram roubo de contas de IA para acessar dados sensíveis de empresas",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "Criminosos virtuais estão ampliando o foco de malwares que roubam informações para capturar contas de inteligência artificial usadas dentro de empresas . O objetivo pode ir além de obter uma senha: uma sessão comprometida do ChatGPT ou de outra plataforma pode expor históricos de conversas, códigos, documentos internos e até chaves usadas para acessar modelos de IA. Um levantamento da empresa de cibersegurança SOCRadar analisou mais de 1 milhão de registros coletados por infostealers , tipo de malware especializado em roubar informações armazenadas em dispositivos infectados. Os dados estavam relacionados a serviços de IA e envolviam mais de 80 mil domínios corporativos.",
+      "link": "https://canaltech.com.br/seguranca/hackers-agora-miram-roubo-de-contas-de-ia-para-acessar-dados-sensiveis-de-empresas/",
+      "published": "04/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falhas no PaperCut abrem caminho até o Active Directory da vítima",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Analistas da eSentire investigaram um ataque que encadeou dois zero days no PaperCut MF, as CVE-2026-81578 e CVE-2026-82078, para sair de um servidor de impressão exposto na internet e chegar ao controlador de domínio de um cliente do setor de educação em menos de dois dias. A entrada foi pelo campo de consulta de cartão ou crachá. Por ali os invasores entregaram código Java malicioso, o que permitiu alterar configurações sem autenticação e executar bytecode arbitrário na versão 24.0.2 do produto.",
+      "link": "https://boletimsec.com/falhas-no-papercut-abrem-caminho-ate-o-active-directory-da-vitima/",
+      "published": "04/10/2026 12:00",
       "cves": [
-        "CVE-2026-73570"
+        "CVE-2026-81578",
+        "CVE-2026-82078"
       ],
       "vendor": null
     },
     {
-      "title": "Polícia apreende 110 TB de dados roubados pelo ransomware KillSec",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
+      "title": "Vazam dados de 3 milhões de militares dos EUA",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
       "category": "identity",
-      "summary": "Uma operação internacional derrubou a estrutura do ransomware KillSec e apreendeu cinco servidores com pelo menos 110 terabytes de dados roubados de vítimas. Três pessoas foram presas, entre elas um adolescente de 16 anos apontado como administrador e operador principal do grupo. A ação foi coordenada pela Eurojust, com apoio da Europol, e reuniu autoridades de nove países: Bélgica, Finlândia, Alemanha, Grécia, Romênia, Espanha, Suíça, Reino Unido e Estados Unidos. Foram oito buscas, realizadas na Espanha, na Grécia, no Reino Unido e na Romênia, de onde saíram provas e bens apreendidos.",
-      "link": "https://boletimsec.com/policia-apreende-110-tb-de-dados-roubados-pelo-ransomware-killsec/",
-      "published": "03/10/2026 12:00",
+      "summary": "Uma violação do sistema de informações do Centro de Dados de Recursos Humanos do Departamento de Guerra (ex-Defesa) dos Estados Unidos expôs os dados pessoais de mais de 3 milhões de pessoas com ligações às Forças Armadas, informou um funcionário do Pentágono ao portal Federal News Network. Um “pequeno número de usuários não autorizados” teve acesso aos dados por quase um ano, de outubro de 2025 a julho de 2026, acrescentou o funcionário. Um aviso enviado a uma das pessoas afetadas informou que uma vulnerabilidade de segurança em um sistema de compartilhamento de arquivos foi descoberta em 16 de julho e corrigida imediatamente.",
+      "link": "https://www.cisoadvisor.com.br/vazam-dados-de-3-milhoes-de-militares-dos-eua/",
+      "published": "04/10/2026 12:00",
       "cves": [],
       "vendor": null
     }
