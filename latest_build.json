@@ -1,64 +1,72 @@
 {
-  "generated_at": "2026-10-04T12:00:00.048799-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-10-05T12:00:00.060506-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "3 dias Segurança Golpe usa site oficial do ChatGPT para infectar PCs com Windows",
-      "source": "Canaltech Segurança",
+      "title": "Warlock explora SharePoint em ataques a água e telecom",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Criminosos estão usando páginas hospedadas no próprio domínio do ChatGPT para levar usuários do Windows a instalar um malware capaz de assumir o controle do computador . A campanha foi identificada pela empresa de segurança Huntress e explora os GPTs personalizados, versões do chatbot que podem ser criadas por terceiros e publicadas dentro do “chatgpt.com”. Um dos GPTs maliciosos recebeu o nome de “Plus 5.6”, em uma tentativa de fazê-lo parecer um produto oficial da OpenAI. A fraude fica mais convincente porque algumas vítimas chegaram à página por anúncios patrocinados exibidos em pesquisas no Google por “ChatGPT”, segundo os pesquisadores.",
-      "link": "https://canaltech.com.br/seguranca/golpe-usa-site-oficial-do-chatgpt-para-infectar-pcs-com-windows/",
-      "published": "04/10/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "Malware se esconde em pastas que o Windows Defender deixa de varrer",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Pesquisadores da Huntress detalharam uma técnica em que os invasores não desligam o Microsoft Defender. Em vez disso, criam exclusões que abrem buracos na varredura em volta das pastas onde o malware fica guardado, e a proteção segue aparentemente ativa. As exclusões são um recurso legítimo do produto. Elas podem ser definidas por caminho, dispensando diretórios inteiros da varredura, ou por extensão, dispensando arquivos conforme o sufixo. A alteração entra por vários caminhos: comandos do PowerShell, a instrumentação de gerenciamento do Windows, política de grupo ou escrita direta no registro.",
-      "link": "https://boletimsec.com/malware-se-esconde-em-pastas-que-o-windows-defender-deixa-de-varrer/",
-      "published": "04/10/2026 12:00",
-      "cves": [],
+      "summary": "O grupo de ransomware Warlock , ligado à China, atingiu uma empresa de saneamento, uma operadora de telecomunicações, um órgão governamental regional e uma universidade ao explorar vulnerabilidades do SharePoint para obter acesso inicial. Nos últimos dois meses, o ator de ameaças parece ter focado países de língua portuguesa e espanhola na Europa, África e América Latina. A gangue surgiu em junho de 2025 e ganhou notoriedade um mês depois ao explorar uma cadeia de zero-days no Microsoft SharePoint conhecida como ToolShell (CVE-2025-49704, CVE-2025-49706, CVE-2025-53770 e CVE-2025-53771).",
+      "link": "https://www.cisoadvisor.com.br/warlock-explora-sharepoint-em-ataques-a-agua-e-telecom/",
+      "published": "05/10/2026 12:00",
+      "cves": [
+        "CVE-2025-49704",
+        "CVE-2025-49706",
+        "CVE-2025-53770",
+        "CVE-2025-53771"
+      ],
       "vendor": "Microsoft"
     },
     {
-      "title": "4 dias Segurança Hackers agora miram roubo de contas de IA para acessar dados sensíveis de empresas",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "threat",
-      "summary": "Criminosos virtuais estão ampliando o foco de malwares que roubam informações para capturar contas de inteligência artificial usadas dentro de empresas . O objetivo pode ir além de obter uma senha: uma sessão comprometida do ChatGPT ou de outra plataforma pode expor históricos de conversas, códigos, documentos internos e até chaves usadas para acessar modelos de IA. Um levantamento da empresa de cibersegurança SOCRadar analisou mais de 1 milhão de registros coletados por infostealers , tipo de malware especializado em roubar informações armazenadas em dispositivos infectados. Os dados estavam relacionados a serviços de IA e envolviam mais de 80 mil domínios corporativos.",
-      "link": "https://canaltech.com.br/seguranca/hackers-agora-miram-roubo-de-contas-de-ia-para-acessar-dados-sensiveis-de-empresas/",
-      "published": "04/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falhas no PaperCut abrem caminho até o Active Directory da vítima",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Analistas da eSentire investigaram um ataque que encadeou dois zero days no PaperCut MF, as CVE-2026-81578 e CVE-2026-82078, para sair de um servidor de impressão exposto na internet e chegar ao controlador de domínio de um cliente do setor de educação em menos de dois dias. A entrada foi pelo campo de consulta de cartão ou crachá. Por ali os invasores entregaram código Java malicioso, o que permitiu alterar configurações sem autenticação e executar bytecode arbitrário na versão 24.0.2 do produto.",
-      "link": "https://boletimsec.com/falhas-no-papercut-abrem-caminho-ate-o-active-directory-da-vitima/",
-      "published": "04/10/2026 12:00",
-      "cves": [
-        "CVE-2026-81578",
-        "CVE-2026-82078"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Vazam dados de 3 milhões de militares dos EUA",
+      "title": "Microsoft alerta para falha crítica no Exchange Server",
       "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Uma violação do sistema de informações do Centro de Dados de Recursos Humanos do Departamento de Guerra (ex-Defesa) dos Estados Unidos expôs os dados pessoais de mais de 3 milhões de pessoas com ligações às Forças Armadas, informou um funcionário do Pentágono ao portal Federal News Network. Um “pequeno número de usuários não autorizados” teve acesso aos dados por quase um ano, de outubro de 2025 a julho de 2026, acrescentou o funcionário. Um aviso enviado a uma das pessoas afetadas informou que uma vulnerabilidade de segurança em um sistema de compartilhamento de arquivos foi descoberta em 16 de julho e corrigida imediatamente.",
-      "link": "https://www.cisoadvisor.com.br/vazam-dados-de-3-milhoes-de-militares-dos-eua/",
-      "published": "04/10/2026 12:00",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Microsoft publicou na sexta-feira atualizações de segurança para uma nova vulnerabilidade no Exchange Server e afirmou que espera exploração por atacantes, segundo o site. A falha , identificada como CVE-2026-96940, permite que um atacante autenticado eleve privilégios e obtenha acesso às caixas de correio de todos os usuários da organização afetada, incluindo e-mails e anexos. A Microsoft corrigiu o problema no Exchange Online e orienta organizações que usam Exchange Server local a instalar o patch o mais rápido possível, conforme o boletim técnico da empresa. As versões afetadas são Exchange Server SE, 2019 e 2016. A vulnerabilidade foi descoberta pela própria Microsoft.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-alerta-para-falha-critica-no-exchange-server/",
+      "published": "05/10/2026 12:00",
+      "cves": [
+        "CVE-2026-96940"
+      ],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "GitLab alerta para falha crítica de RCE no AI Gateway",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A GitLab alertou os clientes para corrigir imediatamente uma vulnerabilidade crítica no AI Gateway que pode permitir a atacantes executar comandos arbitrários em instâncias vulneráveis. O AI Gateway é um serviço que dá acesso a recursos de IA nativos do GitLab Duo. Embora a GitLab opere sua própria instância em nuvem usada pelo GitLab.com, GitLab Self-Managed e GitLab Dedicated, os usuários também podem implantar instâncias auto-hospedadas no GitLab Self-Managed por meio do GitLab Duo Self-Hosted.",
+      "link": "https://www.cisoadvisor.com.br/gitlab-alerta-para-falha-critica-de-rce-no-ai-gateway/",
+      "published": "05/10/2026 12:00",
       "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Citrix alerta para exploração ativa de falha no NetScaler",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Citrix alertou clientes sobre a exploração ativa de uma nova vulnerabilidade no NetScaler ADC e no NetScaler Gateway, identificada como CVE-2026-88779, que pode levar a negação de serviço, segundo comunicado da empresa. A exploração repetida da falha pode fazer o serviço Citrix ficar indisponível. A Citrix orienta organizações que usam seus equipamentos a instalar o mais rápido possível a atualização de segurança disponibilizada neste domingo, conforme o boletim técnico da companhia. Há poucos dias, a Citrix já havia alertado sobre a exploração de duas outras vulnerabilidades.",
+      "link": "https://www.cisoadvisor.com.br/citrix-alerta-para-exploracao-ativa-de-falha-no-netscaler/",
+      "published": "05/10/2026 12:00",
+      "cves": [
+        "CVE-2026-88779"
+      ],
+      "vendor": "Citrix"
+    },
+    {
+      "title": "Falha crítica no AI Gateway do GitLab permite execução de código",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O GitLab corrigiu a CVE-2026-90970, falha com nota 9.9 na escala CVSS no AI Gateway que permite a execução de comandos arbitrários no servidor. O problema atinge apenas quem hospeda o próprio gateway. Instalações no GitLab.com, no GitLab Dedicated e as autogerenciadas que usam o gateway hospedado pela empresa não são afetadas. A exposição está restrita a quem roda o componente na própria infraestrutura. A falha está no template de prompt de um fluxo personalizado da Duo Agent Platform. Um usuário autenticado com acesso à plataforma consegue escapar do confinamento do template usando uma configuração de fluxo preparada para isso.",
+      "link": "https://boletimsec.com/falha-critica-no-ai-gateway-do-gitlab-permite-execucao-de-codigo/",
+      "published": "05/10/2026 12:00",
+      "cves": [
+        "CVE-2026-90970"
+      ],
       "vendor": null
     }
   ]
