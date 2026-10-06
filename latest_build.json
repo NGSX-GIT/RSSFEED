@@ -1,73 +1,69 @@
 {
-  "generated_at": "2026-10-05T12:00:00.060506-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-10-06T12:00:00.085355-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Warlock explora SharePoint em ataques a água e telecom",
+      "title": "Zero-day crítico no FortiMail explorado em ataques",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O grupo de ransomware Warlock , ligado à China, atingiu uma empresa de saneamento, uma operadora de telecomunicações, um órgão governamental regional e uma universidade ao explorar vulnerabilidades do SharePoint para obter acesso inicial. Nos últimos dois meses, o ator de ameaças parece ter focado países de língua portuguesa e espanhola na Europa, África e América Latina. A gangue surgiu em junho de 2025 e ganhou notoriedade um mês depois ao explorar uma cadeia de zero-days no Microsoft SharePoint conhecida como ToolShell (CVE-2025-49704, CVE-2025-49706, CVE-2025-53770 e CVE-2025-53771).",
-      "link": "https://www.cisoadvisor.com.br/warlock-explora-sharepoint-em-ataques-a-agua-e-telecom/",
-      "published": "05/10/2026 12:00",
+      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos Estados Unidos (CISA) adicionou na quinta-feira (1) uma falha crítica que afeta o Fortinet FortiMail ao seu catálogo de Vulnerabilidades Exploradas Conhecidas, após relatos de exploração ativa. A vulnerabilidade, registrada como CVE-2026-104286 (CVSS 9.8), permite que atacantes não autenticados gravem arquivos arbitrários no sistema subjacente.",
+      "link": "https://www.cisoadvisor.com.br/zero-day-critico-no-fortimail-explorado-em-ataques/",
+      "published": "06/10/2026 12:00",
       "cves": [
-        "CVE-2025-49704",
-        "CVE-2025-49706",
-        "CVE-2025-53770",
-        "CVE-2025-53771"
+        "CVE-2026-104286"
       ],
-      "vendor": "Microsoft"
+      "vendor": "Fortinet"
     },
     {
-      "title": "Microsoft alerta para falha crítica no Exchange Server",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft publicou na sexta-feira atualizações de segurança para uma nova vulnerabilidade no Exchange Server e afirmou que espera exploração por atacantes, segundo o site. A falha , identificada como CVE-2026-96940, permite que um atacante autenticado eleve privilégios e obtenha acesso às caixas de correio de todos os usuários da organização afetada, incluindo e-mails e anexos. A Microsoft corrigiu o problema no Exchange Online e orienta organizações que usam Exchange Server local a instalar o patch o mais rápido possível, conforme o boletim técnico da empresa. As versões afetadas são Exchange Server SE, 2019 e 2016. A vulnerabilidade foi descoberta pela própria Microsoft.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-alerta-para-falha-critica-no-exchange-server/",
-      "published": "05/10/2026 12:00",
-      "cves": [
-        "CVE-2026-96940"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "GitLab alerta para falha crítica de RCE no AI Gateway",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A GitLab alertou os clientes para corrigir imediatamente uma vulnerabilidade crítica no AI Gateway que pode permitir a atacantes executar comandos arbitrários em instâncias vulneráveis. O AI Gateway é um serviço que dá acesso a recursos de IA nativos do GitLab Duo. Embora a GitLab opere sua própria instância em nuvem usada pelo GitLab.com, GitLab Self-Managed e GitLab Dedicated, os usuários também podem implantar instâncias auto-hospedadas no GitLab Self-Managed por meio do GitLab Duo Self-Hosted.",
-      "link": "https://www.cisoadvisor.com.br/gitlab-alerta-para-falha-critica-de-rce-no-ai-gateway/",
-      "published": "05/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Citrix alerta para exploração ativa de falha no NetScaler",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Citrix alertou clientes sobre a exploração ativa de uma nova vulnerabilidade no NetScaler ADC e no NetScaler Gateway, identificada como CVE-2026-88779, que pode levar a negação de serviço, segundo comunicado da empresa. A exploração repetida da falha pode fazer o serviço Citrix ficar indisponível. A Citrix orienta organizações que usam seus equipamentos a instalar o mais rápido possível a atualização de segurança disponibilizada neste domingo, conforme o boletim técnico da companhia. Há poucos dias, a Citrix já havia alertado sobre a exploração de duas outras vulnerabilidades.",
-      "link": "https://www.cisoadvisor.com.br/citrix-alerta-para-exploracao-ativa-de-falha-no-netscaler/",
-      "published": "05/10/2026 12:00",
-      "cves": [
-        "CVE-2026-88779"
-      ],
-      "vendor": "Citrix"
-    },
-    {
-      "title": "Falha crítica no AI Gateway do GitLab permite execução de código",
+      "title": "Vulnerabilidade no SDK da Realtek alimenta botnet em roteadores",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O GitLab corrigiu a CVE-2026-90970, falha com nota 9.9 na escala CVSS no AI Gateway que permite a execução de comandos arbitrários no servidor. O problema atinge apenas quem hospeda o próprio gateway. Instalações no GitLab.com, no GitLab Dedicated e as autogerenciadas que usam o gateway hospedado pela empresa não são afetadas. A exposição está restrita a quem roda o componente na própria infraestrutura. A falha está no template de prompt de um fluxo personalizado da Duo Agent Platform. Um usuário autenticado com acesso à plataforma consegue escapar do confinamento do template usando uma configuração de fluxo preparada para isso.",
-      "link": "https://boletimsec.com/falha-critica-no-ai-gateway-do-gitlab-permite-execucao-de-codigo/",
-      "published": "05/10/2026 12:00",
+      "summary": "Pesquisadores da Nozomi Networks identificaram um aumento nas tentativas de exploração da CVE-2021-35394, falha com nota 9.8 no Realtek Jungle SDK, usada para instalar a botnet Cling em roteadores e gravadores de vídeo. A atividade cresceu a partir de 5 de setembro. A vulnerabilidade tem cinco anos e permite execução remota de código. O SDK afetado é usado por diversos fabricantes, o que espalha o problema por equipamentos de marcas diferentes, e aparelhos desse tipo costumam passar anos sem atualização de firmware, quando chegam a receber alguma. O Cling não depende apenas dessa porta de entrada.",
+      "link": "https://boletimsec.com/vulnerabilidade-no-sdk-da-realtek-alimenta-botnet-em-roteadores/",
+      "published": "06/10/2026 12:00",
       "cves": [
-        "CVE-2026-90970"
+        "CVE-2021-35394"
       ],
       "vendor": null
+    },
+    {
+      "title": "Falhas no Dell CSM dão acesso admin sem autenticação em Kubernetes",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Dell corrigiu seis vulnerabilidades nos Container Storage Modules, o conjunto que integra seus sistemas de armazenamento a clusters Kubernetes. Duas delas receberam nota 10.0 na escala CVSS, o máximo possível. A CVE-2026-63688, com 10.0, é a ausência de autenticação no servidor gRPC do componente de autorização de armazenamento. Um invasor remoto e não autenticado consegue obter as credenciais de administrador dos backends de todos os arrays registrados. A CVE-2026-63692, também com 10.0, é a falta de autenticação no proxy de autorização e no serviço de inquilinos, e entrega controle administrativo completo sobre o serviço que deveria justamente controlar os acessos.",
+      "link": "https://boletimsec.com/falhas-no-dell-csm-dao-acesso-admin-sem-autenticacao-em-kubernetes/",
+      "published": "06/10/2026 12:00",
+      "cves": [
+        "CVE-2026-63688",
+        "CVE-2026-63692"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Backdoor Linux explora STUN e falhas em ataques",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um backdoor Linux recentemente descoberto transforma sistemas infectados em proxies que usam o protocolo Session Traversal Utilities for NAT (STUN) e contém exploits para autopropagação, segundo a FortiGuard Labs. Batizado de ClingSTUN , o malware funciona como um backdoor de proxy de reconexão, tem como alvo duas dúzias de vulnerabilidades para acesso inicial e estabelece persistência para garantir a execução durante a sequência de inicialização. Os operadores do malware foram vistos explorando indiscriminadamente falhas da Avtech, EnGenius, D-Link, Hytec, Ivanti, Lantronix, Linear, MeiG, Realtek, Sunhillo, Tenda e TP-Link, e parecem estar expandindo seu portfólio com outros exploits.",
+      "link": "https://www.cisoadvisor.com.br/backdoor-linux-usa-protocolo-stun-e-explora-dezenas-de-falhas/",
+      "published": "06/10/2026 12:00",
+      "cves": [],
+      "vendor": "Ivanti"
+    },
+    {
+      "title": "5 dias Segurança Golpe usa site oficial do ChatGPT para infectar PCs com Windows",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Criminosos estão usando páginas hospedadas no próprio domínio do ChatGPT para levar usuários do Windows a instalar um malware capaz de assumir o controle do computador . A campanha foi identificada pela empresa de segurança Huntress e explora os GPTs personalizados, versões do chatbot que podem ser criadas por terceiros e publicadas dentro do “chatgpt.com”. Um dos GPTs maliciosos recebeu o nome de “Plus 5.6”, em uma tentativa de fazê-lo parecer um produto oficial da OpenAI. A fraude fica mais convincente porque algumas vítimas chegaram à página por anúncios patrocinados exibidos em pesquisas no Google por “ChatGPT”, segundo os pesquisadores.",
+      "link": "https://canaltech.com.br/seguranca/golpe-usa-site-oficial-do-chatgpt-para-infectar-pcs-com-windows/",
+      "published": "06/10/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
     }
   ]
 }
