@@ -1,67 +1,62 @@
 {
-  "generated_at": "2026-10-06T12:00:00.085355-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-10-07T12:00:00.066609-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Zero-day crítico no FortiMail explorado em ataques",
-      "source": "CISO Advisor",
+      "title": "Falha no Apache Struts executa código em mapeador antigo",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos Estados Unidos (CISA) adicionou na quinta-feira (1) uma falha crítica que afeta o Fortinet FortiMail ao seu catálogo de Vulnerabilidades Exploradas Conhecidas, após relatos de exploração ativa. A vulnerabilidade, registrada como CVE-2026-104286 (CVSS 9.8), permite que atacantes não autenticados gravem arquivos arbitrários no sistema subjacente.",
-      "link": "https://www.cisoadvisor.com.br/zero-day-critico-no-fortimail-explorado-em-ataques/",
-      "published": "06/10/2026 12:00",
+      "summary": "O Apache Struts corrigiu quatro vulnerabilidades, e uma delas permite execução remota de código sem autenticação. É a CVE-2026-104711, uma injeção de OGNL que depende de a aplicação usar o mapeador RESTful legado. O alcance é restrito pela configuração. Aplicações que usam o mapeador padrão, o restful2 ou o plugin REST do próprio Struts não são afetadas, e nas versões 7.x o problema só aparece quando a lista de permissões do OGNL está desativada. Onde o mapeador antigo está ativo, ele extrai nomes de ação e parâmetros diretamente da URL, e é por esse caminho que entra a expressão maliciosa.",
+      "link": "https://boletimsec.com/falha-no-apache-struts-executa-codigo-em-mapeador-antigo/",
+      "published": "07/10/2026 12:00",
       "cves": [
-        "CVE-2026-104286"
+        "CVE-2026-104711"
       ],
+      "vendor": null
+    },
+    {
+      "title": "FBI alerta que ataques FortiBleed continuam",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Ataques conhecidos como FortiBleed contra firewalls Fortinet ainda estão em andamento e, em alguns casos, fazem com que organizações percam o acesso aos dispositivos porque os atacantes excluem contas existentes. A informação consta em comunicado de segurança cibernética publicado nesta terça-feira pelo FBI. Nas investidas, os atacantes procuram portais SSL VPN acessíveis publicamente que rodam nos firewalls. Depois de identificarem os portais, os atacantes tentam obter acesso por meio de ataques de força bruta, usando credential stuffing e password spraying, com base em credenciais Fortinet previamente roubadas e em credenciais obtidas por malware infostealer.",
+      "link": "https://www.cisoadvisor.com.br/fbi-alerta-que-ataques-fortibleed-continuam/",
+      "published": "07/10/2026 12:00",
+      "cves": [],
       "vendor": "Fortinet"
     },
     {
-      "title": "Vulnerabilidade no SDK da Realtek alimenta botnet em roteadores",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Pesquisadores da Nozomi Networks identificaram um aumento nas tentativas de exploração da CVE-2021-35394, falha com nota 9.8 no Realtek Jungle SDK, usada para instalar a botnet Cling em roteadores e gravadores de vídeo. A atividade cresceu a partir de 5 de setembro. A vulnerabilidade tem cinco anos e permite execução remota de código. O SDK afetado é usado por diversos fabricantes, o que espalha o problema por equipamentos de marcas diferentes, e aparelhos desse tipo costumam passar anos sem atualização de firmware, quando chegam a receber alguma. O Cling não depende apenas dessa porta de entrada.",
-      "link": "https://boletimsec.com/vulnerabilidade-no-sdk-da-realtek-alimenta-botnet-em-roteadores/",
-      "published": "06/10/2026 12:00",
-      "cves": [
-        "CVE-2021-35394"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falhas no Dell CSM dão acesso admin sem autenticação em Kubernetes",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Dell corrigiu seis vulnerabilidades nos Container Storage Modules, o conjunto que integra seus sistemas de armazenamento a clusters Kubernetes. Duas delas receberam nota 10.0 na escala CVSS, o máximo possível. A CVE-2026-63688, com 10.0, é a ausência de autenticação no servidor gRPC do componente de autorização de armazenamento. Um invasor remoto e não autenticado consegue obter as credenciais de administrador dos backends de todos os arrays registrados. A CVE-2026-63692, também com 10.0, é a falta de autenticação no proxy de autorização e no serviço de inquilinos, e entrega controle administrativo completo sobre o serviço que deveria justamente controlar os acessos.",
-      "link": "https://boletimsec.com/falhas-no-dell-csm-dao-acesso-admin-sem-autenticacao-em-kubernetes/",
-      "published": "06/10/2026 12:00",
-      "cves": [
-        "CVE-2026-63688",
-        "CVE-2026-63692"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Backdoor Linux explora STUN e falhas em ataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Um backdoor Linux recentemente descoberto transforma sistemas infectados em proxies que usam o protocolo Session Traversal Utilities for NAT (STUN) e contém exploits para autopropagação, segundo a FortiGuard Labs. Batizado de ClingSTUN , o malware funciona como um backdoor de proxy de reconexão, tem como alvo duas dúzias de vulnerabilidades para acesso inicial e estabelece persistência para garantir a execução durante a sequência de inicialização. Os operadores do malware foram vistos explorando indiscriminadamente falhas da Avtech, EnGenius, D-Link, Hytec, Ivanti, Lantronix, Linear, MeiG, Realtek, Sunhillo, Tenda e TP-Link, e parecem estar expandindo seu portfólio com outros exploits.",
-      "link": "https://www.cisoadvisor.com.br/backdoor-linux-usa-protocolo-stun-e-explora-dezenas-de-falhas/",
-      "published": "06/10/2026 12:00",
-      "cves": [],
-      "vendor": "Ivanti"
-    },
-    {
-      "title": "5 dias Segurança Golpe usa site oficial do ChatGPT para infectar PCs com Windows",
+      "title": "6 dias Segurança Golpe usa site oficial do ChatGPT para infectar PCs com Windows",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Criminosos estão usando páginas hospedadas no próprio domínio do ChatGPT para levar usuários do Windows a instalar um malware capaz de assumir o controle do computador . A campanha foi identificada pela empresa de segurança Huntress e explora os GPTs personalizados, versões do chatbot que podem ser criadas por terceiros e publicadas dentro do “chatgpt.com”. Um dos GPTs maliciosos recebeu o nome de “Plus 5.6”, em uma tentativa de fazê-lo parecer um produto oficial da OpenAI. A fraude fica mais convincente porque algumas vítimas chegaram à página por anúncios patrocinados exibidos em pesquisas no Google por “ChatGPT”, segundo os pesquisadores.",
       "link": "https://canaltech.com.br/seguranca/golpe-usa-site-oficial-do-chatgpt-para-infectar-pcs-com-windows/",
-      "published": "06/10/2026 12:00",
+      "published": "07/10/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
+    },
+    {
+      "title": "58 min Segurança Prime Day vira alvo de golpistas com sites falsos que imitam a Amazon",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A proximidade do Prime Day elevou o número de sites que tentam se aproveitar da marca Amazon para atrair consumidores. Um levantamento da Check Point Research identificou páginas falsas de login, lojas que imitam a varejista e endereços usados em campanhas de phishing, com o objetivo de roubar senhas, dados pessoais e informações de pagamento. O alerta coincide com a Mega Oferta Amazon Prime , nome adotado pela empresa para o evento de outubro no Brasil, realizado entre os dias 5 e 11. O período concentra promoções e um volume maior de acessos e compras, cenário usado por criminosos para espalhar links fraudulentos.",
+      "link": "https://canaltech.com.br/seguranca/prime-day-vira-alvo-de-golpistas-com-sites-falsos-que-imitam-a-amazon/",
+      "published": "07/10/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Google suspende recompensas por falhas em código aberto",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O Google fechou temporariamente seu Programa de Recompensas por Vulnerabilidades em Software de Código Aberto (OSS VRP) para submissões de vulnerabilidades de produtos, alegando um aumento significativo de relatórios automatizados, a maioria deles inválidos. A pausa foi anunciada no X em 1º de outubro. “Esta pausa se deve a um aumento significativo de submissões automatizadas, a grande maioria das quais não é válida”, afirmou o Google. Apenas vulnerabilidades de produtos estão cobertas pela pausa. Segundo o Google, isso não afeta os relatórios de cadeia de suprimentos do programa nem quaisquer relatórios pendentes.",
+      "link": "https://www.cisoadvisor.com.br/google-suspende-recompensas-por-falhas-em-codigo-aberto/",
+      "published": "07/10/2026 12:00",
       "cves": [],
       "vendor": "Google"
     }
