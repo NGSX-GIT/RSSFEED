@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-10-08T12:00:00.094059-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-10-09T12:00:01.583749-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
+    {
+      "title": "Cisco corrige falhas críticas em switches Nexus",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco publicou comunicados de segurança para quatro vulnerabilidades críticas no sistema operacional NX-OS, que equipa switches da linha Nexus para data centers. As falhas podem ser exploradas para executar código arbitrário com privilégios de root nos equipamentos. Caso a execução remota de código não seja bem-sucedida, um atacante ainda pode explorar as vulnerabilidades para derrubar processos e forçar a reinicialização do dispositivo, resultando em uma condição de negação de serviço. As vulnerabilidades afetam os switches das séries Nexus 3000 e Nexus 9000, em modo standalone NX-OS.",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-falhas-criticas-em-switches-nexus/",
+      "published": "09/10/2026 12:00",
+      "cves": [],
+      "vendor": "Cisco"
+    },
     {
       "title": "LMCache: falha crítica sem correção permite RCE",
       "source": "CISO Advisor",
@@ -10,62 +21,44 @@
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no LMCache , software de código aberto que acelera servidores de grandes modelos de linguagem (LLM) como o vLLM, permite que um atacante execute código no servidor de cache sem fazer login, e não há versão corrigida disponível. A falha está no modo multiprocesso do LMCache, em que o cache roda como um servidor autônomo que os workers do LLM acessam pela biblioteca de mensagens ZeroMQ. Uma única mensagem de rede enviada a esse servidor pode executar comandos com os privilégios do usuário que roda o processo do LMCache.",
       "link": "https://www.cisoadvisor.com.br/lmcache-falha-critica-sem-correcao-permite-rce/",
-      "published": "08/10/2026 12:00",
+      "published": "09/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Atlassian: falha crítica é explorada e expõe arquivos",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "Cibercriminosos atacam câmeras Hikvision para executar código",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica em produtos da Atlassian, que permite a invasores obter acesso a arquivos e informações confidenciais, está sendo explorada em ataques, segundo a empresa de segurança cibernética Previdian. Uma atualização de segurança para o problema, registrado como CVE-2026-21589 , está disponível desde 5 de outubro. O código de exploração de prova de conceito para explorar a vulnerabilidade apareceu online ontem, e hoje a Previdian anunciou que observou abusos ativamente. A vulnerabilidade poderia permitir que um invasor não autenticado obtivesse acesso a arquivos arbitrários no diretório raiz do aplicativo web.",
-      "link": "https://www.cisoadvisor.com.br/atlassian-falha-critica-e-explorada-e-expoe-arquivos/",
-      "published": "08/10/2026 12:00",
+      "summary": "A GreyNoise registrou tentativas de exploração da CVE-2021-36260 em câmeras e gravadores da Hikvision entre 21 de setembro e 1º de outubro. A falha tem nota 9.8 na escala CVSS e executa comandos no equipamento sem nenhuma credencial. O problema é uma injeção de comando no servidor web embarcado nesses produtos. A validação de entrada é insuficiente, então uma requisição montada com comandos maliciosos chega ao sistema operacional do aparelho e é executada. A exploração acontece pela rede, sem autenticação e sem interação de quem usa o equipamento. Basta que a interface web esteja alcançável, o que torna a exposição direta à internet o fator decisivo.",
+      "link": "https://boletimsec.com/cibercriminosos-atacam-cameras-hikvision-para-executar-codigo/",
+      "published": "09/10/2026 12:00",
       "cves": [
-        "CVE-2026-21589"
+        "CVE-2021-36260"
       ],
       "vendor": null
     },
     {
-      "title": "Chrome 155 corrige 247 vulnerabilidades, quatro críticas",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Google publicou na terça-feira uma atualização de segurança do Chrome 155 que corrige 247 vulnerabilidades, incluindo quatro falhas de gravidade crítica. Todas as quatro falhas críticas são problemas de use-after-free e afetam os componentes Chromecast, Browser, Navigation e Track do Chrome, registrados como CVE-2026-106382, CVE-2026-106197, CVE-2026-106358 e CVE-2026-106347. A primeira falha foi descoberta pelo Google, enquanto as outras três foram reportadas por Xinyang Ge, que usou IA para identificar dois dos defeitos de segurança. O Google ainda não divulgou os valores das recompensas pagas ao pesquisador.",
-      "link": "https://www.cisoadvisor.com.br/chrome-155-corrige-247-vulnerabilidades-quatro-criticas/",
-      "published": "08/10/2026 12:00",
-      "cves": [
-        "CVE-2026-106382",
-        "CVE-2026-106197",
-        "CVE-2026-106358",
-        "CVE-2026-106347"
-      ],
-      "vendor": "Google"
-    },
-    {
-      "title": "Falha crítica no SonicWall SMA1000 permite acesso sem autenticação",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A SonicWall corrigiu a CVE-2026-102255, falha que recebeu a nota máxima na escala CVSS e permite que um invasor sem nenhuma credencial alcance funcionalidades internas do equipamento e execute operações não autorizadas. O problema é um SSRF, sigla para falsificação de requisição do lado do servidor. Nesse tipo de falha o atacante faz o próprio servidor emitir requisições em seu nome, o que dá alcance a recursos internos que não deveriam estar acessíveis de fora. São afetados os modelos 6210, 7210 e 8200v da linha SMA1000, nas versões 12.4.3 e 12.5.0. São appliances de acesso remoto seguro, usados para publicar aplicações internas a quem está fora da rede corporativa.",
-      "link": "https://boletimsec.com/falha-critica-no-sonicwall-sma1000-permite-acesso-sem-autenticacao/",
-      "published": "08/10/2026 12:00",
-      "cves": [
-        "CVE-2026-102255"
-      ],
-      "vendor": "SonicWall"
-    },
-    {
-      "title": "Campanha no NPM acumula 40 mil downloads maliciosos",
+      "title": "Microsoft integra detecção de deepfake no Teams",
       "source": "CISO Advisor",
       "priority": "Média",
-      "category": "cloud",
-      "summary": "Pacotes maliciosos publicados como parte de uma campanha de longa duração na cadeia de suprimentos do NPM acumularam mais de 40 mil downloads, segundo a Checkmarx. Batizada de MALFEX e distribuindo malwares como o Overlord RAT e infostealers, a campanha está em andamento desde agosto de 2023, quando o ator de ameaças publicou seu primeiro pacote. Até o momento, o ator de ameaças publicou 12 pacotes, oito dos quais são maliciosos. Cinco foram removidos do registro, mas três ainda podiam ser instalados em 1º de outubro: function-flag, function-color e cdn-img-fetch.",
-      "link": "https://www.cisoadvisor.com.br/campanha-no-npm-acumula-40-mil-downloads-maliciosos/",
-      "published": "08/10/2026 12:00",
+      "category": "patches",
+      "summary": "Organizações brasileiras que usam o Microsoft Teams para reuniões corporativas, processos seletivos e contato com clientes passam a contar, em novembro, com uma nova camada de proteção contra deepfakes. A Microsoft anunciou , em entradas publicadas no roadmap do Microsoft 365 em 2 de outubro, o suporte a soluções de detecção de áudio e vídeo sintéticos fornecidas por provedores terceirizados certificados, além de um recurso de proteção contra falsificação de identidade em reuniões. Segundo a Microsoft, os provedores certificados analisarão o áudio e o vídeo das reuniões em busca de sinais de conteúdo sintético ou manipulado, enviando alertas ao Teams.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-integra-deteccao-de-deepfake-no-teams/",
+      "published": "09/10/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "4 dias Segurança Microsoft Teams terá detector de deepfake em tempo real para barrar golpistas",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O Microsoft Teams vai ganhar uma nova camada de proteção para identificar deepfakes durante reuniões . Previsto para começar a ser liberado em novembro, o recurso vai analisar sinais de áudio e vídeo manipulados ou gerados por inteligência artificial e avisar os participantes quando houver indícios de falsificação. A detecção será feita em tempo real por soluções de empresas terceirizadas certificadas, segundo o cronograma oficial do Microsoft 365. Esses serviços poderão identificar, por exemplo, vozes clonadas ou rostos sintéticos usados para tentar se passar por executivos, colegas de trabalho ou outras pessoas durante uma chamada.",
+      "link": "https://canaltech.com.br/seguranca/microsoft-teams-tera-detector-de-deepfake-em-tempo-real-para-barrar-golpistas/",
+      "published": "09/10/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
