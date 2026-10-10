@@ -1,64 +1,62 @@
 {
-  "generated_at": "2026-10-09T12:00:01.583749-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-10-10T12:00:00.161994-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Cisco corrige falhas críticas em switches Nexus",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco publicou comunicados de segurança para quatro vulnerabilidades críticas no sistema operacional NX-OS, que equipa switches da linha Nexus para data centers. As falhas podem ser exploradas para executar código arbitrário com privilégios de root nos equipamentos. Caso a execução remota de código não seja bem-sucedida, um atacante ainda pode explorar as vulnerabilidades para derrubar processos e forçar a reinicialização do dispositivo, resultando em uma condição de negação de serviço. As vulnerabilidades afetam os switches das séries Nexus 3000 e Nexus 9000, em modo standalone NX-OS.",
-      "link": "https://www.cisoadvisor.com.br/cisco-corrige-falhas-criticas-em-switches-nexus/",
-      "published": "09/10/2026 12:00",
-      "cves": [],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "LMCache: falha crítica sem correção permite RCE",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no LMCache , software de código aberto que acelera servidores de grandes modelos de linguagem (LLM) como o vLLM, permite que um atacante execute código no servidor de cache sem fazer login, e não há versão corrigida disponível. A falha está no modo multiprocesso do LMCache, em que o cache roda como um servidor autônomo que os workers do LLM acessam pela biblioteca de mensagens ZeroMQ. Uma única mensagem de rede enviada a esse servidor pode executar comandos com os privilégios do usuário que roda o processo do LMCache.",
-      "link": "https://www.cisoadvisor.com.br/lmcache-falha-critica-sem-correcao-permite-rce/",
-      "published": "09/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cibercriminosos atacam câmeras Hikvision para executar código",
+      "title": "Vazamento na EY expõe dados de clientes do Goldman Sachs",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "patches",
-      "summary": "A GreyNoise registrou tentativas de exploração da CVE-2021-36260 em câmeras e gravadores da Hikvision entre 21 de setembro e 1º de outubro. A falha tem nota 9.8 na escala CVSS e executa comandos no equipamento sem nenhuma credencial. O problema é uma injeção de comando no servidor web embarcado nesses produtos. A validação de entrada é insuficiente, então uma requisição montada com comandos maliciosos chega ao sistema operacional do aparelho e é executada. A exploração acontece pela rede, sem autenticação e sem interação de quem usa o equipamento. Basta que a interface web esteja alcançável, o que torna a exposição direta à internet o fator decisivo.",
-      "link": "https://boletimsec.com/cibercriminosos-atacam-cameras-hikvision-para-executar-codigo/",
-      "published": "09/10/2026 12:00",
-      "cves": [
-        "CVE-2021-36260"
-      ],
+      "category": "breach",
+      "summary": "A EY confirmou o vazamento de documentos de clientes seus. Os arquivos foram baixados por um invasor que acessou uma plataforma de gestão de serviços de tecnologia contratada pela própria EY para apoiar a operação da área tributária da empresa. Os clientes da EY atingidos incluem pessoas da área de gestão de patrimônio do Goldman Sachs e ligadas ao Man Group, fundo de investimento listado no Reino Unido. Os dois confirmaram que os próprios sistemas não foram comprometidos, ou seja, a exposição veio pelo lado da EY. Os documentos saíram de tickets de suporte da plataforma.",
+      "link": "https://boletimsec.com/vazamento-na-ey-expoe-dados-de-clientes-do-goldman-sachs/",
+      "published": "10/10/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Microsoft integra detecção de deepfake no Teams",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Organizações brasileiras que usam o Microsoft Teams para reuniões corporativas, processos seletivos e contato com clientes passam a contar, em novembro, com uma nova camada de proteção contra deepfakes. A Microsoft anunciou , em entradas publicadas no roadmap do Microsoft 365 em 2 de outubro, o suporte a soluções de detecção de áudio e vídeo sintéticos fornecidas por provedores terceirizados certificados, além de um recurso de proteção contra falsificação de identidade em reuniões. Segundo a Microsoft, os provedores certificados analisarão o áudio e o vídeo das reuniões em busca de sinais de conteúdo sintético ou manipulado, enviando alertas ao Teams.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-integra-deteccao-de-deepfake-no-teams/",
-      "published": "09/10/2026 12:00",
+      "title": "2 dias Segurança Hackers vazam dados da Trump Mobile e escancaram despreparo da operadora",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "A Trump Mobile enfrenta um novo problema de segurança após hackers divulgarem dados pessoais ligados a 3.615 pessoas na dark web. O vazamento inclui nomes, endereços residenciais, e-mails, números de telefone e informações sobre pedidos, enquanto os criminosos afirmam que a empresa chegou a dizer que não tinha uma equipe interna preparada para lidar com a invasão . O ataque foi reivindicado pelo grupo de cibercriminosos BYOD. Segundo os hackers, a entrada nos sistemas ocorreu após a infecção do computador de um funcionário da Liberty Mobile com um trojan de acesso remoto, conhecido pela sigla RAT.",
+      "link": "https://canaltech.com.br/seguranca/hackers-vazam-dados-da-trump-mobile-e-escancaram-despreparo-da-operadora/",
+      "published": "10/10/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     },
     {
-      "title": "4 dias Segurança Microsoft Teams terá detector de deepfake em tempo real para barrar golpistas",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O Microsoft Teams vai ganhar uma nova camada de proteção para identificar deepfakes durante reuniões . Previsto para começar a ser liberado em novembro, o recurso vai analisar sinais de áudio e vídeo manipulados ou gerados por inteligência artificial e avisar os participantes quando houver indícios de falsificação. A detecção será feita em tempo real por soluções de empresas terceirizadas certificadas, segundo o cronograma oficial do Microsoft 365. Esses serviços poderão identificar, por exemplo, vozes clonadas ou rostos sintéticos usados para tentar se passar por executivos, colegas de trabalho ou outras pessoas durante uma chamada.",
-      "link": "https://canaltech.com.br/seguranca/microsoft-teams-tera-detector-de-deepfake-em-tempo-real-para-barrar-golpistas/",
-      "published": "09/10/2026 12:00",
+      "title": "Check Point alerta para injeção de prompt em documentos",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Documentos corporativos como PDFs, contratos, faturas e e-mails podem esconder instruções capazes de induzir agentes de inteligência artificial a executar ações não autorizadas. O alerta foi publicado pela Check Point Software, em comunicado divulgado em 7 de outubro de 2026, que descreve o risco como uma nova fronteira para a segurança corporativa, na qual um arquivo aparentemente legítimo pode se transformar em vetor de ataque sem conter malware. Segundo o comunicado da empresa, o cenário está ligado à evolução dos ataques de injeção de prompt indireta, nos quais o atacante não interage diretamente com o usuário nem com o prompt enviado ao sistema.",
+      "link": "https://www.cisoadvisor.com.br/check-point-alerta-para-injecao-de-prompt-em-documentos/",
+      "published": "10/10/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": "Check Point"
+    },
+    {
+      "title": "Warden Stealer caça chaves de IA e criptomoedas",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Uma nova família de malware conhecida como Warden Stealer está ganhando tração em fóruns da dark web ao mirar credenciais de desenvolvedores de inteligência artificial e carteiras de criptomoedas. Anunciado por seus criadores como uma solução “tudo-em-um” que combina stealer, clipper e loader, o Warden foi disponibilizado ao público em 21 de julho, após desenvolvimento iniciado no começo de 2026, segundo entrevista do grupo ao pesquisador de segurança g0njxa. O diferencial do Warden, conforme a publicação da Infostealers.com, está em técnicas avançadas de evasão.",
+      "link": "https://www.cisoadvisor.com.br/warden-stealer-caca-chaves-de-ia-e-criptomoedas/",
+      "published": "10/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "20 horas Segurança Celulares Android baratos já chegam ao Brasil com vírus de fábrica",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Uma campanha de malware está infectando celulares Android de baixo custo antes mesmo de os aparelhos chegarem às mãos dos consumidores . A ameaça, identificada pela empresa de cibersegurança Bitdefender, já foi detectada em milhares de dispositivos de mais de 150 países, incluindo o Brasil. Batizado de Midnight Mimosa , o malware fica instalado diretamente no firmware dos aparelhos, software responsável pelo funcionamento básico do celular. Dessa forma, os criminosos conseguem executar atividades maliciosas sem que a vítima precise baixar aplicativos ou clicar em links suspeitos.",
+      "link": "https://canaltech.com.br/seguranca/celulares-android-baratos-ja-chegam-ao-brasil-com-virus-de-fabrica/",
+      "published": "10/10/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
