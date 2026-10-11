@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-10T12:00:00.161994-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-10-11T12:00:00.203626-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Vazamento na EY expõe dados de clientes do Goldman Sachs",
-      "source": "BoletimSec Notícias",
+      "title": "Empresa de recuperação suspeita de fraude em resgates",
+      "source": "CISO Advisor",
       "priority": "Média",
-      "category": "breach",
-      "summary": "A EY confirmou o vazamento de documentos de clientes seus. Os arquivos foram baixados por um invasor que acessou uma plataforma de gestão de serviços de tecnologia contratada pela própria EY para apoiar a operação da área tributária da empresa. Os clientes da EY atingidos incluem pessoas da área de gestão de patrimônio do Goldman Sachs e ligadas ao Man Group, fundo de investimento listado no Reino Unido. Os dois confirmaram que os próprios sistemas não foram comprometidos, ou seja, a exposição veio pelo lado da EY. Os documentos saíram de tickets de suporte da plataforma.",
-      "link": "https://boletimsec.com/vazamento-na-ey-expoe-dados-de-clientes-do-goldman-sachs/",
-      "published": "10/10/2026 12:00",
+      "category": "cloud",
+      "summary": "O dono da empresa de recuperação de ransomware MonsterCloud foi acusado de fraudar vítimas ao pagar secretamente aos atacantes por chaves de descriptografia enquanto afirmava usar tecnologia própria para recuperar os dados, segundo o BleepingComputer. Zohar Pinhasi, 50 anos, também conhecido como “Zack Silver” e “Zack Green”, foi indiciado por um júri federal no Distrito Leste de Nova York em 23 de setembro e apresentado nesta quarta-feira em tribunal federal no Brooklyn. Ele responde por uma acusação de conspiração para cometer fraude eletrônica e duas acusações de fraude eletrônica em conexão com um esquema que teria ocorrido entre junho de 2018 e junho de 2023.",
+      "link": "https://www.cisoadvisor.com.br/empresa-de-recuperacao-suspeita-de-fraude-em-resgates/",
+      "published": "11/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "2 dias Segurança Hackers vazam dados da Trump Mobile e escancaram despreparo da operadora",
+      "title": "3 dias Segurança Fraudes, engenharia social e phishing: o fator humano além do sistema",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "A transformação digital revolucionou a forma como pessoas, empresas e instituições financeiras interagem, ampliando significativamente a oferta de serviços digitais a conveniência e comodidade para seus usuários. Entretanto, essa transformação também proporcionou aos criminosos um ambiente cada vez mais favorável à prática de fraudes e golpes. Se há alguns anos os ataques concentravam-se predominantemente na exploração de vulnerabilidades técnicas em sistemas computacionais, atualmente observa-se uma mudança significativa de paradigma: o principal alvo passou a ser o comportamento humano.",
+      "link": "https://canaltech.com.br/colunas/fraudes-engenharia-social-e-phishing-o-fator-humano-alem-do-sistema/",
+      "published": "11/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "3 dias Segurança Hackers vazam dados da Trump Mobile e escancaram despreparo da operadora",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "breach",
       "summary": "A Trump Mobile enfrenta um novo problema de segurança após hackers divulgarem dados pessoais ligados a 3.615 pessoas na dark web. O vazamento inclui nomes, endereços residenciais, e-mails, números de telefone e informações sobre pedidos, enquanto os criminosos afirmam que a empresa chegou a dizer que não tinha uma equipe interna preparada para lidar com a invasão . O ataque foi reivindicado pelo grupo de cibercriminosos BYOD. Segundo os hackers, a entrada nos sistemas ocorreu após a infecção do computador de um funcionário da Liberty Mobile com um trojan de acesso remoto, conhecido pela sigla RAT.",
       "link": "https://canaltech.com.br/seguranca/hackers-vazam-dados-da-trump-mobile-e-escancaram-despreparo-da-operadora/",
-      "published": "10/10/2026 12:00",
+      "published": "11/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Check Point alerta para injeção de prompt em documentos",
+      "title": "Brasil: malware de DDoS em celulares baratos",
       "source": "CISO Advisor",
       "priority": "Baixa",
       "category": "threat",
-      "summary": "Documentos corporativos como PDFs, contratos, faturas e e-mails podem esconder instruções capazes de induzir agentes de inteligência artificial a executar ações não autorizadas. O alerta foi publicado pela Check Point Software, em comunicado divulgado em 7 de outubro de 2026, que descreve o risco como uma nova fronteira para a segurança corporativa, na qual um arquivo aparentemente legítimo pode se transformar em vetor de ataque sem conter malware. Segundo o comunicado da empresa, o cenário está ligado à evolução dos ataques de injeção de prompt indireta, nos quais o atacante não interage diretamente com o usuário nem com o prompt enviado ao sistema.",
-      "link": "https://www.cisoadvisor.com.br/check-point-alerta-para-injecao-de-prompt-em-documentos/",
-      "published": "10/10/2026 12:00",
-      "cves": [],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "Warden Stealer caça chaves de IA e criptomoedas",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "Uma nova família de malware conhecida como Warden Stealer está ganhando tração em fóruns da dark web ao mirar credenciais de desenvolvedores de inteligência artificial e carteiras de criptomoedas. Anunciado por seus criadores como uma solução “tudo-em-um” que combina stealer, clipper e loader, o Warden foi disponibilizado ao público em 21 de julho, após desenvolvimento iniciado no começo de 2026, segundo entrevista do grupo ao pesquisador de segurança g0njxa. O diferencial do Warden, conforme a publicação da Infostealers.com, está em técnicas avançadas de evasão.",
-      "link": "https://www.cisoadvisor.com.br/warden-stealer-caca-chaves-de-ia-e-criptomoedas/",
-      "published": "10/10/2026 12:00",
+      "summary": "Celulares baratos e de marcas pouco conhecidas estão chegando a consumidores brasileiros e de outros países com malware embutido no firmware do sistema operacional Android (e portanto impossível de ser removido). Uma das possibilidades de uso do malware pelos seus controladores é utilizar o dispositivo em redes de bots para a venda de ataques DDoS as a service. A revelação consta de pesquisa publicada ontem pela empresa de segurança americana Bitdefender. Há registro de localização do malware principalmente (pela ordem) nos México, França, Itália, EUA, Alemanha, Brasil e Espanha. A ordem dos países é pela quantidade de celulares detectados com o malware.",
+      "link": "https://www.cisoadvisor.com.br/brasil-malware-de-ddos-em-celulares-baratos/",
+      "published": "11/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "20 horas Segurança Celulares Android baratos já chegam ao Brasil com vírus de fábrica",
-      "source": "Canaltech Segurança",
+      "title": "Plataforma de exploits para iOS rouba chaves de carteiras",
+      "source": "BoletimSec Notícias",
       "priority": "Baixa",
-      "category": "threat",
-      "summary": "Uma campanha de malware está infectando celulares Android de baixo custo antes mesmo de os aparelhos chegarem às mãos dos consumidores . A ameaça, identificada pela empresa de cibersegurança Bitdefender, já foi detectada em milhares de dispositivos de mais de 150 países, incluindo o Brasil. Batizado de Midnight Mimosa , o malware fica instalado diretamente no firmware dos aparelhos, software responsável pelo funcionamento básico do celular. Dessa forma, os criminosos conseguem executar atividades maliciosas sem que a vítima precise baixar aplicativos ou clicar em links suspeitos.",
-      "link": "https://canaltech.com.br/seguranca/celulares-android-baratos-ja-chegam-ao-brasil-com-virus-de-fabrica/",
-      "published": "10/10/2026 12:00",
+      "category": "identity",
+      "summary": "A Censys revelou o funcionamento do DarkSword, plataforma que vende acesso a dispositivos iOS, e do Coruna, o malware que rouba carteiras de criptomoedas depois da invasão. A infraestrutura ficou exposta entre 15 e 17 de setembro. A entrada é pelo navegador. O DarkSword ataca o WebKit e o JavaScriptCore, escapa do confinamento em que o Safari roda e chega ao núcleo do sistema. Dali instala três camadas, um sinalizador, um controlador e o implante principal. O Coruna procura a chave de recuperação da carteira, a sequência de palavras que restaura o acesso aos fundos em qualquer aparelho. Ele varre fotos e notas do Apple Notes e só envia as sequências que passam na verificação do padrão BIP39.",
+      "link": "https://boletimsec.com/plataforma-de-exploits-para-ios-rouba-chaves-de-carteiras/",
+      "published": "11/10/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Apple"
     }
   ]
 }
