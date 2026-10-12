@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-11T12:00:00.203626-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-10-12T12:00:00.125228-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Empresa de recuperação suspeita de fraude em resgates",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "cloud",
-      "summary": "O dono da empresa de recuperação de ransomware MonsterCloud foi acusado de fraudar vítimas ao pagar secretamente aos atacantes por chaves de descriptografia enquanto afirmava usar tecnologia própria para recuperar os dados, segundo o BleepingComputer. Zohar Pinhasi, 50 anos, também conhecido como “Zack Silver” e “Zack Green”, foi indiciado por um júri federal no Distrito Leste de Nova York em 23 de setembro e apresentado nesta quarta-feira em tribunal federal no Brooklyn. Ele responde por uma acusação de conspiração para cometer fraude eletrônica e duas acusações de fraude eletrônica em conexão com um esquema que teria ocorrido entre junho de 2018 e junho de 2023.",
-      "link": "https://www.cisoadvisor.com.br/empresa-de-recuperacao-suspeita-de-fraude-em-resgates/",
-      "published": "11/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "3 dias Segurança Fraudes, engenharia social e phishing: o fator humano além do sistema",
+      "title": "4 dias Segurança Fraudes, engenharia social e phishing: o fator humano além do sistema",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "identity",
       "summary": "A transformação digital revolucionou a forma como pessoas, empresas e instituições financeiras interagem, ampliando significativamente a oferta de serviços digitais a conveniência e comodidade para seus usuários. Entretanto, essa transformação também proporcionou aos criminosos um ambiente cada vez mais favorável à prática de fraudes e golpes. Se há alguns anos os ataques concentravam-se predominantemente na exploração de vulnerabilidades técnicas em sistemas computacionais, atualmente observa-se uma mudança significativa de paradigma: o principal alvo passou a ser o comportamento humano.",
       "link": "https://canaltech.com.br/colunas/fraudes-engenharia-social-e-phishing-o-fator-humano-alem-do-sistema/",
-      "published": "11/10/2026 12:00",
+      "published": "12/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "3 dias Segurança Hackers vazam dados da Trump Mobile e escancaram despreparo da operadora",
+      "title": "4 dias Segurança Hackers vazam dados da Trump Mobile e escancaram despreparo da operadora",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "breach",
       "summary": "A Trump Mobile enfrenta um novo problema de segurança após hackers divulgarem dados pessoais ligados a 3.615 pessoas na dark web. O vazamento inclui nomes, endereços residenciais, e-mails, números de telefone e informações sobre pedidos, enquanto os criminosos afirmam que a empresa chegou a dizer que não tinha uma equipe interna preparada para lidar com a invasão . O ataque foi reivindicado pelo grupo de cibercriminosos BYOD. Segundo os hackers, a entrada nos sistemas ocorreu após a infecção do computador de um funcionário da Liberty Mobile com um trojan de acesso remoto, conhecido pela sigla RAT.",
       "link": "https://canaltech.com.br/seguranca/hackers-vazam-dados-da-trump-mobile-e-escancaram-despreparo-da-operadora/",
-      "published": "11/10/2026 12:00",
+      "published": "12/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Brasil: malware de DDoS em celulares baratos",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "Celulares baratos e de marcas pouco conhecidas estão chegando a consumidores brasileiros e de outros países com malware embutido no firmware do sistema operacional Android (e portanto impossível de ser removido). Uma das possibilidades de uso do malware pelos seus controladores é utilizar o dispositivo em redes de bots para a venda de ataques DDoS as a service. A revelação consta de pesquisa publicada ontem pela empresa de segurança americana Bitdefender. Há registro de localização do malware principalmente (pela ordem) nos México, França, Itália, EUA, Alemanha, Brasil e Espanha. A ordem dos países é pela quantidade de celulares detectados com o malware.",
-      "link": "https://www.cisoadvisor.com.br/brasil-malware-de-ddos-em-celulares-baratos/",
-      "published": "11/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Plataforma de exploits para iOS rouba chaves de carteiras",
+      "title": "Anúncio na dark web oferece chave de API do VirusTotal",
       "source": "BoletimSec Notícias",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "A Censys revelou o funcionamento do DarkSword, plataforma que vende acesso a dispositivos iOS, e do Coruna, o malware que rouba carteiras de criptomoedas depois da invasão. A infraestrutura ficou exposta entre 15 e 17 de setembro. A entrada é pelo navegador. O DarkSword ataca o WebKit e o JavaScriptCore, escapa do confinamento em que o Safari roda e chega ao núcleo do sistema. Dali instala três camadas, um sinalizador, um controlador e o implante principal. O Coruna procura a chave de recuperação da carteira, a sequência de palavras que restaura o acesso aos fundos em qualquer aparelho. Ele varre fotos e notas do Apple Notes e só envia as sequências que passam na verificação do padrão BIP39.",
-      "link": "https://boletimsec.com/plataforma-de-exploits-para-ios-rouba-chaves-de-carteiras/",
-      "published": "11/10/2026 12:00",
+      "summary": "Uma chave de API do VirusTotal Enterprise está à venda por 350 dólares em fórum criminoso. A oferta foi divulgada em 7 de outubro pelo canal Dark Web Informer, que monitora esses ambientes, e não traz prova de que a credencial seja autêntica. A chave de API permite que um software consulte o VirusTotal sem que alguém envie cada requisição pelo site. É o acesso programático à plataforma, usado por equipes de segurança para analisar arquivos e endereços em escala. Os limites anunciados são de 5 mil requisições por dia, 300 mil por hora e 1 bilhão por mês. Os próprios números se contradizem, já que o teto diário informado é menor que o horário, o que enfraquece a oferta.",
+      "link": "https://boletimsec.com/anuncio-na-dark-web-oferece-chave-de-api-do-virustotal/",
+      "published": "12/10/2026 12:00",
       "cves": [],
-      "vendor": "Apple"
+      "vendor": null
+    },
+    {
+      "title": "5 dias Segurança Prime Day vira alvo de golpistas com sites falsos que imitam a Amazon",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A proximidade do Prime Day elevou o número de sites que tentam se aproveitar da marca Amazon para atrair consumidores. Um levantamento da Check Point Research identificou páginas falsas de login, lojas que imitam a varejista e endereços usados em campanhas de phishing, com o objetivo de roubar senhas, dados pessoais e informações de pagamento. O alerta coincide com a Mega Oferta Amazon Prime , nome adotado pela empresa para o evento de outubro no Brasil, realizado entre os dias 5 e 11. O período concentra promoções e um volume maior de acessos e compras, cenário usado por criminosos para espalhar links fraudulentos.",
+      "link": "https://canaltech.com.br/seguranca/prime-day-vira-alvo-de-golpistas-com-sites-falsos-que-imitam-a-amazon/",
+      "published": "12/10/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "2 dias Segurança Celulares Android baratos já chegam ao Brasil com vírus de fábrica",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Uma campanha de malware está infectando celulares Android de baixo custo antes mesmo de os aparelhos chegarem às mãos dos consumidores . A ameaça, identificada pela empresa de cibersegurança Bitdefender, já foi detectada em milhares de dispositivos de mais de 150 países, incluindo o Brasil. Batizado de Midnight Mimosa , o malware fica instalado diretamente no firmware dos aparelhos, software responsável pelo funcionamento básico do celular. Dessa forma, os criminosos conseguem executar atividades maliciosas sem que a vítima precise baixar aplicativos ou clicar em links suspeitos.",
+      "link": "https://canaltech.com.br/seguranca/celulares-android-baratos-ja-chegam-ao-brasil-com-virus-de-fabrica/",
+      "published": "12/10/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
