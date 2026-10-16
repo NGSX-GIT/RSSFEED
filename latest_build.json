@@ -1,72 +1,68 @@
 {
-  "generated_at": "2026-10-15T12:00:00.164872-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-10-16T12:00:00.108882-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Palo Alto corrige zero-day do PAN-OS explorado em ataques",
+      "title": "Curl corrige falha de RCE encontrada pela Anthropic",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "type: Vulnerabilidade zero-day de execução remota de código explorada em ataques initial_vector: Interface de gerenciamento do PAN-OS, com credenciais válidas e acesso de rede keywords: PAN-OS, CVE-2026-0322, zero-day, firewall, Palo Alto Networks, execução remota de código",
-      "link": "https://www.cisoadvisor.com.br/palo-alto-corrige-zero-day-do-pan-os-explorado-em-ataques/",
-      "published": "15/10/2026 12:00",
+      "summary": "Uma nova versão do Curl foi publicada com a correção de mais de vinte vulnerabilidades, incluindo uma falha de execução remota de código (RCE) encontrada pela empresa de inteligência artificial Anthropic. Apesar de permitir execução remota de código, o impacto da CVE-2026-92392 foi classificado como “alto”, e não crítico. Segundo o mantenedor do Curl, Daniel Stenberg , isso se deve à dificuldade de exploração do problema. Ainda assim, ele descreve a falha como uma vulnerabilidade desagradável. O Curl é uma biblioteca e ferramenta de linha de comando amplamente usada para enviar e receber dados por diversos protocolos de rede.",
+      "link": "https://www.cisoadvisor.com.br/curl-corrige-falha-de-rce-encontrada-pela-anthropic/",
+      "published": "16/10/2026 12:00",
       "cves": [
-        "CVE-2026-0322"
+        "CVE-2026-92392"
       ],
-      "vendor": "Palo Alto"
+      "vendor": null
     },
     {
-      "title": "Cisco corrige zero-day explorado no secure email gateway",
+      "title": "CISA alerta para exploração de zero-day no Ivanti",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Cisco corrigiu uma vulnerabilidade zero-day explorada ativamente em seu Secure Email Gateway (SEG) que permite a atacantes remotos não autenticados executar comandos com privilégios de root. Rastreada como CVE-2026-76519 , a falha decorre de uma fraqueza de travessia de caminho relativo no recurso Advanced Malware Protection (AMP) do SEG, causada pelo tratamento inadequado de anexos de e-mail, conforme aviso publicado pela empresa nesta quarta-feira. Atacantes podem explorar o problema enviando um e-mail com anexo maliciosamente forjado através de um dispositivo sem correção.",
-      "link": "https://www.cisoadvisor.com.br/cisco-corrige-zero-day-explorado-no-secure-email-gateway/",
-      "published": "15/10/2026 12:00",
-      "cves": [
-        "CVE-2026-76519"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "NGINX tem três falhas graves de memória",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A F5 publicou três avisos de segurança sobre falhas que permitem a atacantes remotos e não autenticados derrubar processos de trabalho do NGINX Plus e do NGINX Open Source por meio de requisições HTTP manipuladas. Os problemas afetam o plano de dados do servidor, que processa o tráfego dos usuários, e não o plano de controle. As vulnerabilidades foram classificadas como Alta, com pontuação 8,1 no CVSS v3.1, e Crítica, com 9,2 no CVSS v4.0. A CVE-2026-97205 é uma falha de uso após liberação de memória no módulo ngx_http_core_module (CVSS de 9.2).",
-      "link": "https://www.cisoadvisor.com.br/nginx-tem-tres-falhas-graves-de-memoria/",
-      "published": "15/10/2026 12:00",
-      "cves": [
-        "CVE-2026-97205"
-      ],
-      "vendor": "NGINX"
-    },
-    {
-      "title": "Microsoft corrige mais de 1.400 falhas em recorde",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Microsoft publicou atualizações que corrigem mais de 1.400 falhas de segurança em seus produtos, incluindo uma vulnerabilidade explorada ativamente antes da correção. Nunca antes a empresa havia fechado tantas brechas em uma única Patch Tuesday. Cerca de 1.100 dos problemas estão no Windows, entre eles uma falha no Windows Shell (CVE-2026-96951) que permite contornar o Mark of the Web e já vinha sendo usada em ataques. O Mark of the Web é um recurso de segurança do Windows que marca arquivos baixados da internet. Ao abrir um arquivo com essa marca, o sistema exibe um aviso adicional ao usuário. A Microsoft não forneceu detalhes sobre os ataques observados, segundo o comunicado da empresa.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-corrige-mais-de-1-400-falhas-em-recorde/",
-      "published": "15/10/2026 12:00",
-      "cves": [
-        "CVE-2026-96951"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Três zero days no Ivanti Connect Secure levam a controle total",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Um atacante encadeou três falhas zero day no Ivanti Connect Secure para executar comandos como root sem fazer login. O equipamento invadido estava com todas as atualizações em dia, rodando a versão 22.8R2.4, quando a exploração começou em 3 de outubro. A Volexity, que descobriu o caso e reportou as falhas à fabricante, rastreia o responsável como UTA0576 e avaliou com baixa confiança que a motivação é criminal, e não espionagem. A Ivanti confirmou em 13 de outubro ter conhecimento de exploração limitada. As duas primeiras falhas, um desvio de autenticação e uma execução remota de código, foram registradas juntas sob o CVE-2026-104935, com nota 8.6 na escala CVSS.",
-      "link": "https://boletimsec.com/tres-zero-days-no-ivanti-connect-secure-levam-a-controle-total/",
-      "published": "15/10/2026 12:00",
+      "summary": "A CISA pediu que administradores corrijam appliances Ivanti Connect Secure após a exploração da CVE-2026-104935 , falha zero-day que permite contornar autenticação remotamente e executar comandos, viabilizando roubo de credenciais e exfiltração de dados. O alerta foi publicado em 13 de outubro de 2026, quando a agência incluiu o problema em seu catálogo de vulnerabilidades conhecidas e exploradas. O aviso abrange as versões 25.1.1.1 e anteriores, 25.1.2.2 e anteriores, e 22.8R2.4 e anteriores do Ivanti Connect Secure.",
+      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-de-zero-day-no-ivanti/",
+      "published": "16/10/2026 12:00",
       "cves": [
         "CVE-2026-104935"
       ],
       "vendor": "Ivanti"
+    },
+    {
+      "title": "Falha crítica no conector do GitHub do ChatGPT permite roubo de repositórios",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Instruções escondidas em um repositório público do GitHub conseguem fazer o agente do ChatGPT alcançar repositórios privados da vítima, gravar workflow neles e exfiltrar o que está guardado ali. O caminho foi demonstrado pelo pesquisador Sunil Tripathy, que lhe atribuiu nota 9.3. A técnica é injeção indireta de prompt. A vítima pede ao agente que revise o repositório público do atacante, e as instruções plantadas ali passam a ser seguidas como se fossem comando confiável do próprio usuário. Pedido direto para roubar dado foi recusado pelo agente. O que funcionou foi apresentar a instrução como requisito de implantação.",
+      "link": "https://boletimsec.com/falha-critica-no-conector-do-github-do-chatgpt-permite-roubo-de-repositorios/",
+      "published": "16/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Burger King Japão confirma vazamento de 11 milhões de registros de usuários",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Burger King Japão confirmou em 15 de outubro o vazamento de cerca de 11,18 milhões de registros de membros do seu aplicativo. Um terceiro obteve acesso não autorizado ao sistema que administra esses dados entre 2 e 7 de outubro. Os campos expostos incluem identificador de membro, endereço de e-mail, tipo de cadastro, prefeitura, gênero, data de nascimento, nome completo em kanji e em kana, número de telefone, histórico de uso de pedidos pelo aplicativo e situação da verificação do e-mail. A empresa afirma não armazenar número de cartão de crédito, de modo que dado de pagamento não está no conjunto. O vazamento de senhas não foi confirmado até agora, e a investigação segue em andamento.",
+      "link": "https://boletimsec.com/burger-king-japao-confirma-vazamento-de-11-milhoes-de-registros-de-usuarios/",
+      "published": "16/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falha no Windows SmartScreen permite ataques de elevação de privilégio",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Microsoft divulgou em 13 de outubro uma falha no Windows SmartScreen que permite a um atacante com acesso local elevar o próprio privilégio no sistema. Registrada como CVE-2026-85851, recebeu nota 7.8 na escala CVSS e classificação Important. O problema é um use after free, da categoria CWE-416. O componente acessa memória já liberada, e outra operação pode reaproveitar esse espaço, o que leva a corrupção de memória e a comportamento fora do previsto. Para o ataque funcionar, basta acesso local e algum privilégio já concedido no dispositivo. Não há interação do usuário envolvida, e a complexidade de ataque é baixa pela própria classificação da Microsoft.",
+      "link": "https://boletimsec.com/falha-no-windows-smartscreen-permite-ataques-de-elevacao-de-privilegio/",
+      "published": "16/10/2026 12:00",
+      "cves": [
+        "CVE-2026-85851"
+      ],
+      "vendor": "Microsoft"
     }
   ]
 }
