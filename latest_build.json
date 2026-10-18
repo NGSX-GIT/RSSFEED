@@ -1,68 +1,62 @@
 {
-  "generated_at": "2026-10-17T12:00:00.090399-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-10-18T12:00:00.685045-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "BeyondTrust corrige zero-day explorado desde agosto",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A BeyondTrust alertou clientes na quinta-feira, 15 de outubro de 2026, para corrigirem uma falha crítica no Remote Support (RS) explorada em ataques zero-day desde o fim de agosto. O produto é a solução corporativa de suporte remoto da empresa, usada por service desks de TI e equipes de atendimento ao cliente para solucionar problemas à distância. Rastreada como CVE-2026-102764 , a vulnerabilidade de contorno de autenticação explorada ativamente permite que atacantes remotos sem privilégios realizem operações de arquivo em appliances sem correção e afeta as versões RS 26.2.3 ou anteriores.",
-      "link": "https://www.cisoadvisor.com.br/beyondtrust-corrige-zero-day-explorado-desde-agosto/",
-      "published": "17/10/2026 12:00",
-      "cves": [
-        "CVE-2026-102764"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha crítica no BlockStrap permite RCE no Magento",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Pesquisadores alertam que hackers podem explorar em breve uma vulnerabilidade de gravidade máxima (CVE-2026-103849) que afeta o Magento e o Adobe Commerce, com potencial para executar código PHP arbitrário nos servidores das lojas. Segundo a empresa de segurança para e-commerce Sansec, ataques que aproveitam a falha, apelidada de BlockStrap, ainda não foram observados, mas espera-se que atores de ameaça encontrem uma forma de explorá-la. Os pesquisadores basearam a avaliação na identificação de quatro possíveis caminhos de ataque envolvendo a CVE-2026-103849 em menos de 24 horas.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-blockstrap-permite-rce-no-magento/",
-      "published": "17/10/2026 12:00",
-      "cves": [
-        "CVE-2026-103849"
-      ],
-      "vendor": "Adobe"
-    },
-    {
-      "title": "1 dia Segurança Custo de violação de dados bate recorde no Brasil e chega a R$ 7,44 milhões",
+      "title": "2 dias Segurança Custo de violação de dados bate recorde no Brasil e chega a R$ 7,44 milhões",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "breach",
       "summary": "O custo médio de uma violação de dados no Brasil atingiu R$ 7,44 milhões em 2026. É o que mostra o estudo estudo Cost of a Data Breach 2026 da IBM, revelado nesta quinta-feira (15). A quantia é relacionada aos custos de recuperação de ataques , que envolvem a contratação de especialistas para investigar o incidente, conter danos e restabelecer serviços, além de eventuais multas e sanções . No caso do Brasil, esse é o maior valor já registrado na série histórica da pesquisa até o momento . A quantia também segue em um ritmo de crescimento após um aumento de 3,5% em relação à cifra do ano anterior , de R$ 7,19 milhões.",
       "link": "https://canaltech.com.br/seguranca/custo-de-violacao-de-dados-bate-recorde-no-brasil-e-chega-a-r-744-milhoes/",
-      "published": "17/10/2026 12:00",
+      "published": "18/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "2 dias Segurança Vazamento expõe dados de contas da Ticketmaster no Brasil",
+      "title": "MovSec e Verta em parceria na gestão de risco de terceiros",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A MovSec firmou parceria com a Verta, plataforma brasileira de Governança de Riscos Digitais, segundo comunicado da companhia. O acordo amplia a capacidade de gerenciamento de riscos digitais da MovSec, com destaque para a solução TPRM, voltada ao monitoramento e à gestão dos riscos associados a fornecedores, parceiros e prestadores de serviços. A KPMG aponta que 83% dos executivos planejam expandir suas redes de parceiros nos próximos um a três anos. No entanto, apenas 17% das organizações estenderam seus planos de resiliência para além dos processos críticos internos, o que revela lacuna na preparação para lidar com riscos interconectados.",
+      "link": "https://www.cisoadvisor.com.br/movsec-e-verta-em-parceria-na-gestao-de-risco-de-terceiros/",
+      "published": "18/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Pequenas empresas na mira, e menos protegidas",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "À medida que os negócios dependem mais de seus ambientes digitais, temas como disponibilidade, proteção de dados e resposta a incidentes ganham peso na continuidade das operações. É justamente entre as empresas menores que a defesa está menos estruturada. Pesquisa do Sebrae em parceria com a FGV IBRE, que ouviu 4.466 empreendedores, apontou que 44% dos pequenos negócios foram alvo de golpes digitais ou por telefone nos 12 meses anteriores, patamar próximo ao das médias e grandes empresas (47%). Quando o golpe se consuma, 31% das pequenas relatam prejuízo financeiro, ante 22% das maiores. A diferença está no preparo.",
+      "link": "https://www.cisoadvisor.com.br/pequenas-empresas-na-mira-e-menos-protegidas/",
+      "published": "18/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "3 dias Segurança Falha amadora: Senha '123456' expõe dados de todos os habitantes de um país europeu",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Por André Lourenti Magalhães • Editado por Jones Oliveira | 14/10/2026 às 15:33 • Atualizado 14/10/2026 às 15:38 Um vazamento na base de dados da Central de Registros de Pessoas da Dinamarca expôs os dados de mais de 8 milhões de pessoas no país europeu por causa de um erro simples de segurança. Um hacker que alega a autoria do ataque afirma que teve acesso aos dados após usar a senha “123456” . De acordo com o jornal dinamarquês Politiken, a pessoa afirmou que não tem interesse em vender os dados. Pelo menos três contas corporativas usavam a senha extremamente básica , incluindo um perfil com acesso de administrador.",
+      "link": "https://canaltech.com.br/seguranca/falha-amadora-senha-123456-expoe-dados-de-todos-os-habitantes-de-um-pais-europeu/",
+      "published": "18/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "3 dias Segurança Vazamento expõe dados de contas da Ticketmaster no Brasil",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "breach",
       "summary": "Por André Lourenti Magalhães • Editado por Jones Oliveira | 14/10/2026 às 16:46 • Atualizado 15/10/2026 às 10:33 A operadora de eventos Ticketmaster confirmou um incidente envolvendo dados de clientes e entrou em contato com as contas afetadas a partir desta quarta-feira (14) para relatar a situação. A empresa afirma que informações como nome, CPF, e-mail e dados relacionados a compras de ingressos foram expostas. Por e-mail, a Ticketmaster afirma ter feito um a investigação com a ajuda de especialistas externos em cibersegurança, concluída em setembro deste ano.",
       "link": "https://canaltech.com.br/seguranca/vazamento-expoe-dados-de-contas-da-ticketmaster-no-brasil/",
-      "published": "17/10/2026 12:00",
+      "published": "18/10/2026 12:00",
       "cves": [],
       "vendor": null
-    },
-    {
-      "title": "Falha remota sem autenticação atinge o NGINX",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Uma falha explorável remotamente e sem autenticação no NGINX está presente em toda versão desde a 0.1.29, de maio de 2005. A CVE-2026-15176 é um estouro de buffer no ngx_http_core_module, com nota 8.1, e recebeu correção em 14 de outubro. Ela não alcança qualquer instalação. Depende de bloco location que combine alias com rewrite, set ou return usando a variável request_filename, ou do uso dessa mesma variável no formato do log de acesso. O reparo saiu nas versões 1.31.7 e 1.30.6, que fecham cinco falhas no total.",
-      "link": "https://boletimsec.com/falha-remota-sem-autenticacao-atinge-o-nginx/",
-      "published": "17/10/2026 12:00",
-      "cves": [
-        "CVE-2026-15176"
-      ],
-      "vendor": "NGINX"
     }
   ]
 }
