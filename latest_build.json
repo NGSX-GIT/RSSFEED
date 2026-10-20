@@ -1,60 +1,68 @@
 {
-  "generated_at": "2026-10-19T12:00:00.134501-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-10-20T12:00:00.195558-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Credencial comprometida do ConnectWise foi usada em 173 ambientes Microsoft",
+      "title": "F5 corrige falhas críticas no NGINX com patches emergenciais",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A F5 publicou correções de segurança fora do ciclo regular para tratar múltiplas falhas no servidor web NGINX, incluindo três vulnerabilidades de severidade crítica que permitem a execução de código em sistemas afetados. Os patches foram divulgados nesta segunda-feira (19) e abrangem produtos como NGINX Plus, NGINX Open Source, NGINX Ingress Controller, NGINX Gateway Fabric e NGINX Instance Manager. As três falhas críticas foram identificadas no módulo ngx_http_v3_module ( CVE-2026-15176 e CVE-2026-97205 ) e na diretiva map do NGINX ( CVE-2026-93479 ).",
+      "link": "https://www.cisoadvisor.com.br/f5-corrige-falhas-criticas-no-nginx-com-patches-emergenciais/",
+      "published": "20/10/2026 12:00",
+      "cves": [
+        "CVE-2026-15176",
+        "CVE-2026-97205",
+        "CVE-2026-93479"
+      ],
+      "vendor": "NGINX"
+    },
+    {
+      "title": "Drupal corrige falhas críticas de RCE e alerta para exploits",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Drupal publicou correções para duas vulnerabilidades críticas que permitem a execução remota de código em sites que rodam qualquer versão suportada do sistema de gerenciamento de conteúdo. As falhas afetam o módulo Field UI do núcleo do software e o módulo contribuído Entity List. A equipe de segurança do projeto alertou no início da semana que administradores deveriam reservar tempo para atualizações, pois exploits poderiam ser desenvolvidos em questão de horas ou dias. Segundo o comunicado do projeto, “todas as versões atualmente suportadas do núcleo do Drupal são afetadas”.",
+      "link": "https://www.cisoadvisor.com.br/drupal-corrige-falhas-criticas-de-rce-e-alerta-para-exploits/",
+      "published": "20/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos exploram falha no WAF SiteGuard",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Uma credencial comprometida do ConnectWise Cloud Backup, antes chamado SkyKick Backup, foi usada para entrar em ao menos 173 ambientes de parceiros e clientes no Microsoft 365. A Microsoft Threat Intelligence classificou o caso como ataque ativo à cadeia de fornecimento. O acesso não passou por senha nem por segundo fator. A entrada usou uma asserção de cliente emitida pelo ambiente do fornecedor, e o invasor se apresentou como a identidade de aplicativo já aprovada, recebendo tokens do Microsoft Graph. Os acessos ocorreram em 15 de outubro, entre 06h13 e 08h34 no horário UTC.",
-      "link": "https://boletimsec.com/credencial-comprometida-do-connectwise-foi-usada-em-173-ambientes-microsoft/",
-      "published": "19/10/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "A EG Secure Solutions confirmou exploração da CVE-2026-106931 no SiteGuard Server Edition, firewall de aplicação instalado no próprio servidor protegido. A falha permite executar comandos do sistema como root no Unix e como SYSTEM no Windows. O problema é uma injeção de comando na função de processamento de estatísticas, que vem habilitada por padrão. A classificação é CWE-78, e as notas são 8.5 na escala CVSS 4.0 e 7.8 na CVSS 3.0. As duas notas descrevem ataque local, com privilégio baixo e sem interação do usuário. Não houve confirmação de exploração remota sem autenticação, e esse é o ponto que separa a gravidade publicada de um cenário de borda aberta.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-waf-siteguard/",
+      "published": "20/10/2026 12:00",
+      "cves": [
+        "CVE-2026-106931"
+      ],
+      "vendor": "Windows"
     },
     {
-      "title": "Cadeia de fornecedores é desafio de resiliência",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O avanço dos ciberataques expõe falhas no controle de fornecedores, softwares e serviços externos e reforça a necessidade de visibilidade, monitoramento contínuo e governança. Dados do Global Cybersecurity Outlook 2026, do World Economic Forum, apontam que 65% das grandes empresas consideram as vulnerabilidades de terceiros e da cadeia de suprimentos seu principal desafio para alcançar resiliência cibernética, ante 54% no levantamento anterior. “O problema está menos na quantidade de fornecedores e mais na dificuldade de compreender e acompanhar os riscos associados a cada elo da cadeia”, afirma Vitor Villani, CEO da Shield Security.",
-      "link": "https://www.cisoadvisor.com.br/cadeia-de-fornecedores-e-desafio-de-resiliencia/",
-      "published": "19/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "3 dias Segurança Custo de violação de dados bate recorde no Brasil e chega a R$ 7,44 milhões",
-      "source": "Canaltech Segurança",
+      "title": "Grupo ligado à China explorou zero day no BeyondTrust",
+      "source": "BoletimSec Notícias",
       "priority": "Baixa",
-      "category": "breach",
-      "summary": "O custo médio de uma violação de dados no Brasil atingiu R$ 7,44 milhões em 2026. É o que mostra o estudo estudo Cost of a Data Breach 2026 da IBM, revelado nesta quinta-feira (15). A quantia é relacionada aos custos de recuperação de ataques , que envolvem a contratação de especialistas para investigar o incidente, conter danos e restabelecer serviços, além de eventuais multas e sanções . No caso do Brasil, esse é o maior valor já registrado na série histórica da pesquisa até o momento . A quantia também segue em um ritmo de crescimento após um aumento de 3,5% em relação à cifra do ano anterior , de R$ 7,19 milhões.",
-      "link": "https://canaltech.com.br/seguranca/custo-de-violacao-de-dados-bate-recorde-no-brasil-e-chega-a-r-744-milhoes/",
-      "published": "19/10/2026 12:00",
-      "cves": [],
+      "category": "patches",
+      "summary": "O grupo de espionagem ARMORY CASTLE, suspeito de atuar a serviço da China, explorou como zero day a falha CVE-2026-102764 em appliances BeyondTrust Remote Support e chegou a acesso root. A nota é 9.3 na escala CVSS. Segundo a BeyondTrust, um componente interno de mensagens não verificava a origem do que recebia. Para a Mandiant, um invasor remoto e sem autenticação realiza operações de arquivo no equipamento, o que pode levar ao controle total do host. A exploração começou em 29 de agosto, contra uma instância hospedada e um appliance do próprio cliente.",
+      "link": "https://boletimsec.com/grupo-ligado-a-china-explorou-zero-day-no-beyondtrust/",
+      "published": "20/10/2026 12:00",
+      "cves": [
+        "CVE-2026-102764"
+      ],
       "vendor": null
     },
     {
-      "title": "Pequenas empresas: na mira e menos protegidas",
-      "source": "CISO Advisor",
+      "title": "Falha na OpenCode expõe chaves de API de terceiros",
+      "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "patches",
-      "summary": "À medida que os negócios dependem mais de seus ambientes digitais, temas como disponibilidade, proteção de dados e resposta a incidentes ganham peso na continuidade das operações. É justamente entre as empresas menores que a defesa está menos estruturada. Pesquisa do Sebrae em parceria com a FGV IBRE, que ouviu 4.466 empreendedores, apontou que 44% dos pequenos negócios foram alvo de golpes digitais ou por telefone nos 12 meses anteriores, patamar próximo ao das médias e grandes empresas (47%). Quando o golpe se consuma, 31% das pequenas relatam prejuízo financeiro, ante 22% das maiores. A diferença está no preparo.",
-      "link": "https://www.cisoadvisor.com.br/pequenas-empresas-na-mira-e-menos-protegidas/",
-      "published": "19/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Vazamento expõe 119,4 milhões de registros de viajantes",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "Levantamento conjunto da NordVPN e da Saily identificou 119,4 milhões de registros de viajantes expostos na dark web em 494 vazamentos do setor de turismo, ocorridos entre 1º de janeiro de 2021 e 18 de agosto de 2026. Os dados foram analisados pela plataforma NordLayer Intelligence e abrangem companhias aéreas, hotéis, plataformas de reserva, empresas de passeios, locadoras de veículos, operadoras de cruzeiros e empresas ferroviárias. Entre os incidentes analisados, 92% incluíam nomes completos, 87% continham telefones e 78% expunham endereços. Datas de nascimento apareciam em 55% dos casos, senhas em 46%, nacionalidade em 19% e documentos oficiais de identificação em 11%.",
-      "link": "https://www.cisoadvisor.com.br/vazamento-expoe-1194-milhoes-de-registros-de-viajantes/",
-      "published": "19/10/2026 12:00",
+      "summary": "A OpenCode informou que um invasor alcançou um sistema legado na noite de 16 de outubro e que chaves de API de provedores externas, salvas pelos usuários no Console, podem ter sido expostas. O grupo afetado é de 1.4% dos usuários do Console. O sistema alcançado já estava em processo de desativação. A empresa não detalhou como o acesso ocorreu, quanto tempo durou, nem quantas chaves estavam guardadas ali. A exposição foi descrita como possível, não como confirmada. A OpenCode não afirmou que alguma chave tenha sido copiada ou usada, e parte dos usuários relatou cobranças não reconhecidas nas contas dos provedores.",
+      "link": "https://boletimsec.com/falha-na-opencode-expoe-chaves-de-api-de-terceiros/",
+      "published": "20/10/2026 12:00",
       "cves": [],
       "vendor": null
     }
