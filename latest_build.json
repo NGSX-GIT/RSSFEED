@@ -1,69 +1,63 @@
 {
-  "generated_at": "2026-10-20T12:00:00.195558-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-10-21T12:00:00.169266-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "F5 corrige falhas críticas no NGINX com patches emergenciais",
+      "title": "88% temem demissão por falhas em soberania de dados",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A F5 publicou correções de segurança fora do ciclo regular para tratar múltiplas falhas no servidor web NGINX, incluindo três vulnerabilidades de severidade crítica que permitem a execução de código em sistemas afetados. Os patches foram divulgados nesta segunda-feira (19) e abrangem produtos como NGINX Plus, NGINX Open Source, NGINX Ingress Controller, NGINX Gateway Fabric e NGINX Instance Manager. As três falhas críticas foram identificadas no módulo ngx_http_v3_module ( CVE-2026-15176 e CVE-2026-97205 ) e na diretiva map do NGINX ( CVE-2026-93479 ).",
-      "link": "https://www.cisoadvisor.com.br/f5-corrige-falhas-criticas-no-nginx-com-patches-emergenciais/",
-      "published": "20/10/2026 12:00",
-      "cves": [
-        "CVE-2026-15176",
-        "CVE-2026-97205",
-        "CVE-2026-93479"
-      ],
-      "vendor": "NGINX"
-    },
-    {
-      "title": "Drupal corrige falhas críticas de RCE e alerta para exploits",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Drupal publicou correções para duas vulnerabilidades críticas que permitem a execução remota de código em sites que rodam qualquer versão suportada do sistema de gerenciamento de conteúdo. As falhas afetam o módulo Field UI do núcleo do software e o módulo contribuído Entity List. A equipe de segurança do projeto alertou no início da semana que administradores deveriam reservar tempo para atualizações, pois exploits poderiam ser desenvolvidos em questão de horas ou dias. Segundo o comunicado do projeto, “todas as versões atualmente suportadas do núcleo do Drupal são afetadas”.",
-      "link": "https://www.cisoadvisor.com.br/drupal-corrige-falhas-criticas-de-rce-e-alerta-para-exploits/",
-      "published": "20/10/2026 12:00",
+      "summary": "A Everpure (NYSE: P) divulgou uma pesquisa global que revela que 88% dos líderes C-level de grandes companhias acreditam que uma falha na soberania de dados pode lhes custar o emprego, enquanto 91% temem prejuízos financeiros e danos à reputação corporativa. Apesar desses riscos, 64% das organizações pesquisadas operam sem uma estratégia formal de soberania de dados, expondo uma vulnerabilidade na gestão moderna de dados corporativos diante do atual cenário de incerteza geopolítica. A soberania de dados tornou-se uma questão crítica para os negócios, diante de riscos que vão da extração de dados imposta por autoridades estrangeiras a possíveis incidentes de negação de serviço (DoS).",
+      "link": "https://www.cisoadvisor.com.br/88-temem-desemprego-por-falha-em-soberania-de-dados/",
+      "published": "21/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos exploram falha no WAF SiteGuard",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
+      "title": "ConnectWise segue com nuvem parada após invasão na cadeia de suprimentos",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A EG Secure Solutions confirmou exploração da CVE-2026-106931 no SiteGuard Server Edition, firewall de aplicação instalado no próprio servidor protegido. A falha permite executar comandos do sistema como root no Unix e como SYSTEM no Windows. O problema é uma injeção de comando na função de processamento de estatísticas, que vem habilitada por padrão. A classificação é CWE-78, e as notas são 8.5 na escala CVSS 4.0 e 7.8 na CVSS 3.0. As duas notas descrevem ataque local, com privilégio baixo e sem interação do usuário. Não houve confirmação de exploração remota sem autenticação, e esse é o ponto que separa a gravidade publicada de um cenário de borda aberta.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-waf-siteguard/",
-      "published": "20/10/2026 12:00",
-      "cves": [
-        "CVE-2026-106931"
-      ],
-      "vendor": "Windows"
+      "summary": "A ConnectWise mantém serviços em nuvem fora do ar desde o ataque à cadeia de suprimentos que comprometeu o ConnectWise Cloud Backup, aplicativo de backup e recuperação usado por provedores de serviços gerenciados (MSPs) para proteger dados de Microsoft 365 e Google Workspace de seus clientes. O anúncio do comprometimento ocorreu no fim de semana. A empresa atende sobretudo MSPs, que administram sistemas de terceiros. O aplicativo tem acesso amplo a caixas de correio, OneDrive, SharePoint, Teams e dados de diretório de cada ambiente onde está instalado. Com isso, os invasores alcançaram ambientes Microsoft 365 administrados pelos MSPs.",
+      "link": "https://www.cisoadvisor.com.br/connectwise-segue-com-nuvem-parada-apos-invasao-na-cadeia-de-suprimentos/",
+      "published": "21/10/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     },
     {
-      "title": "Grupo ligado à China explorou zero day no BeyondTrust",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
+      "title": "PHP alerta para duas falhas críticas e correções emergenciais",
+      "source": "CISO Advisor",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "O grupo de espionagem ARMORY CASTLE, suspeito de atuar a serviço da China, explorou como zero day a falha CVE-2026-102764 em appliances BeyondTrust Remote Support e chegou a acesso root. A nota é 9.3 na escala CVSS. Segundo a BeyondTrust, um componente interno de mensagens não verificava a origem do que recebia. Para a Mandiant, um invasor remoto e sem autenticação realiza operações de arquivo no equipamento, o que pode levar ao controle total do host. A exploração começou em 29 de agosto, contra uma instância hospedada e um appliance do próprio cliente.",
-      "link": "https://boletimsec.com/grupo-ligado-a-china-explorou-zero-day-no-beyondtrust/",
-      "published": "20/10/2026 12:00",
-      "cves": [
-        "CVE-2026-102764"
-      ],
+      "summary": "A equipe de segurança do PHP alertou administradores a se prepararem para atualizações de segurança emergenciais nesta quarta-feira (21) para corrigir duas vulnerabilidades críticas, após informações sobre as falhas terem vazado antes da divulgação programada. Em comunicado publicado nesta terça-feira (20), o time de desenvolvimento do PHP informou que pretende liberar as correções às 14h UTC (11h de Brasília), com cada falha avaliada em 9,2 no CVSS v4.0. A equipe também enviou aviso à lista de discussão ANNOUNCE, pedindo que administradores estejam prontos para instalar as atualizações assim que estiverem disponíveis.",
+      "link": "https://www.cisoadvisor.com.br/php-alerta-para-duas-falhas-criticas-e-correcoes-emergenciais/",
+      "published": "21/10/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Falha na OpenCode expõe chaves de API de terceiros",
+      "title": "Cibercriminosos sequestram 790 repositórios do GitHub com workflow falso",
       "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Pesquisadores da OpenSourceMalware contaram 790 repositórios do GitHub com workflow malicioso do Actions plantado pela campanha GhostAction, em levantamento de repositórios validados e recuperáveis publicamente até 9 de outubro. O número não significa que todo repositório tenha vazado credencial ou sofrido uso indevido confirmado. A GitGuardian havia contado 772 repositórios entre 31 de agosto e 30 de setembro, em período e conjunto de evidências diferentes, e as duas contagens não se somam. A campanha abusa de conta de desenvolvedor confiável.",
+      "link": "https://boletimsec.com/cibercriminosos-sequestram-790-repositorios-do-github-com-workflow-falso/",
+      "published": "21/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Falha no Siemens Software Center é usada em ataques ClickFix",
+      "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "A OpenCode informou que um invasor alcançou um sistema legado na noite de 16 de outubro e que chaves de API de provedores externas, salvas pelos usuários no Console, podem ter sido expostas. O grupo afetado é de 1.4% dos usuários do Console. O sistema alcançado já estava em processo de desativação. A empresa não detalhou como o acesso ocorreu, quanto tempo durou, nem quantas chaves estavam guardadas ali. A exposição foi descrita como possível, não como confirmada. A OpenCode não afirmou que alguma chave tenha sido copiada ou usada, e parte dos usuários relatou cobranças não reconhecidas nas contas dos provedores.",
-      "link": "https://boletimsec.com/falha-na-opencode-expoe-chaves-de-api-de-terceiros/",
-      "published": "20/10/2026 12:00",
-      "cves": [],
+      "summary": "A Siemens publicou um boletim de segurança em 15 de outubro sobre uma vulnerabilidade no Software Center, aplicativo para baixar, instalar e ativar softwares adquiridos, que tem sido usada em ataques ClickFix. Rastreada como CVE-2026-110936 , a falha permite que atacantes carreguem código malicioso nos sistemas afetados. A vulnerabilidade diz respeito ao carregamento de arquivos DLL maliciosos. Um atacante pode colocar uma DLL maliciosa em um diretório específico; assim que o Siemens Software Center é iniciado, ele busca arquivos DLL nesse diretório e os carrega, se encontrados. Isso possibilita a execução arbitrária de código com as permissões da aplicação.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-siemens-software-center-e-usada-em-ataques-clickfix/",
+      "published": "21/10/2026 12:00",
+      "cves": [
+        "CVE-2026-110936"
+      ],
       "vendor": null
     }
   ]
