@@ -1,62 +1,70 @@
 {
-  "generated_at": "2026-10-21T12:00:00.169266-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-10-22T10:31:59.092926-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "88% temem demissão por falhas em soberania de dados",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Everpure (NYSE: P) divulgou uma pesquisa global que revela que 88% dos líderes C-level de grandes companhias acreditam que uma falha na soberania de dados pode lhes custar o emprego, enquanto 91% temem prejuízos financeiros e danos à reputação corporativa. Apesar desses riscos, 64% das organizações pesquisadas operam sem uma estratégia formal de soberania de dados, expondo uma vulnerabilidade na gestão moderna de dados corporativos diante do atual cenário de incerteza geopolítica. A soberania de dados tornou-se uma questão crítica para os negócios, diante de riscos que vão da extração de dados imposta por autoridades estrangeiras a possíveis incidentes de negação de serviço (DoS).",
-      "link": "https://www.cisoadvisor.com.br/88-temem-desemprego-por-falha-em-soberania-de-dados/",
-      "published": "21/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "ConnectWise segue com nuvem parada após invasão na cadeia de suprimentos",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A ConnectWise mantém serviços em nuvem fora do ar desde o ataque à cadeia de suprimentos que comprometeu o ConnectWise Cloud Backup, aplicativo de backup e recuperação usado por provedores de serviços gerenciados (MSPs) para proteger dados de Microsoft 365 e Google Workspace de seus clientes. O anúncio do comprometimento ocorreu no fim de semana. A empresa atende sobretudo MSPs, que administram sistemas de terceiros. O aplicativo tem acesso amplo a caixas de correio, OneDrive, SharePoint, Teams e dados de diretório de cada ambiente onde está instalado. Com isso, os invasores alcançaram ambientes Microsoft 365 administrados pelos MSPs.",
-      "link": "https://www.cisoadvisor.com.br/connectwise-segue-com-nuvem-parada-apos-invasao-na-cadeia-de-suprimentos/",
-      "published": "21/10/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "PHP alerta para duas falhas críticas e correções emergenciais",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A equipe de segurança do PHP alertou administradores a se prepararem para atualizações de segurança emergenciais nesta quarta-feira (21) para corrigir duas vulnerabilidades críticas, após informações sobre as falhas terem vazado antes da divulgação programada. Em comunicado publicado nesta terça-feira (20), o time de desenvolvimento do PHP informou que pretende liberar as correções às 14h UTC (11h de Brasília), com cada falha avaliada em 9,2 no CVSS v4.0. A equipe também enviou aviso à lista de discussão ANNOUNCE, pedindo que administradores estejam prontos para instalar as atualizações assim que estiverem disponíveis.",
-      "link": "https://www.cisoadvisor.com.br/php-alerta-para-duas-falhas-criticas-e-correcoes-emergenciais/",
-      "published": "21/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cibercriminosos sequestram 790 repositórios do GitHub com workflow falso",
+      "title": "Falhas no núcleo do PHP permitem execução remota sem autenticação",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da OpenSourceMalware contaram 790 repositórios do GitHub com workflow malicioso do Actions plantado pela campanha GhostAction, em levantamento de repositórios validados e recuperáveis publicamente até 9 de outubro. O número não significa que todo repositório tenha vazado credencial ou sofrido uso indevido confirmado. A GitGuardian havia contado 772 repositórios entre 31 de agosto e 30 de setembro, em período e conjunto de evidências diferentes, e as duas contagens não se somam. A campanha abusa de conta de desenvolvedor confiável.",
-      "link": "https://boletimsec.com/cibercriminosos-sequestram-790-repositorios-do-github-com-workflow-falso/",
-      "published": "21/10/2026 12:00",
+      "summary": "O projeto PHP publicou em 21 de outubro correções de emergência para duas falhas críticas no núcleo da linguagem, CVE-2026-109618 e CVE-2026-109619, tratadas em conjunto como PHP2Shell. As duas receberam nota 9,2 na escala CVSS 4.0 e permitem execução remota de código. A CVE-2026-109618 está no tratamento de falta de memória. O uso de longjmp pode deixar dados da requisição parcialmente inicializados, e o encerramento posterior age sobre dado inválido. Requisição multipart com muitos cabeçalhos ou campo de arquivo vazio pode disparar a condição. A CVE-2026-109619 está em estado global obsoleto em worker de vida longa, que mantém referência a memória já liberada.",
+      "link": "https://boletimsec.com/falhas-no-nucleo-do-php-permitem-execucao-remota-sem-autenticacao/",
+      "published": "22/10/2026 10:32",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "PHP: 22,6 milhões de sites estão vulneráveis",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "As duas vulnerabilidades na linguagem PHP reveladas ontem (CVE-2026-109618 e CVE-2026-109619, ambas com CVSS de 9.8, deixam 22,6 milhões de sites expostos. A equipe de segurança do PHP publicou um comunicado oficial classificando ambas como críticas, e alertou que não existem mitigações completas que não sejam as das atualizações. Segundo a Unit 42, da Palo Alto Networks, as falhas já contam com exploits varrendo a internet em busca de servidores vulneráveis. Governos retiraram sites do ar como medida de contenção, de acordo com a análise publicada pela empresa.",
+      "link": "https://www.cisoadvisor.com.br/php-226-milhoes-de-sites-estao-vulneraveis/",
+      "published": "22/10/2026 10:32",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "SafePay atinge 600 organizações de infraestrutura crítica",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "O grupo de ransomware SafePay invadiu mais de 600 organizações de infraestrutura crítica em todo o mundo desde 2024, segundo a Agência de Segurança Cibernética e Infraestrutura dos Estados Unidos (CISA). Em relatório conjunto com o FBI, o Serviço Secreto dos EUA (USSS), o Landeskriminalamt Rheinland-Pfalz, da Alemanha, e a Agência Nacional contra o Crime e a Unidade Regional de Crime Organizado do Noroeste, do Reino Unido, a agência federal afirmou que pagar resgates não garante a recuperação de arquivos criptografados e pediu que vítimas reportem incidentes às autoridades.",
+      "link": "https://www.cisoadvisor.com.br/safepay-atinge-600-organizacoes-de-infraestrutura-critica/",
+      "published": "22/10/2026 10:32",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Falha no Siemens Software Center é usada em ataques ClickFix",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "title": "Falhas no Node.js quebram a verificação de nome no TLS",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
       "category": "patches",
-      "summary": "A Siemens publicou um boletim de segurança em 15 de outubro sobre uma vulnerabilidade no Software Center, aplicativo para baixar, instalar e ativar softwares adquiridos, que tem sido usada em ataques ClickFix. Rastreada como CVE-2026-110936 , a falha permite que atacantes carreguem código malicioso nos sistemas afetados. A vulnerabilidade diz respeito ao carregamento de arquivos DLL maliciosos. Um atacante pode colocar uma DLL maliciosa em um diretório específico; assim que o Siemens Software Center é iniciado, ele busca arquivos DLL nesse diretório e os carrega, se encontrados. Isso possibilita a execução arbitrária de código com as permissões da aplicação.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-siemens-software-center-e-usada-em-ataques-clickfix/",
-      "published": "21/10/2026 12:00",
+      "summary": "O Node.js publicou em 21 de outubro atualizações de segurança para as linhas 26, 24 e 22, corrigindo dez vulnerabilidades, quatro delas de gravidade alta. As versões corrigidas são a 26.12.1, a 24.22.1 e a 22.23.4, segundo o aviso do projeto relatado pelo Cyber Security News. A mais severa está no decodificador Brotli, identificada como CVE-2026-111497. É uma escrita fora dos limites de memória que pode levar à execução remota de código, e atinge as três linhas. O aviso não detalha as condições necessárias para a exploração. Duas falhas de alta gravidade afetam a verificação de nome no TLS.",
+      "link": "https://boletimsec.com/falhas-no-node-js-quebram-a-verificacao-de-nome-no-tls/",
+      "published": "22/10/2026 10:32",
       "cves": [
-        "CVE-2026-110936"
+        "CVE-2026-111497"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Node.js corrige falhas graves em TLS, DNS e Brotli",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Node.js lançou atualizações de segurança para as ramificações 26.x, 24.x e 22.x com o objetivo de corrigir dez vulnerabilidades, incluindo quatro falhas de alta severidade que afetam consultas DNS, verificações de certificados TLS e descompressão Brotli. As versões corrigidas são 26.12.1, 24.22.1 e 22.23.4, segundo os detalhes de lançamento. O desfecho mais grave possível é a execução remota de código por meio do decodificador Brotli. A atualização de outubro também abrange tratamento de conexões HTTP, valores aleatórios repetidos, processamento de ZIP e verificações de permissão do sistema de arquivos. O CVE-2026-111497 afeta o decodificador Brotli nas três linhas de lançamento.",
+      "link": "https://www.cisoadvisor.com.br/node-js-corrige-falhas-graves-em-tls-dns-e-brotli/",
+      "published": "22/10/2026 10:32",
+      "cves": [
+        "CVE-2026-111497"
       ],
       "vendor": null
     }
