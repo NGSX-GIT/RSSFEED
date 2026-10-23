@@ -1,71 +1,67 @@
 {
-  "generated_at": "2026-10-22T10:31:59.092926-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-10-23T12:00:00.246347-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Falhas no núcleo do PHP permitem execução remota sem autenticação",
-      "source": "BoletimSec Notícias",
+      "title": "Cisco corrige 34 vulnerabilidades em vários produtos",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O projeto PHP publicou em 21 de outubro correções de emergência para duas falhas críticas no núcleo da linguagem, CVE-2026-109618 e CVE-2026-109619, tratadas em conjunto como PHP2Shell. As duas receberam nota 9,2 na escala CVSS 4.0 e permitem execução remota de código. A CVE-2026-109618 está no tratamento de falta de memória. O uso de longjmp pode deixar dados da requisição parcialmente inicializados, e o encerramento posterior age sobre dado inválido. Requisição multipart com muitos cabeçalhos ou campo de arquivo vazio pode disparar a condição. A CVE-2026-109619 está em estado global obsoleto em worker de vida longa, que mantém referência a memória já liberada.",
-      "link": "https://boletimsec.com/falhas-no-nucleo-do-php-permitem-execucao-remota-sem-autenticacao/",
-      "published": "22/10/2026 10:32",
+      "summary": "A Cisco anunciou na quarta-feira (21) correções para 34 vulnerabilidades que afetam as linhas Expressway Series, IOS XR, Snort 3 e produtos de Unified Communications. Entre as falhas estão defeitos críticos que podem levar à execução de comandos, ao bypass de autenticação e a ataques de XSS. A empresa afirmou não ter conhecimento de exploração dessas vulnerabilidades em ataques reais. A Expressway Series recebeu correções para 10 vulnerabilidades, incluindo uma falha crítica de execução remota de código (RCE) rastreada como CVE-2026-76466.",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-34-vulnerabilidades-em-varios-produtos/",
+      "published": "23/10/2026 12:00",
       "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
+        "CVE-2026-76466"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Arista corrige zero-day no VeloCloud explorado em ataques",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Arista Networks publicou atualizações de segurança para corrigir uma vulnerabilidade zero-day explorada ativamente que afeta implantações on-premises do VeloCloud Orchestrator (VCO). O VCO é um portal de gerenciamento baseado em web que ajuda administradores a configurar, monitorar e gerenciar SD-WANs VeloCloud (redes de longa distância definidas por software) e dispositivos de borda associados. Rastreada como CVE-2026-114625 , a falha de severidade crítica permite que atacantes com privilégios básicos, acesso à interface web do VCO e uma sessão autenticada válida elevem privilégios por meio de ataques de injeção SQL de baixa complexidade que não exigem interação do usuário.",
+      "link": "https://www.cisoadvisor.com.br/arista-corrige-zero-day-no-velocloud-explorado-em-ataques/",
+      "published": "23/10/2026 12:00",
+      "cves": [
+        "CVE-2026-114625"
       ],
       "vendor": null
     },
     {
-      "title": "PHP: 22,6 milhões de sites estão vulneráveis",
+      "title": "Oracle corrige mais de 1.209 vulnerabilidades em outubro",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "As duas vulnerabilidades na linguagem PHP reveladas ontem (CVE-2026-109618 e CVE-2026-109619, ambas com CVSS de 9.8, deixam 22,6 milhões de sites expostos. A equipe de segurança do PHP publicou um comunicado oficial classificando ambas como críticas, e alertou que não existem mitigações completas que não sejam as das atualizações. Segundo a Unit 42, da Palo Alto Networks, as falhas já contam com exploits varrendo a internet em busca de servidores vulneráveis. Governos retiraram sites do ar como medida de contenção, de acordo com a análise publicada pela empresa.",
-      "link": "https://www.cisoadvisor.com.br/php-226-milhoes-de-sites-estao-vulneraveis/",
-      "published": "22/10/2026 10:32",
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "SafePay atinge 600 organizações de infraestrutura crítica",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "threat",
-      "summary": "O grupo de ransomware SafePay invadiu mais de 600 organizações de infraestrutura crítica em todo o mundo desde 2024, segundo a Agência de Segurança Cibernética e Infraestrutura dos Estados Unidos (CISA). Em relatório conjunto com o FBI, o Serviço Secreto dos EUA (USSS), o Landeskriminalamt Rheinland-Pfalz, da Alemanha, e a Agência Nacional contra o Crime e a Unidade Regional de Crime Organizado do Noroeste, do Reino Unido, a agência federal afirmou que pagar resgates não garante a recuperação de arquivos criptografados e pediu que vítimas reportem incidentes às autoridades.",
-      "link": "https://www.cisoadvisor.com.br/safepay-atinge-600-organizacoes-de-infraestrutura-critica/",
-      "published": "22/10/2026 10:32",
+      "summary": "A Oracle publicou sua Atualização Crítica de Patch (CPU) de outubro de 2026, com 1.295 novas correções em dezenas de produtos. Segundo análise da Tenable, a atualização aborda 1.209 CVEs únicos, incluindo 95 falhas de severidade crítica. A Tenable informa que 439 CVEs foram classificados como alta severidade e 582 como média. O Oracle Fusion Middleware recebeu o maior número de correções, 206, incluindo 134 que podem ser exploradas remotamente sem autenticação. Um volume significativo de patches também foi distribuído para E-Business Suite (194), Siebel CRM (122), Communications (110), PeopleSoft (109), JD Edwards (102), MySQL (98), Java SE (55) e Supply Chain (50).",
+      "link": "https://www.cisoadvisor.com.br/oracle-corrige-mais-de-1-209-vulnerabilidades-em-outubro/",
+      "published": "23/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Falhas no Node.js quebram a verificação de nome no TLS",
+      "title": "Falha crítica no GitLab permite execução de código sem autenticação",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O Node.js publicou em 21 de outubro atualizações de segurança para as linhas 26, 24 e 22, corrigindo dez vulnerabilidades, quatro delas de gravidade alta. As versões corrigidas são a 26.12.1, a 24.22.1 e a 22.23.4, segundo o aviso do projeto relatado pelo Cyber Security News. A mais severa está no decodificador Brotli, identificada como CVE-2026-111497. É uma escrita fora dos limites de memória que pode levar à execução remota de código, e atinge as três linhas. O aviso não detalha as condições necessárias para a exploração. Duas falhas de alta gravidade afetam a verificação de nome no TLS.",
-      "link": "https://boletimsec.com/falhas-no-node-js-quebram-a-verificacao-de-nome-no-tls/",
-      "published": "22/10/2026 10:32",
+      "summary": "O GitLab publicou em 21 de outubro a correção de uma falha crítica que permite execução de código sem autenticação em instalações self-managed. Identificada como CVE-2026-110264, ela recebeu nota CVSS 10.0, a máxima da escala, e não tem contorno disponível. A causa é um estouro de inteiro na compilação de expressões regulares. Segundo o aviso, uma expressão criada especificamente para isso faz o compilador transbordar e, sob certas condições, executar código no servidor. O ataque parte da rede, sem credencial e sem interação do usuário. A falha está presente em todas as versões a partir da 7.0, lançada em 2014, tanto na edição Community quanto na Enterprise.",
+      "link": "https://boletimsec.com/falha-critica-no-gitlab-permite-execucao-de-codigo-sem-autenticacao/",
+      "published": "23/10/2026 12:00",
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-110264"
       ],
       "vendor": null
     },
     {
-      "title": "Node.js corrige falhas graves em TLS, DNS e Brotli",
+      "title": "Leia o relatório que revelou as falhas críticas do PHP",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O Node.js lançou atualizações de segurança para as ramificações 26.x, 24.x e 22.x com o objetivo de corrigir dez vulnerabilidades, incluindo quatro falhas de alta severidade que afetam consultas DNS, verificações de certificados TLS e descompressão Brotli. As versões corrigidas são 26.12.1, 24.22.1 e 22.23.4, segundo os detalhes de lançamento. O desfecho mais grave possível é a execução remota de código por meio do decodificador Brotli. A atualização de outubro também abrange tratamento de conexões HTTP, valores aleatórios repetidos, processamento de ZIP e verificações de permissão do sistema de arquivos. O CVE-2026-111497 afeta o decodificador Brotli nas três linhas de lançamento.",
-      "link": "https://www.cisoadvisor.com.br/node-js-corrige-falhas-graves-em-tls-dns-e-brotli/",
-      "published": "22/10/2026 10:32",
-      "cves": [
-        "CVE-2026-111497"
-      ],
+      "summary": "“ PHP2Shell: IA descobre vulnerabilidades críticas de execução remota de código que afetam 70% da internet “. Esse é o título do relatório publicado ontem pela Wiz.io em seu blog, revelando e detalhando duas falhas críticas descobertas no PHP – uma das linguagens de programação mais utilizadas na web desde que ela foi criada. Perto de 70% das aplicações conectadas com a internet utilizam PHP. [estamos aguardando autorização da Wiz para reproduzir o relatório em português]",
+      "link": "https://www.cisoadvisor.com.br/leia-o-relatorio-que-revelou-as-falhas-criticas-do-php/",
+      "published": "23/10/2026 12:00",
+      "cves": [],
       "vendor": null
     }
   ]
