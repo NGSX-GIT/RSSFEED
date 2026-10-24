@@ -1,68 +1,62 @@
 {
-  "generated_at": "2026-10-23T12:00:00.246347-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-10-24T12:00:00.100232-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Cisco corrige 34 vulnerabilidades em vários produtos",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco anunciou na quarta-feira (21) correções para 34 vulnerabilidades que afetam as linhas Expressway Series, IOS XR, Snort 3 e produtos de Unified Communications. Entre as falhas estão defeitos críticos que podem levar à execução de comandos, ao bypass de autenticação e a ataques de XSS. A empresa afirmou não ter conhecimento de exploração dessas vulnerabilidades em ataques reais. A Expressway Series recebeu correções para 10 vulnerabilidades, incluindo uma falha crítica de execução remota de código (RCE) rastreada como CVE-2026-76466.",
-      "link": "https://www.cisoadvisor.com.br/cisco-corrige-34-vulnerabilidades-em-varios-produtos/",
-      "published": "23/10/2026 12:00",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Arista corrige zero-day no VeloCloud explorado em ataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Arista Networks publicou atualizações de segurança para corrigir uma vulnerabilidade zero-day explorada ativamente que afeta implantações on-premises do VeloCloud Orchestrator (VCO). O VCO é um portal de gerenciamento baseado em web que ajuda administradores a configurar, monitorar e gerenciar SD-WANs VeloCloud (redes de longa distância definidas por software) e dispositivos de borda associados. Rastreada como CVE-2026-114625 , a falha de severidade crítica permite que atacantes com privilégios básicos, acesso à interface web do VCO e uma sessão autenticada válida elevem privilégios por meio de ataques de injeção SQL de baixa complexidade que não exigem interação do usuário.",
-      "link": "https://www.cisoadvisor.com.br/arista-corrige-zero-day-no-velocloud-explorado-em-ataques/",
-      "published": "23/10/2026 12:00",
-      "cves": [
-        "CVE-2026-114625"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Oracle corrige mais de 1.209 vulnerabilidades em outubro",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Oracle publicou sua Atualização Crítica de Patch (CPU) de outubro de 2026, com 1.295 novas correções em dezenas de produtos. Segundo análise da Tenable, a atualização aborda 1.209 CVEs únicos, incluindo 95 falhas de severidade crítica. A Tenable informa que 439 CVEs foram classificados como alta severidade e 582 como média. O Oracle Fusion Middleware recebeu o maior número de correções, 206, incluindo 134 que podem ser exploradas remotamente sem autenticação. Um volume significativo de patches também foi distribuído para E-Business Suite (194), Siebel CRM (122), Communications (110), PeopleSoft (109), JD Edwards (102), MySQL (98), Java SE (55) e Supply Chain (50).",
-      "link": "https://www.cisoadvisor.com.br/oracle-corrige-mais-de-1-209-vulnerabilidades-em-outubro/",
-      "published": "23/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha crítica no GitLab permite execução de código sem autenticação",
+      "title": "Falhas em bibliotecas de terceiros atingem Jira, Confluence e Bitbucket",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O GitLab publicou em 21 de outubro a correção de uma falha crítica que permite execução de código sem autenticação em instalações self-managed. Identificada como CVE-2026-110264, ela recebeu nota CVSS 10.0, a máxima da escala, e não tem contorno disponível. A causa é um estouro de inteiro na compilação de expressões regulares. Segundo o aviso, uma expressão criada especificamente para isso faz o compilador transbordar e, sob certas condições, executar código no servidor. O ataque parte da rede, sem credencial e sem interação do usuário. A falha está presente em todas as versões a partir da 7.0, lançada em 2014, tanto na edição Community quanto na Enterprise.",
-      "link": "https://boletimsec.com/falha-critica-no-gitlab-permite-execucao-de-codigo-sem-autenticacao/",
-      "published": "23/10/2026 12:00",
-      "cves": [
-        "CVE-2026-110264"
-      ],
+      "summary": "A Atlassian publicou em 20 de outubro o boletim de segurança de outubro, com 176 registros de vulnerabilidade distribuídos entre sete produtos, incluindo Jira, Confluence, Bamboo, Bitbucket, Crowd e a dupla Fisheye e Crucible. São 162 entradas de alta gravidade e 14 críticas. Os 176 registros não correspondem a 176 falhas distintas. O mesmo identificador aparece em mais de um produto quando os dois usam a mesma biblioteca, e é assim que a contagem cresce. As entradas críticas estão em componentes de terceiros, não em código escrito pela Atlassian.",
+      "link": "https://boletimsec.com/falhas-em-bibliotecas-de-terceiros-atingem-jira-confluence-e-bitbucket/",
+      "published": "24/10/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Leia o relatório que revelou as falhas críticas do PHP",
+      "title": "1 dia Segurança Falhas críticas no PHP já eram exploradas por hackers antes de correção",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "As duas falhas críticas de segurança do PHP, que colocaram milhões de sites em alerta nesta semana, já eram alvo de tentativas de exploração por hackers desde 17 de outubro , quatro dias antes da divulgação das correções. A descoberta foi feita pela Amazon Web Services (AWS), que identificou atividades suspeitas em seus sistemas de monitoramento. Segundo informações divulgadas pela Wired nesta quinta-feira (22), os ataques começaram antes mesmo do vazamento de informações sobre as vulnerabilidades, ocorrido na terça-feira (20). A descoberta representa um novo desdobramento do alerta global de segurança provocado pelas falhas no PHP .",
+      "link": "https://canaltech.com.br/seguranca/falhas-criticas-no-php-ja-eram-exploradas-por-hackers-antes-de-correcao/",
+      "published": "24/10/2026 12:00",
+      "cves": [],
+      "vendor": "AWS"
+    },
+    {
+      "title": "Pipeline do LiteLLM é invadido para distribuir malware",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "“ PHP2Shell: IA descobre vulnerabilidades críticas de execução remota de código que afetam 70% da internet “. Esse é o título do relatório publicado ontem pela Wiz.io em seu blog, revelando e detalhando duas falhas críticas descobertas no PHP – uma das linguagens de programação mais utilizadas na web desde que ela foi criada. Perto de 70% das aplicações conectadas com a internet utilizam PHP. [estamos aguardando autorização da Wiz para reproduzir o relatório em português]",
-      "link": "https://www.cisoadvisor.com.br/leia-o-relatorio-que-revelou-as-falhas-criticas-do-php/",
-      "published": "23/10/2026 12:00",
+      "summary": "Atacantes comprometeram o pacote PyPI do projeto LiteLLM e publicaram imagens Docker maliciosas com um payload que rouba credenciais, segredos e variáveis de ambiente. O ataque à cadeia de suprimentos afetou todos os wheels do PyPI da versão 1.107.0, impactando sistemas Windows, Linux e macOS. O LiteLLM é um SDK open-source em Python e gateway de IA que permite a aplicações acessar modelos de diferentes provedores por uma API comum. O projeto tem 61.800 estrelas no GitHub, 92 milhões de downloads mensais no PyPI e é usado por empresas como NVIDIA, Netflix, AT&T e Okta.",
+      "link": "https://www.cisoadvisor.com.br/pipeline-do-litellm-e-invadido-para-distribuir-malware/",
+      "published": "24/10/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Operação da INTERPOL em 21 países prende 1.462 suspeitos de cibercrime",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "A INTERPOL anunciou em 22 de outubro o resultado da Operação Serengeti III, que prendeu 1.462 suspeitos e derrubou 10.909 redes maliciosas. A ação foi conduzida entre 29 de junho e 31 de agosto por agências de 21 países, sendo 20 africanos e os Estados Unidos. O alvo foi fraude apoiada em tecnologia, ransomware, comprometimento de e-mail corporativo, golpes online e extorsão digital. Os investigadores recuperaram mais de US$ 105 milhões, associaram as redes a perdas acima de US$ 385 milhões e identificaram 65.929 vítimas.",
+      "link": "https://boletimsec.com/operacao-da-interpol-em-21-paises-prende-1-462-suspeitos-de-cibercrime/",
+      "published": "24/10/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "2 dias Segurança Chrome reforça IA para alertar usuários sobre golpes e lojas falsas",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "O Google Chrome ganhou uma nova medida de segurança para alertar sobre sites suspeitos . Agora, o navegador exibe um aviso na tela para sinalizar que uma página tem padrões similares a outros links associados com tentativas de phishing, malwares e outras ameaças. O alerta não ocupa a tela toda, ainda mostra elementos visuais do site e inclui um botão para marcar a URL como segura. Por definição da própria empresa, um site suspeito é aquele em que a IA do Chrome identifica que há um possível risco de prejuízo, mas não tem confiança o suficiente para formar um veredito.",
+      "link": "https://canaltech.com.br/seguranca/chrome-reforca-ia-para-alertar-usuarios-sobre-golpes-e-lojas-falsas/",
+      "published": "24/10/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
     }
   ]
 }
