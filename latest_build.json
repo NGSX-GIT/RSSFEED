@@ -1,67 +1,66 @@
 {
-  "generated_at": "2026-10-26T12:00:00.196239-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-10-27T12:00:00.064310-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "3 dias Segurança Falhas críticas no PHP já eram exploradas por hackers antes de correção",
+      "title": "Três falhas no Ruby permitem executar código no servidor",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "O Ruby publicou em 23 de outubro as versões 4.0.9, 3.4.12 e 3.3.13, que corrigem três falhas no Onigmo, o motor de expressões regulares da linguagem. As três estão na origem de quatro vulnerabilidades críticas do GitLab, entre elas a CVE-2026-110264, de nota máxima, divulgada dois dias antes. Os três defeitos estão na compilação do padrão. Um é liberação dupla de memória quando a análise do padrão falha depois de uma alternância. Outro é estouro de inteiro no tamanho do padrão compilado, e responde sozinho por duas das quatro CVEs do GitLab. O terceiro é estouro dos identificadores internos em padrão com muitas repetições.",
+      "link": "https://boletimsec.com/tres-falhas-no-ruby-permitem-executar-codigo-no-servidor/",
+      "published": "27/10/2026 12:00",
+      "cves": [
+        "CVE-2026-110264"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "4 dias Segurança Falhas críticas no PHP já eram exploradas por hackers antes de correção",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "As duas falhas críticas de segurança do PHP, que colocaram milhões de sites em alerta nesta semana, já eram alvo de tentativas de exploração por hackers desde 17 de outubro , quatro dias antes da divulgação das correções. A descoberta foi feita pela Amazon Web Services (AWS), que identificou atividades suspeitas em seus sistemas de monitoramento. Segundo informações divulgadas pela Wired nesta quinta-feira (22), os ataques começaram antes mesmo do vazamento de informações sobre as vulnerabilidades, ocorrido na terça-feira (20). A descoberta representa um novo desdobramento do alerta global de segurança provocado pelas falhas no PHP .",
       "link": "https://canaltech.com.br/seguranca/falhas-criticas-no-php-ja-eram-exploradas-por-hackers-antes-de-correcao/",
-      "published": "26/10/2026 12:00",
+      "published": "27/10/2026 12:00",
       "cves": [],
       "vendor": "AWS"
     },
     {
-      "title": "Falha crítica no Okta Access Gateway permite executar comandos no sistema",
+      "title": "Cloudflare libera regra de emergência contra o HTTP2Shell no Brotli",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Okta publicou em 22 de outubro um aviso sobre a CVE-2026-115547, falha de injeção de código no console administrativo do Access Gateway. Um administrador autenticado consegue executar comandos no sistema com as permissões da conta de serviço do gateway. A nota é 9.1 na escala CVSS 3.1. O problema está na validação de entrada do console, que processa valores de configuração em formato específico. A classificação aponta CWE-94, controle inadequado da geração de código, e CWE-20, validação inadequada de entrada. São afetadas as versões do appliance anteriores à 2026.10.2, e a correção está na 2026.10.2 ou superior. O aviso não oferece contorno, então atualizar é o único caminho indicado.",
-      "link": "https://boletimsec.com/falha-critica-no-okta-access-gateway-permite-executar-comandos-no-sistema/",
-      "published": "26/10/2026 12:00",
+      "summary": "A Cloudflare publicou em 25 de outubro uma atualização emergencial do seu conjunto de regras de WAF para conter a exploração da CVE-2026-111497, uma escrita fora dos limites no decodificador da biblioteca Brotli que permite execução remota de código. A cobertura especializada chama a falha de HTTP2Shell. O defeito está na decodificação em fluxo. Segundo o aviso do Node.js, uma troca de bloco inválida era tratada como necessidade temporária de mais dados em vez de erro de formato, e o decodificador seguia acrescentando bytes a um buffer interno de oito bytes. Quem reportou foi a equipe de segurança do OpenAI Codex.",
+      "link": "https://boletimsec.com/cloudflare-libera-regra-de-emergencia-contra-o-http2shell-no-brotli/",
+      "published": "27/10/2026 12:00",
       "cves": [
-        "CVE-2026-115547"
+        "CVE-2026-111497"
       ],
       "vendor": null
     },
     {
-      "title": "Firewalls da Palo Alto seguem sem versão corrigida para falhas do PHP",
+      "title": "Como novas vulnerabilidades críticas estão surgindo tão rápido",
       "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Palo Alto Networks confirmou que duas falhas do PHP, identificadas como CVE-2026-109618 e CVE-2026-109619, afetam o PAN-OS. O aviso foi publicado em 21 de outubro e atualizado em 25 de outubro, e limita a exposição à interface web de gerenciamento e à API XML. Entram na lista o PAN-OS 10.2, 11.1, 11.2, 12.1 e 12.2 em firewalls PA-Series e VM-Series, além do Panorama em versão virtual e nos appliances M-Series. A empresa diz que nenhuma configuração específica é necessária para o produto estar vulnerável, e que interfaces de dados só são alcançadas quando têm um perfil de gerenciamento associado. As duas estão no tratamento de erros graves do PHP.",
-      "link": "https://boletimsec.com/firewalls-da-palo-alto-seguem-sem-versao-corrigida-para-falhas-do-php/",
-      "published": "26/10/2026 12:00",
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "4 dias Segurança Chrome reforça IA para alertar usuários sobre golpes e lojas falsas",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
+      "priority": "Alta",
       "category": "identity",
-      "summary": "O Google Chrome ganhou uma nova medida de segurança para alertar sobre sites suspeitos . Agora, o navegador exibe um aviso na tela para sinalizar que uma página tem padrões similares a outros links associados com tentativas de phishing, malwares e outras ameaças. O alerta não ocupa a tela toda, ainda mostra elementos visuais do site e inclui um botão para marcar a URL como segura. Por definição da própria empresa, um site suspeito é aquele em que a IA do Chrome identifica que há um possível risco de prejuízo, mas não tem confiança o suficiente para formar um veredito.",
-      "link": "https://canaltech.com.br/seguranca/chrome-reforca-ia-para-alertar-usuarios-sobre-golpes-e-lojas-falsas/",
-      "published": "26/10/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
-    },
-    {
-      "title": "58 min Segurança Novo spyware vírus para Android rouba senha de duas etapas do Telegram",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Um spyware chamado uCreator pode roubar a senha de verificação em duas etapas do Telegram e permitir que criminosos assumam o controle de contas no Android. O programa malicioso é distribuído por versões adulteradas de aplicativos de mensagens e também possui ferramentas para clonar contas do WeChat. A ameaça foi detalhada pelo pesquisador de segurança Ovi, em uma análise publicada em 21 de outubro, e divulgada nesta segunda-feira (26) pelo portal The Hacker News. Segundo a investigação, o spyware funciona como uma plataforma de espionagem comercializada para terceiros.",
-      "link": "https://canaltech.com.br/seguranca/novo-spyware-virus-para-android-rouba-senha-de-duas-etapas-do-telegram/",
-      "published": "26/10/2026 12:00",
+      "summary": "Nunca se escreveu tanto software quanto em 2026, e a fatia dele que passa por um teste de segurança encolheu. O NVD registrou mais de 72 mil vulnerabilidades-CVEs entre janeiro e setembro, contra 48.244 em todo o ano de 2025. O número subiu porque a quantidade de código em produção subiu primeiro. Com assistentes de IA, uma funcionalidade que levava duas semanas sai numa tarde. O ganho é real e não tem volta. O efeito colateral é que o volume que entra em produção passou a superar com folga a capacidade de qualquer equipe de revisar linha por linha, e boa parte do que foi publicado neste ano nunca foi lida com atenção por um humano.",
+      "link": "https://boletimsec.com/como-novas-vulnerabilidades-criticas-estao-surgindo-tao-rapido/",
+      "published": "27/10/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Cibercriminosos alegam roubo de dados da fabricante da Budweiser e Corona",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "identity",
+      "summary": "O grupo de ransomware Emperador incluiu a AB InBev em sua lista de vítimas, com a publicação detectada em 25 de outubro às 03h22 no horário UTC. O grupo alega ter 3,9 GB de dados internos da cervejaria e cobra 1 milhão de dólares em bitcoin. Nada disso foi confirmado pela empresa. A listagem descreve 329.244 alertas de escuta social, 2.510 e-mails corporativos de subsidiárias da companhia, cerca de 19 mil registros de acesso, registros de um portal interno de serviços e certificados da infraestrutura de chaves públicas da empresa. A maior parte do volume, 3,2 GB, é atribuída a ativos de armazenamento no Azure. O anúncio não explica como o grupo teria obtido esses ativos.",
+      "link": "https://boletimsec.com/cibercriminosos-alegam-roubo-de-dados-da-fabricante-da-budweiser-e-corona/",
+      "published": "27/10/2026 12:00",
+      "cves": [],
+      "vendor": "Azure"
     }
   ]
 }
