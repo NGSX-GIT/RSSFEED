@@ -1,66 +1,69 @@
 {
-  "generated_at": "2026-10-27T12:00:00.064310-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-10-28T12:00:00.080763-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Três falhas no Ruby permitem executar código no servidor",
+      "title": "PHP2Shell entra no catálogo de falhas já exploradas da CISA",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O Ruby publicou em 23 de outubro as versões 4.0.9, 3.4.12 e 3.3.13, que corrigem três falhas no Onigmo, o motor de expressões regulares da linguagem. As três estão na origem de quatro vulnerabilidades críticas do GitLab, entre elas a CVE-2026-110264, de nota máxima, divulgada dois dias antes. Os três defeitos estão na compilação do padrão. Um é liberação dupla de memória quando a análise do padrão falha depois de uma alternância. Outro é estouro de inteiro no tamanho do padrão compilado, e responde sozinho por duas das quatro CVEs do GitLab. O terceiro é estouro dos identificadores internos em padrão com muitas repetições.",
-      "link": "https://boletimsec.com/tres-falhas-no-ruby-permitem-executar-codigo-no-servidor/",
-      "published": "27/10/2026 12:00",
+      "summary": "A CISA adicionou em 26 de outubro as falhas CVE-2026-109618 e CVE-2026-109619 ao catálogo de vulnerabilidades exploradas conhecidas, o KEV. O conjunto, tratado como PHP2Shell, permite execução remota de código no PHP sem autenticação, e a entrada no catálogo indica que a agência reuniu evidência de exploração ativa. A agência fixou 29 de outubro como prazo de correção para os órgãos alcançados pela diretriz BOD 26-04, três dias depois da inclusão. A diretriz organiza a aplicação de atualizações por risco e admite prazo curto quando a falha já aparece em ataque, e manda descontinuar o produto quando não houver mitigação disponível.",
+      "link": "https://boletimsec.com/php2shell-entra-no-catalogo-de-falhas-ja-exploradas-da-cisa/",
+      "published": "28/10/2026 12:00",
       "cves": [
-        "CVE-2026-110264"
+        "CVE-2026-109618",
+        "CVE-2026-109619"
       ],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Falhas críticas no PHP já eram exploradas por hackers antes de correção",
+      "title": "1 dia Segurança Vírus no Brasil usa ferramentas autênticas do Windows e o VLC para invadir conta bancária",
       "source": "Canaltech Segurança",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "As duas falhas críticas de segurança do PHP, que colocaram milhões de sites em alerta nesta semana, já eram alvo de tentativas de exploração por hackers desde 17 de outubro , quatro dias antes da divulgação das correções. A descoberta foi feita pela Amazon Web Services (AWS), que identificou atividades suspeitas em seus sistemas de monitoramento. Segundo informações divulgadas pela Wired nesta quinta-feira (22), os ataques começaram antes mesmo do vazamento de informações sobre as vulnerabilidades, ocorrido na terça-feira (20). A descoberta representa um novo desdobramento do alerta global de segurança provocado pelas falhas no PHP .",
-      "link": "https://canaltech.com.br/seguranca/falhas-criticas-no-php-ja-eram-exploradas-por-hackers-antes-de-correcao/",
-      "published": "27/10/2026 12:00",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "A empresa de cibersegurança WatchGuard identificou um malware que usa elementos legítimos do Windows e arquivos executáveis de programas reais para invadir computadores de vítimas. No Brasil, o golpe começa a partir de e-mails falsos sobre cobranças de cartórios . As tentativas de phishing levam as vítimas a sites fraudulentos e induzem ao download de scripts VBScript maliciosos . Os arquivos também podem usar uma técnica para distribuir um diretório malicioso dentro de um arquivo executável legítimo do Windows . A pesquisa identificou a técnica em arquivos como ngentask.exe, do Microsoft .NET Framework , e vlc.exe, do famoso reprodutor de mídia VLC .",
+      "link": "https://canaltech.com.br/seguranca/virus-no-brasil-usa-ferramentas-autenticas-do-windows-e-o-vlc-para-invadir-conta-bancaria/",
+      "published": "28/10/2026 12:00",
       "cves": [],
-      "vendor": "AWS"
+      "vendor": "Microsoft"
     },
     {
-      "title": "Cloudflare libera regra de emergência contra o HTTP2Shell no Brotli",
+      "title": "Falhas no WebKit permitem executar código ao abrir página no iPhone",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Cloudflare publicou em 25 de outubro uma atualização emergencial do seu conjunto de regras de WAF para conter a exploração da CVE-2026-111497, uma escrita fora dos limites no decodificador da biblioteca Brotli que permite execução remota de código. A cobertura especializada chama a falha de HTTP2Shell. O defeito está na decodificação em fluxo. Segundo o aviso do Node.js, uma troca de bloco inválida era tratada como necessidade temporária de mais dados em vez de erro de formato, e o decodificador seguia acrescentando bytes a um buffer interno de oito bytes. Quem reportou foi a equipe de segurança do OpenAI Codex.",
-      "link": "https://boletimsec.com/cloudflare-libera-regra-de-emergencia-contra-o-http2shell-no-brotli/",
-      "published": "27/10/2026 12:00",
+      "summary": "A Apple publicou em 26 de outubro o iOS 27.2 e o iPadOS 27.2, com correção para 163 vulnerabilidades. Mais de 30 estão no WebKit, o motor que renderiza páginas no Safari e em todo aplicativo que exiba conteúdo web no iPhone, e várias delas permitem execução de código quando o usuário abre uma página preparada pelo atacante. Entre as falhas de execução de código no WebKit estão quatro casos de uso após liberação de memória, entre eles a CVE-2026-112697 e a CVE-2026-112623, além de uma confusão de tipos registrada como CVE-2026-112659. Outras três atingem o Canvas, as ligações de JavaScript e o modelo de processos do navegador.",
+      "link": "https://boletimsec.com/falhas-no-webkit-permitem-executar-codigo-ao-abrir-pagina-no-iphone/",
+      "published": "28/10/2026 12:00",
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-112697",
+        "CVE-2026-112623",
+        "CVE-2026-112659"
       ],
-      "vendor": null
+      "vendor": "Apple"
     },
     {
-      "title": "Como novas vulnerabilidades críticas estão surgindo tão rápido",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "identity",
-      "summary": "Nunca se escreveu tanto software quanto em 2026, e a fatia dele que passa por um teste de segurança encolheu. O NVD registrou mais de 72 mil vulnerabilidades-CVEs entre janeiro e setembro, contra 48.244 em todo o ano de 2025. O número subiu porque a quantidade de código em produção subiu primeiro. Com assistentes de IA, uma funcionalidade que levava duas semanas sai numa tarde. O ganho é real e não tem volta. O efeito colateral é que o volume que entra em produção passou a superar com folga a capacidade de qualquer equipe de revisar linha por linha, e boa parte do que foi publicado neste ano nunca foi lida com atenção por um humano.",
-      "link": "https://boletimsec.com/como-novas-vulnerabilidades-criticas-estao-surgindo-tao-rapido/",
-      "published": "27/10/2026 12:00",
+      "title": "2 dias Segurança Novo spyware vírus para Android rouba senha de duas etapas do Telegram",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Um spyware chamado uCreator pode roubar a senha de verificação em duas etapas do Telegram e permitir que criminosos assumam o controle de contas no Android. O programa malicioso é distribuído por versões adulteradas de aplicativos de mensagens e também possui ferramentas para clonar contas do WeChat. A ameaça foi detalhada pelo pesquisador de segurança Ovi, em uma análise publicada em 21 de outubro, e divulgada nesta segunda-feira (26) pelo portal The Hacker News. Segundo a investigação, o spyware funciona como uma plataforma de espionagem comercializada para terceiros.",
+      "link": "https://canaltech.com.br/seguranca/novo-spyware-virus-para-android-rouba-senha-de-duas-etapas-do-telegram/",
+      "published": "28/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos alegam roubo de dados da fabricante da Budweiser e Corona",
+      "title": "Cibercriminoso usa IA para invadir 90 organizações na Coreia do Sul",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "priority": "Baixa",
       "category": "identity",
-      "summary": "O grupo de ransomware Emperador incluiu a AB InBev em sua lista de vítimas, com a publicação detectada em 25 de outubro às 03h22 no horário UTC. O grupo alega ter 3,9 GB de dados internos da cervejaria e cobra 1 milhão de dólares em bitcoin. Nada disso foi confirmado pela empresa. A listagem descreve 329.244 alertas de escuta social, 2.510 e-mails corporativos de subsidiárias da companhia, cerca de 19 mil registros de acesso, registros de um portal interno de serviços e certificados da infraestrutura de chaves públicas da empresa. A maior parte do volume, 3,2 GB, é atribuída a ativos de armazenamento no Azure. O anúncio não explica como o grupo teria obtido esses ativos.",
-      "link": "https://boletimsec.com/cibercriminosos-alegam-roubo-de-dados-da-fabricante-da-budweiser-e-corona/",
-      "published": "27/10/2026 12:00",
+      "summary": "A Polícia Metropolitana de Seul anunciou em 26 de outubro a prisão do responsável por uma série de invasões que atingiu cerca de 90 empresas e instituições da Coreia do Sul e levou 8,2 milhões de registros pessoais e documentos internos. Parte dos ataques foi executada com inteligência artificial generativa. Dos cerca de 90 alvos, 60 foram comprometidos com apoio de IA generativa, segundo a polícia. A ferramenta usada recebia apenas o alvo e determinava sozinha o caminho de ataque. Para os investigadores, esse grau de automação permite que uma pessoa sozinha alcance a escala que antes exigia um grupo de especialistas.",
+      "link": "https://boletimsec.com/cibercriminoso-usa-ia-para-invadir-90-organizacoes-na-coreia-do-sul/",
+      "published": "28/10/2026 12:00",
       "cves": [],
-      "vendor": "Azure"
+      "vendor": null
     }
   ]
 }
