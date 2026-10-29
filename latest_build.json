@@ -1,67 +1,68 @@
 {
-  "generated_at": "2026-10-28T12:00:00.080763-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-10-29T12:00:00.062275-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "PHP2Shell entra no catálogo de falhas já exploradas da CISA",
-      "source": "BoletimSec Notícias",
+      "title": "CISA alerta para exploração da falha crítica Node2Shell",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA adicionou em 26 de outubro as falhas CVE-2026-109618 e CVE-2026-109619 ao catálogo de vulnerabilidades exploradas conhecidas, o KEV. O conjunto, tratado como PHP2Shell, permite execução remota de código no PHP sem autenticação, e a entrada no catálogo indica que a agência reuniu evidência de exploração ativa. A agência fixou 29 de outubro como prazo de correção para os órgãos alcançados pela diretriz BOD 26-04, três dias depois da inclusão. A diretriz organiza a aplicação de atualizações por risco e admite prazo curto quando a falha já aparece em ataque, e manda descontinuar o produto quando não houver mitigação disponível.",
-      "link": "https://boletimsec.com/php2shell-entra-no-catalogo-de-falhas-ja-exploradas-da-cisa/",
-      "published": "28/10/2026 12:00",
+      "summary": "A CISA confirmou na terça-feira (27) que atacantes começaram a explorar uma vulnerabilidade crítica no Brotli, conhecida como Node2Shell , Broccoli2Shell e HTTP2Shell. A falha, rastreada como CVE-2026-111497 , decorre de uma escrita fora dos limites no decodificador Brotli, usado para expandir dados comprimidos com o algoritmo de compressão sem perdas do Google. Atacantes sem privilégios podem usar um fluxo comprimido em Brotli maliciosamente elaborado para provocar falhas ou vazamentos de memória e, em alguns casos, obter execução remota de código em dispositivos com bibliotecas ou binários vulneráveis do Brotli.",
+      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-da-falha-critica-node2shell/",
+      "published": "29/10/2026 12:00",
       "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
+        "CVE-2026-111497"
+      ],
+      "vendor": "Google"
+    },
+    {
+      "title": "Varredura ativa contra falha recém-corrigida no Oracle EBS",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Atacantes começaram a sondar a internet em busca de sistemas sem a correção para uma vulnerabilidade crítica recém-divulgada no Oracle E-Business Suite (EBS). A falha, rastreada como CVE-2026-101767 , foi encontrada em um componente central do Application Object Library do EBS e permite que atacantes não autenticados com acesso HTTP pela rede assumam o controle de sistemas vulneráveis em ataques de baixa complexidade. A Oracle publicou atualizações de segurança para o problema em 20 de outubro, na atualização crítica de patches de outubro de 2026, e pediu que os clientes aplicassem as correções imediatamente.",
+      "link": "https://www.cisoadvisor.com.br/varredura-ativa-contra-falha-recem-corrigida-no-oracle-ebs/",
+      "published": "29/10/2026 12:00",
+      "cves": [
+        "CVE-2026-101767"
       ],
       "vendor": null
     },
     {
-      "title": "1 dia Segurança Vírus no Brasil usa ferramentas autênticas do Windows e o VLC para invadir conta bancária",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "A empresa de cibersegurança WatchGuard identificou um malware que usa elementos legítimos do Windows e arquivos executáveis de programas reais para invadir computadores de vítimas. No Brasil, o golpe começa a partir de e-mails falsos sobre cobranças de cartórios . As tentativas de phishing levam as vítimas a sites fraudulentos e induzem ao download de scripts VBScript maliciosos . Os arquivos também podem usar uma técnica para distribuir um diretório malicioso dentro de um arquivo executável legítimo do Windows . A pesquisa identificou a técnica em arquivos como ngentask.exe, do Microsoft .NET Framework , e vlc.exe, do famoso reprodutor de mídia VLC .",
-      "link": "https://canaltech.com.br/seguranca/virus-no-brasil-usa-ferramentas-autenticas-do-windows-e-o-vlc-para-invadir-conta-bancaria/",
-      "published": "28/10/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Falhas no WebKit permitem executar código ao abrir página no iPhone",
+      "title": "Cibercriminosos exploram falha crítica de RCE no Oracle E-Business Suite",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Apple publicou em 26 de outubro o iOS 27.2 e o iPadOS 27.2, com correção para 163 vulnerabilidades. Mais de 30 estão no WebKit, o motor que renderiza páginas no Safari e em todo aplicativo que exiba conteúdo web no iPhone, e várias delas permitem execução de código quando o usuário abre uma página preparada pelo atacante. Entre as falhas de execução de código no WebKit estão quatro casos de uso após liberação de memória, entre eles a CVE-2026-112697 e a CVE-2026-112623, além de uma confusão de tipos registrada como CVE-2026-112659. Outras três atingem o Canvas, as ligações de JavaScript e o modelo de processos do navegador.",
-      "link": "https://boletimsec.com/falhas-no-webkit-permitem-executar-codigo-ao-abrir-pagina-no-iphone/",
-      "published": "28/10/2026 12:00",
+      "summary": "A empresa de inteligência de ameaças Defused registrou em 27 de outubro de 2026 tentativas de exploração da CVE-2026-101767 contra iscas que simulam instalações do Oracle E-Business Suite. A falha tem nota 9,8 na escala CVSS 3.1, dispensa autenticação e foi corrigida pela Oracle sete dias antes, no pacote trimestral de correções críticas. O problema está no componente central da Oracle Application Object Library e atinge as versões 12.2.3 a 12.2.15 do E-Business Suite. Trata-se de injeção de SQL no servlet do Thin Client Framework, alcançável por HTTP ou HTTPS sem credencial válida e sem interação do usuário, conforme o registro publicado pelo NVD em 20 de outubro.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-critica-de-rce-no-oracle-e-business-suite/",
+      "published": "29/10/2026 12:00",
       "cves": [
-        "CVE-2026-112697",
-        "CVE-2026-112623",
-        "CVE-2026-112659"
+        "CVE-2026-101767"
       ],
-      "vendor": "Apple"
-    },
-    {
-      "title": "2 dias Segurança Novo spyware vírus para Android rouba senha de duas etapas do Telegram",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Um spyware chamado uCreator pode roubar a senha de verificação em duas etapas do Telegram e permitir que criminosos assumam o controle de contas no Android. O programa malicioso é distribuído por versões adulteradas de aplicativos de mensagens e também possui ferramentas para clonar contas do WeChat. A ameaça foi detalhada pelo pesquisador de segurança Ovi, em uma análise publicada em 21 de outubro, e divulgada nesta segunda-feira (26) pelo portal The Hacker News. Segundo a investigação, o spyware funciona como uma plataforma de espionagem comercializada para terceiros.",
-      "link": "https://canaltech.com.br/seguranca/novo-spyware-virus-para-android-rouba-senha-de-duas-etapas-do-telegram/",
-      "published": "28/10/2026 12:00",
-      "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminoso usa IA para invadir 90 organizações na Coreia do Sul",
+      "title": "Falhas no TeamViewer permitem executar código em sessões desktop",
       "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "A Polícia Metropolitana de Seul anunciou em 26 de outubro a prisão do responsável por uma série de invasões que atingiu cerca de 90 empresas e instituições da Coreia do Sul e levou 8,2 milhões de registros pessoais e documentos internos. Parte dos ataques foi executada com inteligência artificial generativa. Dos cerca de 90 alvos, 60 foram comprometidos com apoio de IA generativa, segundo a polícia. A ferramenta usada recebia apenas o alvo e determinava sozinha o caminho de ataque. Para os investigadores, esse grau de automação permite que uma pessoa sozinha alcance a escala que antes exigia um grupo de especialistas.",
-      "link": "https://boletimsec.com/cibercriminoso-usa-ia-para-invadir-90-organizacoes-na-coreia-do-sul/",
-      "published": "28/10/2026 12:00",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A TeamViewer publicou em 27 de outubro de 2026 o boletim TV-2026-1011, que corrige três vulnerabilidades nos clientes das linhas Remote, Tensor e ONE. Duas têm nota 8,8 na escala CVSS 3.1 e levam a execução de código durante uma sessão de acesso remoto. A terceira, de nota 7,8, eleva privilégio até root no macOS. A CVE-2026-92372 está no decodificador de imagem de tela do Full Client para Linux e macOS. Falta verificação de limite no buffer de destino, então dados de imagem manipulados provocam escrita fora dos limites. O atacante remoto executa código durante a sessão de controle, e o mesmo efeito vem de convencer a vítima a abrir uma gravação de sessão no formato tvs.",
+      "link": "https://boletimsec.com/falhas-no-teamviewer-permitem-executar-codigo-em-sessoes-desktop/",
+      "published": "29/10/2026 12:00",
+      "cves": [
+        "CVE-2026-92372"
+      ],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Tratamento de Incidentes",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Anúncios na dark web, falhas na cadeia de suprimentos – Cyber Snapshot, 26 de Outubro, 2026 Ataque a freezers, vazamento no Einstein, patch recorde – Cyber Snapshot, 19 de Outubro, 2026 Deepfakes contra CISOs, ataques de IA, injeção de prompt – Cyber Snapshot, 12 de outubro, 2026",
+      "link": "https://www.cisoadvisor.com.br",
+      "published": "29/10/2026 12:00",
       "cves": [],
       "vendor": null
     }
