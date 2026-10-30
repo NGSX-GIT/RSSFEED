@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-10-29T12:00:00.062275-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-10-30T12:00:00.049320-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA alerta para exploração da falha crítica Node2Shell",
+      "title": "Grupo APT explora falha no Cisco SD-WAN",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA confirmou na terça-feira (27) que atacantes começaram a explorar uma vulnerabilidade crítica no Brotli, conhecida como Node2Shell , Broccoli2Shell e HTTP2Shell. A falha, rastreada como CVE-2026-111497 , decorre de uma escrita fora dos limites no decodificador Brotli, usado para expandir dados comprimidos com o algoritmo de compressão sem perdas do Google. Atacantes sem privilégios podem usar um fluxo comprimido em Brotli maliciosamente elaborado para provocar falhas ou vazamentos de memória e, em alguns casos, obter execução remota de código em dispositivos com bibliotecas ou binários vulneráveis do Brotli.",
-      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-da-falha-critica-node2shell/",
-      "published": "29/10/2026 12:00",
+      "summary": "Um grupo de ameaça persistente avançada (APT) recém-identificado, rastreado como UAT-11473, foi observado explorando o CVE-2026-20127, uma falha de bypass de autenticação nos controladores Cisco Catalyst SD-WAN, para instalar um framework de malware customizado chamado KeyDrift. O CVE-2026-20127 é uma falha de severidade máxima que a Cisco corrigiu em fevereiro de 2026 e que permite a atacantes remotos obter acesso privilegiado ao Catalyst SD-WAN Controller e Manager e adicionar peers fraudulentos. O grupo UAT-8616 explora a vulnerabilidade como zero-day desde pelo menos 2023, e pesquisas recentes também ligaram sua exploração ao grupo de hackers patrocinado pelo Estado chinês Volt Typhoon.",
+      "link": "https://www.cisoadvisor.com.br/grupo-apt-explora-falha-no-cisco-sd-wan/",
+      "published": "30/10/2026 12:00",
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-20127"
       ],
-      "vendor": "Google"
+      "vendor": "Cisco"
     },
     {
-      "title": "Varredura ativa contra falha recém-corrigida no Oracle EBS",
+      "title": "Alpine Linux sofre ataque via falha crítica no GitLab",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Atacantes começaram a sondar a internet em busca de sistemas sem a correção para uma vulnerabilidade crítica recém-divulgada no Oracle E-Business Suite (EBS). A falha, rastreada como CVE-2026-101767 , foi encontrada em um componente central do Application Object Library do EBS e permite que atacantes não autenticados com acesso HTTP pela rede assumam o controle de sistemas vulneráveis em ataques de baixa complexidade. A Oracle publicou atualizações de segurança para o problema em 20 de outubro, na atualização crítica de patches de outubro de 2026, e pediu que os clientes aplicassem as correções imediatamente.",
-      "link": "https://www.cisoadvisor.com.br/varredura-ativa-contra-falha-recem-corrigida-no-oracle-ebs/",
-      "published": "29/10/2026 12:00",
+      "summary": "Desenvolvedores da distribuição Linux Alpine Linux revelaram que atacantes tentaram invadir o servidor GitLab do projeto. A equipe afirma não ter encontrado evidências de uma invasão bem-sucedida, mas também não pode descartá-la. Por isso, decidiu tratar o servidor GitLab como comprometido e reconstruí-lo do zero. O Alpine Linux se descreve como uma distribuição Linux leve e focada em segurança. O GitLab é uma ferramenta online de DevOps usada para armazenar, gerenciar e desenvolver softwares, e o Alpine Linux também a utiliza. Em 12 de outubro, o GitLab alertou sobre uma vulnerabilidade crítica no software, identificada como CVE-2026-97229.",
+      "link": "https://www.cisoadvisor.com.br/alpine-linux-sofre-ataque-via-falha-critica-no-gitlab/",
+      "published": "30/10/2026 12:00",
       "cves": [
-        "CVE-2026-101767"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Cibercriminosos exploram falha crítica de RCE no Oracle E-Business Suite",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A empresa de inteligência de ameaças Defused registrou em 27 de outubro de 2026 tentativas de exploração da CVE-2026-101767 contra iscas que simulam instalações do Oracle E-Business Suite. A falha tem nota 9,8 na escala CVSS 3.1, dispensa autenticação e foi corrigida pela Oracle sete dias antes, no pacote trimestral de correções críticas. O problema está no componente central da Oracle Application Object Library e atinge as versões 12.2.3 a 12.2.15 do E-Business Suite. Trata-se de injeção de SQL no servlet do Thin Client Framework, alcançável por HTTP ou HTTPS sem credencial válida e sem interação do usuário, conforme o registro publicado pelo NVD em 20 de outubro.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-critica-de-rce-no-oracle-e-business-suite/",
-      "published": "29/10/2026 12:00",
-      "cves": [
-        "CVE-2026-101767"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falhas no TeamViewer permitem executar código em sessões desktop",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A TeamViewer publicou em 27 de outubro de 2026 o boletim TV-2026-1011, que corrige três vulnerabilidades nos clientes das linhas Remote, Tensor e ONE. Duas têm nota 8,8 na escala CVSS 3.1 e levam a execução de código durante uma sessão de acesso remoto. A terceira, de nota 7,8, eleva privilégio até root no macOS. A CVE-2026-92372 está no decodificador de imagem de tela do Full Client para Linux e macOS. Falta verificação de limite no buffer de destino, então dados de imagem manipulados provocam escrita fora dos limites. O atacante remoto executa código durante a sessão de controle, e o mesmo efeito vem de convencer a vítima a abrir uma gravação de sessão no formato tvs.",
-      "link": "https://boletimsec.com/falhas-no-teamviewer-permitem-executar-codigo-em-sessoes-desktop/",
-      "published": "29/10/2026 12:00",
-      "cves": [
-        "CVE-2026-92372"
+        "CVE-2026-97229"
       ],
       "vendor": "Linux"
     },
     {
-      "title": "Tratamento de Incidentes",
+      "title": "Cisco corrige zero-day explorado para derrubar firewalls",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Anúncios na dark web, falhas na cadeia de suprimentos – Cyber Snapshot, 26 de Outubro, 2026 Ataque a freezers, vazamento no Einstein, patch recorde – Cyber Snapshot, 19 de Outubro, 2026 Deepfakes contra CISOs, ataques de IA, injeção de prompt – Cyber Snapshot, 12 de outubro, 2026",
-      "link": "https://www.cisoadvisor.com.br",
-      "published": "29/10/2026 12:00",
+      "summary": "A Cisco publicou atualizações de segurança para corrigir um zero-day de negação de serviço no software Adaptive Security Appliance (ASA) e Threat Defense (FTD) que atacantes estão explorando para derrubar remotamente dispositivos de firewall vulneráveis. A falha, rastreada como CVE-2026-76418 , é de severidade alta e afeta equipamentos que executam ASA e FTD com configurações que contenham a palavra-chave ‘webvpn’ e SSL VPN habilitado em pelo menos uma interface. A exploração bem-sucedida permite que atacantes remotos não autenticados provoquem uma condição de negação de serviço (DoS), fazendo o dispositivo reiniciar inesperadamente.",
+      "link": "https://www.cisoadvisor.com.br/cisco-corrige-zero-day-explorado-para-derrubar-firewalls/",
+      "published": "30/10/2026 12:00",
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "FAB descobre falhas críticas em sistema de controle de tráfego aéreo",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A equipe de Segurança Ofensiva do Centro de Defesa Cibernética da Aeronáutica (CDCAER), da Força Aérea Brasileira ( FAB ) identificou três vulnerabilidades no Sunhillo SureLine, suíte de software que sustenta gateways e plataformas de vigilância e conversão de dados. O sistema recebe, converte e distribui dados de radar para o controle de tráfego aéreo em aeroportos e provedores de navegação aérea, incluindo Eurocontrol, FAA, Departamento de Defesa dos EUA (DoD) e outras organizações em dezenas de países, entre eles o Brasil.",
+      "link": "https://www.cisoadvisor.com.br/fab-descobre-falhas-criticas-em-sistema-de-controle-de-trafego-aereo/",
+      "published": "30/10/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Grupo ligado à China explorou zero day no VMware ESX",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A CrowdStrike relatou em 28 de outubro de 2026 que o grupo WARP PANDA, que ela associa à China, usou como zero day uma falha do VMware ESX para operar sem deixar registro nos servidores invadidos. A CVE-2026-41709 tem nota 2,7 na escala CVSS 3.1 e entrou no catálogo de falhas exploradas da CISA no mesmo dia, com prazo em 11 de novembro. O registro da Broadcom descreve uma falha de log insuficiente: um administrador mal-intencionado executa certas operações sem que elas apareçam nos registros. Pelo vetor publicado, a exploração exige privilégio alto e produz impacto apenas de integridade. Não é execução remota de código e não entrega privilégio administrativo por si.",
+      "link": "https://boletimsec.com/grupo-ligado-a-china-explorou-zero-day-no-vmware-esx/",
+      "published": "30/10/2026 12:00",
+      "cves": [
+        "CVE-2026-41709"
+      ],
+      "vendor": "VMware"
     }
   ]
 }
