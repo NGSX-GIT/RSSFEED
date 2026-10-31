@@ -1,70 +1,64 @@
 {
-  "generated_at": "2026-10-30T12:00:00.049320-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-10-31T12:00:00.551756-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Grupo APT explora falha no Cisco SD-WAN",
+      "title": "Falhas críticas em sistema associado a vigilância aeronáutica",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Um grupo de ameaça persistente avançada (APT) recém-identificado, rastreado como UAT-11473, foi observado explorando o CVE-2026-20127, uma falha de bypass de autenticação nos controladores Cisco Catalyst SD-WAN, para instalar um framework de malware customizado chamado KeyDrift. O CVE-2026-20127 é uma falha de severidade máxima que a Cisco corrigiu em fevereiro de 2026 e que permite a atacantes remotos obter acesso privilegiado ao Catalyst SD-WAN Controller e Manager e adicionar peers fraudulentos. O grupo UAT-8616 explora a vulnerabilidade como zero-day desde pelo menos 2023, e pesquisas recentes também ligaram sua exploração ao grupo de hackers patrocinado pelo Estado chinês Volt Typhoon.",
-      "link": "https://www.cisoadvisor.com.br/grupo-apt-explora-falha-no-cisco-sd-wan/",
-      "published": "30/10/2026 12:00",
-      "cves": [
-        "CVE-2026-20127"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Alpine Linux sofre ataque via falha crítica no GitLab",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Desenvolvedores da distribuição Linux Alpine Linux revelaram que atacantes tentaram invadir o servidor GitLab do projeto. A equipe afirma não ter encontrado evidências de uma invasão bem-sucedida, mas também não pode descartá-la. Por isso, decidiu tratar o servidor GitLab como comprometido e reconstruí-lo do zero. O Alpine Linux se descreve como uma distribuição Linux leve e focada em segurança. O GitLab é uma ferramenta online de DevOps usada para armazenar, gerenciar e desenvolver softwares, e o Alpine Linux também a utiliza. Em 12 de outubro, o GitLab alertou sobre uma vulnerabilidade crítica no software, identificada como CVE-2026-97229.",
-      "link": "https://www.cisoadvisor.com.br/alpine-linux-sofre-ataque-via-falha-critica-no-gitlab/",
-      "published": "30/10/2026 12:00",
-      "cves": [
-        "CVE-2026-97229"
-      ],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Cisco corrige zero-day explorado para derrubar firewalls",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco publicou atualizações de segurança para corrigir um zero-day de negação de serviço no software Adaptive Security Appliance (ASA) e Threat Defense (FTD) que atacantes estão explorando para derrubar remotamente dispositivos de firewall vulneráveis. A falha, rastreada como CVE-2026-76418 , é de severidade alta e afeta equipamentos que executam ASA e FTD com configurações que contenham a palavra-chave ‘webvpn’ e SSL VPN habilitado em pelo menos uma interface. A exploração bem-sucedida permite que atacantes remotos não autenticados provoquem uma condição de negação de serviço (DoS), fazendo o dispositivo reiniciar inesperadamente.",
-      "link": "https://www.cisoadvisor.com.br/cisco-corrige-zero-day-explorado-para-derrubar-firewalls/",
-      "published": "30/10/2026 12:00",
-      "cves": [
-        "CVE-2026-76418"
-      ],
-      "vendor": "Cisco"
-    },
-    {
-      "title": "FAB descobre falhas críticas em sistema de controle de tráfego aéreo",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A equipe de Segurança Ofensiva do Centro de Defesa Cibernética da Aeronáutica (CDCAER), da Força Aérea Brasileira ( FAB ) identificou três vulnerabilidades no Sunhillo SureLine, suíte de software que sustenta gateways e plataformas de vigilância e conversão de dados. O sistema recebe, converte e distribui dados de radar para o controle de tráfego aéreo em aeroportos e provedores de navegação aérea, incluindo Eurocontrol, FAA, Departamento de Defesa dos EUA (DoD) e outras organizações em dezenas de países, entre eles o Brasil.",
-      "link": "https://www.cisoadvisor.com.br/fab-descobre-falhas-criticas-em-sistema-de-controle-de-trafego-aereo/",
-      "published": "30/10/2026 12:00",
+      "summary": "Três vulnerabilidades foram publicadas no banco de dados do programa CVE na terça-feira, dia 27 de outubro, e corrigidas pelo fabricante na versão 9.1.5 do Sunhillo SureLine. Essa plataforma é associada ao processamento, à conversão e à distribuição de dados de vigilância aeronáutica. Os profissionais que assinam as três descobertas são brasileiros e seus perfis no Linkedin indicam que eles trabalham em defesa cibernética na Força Aérea Brasileira.",
+      "link": "https://www.cisoadvisor.com.br/falhas-criticas-em-sistema-associado-a-vigilancia-aeronautica/",
+      "published": "31/10/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Grupo ligado à China explorou zero day no VMware ESX",
-      "source": "BoletimSec Notícias",
+      "title": "CISA alerta para falha no Linux encadeada em ataques PHP2Shell",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CrowdStrike relatou em 28 de outubro de 2026 que o grupo WARP PANDA, que ela associa à China, usou como zero day uma falha do VMware ESX para operar sem deixar registro nos servidores invadidos. A CVE-2026-41709 tem nota 2,7 na escala CVSS 3.1 e entrou no catálogo de falhas exploradas da CISA no mesmo dia, com prazo em 11 de novembro. O registro da Broadcom descreve uma falha de log insuficiente: um administrador mal-intencionado executa certas operações sem que elas apareçam nos registros. Pelo vetor publicado, a exploração exige privilégio alto e produz impacto apenas de integridade. Não é execução remota de código e não entrega privilégio administrativo por si.",
-      "link": "https://boletimsec.com/grupo-ligado-a-china-explorou-zero-day-no-vmware-esx/",
-      "published": "30/10/2026 12:00",
+      "summary": "A CISA alertou agências federais para corrigirem uma falha de escalação de privilégios no kernel Linux de severidade alta que atacantes estão encadeando com as falhas PHP2Shell na natureza. Rastreada como CVE-2026-46300 e conhecida como Fragnesia , a vulnerabilidade decorre de um bug de lógica no subsistema XFRM ESP-in-TCP do Linux que permite a atacantes executar código malicioso com permissões de root. A Fragnesia pertence à classe de vulnerabilidades Dirty Frag e tem uma prova de conceito (PoC) que atacantes locais podem usar para obter privilégios de root em distribuições Linux com kernels lançados antes de 13 de maio de 2026.",
+      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-falha-no-linux-encadeada-em-ataques-php2shell/",
+      "published": "31/10/2026 12:00",
       "cves": [
-        "CVE-2026-41709"
+        "CVE-2026-46300"
       ],
-      "vendor": "VMware"
+      "vendor": "Linux"
+    },
+    {
+      "title": "2 dias Segurança Sony sofre ataque hacker com 2,5 milhões de afetados; contas da PSN estão seguras?",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "A Sony Network Communications confirmou uma violação de segurança que comprometeu os dados de 2,58 milhões de clientes de provedores de internet no Japão . O acesso não autorizado aconteceu nos provedores japoneses da empresa, So-net e Plala, em 19 de outubro, enquanto o vazamento dos dados para a internet ocorreu no sábado (24). Entre os dados vazados estão nomes, IDs de usuário, datas de nascimento, números de telefone e e-mails. Além desses itens, 54.401 combinações diretas de e-mail e senha foram expostas, enquanto 16 registros bancários, incluindo números de conta-corrente, também foram divulgados .",
+      "link": "https://canaltech.com.br/seguranca/sony-sofre-ataque-hacker-com-25-milhoes-de-afetados-contas-da-psn-estao-seguras/",
+      "published": "31/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos roubam mais de US$ 6 bi da Binance",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "A Binance confirmou em 30 de outubro de 2026 o roubo de cerca de 6,3 bilhões de dólares em criptomoedas, perto de 34 bilhões de reais, no que analistas de mercado descrevem como o maior furto já registrado no setor. O ataque aconteceu na quinta-feira 29 e as transferências não autorizadas levaram cerca de 20 minutos. Pela reconstituição da TRM Labs, as saídas começaram às 20h05 UTC de 29 de outubro, depois que o atacante comprometeu o sistema que autoriza transferências. A empresa de rastreamento afirma que o invasor usou o recurso EIP-7702 do Ethereum para assumir o controle de uma carteira quente e preparou a operação por pelo menos 36 horas. A explicação técnica mudou em menos de um dia.",
+      "link": "https://boletimsec.com/cibercriminosos-roubam-mais-de-us-6-bi-da-binance/",
+      "published": "31/10/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "1 dia Segurança Emuladores falsos de PS5 roubam senhas do PC e apagam rastros do antivírus",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Uma pesquisa da equipe de Threat Intelligence da NordVPN revelou que emuladores falsos de PS5 infectados com malware estão circulando no GitHub . Os softwares se disfarçam de emuladores populares, como Kyttyps5 e AnyPS5 , para infectar as máquinas de quem fizer o download. Ao ser instalado, o malware burla a segurança do Windows adicionando regras de exclusão no Microsoft Defender, o que impede que qualquer antivírus detecte a ameaça. Logo em seguida, o invasor instala um infostealer, projetado para roubar dados sensíveis, como senhas e informações pessoais.",
+      "link": "https://canaltech.com.br/seguranca/emuladores-falsos-de-ps5-roubam-senhas-do-pc-e-apagam-rastros-do-antivirus/",
+      "published": "31/10/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
