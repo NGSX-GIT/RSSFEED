@@ -1,64 +1,62 @@
 {
-  "generated_at": "2026-10-31T12:00:00.551756-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-11-01T12:00:00.025725-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Falhas críticas em sistema associado a vigilância aeronáutica",
+      "title": "Guia de Fornecedores",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Três vulnerabilidades foram publicadas no banco de dados do programa CVE na terça-feira, dia 27 de outubro, e corrigidas pelo fabricante na versão 9.1.5 do Sunhillo SureLine. Essa plataforma é associada ao processamento, à conversão e à distribuição de dados de vigilância aeronáutica. Os profissionais que assinam as três descobertas são brasileiros e seus perfis no Linkedin indicam que eles trabalham em defesa cibernética na Força Aérea Brasileira.",
-      "link": "https://www.cisoadvisor.com.br/falhas-criticas-em-sistema-associado-a-vigilancia-aeronautica/",
-      "published": "31/10/2026 12:00",
+      "summary": "Anúncios na dark web, falhas na cadeia de suprimentos – Cyber Snapshot, 26 de Outubro, 2026 Ataque a freezers, vazamento no Einstein, patch recorde – Cyber Snapshot, 19 de Outubro, 2026 Deepfakes contra CISOs, ataques de IA, injeção de prompt – Cyber Snapshot, 12 de outubro, 2026",
+      "link": "https://www.cisoadvisor.com.br",
+      "published": "01/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "CISA alerta para falha no Linux encadeada em ataques PHP2Shell",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A CISA alertou agências federais para corrigirem uma falha de escalação de privilégios no kernel Linux de severidade alta que atacantes estão encadeando com as falhas PHP2Shell na natureza. Rastreada como CVE-2026-46300 e conhecida como Fragnesia , a vulnerabilidade decorre de um bug de lógica no subsistema XFRM ESP-in-TCP do Linux que permite a atacantes executar código malicioso com permissões de root. A Fragnesia pertence à classe de vulnerabilidades Dirty Frag e tem uma prova de conceito (PoC) que atacantes locais podem usar para obter privilégios de root em distribuições Linux com kernels lançados antes de 13 de maio de 2026.",
-      "link": "https://www.cisoadvisor.com.br/cisa-alerta-para-falha-no-linux-encadeada-em-ataques-php2shell/",
-      "published": "31/10/2026 12:00",
-      "cves": [
-        "CVE-2026-46300"
-      ],
-      "vendor": "Linux"
-    },
-    {
-      "title": "2 dias Segurança Sony sofre ataque hacker com 2,5 milhões de afetados; contas da PSN estão seguras?",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "breach",
-      "summary": "A Sony Network Communications confirmou uma violação de segurança que comprometeu os dados de 2,58 milhões de clientes de provedores de internet no Japão . O acesso não autorizado aconteceu nos provedores japoneses da empresa, So-net e Plala, em 19 de outubro, enquanto o vazamento dos dados para a internet ocorreu no sábado (24). Entre os dados vazados estão nomes, IDs de usuário, datas de nascimento, números de telefone e e-mails. Além desses itens, 54.401 combinações diretas de e-mail e senha foram expostas, enquanto 16 registros bancários, incluindo números de conta-corrente, também foram divulgados .",
-      "link": "https://canaltech.com.br/seguranca/sony-sofre-ataque-hacker-com-25-milhoes-de-afetados-contas-da-psn-estao-seguras/",
-      "published": "31/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Cibercriminosos roubam mais de US$ 6 bi da Binance",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "threat",
-      "summary": "A Binance confirmou em 30 de outubro de 2026 o roubo de cerca de 6,3 bilhões de dólares em criptomoedas, perto de 34 bilhões de reais, no que analistas de mercado descrevem como o maior furto já registrado no setor. O ataque aconteceu na quinta-feira 29 e as transferências não autorizadas levaram cerca de 20 minutos. Pela reconstituição da TRM Labs, as saídas começaram às 20h05 UTC de 29 de outubro, depois que o atacante comprometeu o sistema que autoriza transferências. A empresa de rastreamento afirma que o invasor usou o recurso EIP-7702 do Ethereum para assumir o controle de uma carteira quente e preparou a operação por pelo menos 36 horas. A explicação técnica mudou em menos de um dia.",
-      "link": "https://boletimsec.com/cibercriminosos-roubam-mais-de-us-6-bi-da-binance/",
-      "published": "31/10/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "1 dia Segurança Emuladores falsos de PS5 roubam senhas do PC e apagam rastros do antivírus",
+      "title": "2 dias Segurança Emuladores falsos de PS5 roubam senhas do PC e apagam rastros do antivírus",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "identity",
       "summary": "Uma pesquisa da equipe de Threat Intelligence da NordVPN revelou que emuladores falsos de PS5 infectados com malware estão circulando no GitHub . Os softwares se disfarçam de emuladores populares, como Kyttyps5 e AnyPS5 , para infectar as máquinas de quem fizer o download. Ao ser instalado, o malware burla a segurança do Windows adicionando regras de exclusão no Microsoft Defender, o que impede que qualquer antivírus detecte a ameaça. Logo em seguida, o invasor instala um infostealer, projetado para roubar dados sensíveis, como senhas e informações pessoais.",
       "link": "https://canaltech.com.br/seguranca/emuladores-falsos-de-ps5-roubam-senhas-do-pc-e-apagam-rastros-do-antivirus/",
-      "published": "31/10/2026 12:00",
+      "published": "01/11/2026 12:00",
       "cves": [],
       "vendor": "Microsoft"
+    },
+    {
+      "title": "1 dia Segurança Maior roubo da história: Binance perde US$ 6,3 bilhões em ataque hacker relâmpago",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "A corretora de criptomoedas Binance sofreu um ataque cibernético que resultou na perda de US$ 6,3 bilhõe s (ou R$ 34 bilhões , em conversão direta) em ativos financeiros na última quinta-feira (29). Especialistas atribuem a ação à Coreia do Norte e afirmam que este é o maior roubo da história do setor . De acordo com a agência Reuters, toda a ação levou apenas 20 minutos . A investigação inicial apontou para uma vulnerabilidade no computador de um dos engenheiros que liberou acesso sem autorização para retirar o dinheiro, mas depois indicou que outros pontos de acesso foram comprometidos.",
+      "link": "https://canaltech.com.br/seguranca/maior-roubo-da-historia-binance-perde-us-63-bilhoes-em-ataque-hacker-relampago/",
+      "published": "01/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Ataque PHP2Shell toma 25 servidores e invade rede ligada ao governo dos EUA",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A empresa israelense de segurança Dream publicou em 26 de outubro de 2026 a análise de uma campanha que obteve acesso root em 25 servidores, encadeando as duas falhas do PHP2Shell com uma vulnerabilidade do kernel Linux. Os artefatos foram recuperados em 25 de outubro e a exploração foi executada até o dia 24. O conjunto reúne 24 firewalls de perímetro de um mesmo fabricante, que a Dream não nomeia, mais um servidor interno de gerenciamento desses equipamentos. Os alvos estavam nos Estados Unidos, no Japão, em Taiwan e na Coreia do Sul. Três dos 25 pertencem a um ambiente ligado ao governo americano, dois firewalls e o servidor de gerenciamento.",
+      "link": "https://boletimsec.com/ataque-php2shell-toma-25-servidores-e-invade-rede-ligada-ao-governo-dos-eua/",
+      "published": "01/11/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "3 dias Segurança Sony sofre ataque hacker com 2,5 milhões de afetados; contas da PSN estão seguras?",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "breach",
+      "summary": "A Sony Network Communications confirmou uma violação de segurança que comprometeu os dados de 2,58 milhões de clientes de provedores de internet no Japão . O acesso não autorizado aconteceu nos provedores japoneses da empresa, So-net e Plala, em 19 de outubro, enquanto o vazamento dos dados para a internet ocorreu no sábado (24). Entre os dados vazados estão nomes, IDs de usuário, datas de nascimento, números de telefone e e-mails. Além desses itens, 54.401 combinações diretas de e-mail e senha foram expostas, enquanto 16 registros bancários, incluindo números de conta-corrente, também foram divulgados .",
+      "link": "https://canaltech.com.br/seguranca/sony-sofre-ataque-hacker-com-25-milhoes-de-afetados-contas-da-psn-estao-seguras/",
+      "published": "01/11/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
