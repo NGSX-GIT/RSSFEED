@@ -1,62 +1,71 @@
 {
-  "generated_at": "2026-11-01T12:00:00.025725-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-11-02T12:00:00.146604-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Guia de Fornecedores",
+      "title": "Falha crítica no kernel Linux permite root em servidores MPTCP",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Anúncios na dark web, falhas na cadeia de suprimentos – Cyber Snapshot, 26 de Outubro, 2026 Ataque a freezers, vazamento no Einstein, patch recorde – Cyber Snapshot, 19 de Outubro, 2026 Deepfakes contra CISOs, ataques de IA, injeção de prompt – Cyber Snapshot, 12 de outubro, 2026",
-      "link": "https://www.cisoadvisor.com.br",
-      "published": "01/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "2 dias Segurança Emuladores falsos de PS5 roubam senhas do PC e apagam rastros do antivírus",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma pesquisa da equipe de Threat Intelligence da NordVPN revelou que emuladores falsos de PS5 infectados com malware estão circulando no GitHub . Os softwares se disfarçam de emuladores populares, como Kyttyps5 e AnyPS5 , para infectar as máquinas de quem fizer o download. Ao ser instalado, o malware burla a segurança do Windows adicionando regras de exclusão no Microsoft Defender, o que impede que qualquer antivírus detecte a ameaça. Logo em seguida, o invasor instala um infostealer, projetado para roubar dados sensíveis, como senhas e informações pessoais.",
-      "link": "https://canaltech.com.br/seguranca/emuladores-falsos-de-ps5-roubam-senhas-do-pc-e-apagam-rastros-do-antivirus/",
-      "published": "01/11/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "1 dia Segurança Maior roubo da história: Binance perde US$ 6,3 bilhões em ataque hacker relâmpago",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "A corretora de criptomoedas Binance sofreu um ataque cibernético que resultou na perda de US$ 6,3 bilhõe s (ou R$ 34 bilhões , em conversão direta) em ativos financeiros na última quinta-feira (29). Especialistas atribuem a ação à Coreia do Norte e afirmam que este é o maior roubo da história do setor . De acordo com a agência Reuters, toda a ação levou apenas 20 minutos . A investigação inicial apontou para uma vulnerabilidade no computador de um dos engenheiros que liberou acesso sem autorização para retirar o dinheiro, mas depois indicou que outros pontos de acesso foram comprometidos.",
-      "link": "https://canaltech.com.br/seguranca/maior-roubo-da-historia-binance-perde-us-63-bilhoes-em-ataque-hacker-relampago/",
-      "published": "01/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ataque PHP2Shell toma 25 servidores e invade rede ligada ao governo dos EUA",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A empresa israelense de segurança Dream publicou em 26 de outubro de 2026 a análise de uma campanha que obteve acesso root em 25 servidores, encadeando as duas falhas do PHP2Shell com uma vulnerabilidade do kernel Linux. Os artefatos foram recuperados em 25 de outubro e a exploração foi executada até o dia 24. O conjunto reúne 24 firewalls de perímetro de um mesmo fabricante, que a Dream não nomeia, mais um servidor interno de gerenciamento desses equipamentos. Os alvos estavam nos Estados Unidos, no Japão, em Taiwan e na Coreia do Sul. Três dos 25 pertencem a um ambiente ligado ao governo americano, dois firewalls e o servidor de gerenciamento.",
-      "link": "https://boletimsec.com/ataque-php2shell-toma-25-servidores-e-invade-rede-ligada-ao-governo-dos-eua/",
-      "published": "01/11/2026 12:00",
-      "cves": [],
+      "summary": "Pesquisadores de segurança da Anthropic desenvolveram um exploit para uma vulnerabilidade crítica no kernel Linux que permite a atacantes não autenticados executar comandos remotamente como root em servidores que rodam listeners de Multipath TCP (MPTCP). A falha, rastreada como CVE-2026-98432 , também afeta conexões TCP comuns, embora a execução remota de código não tenha sido demonstrada publicamente em servidores sem um listener MPTCP. O MPTCP é um recurso do TCP que permite a uma única conexão usar vários caminhos de rede ao mesmo tempo para melhorar desempenho e confiabilidade, sendo comum em ambientes com múltiplas conexões, como Wi-Fi e redes celulares.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-kernel-linux-permite-root-em-servidores-mptcp/",
+      "published": "02/11/2026 12:00",
+      "cves": [
+        "CVE-2026-98432"
+      ],
       "vendor": "Linux"
     },
     {
-      "title": "3 dias Segurança Sony sofre ataque hacker com 2,5 milhões de afetados; contas da PSN estão seguras?",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "breach",
-      "summary": "A Sony Network Communications confirmou uma violação de segurança que comprometeu os dados de 2,58 milhões de clientes de provedores de internet no Japão . O acesso não autorizado aconteceu nos provedores japoneses da empresa, So-net e Plala, em 19 de outubro, enquanto o vazamento dos dados para a internet ocorreu no sábado (24). Entre os dados vazados estão nomes, IDs de usuário, datas de nascimento, números de telefone e e-mails. Além desses itens, 54.401 combinações diretas de e-mail e senha foram expostas, enquanto 16 registros bancários, incluindo números de conta-corrente, também foram divulgados .",
-      "link": "https://canaltech.com.br/seguranca/sony-sofre-ataque-hacker-com-25-milhoes-de-afetados-contas-da-psn-estao-seguras/",
-      "published": "01/11/2026 12:00",
+      "title": "Alpine Linux reconstrói GitLab após tentativa de invasão",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Tentativas de explorar uma falha crítica no GitLab da infraestrutura de desenvolvimento do Alpine Linux, em 20 e 21 de outubro, levaram o projeto de código aberto a reconstruir o servidor do zero e redefinir todas as senhas. Os ataques miraram o CVE-2026-97229, falha de execução remota de código de severidade máxima, e derrubaram processos do GitLab em repetidas ocasiões, com algumas tentativas chegando perto do sucesso. A equipe do Alpine não achou indícios de que atacantes tenham rodado código ou alterado pacotes e versões, mas não conseguiu descartar a invasão por causa de logs ausentes e da falta de registros de conexões de saída.",
+      "link": "https://www.cisoadvisor.com.br/alpine-linux-refaz-gitlab-apos-tentativa-de-invasao/",
+      "published": "02/11/2026 12:00",
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Grupo chinês explora PHP2Shell em firewalls Palo Alto",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Um grupo de hackers associado à China explorou falhas críticas no PHP, conhecidas como PHP2Shell, para obter acesso root em firewalls Palo Alto Networks . O ataque combinou dois exploits distintos e resultou no comprometimento de pelo menos 25 dispositivos, segundo a empresa de segurança Dream, que identificou a campanha no início desta semana. A Palo Alto Networks confirmou as descobertas por meio da Unit 42. Os invasores encadearam as vulnerabilidades CVE-2026-109618 e CVE-2026-109619, específicas de dispositivos PAN-OS, com a falha de escalação de privilégios no kernel Linux denominada Fragnesia.",
+      "link": "https://www.cisoadvisor.com.br/grupo-chines-explora-php2shell-em-firewalls-palo-alto/",
+      "published": "02/11/2026 12:00",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "WordPress: nova falha explorada horas após correção",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Atacantes começaram a explorar uma nova vulnerabilidade de alta gravidade no WordPress poucas horas após a disponibilização das correções. A falha, corrigida em 28 de outubro na versão 7.1.4, afeta o processo de atualização do sistema e pode ser usada para execução remota de código, segundo alerta da Defiant. Ainda não há identificador CVE atribuído ao problema. Trata-se de uma condição de corrida no processo de atualização do núcleo do WordPress que pode ser explorada sem autenticação, embora a complexidade do ataque seja alta.",
+      "link": "https://www.cisoadvisor.com.br/wordpress-nova-falha-explorada-horas-apos-correcao/",
+      "published": "02/11/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "Cibercriminosos exploram zero day crítico no Cisco SD-WAN",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Cisco Talos publicou em 28 de outubro de 2026 a análise do KeyDrift, conjunto de malware feito para viver dentro dos controladores Catalyst SD-WAN e extrair as chaves que protegem o tráfego entre as unidades da empresa. O acesso inicial veio da CVE-2026-20127, falha de autenticação com nota 10,0 na escala CVSS 3.1. A falha está na autenticação entre pares do Catalyst SD-WAN Controller, do Manager e do Validator, antigos vSmart, vManage e vBond. Pelo registro no NVD, um atacante remoto e sem credencial obtém privilégio administrativo enviando requisições manipuladas. A Cisco corrigiu em fevereiro de 2026 e a CVE entrou no catálogo da CISA em 25 de fevereiro, com prazo de dois dias.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-zero-day-critico-no-cisco-sd-wan/",
+      "published": "02/11/2026 12:00",
+      "cves": [
+        "CVE-2026-20127"
+      ],
+      "vendor": "Cisco"
     }
   ]
 }
