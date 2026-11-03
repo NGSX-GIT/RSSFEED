@@ -1,71 +1,64 @@
 {
-  "generated_at": "2026-11-02T12:00:00.146604-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-11-03T12:00:00.164516-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no kernel Linux permite root em servidores MPTCP",
+      "title": "Extensão falsa do Claude Code compromete Cursor",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores de segurança da Anthropic desenvolveram um exploit para uma vulnerabilidade crítica no kernel Linux que permite a atacantes não autenticados executar comandos remotamente como root em servidores que rodam listeners de Multipath TCP (MPTCP). A falha, rastreada como CVE-2026-98432 , também afeta conexões TCP comuns, embora a execução remota de código não tenha sido demonstrada publicamente em servidores sem um listener MPTCP. O MPTCP é um recurso do TCP que permite a uma única conexão usar vários caminhos de rede ao mesmo tempo para melhorar desempenho e confiabilidade, sendo comum em ambientes com múltiplas conexões, como Wi-Fi e redes celulares.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-kernel-linux-permite-root-em-servidores-mptcp/",
-      "published": "02/11/2026 12:00",
-      "cves": [
-        "CVE-2026-98432"
-      ],
-      "vendor": "Linux"
+      "summary": "Versões adulteradas da extensão Claude Code, da Anthropic, foram distribuídas a usuários do editor Cursor em um ataque à cadeia de suprimentos. O episódio ocorreu em 29 de outubro e envolveu as versões 2.1.312 e 2.1.313 da extensão anthropic.claude-code, que permaneceram no Cursor VS Code Extension Marketplace por aproximadamente 11 horas. Direcionada a usuários de macOS e Windows, a extensão trazia código JavaScript que seria executado no carregamento de módulos para abrir um túnel SSH reverso. O pesquisador de segurança Kevin Beaumont estima que cerca de 5 mil sistemas de desenvolvedores podem ter baixado as versões maliciosas.",
+      "link": "https://www.cisoadvisor.com.br/extensao-falsa-do-claude-code-compromete-cursor/",
+      "published": "03/11/2026 12:00",
+      "cves": [],
+      "vendor": "Windows"
     },
     {
-      "title": "Alpine Linux reconstrói GitLab após tentativa de invasão",
-      "source": "CISO Advisor",
+      "title": "WordPress corrige falhas de segurança incluindo execução remota de código",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Tentativas de explorar uma falha crítica no GitLab da infraestrutura de desenvolvimento do Alpine Linux, em 20 e 21 de outubro, levaram o projeto de código aberto a reconstruir o servidor do zero e redefinir todas as senhas. Os ataques miraram o CVE-2026-97229, falha de execução remota de código de severidade máxima, e derrubaram processos do GitLab em repetidas ocasiões, com algumas tentativas chegando perto do sucesso. A equipe do Alpine não achou indícios de que atacantes tenham rodado código ou alterado pacotes e versões, mas não conseguiu descartar a invasão por causa de logs ausentes e da falta de registros de conexões de saída.",
-      "link": "https://www.cisoadvisor.com.br/alpine-linux-refaz-gitlab-apos-tentativa-de-invasao/",
-      "published": "02/11/2026 12:00",
-      "cves": [
-        "CVE-2026-97229"
-      ],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Grupo chinês explora PHP2Shell em firewalls Palo Alto",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Um grupo de hackers associado à China explorou falhas críticas no PHP, conhecidas como PHP2Shell, para obter acesso root em firewalls Palo Alto Networks . O ataque combinou dois exploits distintos e resultou no comprometimento de pelo menos 25 dispositivos, segundo a empresa de segurança Dream, que identificou a campanha no início desta semana. A Palo Alto Networks confirmou as descobertas por meio da Unit 42. Os invasores encadearam as vulnerabilidades CVE-2026-109618 e CVE-2026-109619, específicas de dispositivos PAN-OS, com a falha de escalação de privilégios no kernel Linux denominada Fragnesia.",
-      "link": "https://www.cisoadvisor.com.br/grupo-chines-explora-php2shell-em-firewalls-palo-alto/",
-      "published": "02/11/2026 12:00",
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "WordPress: nova falha explorada horas após correção",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Atacantes começaram a explorar uma nova vulnerabilidade de alta gravidade no WordPress poucas horas após a disponibilização das correções. A falha, corrigida em 28 de outubro na versão 7.1.4, afeta o processo de atualização do sistema e pode ser usada para execução remota de código, segundo alerta da Defiant. Ainda não há identificador CVE atribuído ao problema. Trata-se de uma condição de corrida no processo de atualização do núcleo do WordPress que pode ser explorada sem autenticação, embora a complexidade do ataque seja alta.",
-      "link": "https://www.cisoadvisor.com.br/wordpress-nova-falha-explorada-horas-apos-correcao/",
-      "published": "02/11/2026 12:00",
+      "summary": "O WordPress corrigiu em 28 de outubro de 2026 uma falha no processo de atualização do próprio núcleo que permite execução remota de código. Nas 24 horas seguintes, a Wordfence bloqueou 60.471 tentativas de exploração, contagem de tentativas registradas, não de sites comprometidos. A falha é uma condição de corrida e está no núcleo do WordPress, não em plugin de terceiro, o que coloca na mesma condição toda instalação que se atualiza sozinha. Durante a atualização, o sistema extrai arquivos para uma pasta temporária de preparação. Nomes de pasta previsíveis e arquivos de instalação acessíveis pela web expõem por instantes um segundo instalador. A exploração não exige autenticação.",
+      "link": "https://boletimsec.com/wordpress-corrige-falhas-de-seguranca-incluindo-execucao-remota-de-codigo/",
+      "published": "03/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos exploram zero day crítico no Cisco SD-WAN",
-      "source": "BoletimSec Notícias",
+      "title": "PoC de escalação de privilégios no WinSock é divulgado",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Cisco Talos publicou em 28 de outubro de 2026 a análise do KeyDrift, conjunto de malware feito para viver dentro dos controladores Catalyst SD-WAN e extrair as chaves que protegem o tráfego entre as unidades da empresa. O acesso inicial veio da CVE-2026-20127, falha de autenticação com nota 10,0 na escala CVSS 3.1. A falha está na autenticação entre pares do Catalyst SD-WAN Controller, do Manager e do Validator, antigos vSmart, vManage e vBond. Pelo registro no NVD, um atacante remoto e sem credencial obtém privilégio administrativo enviando requisições manipuladas. A Cisco corrigiu em fevereiro de 2026 e a CVE entrou no catálogo da CISA em 25 de fevereiro, com prazo de dois dias.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-zero-day-critico-no-cisco-sd-wan/",
-      "published": "02/11/2026 12:00",
+      "summary": "Foi publicado um exploit proof-of-concept (PoC) para a CVE-2023-21768 que demonstra como atacantes com acesso local podem obter privilégios SYSTEM por meio do Windows Ancillary Function Driver for WinSock. Os pesquisadores Valentina Palmiotti, conhecida como chompie, e Ruben Boonen divulgaram o código. O exploit completo tem como alvo sistemas Windows 11 22H2 vulneráveis. O caso se refere a uma vulnerabilidade corrigida em janeiro de 2023, e não a uma falha recém-divulgada no Windows. A IBM publicou a análise técnica dos pesquisadores em 21 de março de 2023. A falha tem pontuação CVSS de 7,8 e exige privilégios locais de baixo nível, sem interação do usuário.",
+      "link": "https://www.cisoadvisor.com.br/poc-de-escalacao-de-privilegios-no-winsock-e-divulgado/",
+      "published": "03/11/2026 12:00",
       "cves": [
-        "CVE-2026-20127"
+        "CVE-2023-21768"
       ],
-      "vendor": "Cisco"
+      "vendor": "Windows"
+    },
+    {
+      "title": "Cloudflare barra mais de 18 milhões de ataques DDoS no terceiro trimestre",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Cloudflare barrou 18,2 milhões de ataques de negação de serviço na camada de rede entre julho e setembro de 2026, segundo o relatório trimestral que a empresa publicou em 29 de outubro. O volume representa alta de 208% sobre o mesmo trimestre de 2025, ou cerca de 8,2 mil ataques por hora. O perfil dos ataques mudou mais que o número. Pela contagem da empresa, 96% terminaram em menos de dez minutos e 98% ficaram abaixo de 1 Gbps, o que dá cerca de um ataque a cada 0,44 segundo. No mesmo período a Cloudflare filtrou 14,4 trilhões de requisições na camada HTTP e 272,6 PB de tráfego na camada de rede. Os ataques de grande porte caminharam na direção oposta.",
+      "link": "https://boletimsec.com/cloudflare-barra-mais-de-18-milhoes-de-ataques-ddos-no-terceiro-trimestre/",
+      "published": "03/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "FBI confirma grupo norte-coreano no roubo de mais de US$ 6 bi da Binance",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "O FBI confirmou em 1º de novembro de 2026 que cibercriminosos norte-coreanos roubaram mais de 6 bilhões de dólares em ativos virtuais da Binance, em um ataque ocorrido por volta de 29 de outubro. O alerta de segurança da agência atribui a operação ao grupo que ela rastreia como TraderTraitor. O documento do FBI não identifica vulnerabilidade explorada, família de malware nem a cadeia técnica completa do ataque. A confirmação oficial trata de autoria, não de mecanismo. Pela reconstituição da TRM Labs citada nas primeiras reportagens, carteiras em dez blockchains foram drenadas e a maior parte do valor saiu em cerca de 20 minutos.",
+      "link": "https://boletimsec.com/fbi-confirma-grupo-norte-coreano-no-roubo-de-mais-de-us-6-bi-da-binance/",
+      "published": "03/11/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
