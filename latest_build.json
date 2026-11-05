@@ -1,66 +1,68 @@
 {
-  "generated_at": "2026-11-04T12:00:00.192650-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-11-05T12:00:00.087922-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no Android permite execução remota de código",
+      "title": "CISA confirma exploração de falha RCE no WordPress",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Android permite execução remota de código em celulares sem exigir interação do usuário. O Google liberou atualizações para corrigir o problema. Com a rodada de patches de novembro, o Google corrigiu um total de 233 vulnerabilidades no Android, tornando-a uma das maiores rodadas de correções na história do sistema operacional móvel. Três vulnerabilidades críticas, uma no Android Framework e duas no Android System que permitem execução remota de código, sem necessidade de interação do usuário nem de privilégios adicionais de execução. Segundo o Google, a falha crítica mais perigosa está no Android Framework (CVE-2026-58868).",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-android-permite-execucao-remota-de-codigo/",
-      "published": "04/11/2026 12:00",
+      "summary": "A CISA alertou agências federais sobre a exploração ativa de uma vulnerabilidade de alta severidade no WordPress, corrigida recentemente. A confirmação ocorreu na terça-feira (3). Rastreada como CVE-2026-119977 , a falha no núcleo do WordPress decorre de uma condição de corrida do tipo time-of-check time-of-use (TOCTOU) e foi reportada pelo pesquisador Umut Bayram, da Picus Security. A exploração bem-sucedida permite que atacantes remotos sem privilégios executem código no servidor em ataques de alta complexidade, devido a caminhos de preparação previsíveis e acessíveis pela web usados durante atualizações completas do núcleo.",
+      "link": "https://www.cisoadvisor.com.br/cisa-confirma-exploracao-de-falha-rce-no-wordpress/",
+      "published": "05/11/2026 12:00",
       "cves": [
-        "CVE-2026-58868"
-      ],
-      "vendor": "Google"
-    },
-    {
-      "title": "Node-RED: falha crítica é explorada para implantar payloads",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Atacantes começaram a explorar uma vulnerabilidade de gravidade crítica no Node-RED para implantar diversos payloads, segundo a empresa de inteligência de vulnerabilidades VulnCheck. O Node-RED é uma ferramenta de programação low-code baseada em fluxos que permite criar aplicações orientadas a eventos por meio de um editor no navegador. A ferramenta é usada em produtos de vários setores, incluindo dispositivos comerciais de ICS/OT. Catalogada como CVE-2026-58115 (CVSS de 10/10), a falha é descrita como uma ausência de autenticação na interface HTTP do Node-RED que pode permitir a atacantes acessar nós de programação capazes de executar comandos de sistema.",
-      "link": "https://www.cisoadvisor.com.br/node-red-falha-critica-e-explorada-para-implantar-payloads/",
-      "published": "04/11/2026 12:00",
-      "cves": [
-        "CVE-2026-58115"
+        "CVE-2026-119977"
       ],
       "vendor": null
     },
     {
-      "title": "Falhas exploradas dão controle total em 78% dos casos",
-      "source": "CISO Advisor",
+      "title": "Falha crítica no SolarWinds Dameware permite comprometer sistemas remotos",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cerca de 78% das vulnerabilidades efetivamente exploradas em ataques permitem que o invasor assuma o controle de um sistema ou eleve seus privilégios. A conclusão é de um estudo publicado em 2 de novembro de 2026 pela Microsoft Security Research, que analisou o universo de falhas divulgadas entre 1999 e setembro de 2026. Os pesquisadores Yair Tsarfaty e Or Begam observaram que os atacantes priorizam falhas de execução remota de código, escalação de privilégios e bypass de autenticação muito mais do que outros tipos.",
-      "link": "https://www.cisoadvisor.com.br/falhas-exploradas-dao-controle-total-em-78-dos-casos/",
-      "published": "04/11/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "A SolarWinds publicou em 3 de novembro de 2026 um aviso sobre a CVE-2026-28336, falha de injeção de comando no Dameware que recebeu nota 9,9 de 10. O Dameware é a ferramenta de suporte remoto da empresa, usada por equipes de TI para assumir o controle de estações de trabalho, e a falha permite que um usuário autenticado execute comandos e comprometa a máquina atendida. A injeção de comando acontece quando o software recebe uma entrada do usuário e a repassa ao sistema operacional sem validar o conteúdo. O que deveria ser apenas um dado passa a ser interpretado como instrução, e o atacante acrescenta os próprios comandos àquilo que o programa já executaria.",
+      "link": "https://boletimsec.com/falha-critica-no-solarwinds-dameware-permite-comprometer-sistemas-remotos/",
+      "published": "05/11/2026 12:00",
+      "cves": [
+        "CVE-2026-28336"
+      ],
+      "vendor": "SolarWinds"
     },
     {
-      "title": "Google desmonta botnet XCPE com 1,3 milhão de Androids",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "O Google anunciou na segunda-feira o desmantelamento da XCPE (também conhecida como X.CPE), um backdoor e botnet que controlava mais de 1,3 milhão de set-top boxes Android. O malware foi desenvolvido e implantado pela Videostrong Technology, fabricante e projetista original (OEM/ODM) de dispositivos Android sediada na China, que também operava a botnet. Segundo o Google, a Videostrong vendia acesso a afiliados e carregava módulos maliciosos nos dispositivos com backdoor, que eram então usados para fraude publicitária e exfiltração de dados, como proxies residenciais e para carregar malware adicional.",
-      "link": "https://www.cisoadvisor.com.br/google-desmonta-botnet-xcpe-com-13-milhao-de-androids/",
-      "published": "04/11/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
+      "title": "Zero day no Zyxel GS1900 permite execução como root sem autenticação",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Zyxel confirmou em 11 de outubro de 2026 uma nova vulnerabilidade nos switches gerenciáveis da linha GS1900, registrada como CVE-2026-107441, que permite executar comandos como root sem qualquer autenticação. A fabricante publicou a correção em 22 de outubro e o aviso formal em 3 de novembro. A falha atinge o mesmo trecho de código reparado em junho. A interface web do equipamento guarda os parâmetros recebidos em um bloco fixo de 140 posições de 1.024 bytes. A rotina copia o dado para dentro do bloco antes de conferir quantas posições já foram ocupadas. Um valor suficientemente longo na posição 139 transborda e sobrescreve o próprio contador, o campo encarregado de limitar a escrita.",
+      "link": "https://boletimsec.com/zero-day-no-zyxel-gs1900-permite-execucao-como-root-sem-autenticacao/",
+      "published": "05/11/2026 12:00",
+      "cves": [
+        "CVE-2026-107441"
+      ],
+      "vendor": null
     },
     {
-      "title": "Agentes de IA exigem tratamento como identidades privilegiadas",
+      "title": "Entrevista falsa levou a roubo de US$ 6,3 bilhões em cripto",
       "source": "CISO Advisor",
       "priority": "Média",
-      "category": "identity",
-      "summary": "Ataques cibernéticos que antes dependiam de uma sequência de decisões humanas — roubo de credenciais, busca por vulnerabilidades, movimentação lateral e interrupção de operações — agora podem ser executados por agentes de inteligência artificial na velocidade da máquina. Na avaliação de Gustavo Leite, VP da Cohesity na América Latina, esses agentes interagem com aplicativos, dados, infraestrutura e outros agentes, concluindo uma sequência inteira de ações antes que uma pessoa consiga interpretar um alerta e intervir.",
-      "link": "https://www.cisoadvisor.com.br/agentes-de-ia-exigem-tratamento-como-identidades-privilegiadas/",
-      "published": "04/11/2026 12:00",
+      "category": "threat",
+      "summary": "A exchange de criptomoedas Binance informou que hackers norte-coreanos usaram uma falsa entrevista de emprego para enganar um funcionário e instalar um malware. A ação comprometeu a infraestrutura de carteiras da empresa e permitiu o roubo de cerca de US$ 6,34 bilhões em ativos digitais. Os detalhes foram publicados em relatório de incidente nesta terça-feira (3), que descreve como os atacantes usaram engenharia social, software malicioso e sistemas internos comprometidos para executar o roubo de 29 de outubro. O FBI atribuiu o ataque ao grupo patrocinado pelo Estado norte-coreano conhecido como TraderTraitor, também rastreado como Lazarus Group, Jade Sleet e APT38.",
+      "link": "https://www.cisoadvisor.com.br/entrevista-falsa-levou-a-roubo-de-us-63-bilhoes-em-cripto/",
+      "published": "05/11/2026 12:00",
       "cves": [],
       "vendor": null
+    },
+    {
+      "title": "LLMjacking permite que cibercriminosos revendam acesso a modelos de IA",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "O Google Threat Intelligence Group e a Mandiant publicaram em 2 de novembro de 2026 um levantamento sobre LLMjacking, o sequestro do acesso corporativo a modelos de linguagem. A Mandiant atendeu vários incidentes desse tipo em 2026, na América do Norte, na América do Sul e na Ásia-Pacífico, em serviços financeiros, varejo, tecnologia e transporte. O que o relatório traz de novo não é o roubo de credencial, é a camada de revenda. O Google chama de LLM Mixers os intermediários que funcionam como gateways de roteamento ilícito, recebendo o acesso roubado, agregando chaves de várias vítimas e revendendo a assinantes clandestinos. Há divisão de trabalho entre quem invade e quem monetiza.",
+      "link": "https://boletimsec.com/llmjacking-permite-que-cibercriminosos-revendam-acesso-a-modelos-de-ia/",
+      "published": "05/11/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
     }
   ]
 }
