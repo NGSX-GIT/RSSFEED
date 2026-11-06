@@ -1,68 +1,71 @@
 {
-  "generated_at": "2026-11-05T12:00:00.087922-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-11-06T12:00:00.033502-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA confirma exploração de falha RCE no WordPress",
+      "title": "Citrix XenServer expõe host de virtualização a invasor",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Citrix publicou em 3 de novembro de 2026 o boletim CTX697256, que reúne oito vulnerabilidades do XenServer. A mais grave, registrada como CVE-2026-98432 e classificada como crítica, permite que um invasor sem autenticação comprometa o host de virtualização e os appliances que o apoiam. O boletim não relata exploração em andamento nem associa malware às falhas. A empresa não detalhou o erro de programação por trás da falha crítica. O que o boletim define é a condição de alcance: o atacante precisa chegar à rede de gerenciamento, o segmento por onde os administradores controlam os hosts, e não à rede por onde trafegam as máquinas virtuais dos usuários.",
+      "link": "https://boletimsec.com/citrix-xenserver-expoe-host-de-virtualizacao-a-invasor/",
+      "published": "06/11/2026 12:00",
+      "cves": [
+        "CVE-2026-98432"
+      ],
+      "vendor": "Citrix"
+    },
+    {
+      "title": "Citrix corrige falha crítica no XenServer",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A CISA alertou agências federais sobre a exploração ativa de uma vulnerabilidade de alta severidade no WordPress, corrigida recentemente. A confirmação ocorreu na terça-feira (3). Rastreada como CVE-2026-119977 , a falha no núcleo do WordPress decorre de uma condição de corrida do tipo time-of-check time-of-use (TOCTOU) e foi reportada pelo pesquisador Umut Bayram, da Picus Security. A exploração bem-sucedida permite que atacantes remotos sem privilégios executem código no servidor em ataques de alta complexidade, devido a caminhos de preparação previsíveis e acessíveis pela web usados durante atualizações completas do núcleo.",
-      "link": "https://www.cisoadvisor.com.br/cisa-confirma-exploracao-de-falha-rce-no-wordpress/",
-      "published": "05/11/2026 12:00",
+      "summary": "A Citrix divulgou uma vulnerabilidade crítica no XenServer que pode permitir a um atacante não autenticado comprometer hosts de virtualização e appliances de suporte. A falha, rastreada como CVE-2026-98432, exige acesso à rede de gerenciamento, limite importante para avaliar quais sistemas estão expostos, segundo o boletim de segurança publicado em 3 de novembro. Diferentemente de vulnerabilidades anteriores em convidados do XenServer, o problema principal não requer uma conta privilegiada dentro de uma máquina virtual. Os pesquisadores da Citrix apontam que a falha pode comprometer o host, appliances Workload Balancing em execução ou appliances Conversion Manager.",
+      "link": "https://www.cisoadvisor.com.br/citrix-corrige-falha-critica-no-xenserver/",
+      "published": "06/11/2026 12:00",
       "cves": [
-        "CVE-2026-119977"
+        "CVE-2026-98432"
       ],
-      "vendor": null
+      "vendor": "Citrix"
     },
     {
-      "title": "Falha crítica no SolarWinds Dameware permite comprometer sistemas remotos",
+      "title": "Falha crítica no OpenSSH dá acesso a contas sem senha",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A SolarWinds publicou em 3 de novembro de 2026 um aviso sobre a CVE-2026-28336, falha de injeção de comando no Dameware que recebeu nota 9,9 de 10. O Dameware é a ferramenta de suporte remoto da empresa, usada por equipes de TI para assumir o controle de estações de trabalho, e a falha permite que um usuário autenticado execute comandos e comprometa a máquina atendida. A injeção de comando acontece quando o software recebe uma entrada do usuário e a repassa ao sistema operacional sem validar o conteúdo. O que deveria ser apenas um dado passa a ser interpretado como instrução, e o atacante acrescenta os próprios comandos àquilo que o programa já executaria.",
-      "link": "https://boletimsec.com/falha-critica-no-solarwinds-dameware-permite-comprometer-sistemas-remotos/",
-      "published": "05/11/2026 12:00",
-      "cves": [
-        "CVE-2026-28336"
-      ],
-      "vendor": "SolarWinds"
+      "summary": "O projeto OpenSSH publicou em 5 de novembro de 2026 a versão 10.6p2, classificada por ele como correção crítica, para uma falha que deixa um invasor entrar em contas sem senha de servidores Alpine Linux. A distribuição liberou pacotes corrigidos para todas as versões a partir da 3.16. Nenhum ataque que use a falha foi relatado até a publicação do aviso. A origem está na forma como o servidor sshd confere a senha junto da musl, a biblioteca C sobre a qual o Alpine é construído. Segundo Damien Miller, do projeto OpenSSH, sistemas que não são Linux, distribuições baseadas na glibc e máquinas que verificam a senha pelo PAM ficam de fora.",
+      "link": "https://boletimsec.com/falha-critica-no-openssh-da-acesso-a-contas-sem-senha/",
+      "published": "06/11/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
     },
     {
-      "title": "Zero day no Zyxel GS1900 permite execução como root sem autenticação",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Zyxel confirmou em 11 de outubro de 2026 uma nova vulnerabilidade nos switches gerenciáveis da linha GS1900, registrada como CVE-2026-107441, que permite executar comandos como root sem qualquer autenticação. A fabricante publicou a correção em 22 de outubro e o aviso formal em 3 de novembro. A falha atinge o mesmo trecho de código reparado em junho. A interface web do equipamento guarda os parâmetros recebidos em um bloco fixo de 140 posições de 1.024 bytes. A rotina copia o dado para dentro do bloco antes de conferir quantas posições já foram ocupadas. Um valor suficientemente longo na posição 139 transborda e sobrescreve o próprio contador, o campo encarregado de limitar a escrita.",
-      "link": "https://boletimsec.com/zero-day-no-zyxel-gs1900-permite-execucao-como-root-sem-autenticacao/",
-      "published": "05/11/2026 12:00",
-      "cves": [
-        "CVE-2026-107441"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Entrevista falsa levou a roubo de US$ 6,3 bilhões em cripto",
+      "title": "Zyxel corrige falha explorada em switches GS1900 globalmente",
       "source": "CISO Advisor",
       "priority": "Média",
-      "category": "threat",
-      "summary": "A exchange de criptomoedas Binance informou que hackers norte-coreanos usaram uma falsa entrevista de emprego para enganar um funcionário e instalar um malware. A ação comprometeu a infraestrutura de carteiras da empresa e permitiu o roubo de cerca de US$ 6,34 bilhões em ativos digitais. Os detalhes foram publicados em relatório de incidente nesta terça-feira (3), que descreve como os atacantes usaram engenharia social, software malicioso e sistemas internos comprometidos para executar o roubo de 29 de outubro. O FBI atribuiu o ataque ao grupo patrocinado pelo Estado norte-coreano conhecido como TraderTraitor, também rastreado como Lazarus Group, Jade Sleet e APT38.",
-      "link": "https://www.cisoadvisor.com.br/entrevista-falsa-levou-a-roubo-de-us-63-bilhoes-em-cripto/",
-      "published": "05/11/2026 12:00",
-      "cves": [],
+      "category": "patches",
+      "summary": "A Zyxel publicou uma atualização de segurança para uma vulnerabilidade que comprometeu cerca de mil switches da linha GS1900 em todo o mundo. A falha, identificada como CVE-2026-107441, permite que um atacante não autenticado execute comandos no sistema ao enviar uma requisição HTTP especialmente construída à interface web do equipamento. A empresa de cibersegurança Binarly informou que os mil switches relatados pela GreyNoise não foram invadidos por meio da falha CVE-2026-7273, mas sim pela CVE-2026-107441, corrigida pela Zyxel ontem.",
+      "link": "https://www.cisoadvisor.com.br/zyxel-corrige-falha-explorada-em-switches-gs1900-globalmente/",
+      "published": "06/11/2026 12:00",
+      "cves": [
+        "CVE-2026-107441",
+        "CVE-2026-7273"
+      ],
       "vendor": null
     },
     {
-      "title": "LLMjacking permite que cibercriminosos revendam acesso a modelos de IA",
+      "title": "Cibercriminosos exploram falha do WinRAR para roubar senhas",
       "source": "BoletimSec Notícias",
       "priority": "Média",
-      "category": "identity",
-      "summary": "O Google Threat Intelligence Group e a Mandiant publicaram em 2 de novembro de 2026 um levantamento sobre LLMjacking, o sequestro do acesso corporativo a modelos de linguagem. A Mandiant atendeu vários incidentes desse tipo em 2026, na América do Norte, na América do Sul e na Ásia-Pacífico, em serviços financeiros, varejo, tecnologia e transporte. O que o relatório traz de novo não é o roubo de credencial, é a camada de revenda. O Google chama de LLM Mixers os intermediários que funcionam como gateways de roteamento ilícito, recebendo o acesso roubado, agregando chaves de várias vítimas e revendendo a assinantes clandestinos. Há divisão de trabalho entre quem invade e quem monetiza.",
-      "link": "https://boletimsec.com/llmjacking-permite-que-cibercriminosos-revendam-acesso-a-modelos-de-ia/",
-      "published": "05/11/2026 12:00",
-      "cves": [],
-      "vendor": "Google"
+      "category": "patches",
+      "summary": "A ESET publicou em 3 de novembro de 2026 um relatório sobre o Gorbag, grupo alinhado à Rússia ativo desde ao menos fevereiro de 2025, que passou a usar uma falha do WinRAR para instalar um ladrão de senhas em órgãos públicos da Ucrânia. A empresa associa à mesma operação a atividade antes rastreada como GIFTEDCROOK, atribuída pelo CERT-UA ao grupo UAC-0226. A falha explorada é a CVE-2025-8088, um path traversal do WinRAR. O conteúdo preparado dentro do arquivo escapa da pasta escolhida para a extração, e o atacante usa fluxos de dados alternativos do Windows para gravar arquivos em outros pontos do disco.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-do-winrar-para-roubar-senhas/",
+      "published": "06/11/2026 12:00",
+      "cves": [
+        "CVE-2025-8088"
+      ],
+      "vendor": "Windows"
     }
   ]
 }
