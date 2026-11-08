@@ -1,62 +1,60 @@
 {
-  "generated_at": "2026-11-07T12:00:00.026660-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-11-08T12:00:00.043038-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha de autenticação no OpenSSH afeta sistemas Linux",
+      "title": "Falhas no Android permitem execução remota de código",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade em bypass de autenticação no OpenSSH, presente há cerca de uma década na aplicação em sistemas Linux que utilizam a biblioteca musl, permite que atacantes acessem contas simplesmente digitando qualquer senha com mais de 256 caracteres. A falha, apelidada de “*sshole”, está registrada como CVE-2026-123158 e foi detalhada pelo pesquisador Özgün Kültekin, que mantém a documentação em sshhole.com e atua profissionalmente na área de segurança, conforme seu perfil no LinkedIn . A equipe do OpenSSH lançou a versão 10.6p2 em 5 de novembro para bloquear a brecha.",
-      "link": "https://www.cisoadvisor.com.br/falha-de-autenticacao-no-openssh-afeta-sistemas-linux/",
-      "published": "07/11/2026 12:00",
-      "cves": [
-        "CVE-2026-123158"
-      ],
-      "vendor": "Linux"
+      "summary": "O boletim de segurança do Android de novembro de 2026, publicado em 2 de novembro, corrige 216 vulnerabilidades, sendo 23 classificadas como críticas. O núcleo do risco, segundo análise da SolusThreat, são três falhas de execução remota de código (RCE) que dispensam qualquer interação do usuário em componentes de decodificação de mídia e imagem, superfície historicamente explorada em ataques zero-click desde o caso Stagefright, em 2015. A avaliação da SolusThreat classifica a severidade como crítica, com prioridade P1. A exploração ativa não foi reportada, nenhuma das CVEs consta no catálogo KEV da CISA e não há prova de conceito pública identificada em 4 de novembro.",
+      "link": "https://www.cisoadvisor.com.br/falhas-no-android-permitem-execucao-remota-de-codigo/",
+      "published": "08/11/2026 12:00",
+      "cves": [],
+      "vendor": null
     },
     {
-      "title": "3 dias Segurança Google rompe com fabricante que mandava TV box infectada para clientes",
+      "title": "4 dias Segurança Google rompe com fabricante que mandava TV box infectada para clientes",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "threat",
       "summary": "O Google rompeu vínculo com a fabricante de TV Box Videostrong após identificar que a empresa inseriu malware intencionalmente nos aparelhos . A empresa ofuscou testes de segurança para inserir código malicioso e está proibida de vender novos aparelhos com aplicativos e plataformas do Android. A equipe de Inteligência de Ameaças da Big Tech acabou com um backdoor (método para ocultar mecanismos de segurança de um sistema) chamado XCPE, no qual era possível infectar os dispositivos Android e transformá-los numa rede de botnet (rede de dispositivos atacados sob controle de uma organização específica) para ações maliciosas.",
       "link": "https://canaltech.com.br/seguranca/google-rompe-com-fabricante-que-mandava-tv-box-infectada-para-clientes/",
-      "published": "07/11/2026 12:00",
+      "published": "08/11/2026 12:00",
       "cves": [],
       "vendor": "Google"
     },
     {
-      "title": "29.10.26 Segurança Emuladores falsos de PS5 roubam senhas do PC e apagam rastros do antivírus",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma pesquisa da equipe de Threat Intelligence da NordVPN revelou que emuladores falsos de PS5 infectados com malware estão circulando no GitHub . Os softwares se disfarçam de emuladores populares, como Kyttyps5 e AnyPS5 , para infectar as máquinas de quem fizer o download. Ao ser instalado, o malware burla a segurança do Windows adicionando regras de exclusão no Microsoft Defender, o que impede que qualquer antivírus detecte a ameaça. Logo em seguida, o invasor instala um infostealer, projetado para roubar dados sensíveis, como senhas e informações pessoais.",
-      "link": "https://canaltech.com.br/seguranca/emuladores-falsos-de-ps5-roubam-senhas-do-pc-e-apagam-rastros-do-antivirus/",
-      "published": "07/11/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "30.10.26 Segurança Maior roubo da história: Binance perde US$ 6,3 bilhões em ataque hacker relâmpago",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "A corretora de criptomoedas Binance sofreu um ataque cibernético que resultou na perda de US$ 6,3 bilhõe s (ou R$ 34 bilhões , em conversão direta) em ativos financeiros na última quinta-feira (29). Especialistas atribuem a ação à Coreia do Norte e afirmam que este é o maior roubo da história do setor . De acordo com a agência Reuters, toda a ação levou apenas 20 minutos . A investigação inicial apontou para uma vulnerabilidade no computador de um dos engenheiros que liberou acesso sem autorização para retirar o dinheiro, mas depois indicou que outros pontos de acesso foram comprometidos.",
-      "link": "https://canaltech.com.br/seguranca/maior-roubo-da-historia-binance-perde-us-63-bilhoes-em-ataque-hacker-relampago/",
-      "published": "07/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "3 dias Segurança Nova falha no Smart Sampa expõe 17 mil câmeras e imagens de autoridades sem senha",
+      "title": "4 dias Segurança Nova falha no Smart Sampa expõe 17 mil câmeras e imagens de autoridades sem senha",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "patches",
       "summary": "Por André Lourenti Magalhães • Editado por Jones Oliveira | 03/11/2026 às 14:31 • Atualizado 03/11/2026 às 14:37 Serviço de monitoramento inteligente da cidade de São Paulo (SP), o Smart Sampa teve mais uma brecha de segurança identificada nos últimos dias. De acordo com o UOL, uma falha permitiu o acesso indevido a 17 mil câmeras de segurança do sistema. É a segunda grande brecha que envolve o Smart Sampa nas últimas três semanas: em outubro, o Ministério Público de São Paulo abriu uma investigação para apurar os vazamentos que resultaram na exposição de 58 mil câmeras no período de 11 meses.",
       "link": "https://canaltech.com.br/seguranca/nova-falha-no-smart-sampa-expoe-17-mil-cameras-e-imagens-de-autoridades-sem-senha/",
-      "published": "07/11/2026 12:00",
+      "published": "08/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Entenda como foi o roubo de US$ 133M no banco Arkéa",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O banco cooperativo francês Crédit Mutuel Arkéa confirmou em 4 de novembro um ataque cibernético que permitiu transações fraudulentas e suspendeu temporariamente algumas transferências. Ontem, 5 de novembro, a instituição informou que cerca de € 100 milhões (US$ 112,6 milhões) estavam faltando e que ainda não podia precisar quanto poderia ser recuperado. A análise do incidente foi detalhada pela empresa de segurança Halborn em artigo publicado em seu blog . Segundo o texto, os atacantes usaram uma conta do próprio banco para enviar transferências a contas em exchanges centralizadas, que foram abertas com identidades falsas.",
+      "link": "https://www.cisoadvisor.com.br/entenda-como-foi-o-roubo-de-us-133m-no-banco-arkea/",
+      "published": "08/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "29.10.26 Segurança Falha no Telegram para Android permitia invadir celular ao atender ligação",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A empresa de cibersegurança NebuSec descobriu uma vulnerabilidade no Telegram no qual uma vítima pode ser hackeada apenas ao atender a uma ligação no aplicativo. O erro foi comunicado ao mensageiro, que corrigiu o problema em atualização recente . De acordo com comunicado da empresa ao site The Hacker News, a vulnerabilidade existiu em versões do aplicativo para Android publicadas entre 2022 e setembro de 2026. O problema foi descoberto com a ajuda do modelo de IA GPT-5.4 da OpenAI, lançado em março deste ano. Durante uma chamada, os dois celulares envolvidos podem compartilhar dados entre si, mas o erro permitia acessar mais informações do que o necessário e abria brecha para ataques .",
+      "link": "https://canaltech.com.br/seguranca/falha-no-telegram-para-android-permitia-invadir-celular-ao-atender-ligacao/",
+      "published": "08/11/2026 12:00",
       "cves": [],
       "vendor": null
     }
