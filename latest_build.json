@@ -1,60 +1,64 @@
 {
-  "generated_at": "2026-11-08T12:00:00.043038-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-11-09T12:00:00.026470-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Falhas no Android permitem execução remota de código",
+      "title": "SonicWall corrige bypass de MFA explorado no SSL-VPN",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O boletim de segurança do Android de novembro de 2026, publicado em 2 de novembro, corrige 216 vulnerabilidades, sendo 23 classificadas como críticas. O núcleo do risco, segundo análise da SolusThreat, são três falhas de execução remota de código (RCE) que dispensam qualquer interação do usuário em componentes de decodificação de mídia e imagem, superfície historicamente explorada em ataques zero-click desde o caso Stagefright, em 2015. A avaliação da SolusThreat classifica a severidade como crítica, com prioridade P1. A exploração ativa não foi reportada, nenhuma das CVEs consta no catálogo KEV da CISA e não há prova de conceito pública identificada em 4 de novembro.",
-      "link": "https://www.cisoadvisor.com.br/falhas-no-android-permitem-execucao-remota-de-codigo/",
-      "published": "08/11/2026 12:00",
+      "summary": "A SonicWall publicou atualizações de segurança para corrigir sete vulnerabilidades nos firewalls SonicOS, incluindo uma falha de bypass de autenticação em SSL-VPN explorada em ataques. A falha, rastreada como CVE-2026-19868, permite que atacantes com credenciais válidas para um método de autenticação alternativo contornem os controles de autenticação SAML, potencialmente incluindo o MFA imposto por SAML (CVSS de 7.1). O problema afeta apenas serviços SSL-VPN do SonicOS configurados para usar autenticação SAML.",
+      "link": "https://www.cisoadvisor.com.br/sonicwall-corrige-bypass-de-mfa-explorado-no-ssl-vpn/",
+      "published": "09/11/2026 12:00",
+      "cves": [
+        "CVE-2026-19868"
+      ],
+      "vendor": "SonicWall"
+    },
+    {
+      "title": "Falha no núcleo do WordPress recebe 240 mil tentativas de ataque",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Wordfence bloqueou mais de 240 mil tentativas de ataque desde 28 de outubro contra uma falha no processo de atualização do núcleo do WordPress, registrada como CVE-2026-119977 e avaliada com nota 8,1 de 10. A contagem começa no dia em que o WordPress publicou a correção, e o pico passou de 74 mil requisições barradas em um único dia. A atividade mais intensa ficou nos quatro dias seguintes à correção. São requisições barradas pelo firewall, não infecções: a contagem mede tentativa e não sucesso, e não comprova que algum atacante tenha concluído as etapas necessárias para tomar um site.",
+      "link": "https://boletimsec.com/falha-no-nucleo-do-wordpress-recebe-240-mil-tentativas-de-ataque/",
+      "published": "09/11/2026 12:00",
+      "cves": [
+        "CVE-2026-119977"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Ransomware Dark Project lista 38 vítimas em 8 países",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Um relatório divulgado em 6 de novembro de 2026 mapeou o Dark Project, operação de ransomware com motivação financeira observada desde junho de 2026, que já lista 38 organizações como vítimas em 8 países. O que distingue o grupo não é a técnica, é o modelo de remuneração: ele paga 80% do lucro de cada ataque ao afiliado que fez a invasão. A divisão é o centro da operação. Os 20% restantes ficam com os operadores, como contrapartida pela plataforma e pelos relatórios que ela gera. O grupo promete liquidar a comissão em até 24 horas, em bitcoin. O relatório não apresenta carteiras nem registros que comprovem os pagamentos. O acesso inicial não depende de nenhuma falha nova.",
+      "link": "https://boletimsec.com/ransomware-dark-project-lista-38-vitimas-em-8-paises/",
+      "published": "09/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "4 dias Segurança Google rompe com fabricante que mandava TV box infectada para clientes",
+      "title": "5 dias Segurança Google rompe com fabricante que mandava TV box infectada para clientes",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "threat",
       "summary": "O Google rompeu vínculo com a fabricante de TV Box Videostrong após identificar que a empresa inseriu malware intencionalmente nos aparelhos . A empresa ofuscou testes de segurança para inserir código malicioso e está proibida de vender novos aparelhos com aplicativos e plataformas do Android. A equipe de Inteligência de Ameaças da Big Tech acabou com um backdoor (método para ocultar mecanismos de segurança de um sistema) chamado XCPE, no qual era possível infectar os dispositivos Android e transformá-los numa rede de botnet (rede de dispositivos atacados sob controle de uma organização específica) para ações maliciosas.",
       "link": "https://canaltech.com.br/seguranca/google-rompe-com-fabricante-que-mandava-tv-box-infectada-para-clientes/",
-      "published": "08/11/2026 12:00",
+      "published": "09/11/2026 12:00",
       "cves": [],
       "vendor": "Google"
     },
     {
-      "title": "4 dias Segurança Nova falha no Smart Sampa expõe 17 mil câmeras e imagens de autoridades sem senha",
+      "title": "5 dias Segurança Nova falha no Smart Sampa expõe 17 mil câmeras e imagens de autoridades sem senha",
       "source": "Canaltech Segurança",
       "priority": "Baixa",
       "category": "patches",
       "summary": "Por André Lourenti Magalhães • Editado por Jones Oliveira | 03/11/2026 às 14:31 • Atualizado 03/11/2026 às 14:37 Serviço de monitoramento inteligente da cidade de São Paulo (SP), o Smart Sampa teve mais uma brecha de segurança identificada nos últimos dias. De acordo com o UOL, uma falha permitiu o acesso indevido a 17 mil câmeras de segurança do sistema. É a segunda grande brecha que envolve o Smart Sampa nas últimas três semanas: em outubro, o Ministério Público de São Paulo abriu uma investigação para apurar os vazamentos que resultaram na exposição de 58 mil câmeras no período de 11 meses.",
       "link": "https://canaltech.com.br/seguranca/nova-falha-no-smart-sampa-expoe-17-mil-cameras-e-imagens-de-autoridades-sem-senha/",
-      "published": "08/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Entenda como foi o roubo de US$ 133M no banco Arkéa",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O banco cooperativo francês Crédit Mutuel Arkéa confirmou em 4 de novembro um ataque cibernético que permitiu transações fraudulentas e suspendeu temporariamente algumas transferências. Ontem, 5 de novembro, a instituição informou que cerca de € 100 milhões (US$ 112,6 milhões) estavam faltando e que ainda não podia precisar quanto poderia ser recuperado. A análise do incidente foi detalhada pela empresa de segurança Halborn em artigo publicado em seu blog . Segundo o texto, os atacantes usaram uma conta do próprio banco para enviar transferências a contas em exchanges centralizadas, que foram abertas com identidades falsas.",
-      "link": "https://www.cisoadvisor.com.br/entenda-como-foi-o-roubo-de-us-133m-no-banco-arkea/",
-      "published": "08/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "29.10.26 Segurança Falha no Telegram para Android permitia invadir celular ao atender ligação",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "A empresa de cibersegurança NebuSec descobriu uma vulnerabilidade no Telegram no qual uma vítima pode ser hackeada apenas ao atender a uma ligação no aplicativo. O erro foi comunicado ao mensageiro, que corrigiu o problema em atualização recente . De acordo com comunicado da empresa ao site The Hacker News, a vulnerabilidade existiu em versões do aplicativo para Android publicadas entre 2022 e setembro de 2026. O problema foi descoberto com a ajuda do modelo de IA GPT-5.4 da OpenAI, lançado em março deste ano. Durante uma chamada, os dois celulares envolvidos podem compartilhar dados entre si, mas o erro permitia acessar mais informações do que o necessário e abria brecha para ataques .",
-      "link": "https://canaltech.com.br/seguranca/falha-no-telegram-para-android-permitia-invadir-celular-ao-atender-ligacao/",
-      "published": "08/11/2026 12:00",
+      "published": "09/11/2026 12:00",
       "cves": [],
       "vendor": null
     }
