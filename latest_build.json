@@ -1,64 +1,67 @@
 {
-  "generated_at": "2026-11-10T12:00:00.098987-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-11-11T12:00:00.074206-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no React Server permite execução de código sem autenticação",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Em 14 de outubro a equipe do React publicou o aviso de segurança GHSA-xqc2-xf4c-x3h3, que descreve uma falha crítica capaz de levar à execução remota de código em aplicações construídas com React Server Components. O aviso classifica como alto o impacto sobre privacidade dos dados, integridade e disponibilidade, e não recebeu identificador CVE, de modo que o acompanhamento é feito pelo código do GitHub Security Advisory. A exploração depende de cargas especialmente construídas enviadas a frameworks que oferecem suporte aos React Server Components. A condição de risco descrita no aviso é a resposta que carrega vários arrays tipados ao lado de dados controlados pelo atacante.",
-      "link": "https://boletimsec.com/falha-critica-no-react-server-permite-execucao-de-codigo-sem-autenticacao/",
-      "published": "10/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha “SSHole” no OpenSSH já é alvo de botnets, dizem empresas",
+      "title": "Fortinet: falhas críticas permitem execução de código sem login",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Botnets e mineradores de criptomoedas estão entre os primeiros a tentar tirar proveito da SSHole, brecha de alta gravidade no OpenSSH corrigida há pouco. Batizada de CVE-2026-123158, a falha nasce de uma confusão sobre quando uma string deve ser tratada como hash de senha e abre caminho para acesso a contas específicas quando o atacante envia qualquer senha com tamanho entre 257 e 1024 caracteres, conforme reportagem . O risco maior está em contas que jamais deveriam aceitar senha, como a root. Isso só acontece em distribuições Linux que combinam a biblioteca musl com o PAM desligado, caso de Alpine, Buildroot, OpenWrt, Yocto e outras.",
-      "link": "https://www.cisoadvisor.com.br/falha-sshole-no-openssh-ja-e-alvo-de-botnets-dizem-empresas/",
-      "published": "10/11/2026 12:00",
+      "summary": "A Fortinet divulgou vulnerabilidades críticas que afetam FortiManager, FortiAnalyzer e FortiOS, incluindo falhas que podem permitir a atacantes executar código sem fazer login. Publicados em 10 de novembro de 2026, os avisos cobrem APIs de gerenciamento, serviços de comunicação de dispositivos, roteamento e configurações específicas de alta disponibilidade. Os requisitos de ataque variam, tornando recursos habilitados e acesso à rede centrais para avaliar a exposição. A falha de maior pontuação, CVE-2026-126170, tem CVSS 9.8. Rastreada como FG-IR-26-219 , envolve injeção de JSON na API JSON-RPC usada por FortiManager e FortiAnalyzer.",
+      "link": "https://www.cisoadvisor.com.br/fortinet-falhas-criticas-permitem-execucao-sem-login/",
+      "published": "11/11/2026 12:00",
       "cves": [
-        "CVE-2026-123158"
+        "CVE-2026-126170"
       ],
-      "vendor": "Linux"
+      "vendor": "Fortinet"
     },
     {
-      "title": "6 dias Segurança Nova falha no Smart Sampa expõe 17 mil câmeras e imagens de autoridades sem senha",
+      "title": "SAP corrige falhas de severidade máxima em novembro",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A SAP publicou 35 correções de segurança em sua atualização de novembro de 2026, incluindo quatro vulnerabilidades de severidade máxima que afetam os softwares NetWeaver, Web Dispatcher e Gateway. A empresa classificou essas quatro falhas com nota 10/10 na escala CVSS, indicando que atacantes não autenticados podem explorá-las para comprometer totalmente os sistemas-alvo remotamente. A SAP corrigiu falhas de corrupção de memória (CVE-2026-76964) e de ausência de autenticação (CVE-2026-120017) nos componentes Internet Communication Manager e SAML2 Service Provider do NetWeaver Application Server ABAP.",
+      "link": "https://www.cisoadvisor.com.br/sap-corrige-falhas-de-severidade-maxima-em-novembro/",
+      "published": "11/11/2026 12:00",
+      "cves": [
+        "CVE-2026-76964",
+        "CVE-2026-120017"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "N-able tira N-central do ar após 30 zero-days",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A N-able desativou ontem, 9 de novembro, seus ambientes hospedados do N-central e orientou clientes com servidores próprios a também desligá-los. A decisão ocorreu depois de o pesquisador de segurança Sean Bales divulgar , na noite de domingo, 8 de novembro, mais de 30 supostas falhas zero-day , algumas capazes de permitir a tomada de sistemas vulneráveis. O N-central é uma plataforma de monitoramento e gerenciamento remoto (RMM) usada por provedores de serviços gerenciados (MSPs) e equipes de TI para administrar dispositivos e redes de clientes. Bales publicou no GitHub o repositório Able2Shell, com exploits de prova de conceito.",
+      "link": "https://www.cisoadvisor.com.br/n-able-tira-n-central-do-ar-apos-30-zero-days/",
+      "published": "11/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos anunciam dados pessoais de clientes da Toyota",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Um grupo de ransomware autodenominado BYOD incluiu a Toyota em sua lista de vítimas, com a listagem atualizada em 10 de novembro de 2026. O anúncio afirma que o grupo obteve informações pessoais de clientes, entre elas nome completo, endereço de e-mail, endereço físico, número de telefone e data de nascimento. A alegação não foi verificada de forma independente. Além dos dados pessoais, o grupo diz ter alcançado dispositivos de quiosque da empresa, os terminais de autoatendimento usados em pontos físicos. Segundo o próprio anúncio, boa parte do ambiente estava isolada, mas o grupo afirma ter encontrado caminhos de acesso remanescentes. O texto não descreve nenhuma falha técnica concreta.",
+      "link": "https://boletimsec.com/cibercriminosos-anunciam-dados-pessoais-de-clientes-da-toyota/",
+      "published": "11/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "03.11.26 Segurança Google rompe com fabricante que mandava TV box infectada para clientes",
       "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Por André Lourenti Magalhães • Editado por Jones Oliveira | 03/11/2026 às 14:31 • Atualizado 03/11/2026 às 14:37 Serviço de monitoramento inteligente da cidade de São Paulo (SP), o Smart Sampa teve mais uma brecha de segurança identificada nos últimos dias. De acordo com o UOL, uma falha permitiu o acesso indevido a 17 mil câmeras de segurança do sistema. É a segunda grande brecha que envolve o Smart Sampa nas últimas três semanas: em outubro, o Ministério Público de São Paulo abriu uma investigação para apurar os vazamentos que resultaram na exposição de 58 mil câmeras no período de 11 meses.",
-      "link": "https://canaltech.com.br/seguranca/nova-falha-no-smart-sampa-expoe-17-mil-cameras-e-imagens-de-autoridades-sem-senha/",
-      "published": "10/11/2026 12:00",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "O Google rompeu vínculo com a fabricante de TV Box Videostrong após identificar que a empresa inseriu malware intencionalmente nos aparelhos . A empresa ofuscou testes de segurança para inserir código malicioso e está proibida de vender novos aparelhos com aplicativos e plataformas do Android. A equipe de Inteligência de Ameaças da Big Tech acabou com um backdoor (método para ocultar mecanismos de segurança de um sistema) chamado XCPE, no qual era possível infectar os dispositivos Android e transformá-los numa rede de botnet (rede de dispositivos atacados sob controle de uma organização específica) para ações maliciosas.",
+      "link": "https://canaltech.com.br/seguranca/google-rompe-com-fabricante-que-mandava-tv-box-infectada-para-clientes/",
+      "published": "11/11/2026 12:00",
       "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha no Claude Dispatch deixa extensão executar código no computador",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Pesquisadores de segurança divulgaram em 6 de novembro de 2026 uma falha no Claude Dispatch, recurso da Anthropic que permite enviar tarefas do celular para o Claude Desktop. A falha deixava uma extensão de navegador dar ordens ao agente de IA como se fossem do usuário, e o Claude Desktop executa comandos na máquina onde está instalado. O Dispatch faz parte do Cowork e aparece no painel lateral do aplicativo. O problema está na confiança que ele depositava na sessão do navegador: bastava uma sessão comum e autenticada no claude.ai, sem nenhum elemento visível na página ligando o site ao aplicativo. Qualquer código capaz de rodar nesse site podia enviar instruções pelo canal do Dispatch.",
-      "link": "https://boletimsec.com/falha-no-claude-dispatch-deixa-extensao-executar-codigo-no-computador/",
-      "published": "10/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "CISA e FBI alertam para ataque a controlador de refrigeração industrial",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "Em 5 de novembro a CISA, o FBI, o Departamento de Saúde, o Departamento de Agricultura e o Departamento de Transportes dos Estados Unidos publicaram um comunicado conjunto sobre atividade cibernética maliciosa contra sistemas industriais de refrigeração e de monitoramento de cadeia fria em escala global. Os alvos descritos são controladores eletrônicos de temperatura e sistemas de gestão de refrigeração comercial em supermercados e em instalações de armazenamento frio. De acordo com as agências, os atacantes exploram falhas ou fraquezas em controladores sem correção ou acessíveis pela internet para alterar as configurações remotamente.",
-      "link": "https://boletimsec.com/cisa-e-fbi-alertam-para-ataque-a-controlador-de-refrigeracao-industrial/",
-      "published": "10/11/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "vendor": "Google"
     }
   ]
 }
