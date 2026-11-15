@@ -1,64 +1,64 @@
 {
-  "generated_at": "2026-11-14T12:00:00.100371-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-11-15T12:00:00.034709-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "Apache corrige falha crítica de execução remota no HTTP/2",
+      "title": "Cisco confirma primeira exploração de falha no BroadWorks",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Apache Software Foundation corrigiu uma vulnerabilidade crítica no módulo HTTP/2 do Apache HTTP Server que pode ser explorada por um atacante não autenticado para obter execução remota de código (RCE). Rastreada como CVE-2026-119618, a falha foi descoberta pelas equipes OSS Scanner da Anthropic e de Pesquisa de Vulnerabilidades do Google Cloud. O problema é uma condição de corrida no módulo mod_http2 que pode corromper a memória heap. Um atacante que explore com sucesso a falha pode executar código com os privilégios do processo do servidor web nas versões 2.4.55 a 2.4.70 do HTTP Server e no módulo mod_h2 autônomo versões 2.0.8 a 2.0.42.",
-      "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-de-execucao-remota-no-http-2/",
-      "published": "14/11/2026 12:00",
+      "summary": "A Cisco confirmou a primeira exploração observada de uma vulnerabilidade no BroadWorks. Em 10 de novembro, a agência de segurança cibernética dos Estados Unidos alertou que a falha CVE-2026-20320 havia sido usada em ataques. Na noite de quinta-feira, a Cisco publicou uma atualização do boletim de segurança informando ter conhecimento de abuso ativo. É a primeira vez que uma vulnerabilidade no BroadWorks é reportada em exploração. O Cisco BroadWorks é uma plataforma usada por empresas para telefonia, chat e reuniões, adotada principalmente por grandes provedores de telecomunicações, provedores de nuvem e grandes corporações, com oferta de funcionalidade completa de PBX na nuvem.",
+      "link": "https://www.cisoadvisor.com.br/cisco-confirma-primeira-exploracao-de-falha-no-broadworks/",
+      "published": "15/11/2026 12:00",
       "cves": [
-        "CVE-2026-119618"
+        "CVE-2026-20320"
       ],
-      "vendor": "Google"
+      "vendor": "Cisco"
     },
     {
-      "title": "Cibercriminosos exploram zero day do Outlook para roubar hash do Windows",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
+      "title": "Ataques ao ScreenConnect comprometem MSPs e clientes",
+      "source": "CISO Advisor",
+      "priority": "Média",
       "category": "patches",
-      "summary": "A CISA, agência de segurança cibernética dos Estados Unidos, confirmou a exploração ativa de uma falha zero day no Microsoft Outlook que expõe dados de autenticação do usuário. Identificada como CVE-2026-124194, a vulnerabilidade entrou no catálogo de falhas exploradas conhecidas da agência em 10 de novembro de 2026, com prazo de correção em 24 de novembro. Segundo o comunicado da Microsoft, o atacante envia um arquivo de mensagem especialmente construído e convence a vítima a abri-lo no Outlook.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-zero-day-do-outlook-para-roubar-hash-do-windows/",
-      "published": "14/11/2026 12:00",
-      "cves": [
-        "CVE-2026-124194"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Notícias de cibersegurança: vulnerabilidades, vazamentos, ataques e tendências do mercado.",
-      "source": "BoletimSec Diário",
-      "priority": "Alta",
-      "category": "breach",
-      "summary": "Notícias de cibersegurança: vulnerabilidades, vazamentos, ataques e tendências do mercado.",
-      "link": "https://boletimsec.com/boletim-diario-ciberseguranca/",
-      "published": "14/11/2026 12:00",
+      "summary": "A ConnectWise investiga uma campanha de malware contra provedores de serviços gerenciados (MSPs) que usa ambientes ScreenConnect comprometidos para instalar clientes de acesso remoto não autorizados em dispositivos de clientes. A empresa desativou cinco extensões de terceiros em cerca de 400 ambientes de parceiros por precaução. A Huntress descobriu a campanha na quarta-feira e identificou seis MSPs comprometidos e 286 endpoints afetados em 47 organizações, com número crescente de vítimas. Os atacantes usam a funcionalidade Run Command do ScreenConnect para instalar clientes não autorizados nos endpoints, dando acesso remoto fora do ambiente legítimo do MSP.",
+      "link": "https://www.cisoadvisor.com.br/ataques-ao-screenconnect-comprometem-msps-e-clientes/",
+      "published": "15/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Mercado de Cibersegurança",
+      "title": "Uber confirma à Justiça roubo de dados nos EUA",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Uber começou a notificar clientes, nos EUA, sobre um incidente de segurança que envolveu o acesso não autorizado a informações pessoais deles. Em carta datada de 10 de novembro de 2026 , disponível no site do Procurador-Geral da Califórnia, a empresa informou que um prestador de serviços a notificou em 9 de outubro de 2026 de que um terceiro não autorizado comprometeu as credenciais internas desse fornecedor e as usou para acessar a conta da Uber em seu domínio. Segundo a carta, após ser notificada, a Uber imediatamente cortou as conexões de dados com o fornecedor e iniciou uma investigação.",
+      "link": "https://www.cisoadvisor.com.br/uber-confirma-a-justica-roubo-de-dados-nos-eua/",
+      "published": "15/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Node.js expõe chaves privadas TLS e requisições de outros usuários",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O projeto Node.js publicou correções para 16 vulnerabilidades, sete delas de severidade alta. A mais grave, a CVE-2026-123864, permite que um cliente não autenticado leia a memória de outras conexões em servidores HTTPS, material que inclui chaves privadas TLS e requisições de outros usuários, segundo o projeto. As três linhas com suporte foram afetadas. A exploração depende de uma condição no código da aplicação. O servidor precisa ter um manipulador que chame res.flushHeaders() antes de o corpo da requisição chegar por inteiro e depois chame res.end() com dados. Ler a memória vazada exige ainda uma rota que devolva ou armazene o corpo. Servidores com o módulo node:http não foram afetados.",
+      "link": "https://boletimsec.com/node-js-expoe-chaves-privadas-tls-e-requisicoes-de-outros-usuarios/",
+      "published": "15/11/2026 12:00",
+      "cves": [
+        "CVE-2026-123864"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Vazamento na Caixa Vida e Previdência expõe mais de 7 milhões de clientes",
       "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "breach",
-      "summary": "Negócios, investimentos, lançamentos e movimentos das empresas de segurança da informação. Notícias de cibersegurança: vulnerabilidades, vazamentos, ataques e tendências do mercado.",
-      "link": "https://boletimsec.com/c/mercado-de-ciberseguranca/",
-      "published": "14/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Ransomware Qilin reivindica ao menos 365 vítimas em três meses de ataques",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O grupo de ransomware Qilin reivindicou ao menos 365 organizações como vítimas ao longo de três meses, de acordo com uma investigação sobre cibercrime publicada em 11 de novembro de 2026. O número corresponde a vítimas reivindicadas pelo próprio grupo, e não a invasões verificadas de forma independente. Em atividade desde setembro de 2022, o Qilin opera no modelo de ransomware como serviço, em que o grupo mantém a plataforma de ataque e terceiros executam as invasões. Os afiliados entram nas redes das vítimas e implantam o ransomware em troca de ao menos 80% dos pagamentos de resgate.",
-      "link": "https://boletimsec.com/ransomware-qilin-reivindica-ao-menos-365-vitimas-em-tres-meses-de-ataques/",
-      "published": "14/11/2026 12:00",
+      "summary": "Um ataque cibernético à Caixa Vida e Previdência expôs dados pessoais dos 7,6 milhões de clientes ativos da companhia, além de ex-clientes em número não informado, segundo o comunicado ao mercado divulgado pela Caixa Seguridade em 12 de novembro de 2026. O caso também foi informado à Comissão de Valores Mobiliários. Foram expostos nomes e CPFs e, em parte dos registros, endereços, telefones, e-mails e datas de nascimento, com variação de uma pessoa para outra. A companhia vende previdência privada, seguro de vida, seguro viagem e seguro contra acidentes pessoais, de modo que o conjunto alcança quem contratou qualquer um desses produtos, mesmo quem já encerrou o contrato.",
+      "link": "https://boletimsec.com/vazamento-na-caixa-vida-e-previdencia-expoe-cpf-de-mais-de-7-milhoes-de-clientes/",
+      "published": "15/11/2026 12:00",
       "cves": [],
       "vendor": null
     }
