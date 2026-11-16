@@ -1,64 +1,64 @@
 {
-  "generated_at": "2026-11-15T12:00:00.034709-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-11-16T12:00:00.020156-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "Cisco confirma primeira exploração de falha no BroadWorks",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Cisco confirmou a primeira exploração observada de uma vulnerabilidade no BroadWorks. Em 10 de novembro, a agência de segurança cibernética dos Estados Unidos alertou que a falha CVE-2026-20320 havia sido usada em ataques. Na noite de quinta-feira, a Cisco publicou uma atualização do boletim de segurança informando ter conhecimento de abuso ativo. É a primeira vez que uma vulnerabilidade no BroadWorks é reportada em exploração. O Cisco BroadWorks é uma plataforma usada por empresas para telefonia, chat e reuniões, adotada principalmente por grandes provedores de telecomunicações, provedores de nuvem e grandes corporações, com oferta de funcionalidade completa de PBX na nuvem.",
-      "link": "https://www.cisoadvisor.com.br/cisco-confirma-primeira-exploracao-de-falha-no-broadworks/",
-      "published": "15/11/2026 12:00",
-      "cves": [
-        "CVE-2026-20320"
-      ],
-      "vendor": "Cisco"
+      "title": "Servidores SQL Server expostos na internet recebem ataque de força bruta",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Uma campanha ativa desde o início de outubro de 2026 adivinha senhas de instâncias Microsoft SQL Server expostas na internet e instala um minerador de criptomoeda e um trojan de acesso remoto nos servidores invadidos. A Fortinet identificou o malware e descreveu a cadeia de infecção em relatório publicado em 12 de novembro de 2026. A cadeia começa com um arquivo chamado dllhost.exe, escrito em Go e empacotado com UPX, nome que imita um processo legítimo do Windows. Ele embute o scanner de portas Naabu, contata o servidor do atacante, recebe uma faixa de endereços IP e procura em cada um deles a porta TCP 1433, a porta padrão do SQL Server. Os endereços com a porta aberta vão para uma lista.",
+      "link": "https://boletimsec.com/servidores-sql-server-expostos-na-internet-recebem-ataque-de-forca-bruta/",
+      "published": "16/11/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     },
     {
-      "title": "Ataques ao ScreenConnect comprometem MSPs e clientes",
+      "title": "Cibercriminosos exploram PHP2Shell para infectar gateways Check Point",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "Um ator não identificado ataca Check Point Security Gateways sem correção, entra pelas falhas conhecidas como PHP2Shell e instala um backdoor chamado TSGA. A campanha, detalhada pela Check Point, começou em 30 de outubro de 2026 contra organizações israelenses e teve uma segunda onda em 2 de novembro, contra alvos de vários países e setores. O acesso inicial explora as CVE-2026-109618 e CVE-2026-109619 em portais Mobile Access expostos. Depois entra uma falha local inédita no Gaia OS, a CVE-2026-123039, de nota 7.8 no CVSS: uma autorização ausente no processo DynamicCLI que deixa qualquer usuário local autenticado escalar a root escrevendo uma requisição no socket.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-php2shell-para-infectar-gateways-check-point/",
+      "published": "16/11/2026 12:00",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "CVE-2026-123039"
+      ],
+      "vendor": "Check Point"
+    },
+    {
+      "title": "FBI alerta que ferramenta de IA ARTEX impulsiona ataques globais",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "O FBI alerta que hackers usam o framework de testes de penetração movido a inteligência artificial ARTEX para automatizar ataques contra organizações em todo o mundo, incluindo uma violação na cadeia de suprimentos da ConnectWise que comprometeu ambientes de clientes do Microsoft 365. Em comunicado divulgado na sexta-feira, a agência afirmou que múltiplos agentes de ameaça usam o framework de código aberto desde pelo menos agosto de 2026 contra os setores financeiro, governamental, de tecnologia, defesa e saúde.",
+      "link": "https://www.cisoadvisor.com.br/fbi-alerta-que-ferramenta-de-ia-artex-impulsiona-ataques-globais/",
+      "published": "16/11/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "Barracuda relata invasão de 44h em sua nuvem",
       "source": "CISO Advisor",
       "priority": "Média",
       "category": "patches",
-      "summary": "A ConnectWise investiga uma campanha de malware contra provedores de serviços gerenciados (MSPs) que usa ambientes ScreenConnect comprometidos para instalar clientes de acesso remoto não autorizados em dispositivos de clientes. A empresa desativou cinco extensões de terceiros em cerca de 400 ambientes de parceiros por precaução. A Huntress descobriu a campanha na quarta-feira e identificou seis MSPs comprometidos e 286 endpoints afetados em 47 organizações, com número crescente de vítimas. Os atacantes usam a funcionalidade Run Command do ScreenConnect para instalar clientes não autorizados nos endpoints, dando acesso remoto fora do ambiente legítimo do MSP.",
-      "link": "https://www.cisoadvisor.com.br/ataques-ao-screenconnect-comprometem-msps-e-clientes/",
-      "published": "15/11/2026 12:00",
+      "summary": "A Barracuda sofreu uma intrusão de ritmo acelerado em partes de seu ambiente de nuvem no início de novembro. A empresa publicou um aviso em seu Trust Center em 10 de novembro com os detalhes para clientes e contatou os que poderiam ser afetados. O caso foi detalhado pelo executivo-chefe de segurança da informação (CISO) da companhia, Arve Kjoelen, em publicação no blog da empresa . Segundo o relato, o invasor não quebrou a porta de entrada: obteve acesso usando uma chave de acesso à nuvem válida. A Barracuda havia fornecido a chave a um fornecedor terceirizado, uma empresa que atua com inteligência artificial, e não a retirou de circulação quando o trabalho terminou.",
+      "link": "https://www.cisoadvisor.com.br/barracuda-relata-invasao-de-44h-em-sua-nuvem/",
+      "published": "16/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Uber confirma à Justiça roubo de dados nos EUA",
+      "title": "TSMC confirma vazamento de dados de funcionários",
       "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "A Uber começou a notificar clientes, nos EUA, sobre um incidente de segurança que envolveu o acesso não autorizado a informações pessoais deles. Em carta datada de 10 de novembro de 2026 , disponível no site do Procurador-Geral da Califórnia, a empresa informou que um prestador de serviços a notificou em 9 de outubro de 2026 de que um terceiro não autorizado comprometeu as credenciais internas desse fornecedor e as usou para acessar a conta da Uber em seu domínio. Segundo a carta, após ser notificada, a Uber imediatamente cortou as conexões de dados com o fornecedor e iniciou uma investigação.",
-      "link": "https://www.cisoadvisor.com.br/uber-confirma-a-justica-roubo-de-dados-nos-eua/",
-      "published": "15/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Node.js expõe chaves privadas TLS e requisições de outros usuários",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O projeto Node.js publicou correções para 16 vulnerabilidades, sete delas de severidade alta. A mais grave, a CVE-2026-123864, permite que um cliente não autenticado leia a memória de outras conexões em servidores HTTPS, material que inclui chaves privadas TLS e requisições de outros usuários, segundo o projeto. As três linhas com suporte foram afetadas. A exploração depende de uma condição no código da aplicação. O servidor precisa ter um manipulador que chame res.flushHeaders() antes de o corpo da requisição chegar por inteiro e depois chame res.end() com dados. Ler a memória vazada exige ainda uma rota que devolva ou armazene o corpo. Servidores com o módulo node:http não foram afetados.",
-      "link": "https://boletimsec.com/node-js-expoe-chaves-privadas-tls-e-requisicoes-de-outros-usuarios/",
-      "published": "15/11/2026 12:00",
-      "cves": [
-        "CVE-2026-123864"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Vazamento na Caixa Vida e Previdência expõe mais de 7 milhões de clientes",
-      "source": "BoletimSec Notícias",
       "priority": "Média",
       "category": "breach",
-      "summary": "Um ataque cibernético à Caixa Vida e Previdência expôs dados pessoais dos 7,6 milhões de clientes ativos da companhia, além de ex-clientes em número não informado, segundo o comunicado ao mercado divulgado pela Caixa Seguridade em 12 de novembro de 2026. O caso também foi informado à Comissão de Valores Mobiliários. Foram expostos nomes e CPFs e, em parte dos registros, endereços, telefones, e-mails e datas de nascimento, com variação de uma pessoa para outra. A companhia vende previdência privada, seguro de vida, seguro viagem e seguro contra acidentes pessoais, de modo que o conjunto alcança quem contratou qualquer um desses produtos, mesmo quem já encerrou o contrato.",
-      "link": "https://boletimsec.com/vazamento-na-caixa-vida-e-previdencia-expoe-cpf-de-mais-de-7-milhoes-de-clientes/",
-      "published": "15/11/2026 12:00",
+      "summary": "A TSMC (Taiwan Semiconductor Manufacturing Company) informou que dados de funcionários atuais e ex-funcionários foram disponibilizados sem autorização em um site externo. Em comunicado enviado à Comissão de Valores Mobiliários dos Estados Unidos (SEC), a empresa afirmou que, até o momento, não encontrou evidências de que seus próprios sistemas tenham sido comprometidos. As informações foram publicadas no documento oficial da SEC . Segundo a TSMC, foi verificado que os dados correspondem a informações armazenadas nos serviços de sistema de um provedor de nuvem externo, cujo nome não foi divulgado.",
+      "link": "https://www.cisoadvisor.com.br/tsmc-confirma-vazamento-de-dados-de-funcionarios/",
+      "published": "16/11/2026 12:00",
       "cves": [],
       "vendor": null
     }
