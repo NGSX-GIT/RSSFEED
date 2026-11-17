@@ -1,66 +1,62 @@
 {
-  "generated_at": "2026-11-16T12:00:00.020156-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-11-17T12:00:00.091326-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Servidores SQL Server expostos na internet recebem ataque de força bruta",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Uma campanha ativa desde o início de outubro de 2026 adivinha senhas de instâncias Microsoft SQL Server expostas na internet e instala um minerador de criptomoeda e um trojan de acesso remoto nos servidores invadidos. A Fortinet identificou o malware e descreveu a cadeia de infecção em relatório publicado em 12 de novembro de 2026. A cadeia começa com um arquivo chamado dllhost.exe, escrito em Go e empacotado com UPX, nome que imita um processo legítimo do Windows. Ele embute o scanner de portas Naabu, contata o servidor do atacante, recebe uma faixa de endereços IP e procura em cada um deles a porta TCP 1433, a porta padrão do SQL Server. Os endereços com a porta aberta vão para uma lista.",
-      "link": "https://boletimsec.com/servidores-sql-server-expostos-na-internet-recebem-ataque-de-forca-bruta/",
-      "published": "16/11/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Cibercriminosos exploram PHP2Shell para infectar gateways Check Point",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "Um ator não identificado ataca Check Point Security Gateways sem correção, entra pelas falhas conhecidas como PHP2Shell e instala um backdoor chamado TSGA. A campanha, detalhada pela Check Point, começou em 30 de outubro de 2026 contra organizações israelenses e teve uma segunda onda em 2 de novembro, contra alvos de vários países e setores. O acesso inicial explora as CVE-2026-109618 e CVE-2026-109619 em portais Mobile Access expostos. Depois entra uma falha local inédita no Gaia OS, a CVE-2026-123039, de nota 7.8 no CVSS: uma autorização ausente no processo DynamicCLI que deixa qualquer usuário local autenticado escalar a root escrevendo uma requisição no socket.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-php2shell-para-infectar-gateways-check-point/",
-      "published": "16/11/2026 12:00",
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619",
-        "CVE-2026-123039"
-      ],
-      "vendor": "Check Point"
-    },
-    {
-      "title": "FBI alerta que ferramenta de IA ARTEX impulsiona ataques globais",
+      "title": "Código malicioso no Optimizely atinge quase 190 sites",
       "source": "CISO Advisor",
       "priority": "Média",
+      "category": "patches",
+      "summary": "Em 16 de novembro, visitantes de sites operados por 178 organizações receberam JavaScript malicioso por meio da plataforma de experimentação web Optimizely. Entre os clientes afetados estão Zoom, BBC, CNN, Fox News, Salesforce, GitLab, IKEA, HSBC, Equifax, Air France-KLM, Ledger e Peacock, segundo análise do pesquisador de segurança Scott Helme. Helme verificou 1.611 trechos de código e encontrou 188 arquivos infectados. Os atacantes inseriram o código no campo Project JavaScript dos clientes, onde usuários do Optimizely mantêm scripts personalizados.",
+      "link": "https://www.cisoadvisor.com.br/codigo-malicioso-no-optimizely-atinge-quase-190-sites/",
+      "published": "17/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "03.11.26 Segurança Nova falha no Smart Sampa expõe 17 mil câmeras e imagens de autoridades sem senha",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Por André Lourenti Magalhães • Editado por Jones Oliveira | 03/11/2026 às 14:31 • Atualizado 03/11/2026 às 14:37 Serviço de monitoramento inteligente da cidade de São Paulo (SP), o Smart Sampa teve mais uma brecha de segurança identificada nos últimos dias. De acordo com o UOL, uma falha permitiu o acesso indevido a 17 mil câmeras de segurança do sistema. É a segunda grande brecha que envolve o Smart Sampa nas últimas três semanas: em outubro, o Ministério Público de São Paulo abriu uma investigação para apurar os vazamentos que resultaram na exposição de 58 mil câmeras no período de 11 meses.",
+      "link": "https://canaltech.com.br/seguranca/nova-falha-no-smart-sampa-expoe-17-mil-cameras-e-imagens-de-autoridades-sem-senha/",
+      "published": "17/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Ataque à cadeia de suprimentos do Cursor começou na Fireworks AI",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
       "category": "threat",
-      "summary": "O FBI alerta que hackers usam o framework de testes de penetração movido a inteligência artificial ARTEX para automatizar ataques contra organizações em todo o mundo, incluindo uma violação na cadeia de suprimentos da ConnectWise que comprometeu ambientes de clientes do Microsoft 365. Em comunicado divulgado na sexta-feira, a agência afirmou que múltiplos agentes de ameaça usam o framework de código aberto desde pelo menos agosto de 2026 contra os setores financeiro, governamental, de tecnologia, defesa e saúde.",
-      "link": "https://www.cisoadvisor.com.br/fbi-alerta-que-ferramenta-de-ia-artex-impulsiona-ataques-globais/",
-      "published": "16/11/2026 12:00",
+      "summary": "Credenciais comprometidas na invasão da plataforma Fireworks AI permitiram que atacantes roubassem mais segredos e publicassem cópias maliciosas da extensão Claude Code, segundo a Cursor . O ataque à cadeia de suprimentos foi descoberto em 29 de outubro e resultou na disponibilização de duas versões modificadas da extensão anthropic.claude-code (2.1.312 e 2.1.313) no Cursor VS Code Extension Marketplace por cerca de 11 horas. A Anthropic nunca foi invadida, e toda a atividade maliciosa ocorreu no ambiente da Cursor, explicou a empresa. A Cursor foi atingida após a Fireworks ser hackeada duas vezes em outubro.",
+      "link": "https://www.cisoadvisor.com.br/ataque-a-cadeia-de-suprimentos-do-cursor-comecou-na-fireworks-ai/",
+      "published": "17/11/2026 12:00",
       "cves": [],
-      "vendor": "Microsoft"
+      "vendor": null
     },
     {
-      "title": "Barracuda relata invasão de 44h em sua nuvem",
-      "source": "CISO Advisor",
-      "priority": "Média",
+      "title": "Empresas investem em cibersegurança mas não testam se estão seguras",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
       "category": "patches",
-      "summary": "A Barracuda sofreu uma intrusão de ritmo acelerado em partes de seu ambiente de nuvem no início de novembro. A empresa publicou um aviso em seu Trust Center em 10 de novembro com os detalhes para clientes e contatou os que poderiam ser afetados. O caso foi detalhado pelo executivo-chefe de segurança da informação (CISO) da companhia, Arve Kjoelen, em publicação no blog da empresa . Segundo o relato, o invasor não quebrou a porta de entrada: obteve acesso usando uma chave de acesso à nuvem válida. A Barracuda havia fornecido a chave a um fornecedor terceirizado, uma empresa que atua com inteligência artificial, e não a retirou de circulação quando o trabalho terminou.",
-      "link": "https://www.cisoadvisor.com.br/barracuda-relata-invasao-de-44h-em-sua-nuvem/",
-      "published": "16/11/2026 12:00",
+      "summary": "Os orçamentos de cibersegurança cresceram nos últimos anos, mas quase todo esse dinheiro segue para o mesmo lado. Firewall, antivírus, ferramentas de detecção e monitoramento concentram o investimento, enquanto a pergunta mais importante fica sem resposta: essa defesa resiste a um ataque real? Na maioria das empresas, ninguém nunca testou . As ferramentas bloqueiam o que reconhecem, mas falhas em aplicações, APIs e regras de negócio passam por elas sem gerar alerta, porque o tráfego parece legítimo. Uma empresa pode ter todas as camadas de proteção ativas e, ainda assim, manter aplicações vulneráveis expostas na internet há anos, sem jamais tê-las submetido a um teste ofensivo.",
+      "link": "https://boletimsec.com/empresas-investem-em-ciberseguranca-mas-nao-testam-se-estao-seguras/",
+      "published": "17/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "TSMC confirma vazamento de dados de funcionários",
-      "source": "CISO Advisor",
-      "priority": "Média",
-      "category": "breach",
-      "summary": "A TSMC (Taiwan Semiconductor Manufacturing Company) informou que dados de funcionários atuais e ex-funcionários foram disponibilizados sem autorização em um site externo. Em comunicado enviado à Comissão de Valores Mobiliários dos Estados Unidos (SEC), a empresa afirmou que, até o momento, não encontrou evidências de que seus próprios sistemas tenham sido comprometidos. As informações foram publicadas no documento oficial da SEC . Segundo a TSMC, foi verificado que os dados correspondem a informações armazenadas nos serviços de sistema de um provedor de nuvem externo, cujo nome não foi divulgado.",
-      "link": "https://www.cisoadvisor.com.br/tsmc-confirma-vazamento-de-dados-de-funcionarios/",
-      "published": "16/11/2026 12:00",
+      "title": "Google detecta agentes de IA criando exploits a partir de correções",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "O Google divulgou que o uso ofensivo de inteligência artificial passou do prompt manual para frameworks multiagente autônomos. O relatório do grupo de inteligência de ameaças da empresa cita CAIRN, CyberStrikeAI e PentAGI como ferramental já empregado para executar invasões de várias etapas com mais velocidade operacional. O achado central é a engenharia reversa de correções por análise diferencial. Com modelos de linguagem comparando versões do código, o atacante transforma uma falha recém-divulgada em exploit em pouco tempo. O Google observou essa cadeia nas falhas do PaperCut NG/MF em setembro, pouco depois de os detalhes virem a público.",
+      "link": "https://boletimsec.com/google-detecta-agentes-de-ia-criando-exploits-a-partir-de-correcoes/",
+      "published": "17/11/2026 12:00",
       "cves": [],
-      "vendor": null
+      "vendor": "Google"
     }
   ]
 }
