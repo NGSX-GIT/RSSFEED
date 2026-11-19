@@ -1,66 +1,72 @@
 {
-  "generated_at": "2026-11-18T12:00:00.024815-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-11-19T12:00:00.045720-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "CISA exige correção imediata de falha crítica no Java",
+      "title": "Apache corrige falha crítica no Roller sob exploração ativa",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Agência de Segurança Cibernética e de Infraestrutura dos Estados Unidos (CISA) emitiu alerta nesta terça-feira (17) pedindo a correção imediata da vulnerabilidade crítica CVE-2026-114938 no Oracle Java, conhecida como “Java4Shell” (CVSS de 9.2). A falha de corrupção de memória afeta o decodificador Base64 da Java Virtual Machine (JVM) HotSpot x86-64, que integra o Java Development Kit (JDK). Entradas Base64 especialmente criadas podem derrubar a JVM e permitir execução remota de código sem autenticação.",
-      "link": "https://www.cisoadvisor.com.br/cisa-exige-correcao-imediata-de-falha-critica-no-java/",
-      "published": "18/11/2026 12:00",
+      "summary": "O Apache publicou atualizações de segurança para corrigir uma falha crítica no Roller , servidor de blogs em grupo baseado em Java, que está sendo explorada por atacantes para obter execução de código em servidores vulneráveis. A vulnerabilidade, rastreada como CVE-2026-129448 , foi sinalizada pelo projeto Apache como ativamente explorada em ambiente real, embora a fundação não tenha detalhado os ataques em andamento, incluindo autoria ou número de servidores comprometidos. Segundo o comunicado publicado na terça-feira, a desserialização de dados não confiáveis nas versões 4.0.0 a 6.1.4 do Apache Roller permite que um atacante remoto não autenticado execute código arbitrário.",
+      "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-no-roller-sob-exploracao-ativa/",
+      "published": "19/11/2026 12:00",
+      "cves": [
+        "CVE-2026-129448"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "NGINX HTTP/2 falhas críticas permitem RCE",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Duas vulnerabilidades críticas no NGINX permitem que atacantes remotos executem código em servidores web vulneráveis sem autenticação. As falhas, CVE-2026-123633 e CVE-2026-123007, foram divulgadas em 18 de novembro de 2026 e recebem pontuação 9.2 no CVSS 4.0 (CVSS de 9.2). Ambas exigem que o NGINX aceite conexões HTTP/2 de clientes, mas as condições diferem: uma afeta certas configurações de proxy reverso; a outra pode atingir um servidor que apenas serve arquivos estáticos, conforme relatório da Wiz. Os problemas estão no próprio NGINX, não nas aplicações por trás dele.",
+      "link": "https://www.cisoadvisor.com.br/nginx-http-2-falhas-criticas-permitem-rce/",
+      "published": "19/11/2026 12:00",
+      "cves": [
+        "CVE-2026-123633",
+        "CVE-2026-123007"
+      ],
+      "vendor": "NGINX"
+    },
+    {
+      "title": "58 min Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
+      "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
+      "published": "19/11/2026 12:00",
       "cves": [
         "CVE-2026-114938"
       ],
       "vendor": null
     },
     {
-      "title": "Falha crítica no Java 17 expõe servidores a execução remota de código",
-      "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma falha de execução remota de código no Java 17 colocou administradores de servidor em alerta. O problema recebeu o identificador CVE-2026-114938 e nota 9,2 de 10 no CVSS 4.0, classificação crítica. Os relatos públicos indicam que a exploração dispensa autenticação e alcança o OpenJDK 17.0.6 e as atualizações posteriores do Java 17. Os primeiros relatos apontam corrupção de memória, sem nomear o componente vulnerável. O registro do CVE foi reservado sem descrição pública, e nenhum relato informa se a exploração exige configuração específica. Uma empresa de segurança divulgou o alerta e orientou as equipes a revisar os ambientes Java e acompanhar os comunicados dos fornecedores.",
-      "link": "https://boletimsec.com/falha-critica-no-java-17-expoe-servidores-a-execucao-remota-de-codigo/",
-      "published": "18/11/2026 12:00",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Falha em extensões de assinatura digital no Brasil",
+      "title": "Oracle publica 655 patches e corrige Java4Shell",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Pesquisadores da empresa norte-americana Bay Area Labs anunciaram hoje ter descoberto uma classe de falhas de execução remota de código (RCE) do tipo drive-by, todas com pontuação CVSS 9.6, em cinco das extensões de assinatura digital mais instaladas do Brasil. Batizada de Sign2Shell, a falha foi localizada nas soluções Lacuna Web PKI, Softplan Web Signer, Certisign WebSigner, Certisign CertiPlugin e BRy Assinatura Digital, que juntas somam cerca de 10 milhões de instalações, segundo a publicação. O CISO Advisor entrou em contato com todas as empresas responsáveis pelas soluções. Elas informaram já ter corrigido o problema e se manifestaram em notas oficiais publicadas no final deste texto.",
-      "link": "https://www.cisoadvisor.com.br/falha-em-extensoes-de-assinatura-digital-no-brasil/",
-      "published": "18/11/2026 12:00",
+      "summary": "A Oracle anunciou nesta terça-feira a publicação de 655 novos patches de segurança como parte da Atualização Crítica de Segurança (CSPU) de novembro de 2026. Desses, 640 aparecem nas matrizes de risco dos produtos. O restante inclui vulnerabilidades adicionais corrigidas pelos patches e CVEs de terceiros que a Oracle considera não exploráveis em seus produtos. Pouco mais de 300 patches corrigem falhas que podem ser exploradas remotamente sem autenticação. Sessenta e dois patches resolvem vulnerabilidades de severidade crítica, incluindo meia dúzia de falhas de severidade máxima.",
+      "link": "https://www.cisoadvisor.com.br/oracle-publica-655-patches-e-corrige-java4shell/",
+      "published": "19/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos usam credencial de fornecedor para roubar dados da Uber",
+      "title": "NGINX expõe servidores web a execução de código sem autenticação",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Uber notificou cerca de 150 mil motoristas sobre o roubo de informações pessoais numa invasão que atingiu um prestador de serviços terceirizado. Entre os dados alcançados estão imagens de carteiras de motorista, nomes, endereços, datas de nascimento e números de documentos emitidos por governo. Os invasores não precisaram quebrar nada. Em 7 de outubro eles usaram credenciais comprometidas do prestador para alcançar dados que a Uber havia compartilhado com ele. A empresa soube do incidente em 9 de outubro, cortou de imediato as conexões de dados com o fornecedor e abriu investigação. O detalhe que explica a invasão está no ambiente onde os dados ficavam.",
-      "link": "https://boletimsec.com/cibercriminosos-usam-credencial-de-fornecedor-para-roubar-dados-da-uber/",
-      "published": "18/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Backdoors usam SharePoint e GitHub para espionar redes governamentais",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "Dois backdoors inéditos usam serviços de nuvem legítimos como canal de comando para espionar setores de governo na Ásia e na África. A Kaspersky batizou a campanha de Operation ShadowCloud e nomeou os implantes pelo serviço que cada um usa. O GitDoor usa o GitHub, e o GraphDoor usa o SharePoint da Microsoft. O ponto de partida foi o MeshCentral Agent, ferramenta legítima de acesso remoto, numa organização de Taiwan não nomeada. Como ela chegou ao host é desconhecido, e os indícios apontam reuso de infecção anterior na rede. O agente busca um executável legítimo, uma DLL maliciosa carregada por sideloading e um arquivo cifrado com o backdoor.",
-      "link": "https://boletimsec.com/backdoors-usam-sharepoint-e-github-para-espionar-redes-governamentais/",
-      "published": "18/11/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "summary": "Duas falhas críticas no NGINX permitem que um invasor remoto execute código no servidor web sem fazer login. Divulgadas em 18 de novembro, receberam os identificadores CVE-2026-123633 e CVE-2026-123007, e as duas levam nota 9,2 de 10 no CVSS 4.0. As correções estão disponíveis nos ramos estável e principal do NGINX Open Source. As duas exigem que o NGINX aceite conexões HTTP/2 de clientes, mas as condições divergem. Uma atinge certos arranjos de proxy reverso, e a outra alcança servidor que não faz nada além de entregar arquivos estáticos. O defeito está no NGINX, não nos sites nem nas APIs que ficam atrás dele.",
+      "link": "https://boletimsec.com/nginx-expoe-servidores-web-a-execucao-de-codigo-sem-autenticacao/",
+      "published": "19/11/2026 12:00",
+      "cves": [
+        "CVE-2026-123633",
+        "CVE-2026-123007"
+      ],
+      "vendor": "NGINX"
     }
   ]
 }
