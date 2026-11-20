@@ -1,72 +1,66 @@
 {
-  "generated_at": "2026-11-19T12:00:00.045720-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-11-20T12:00:00.051465-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Apache corrige falha crítica no Roller sob exploração ativa",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "O Apache publicou atualizações de segurança para corrigir uma falha crítica no Roller , servidor de blogs em grupo baseado em Java, que está sendo explorada por atacantes para obter execução de código em servidores vulneráveis. A vulnerabilidade, rastreada como CVE-2026-129448 , foi sinalizada pelo projeto Apache como ativamente explorada em ambiente real, embora a fundação não tenha detalhado os ataques em andamento, incluindo autoria ou número de servidores comprometidos. Segundo o comunicado publicado na terça-feira, a desserialização de dados não confiáveis nas versões 4.0.0 a 6.1.4 do Apache Roller permite que um atacante remoto não autenticado execute código arbitrário.",
-      "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-no-roller-sob-exploracao-ativa/",
-      "published": "19/11/2026 12:00",
-      "cves": [
-        "CVE-2026-129448"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "NGINX HTTP/2 falhas críticas permitem RCE",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Duas vulnerabilidades críticas no NGINX permitem que atacantes remotos executem código em servidores web vulneráveis sem autenticação. As falhas, CVE-2026-123633 e CVE-2026-123007, foram divulgadas em 18 de novembro de 2026 e recebem pontuação 9.2 no CVSS 4.0 (CVSS de 9.2). Ambas exigem que o NGINX aceite conexões HTTP/2 de clientes, mas as condições diferem: uma afeta certas configurações de proxy reverso; a outra pode atingir um servidor que apenas serve arquivos estáticos, conforme relatório da Wiz. Os problemas estão no próprio NGINX, não nas aplicações por trás dele.",
-      "link": "https://www.cisoadvisor.com.br/nginx-http-2-falhas-criticas-permitem-rce/",
-      "published": "19/11/2026 12:00",
-      "cves": [
-        "CVE-2026-123633",
-        "CVE-2026-123007"
-      ],
-      "vendor": "NGINX"
-    },
-    {
-      "title": "58 min Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
+      "title": "1 dia Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
       "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
-      "published": "19/11/2026 12:00",
+      "published": "20/11/2026 12:00",
       "cves": [
         "CVE-2026-114938"
       ],
       "vendor": null
     },
     {
-      "title": "Oracle publica 655 patches e corrige Java4Shell",
+      "title": "Atlassian corrige 318 vulnerabilidades em Jira, Confluence e Bitbucket",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Oracle anunciou nesta terça-feira a publicação de 655 novos patches de segurança como parte da Atualização Crítica de Segurança (CSPU) de novembro de 2026. Desses, 640 aparecem nas matrizes de risco dos produtos. O restante inclui vulnerabilidades adicionais corrigidas pelos patches e CVEs de terceiros que a Oracle considera não exploráveis em seus produtos. Pouco mais de 300 patches corrigem falhas que podem ser exploradas remotamente sem autenticação. Sessenta e dois patches resolvem vulnerabilidades de severidade crítica, incluindo meia dúzia de falhas de severidade máxima.",
-      "link": "https://www.cisoadvisor.com.br/oracle-publica-655-patches-e-corrige-java4shell/",
-      "published": "19/11/2026 12:00",
+      "summary": "O boletim de segurança de novembro de 2026 da Atlassian lista correções para 318 entradas de vulnerabilidade em Jira Software, Jira Service Management, Confluence, Bitbucket, Bamboo, Crowd, Fisheye e Crucible. Publicado em 17 de novembro, o boletim cobre correções enviadas em versões de produtos ao longo do mês anterior. A Atlassian contabilizou 266 entradas de alta severidade e 52 críticas envolvendo componentes de terceiros, segundo o boletim . Alguns identificadores CVE aparecem em mais de um produto, portanto o total não representa 318 falhas distintas nem significa que toda instalação seja afetada por todas elas.",
+      "link": "https://www.cisoadvisor.com.br/atlassian-corrige-318-vulnerabilidades-em-jira-confluence-e-bitbucket/",
+      "published": "20/11/2026 12:00",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "NGINX expõe servidores web a execução de código sem autenticação",
+      "title": "Cibercriminosos exploram falha no Apache Roller para executar código remoto",
       "source": "BoletimSec Notícias",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Duas falhas críticas no NGINX permitem que um invasor remoto execute código no servidor web sem fazer login. Divulgadas em 18 de novembro, receberam os identificadores CVE-2026-123633 e CVE-2026-123007, e as duas levam nota 9,2 de 10 no CVSS 4.0. As correções estão disponíveis nos ramos estável e principal do NGINX Open Source. As duas exigem que o NGINX aceite conexões HTTP/2 de clientes, mas as condições divergem. Uma atinge certos arranjos de proxy reverso, e a outra alcança servidor que não faz nada além de entregar arquivos estáticos. O defeito está no NGINX, não nos sites nem nas APIs que ficam atrás dele.",
-      "link": "https://boletimsec.com/nginx-expoe-servidores-web-a-execucao-de-codigo-sem-autenticacao/",
-      "published": "19/11/2026 12:00",
+      "summary": "Cibercriminosos exploram uma falha crítica do Apache Roller para executar código no servidor sem apresentar credencial. A plataforma de blog escrita em Java recebeu o identificador CVE-2026-129448 e nota 9,8 de 10, e a Apache Software Foundation confirma que o problema está sob exploração. O caminho do ataque é o endpoint de XML-RPC. Os mantenedores descrevem que ele aceita tipos de extensão do fornecedor e desserializa a requisição antes de autenticar quem a enviou, o que deixa um invasor remoto sem conta executar código arbitrário. A faixa afetada vai da versão 4.0.0 até a 6.1.4.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-apache-roller-para-executar-codigo-remoto/",
+      "published": "20/11/2026 12:00",
       "cves": [
-        "CVE-2026-123633",
-        "CVE-2026-123007"
+        "CVE-2026-129448"
       ],
-      "vendor": "NGINX"
+      "vendor": null
+    },
+    {
+      "title": "PHP alerta para vulnerabilidades críticas e correções nesta quinta",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "threat",
+      "summary": "A equipe de segurança do PHP planeja publicar atualizações de segurança nesta quinta-feira, 19 de novembro de 2026, entre 14h e 14h30 UTC. Em aviso publicado ontem, a equipe informou que as versões corrigirão vulnerabilidades em todos os ramos suportados do PHP, com a severidade mais alta classificada como crítica, e pediu que usuários se preparem e instalem as correções assim que estiverem disponíveis. As correções fazem parte do ciclo regular de lançamentos de quatro semanas do PHP. A equipe afirmou que os problemas críticos exigem configurações não padrão ou ambientes incomuns. Uma aplicação pode executar uma versão vulnerável do PHP sem atender aos requisitos para um ataque.",
+      "link": "https://www.cisoadvisor.com.br/php-alerta-para-vulnerabilidades-criticas-e-correcoes-nesta-quinta/",
+      "published": "20/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "MercTech estreia no Brasil com foco em cibersegurança",
+      "source": "CISO Advisor",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "A Mercury Security, marca da HID e referência global em controle de acesso de arquitetura aberta, realizou em São Paulo a primeira edição internacional do MercTech fora dos Estados Unidos. O encontro no Renaissance São Paulo Hotel reuniu consultores, usuários finais, integradores de sistemas e parceiros OEM para debater a convergência entre segurança física e digital. Após uma edição em Dubai, nos Emirados Árabes Unidos, a iniciativa seguirá para outros países. Na abertura, Rogerio Coradini, Diretor Comercial de Controle de Acesso Físico da HID para América Latina e Caribe, destacou a relevância da cibersegurança diante da recente onda de ataques cibernéticos observada nas últimas semanas.",
+      "link": "https://www.cisoadvisor.com.br/merctech-estreia-no-brasil-com-foco-em-ciberseguranca/",
+      "published": "20/11/2026 12:00",
+      "cves": [],
+      "vendor": null
     }
   ]
 }
