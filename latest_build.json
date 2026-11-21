@@ -1,64 +1,68 @@
 {
-  "generated_at": "2026-11-20T12:00:00.051465-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-11-21T12:00:00.024307-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "1 dia Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
+      "title": "2 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
       "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
-      "published": "20/11/2026 12:00",
+      "published": "21/11/2026 12:00",
       "cves": [
         "CVE-2026-114938"
       ],
       "vendor": null
     },
     {
-      "title": "Atlassian corrige 318 vulnerabilidades em Jira, Confluence e Bitbucket",
+      "title": "Falha zero-day no VMware vCenter explorada desde setembro",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "O boletim de segurança de novembro de 2026 da Atlassian lista correções para 318 entradas de vulnerabilidade em Jira Software, Jira Service Management, Confluence, Bitbucket, Bamboo, Crowd, Fisheye e Crucible. Publicado em 17 de novembro, o boletim cobre correções enviadas em versões de produtos ao longo do mês anterior. A Atlassian contabilizou 266 entradas de alta severidade e 52 críticas envolvendo componentes de terceiros, segundo o boletim . Alguns identificadores CVE aparecem em mais de um produto, portanto o total não representa 318 falhas distintas nem significa que toda instalação seja afetada por todas elas.",
-      "link": "https://www.cisoadvisor.com.br/atlassian-corrige-318-vulnerabilidades-em-jira-confluence-e-bitbucket/",
-      "published": "20/11/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "summary": "Um grupo de espionagem suspeito de ligação com a China explorou uma falha zero-day no VMware vCenter Server no início de setembro de 2026, obtendo acesso de administrador e roubando arquivos de uma máquina virtual Windows. A Mandiant e o Google Threat Intelligence Group (GTIG) atribuíram a intrusão ao ARMORY CASTLE, anteriormente rastreado como UNC5221. A Broadcom divulgou a vulnerabilidade, CVE-2026-123890 (CVSS de 9.8), em 19 de novembro, mais de dois meses após o uso mais antigo documentado na investigação. A falha afeta o VMware Directory Service, que sustenta o sistema de logon único do vCenter.",
+      "link": "https://www.cisoadvisor.com.br/falha-zero-day-no-vmware-vcenter-explorada-desde-setembro/",
+      "published": "21/11/2026 12:00",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "vendor": "VMware"
     },
     {
-      "title": "Cibercriminosos exploram falha no Apache Roller para executar código remoto",
-      "source": "BoletimSec Notícias",
+      "title": "Cisco Expressway é alvo de invasão após vazamento de PoC",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cibercriminosos exploram uma falha crítica do Apache Roller para executar código no servidor sem apresentar credencial. A plataforma de blog escrita em Java recebeu o identificador CVE-2026-129448 e nota 9,8 de 10, e a Apache Software Foundation confirma que o problema está sob exploração. O caminho do ataque é o endpoint de XML-RPC. Os mantenedores descrevem que ele aceita tipos de extensão do fornecedor e desserializa a requisição antes de autenticar quem a enviou, o que deixa um invasor remoto sem conta executar código arbitrário. A faixa afetada vai da versão 4.0.0 até a 6.1.4.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-no-apache-roller-para-executar-codigo-remoto/",
-      "published": "20/11/2026 12:00",
+      "summary": "Um grupo não identificado invadiu dispositivos Cisco Expressway em cluster de uma organização na Rússia e montou ferramentas para se mover lateralmente pela rede, de acordo com a empresa de segurança F6. A ação ocorreu logo depois que um código de exploração proof-of-concept (PoC) se tornou público. Os gateways Expressway dão a funcionários remotos, parceiros e usuários terceirizados acesso seguro a serviços de colaboração, como chamadas de vídeo, voz e mensagens instantâneas. A vulnerabilidade, registrada como CVE-2026-76466 (CVSS de 9.8), dispensa autenticação: um atacante remoto com alcance de rede ao dispositivo consegue executar comandos como root.",
+      "link": "https://www.cisoadvisor.com.br/cisco-expressway-e-alvo-de-invasao-apos-vazamento-de-poc/",
+      "published": "21/11/2026 12:00",
       "cves": [
-        "CVE-2026-129448"
+        "CVE-2026-76466"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Nova falha no PHP permite execução remota de código",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma nova falha no PHP, batizada de phpAfterShell , pode levar à execução remota de código sem autenticação em servidores vulneráveis, mesmo que tenham recebido os patches de outubro para o PHP2Shell. Pesquisadores da Depthfirst divulgaram a falha em 19 de novembro e demonstraram como ela pode ser combinada com um bug separado no PHP para executar código remotamente. A vulnerabilidade, rastreada como CVE-2026-126714 (CVSS de 9.2), está no manipulador de sessões baseado em arquivo padrão do PHP. As sessões permitem que aplicações web lembrem o status de login de um usuário, o carrinho de compras ou outros detalhes entre requisições.",
+      "link": "https://www.cisoadvisor.com.br/nova-falha-no-php-permite-execucao-remota-de-codigo/",
+      "published": "21/11/2026 12:00",
+      "cves": [
+        "CVE-2026-126714"
       ],
       "vendor": null
     },
     {
-      "title": "PHP alerta para vulnerabilidades críticas e correções nesta quinta",
+      "title": "Ransomware: 353 ataques no T3 2026, alta de 20%",
       "source": "CISO Advisor",
       "priority": "Alta",
-      "category": "threat",
-      "summary": "A equipe de segurança do PHP planeja publicar atualizações de segurança nesta quinta-feira, 19 de novembro de 2026, entre 14h e 14h30 UTC. Em aviso publicado ontem, a equipe informou que as versões corrigirão vulnerabilidades em todos os ramos suportados do PHP, com a severidade mais alta classificada como crítica, e pediu que usuários se preparem e instalem as correções assim que estiverem disponíveis. As correções fazem parte do ciclo regular de lançamentos de quatro semanas do PHP. A equipe afirmou que os problemas críticos exigem configurações não padrão ou ambientes incomuns. Uma aplicação pode executar uma versão vulnerável do PHP sem atender aos requisitos para um ataque.",
-      "link": "https://www.cisoadvisor.com.br/php-alerta-para-vulnerabilidades-criticas-e-correcoes-nesta-quinta/",
-      "published": "20/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "MercTech estreia no Brasil com foco em cibersegurança",
-      "source": "CISO Advisor",
-      "priority": "Média",
       "category": "patches",
-      "summary": "A Mercury Security, marca da HID e referência global em controle de acesso de arquitetura aberta, realizou em São Paulo a primeira edição internacional do MercTech fora dos Estados Unidos. O encontro no Renaissance São Paulo Hotel reuniu consultores, usuários finais, integradores de sistemas e parceiros OEM para debater a convergência entre segurança física e digital. Após uma edição em Dubai, nos Emirados Árabes Unidos, a iniciativa seguirá para outros países. Na abertura, Rogerio Coradini, Diretor Comercial de Controle de Acesso Físico da HID para América Latina e Caribe, destacou a relevância da cibersegurança diante da recente onda de ataques cibernéticos observada nas últimas semanas.",
-      "link": "https://www.cisoadvisor.com.br/merctech-estreia-no-brasil-com-foco-em-ciberseguranca/",
-      "published": "20/11/2026 12:00",
+      "summary": "A BlackFog registrou 353 ataques de ransomware divulgados publicamente no terceiro trimestre de 2026, um aumento de 20% em relação ao mesmo período de 2025, quando foram contabilizados 293 casos, e de 15% sobre o trimestre anterior, com 306. É o terceiro trimestre mais movimentado desde que a empresa começou a acompanhar os dados, em 2020, com os ataques divulgados crescendo 470% em relação ao terceiro trimestre daquele ano, segundo relatório da BlackFog, especializada em prevenção de ransomware e combate à exfiltração de dados.",
+      "link": "https://www.cisoadvisor.com.br/ransomware-353-ataques-no-t3-2026-alta-de-20/",
+      "published": "21/11/2026 12:00",
       "cves": [],
       "vendor": null
     }
