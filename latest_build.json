@@ -1,68 +1,64 @@
 {
-  "generated_at": "2026-11-21T12:00:00.024307-03:00",
-  "theme": "Leitura Curada",
+  "generated_at": "2026-11-22T12:00:00.018517-03:00",
+  "theme": "Radar Geral",
   "items_count": 5,
   "items": [
     {
-      "title": "2 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
+      "title": "3 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
       "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
-      "published": "21/11/2026 12:00",
+      "published": "22/11/2026 12:00",
       "cves": [
         "CVE-2026-114938"
       ],
       "vendor": null
     },
     {
-      "title": "Falha zero-day no VMware vCenter explorada desde setembro",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "FBI alerta sobre ARTEX usado por cibercriminosos e versões com backdoor",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Um grupo de espionagem suspeito de ligação com a China explorou uma falha zero-day no VMware vCenter Server no início de setembro de 2026, obtendo acesso de administrador e roubando arquivos de uma máquina virtual Windows. A Mandiant e o Google Threat Intelligence Group (GTIG) atribuíram a intrusão ao ARMORY CASTLE, anteriormente rastreado como UNC5221. A Broadcom divulgou a vulnerabilidade, CVE-2026-123890 (CVSS de 9.8), em 19 de novembro, mais de dois meses após o uso mais antigo documentado na investigação. A falha afeta o VMware Directory Service, que sustenta o sistema de logon único do vCenter.",
-      "link": "https://www.cisoadvisor.com.br/falha-zero-day-no-vmware-vcenter-explorada-desde-setembro/",
-      "published": "21/11/2026 12:00",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "vendor": "VMware"
+      "summary": "O ARTEX, framework open source de pentest com inteligência artificial , tornou-se alvo de alertas de segurança após ser identificado em operações criminosas e ter versões adulteradas distribuídas com backdoors. Em 13 de novembro, o FBI publicou um comunicado sobre sua utilização por cibercriminosos desde agosto de 2026, em campanhas contra bancos, governos e empresas de tecnologia. Em algumas invasões, os operadores conseguiram obter acessos privilegiados em menos de três horas. O cenário levanta preocupações sobre a segurança da própria ferramenta, especialmente para profissionais que consideram instalá-la em ambientes corporativos.",
+      "link": "https://boletimsec.com/fbi-alerta-sobre-artex-usado-por-cibercriminosos-e-versoes-com-backdoor/",
+      "published": "22/11/2026 12:00",
+      "cves": [],
+      "vendor": null
     },
     {
-      "title": "Cisco Expressway é alvo de invasão após vazamento de PoC",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "2 dias Segurança iFood sofre ataque hacker e expõe dados de clientes e entregadores; veja o que vazou",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
       "category": "patches",
-      "summary": "Um grupo não identificado invadiu dispositivos Cisco Expressway em cluster de uma organização na Rússia e montou ferramentas para se mover lateralmente pela rede, de acordo com a empresa de segurança F6. A ação ocorreu logo depois que um código de exploração proof-of-concept (PoC) se tornou público. Os gateways Expressway dão a funcionários remotos, parceiros e usuários terceirizados acesso seguro a serviços de colaboração, como chamadas de vídeo, voz e mensagens instantâneas. A vulnerabilidade, registrada como CVE-2026-76466 (CVSS de 9.8), dispensa autenticação: um atacante remoto com alcance de rede ao dispositivo consegue executar comandos como root.",
-      "link": "https://www.cisoadvisor.com.br/cisco-expressway-e-alvo-de-invasao-apos-vazamento-de-poc/",
-      "published": "21/11/2026 12:00",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "vendor": "Cisco"
+      "summary": "O iFood confirmou nesta quinta-feira (19) que sofreu um ataque hacker que expôs dados pessoais de clientes, entregadores e representantes de restaurantes parceiros. A invasão ocorreu no sábado (14) e permitiu que criminosos acessassem informações como telefones, CPFs e, em determinados casos, dados de contas bancárias. A empresa ainda investiga o incidente e não informou quantas pessoas foram afetadas. Segundo o iFood, senhas, cartões de crédito, meios de pagamento e informações biométricas não foram comprometidos. Em comunicado oficial, a plataforma afirmou que não encontrou evidências de que os dados acessados tenham sido divulgados ou utilizados indevidamente até o momento.",
+      "link": "https://canaltech.com.br/seguranca/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/",
+      "published": "22/11/2026 12:00",
+      "cves": [],
+      "vendor": null
     },
     {
-      "title": "Nova falha no PHP permite execução remota de código",
-      "source": "CISO Advisor",
-      "priority": "Alta",
+      "title": "Java4Shell permite execução remota sem login",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
       "category": "patches",
-      "summary": "Uma nova falha no PHP, batizada de phpAfterShell , pode levar à execução remota de código sem autenticação em servidores vulneráveis, mesmo que tenham recebido os patches de outubro para o PHP2Shell. Pesquisadores da Depthfirst divulgaram a falha em 19 de novembro e demonstraram como ela pode ser combinada com um bug separado no PHP para executar código remotamente. A vulnerabilidade, rastreada como CVE-2026-126714 (CVSS de 9.2), está no manipulador de sessões baseado em arquivo padrão do PHP. As sessões permitem que aplicações web lembrem o status de login de um usuário, o carrinho de compras ou outros detalhes entre requisições.",
-      "link": "https://www.cisoadvisor.com.br/nova-falha-no-php-permite-execucao-remota-de-codigo/",
-      "published": "21/11/2026 12:00",
+      "summary": "A falha batizada de Java4Shell permite que um invasor sem conta execute código em Keycloak, Jira, Confluence, JFrog Artifactory, Jenkins e PingFederate, na configuração padrão desses produtos. Registrada como CVE-2026-114938, ela também alcança Apache Kafka Broker, Apache Solr, Elasticsearch, Gerrit e Spinnaker, nesses casos com login de usuário comum. O defeito está no decodificador Base64 da JVM HotSpot em x86-64. Uma cadeia malformada que termina com um sinal de igual a mais faz a versão acelerada do decodificador gravar 62 ou 63 bytes além do fim da área de saída. O Java rejeita a cadeia, mas só depois da gravação. A dispensa de login se explica pela ordem das operações no servidor.",
+      "link": "https://boletimsec.com/java4shell-permite-execucao-remota-sem-login/",
+      "published": "22/11/2026 12:00",
       "cves": [
-        "CVE-2026-126714"
+        "CVE-2026-114938"
       ],
       "vendor": null
     },
     {
-      "title": "Ransomware: 353 ataques no T3 2026, alta de 20%",
+      "title": "IA amplia brechas de segurança em recrutamento",
       "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A BlackFog registrou 353 ataques de ransomware divulgados publicamente no terceiro trimestre de 2026, um aumento de 20% em relação ao mesmo período de 2025, quando foram contabilizados 293 casos, e de 15% sobre o trimestre anterior, com 306. É o terceiro trimestre mais movimentado desde que a empresa começou a acompanhar os dados, em 2020, com os ataques divulgados crescendo 470% em relação ao terceiro trimestre daquele ano, segundo relatório da BlackFog, especializada em prevenção de ransomware e combate à exfiltração de dados.",
-      "link": "https://www.cisoadvisor.com.br/ransomware-353-ataques-no-t3-2026-alta-de-20/",
-      "published": "21/11/2026 12:00",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "O uso de inteligência artificial está ampliando brechas de segurança nos processos de recrutamento e integração de funcionários, segundo reportagem publicada pelo teiss . A publicação cita como exemplo uma falsa entrevista de emprego usada para comprometer funcionários da Binance antes do roubo de US$ 6,3 bilhões em criptomoedas, em outubro, conforme a Reuters. Segundo a reportagem, um engenheiro da exchange foi abordado por uma plataforma de recrutamento legítima em setembro e convencido a baixar uma tarefa de programação maliciosa como parte de uma entrevista com uma empresa fictícia.",
+      "link": "https://www.cisoadvisor.com.br/ia-amplia-brechas-de-seguranca-em-recrutamento-e-integracao/",
+      "published": "22/11/2026 12:00",
       "cves": [],
       "vendor": null
     }
