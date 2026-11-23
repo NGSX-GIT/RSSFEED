@@ -1,64 +1,60 @@
 {
-  "generated_at": "2026-11-22T12:00:00.018517-03:00",
-  "theme": "Radar Geral",
+  "generated_at": "2026-11-23T07:45:15.391795-03:00",
+  "theme": "Panorama Executivo",
   "items_count": 5,
   "items": [
     {
-      "title": "3 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
-      "source": "Canaltech Segurança",
+      "title": "Dados de 43 cooperativas de crédito expostos em fornecedor",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
-      "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
-      "published": "22/11/2026 12:00",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "FBI alerta sobre ARTEX usado por cibercriminosos e versões com backdoor",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O ARTEX, framework open source de pentest com inteligência artificial , tornou-se alvo de alertas de segurança após ser identificado em operações criminosas e ter versões adulteradas distribuídas com backdoors. Em 13 de novembro, o FBI publicou um comunicado sobre sua utilização por cibercriminosos desde agosto de 2026, em campanhas contra bancos, governos e empresas de tecnologia. Em algumas invasões, os operadores conseguiram obter acessos privilegiados em menos de três horas. O cenário levanta preocupações sobre a segurança da própria ferramenta, especialmente para profissionais que consideram instalá-la em ambientes corporativos.",
-      "link": "https://boletimsec.com/fbi-alerta-sobre-artex-usado-por-cibercriminosos-e-versoes-com-backdoor/",
-      "published": "22/11/2026 12:00",
+      "summary": "Cerca de 40 cooperativas de crédito irlandesas, aproximadamente um quarto do setor, foram afetadas por um vazamento de dados em um provedor terceirizado de TI, a Wellington IT Services. A informação foi dada pelo ministro de Estado responsável pelo setor, Robert Troy, segundo a MLQ.ai . A Wellington IT fornece software bancário para 43 cooperativas de crédito, de acordo com a publicação. Segundo a RTÉ , cerca de 40 notificações de violação de dados foram reportadas pelas cooperativas à Comissão de Proteção de Dados (DPC).",
+      "link": "https://www.cisoadvisor.com.br/43-cooperativas-de-credito-expostas-por-falha-em-fornecedor/",
+      "published": "23/11/2026 07:45",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "2 dias Segurança iFood sofre ataque hacker e expõe dados de clientes e entregadores; veja o que vazou",
+      "title": "3 dias Segurança iFood sofre ataque hacker e expõe dados de clientes e entregadores; veja o que vazou",
       "source": "Canaltech Segurança",
       "priority": "Média",
       "category": "patches",
       "summary": "O iFood confirmou nesta quinta-feira (19) que sofreu um ataque hacker que expôs dados pessoais de clientes, entregadores e representantes de restaurantes parceiros. A invasão ocorreu no sábado (14) e permitiu que criminosos acessassem informações como telefones, CPFs e, em determinados casos, dados de contas bancárias. A empresa ainda investiga o incidente e não informou quantas pessoas foram afetadas. Segundo o iFood, senhas, cartões de crédito, meios de pagamento e informações biométricas não foram comprometidos. Em comunicado oficial, a plataforma afirmou que não encontrou evidências de que os dados acessados tenham sido divulgados ou utilizados indevidamente até o momento.",
       "link": "https://canaltech.com.br/seguranca/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/",
-      "published": "22/11/2026 12:00",
+      "published": "23/11/2026 07:45",
       "cves": [],
       "vendor": null
     },
     {
-      "title": "Java4Shell permite execução remota sem login",
-      "source": "BoletimSec Notícias",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "A falha batizada de Java4Shell permite que um invasor sem conta execute código em Keycloak, Jira, Confluence, JFrog Artifactory, Jenkins e PingFederate, na configuração padrão desses produtos. Registrada como CVE-2026-114938, ela também alcança Apache Kafka Broker, Apache Solr, Elasticsearch, Gerrit e Spinnaker, nesses casos com login de usuário comum. O defeito está no decodificador Base64 da JVM HotSpot em x86-64. Uma cadeia malformada que termina com um sinal de igual a mais faz a versão acelerada do decodificador gravar 62 ou 63 bytes além do fim da área de saída. O Java rejeita a cadeia, mas só depois da gravação. A dispensa de login se explica pela ordem das operações no servidor.",
-      "link": "https://boletimsec.com/java4shell-permite-execucao-remota-sem-login/",
-      "published": "22/11/2026 12:00",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "IA amplia brechas de segurança em recrutamento",
+      "title": "Operação secreta faz hardening em freezers no Reino Unido",
       "source": "CISO Advisor",
       "priority": "Baixa",
       "category": "identity",
-      "summary": "O uso de inteligência artificial está ampliando brechas de segurança nos processos de recrutamento e integração de funcionários, segundo reportagem publicada pelo teiss . A publicação cita como exemplo uma falsa entrevista de emprego usada para comprometer funcionários da Binance antes do roubo de US$ 6,3 bilhões em criptomoedas, em outubro, conforme a Reuters. Segundo a reportagem, um engenheiro da exchange foi abordado por uma plataforma de recrutamento legítima em setembro e convencido a baixar uma tarefa de programação maliciosa como parte de uma entrevista com uma empresa fictícia.",
-      "link": "https://www.cisoadvisor.com.br/ia-amplia-brechas-de-seguranca-em-recrutamento-e-integracao/",
-      "published": "22/11/2026 12:00",
+      "summary": "O governo britânico realizou uma “operação secreta em larga escala” para proteger os sistemas de refrigeração de supermercados, armazéns, restaurantes, postos de gasolina e estádios. A informação foi divulgada pela BBC e pela empresa de cibersegurança Pen Test Partners . Nos últimos meses, diversos supermercados na Europa sofreram ataques aos seus sistemas de refrigeração, nos quais os invasores exploraram vulnerabilidades conhecidas e senhas padrão para obter acesso. A temperatura foi então elevada, forçando o descarte de alimentos. Os ataques visavam principalmente os sistemas dos fornecedores Danfoss e Copeland. Relativamente poucos ataques foram observados no Reino Unido.",
+      "link": "https://www.cisoadvisor.com.br/operacao-secreta-faz-hardening-em-freezers-no-reino-unido/",
+      "published": "23/11/2026 07:45",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Windows kernel está sendo isolado dos antivírus",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "A Microsoft passou a oferecer às empresas de antivírus a opção de executar seus scanners fora do kernel do Windows, como forma de evitar problemas catastróficos como ocorreu em 19 de Julho de 2024 após uma atualização da CrowdStrike. Segundo a Microsoft informou , o módulo Windows Endpoint Security Platform, que viabiliza essa mudança, está disponível no Windows 11. Com isso, o software antivírus pode rodar em modo de usuário (user mode), como outras aplicações. De acordo com a publicação, várias empresas de antivírus farão a transição para o modo de usuário neste trimestre, e outras no ano que vem.",
+      "link": "https://www.cisoadvisor.com.br/microsoft-permite-que-antivirus-rodem-fora-do-kernel-do-windows/",
+      "published": "23/11/2026 07:45",
+      "cves": [],
+      "vendor": "Microsoft"
+    },
+    {
+      "title": "ISACA lança COBIT 7 com modelo de avaliação aprimorado",
+      "source": "CISO Advisor",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "A ISACA anunciou ontem o lançamento do COBIT 7, versão atualizada de seu framework para governança de informação e tecnologia (I&T), segundo comunicado publicado pela empresa. O lançamento ocorre em um contexto em que “a IA pode despertar medos sobre o futuro da humanidade e a tecnologia envelhecida pode parar o transporte aéreo”, tornando o custo da governança fraca impossível de ignorar, afirma a associação. De acordo com o comunicado, o COBIT 7 reflete o cenário tecnológico atual com orientação de design simplificada, objetivos atualizados e três níveis de avaliação organizacional.",
+      "link": "https://www.cisoadvisor.com.br/isaca-lanca-cobit-7-com-modelo-de-avaliacao-aprimorado/",
+      "published": "23/11/2026 07:45",
       "cves": [],
       "vendor": null
     }
