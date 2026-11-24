@@ -1,62 +1,70 @@
 {
-  "generated_at": "2026-11-23T07:45:15.391795-03:00",
-  "theme": "Panorama Executivo",
+  "generated_at": "2026-11-24T12:00:00.129937-03:00",
+  "theme": "Patching e CVEs",
   "items_count": 5,
   "items": [
     {
-      "title": "Dados de 43 cooperativas de crédito expostos em fornecedor",
+      "title": "Claroty acha 65 mil dispositivos de consumo em redes críticas",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "general",
+      "summary": "A Claroty publicou uma pesquisa que revela um número significativo de dispositivos de consumo — consoles de videogame, dispositivos de entretenimento e carros conectados — presentes em redes de tecnologia operacional (OT), saúde e ambientes comerciais. Com base na análise de mais de 45 milhões de dispositivos em 30 mil instalações de infraestrutura crítica, o relatório “Game Over for Consumer Tech Risk in Critical Infrastructure” identificou mais de 65 mil dispositivos de consumo não essenciais operando diretamente ao lado de equipamentos industriais e médicos fundamentais para as operações.",
+      "link": "https://www.cisoadvisor.com.br/claroty-acha-65-mil-dispositivos-de-consumo-em-redes-criticas/",
+      "published": "24/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "5 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
+      "source": "Canaltech Segurança",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
+      "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
+      "published": "24/11/2026 12:00",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Falha crítica em módulo do ASP.NET permite controle total do servidor web",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Uma falha crítica num módulo anti-CSRF usado em aplicações ASP.NET WebForms permite a invasor remoto executar código e assumir o controle total do servidor de aplicação. Registrada como CVE-2026-131914, com nota 9,3 de 10, ela está na biblioteca Idunno.AntiCsrf, de terceiros, e atinge as versões 0.9.1.0 e 0.9.1 Beta. O módulo desserializa sem segurança o dado do token CSRF que chega pelo formulário. Ele usa uma instância de ObjectStateFormatter sem chave, sem código de autenticação de mensagem e sem verificação de assinatura, ao tratar requisição POST para endpoint de página do WebForms. Desserialização insegura é ler objeto vindo de fora como se fosse confiável.",
+      "link": "https://boletimsec.com/falha-critica-em-modulo-do-asp-net-permite-controle-total-do-servidor-web/",
+      "published": "24/11/2026 12:00",
+      "cves": [
+        "CVE-2026-131914"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos exploram falha crítica no Cisco Expressway",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Invasores exploram uma falha crítica no Cisco Expressway para assumir o controle total do aparelho e avançar para dentro da rede da empresa. Registrada como CVE-2026-76466, com nota 9,8 de 10, ela atinge apenas Expressway-C e Expressway-E em cluster, e a Cisco declarou que não há contorno disponível. A falha está no serviço de banco de dados do equipamento. Com cookies persistentes em uso e o modo de verificação TLS ligado para o cluster, o certificado do cliente não é conferido como deveria. Quem detém esses cookies consegue se conectar ao serviço e enviar comandos de chamada de procedimento remoto que rodam como root, o nível mais alto de acesso do sistema.",
+      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-critica-no-cisco-expressway/",
+      "published": "24/11/2026 12:00",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Falha no Cisco Expressway dá acesso root a invasores",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Cerca de 40 cooperativas de crédito irlandesas, aproximadamente um quarto do setor, foram afetadas por um vazamento de dados em um provedor terceirizado de TI, a Wellington IT Services. A informação foi dada pelo ministro de Estado responsável pelo setor, Robert Troy, segundo a MLQ.ai . A Wellington IT fornece software bancário para 43 cooperativas de crédito, de acordo com a publicação. Segundo a RTÉ , cerca de 40 notificações de violação de dados foram reportadas pelas cooperativas à Comissão de Proteção de Dados (DPC).",
-      "link": "https://www.cisoadvisor.com.br/43-cooperativas-de-credito-expostas-por-falha-em-fornecedor/",
-      "published": "23/11/2026 07:45",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "3 dias Segurança iFood sofre ataque hacker e expõe dados de clientes e entregadores; veja o que vazou",
-      "source": "Canaltech Segurança",
-      "priority": "Média",
-      "category": "patches",
-      "summary": "O iFood confirmou nesta quinta-feira (19) que sofreu um ataque hacker que expôs dados pessoais de clientes, entregadores e representantes de restaurantes parceiros. A invasão ocorreu no sábado (14) e permitiu que criminosos acessassem informações como telefones, CPFs e, em determinados casos, dados de contas bancárias. A empresa ainda investiga o incidente e não informou quantas pessoas foram afetadas. Segundo o iFood, senhas, cartões de crédito, meios de pagamento e informações biométricas não foram comprometidos. Em comunicado oficial, a plataforma afirmou que não encontrou evidências de que os dados acessados tenham sido divulgados ou utilizados indevidamente até o momento.",
-      "link": "https://canaltech.com.br/seguranca/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/",
-      "published": "23/11/2026 07:45",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Operação secreta faz hardening em freezers no Reino Unido",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "O governo britânico realizou uma “operação secreta em larga escala” para proteger os sistemas de refrigeração de supermercados, armazéns, restaurantes, postos de gasolina e estádios. A informação foi divulgada pela BBC e pela empresa de cibersegurança Pen Test Partners . Nos últimos meses, diversos supermercados na Europa sofreram ataques aos seus sistemas de refrigeração, nos quais os invasores exploraram vulnerabilidades conhecidas e senhas padrão para obter acesso. A temperatura foi então elevada, forçando o descarte de alimentos. Os ataques visavam principalmente os sistemas dos fornecedores Danfoss e Copeland. Relativamente poucos ataques foram observados no Reino Unido.",
-      "link": "https://www.cisoadvisor.com.br/operacao-secreta-faz-hardening-em-freezers-no-reino-unido/",
-      "published": "23/11/2026 07:45",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Windows kernel está sendo isolado dos antivírus",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "patches",
-      "summary": "A Microsoft passou a oferecer às empresas de antivírus a opção de executar seus scanners fora do kernel do Windows, como forma de evitar problemas catastróficos como ocorreu em 19 de Julho de 2024 após uma atualização da CrowdStrike. Segundo a Microsoft informou , o módulo Windows Endpoint Security Platform, que viabiliza essa mudança, está disponível no Windows 11. Com isso, o software antivírus pode rodar em modo de usuário (user mode), como outras aplicações. De acordo com a publicação, várias empresas de antivírus farão a transição para o modo de usuário neste trimestre, e outras no ano que vem.",
-      "link": "https://www.cisoadvisor.com.br/microsoft-permite-que-antivirus-rodem-fora-do-kernel-do-windows/",
-      "published": "23/11/2026 07:45",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "ISACA lança COBIT 7 com modelo de avaliação aprimorado",
-      "source": "CISO Advisor",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "A ISACA anunciou ontem o lançamento do COBIT 7, versão atualizada de seu framework para governança de informação e tecnologia (I&T), segundo comunicado publicado pela empresa. O lançamento ocorre em um contexto em que “a IA pode despertar medos sobre o futuro da humanidade e a tecnologia envelhecida pode parar o transporte aéreo”, tornando o custo da governança fraca impossível de ignorar, afirma a associação. De acordo com o comunicado, o COBIT 7 reflete o cenário tecnológico atual com orientação de design simplificada, objetivos atualizados e três níveis de avaliação organizacional.",
-      "link": "https://www.cisoadvisor.com.br/isaca-lanca-cobit-7-com-modelo-de-avaliacao-aprimorado/",
-      "published": "23/11/2026 07:45",
-      "cves": [],
-      "vendor": null
+      "summary": "Invasores já exploram a vulnerabilidade CVE-2026-76466 (CVSS de 9.8), do Cisco Expressway, para assumir o controle total de equipamentos e avançar para dentro de redes corporativas. Pesquisadores da F6 registraram o primeiro caso conhecido pouco depois da divulgação de uma prova de conceito (PoC) do ataque. O Centro de Defesa Cibernética da F6 analisou a primeira exploração observada: os invasores comprometeram dispositivos Cisco Expressway X15.5.3 e executaram comandos como root, o nível mais alto de acesso em um sistema. A F6 descreveu o caso em um comunicado. Segundo a Security Affairs, a vítima é uma organização russa, e nenhum grupo de ameaças foi associado à atividade.",
+      "link": "https://www.cisoadvisor.com.br/falha-no-cisco-expressway-da-acesso-root-a-invasores/",
+      "published": "24/11/2026 12:00",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "vendor": "Cisco"
     }
   ]
 }
