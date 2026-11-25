@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-11-24T12:00:00.129937-03:00",
-  "theme": "Patching e CVEs",
+  "generated_at": "2026-11-25T12:00:00.241193-03:00",
+  "theme": "Phishing e Identidade",
   "items_count": 5,
   "items": [
     {
-      "title": "Claroty acha 65 mil dispositivos de consumo em redes críticas",
-      "source": "CISO Advisor",
+      "title": "Falhas críticas no VMware ESX e vCenter permitem execução de código",
+      "source": "BoletimSec Notícias",
       "priority": "Alta",
-      "category": "general",
-      "summary": "A Claroty publicou uma pesquisa que revela um número significativo de dispositivos de consumo — consoles de videogame, dispositivos de entretenimento e carros conectados — presentes em redes de tecnologia operacional (OT), saúde e ambientes comerciais. Com base na análise de mais de 45 milhões de dispositivos em 30 mil instalações de infraestrutura crítica, o relatório “Game Over for Consumer Tech Risk in Critical Infrastructure” identificou mais de 65 mil dispositivos de consumo não essenciais operando diretamente ao lado de equipamentos industriais e médicos fundamentais para as operações.",
-      "link": "https://www.cisoadvisor.com.br/claroty-acha-65-mil-dispositivos-de-consumo-em-redes-criticas/",
-      "published": "24/11/2026 12:00",
-      "cves": [],
-      "vendor": null
+      "category": "patches",
+      "summary": "A Broadcom divulgou em 24 de novembro o aviso VMSA-2026-0011, com 23 vulnerabilidades em produtos VMware. Duas falhas críticas no ESX permitem que um invasor com acesso de rede ao host execute código nele, e uma terceira, no vCenter, dispensa credencial válida. A falha do vCenter, a CVE-2026-123903, tem nota 9,8 de 10 na escala CVSS. As duas falhas críticas do ESX estão no serviço de filtros de entrada e saída. A CVE-2026-123910 é uma escrita fora dos limites em heap e a CVE-2026-123911 é um use after free. A brecha do vCenter está no VMware Directory Service, o vmdir, que responde pela autenticação do console.",
+      "link": "https://boletimsec.com/falhas-criticas-no-vmware-esx-e-vcenter-permitem-execucao-de-codigo/",
+      "published": "25/11/2026 12:00",
+      "cves": [
+        "CVE-2026-123903",
+        "CVE-2026-123910",
+        "CVE-2026-123911"
+      ],
+      "vendor": "VMware"
     },
     {
-      "title": "5 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
+      "title": "6 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
       "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
-      "published": "24/11/2026 12:00",
+      "published": "25/11/2026 12:00",
       "cves": [
         "CVE-2026-114938"
       ],
       "vendor": null
     },
     {
-      "title": "Falha crítica em módulo do ASP.NET permite controle total do servidor web",
-      "source": "BoletimSec Notícias",
+      "title": "Nova falha crítica em controladores de freezers",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma falha crítica num módulo anti-CSRF usado em aplicações ASP.NET WebForms permite a invasor remoto executar código e assumir o controle total do servidor de aplicação. Registrada como CVE-2026-131914, com nota 9,3 de 10, ela está na biblioteca Idunno.AntiCsrf, de terceiros, e atinge as versões 0.9.1.0 e 0.9.1 Beta. O módulo desserializa sem segurança o dado do token CSRF que chega pelo formulário. Ele usa uma instância de ObjectStateFormatter sem chave, sem código de autenticação de mensagem e sem verificação de assinatura, ao tratar requisição POST para endpoint de página do WebForms. Desserialização insegura é ler objeto vindo de fora como se fosse confiável.",
-      "link": "https://boletimsec.com/falha-critica-em-modulo-do-asp-net-permite-controle-total-do-servidor-web/",
-      "published": "24/11/2026 12:00",
+      "summary": "Uma vulnerabilidade crítica nos controladores Danfoss AK-SM 8xxA permite que atacantes não autenticados assumam o controle remoto dos equipamentos, usados na gestão de sistemas de refrigeração de supermercados. A falha, identificada como CVE-2026-129713, tem pontuação CVSS de 9.3, segundo o aviso de segurança da Danfoss , e ainda não tem correção disponível. De acordo com a Danfoss, trata-se de um estouro de buffer baseado em pilha em um manipulador CGI não autenticado da série AK-SM 8xxA.",
+      "link": "https://www.cisoadvisor.com.br/danfoss-falha-critica-freezers/",
+      "published": "25/11/2026 12:00",
       "cves": [
-        "CVE-2026-131914"
+        "CVE-2026-129713"
       ],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos exploram falha crítica no Cisco Expressway",
+      "title": "Cibercriminosos usam EvilTokens para roubar contas do Microsoft 365",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Invasores exploram uma falha crítica no Cisco Expressway para assumir o controle total do aparelho e avançar para dentro da rede da empresa. Registrada como CVE-2026-76466, com nota 9,8 de 10, ela atinge apenas Expressway-C e Expressway-E em cluster, e a Cisco declarou que não há contorno disponível. A falha está no serviço de banco de dados do equipamento. Com cookies persistentes em uso e o modo de verificação TLS ligado para o cluster, o certificado do cliente não é conferido como deveria. Quem detém esses cookies consegue se conectar ao serviço e enviar comandos de chamada de procedimento remoto que rodam como root, o nível mais alto de acesso do sistema.",
-      "link": "https://boletimsec.com/cibercriminosos-exploram-falha-critica-no-cisco-expressway/",
-      "published": "24/11/2026 12:00",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "vendor": "Cisco"
+      "priority": "Média",
+      "category": "identity",
+      "summary": "Cibercriminosos voltaram a usar o kit EvilTokens para tomar contas do Microsoft 365, dois meses depois de a Microsoft derrubar o serviço em 22 de setembro. Um relatório divulgado em 24 de novembro mostra novos hosts de phishing em operação em outubro e novembro, com páginas que geravam códigos válidos. O EvilTokens é vendido como serviço no Telegram, e a Microsoft acompanha seu desenvolvedor sob o nome Storm-2992. O kit não imita a página de login da Microsoft. Ele abusa do OAuth device code flow, o fluxo de autorização por código de dispositivo, e a vítima digita um código real na tela real de autenticação.",
+      "link": "https://boletimsec.com/cibercriminosos-usam-eviltokens-para-roubar-contas-do-microsoft-365/",
+      "published": "25/11/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     },
     {
-      "title": "Falha no Cisco Expressway dá acesso root a invasores",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Invasores já exploram a vulnerabilidade CVE-2026-76466 (CVSS de 9.8), do Cisco Expressway, para assumir o controle total de equipamentos e avançar para dentro de redes corporativas. Pesquisadores da F6 registraram o primeiro caso conhecido pouco depois da divulgação de uma prova de conceito (PoC) do ataque. O Centro de Defesa Cibernética da F6 analisou a primeira exploração observada: os invasores comprometeram dispositivos Cisco Expressway X15.5.3 e executaram comandos como root, o nível mais alto de acesso em um sistema. A F6 descreveu o caso em um comunicado. Segundo a Security Affairs, a vítima é uma organização russa, e nenhum grupo de ameaças foi associado à atividade.",
-      "link": "https://www.cisoadvisor.com.br/falha-no-cisco-expressway-da-acesso-root-a-invasores/",
-      "published": "24/11/2026 12:00",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "vendor": "Cisco"
+      "title": "2 dias Segurança Onda de panes em Microsoft, Apple, voos e FBI gera teorias de ciberataque nos EUA",
+      "source": "Canaltech Segurança",
+      "priority": "Baixa",
+      "category": "identity",
+      "summary": "As últimas semanas foram repletas de turbulências em serviços digitais nos Estados Unidos : o país norte-americano passou por uma série de panes e apagões em Microsoft, Apple e no próprio controle aéreo nacional. A sequência de problemas tão próximos levanta hipóteses de ataque cibernético, mas ainda não há confirmação. A onda de instabilidades começou com o apagão global da Microsoft , entre 12 e 13 de novembro. Na mesma semana, voos foram suspensos em todo o país devido a um problema no sistema de controle de tráfego aéreo. Dias depois, a Apple e até o FBI passaram por problemas.",
+      "link": "https://canaltech.com.br/seguranca/onda-de-panes-em-microsoft-apple-voos-e-fbi-gera-teorias-de-ciberataque-nos-eua/",
+      "published": "25/11/2026 12:00",
+      "cves": [],
+      "vendor": "Microsoft"
     }
   ]
 }
