@@ -1,70 +1,72 @@
 {
-  "generated_at": "2026-11-25T12:00:00.241193-03:00",
-  "theme": "Phishing e Identidade",
+  "generated_at": "2026-11-26T12:00:00.075210-03:00",
+  "theme": "Cloud, DevSecOps e Supply Chain",
   "items_count": 5,
   "items": [
     {
-      "title": "Falhas críticas no VMware ESX e vCenter permitem execução de código",
-      "source": "BoletimSec Notícias",
+      "title": "Falha crítica no Visio é explorada via Exchange",
+      "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Broadcom divulgou em 24 de novembro o aviso VMSA-2026-0011, com 23 vulnerabilidades em produtos VMware. Duas falhas críticas no ESX permitem que um invasor com acesso de rede ao host execute código nele, e uma terceira, no vCenter, dispensa credencial válida. A falha do vCenter, a CVE-2026-123903, tem nota 9,8 de 10 na escala CVSS. As duas falhas críticas do ESX estão no serviço de filtros de entrada e saída. A CVE-2026-123910 é uma escrita fora dos limites em heap e a CVE-2026-123911 é um use after free. A brecha do vCenter está no VMware Directory Service, o vmdir, que responde pela autenticação do console.",
-      "link": "https://boletimsec.com/falhas-criticas-no-vmware-esx-e-vcenter-permitem-execucao-de-codigo/",
-      "published": "25/11/2026 12:00",
+      "summary": "A Microsoft alertou que uma vulnerabilidade crítica no Office Visio, que permite execução remota de código, pode ser explorada por meio de servidores Exchange sem interação do usuário. A empresa publicou correções para o problema em 10 de novembro, mas não divulgou a existência da falha, rastreada como CVE-2026-112732 (CVSS de 9.8). O boletim de segurança foi publicado agora. De acordo com a Microsoft, um invasor não autenticado pode explorar a vulnerabilidade enviando um e-mail com um anexo especialmente preparado para um servidor Exchange vulnerável. A falha é acionada automaticamente assim que o servidor indexa o anexo, sem que o destinatário precise abrir a mensagem ou o arquivo.",
+      "link": "https://www.cisoadvisor.com.br/falha-critica-no-visio-e-explorada-via-exchange/",
+      "published": "26/11/2026 12:00",
       "cves": [
-        "CVE-2026-123903",
-        "CVE-2026-123910",
-        "CVE-2026-123911"
+        "CVE-2026-112732"
       ],
-      "vendor": "VMware"
+      "vendor": "Microsoft"
     },
     {
-      "title": "6 dias Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
+      "title": "Drupal crítico é explorado para sequestrar sites",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A equipe de segurança do Drupal confirmou que uma vulnerabilidade crítica, rastreada como CVE-2026-132165, está sendo explorada ativamente desde pelo menos 19 de novembro de 2026, às 19h UTC. O flaw permite que usuários anônimos obtenham execução remota de código ou assumam o controle de sites vulneráveis ao abusar do instalador do CMS. O Drupal é usado por grandes organizações, incluindo entidades governamentais, universidades e empresas de mídia. “O núcleo do Drupal inclui um arquivo install.php para instalar o Drupal core. Sob condições específicas, um atacante pode usar o instalador para tentar reinstalar o Drupal.",
+      "link": "https://www.cisoadvisor.com.br/drupal-critico-e-explorado-para-sequestrar-sites/",
+      "published": "26/11/2026 12:00",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "vendor": null
+    },
+    {
+      "title": "19.11.26 Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
       "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
       "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
       "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
-      "published": "25/11/2026 12:00",
+      "published": "26/11/2026 12:00",
       "cves": [
         "CVE-2026-114938"
       ],
       "vendor": null
     },
     {
-      "title": "Nova falha crítica em controladores de freezers",
+      "title": "Dell corrige falha crítica 9.9 no Enterprise SONiC",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Uma vulnerabilidade crítica nos controladores Danfoss AK-SM 8xxA permite que atacantes não autenticados assumam o controle remoto dos equipamentos, usados na gestão de sistemas de refrigeração de supermercados. A falha, identificada como CVE-2026-129713, tem pontuação CVSS de 9.3, segundo o aviso de segurança da Danfoss , e ainda não tem correção disponível. De acordo com a Danfoss, trata-se de um estouro de buffer baseado em pilha em um manipulador CGI não autenticado da série AK-SM 8xxA.",
-      "link": "https://www.cisoadvisor.com.br/danfoss-falha-critica-freezers/",
-      "published": "25/11/2026 12:00",
+      "summary": "A Dell Technologies corrigiu uma falha crítica no Dell Enterprise SONiC Distribution que poderia permitir a um atacante remoto com privilégios limitados executar comandos de sua escolha em um switch de rede afetado. A vulnerabilidade, rastreada como CVE-2026-103782 (CVSS de 9.9), também pode expor arquivos e diretórios aos quais o atacante não tem autorização de acesso. Ela afeta versões de software anteriores à 4.6.1. A Dell divulgou o problema em 19 de novembro de 2026 e atribuiu pontuação CVSS de 9,9 de 10. O aviso descreve o possível impacto de um ataque, mas não afirma que a falha foi explorada.",
+      "link": "https://www.cisoadvisor.com.br/dell-corrige-falha-critica-9-9-no-enterprise-sonic/",
+      "published": "26/11/2026 12:00",
       "cves": [
-        "CVE-2026-129713"
+        "CVE-2026-103782"
       ],
       "vendor": null
     },
     {
-      "title": "Cibercriminosos usam EvilTokens para roubar contas do Microsoft 365",
-      "source": "BoletimSec Notícias",
-      "priority": "Média",
-      "category": "identity",
-      "summary": "Cibercriminosos voltaram a usar o kit EvilTokens para tomar contas do Microsoft 365, dois meses depois de a Microsoft derrubar o serviço em 22 de setembro. Um relatório divulgado em 24 de novembro mostra novos hosts de phishing em operação em outubro e novembro, com páginas que geravam códigos válidos. O EvilTokens é vendido como serviço no Telegram, e a Microsoft acompanha seu desenvolvedor sob o nome Storm-2992. O kit não imita a página de login da Microsoft. Ele abusa do OAuth device code flow, o fluxo de autorização por código de dispositivo, e a vítima digita um código real na tela real de autenticação.",
-      "link": "https://boletimsec.com/cibercriminosos-usam-eviltokens-para-roubar-contas-do-microsoft-365/",
-      "published": "25/11/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "2 dias Segurança Onda de panes em Microsoft, Apple, voos e FBI gera teorias de ciberataque nos EUA",
-      "source": "Canaltech Segurança",
-      "priority": "Baixa",
-      "category": "identity",
-      "summary": "As últimas semanas foram repletas de turbulências em serviços digitais nos Estados Unidos : o país norte-americano passou por uma série de panes e apagões em Microsoft, Apple e no próprio controle aéreo nacional. A sequência de problemas tão próximos levanta hipóteses de ataque cibernético, mas ainda não há confirmação. A onda de instabilidades começou com o apagão global da Microsoft , entre 12 e 13 de novembro. Na mesma semana, voos foram suspensos em todo o país devido a um problema no sistema de controle de tráfego aéreo. Dias depois, a Apple e até o FBI passaram por problemas.",
-      "link": "https://canaltech.com.br/seguranca/onda-de-panes-em-microsoft-apple-voos-e-fbi-gera-teorias-de-ciberataque-nos-eua/",
-      "published": "25/11/2026 12:00",
-      "cves": [],
-      "vendor": "Microsoft"
+      "title": "Falha em controlador permitia ativar freio com Bluetooth",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "Qualquer telefone ou laptop ao alcance do Bluetooth de um controlador de freios Elecbrakes podia acioná-los com qualquer intensidade, sem emparelhamento ou autenticação. Os freios Elecbrakes, produzidos na Austrália, são utilizados principalmente em reboques leves, para pickups ou carros de passeio. A descoberta foi feita pelos pesquisadores Patrick Forck e Jeremy McCarthy, da Element Digital, e detalhada em publicação no blog da empresa . Segundo o texto, a vulnerabilidade principal, CVE-2026-96805 (CVSS de 9.6), corresponde à ausência de autenticação para função crítica.",
+      "link": "https://www.cisoadvisor.com.br/elecbrakes-falha-bluetooth/",
+      "published": "26/11/2026 12:00",
+      "cves": [
+        "CVE-2026-96805"
+      ],
+      "vendor": null
     }
   ]
 }
