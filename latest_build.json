@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-11-26T12:00:00.075210-03:00",
-  "theme": "Cloud, DevSecOps e Supply Chain",
+  "generated_at": "2026-11-27T12:00:00.085005-03:00",
+  "theme": "Top da Semana",
   "items_count": 5,
   "items": [
     {
-      "title": "Falha crítica no Visio é explorada via Exchange",
+      "title": "Drupal reforça correção de falha crítica no instalador",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Microsoft alertou que uma vulnerabilidade crítica no Office Visio, que permite execução remota de código, pode ser explorada por meio de servidores Exchange sem interação do usuário. A empresa publicou correções para o problema em 10 de novembro, mas não divulgou a existência da falha, rastreada como CVE-2026-112732 (CVSS de 9.8). O boletim de segurança foi publicado agora. De acordo com a Microsoft, um invasor não autenticado pode explorar a vulnerabilidade enviando um e-mail com um anexo especialmente preparado para um servidor Exchange vulnerável. A falha é acionada automaticamente assim que o servidor indexa o anexo, sem que o destinatário precise abrir a mensagem ou o arquivo.",
-      "link": "https://www.cisoadvisor.com.br/falha-critica-no-visio-e-explorada-via-exchange/",
-      "published": "26/11/2026 12:00",
+      "summary": "A equipe de segurança do Drupal voltou a alertar sobre o risco de exploração de uma nova vulnerabilidade de gravidade máxima, identificada como CVE-2026-136716 (CVSS de x.x), capaz de comprometer sites hospedados na plataforma. Correções foram disponibilizadas. O CMS é usado por mais de um milhão de sites. O problema está ligado ao install.php, arquivo do instalador. Em 18 de novembro, o projeto já havia liberado patches para impedir que atacantes usassem esse instalador para reinstalar o software, o que permite tomar o controle do site e executar código. A atualização, porém, não cobre todos os cenários. Instalações incompletas, por exemplo, continuam expostas.",
+      "link": "https://www.cisoadvisor.com.br/drupal-reforca-correcao-de-falha-critica-no-instalador/",
+      "published": "27/11/2026 12:00",
       "cves": [
-        "CVE-2026-112732"
-      ],
-      "vendor": "Microsoft"
-    },
-    {
-      "title": "Drupal crítico é explorado para sequestrar sites",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A equipe de segurança do Drupal confirmou que uma vulnerabilidade crítica, rastreada como CVE-2026-132165, está sendo explorada ativamente desde pelo menos 19 de novembro de 2026, às 19h UTC. O flaw permite que usuários anônimos obtenham execução remota de código ou assumam o controle de sites vulneráveis ao abusar do instalador do CMS. O Drupal é usado por grandes organizações, incluindo entidades governamentais, universidades e empresas de mídia. “O núcleo do Drupal inclui um arquivo install.php para instalar o Drupal core. Sob condições específicas, um atacante pode usar o instalador para tentar reinstalar o Drupal.",
-      "link": "https://www.cisoadvisor.com.br/drupal-critico-e-explorado-para-sequestrar-sites/",
-      "published": "26/11/2026 12:00",
-      "cves": [
-        "CVE-2026-132165"
+        "CVE-2026-136716"
       ],
       "vendor": null
     },
     {
-      "title": "19.11.26 Segurança Vulnerabilidade crítica afeta milhões de sites, apps e serviços feitos em Java",
-      "source": "Canaltech Segurança",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Uma vulnerabilidade crítica no Java pode permitir que criminosos invadam sites, aplicativos e serviços que utilizam a linguagem de programação. Identificada como CVE-2026-114938 e chamada de Java4Shell , a falha permite a execução remota de códigos maliciosos, em alguns casos sem que o invasor precise de login ou senha. A brecha foi divulgada na terça-feira (17) pela empresa de segurança Calif e recebeu uma pontuação de 9,2 em uma escala de gravidade que vai até 10. A Oracle, responsável pelo Java, já disponibilizou atualizações para corrigir o problema.",
-      "link": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/",
-      "published": "26/11/2026 12:00",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendor": null
-    },
-    {
-      "title": "Dell corrige falha crítica 9.9 no Enterprise SONiC",
+      "title": "Zero-days no Mitel MiCollab são explorados em ataques",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A Dell Technologies corrigiu uma falha crítica no Dell Enterprise SONiC Distribution que poderia permitir a um atacante remoto com privilégios limitados executar comandos de sua escolha em um switch de rede afetado. A vulnerabilidade, rastreada como CVE-2026-103782 (CVSS de 9.9), também pode expor arquivos e diretórios aos quais o atacante não tem autorização de acesso. Ela afeta versões de software anteriores à 4.6.1. A Dell divulgou o problema em 19 de novembro de 2026 e atribuiu pontuação CVSS de 9,9 de 10. O aviso descreve o possível impacto de um ataque, mas não afirma que a falha foi explorada.",
-      "link": "https://www.cisoadvisor.com.br/dell-corrige-falha-critica-9-9-no-enterprise-sonic/",
-      "published": "26/11/2026 12:00",
-      "cves": [
-        "CVE-2026-103782"
-      ],
+      "summary": "Atores de ameaça exploraram várias vulnerabilidades no Mitel MiCollab como zero-days em uma campanha de roubo de dados, segundo o Apex Labs da Accenture. A CISA adicionou na quarta-feira cinco falhas do MiCollab ao seu catálogo de Vulnerabilidades Exploradas Conhecidas (KEV). Em um ataque observado pela Accenture , hackers obtiveram acesso privilegiado a um servidor MiCollab e rapidamente chegaram à infraestrutura de identidade da organização alvo, roubando informações sensíveis de negócios. A plataforma de colaboração empresarial permite que funcionários se comuniquem por chamadas, mensagens e reuniões virtuais.",
+      "link": "https://www.cisoadvisor.com.br/zero-days-no-mitel-micollab-sao-explorados-em-ataques/",
+      "published": "27/11/2026 12:00",
+      "cves": [],
       "vendor": null
     },
     {
-      "title": "Falha em controlador permitia ativar freio com Bluetooth",
+      "title": "Falha no kernel dá acesso de root a firewalls Palo Alto",
+      "source": "BoletimSec Notícias",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Palo Alto liberou correção do PAN-OS para o Fragnesia, identificado como CVE-2026-46300, falha do kernel Linux que atacantes encadearam com outra para obter root em firewalls. O aviso de 25 de novembro informa que a empresa observou exploração contra interfaces de gerência expostas à internet. O Fragnesia, divulgado em maio, permite que quem já tem acesso limitado ao equipamento suba para root, o usuário com poder total sobre o sistema. Sozinho ele não abre o firewall: a Palo Alto afirma que o único caminho conhecido para explorá-lo no PAN-OS exigia explorar antes o PHP2Shell, par de falhas críticas de PHP divulgadas em outubro.",
+      "link": "https://boletimsec.com/falha-no-kernel-da-acesso-de-root-a-firewalls-palo-alto/",
+      "published": "27/11/2026 12:00",
+      "cves": [
+        "CVE-2026-46300"
+      ],
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "SolarWinds lança Serv-U 2026.4 com 18 correções",
       "source": "CISO Advisor",
       "priority": "Alta",
       "category": "patches",
-      "summary": "Qualquer telefone ou laptop ao alcance do Bluetooth de um controlador de freios Elecbrakes podia acioná-los com qualquer intensidade, sem emparelhamento ou autenticação. Os freios Elecbrakes, produzidos na Austrália, são utilizados principalmente em reboques leves, para pickups ou carros de passeio. A descoberta foi feita pelos pesquisadores Patrick Forck e Jeremy McCarthy, da Element Digital, e detalhada em publicação no blog da empresa . Segundo o texto, a vulnerabilidade principal, CVE-2026-96805 (CVSS de 9.6), corresponde à ausência de autenticação para função crítica.",
-      "link": "https://www.cisoadvisor.com.br/elecbrakes-falha-bluetooth/",
-      "published": "26/11/2026 12:00",
+      "summary": "A SolarWinds disponibilizou em 24 de novembro a versão 2026.4 do Serv-U, que repara 18 vulnerabilidades. Nove delas são críticas, e duas permitem que um invasor alcance privilégios de root em servidores Linux. Em Windows, o risco é menor. A atualização também tapa uma brecha de injeção de comando de alta gravidade restrita a instalações Windows. As duas falhas que dão root no Linux são CVE-2026-123172 e CVE-2026-123168, ambas com CVSS 9,1. O acesso root extrapola o Serv-U: o atacante passa a poder ler ou alterar arquivos protegidos e mexer em configurações do host. Já CVE-2026-82322 (CVSS 9.1) permite que um administrador de grupo de domínio vire administrador do servidor Serv-U.",
+      "link": "https://www.cisoadvisor.com.br/solarwinds-lanca-serv-u-2026-4-com-18-correcoes/",
+      "published": "27/11/2026 12:00",
       "cves": [
-        "CVE-2026-96805"
+        "CVE-2026-123172",
+        "CVE-2026-123168",
+        "CVE-2026-82322"
+      ],
+      "vendor": "Linux"
+    },
+    {
+      "title": "Juniper corrige falha crítica explorada em ataques",
+      "source": "CISO Advisor",
+      "priority": "Alta",
+      "category": "patches",
+      "summary": "A Juniper Networks e a Agência de Segurança Cibernética e Infraestrutura dos EUA (CISA) alertaram nesta semana que atores de ameaça exploram uma vulnerabilidade crítica no Session Smart Conductor. Rastreada como CVE-2026-103406 (CVSS de 9.8), a falha é descrita como um bug de injeção de comando de sistema operacional explorável remotamente. O problema afeta o serviço AutomatedProvisioner do Session Smart Conductor e pode permitir que atacantes executem comandos arbitrários com privilégios de root por meio de um ID de minion Salt especialmente criado.",
+      "link": "https://www.cisoadvisor.com.br/juniper-corrige-falha-critica-explorada-em-ataques/",
+      "published": "27/11/2026 12:00",
+      "cves": [
+        "CVE-2026-103406"
       ],
       "vendor": null
     }
