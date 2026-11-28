@@ -1,72 +1,64 @@
 {
-  "generated_at": "2026-11-27T12:00:00.085005-03:00",
-  "theme": "Top da Semana",
+  "generated_at": "2026-11-28T12:00:00.094334-03:00",
+  "theme": "Leitura Curada",
   "items_count": 5,
   "items": [
     {
-      "title": "Drupal reforça correção de falha crítica no instalador",
-      "source": "CISO Advisor",
+      "title": "1 dia Segurança Extensão falsa do Planilhas Google é usada para espionar e roubar e-mails do Gmail",
+      "source": "Canaltech Segurança",
       "priority": "Alta",
       "category": "patches",
-      "summary": "A equipe de segurança do Drupal voltou a alertar sobre o risco de exploração de uma nova vulnerabilidade de gravidade máxima, identificada como CVE-2026-136716 (CVSS de x.x), capaz de comprometer sites hospedados na plataforma. Correções foram disponibilizadas. O CMS é usado por mais de um milhão de sites. O problema está ligado ao install.php, arquivo do instalador. Em 18 de novembro, o projeto já havia liberado patches para impedir que atacantes usassem esse instalador para reinstalar o software, o que permite tomar o controle do site e executar código. A atualização, porém, não cobre todos os cenários. Instalações incompletas, por exemplo, continuam expostas.",
-      "link": "https://www.cisoadvisor.com.br/drupal-reforca-correcao-de-falha-critica-no-instalador/",
-      "published": "27/11/2026 12:00",
+      "summary": "Uma extensão falsa do Planilhas Google (Google Sheets) está sendo utilizada por cibercriminosos para espionar e roubar e-mails do Gmail . A ferramenta maliciosa consegue monitorar até dez contas simultaneamente e pode voltar a interceptar mensagens mesmo após o usuário alterar sua senha. O ataque foi detalhado nesta terça-feira (24) por pesquisadores da empresa de cibersegurança Gen Threat Labs. A extensão é instalada no Google Chrome sem o conhecimento da vítima pelo Remus Stealer, um malware desenvolvido para roubar informações de usuários do Windows. Os responsáveis pelo malware afirmavam ter descoberto uma vulnerabilidade no Gmail.",
+      "link": "https://canaltech.com.br/seguranca/extensao-falsa-do-planilhas-google-e-usada-para-espionar-e-roubar-e-mails-do-gmail/",
+      "published": "28/11/2026 12:00",
+      "cves": [],
+      "vendor": "Google"
+    },
+    {
+      "title": "Malware escondido no GitHub rouba senhas de navegadores",
+      "source": "BoletimSec Notícias",
+      "priority": "Média",
+      "category": "threat",
+      "summary": "Hackers esconderam um ladrão de senhas em propostas de mudança de código enviadas a três projetos de código aberto no GitHub. Um dos projetos publicou 40 instaladores contaminados para Windows, Linux e macOS, que ficaram mais de um mês disponíveis para download. A StepSecurity decodificou amostras dos três projetos e identificou o código como PolinRider, campanha atribuída a atores ligados à Coreia do Norte. Vítimas que examinaram máquinas infectadas relataram que os estágios seguintes do malware miravam as senhas guardadas no navegador, os dados do Keychain do macOS e as credenciais do próprio GitHub.",
+      "link": "https://boletimsec.com/malware-escondido-no-github-rouba-senhas-de-navegadores/",
+      "published": "28/11/2026 12:00",
+      "cves": [],
+      "vendor": "Linux"
+    },
+    {
+      "title": "19.11.26 Segurança iFood sofre ataque hacker e expõe dados de clientes e entregadores; veja o que vazou",
+      "source": "Canaltech Segurança",
+      "priority": "Média",
+      "category": "patches",
+      "summary": "O iFood confirmou nesta quinta-feira (19) que sofreu um ataque hacker que expôs dados pessoais de clientes, entregadores e representantes de restaurantes parceiros. A invasão ocorreu no sábado (14) e permitiu que criminosos acessassem informações como telefones, CPFs e, em determinados casos, dados de contas bancárias. A empresa ainda investiga o incidente e não informou quantas pessoas foram afetadas. Segundo o iFood, senhas, cartões de crédito, meios de pagamento e informações biométricas não foram comprometidos. Em comunicado oficial, a plataforma afirmou que não encontrou evidências de que os dados acessados tenham sido divulgados ou utilizados indevidamente até o momento.",
+      "link": "https://canaltech.com.br/seguranca/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/",
+      "published": "28/11/2026 12:00",
+      "cves": [],
+      "vendor": null
+    },
+    {
+      "title": "Cibercriminosos invadem sites Drupal explorando falha do instalador",
+      "source": "BoletimSec Notícias",
+      "priority": "Baixa",
+      "category": "patches",
+      "summary": "Cibercriminosos exploram uma falha do instalador do Drupal que permite assumir o site sem fazer login. A equipe de segurança do projeto confirmou os ataques no aviso de 25 de novembro e liberou atualização para os três ramos do core que ainda recebem suporte. A falha dispensa autenticação: quem alcança o instalador assume o site sem senha. O Drupal classificou a CVE-2026-136716 em 21 de 25 na escala própria do projeto e informa que um ataque bem-sucedido expõe os dados privados do site e permite alterar ou apagar esses dados. A equipe não disse quantos sites foram comprometidos. O problema está no instalador que acompanha o core.",
+      "link": "https://boletimsec.com/cibercriminosos-invadem-sites-drupal-explorando-falha-do-instalador/",
+      "published": "28/11/2026 12:00",
       "cves": [
         "CVE-2026-136716"
       ],
       "vendor": null
     },
     {
-      "title": "Zero-days no Mitel MiCollab são explorados em ataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "Atores de ameaça exploraram várias vulnerabilidades no Mitel MiCollab como zero-days em uma campanha de roubo de dados, segundo o Apex Labs da Accenture. A CISA adicionou na quarta-feira cinco falhas do MiCollab ao seu catálogo de Vulnerabilidades Exploradas Conhecidas (KEV). Em um ataque observado pela Accenture , hackers obtiveram acesso privilegiado a um servidor MiCollab e rapidamente chegaram à infraestrutura de identidade da organização alvo, roubando informações sensíveis de negócios. A plataforma de colaboração empresarial permite que funcionários se comuniquem por chamadas, mensagens e reuniões virtuais.",
-      "link": "https://www.cisoadvisor.com.br/zero-days-no-mitel-micollab-sao-explorados-em-ataques/",
-      "published": "27/11/2026 12:00",
-      "cves": [],
-      "vendor": null
-    },
-    {
-      "title": "Falha no kernel dá acesso de root a firewalls Palo Alto",
+      "title": "Cibercriminosos usam IA para invadir firewalls do Check Point",
       "source": "BoletimSec Notícias",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Palo Alto liberou correção do PAN-OS para o Fragnesia, identificado como CVE-2026-46300, falha do kernel Linux que atacantes encadearam com outra para obter root em firewalls. O aviso de 25 de novembro informa que a empresa observou exploração contra interfaces de gerência expostas à internet. O Fragnesia, divulgado em maio, permite que quem já tem acesso limitado ao equipamento suba para root, o usuário com poder total sobre o sistema. Sozinho ele não abre o firewall: a Palo Alto afirma que o único caminho conhecido para explorá-lo no PAN-OS exigia explorar antes o PHP2Shell, par de falhas críticas de PHP divulgadas em outubro.",
-      "link": "https://boletimsec.com/falha-no-kernel-da-acesso-de-root-a-firewalls-palo-alto/",
-      "published": "27/11/2026 12:00",
-      "cves": [
-        "CVE-2026-46300"
-      ],
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "SolarWinds lança Serv-U 2026.4 com 18 correções",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A SolarWinds disponibilizou em 24 de novembro a versão 2026.4 do Serv-U, que repara 18 vulnerabilidades. Nove delas são críticas, e duas permitem que um invasor alcance privilégios de root em servidores Linux. Em Windows, o risco é menor. A atualização também tapa uma brecha de injeção de comando de alta gravidade restrita a instalações Windows. As duas falhas que dão root no Linux são CVE-2026-123172 e CVE-2026-123168, ambas com CVSS 9,1. O acesso root extrapola o Serv-U: o atacante passa a poder ler ou alterar arquivos protegidos e mexer em configurações do host. Já CVE-2026-82322 (CVSS 9.1) permite que um administrador de grupo de domínio vire administrador do servidor Serv-U.",
-      "link": "https://www.cisoadvisor.com.br/solarwinds-lanca-serv-u-2026-4-com-18-correcoes/",
-      "published": "27/11/2026 12:00",
-      "cves": [
-        "CVE-2026-123172",
-        "CVE-2026-123168",
-        "CVE-2026-82322"
-      ],
-      "vendor": "Linux"
-    },
-    {
-      "title": "Juniper corrige falha crítica explorada em ataques",
-      "source": "CISO Advisor",
-      "priority": "Alta",
-      "category": "patches",
-      "summary": "A Juniper Networks e a Agência de Segurança Cibernética e Infraestrutura dos EUA (CISA) alertaram nesta semana que atores de ameaça exploram uma vulnerabilidade crítica no Session Smart Conductor. Rastreada como CVE-2026-103406 (CVSS de 9.8), a falha é descrita como um bug de injeção de comando de sistema operacional explorável remotamente. O problema afeta o serviço AutomatedProvisioner do Session Smart Conductor e pode permitir que atacantes executem comandos arbitrários com privilégios de root por meio de um ID de minion Salt especialmente criado.",
-      "link": "https://www.cisoadvisor.com.br/juniper-corrige-falha-critica-explorada-em-ataques/",
-      "published": "27/11/2026 12:00",
-      "cves": [
-        "CVE-2026-103406"
-      ],
-      "vendor": null
+      "priority": "Baixa",
+      "category": "threat",
+      "summary": "Cibercriminosos exfiltraram dados de 24 servidores de gerência do Check Point em uma campanha que atingiu 22 organizações. A GreyNoise acompanha o grupo como GT13 e avalia que ele opera com ferramental ofensivo movido por inteligência artificial. O alvo escolhido explica o dano. O Security Management é o painel que administra a política de todos os firewalls da empresa. A partir dele os invasores dispararam mais de cem tarefas de gerência, roubaram a base de dados dos firewalls e os arquivos da autoridade certificadora interna, emitiram um certificado novo e descarregaram as políticas de segurança, o que desliga a proteção dos equipamentos.",
+      "link": "https://boletimsec.com/cibercriminosos-usam-ia-para-invadir-firewalls-do-check-point/",
+      "published": "28/11/2026 12:00",
+      "cves": [],
+      "vendor": "Check Point"
     }
   ]
 }
